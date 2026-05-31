@@ -67,7 +67,9 @@ import {
   Heart,
   Compass,
   ArrowRight,
-  Activity
+  Activity,
+  Lock,
+  Layers
 } from "lucide-react";
 
 export default function App() {
@@ -477,41 +479,24 @@ export default function App() {
           {activeRoute === "home" && (
             <div className="space-y-8 animate-fade-in w-full">
               
-              {/* Performance Dashboard Top Pacer Grid */}
-              <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 items-stretch">
+              {/* Track.Vault Workout Library Hero & Utility Grid */}
+              <div className="space-y-6">
                 
-                {/* Left Side: Engineered Performance Hero Banner */}
-                <div className="lg:col-span-7 bg-white dark:bg-[#1E293B] border border-[#E2E8F0] dark:border-[#334155] rounded-3xl p-6 md:p-8 flex flex-col justify-between shadow-sm relative overflow-hidden min-h-[360px]">
+                {/* Full-Width Real-utility Hero Banner */}
+                <div className="w-full bg-white dark:bg-[#1E293B] border border-[#E2E8F0] dark:border-[#334155] rounded-3xl p-6 md:p-8 flex flex-col justify-between shadow-sm relative overflow-hidden min-h-[260px]">
                   {/* Subtle clean vector bg graphic */}
                   <div className="absolute right-0 bottom-0 opacity-10 dark:opacity-5 pointer-events-none select-none translate-x-12 translate-y-12">
-                    <Activity className="w-96 h-96 text-sky-500" />
+                    <Activity className="w-72 h-72 text-sky-500 animate-pulse" />
                   </div>
 
-                  <div className="space-y-5 z-10">
-                    <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-xl bg-sky-50 dark:bg-sky-950/30 text-sky-500 dark:text-sky-400 text-[10px] font-bold uppercase tracking-wider border border-sky-100/60 dark:border-sky-950/50">
-                      <span className="w-1.5 h-1.5 rounded-full bg-sky-500 animate-pulse" />
-                      SYSTEM STATUS: ONLINE
-                    </div>
-
+                  <div className="space-y-4 z-10">
                     <h1 className="text-3xl sm:text-4xl font-extrabold tracking-tight leading-tight text-slate-900 dark:text-white uppercase font-display">
-                      Engineered Performance
+                      Track.Vault Workout Library
                     </h1>
                     
-                    <p className="text-sm text-slate-500 dark:text-slate-350 leading-relaxed max-w-xl font-medium">
-                      Your athletic speed development index and pacing matrix is calibrated. Generate, edit, and browse professional workouts structured on actual physiology formulas. No telemetry, 100% offline.
+                    <p className="text-sm text-slate-500 dark:text-slate-350 leading-relaxed max-w-2xl font-medium">
+                      A zero-database running workout vault for browsing, building, saving locally, copying, and exporting workout cards.
                     </p>
-
-                    <div className="flex flex-wrap gap-2 pt-2">
-                      <span className="px-3 py-1 bg-[#F8FAFC] dark:bg-[#0F172A]/60 border border-[#E2E8F0] dark:border-[#334155] text-slate-650 dark:text-slate-300 text-[10px] font-bold rounded-xl uppercase font-mono">
-                        ⚡ {allLibraryCombined.length} Routines
-                      </span>
-                      <span className="px-3 py-1 bg-[#F8FAFC] dark:bg-[#0F172A]/60 border border-[#E2E8F0] dark:border-[#334155] text-slate-650 dark:text-slate-300 text-[10px] font-bold rounded-xl uppercase font-mono">
-                        🔒 No Cookies
-                      </span>
-                      <span className="px-3 py-1 bg-[#F8FAFC] dark:bg-[#0F172A]/60 border border-[#E2E8F0] dark:border-[#334155] text-slate-650 dark:text-slate-300 text-[10px] font-bold rounded-xl uppercase font-mono">
-                        💾 Local Storage
-                      </span>
-                    </div>
                   </div>
 
                   <div className="flex flex-wrap gap-3 pt-6 z-10">
@@ -525,92 +510,120 @@ export default function App() {
                       onClick={() => navigateTo("builder")}
                       className="px-5 py-3 border border-[#E2E8F0] dark:border-[#334155] bg-white hover:bg-slate-50 dark:bg-slate-900 dark:hover:bg-slate-850 text-slate-700 dark:text-slate-200 font-bold rounded-xl text-xs uppercase tracking-wider transition-all cursor-pointer flex items-center gap-1.5"
                     >
-                      <PlusCircle className="w-4 h-4 text-sky-500" /> Program Workout
+                      <PlusCircle className="w-4 h-4 text-sky-500" /> Open Builder
                     </button>
                   </div>
                 </div>
 
-                {/* Right Side Stack: Circular Gauge & Analytical Stats */}
-                <div className="lg:col-span-5 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 xl:grid-cols-2 gap-6 items-stretch">
-                  
-                  {/* Stats Block 1: Svg Concentric Target Ring */}
-                  <div className="bg-white dark:bg-[#1E293B] border border-[#E2E8F0] dark:border-[#334155] rounded-3xl p-5 shadow-sm flex flex-col justify-between">
+                {/* Honest Track.Vault Real Utility Metric widgets */}
+                <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
+                  {/* 1. Total Workouts */}
+                  <div className="bg-white dark:bg-[#1E293B] border border-[#E2E8F0] dark:border-[#334155] rounded-2xl p-5 shadow-sm flex flex-col justify-between">
+                    <div className="w-8 h-8 rounded-xl bg-sky-50 dark:bg-sky-950/20 text-sky-500 flex items-center justify-center mb-3">
+                      <Zap className="w-4 h-4" />
+                    </div>
                     <div>
-                      <span className="text-[10px] font-mono uppercase tracking-wider text-slate-400 dark:text-slate-500 block font-bold">
-                        Calibrated Volume Index
+                      <span className="text-2xl font-black text-slate-900 dark:text-white font-mono block">
+                        {staticWorkouts.length}
                       </span>
-                      <span className="text-xl font-black text-slate-800 dark:text-white uppercase font-display block mt-0.5">
-                        VO2 MAX COVERAGE
+                      <span className="text-[11px] font-bold text-slate-800 dark:text-slate-100 uppercase tracking-tighter mt-1 block">
+                        Total Workouts
                       </span>
-                    </div>
-
-                    {/* Concentric Gauge Render */}
-                    <div className="flex items-center gap-4 my-3 self-center">
-                      <div className="relative w-22 h-22 flex items-center justify-center">
-                        <svg className="w-full h-full transform -rotate-90">
-                          <circle cx="44" cy="44" r="38" strokeWidth="4" stroke="#E2E8F0" className="dark:stroke-slate-800" fill="transparent" />
-                          <circle cx="44" cy="44" r="38" strokeWidth="4" stroke="#06B6D4" fill="transparent" strokeDasharray="238" strokeDashoffset="59" strokeLinecap="round" />
-                          
-                          <circle cx="44" cy="44" r="32" strokeWidth="4" stroke="#E2E8F0" className="dark:stroke-slate-800" fill="transparent" />
-                          <circle cx="44" cy="44" r="32" strokeWidth="4" stroke="#0EA5E9" fill="transparent" strokeDasharray="201" strokeDashoffset="67" strokeLinecap="round" />
-                        </svg>
-                        <div className="absolute font-mono text-[10px] font-bold text-slate-600 dark:text-slate-400 text-center leading-none">
-                          <span className="text-md font-black text-[#0F172A] dark:text-slate-100 block">64.2</span>
-                          +1.2%
-                        </div>
-                      </div>
-                      <div className="space-y-1 font-mono text-[9px] text-slate-500 font-bold leading-normal">
-                        <div className="flex items-center gap-1.5">
-                          <span className="w-1.5 h-1.5 rounded-full bg-cyan-500" />
-                          <span>Lactate: 78%</span>
-                        </div>
-                        <div className="flex items-center gap-1.5">
-                          <span className="w-1.5 h-1.5 rounded-full bg-sky-500" />
-                          <span>Aerobic: 67%</span>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div className="text-[10px] text-slate-400">
-                      Coaching profile targets are fully calibrated.
+                      <span className="text-[10px] text-slate-400 mt-0.5 block leading-tight font-medium">
+                        Static references in frozen library.
+                      </span>
                     </div>
                   </div>
 
-                  {/* Stats Block 2: Strain & Recovery Mini Chart */}
-                  <div className="bg-white dark:bg-[#1E293B] border border-[#E2E8F0] dark:border-[#334155] rounded-3xl p-5 shadow-sm flex flex-col justify-between">
+                  {/* 2. Library Modules */}
+                  <div className="bg-white dark:bg-[#1E293B] border border-[#E2E8F0] dark:border-[#334155] rounded-2xl p-5 shadow-sm flex flex-col justify-between">
+                    <div className="w-8 h-8 rounded-xl bg-cyan-50 dark:bg-cyan-950/20 text-cyan-500 flex items-center justify-center mb-3">
+                      <Layers className="w-4 h-4" />
+                    </div>
                     <div>
-                      <span className="text-[10px] font-mono uppercase tracking-wider text-slate-400 dark:text-slate-500 block font-bold">
-                        Pacer Effort Zones
+                      <span className="text-2xl font-black text-slate-900 dark:text-white font-mono block">
+                        {getWorkoutIndex().categories.length}
                       </span>
-                      <span className="text-xl font-black text-slate-800 dark:text-white uppercase font-display block mt-0.5">
-                        Strain Index
+                      <span className="text-[11px] font-bold text-slate-800 dark:text-slate-100 uppercase tracking-tighter mt-1 block">
+                        Library Modules
                       </span>
-                    </div>
-
-                    {/* Mini Sparkline Bar Chart using Tailwind flex columns */}
-                    <div className="flex items-end justify-between px-2 h-16 my-2">
-                      {[30, 45, 60, 25, 75, 90, 55].map((val, i) => (
-                        <div key={i} className="flex flex-col items-center gap-1 flex-1">
-                          <div 
-                            className="w-2.5 rounded-sm bg-sky-500/20 dark:bg-sky-500/10 group relative flex justify-center hover:bg-sky-500/40 transition-colors"
-                            style={{ height: "45px" }}
-                          >
-                            <div 
-                              className="w-2.5 absolute bottom-0 rounded-sm bg-gradient-to-t from-sky-500 to-cyan-400"
-                              style={{ height: `${val}%` }}
-                            />
-                          </div>
-                          <span className="font-mono text-[8px] text-slate-400">D{i+1}</span>
-                        </div>
-                      ))}
-                    </div>
-
-                    <div className="text-[10px] text-slate-400 flex justify-between items-center">
-                      <span>Weekly Volume: 42.5 km</span>
-                      <span className="font-bold text-sky-500 font-mono text-[9px]">ON TARGET</span>
+                      <span className="text-[10px] text-slate-400 mt-0.5 block leading-tight font-medium">
+                        Curated workout module category sets.
+                      </span>
                     </div>
                   </div>
 
+                  {/* 3. Distance Menus */}
+                  <div className="bg-white dark:bg-[#1E293B] border border-[#E2E8F0] dark:border-[#334155] rounded-2xl p-5 shadow-sm flex flex-col justify-between">
+                    <div className="w-8 h-8 rounded-xl bg-violet-50 dark:bg-violet-950/20 text-violet-500 flex items-center justify-center mb-3">
+                      <Compass className="w-4 h-4" />
+                    </div>
+                    <div>
+                      <span className="text-2xl font-black text-slate-900 dark:text-white font-mono block">
+                        16
+                      </span>
+                      <span className="text-[11px] font-bold text-slate-800 dark:text-slate-100 uppercase tracking-tighter mt-1 block">
+                        Distance Menus
+                      </span>
+                      <span className="text-[10px] text-slate-400 mt-0.5 block leading-tight font-medium">
+                        Distance navigation contexts mapped.
+                      </span>
+                    </div>
+                  </div>
+
+                  {/* 4. Local Saved Workouts */}
+                  <div className="bg-white dark:bg-[#1E293B] border border-[#E2E8F0] dark:border-[#334155] rounded-2xl p-5 shadow-sm flex flex-col justify-between">
+                    <div className="w-8 h-8 rounded-xl bg-amber-50 dark:bg-amber-950/20 text-amber-500 flex items-center justify-center mb-3 font-bold">
+                      ★
+                    </div>
+                    <div>
+                      <span className="text-2xl font-black text-slate-900 dark:text-white font-mono block">
+                        {localWorkoutsList.length}
+                      </span>
+                      <span className="text-[11px] font-bold text-slate-800 dark:text-slate-100 uppercase tracking-tighter mt-1 block">
+                        Local Saves
+                      </span>
+                      <span className="text-[10px] text-slate-400 mt-0.5 block leading-tight font-medium">
+                        Custom structures inside browser cache.
+                      </span>
+                    </div>
+                  </div>
+
+                  {/* 5. Export Ready */}
+                  <div className="bg-white dark:bg-[#1E293B] border border-[#E2E8F0] dark:border-[#334155] rounded-2xl p-5 shadow-sm flex flex-col justify-between">
+                    <div className="w-8 h-8 rounded-xl bg-emerald-50 dark:bg-emerald-950/20 text-emerald-500 flex items-center justify-center mb-3">
+                      <Share2 className="w-4 h-4" />
+                    </div>
+                    <div>
+                      <span className="text-[13px] font-black text-slate-900 dark:text-white uppercase font-mono block leading-7">
+                        Ready
+                      </span>
+                      <span className="text-[11px] font-bold text-slate-800 dark:text-slate-100 uppercase tracking-tighter mt-1 block">
+                        Export Cards
+                      </span>
+                      <span className="text-[10px] text-slate-400 mt-0.5 block leading-tight font-medium">
+                        Generate high-resolution locking PNGs easily.
+                      </span>
+                    </div>
+                  </div>
+
+                  {/* 6. Zero Database */}
+                  <div className="bg-white dark:bg-[#1E293B] border border-[#E2E8F0] dark:border-[#334155] rounded-2xl p-5 shadow-sm flex flex-col justify-between">
+                    <div className="w-8 h-8 rounded-xl bg-[#FFF1F2] dark:bg-rose-950/20 text-rose-500 flex items-center justify-center mb-3">
+                      <Lock className="w-4 h-4" />
+                    </div>
+                    <div>
+                      <span className="text-[13px] font-black text-slate-900 dark:text-white uppercase font-mono block leading-7">
+                        Offline
+                      </span>
+                      <span className="text-[11px] font-bold text-slate-800 dark:text-slate-100 uppercase tracking-tighter mt-1 block">
+                        Zero Database
+                      </span>
+                      <span className="text-[10px] text-slate-400 mt-0.5 block leading-tight font-medium">
+                        Private storage. No credentials or tracking logs.
+                      </span>
+                    </div>
+                  </div>
                 </div>
 
               </div>
@@ -620,10 +633,10 @@ export default function App() {
                 <div className="flex justify-between items-end mb-4">
                   <div>
                     <h3 className="text-xs font-black uppercase tracking-widest text-[#64748B] font-mono">
-                      Curated Roadmaps
+                      Track & Field Index
                     </h3>
                     <h2 className="text-xl sm:text-2xl font-bold tracking-tight text-slate-800 dark:text-white font-display uppercase">
-                      Physiological Training Modules
+                      Workout Library Coverage
                     </h2>
                   </div>
                   <span className="text-[10px] bg-sky-50 dark:bg-[#1E293B] border border-sky-100 dark:border-[#334155] px-2.5 py-1 font-bold text-sky-500 font-mono rounded-lg uppercase">
@@ -1221,17 +1234,27 @@ export default function App() {
                   About Track.Vault
                 </h2>
                 <span className="text-xs uppercase font-mono tracking-widest text-[#64748B] dark:text-[#94A3B8] font-bold block mt-1">
-                  Zero-Database structural speed development index
+                  Zero-Database running workout vault
                 </span>
               </div>
 
               <div className="space-y-6 text-sm text-[#0F172A] dark:text-slate-300 leading-relaxed font-sans">
                 
-                <div className="p-6 bg-sky-500/5 border border-sky-100 dark:border-sky-950/30 rounded-2xl">
+                {/* Critical Service Limitations Banner */}
+                <div className="p-6 bg-sky-50/50 dark:bg-[#1E293B]/60 border border-sky-100 dark:border-[#334155] rounded-3xl">
                   <h4 className="font-bold text-sky-500 font-mono text-xs uppercase mb-2">
+                    Scope of Service & Limitations
+                  </h4>
+                  <p className="text-slate-705 dark:text-slate-300 text-xs sm:text-sm font-bold">
+                    Track.Vault does not track VO2max, strain, readiness, calories, or live training load. It is a static workout library and builder.
+                  </p>
+                </div>
+
+                <div className="p-6 bg-slate-50 dark:bg-slate-900/40 border border-[#E2E8F0] dark:border-slate-800 rounded-3xl">
+                  <h4 className="font-bold text-slate-700 dark:text-slate-300 font-mono text-xs uppercase mb-2">
                     Coaching & Load Principle Framework
                   </h4>
-                  <p className="text-slate-650 dark:text-slate-350 text-xs sm:text-sm font-semibold">
+                  <p className="text-[#334155] dark:text-slate-400 text-xs sm:text-sm font-medium">
                     Track.Vault is designed with structured training principles. Every category block aligns directly with specific energy system demands. Warmup phases include cardiovascular strides, mainsets target particular physiological clearance velocities, and active recoveries enable full cellular recovery.
                   </p>
                 </div>
@@ -1241,22 +1264,22 @@ export default function App() {
                     Core Pillars
                   </h3>
                   <ul className="space-y-3 pl-1 text-sm text-[#374151] dark:text-slate-300 font-semibold">
-                    <li className="flex items-start gap-2.5">
+                    <li className="flex items-start gap-2.5 flex-row">
                       <span className="text-sky-500 font-bold text-lg leading-none">⚡</span>
                       <div>
                         <strong className="text-slate-900 dark:text-white">Strict Static Catalog:</strong> The baseline workout catalog is fully static. Storing files as indexed, frozen JSON arrays guarantees lighting-fast response speeds, 100% offline uptime, and pristine preservation of workout parameters.
                       </div>
                     </li>
-                    <li className="flex items-start gap-2.5">
+                    <li className="flex items-start gap-2.5 flex-row">
                       <span className="text-sky-500 font-bold text-lg leading-none">⚡</span>
                       <div>
                         <strong className="text-slate-900 dark:text-white">Absolute Local Sandbox Security:</strong> We run no background telemetry trackers, API synchronization, or cloud cookies. Because we collect no custom user details, saved workout profiles remain entirely locked inside your browser.
                       </div>
                     </li>
-                    <li className="flex items-start gap-2.5">
+                    <li className="flex items-start gap-2.5 flex-row">
                       <span className="text-sky-500 font-bold text-lg leading-none">⚡</span>
                       <div>
-                        <strong className="text-slate-900 dark:text-white">Modern Share Canvas:</strong> Physical exercise schedules copy directly into clean Markdown, or render into gorgeous PNG graphics optimized for lockscrens or Strava maps without relying on complex backend layers.
+                        <strong className="text-slate-900 dark:text-white">Modern Share Canvas:</strong> Physical exercise schedules copy directly into clean Markdown, or render into gorgeous PNG graphics optimized for lockscreens or Strava maps without relying on complex backend layers.
                       </div>
                     </li>
                   </ul>
@@ -1267,14 +1290,14 @@ export default function App() {
                     <AlertTriangle className="w-5 h-5 text-rose-500" /> Coaching Disclaimer
                   </h3>
                   <p className="text-xs sm:text-sm text-slate-500 dark:text-slate-400 bg-slate-50 dark:bg-[#1E293B] border border-[#E2E8F0] dark:border-[#334155] p-5 rounded-2xl leading-relaxed">
-                    Workouts provided inside the dynamic library are designed solely as typical indices. They are not constructed as personalized medical, health, wellness, physical rehab, or individual coaching suggestions. Runners should seek advice from certified performance experts or coaches before training at intense anaerobic thresholds, severe speeds, or maximum lactic limits.
+                    Workouts provided inside the static library are designed solely as general indices. They are not constructed as personalized medical, health, wellness, physical rehab, or individual coaching suggestions. Runners should seek advice from certified performance experts or coaches before training at intense anaerobic thresholds, severe speeds, or maximum lactic limits.
                   </p>
                 </div>
               </div>
 
               {/* Footer stamp */}
               <div className="pt-8 border-t border-[#E2E8F0] dark:border-[#334155] text-center font-mono text-[9px] text-[#64748B] dark:text-slate-500 font-bold uppercase tracking-wider">
-                TRACK.VAULT CALIBRATED // PRIVATE RUNNING PACE GRAPH v1.1
+                TRACK.VAULT // ZERO DATABASE PRIVATE RUNNING WORKOUT LIBRARY v1.1
               </div>
             </div>
           )}

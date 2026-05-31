@@ -165,7 +165,7 @@ export function LeftSidebar({
       {/* Sidebar Footer Stamp */}
       <div className="p-4 border-t border-[#E2E8F0] dark:border-[#334155] bg-slate-50/50 dark:bg-slate-900/40 text-center">
         <span className="font-mono text-[9px] font-semibold text-slate-400 tracking-wider block uppercase">
-          PERFORMANCE PACER v1.1
+          TRACK.VAULT WORKOUTS v1.1
         </span>
       </div>
     </div>
