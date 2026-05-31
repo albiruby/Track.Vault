@@ -86,30 +86,30 @@ export function ExportCardControls({
   const themesList = [
     { id: "light", name: "Slate Light", bg: "bg-white border-slate-200" },
     { id: "dark", name: "Carbon Dark", bg: "bg-slate-950 border-slate-800 text-white" },
-    { id: "orange", name: "Track Orange", bg: "bg-orange-600 border-orange-700 text-white" },
+    { id: "orange", name: "Track Orange", bg: "bg-amber-500 border-amber-600 text-white" },
     { id: "mono", name: "Swiss Mono", bg: "bg-neutral-100 border-black border text-black font-mono text-xs" },
   ];
 
   return (
-    <div className="bg-white dark:bg-slate-900 border border-slate-200/80 dark:border-slate-800 rounded-2xl p-6 space-y-6">
+    <div className="bg-white dark:bg-[#1E293B] border border-[#E2E8F0] dark:border-[#334155] rounded-3xl p-6 space-y-6">
       {/* Template Selector */}
       <div className="space-y-3">
         <label className="text-xs font-mono font-bold uppercase tracking-wider text-slate-400 flex items-center gap-2">
-          <Layout className="w-4 h-4 text-orange-500" /> Choose Card Layout
+          <Layout className="w-4 h-4 text-sky-500" /> Choose Card Layout
         </label>
         <div className="grid grid-cols-2 lg:grid-cols-1 gap-2">
           {templatesList.map((t) => (
             <button
               key={t.id}
               onClick={() => setTemplate(t.id)}
-              className={`px-4 py-2.5 rounded-xl text-left text-sm font-medium transition-all border flex items-center justify-between ${
+              className={`px-4 py-2.5 rounded-xl text-left text-sm font-semibold transition-all border flex items-center justify-between cursor-pointer ${
                 template === t.id
-                  ? "bg-orange-50 border-orange-200 text-orange-600 dark:bg-orange-950/20 dark:border-orange-500/30 dark:text-orange-400 font-semibold"
-                  : "bg-slate-50 border-transparent dark:bg-slate-800/40 text-slate-700 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800"
+                  ? "bg-sky-50 border-sky-200 text-sky-600 dark:bg-sky-950/20 dark:border-sky-500/30 dark:text-sky-405"
+                  : "bg-slate-50 border-transparent dark:bg-slate-800/40 text-slate-755 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800"
               }`}
             >
               <span>{t.name}</span>
-              {template === t.id && <span className="w-1.5 h-1.5 rounded-full bg-orange-500" />}
+              {template === t.id && <span className="w-1.5 h-1.5 rounded-full bg-sky-500" />}
             </button>
           ))}
         </div>
@@ -118,17 +118,17 @@ export function ExportCardControls({
       {/* Select Color Style */}
       <div className="space-y-3">
         <label className="text-xs font-mono font-bold uppercase tracking-wider text-slate-400 flex items-center gap-2">
-          <Palette className="w-4 h-4 text-orange-500" /> Color Aesthetics
+          <Palette className="w-4 h-4 text-sky-500" /> Color Aesthetics
         </label>
         <div className="grid grid-cols-2 gap-2">
           {themesList.map((th) => (
             <button
               key={th.id}
               onClick={() => setTheme(th.id as any)}
-              className={`p-3 rounded-xl border text-left text-xs font-semibold flex items-center gap-2.5 transition-all ${
+              className={`p-3 rounded-xl border text-left text-xs font-bold flex items-center gap-2.5 transition-all cursor-pointer ${
                 theme === th.id
-                  ? "ring-2 ring-orange-500 ring-offset-2 dark:ring-offset-slate-900 border-transparent shadow"
-                  : "border-slate-200 dark:border-slate-800 hover:bg-slate-50 dark:hover:bg-slate-800"
+                  ? "ring-2 ring-sky-500 ring-offset-2 dark:ring-offset-slate-900 border-transparent shadow-sm"
+                  : "border-[#E2E8F0] dark:border-[#334155] hover:bg-slate-50 dark:hover:bg-slate-800"
               }`}
             >
               <div className={`w-4 h-4 rounded-full ${th.bg} flex-shrink-0`} />
@@ -141,24 +141,24 @@ export function ExportCardControls({
       {/* Aspect Ratio Sizers */}
       <div className="space-y-3">
         <label className="text-xs font-mono font-bold uppercase tracking-wider text-slate-400 flex items-center gap-2">
-          <Layers className="w-4 h-4 text-orange-500" /> Card Shape & Ratio
+          <Layers className="w-4 h-4 text-sky-500" /> Card Shape & Ratio
         </label>
         <div className="space-y-2">
           {sizesList.map((sz) => (
             <button
               key={sz.id}
               onClick={() => setSize(sz.id as any)}
-              className={`w-full p-3 rounded-xl border text-left transition-all flex items-center justify-between ${
+              className={`w-full p-3 rounded-xl border text-left transition-all flex items-center justify-between cursor-pointer ${
                 size === sz.id
-                  ? "bg-slate-900 border-slate-900 text-white dark:bg-slate-800 dark:border-slate-700 font-medium"
-                  : "bg-slate-50 border-slate-100 dark:bg-slate-800/40 dark:border-transparent text-slate-700 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800"
+                  ? "bg-slate-900 border-slate-900 text-white dark:bg-slate-805 dark:border-slate-700 font-bold"
+                  : "bg-slate-50 border-transparent dark:bg-slate-800/40 text-slate-705 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800"
               }`}
             >
               <div className="flex flex-col text-left">
                 <span className="text-sm font-semibold">{sz.name}</span>
                 <span className="text-[10px] opacity-75">{sz.desc}</span>
               </div>
-              {size === sz.id && <Check className="w-4 h-4 text-orange-400" />}
+              {size === sz.id && <Check className="w-4 h-4 text-sky-400" />}
             </button>
           ))}
         </div>
@@ -169,7 +169,7 @@ export function ExportCardControls({
         <button
           onClick={handleExport}
           disabled={exporting}
-          className={`w-full py-3.5 px-4 rounded-xl font-bold text-sm tracking-wide shadow flex items-center justify-center gap-2 bg-orange-600 hover:bg-orange-700 text-white transition-all transform active:scale-[0.98] cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed`}
+          className={`w-full py-3.5 px-4 rounded-xl font-bold text-sm tracking-wide shadow-md shadow-sky-500/10 flex items-center justify-center gap-2 bg-sky-500 hover:bg-sky-600 text-white transition-all transform active:scale-[0.98] cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed`}
         >
           {exporting ? (
             <>

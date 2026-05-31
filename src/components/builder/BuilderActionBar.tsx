@@ -58,7 +58,7 @@ export function BuilderActionBar({
           type="button"
           onClick={onSave}
           disabled={!isValid}
-          className={`px-4.5 py-2 rounded-xl text-xs font-extrabold shadow bg-orange-600 hover:bg-orange-700 text-white transition-all flex items-center gap-1.5 cursor-pointer disabled:opacity-40 disabled:cursor-not-allowed`}
+          className={`px-4.5 py-2 rounded-xl text-xs font-extrabold shadow bg-sky-500 hover:bg-sky-600 text-white transition-all flex items-center gap-1.5 cursor-pointer disabled:opacity-40 disabled:cursor-not-allowed`}
         >
           <Save className="w-3.5 h-3.5" />
           <span>Save Local Vault</span>
@@ -68,9 +68,9 @@ export function BuilderActionBar({
           type="button"
           onClick={onGoToExport}
           disabled={!isValid}
-          className={`px-4.5 py-2 rounded-xl text-xs font-bold border border-orange-500/30 text-orange-400 bg-orange-950/20 hover:bg-orange-950/40 transition-all flex items-center gap-1.5 cursor-pointer disabled:opacity-40 disabled:cursor-not-allowed`}
+          className={`px-4.5 py-2 rounded-xl text-xs font-bold border border-sky-500/30 text-sky-400 bg-sky-950/20 hover:bg-sky-950/40 transition-all flex items-center gap-1.5 cursor-pointer disabled:opacity-40 disabled:cursor-not-allowed`}
         >
-          <Sparkles className="w-3.5 h-3.5 text-orange-400" />
+          <Sparkles className="w-3.5 h-3.5 text-sky-400" />
           <span>Image Share Studio</span>
         </button>
       </div>

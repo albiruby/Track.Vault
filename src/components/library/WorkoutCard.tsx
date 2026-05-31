@@ -10,7 +10,7 @@ import { DifficultyBadge } from "./DifficultyBadge";
 import { LevelBadge } from "./LevelBadge";
 import { formatWorkoutBlock, formatWorkoutForClipboard } from "../../lib/workouts";
 import { copyToClipboard } from "../../lib/clipboard";
-import { Copy, ClipboardCheck, ExternalLink, RefreshCw, Calendar, Eye } from "lucide-react";
+import { Copy, ClipboardCheck, ExternalLink, RefreshCw, Eye } from "lucide-react";
 
 interface WorkoutCardProps {
   key?: string;
@@ -41,7 +41,7 @@ export function WorkoutCard({
   return (
     <div
       onClick={() => onViewDetails(workout)}
-      className="bg-white dark:bg-[#151A23] border border-[#D8DEE8] dark:border-[#2A3445] rounded-sm p-6 hover:border-[#FF4E00] dark:hover:border-[#FF4E00] hover:shadow-md transition-all flex flex-col justify-between group cursor-pointer animate-fade-in"
+      className="bg-white dark:bg-[#1E293B] border border-[#E2E8F0] dark:border-[#334155] rounded-3xl p-6 hover:border-sky-500 dark:hover:border-sky-400 hover:shadow-lg transition-all flex flex-col justify-between group cursor-pointer animate-fade-in relative overflow-hidden"
     >
       <div>
         {/* Card Header Top Row */}
@@ -50,35 +50,35 @@ export function WorkoutCard({
           <DifficultyBadge difficulty={workout.difficulty} />
           <RiskBadge risk={workout.risk} />
           {workout.isCustom && (
-            <span className="bg-[#FF4E00]/10 text-[#FF4E00] text-[9px] font-mono border border-[#FF4E00]/20 px-1.5 py-0.5 rounded-sm uppercase font-bold">
+            <span className="bg-sky-50 dark:bg-sky-950/20 text-sky-500 dark:text-sky-450 text-[9px] font-mono border border-sky-100 dark:border-sky-900/30 px-1.5 py-0.5 rounded-md uppercase font-black">
               LOCAL
             </span>
           )}
         </div>
 
         {/* Title */}
-        <h3 className="text-base sm:text-lg font-bold tracking-tight text-[#111827] dark:text-slate-100 group-hover:text-[#FF4E00] transition-colors line-clamp-1 uppercase font-display">
+        <h3 className="text-base sm:text-md font-bold tracking-tight text-[#0F172A] dark:text-slate-150 group-hover:text-sky-500 dark:group-hover:text-sky-400 transition-colors line-clamp-1 uppercase font-display">
           {workout.title}
         </h3>
         
         {/* Short Summary */}
-        <p className="text-xs text-[#374151] dark:text-slate-300 mt-1 line-clamp-2 leading-relaxed">
+        <p className="text-xs text-slate-500 dark:text-slate-300 mt-1 line-clamp-2 leading-relaxed">
           {workout.summary}
         </p>
 
         {/* Core Dimensions Info Block */}
-        <div className="grid grid-cols-2 gap-2 my-4 p-3 bg-slate-50 dark:bg-[#1B2230] border border-[#D8DEE8] dark:border-[#2A3445] rounded-sm text-center">
+        <div className="grid grid-cols-2 gap-2 my-4 p-3 bg-slate-50 dark:bg-[#0F172A]/70 border border-[#E2E8F0] dark:border-[#334155] rounded-2xl text-center">
           <div>
-            <span className="text-[9px] font-mono uppercase tracking-wider text-[#6B7280] dark:text-slate-400 block font-bold">Distance</span>
-            <span className="text-xs font-bold text-[#111827] dark:text-slate-200 font-mono">
+            <span className="text-[9px] font-mono uppercase tracking-wider text-slate-400 dark:text-slate-500 block font-bold">Distance</span>
+            <span className="text-xs font-bold text-[#0F172A] dark:text-slate-200 font-mono">
               {(workout as any).rawDistance && typeof (workout as any).rawDistance === "object"
                 ? `${(workout as any).rawDistance.min}-${(workout as any).rawDistance.max} KM`
                 : `~${workout.estimatedDistanceKm} KM`}
             </span>
           </div>
-          <div className="border-l border-[#D8DEE8] dark:border-[#2A3445]">
-            <span className="text-[9px] font-mono uppercase tracking-wider text-[#6B7280] dark:text-slate-400 block font-bold">Duration</span>
-            <span className="text-xs font-bold text-[#111827] dark:text-slate-200 font-mono">
+          <div className="border-l border-[#E2E8F0] dark:border-[#334155]">
+            <span className="text-[9px] font-mono uppercase tracking-wider text-slate-400 dark:text-slate-500 block font-bold">Duration</span>
+            <span className="text-xs font-bold text-[#0F172A] dark:text-slate-200 font-mono">
               {(workout as any).rawDuration && typeof (workout as any).rawDuration === "object"
                 ? `${(workout as any).rawDuration.min}-${(workout as any).rawDuration.max} MIN`
                 : `~${workout.estimatedDurationMin} MIN`}
@@ -88,18 +88,18 @@ export function WorkoutCard({
 
         {/* Main Set Rep Block Previews */}
         <div className="space-y-1.5">
-          <span className="text-[9px] font-mono uppercase tracking-widest text-[#374151] dark:text-slate-400 block font-bold">
+          <span className="text-[9px] font-mono uppercase tracking-widest text-[#334155] dark:text-slate-400 block font-black">
             Primary Prescription
           </span>
-          <div className="space-y-1 text-xs text-[#111827] dark:text-slate-200 font-mono">
+          <div className="space-y-1 text-xs text-[#0F172A] dark:text-slate-200 font-mono">
             {workout.mainSet.slice(0, 2).map((block, i) => (
               <div key={block.id || i} className="flex gap-1.5 items-center truncate leading-relaxed">
-                <span className="w-1.5 h-1.5 rounded-full bg-[#FF4E00]" />
-                <span className="font-medium">{formatWorkoutBlock(block)}</span>
+                <span className="w-1.5 h-1.5 rounded-full bg-sky-500 dark:bg-sky-400" />
+                <span className="font-semibold">{formatWorkoutBlock(block)}</span>
               </div>
             ))}
             {workout.mainSet.length > 2 && (
-              <span className="text-[10px] font-mono italic text-slate-500 font-medium">
+              <span className="text-[10px] font-mono italic text-slate-400 font-medium">
                 + {workout.mainSet.length - 2} more prescription steps
               </span>
             )}
@@ -108,15 +108,15 @@ export function WorkoutCard({
       </div>
 
       {/* Card Action Row */}
-      <div className="mt-5 pt-4 border-t border-[#D8DEE8] dark:border-[#2A3445] flex justify-between gap-1 items-center">
+      <div className="mt-5 pt-4 border-t border-[#E2E8F0] dark:border-[#334155] flex justify-between gap-1 items-center">
         <button
           onClick={(e) => {
             e.stopPropagation();
             onViewDetails(workout);
           }}
-          className="text-[10px] font-black uppercase tracking-widest text-[#374151] dark:text-slate-300 hover:text-[#FF4E00] dark:hover:text-[#FF4E00] flex items-center gap-1 cursor-pointer font-mono"
+          className="text-[10px] font-bold uppercase tracking-widest text-slate-500 hover:text-sky-500 dark:text-slate-400 dark:hover:text-sky-400 flex items-center gap-1 cursor-pointer font-mono"
         >
-          <Eye className="w-3.5 h-3.5 text-[#FF4E00]" />
+          <Eye className="w-3.5 h-3.5 text-sky-500" />
           <span>INSPECT</span>
         </button>
 
@@ -124,7 +124,7 @@ export function WorkoutCard({
           <button
             onClick={handleQuickCopy}
             title="Copy simple text description to clipboard"
-            className="p-1.5 rounded-sm border border-[#D8DEE8] dark:border-[#2A3445] bg-gray-50 dark:bg-[#1B2230] hover:bg-[#FF4E00]/10 hover:border-[#FF4E00] text-[#374151] dark:text-slate-300 hover:text-[#FF4E00] dark:hover:text-white cursor-pointer transition-colors"
+            className="p-2 rounded-xl border border-[#E2E8F0] dark:border-[#334155] bg-slate-50 dark:bg-[#0F172A] hover:bg-sky-500/10 hover:border-sky-500 text-slate-600 dark:text-slate-300 hover:text-sky-500 dark:hover:text-sky-400 cursor-pointer transition-all"
           >
             {copied ? (
               <ClipboardCheck className="w-3.5 h-3.5 text-emerald-500" />
@@ -139,7 +139,7 @@ export function WorkoutCard({
               onExportCard(workout);
             }}
             title="Export workout to image share studio"
-            className="p-1.5 rounded-sm border border-[#D8DEE8] dark:border-[#2A3445] bg-gray-50 dark:bg-[#1B2230] hover:bg-[#FF4E00]/10 hover:border-[#FF4E00] text-[#374151] dark:text-slate-300 hover:text-[#FF4E00] dark:hover:text-white cursor-pointer transition-colors"
+            className="p-2 rounded-xl border border-[#E2E8F0] dark:border-[#334155] bg-slate-50 dark:bg-[#0F172A] hover:bg-sky-500/10 hover:border-sky-500 text-slate-600 dark:text-slate-300 hover:text-sky-500 dark:hover:text-sky-400 cursor-pointer transition-all"
           >
             <ExternalLink className="w-3.5 h-3.5" />
           </button>
@@ -150,7 +150,7 @@ export function WorkoutCard({
               onDuplicateInBuilder(workout);
             }}
             title="Duplicate and load inside details editor"
-            className="p-1.5 rounded-sm border border-[#D8DEE8] dark:border-[#2A3445] bg-gray-50 dark:bg-[#1B2230] hover:bg-[#FF4E00]/10 hover:border-[#FF4E00] text-[#374151] dark:text-slate-300 hover:text-[#FF4E00] dark:hover:text-white cursor-pointer transition-colors"
+            className="p-2 rounded-xl border border-[#E2E8F0] dark:border-[#334155] bg-slate-50 dark:bg-[#0F172A] hover:bg-sky-500/10 hover:border-sky-500 text-slate-600 dark:text-slate-300 hover:text-sky-500 dark:hover:text-sky-400 cursor-pointer transition-all"
           >
             <RefreshCw className="w-3.5 h-3.5" />
           </button>

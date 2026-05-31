@@ -22,7 +22,7 @@ export function WorkoutSearch({ value, onChange }: WorkoutSearchProps) {
         value={value}
         onChange={(e) => onChange(e.target.value)}
         placeholder="Search workouts by title, target, tags or summary..."
-        className="block w-full pl-10 pr-10 py-3 text-sm bg-white dark:bg-[#151A23] border border-[#D8DEE8] dark:border-[#2A3445] rounded-sm focus:outline-none focus:ring-2 focus:ring-[#FF4E00]/10 focus:border-[#FF4E00] text-[#111827] dark:text-[#F8FAFC] transition-all font-sans placeholder-[#9CA3AF] dark:placeholder-[#6B7280]"
+        className="block w-full pl-10 pr-10 py-3 text-sm bg-white dark:bg-[#1E293B] border border-[#E2E8F0] dark:border-[#334155] rounded-xl focus:outline-none focus:ring-2 focus:ring-sky-500/10 focus:border-sky-500 text-[#0F172A] dark:text-[#F8FAFC] transition-all font-sans placeholder-[#94A3B8] dark:placeholder-[#64748B]"
       />
       {value && (
         <button

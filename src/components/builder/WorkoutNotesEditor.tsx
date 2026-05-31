@@ -69,11 +69,11 @@ export function WorkoutNotesEditor({
             value={newCoachNote}
             onChange={(e) => setNewCoachNote(e.target.value)}
             placeholder="Add pacing cue or mental tip..."
-            className="flex-1 p-2 bg-slate-50 dark:bg-slate-800/40 border border-slate-200 dark:border-slate-700 text-xs rounded focus:outline-none"
+            className="flex-1 p-2 bg-slate-50 dark:bg-slate-800/40 border border-[#E2E8F0] dark:border-[#334155] text-xs rounded-xl focus:outline-none focus:ring-1 focus:ring-sky-500/20 text-slate-800 dark:text-slate-100"
           />
           <button
             type="submit"
-            className="p-2 bg-slate-900 text-white dark:bg-slate-800 rounded text-xs hover:bg-slate-800"
+            className="p-2 bg-sky-500 text-white hover:bg-sky-600 rounded-xl text-xs transition-colors cursor-pointer"
           >
             <Plus className="w-4 h-4" />
           </button>
@@ -81,7 +81,7 @@ export function WorkoutNotesEditor({
 
         <ul className="space-y-1.5 max-h-40 overflow-y-auto">
           {coachingNotes.map((note, index) => (
-            <li key={index} className="flex items-start justify-between gap-2 p-2 bg-slate-50 dark:bg-slate-800/20 text-xs rounded border border-slate-200/40 dark:border-slate-800">
+            <li key={index} className="flex items-start justify-between gap-2 p-2 bg-slate-50/50 dark:bg-slate-800/20 text-xs rounded-xl border border-slate-100 dark:border-slate-800">
               <span className="flex-1">{note}</span>
               <button
                 type="button"
@@ -99,7 +99,7 @@ export function WorkoutNotesEditor({
       </div>
 
       {/* Common mistakes */}
-      <div className="bg-white dark:bg-slate-900 border border-slate-200/80 dark:border-slate-800 rounded-2xl p-5 space-y-4 shadow-sm">
+      <div className="bg-white dark:bg-[#1E293B] border border-[#E2E8F0] dark:border-[#334155] rounded-3xl p-5 space-y-4 shadow-sm">
         <h3 className="text-xs font-mono font-bold uppercase tracking-wider text-slate-850 dark:text-slate-100 flex items-center gap-2">
           <AlertTriangle className="w-4 h-4 text-amber-500" /> Mistakes to Correct
         </h3>
@@ -110,11 +110,11 @@ export function WorkoutNotesEditor({
             value={newMistake}
             onChange={(e) => setNewMistake(e.target.value)}
             placeholder="Add mistake to correct..."
-            className="flex-1 p-2 bg-slate-50 dark:bg-slate-800/40 border border-slate-200 dark:border-slate-700 text-xs rounded focus:outline-none"
+            className="flex-1 p-2 bg-slate-50 dark:bg-slate-800/40 border border-[#E2E8F0] dark:border-[#334155] text-xs rounded-xl focus:outline-none focus:ring-1 focus:ring-sky-500/20 text-slate-800 dark:text-slate-100"
           />
           <button
             type="submit"
-            className="p-2 bg-slate-900 text-white dark:bg-slate-800 rounded text-xs hover:bg-slate-800"
+            className="p-2 bg-sky-500 text-white hover:bg-sky-600 rounded-xl text-xs transition-colors cursor-pointer"
           >
             <Plus className="w-4 h-4" />
           </button>
@@ -122,7 +122,7 @@ export function WorkoutNotesEditor({
 
         <ul className="space-y-1.5 max-h-40 overflow-y-auto">
           {commonMistakes.map((mistake, index) => (
-            <li key={index} className="flex items-start justify-between gap-2 p-2 bg-slate-50 dark:bg-slate-800/20 text-xs rounded border border-slate-200/40  dark:border-slate-800">
+            <li key={index} className="flex items-start justify-between gap-2 p-2 bg-slate-50/50 dark:bg-slate-800/20 text-xs rounded-xl border border-slate-100 dark:border-slate-800">
               <span className="flex-1">{mistake}</span>
               <button
                 type="button"
@@ -140,7 +140,7 @@ export function WorkoutNotesEditor({
       </div>
 
       {/* Safety notes */}
-      <div className="bg-white dark:bg-slate-900 border border-slate-200/80 dark:border-slate-800 rounded-2xl p-5 space-y-4 shadow-sm">
+      <div className="bg-white dark:bg-[#1E293B] border border-[#E2E8F0] dark:border-[#334155] rounded-3xl p-5 space-y-4 shadow-sm">
         <h3 className="text-xs font-mono font-bold uppercase tracking-wider text-slate-850 dark:text-slate-100 flex items-center gap-2">
           <HelpCircle className="w-4 h-4 text-rose-500" /> Safety Precautions
         </h3>
@@ -151,11 +151,11 @@ export function WorkoutNotesEditor({
             value={newSafetyNote}
             onChange={(e) => setNewSafetyNote(e.target.value)}
             placeholder="Add general safety warning..."
-            className="flex-1 p-2 bg-slate-50 dark:bg-slate-800/40 border border-slate-200 dark:border-slate-700 text-xs rounded focus:outline-none"
+            className="flex-1 p-2 bg-slate-50 dark:bg-slate-800/40 border border-[#E2E8F0] dark:border-[#334155] text-xs rounded-xl focus:outline-none focus:ring-1 focus:ring-sky-500/20 text-slate-800 dark:text-slate-100"
           />
           <button
             type="submit"
-            className="p-2 bg-slate-900 text-white dark:bg-slate-800 rounded text-xs hover:bg-slate-800"
+            className="p-2 bg-sky-500 text-white hover:bg-sky-600 rounded-xl text-xs transition-colors cursor-pointer"
           >
             <Plus className="w-4 h-4" />
           </button>
@@ -163,7 +163,7 @@ export function WorkoutNotesEditor({
 
         <ul className="space-y-1.5 max-h-40 overflow-y-auto">
           {safetyNotes.map((note, index) => (
-            <li key={index} className="flex items-start justify-between gap-2 p-2 bg-slate-50 dark:bg-slate-800/20 text-xs rounded border border-slate-200/40  dark:border-slate-800">
+            <li key={index} className="flex items-start justify-between gap-2 p-2 bg-slate-50/50 dark:bg-slate-800/20 text-xs rounded-xl border border-slate-100 dark:border-slate-800">
               <span className="flex-1">{note}</span>
               <button
                 type="button"

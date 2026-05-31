@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500;600&display=swap');
 @import "tailwindcss";
 
 @theme {
@@ -6,67 +6,114 @@
   --font-display: "Inter", ui-sans-serif, system-ui, sans-serif;
   --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
   
-  --color-brand-orange: #FF4E00;
-  --color-brand-orange-dark: #E64600;
-  --color-brand-black: #111827;
-  --color-brand-slate: #374151;
-  --color-muted-text: #6B7280;
-  --color-border-light: #D8DEE8;
+  --color-brand-primary: #0EA5E9; /* Sky Blue */
+  --color-brand-cyan: #06B6D4; /* Cyan accent */
+  --color-brand-deep: #2563EB; /* Deep Blue focus/primary button */
+  --color-brand-black: #0F172A; /* Slate 900 */
+  --color-brand-slate: #334155; /* Slate 700 */
+  --color-muted-text: #64748B; /* Slate 500 */
+  --color-border-light: #E2E8F0; /* Slate 200 */
 }
 
-/* Base Body Styles for High Contrast */
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 4px;
+}
+.dark ::-webkit-scrollbar-thumb {
+  background: #475569;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94A3B8;
+}
+
+/* Base Body Styles */
 body {
   font-family: var(--font-sans);
-  background-color: #F6F7FA;
-  color: #111827;
+  background-color: #F4F7FB; /* Clean off-white/gray */
+  color: #0F172A; /* Slate 900 */
   min-height: 100vh;
 }
 
 .dark body {
-  background-color: #0E1117;
+  background-color: #0F172A; /* Dark Slate Blue background */
   color: #F8FAFC;
 }
 
-/* Custom smooth transitions */
+/* Custom smooth animations & transitions */
 .router-transition {
-  transition: all 0.3s ease-in-out;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* Full Width and Responsive Desktop Grid Systems */
+.animate-fade-in {
+  animation: fadeIn 0.25s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Refined modern card style */
+.custom-card {
+  background-color: #FFFFFF;
+  border: 1px solid #E2E8F0;
+  border-radius: 20px;
+  box-shadow: 0 4px 18px -4px rgba(15, 23, 42, 0.03), 0 2px 4px -2px rgba(15, 23, 42, 0.02);
+}
+
+.dark .custom-card {
+  background-color: #1E293B;
+  border-color: #334155;
+  box-shadow: 0 4px 20px -4px rgba(0, 0, 0, 0.25);
+}
+
+/* Dashboard Page Grid Containers */
 .page-container {
   width: 100%;
   max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
-  padding-left: clamp(1rem, 3vw, 2.5rem);
-  padding-right: clamp(1rem, 3vw, 2.5rem);
+  padding-left: clamp(1.25rem, 4vw, 2.5rem);
+  padding-right: clamp(1.25rem, 4vw, 2.5rem);
 }
 
-/* Custom classes for elements that need consistent background colors or borders in light/dark */
-.custom-card {
-  background-color: #FFFFFF;
-  border: 1px solid #D8DEE8;
-}
-
-.dark .custom-card {
-  background-color: #151A23;
-  border-color: #2A3445;
-}
-
-/* High contrast inputs and selectors */
+/* Modernized Fields & Forms */
 input, select, textarea {
   background-color: #FFFFFF;
-  color: #111827;
-  border: 1px solid #D8DEE8;
+  color: #0F172A;
+  border: 1px solid #E2E8F0;
+  border-radius: 8px;
+  padding: 0.5rem 0.75rem;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
 }
 
 .dark input, .dark select, .dark textarea {
-  background-color: #151A23;
+  background-color: #1E293B;
   color: #F8FAFC;
-  border-color: #2A3445;
+  border-color: #334155;
 }
 
 input:focus, select:focus, textarea:focus {
-  border-color: #FF4E00 !important;
+  border-color: #0EA5E9 !important;
+  box-shadow: 0 0 0 3px rgba(14, 165, 233, 0.12);
   outline: none;
+}
+
+.dark input:focus, .dark select:focus, .dark textarea:focus {
+  border-color: #38BDF8 !important;
+  box-shadow: 0 0 0 3px rgba(56, 189, 248, 0.15);
 }
