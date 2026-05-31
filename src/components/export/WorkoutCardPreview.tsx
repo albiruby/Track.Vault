@@ -12,37 +12,37 @@ import { LongRunCard } from "./templates/LongRunCard";
 import { RaceWeekCard } from "./templates/RaceWeekCard";
 
 interface WorkoutCardPreviewProps {
-  workout: Workout;
-  template: string; // "minimal" | "coach" | "track" | "longrun" | "raceweek"
-  theme: "light" | "dark" | "orange" | "mono";
-  size: "square" | "story" | "compact";
+ workout: Workout;
+ template: string; // "minimal" | "coach" | "track" | "longrun" | "raceweek"
+ theme: "light" | "dark" | "orange" | "mono";
+ size: "square" | "story" | "compact";
 }
 
 export function WorkoutCardPreview({ workout, template, theme, size }: WorkoutCardPreviewProps) {
-  const renderTemplate = () => {
-    switch (template) {
-      case "coach":
-        return <CoachWorkoutCard workout={workout} theme={theme} size={size} />;
-      case "track":
-        return <TrackSessionCard workout={workout} theme={theme} size={size} />;
-      case "longrun":
-        return <LongRunCard workout={workout} theme={theme} size={size} />;
-      case "raceweek":
-        return <RaceWeekCard workout={workout} theme={theme} size={size} />;
-      case "minimal":
-      default:
-        return <MinimalWorkoutCard workout={workout} theme={theme} size={size} />;
-    }
-  };
+ const renderTemplate = () => {
+ switch (template) {
+ case "coach":
+ return <CoachWorkoutCard workout={workout} theme={theme} size={size} />;
+ case "track":
+ return <TrackSessionCard workout={workout} theme={theme} size={size} />;
+ case "longrun":
+ return <LongRunCard workout={workout} theme={theme} size={size} />;
+ case "raceweek":
+ return <RaceWeekCard workout={workout} theme={theme} size={size} />;
+ case "minimal":
+ default:
+ return <MinimalWorkoutCard workout={workout} theme={theme} size={size} />;
+ }
+ };
 
-  return (
-    <div className="flex justify-center items-center p-4 bg-slate-100 dark:bg-slate-900/60 rounded-2xl border border-slate-200/60 dark:border-slate-800 border-dashed">
-      {/* Outer scale helper wrapper to prevent big cards overflowing the screen dashboard */}
-      <div className="w-full flex justify-center max-w-full overflow-auto p-2">
-        <div className="shadow-lg hover:shadow-xl transition-shadow duration-300 rounded-2xl">
-          {renderTemplate()}
-        </div>
-      </div>
-    </div>
-  );
+ return (
+ <div className="flex justify-center items-center p-4 bg-slate-100 rounded-2xl border border-slate-200/60 border-dashed">
+ {/* Outer scale helper wrapper to prevent big cards overflowing the screen dashboard */}
+ <div className="w-full flex justify-center max-w-full overflow-auto p-2">
+ <div className="shadow-lg hover:shadow-xl transition-shadow duration-300 rounded-2xl">
+ {renderTemplate()}
+ </div>
+ </div>
+ </div>
+ );
 }
