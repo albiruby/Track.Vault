@@ -176,7 +176,13 @@
       "uniquenessSignature": "erb-recovery-20m-beginner-001",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "easy-recovery-base",
+      "libraryCategoryLabel": "Easy / Recovery / Base Run",
+      "workoutType": "recovery-run",
+      "distanceNavId": "base-recovery",
+      "distanceNavLabel": "Base / Recovery",
+      "distanceSortOrder": 14
     },
     {
       "id": "tv-erb-recovery-30m-recreational-002",
@@ -338,7 +344,13 @@
       "uniquenessSignature": "erb-recovery-30m-recreational-002",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "easy-recovery-base",
+      "libraryCategoryLabel": "Easy / Recovery / Base Run",
+      "workoutType": "recovery-run",
+      "distanceNavId": "base-recovery",
+      "distanceNavLabel": "Base / Recovery",
+      "distanceSortOrder": 14
     },
     {
       "id": "tv-erb-recovery-40m-developing-003",
@@ -500,7 +512,13 @@
       "uniquenessSignature": "erb-recovery-40m-developing-003",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "easy-recovery-base",
+      "libraryCategoryLabel": "Easy / Recovery / Base Run",
+      "workoutType": "recovery-run",
+      "distanceNavId": "base-recovery",
+      "distanceNavLabel": "Base / Recovery",
+      "distanceSortOrder": 14
     },
     {
       "id": "tv-erb-recovery-45m-intermediate-004",
@@ -662,7 +680,13 @@
       "uniquenessSignature": "erb-recovery-45m-intermediate-004",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "easy-recovery-base",
+      "libraryCategoryLabel": "Easy / Recovery / Base Run",
+      "workoutType": "recovery-run",
+      "distanceNavId": "base-recovery",
+      "distanceNavLabel": "Base / Recovery",
+      "distanceSortOrder": 14
     },
     {
       "id": "tv-erb-recovery-50m-advanced-005",
@@ -824,7 +848,13 @@
       "uniquenessSignature": "erb-recovery-50m-advanced-005",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "easy-recovery-base",
+      "libraryCategoryLabel": "Easy / Recovery / Base Run",
+      "workoutType": "recovery-run",
+      "distanceNavId": "base-recovery",
+      "distanceNavLabel": "Base / Recovery",
+      "distanceSortOrder": 14
     },
     {
       "id": "tv-erb-easy-30m-recreational-006",
@@ -987,7 +1017,13 @@
       "uniquenessSignature": "erb-easy-30m-recreational-006",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "easy-recovery-base",
+      "libraryCategoryLabel": "Easy / Recovery / Base Run",
+      "workoutType": "easy-run",
+      "distanceNavId": "base-recovery",
+      "distanceNavLabel": "Base / Recovery",
+      "distanceSortOrder": 14
     },
     {
       "id": "tv-erb-easy-40m-recreational-007",
@@ -1150,7 +1186,13 @@
       "uniquenessSignature": "erb-easy-40m-recreational-007",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "easy-recovery-base",
+      "libraryCategoryLabel": "Easy / Recovery / Base Run",
+      "workoutType": "easy-run",
+      "distanceNavId": "base-recovery",
+      "distanceNavLabel": "Base / Recovery",
+      "distanceSortOrder": 14
     },
     {
       "id": "tv-erb-easy-45m-developing-008",
@@ -1313,7 +1355,13 @@
       "uniquenessSignature": "erb-easy-45m-developing-008",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "easy-recovery-base",
+      "libraryCategoryLabel": "Easy / Recovery / Base Run",
+      "workoutType": "easy-run",
+      "distanceNavId": "base-recovery",
+      "distanceNavLabel": "Base / Recovery",
+      "distanceSortOrder": 14
     },
     {
       "id": "tv-erb-easy-50m-intermediate-009",
@@ -1476,7 +1524,13 @@
       "uniquenessSignature": "erb-easy-50m-intermediate-009",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "easy-recovery-base",
+      "libraryCategoryLabel": "Easy / Recovery / Base Run",
+      "workoutType": "easy-run",
+      "distanceNavId": "base-recovery",
+      "distanceNavLabel": "Base / Recovery",
+      "distanceSortOrder": 14
     },
     {
       "id": "tv-erb-easy-60m-intermediate-010",
@@ -1639,7 +1693,13 @@
       "uniquenessSignature": "erb-easy-60m-intermediate-010",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "easy-recovery-base",
+      "libraryCategoryLabel": "Easy / Recovery / Base Run",
+      "workoutType": "easy-run",
+      "distanceNavId": "base-recovery",
+      "distanceNavLabel": "Base / Recovery",
+      "distanceSortOrder": 14
     },
     {
       "id": "tv-erb-easy-70m-advanced-011",
@@ -1802,7 +1862,13 @@
       "uniquenessSignature": "erb-easy-70m-advanced-011",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "easy-recovery-base",
+      "libraryCategoryLabel": "Easy / Recovery / Base Run",
+      "workoutType": "easy-run",
+      "distanceNavId": "base-recovery",
+      "distanceNavLabel": "Base / Recovery",
+      "distanceSortOrder": 14
     },
     {
       "id": "tv-erb-base-45m-recreational-012",
@@ -1967,7 +2033,13 @@
       "uniquenessSignature": "erb-base-45m-recreational-012-074c3bcd",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "easy-recovery-base",
+      "libraryCategoryLabel": "Easy / Recovery / Base Run",
+      "workoutType": "easy-run",
+      "distanceNavId": "base-recovery",
+      "distanceNavLabel": "Base / Recovery",
+      "distanceSortOrder": 14
     },
     {
       "id": "tv-erb-base-60m-developing-013",
@@ -2132,7 +2204,13 @@
       "uniquenessSignature": "erb-base-60m-developing-013-824d77ab",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "easy-recovery-base",
+      "libraryCategoryLabel": "Easy / Recovery / Base Run",
+      "workoutType": "easy-run",
+      "distanceNavId": "base-recovery",
+      "distanceNavLabel": "Base / Recovery",
+      "distanceSortOrder": 14
     },
     {
       "id": "tv-erb-base-75m-intermediate-014",
@@ -2295,7 +2373,13 @@
       "uniquenessSignature": "erb-base-75m-intermediate-014",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "easy-recovery-base",
+      "libraryCategoryLabel": "Easy / Recovery / Base Run",
+      "workoutType": "easy-run",
+      "distanceNavId": "base-recovery",
+      "distanceNavLabel": "Base / Recovery",
+      "distanceSortOrder": 14
     },
     {
       "id": "tv-erb-base-80m-intermediate-015",
@@ -2458,7 +2542,13 @@
       "uniquenessSignature": "erb-base-80m-intermediate-015",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "easy-recovery-base",
+      "libraryCategoryLabel": "Easy / Recovery / Base Run",
+      "workoutType": "easy-run",
+      "distanceNavId": "base-recovery",
+      "distanceNavLabel": "Base / Recovery",
+      "distanceSortOrder": 14
     },
     {
       "id": "tv-erb-base-90m-advanced-016",
@@ -2621,7 +2711,13 @@
       "uniquenessSignature": "erb-base-90m-advanced-016",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "easy-recovery-base",
+      "libraryCategoryLabel": "Easy / Recovery / Base Run",
+      "workoutType": "easy-run",
+      "distanceNavId": "base-recovery",
+      "distanceNavLabel": "Base / Recovery",
+      "distanceSortOrder": 14
     },
     {
       "id": "tv-erb-strides-30m-recreational-017",
@@ -2841,7 +2937,13 @@
       "uniquenessSignature": "erb-strides-30m-recreational-017",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "easy-recovery-base",
+      "libraryCategoryLabel": "Easy / Recovery / Base Run",
+      "workoutType": "easy-run",
+      "distanceNavId": "base-recovery",
+      "distanceNavLabel": "Base / Recovery",
+      "distanceSortOrder": 14
     },
     {
       "id": "tv-erb-strides-40m-developing-018",
@@ -3061,7 +3163,13 @@
       "uniquenessSignature": "erb-strides-40m-developing-018",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "easy-recovery-base",
+      "libraryCategoryLabel": "Easy / Recovery / Base Run",
+      "workoutType": "easy-run",
+      "distanceNavId": "base-recovery",
+      "distanceNavLabel": "Base / Recovery",
+      "distanceSortOrder": 14
     },
     {
       "id": "tv-erb-strides-50m-intermediate-019",
@@ -3281,7 +3389,13 @@
       "uniquenessSignature": "erb-strides-50m-intermediate-019",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "easy-recovery-base",
+      "libraryCategoryLabel": "Easy / Recovery / Base Run",
+      "workoutType": "easy-run",
+      "distanceNavId": "base-recovery",
+      "distanceNavLabel": "Base / Recovery",
+      "distanceSortOrder": 14
     },
     {
       "id": "tv-erb-strides-60m-advanced-020",
@@ -3501,7 +3615,13 @@
       "uniquenessSignature": "erb-strides-60m-advanced-020",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "easy-recovery-base",
+      "libraryCategoryLabel": "Easy / Recovery / Base Run",
+      "workoutType": "easy-run",
+      "distanceNavId": "base-recovery",
+      "distanceNavLabel": "Base / Recovery",
+      "distanceSortOrder": 14
     },
     {
       "id": "tv-erb-lowhr-30m-recreational-021",
@@ -3663,7 +3783,13 @@
       "uniquenessSignature": "erb-lowhr-30m-recreational-021",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "easy-recovery-base",
+      "libraryCategoryLabel": "Easy / Recovery / Base Run",
+      "workoutType": "easy-run",
+      "distanceNavId": "base-recovery",
+      "distanceNavLabel": "Base / Recovery",
+      "distanceSortOrder": 14
     },
     {
       "id": "tv-erb-lowhr-45m-developing-022",
@@ -3826,7 +3952,13 @@
       "uniquenessSignature": "erb-lowhr-45m-developing-022",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "easy-recovery-base",
+      "libraryCategoryLabel": "Easy / Recovery / Base Run",
+      "workoutType": "easy-run",
+      "distanceNavId": "base-recovery",
+      "distanceNavLabel": "Base / Recovery",
+      "distanceSortOrder": 14
     },
     {
       "id": "tv-erb-lowhr-60m-intermediate-023",
@@ -3989,7 +4121,13 @@
       "uniquenessSignature": "erb-lowhr-60m-intermediate-023",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "easy-recovery-base",
+      "libraryCategoryLabel": "Easy / Recovery / Base Run",
+      "workoutType": "easy-run",
+      "distanceNavId": "base-recovery",
+      "distanceNavLabel": "Base / Recovery",
+      "distanceSortOrder": 14
     },
     {
       "id": "tv-erb-maint-25m-recreational-024",
@@ -4152,7 +4290,13 @@
       "uniquenessSignature": "erb-maint-25m-recreational-024",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "easy-recovery-base",
+      "libraryCategoryLabel": "Easy / Recovery / Base Run",
+      "workoutType": "easy-run",
+      "distanceNavId": "base-recovery",
+      "distanceNavLabel": "Base / Recovery",
+      "distanceSortOrder": 14
     },
     {
       "id": "tv-erb-maint-35m-developing-025",
@@ -4315,7 +4459,13 @@
       "uniquenessSignature": "erb-maint-35m-developing-025",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "easy-recovery-base",
+      "libraryCategoryLabel": "Easy / Recovery / Base Run",
+      "workoutType": "easy-run",
+      "distanceNavId": "base-recovery",
+      "distanceNavLabel": "Base / Recovery",
+      "distanceSortOrder": 14
     }
   ]
 }

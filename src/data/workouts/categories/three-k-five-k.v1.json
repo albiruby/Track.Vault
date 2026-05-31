@@ -226,7 +226,13 @@
       "uniquenessSignature": "35-beg-001",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "Foundational walk-run programming for new athletes."
+      "sourceNote": "Foundational walk-run programming for new athletes.",
+      "libraryCategoryId": "three-k-five-k",
+      "libraryCategoryLabel": "3K / 5K",
+      "workoutType": "three-k-five-k",
+      "distanceNavId": "5k",
+      "distanceNavLabel": "5K",
+      "distanceSortOrder": 8
     },
     {
       "id": "tv-35-beg-002",
@@ -426,7 +432,13 @@
       "uniquenessSignature": "35-beg-002-73c62a24",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "Standard slow aerobic base methodology."
+      "sourceNote": "Standard slow aerobic base methodology.",
+      "libraryCategoryId": "three-k-five-k",
+      "libraryCategoryLabel": "3K / 5K",
+      "workoutType": "three-k-five-k",
+      "distanceNavId": "5k",
+      "distanceNavLabel": "5K",
+      "distanceSortOrder": 8
     },
     {
       "id": "tv-35-beg-003",
@@ -640,7 +652,13 @@
       "uniquenessSignature": "35-beg-003",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "Classic Lydiard-style fartlek adaptation."
+      "sourceNote": "Classic Lydiard-style fartlek adaptation.",
+      "libraryCategoryId": "three-k-five-k",
+      "libraryCategoryLabel": "3K / 5K",
+      "workoutType": "three-k-five-k",
+      "distanceNavId": "5k",
+      "distanceNavLabel": "5K",
+      "distanceSortOrder": 8
     },
     {
       "id": "tv-35-beg-004",
@@ -838,7 +856,13 @@
       "uniquenessSignature": "35-beg-004",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "Aerobic stamina principles to safely bridge beginner and intermediate training."
+      "sourceNote": "Aerobic stamina principles to safely bridge beginner and intermediate training.",
+      "libraryCategoryId": "three-k-five-k",
+      "libraryCategoryLabel": "3K / 5K",
+      "workoutType": "three-k-five-k",
+      "distanceNavId": "5k",
+      "distanceNavLabel": "5K",
+      "distanceSortOrder": 8
     },
     {
       "id": "tv-35-thresh-005",
@@ -1070,7 +1094,13 @@
       "uniquenessSignature": "35-thresh-005",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "Classic Jack Daniels threshold interval methodology."
+      "sourceNote": "Classic Jack Daniels threshold interval methodology.",
+      "libraryCategoryId": "three-k-five-k",
+      "libraryCategoryLabel": "3K / 5K",
+      "workoutType": "three-k-five-k",
+      "distanceNavId": "5k",
+      "distanceNavLabel": "5K",
+      "distanceSortOrder": 8
     },
     {
       "id": "tv-35-thresh-006",
@@ -1288,7 +1318,13 @@
       "uniquenessSignature": "35-thresh-006",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "Classic continuous threshold tempo training."
+      "sourceNote": "Classic continuous threshold tempo training.",
+      "libraryCategoryId": "three-k-five-k",
+      "libraryCategoryLabel": "3K / 5K",
+      "workoutType": "three-k-five-k",
+      "distanceNavId": "5k",
+      "distanceNavLabel": "5K",
+      "distanceSortOrder": 8
     },
     {
       "id": "tv-35-thresh-007",
@@ -1521,7 +1557,13 @@
       "uniquenessSignature": "35-thresh-007-a1aa6024",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "High-volume ladder workouts for competitive road racers."
+      "sourceNote": "High-volume ladder workouts for competitive road racers.",
+      "libraryCategoryId": "three-k-five-k",
+      "libraryCategoryLabel": "3K / 5K",
+      "workoutType": "three-k-five-k",
+      "distanceNavId": "5k",
+      "distanceNavLabel": "5K",
+      "distanceSortOrder": 8
     },
     {
       "id": "tv-35-thresh-008",
@@ -1757,7 +1799,13 @@
       "uniquenessSignature": "35-thresh-008-6c8921bf",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "Adapted from legendary Australian marathoner Steve Moneghetti's training."
+      "sourceNote": "Adapted from legendary Australian marathoner Steve Moneghetti's training.",
+      "libraryCategoryId": "three-k-five-k",
+      "libraryCategoryLabel": "3K / 5K",
+      "workoutType": "three-k-five-k",
+      "distanceNavId": "5k",
+      "distanceNavLabel": "5K",
+      "distanceSortOrder": 8
     },
     {
       "id": "tv-35-thresh-009",
@@ -1990,7 +2038,13 @@
       "uniquenessSignature": "35-thresh-009",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "Classic block tempo training structure."
+      "sourceNote": "Classic block tempo training structure.",
+      "libraryCategoryId": "three-k-five-k",
+      "libraryCategoryLabel": "3K / 5K",
+      "workoutType": "three-k-five-k",
+      "distanceNavId": "5k",
+      "distanceNavLabel": "5K",
+      "distanceSortOrder": 8
     },
     {
       "id": "tv-35-thresh-010",
@@ -2208,7 +2262,13 @@
       "uniquenessSignature": "35-thresh-010",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "Classic Lydiard progressive aerobic methodology."
+      "sourceNote": "Classic Lydiard progressive aerobic methodology.",
+      "libraryCategoryId": "three-k-five-k",
+      "libraryCategoryLabel": "3K / 5K",
+      "workoutType": "three-k-five-k",
+      "distanceNavId": "5k",
+      "distanceNavLabel": "5K",
+      "distanceSortOrder": 8
     },
     {
       "id": "tv-35-thresh-011",
@@ -2440,7 +2500,13 @@
       "uniquenessSignature": "35-thresh-011",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "Advanced athletic performance training science."
+      "sourceNote": "Advanced athletic performance training science.",
+      "libraryCategoryId": "three-k-five-k",
+      "libraryCategoryLabel": "3K / 5K",
+      "workoutType": "three-k-five-k",
+      "distanceNavId": "5k",
+      "distanceNavLabel": "5K",
+      "distanceSortOrder": 8
     },
     {
       "id": "tv-35-vo2-012",
@@ -2672,7 +2738,13 @@
       "uniquenessSignature": "35-vo2-012",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "Classic interval session to establish pace confidence."
+      "sourceNote": "Classic interval session to establish pace confidence.",
+      "libraryCategoryId": "three-k-five-k",
+      "libraryCategoryLabel": "3K / 5K",
+      "workoutType": "three-k-five-k",
+      "distanceNavId": "5k",
+      "distanceNavLabel": "5K",
+      "distanceSortOrder": 8
     },
     {
       "id": "tv-35-vo2-013",
@@ -2903,7 +2975,13 @@
       "uniquenessSignature": "35-vo2-013",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "Standard VO2max training for competitive athletes."
+      "sourceNote": "Standard VO2max training for competitive athletes.",
+      "libraryCategoryId": "three-k-five-k",
+      "libraryCategoryLabel": "3K / 5K",
+      "workoutType": "three-k-five-k",
+      "distanceNavId": "5k",
+      "distanceNavLabel": "5K",
+      "distanceSortOrder": 8
     },
     {
       "id": "tv-35-vo2-014",
@@ -3136,7 +3214,13 @@
       "uniquenessSignature": "35-vo2-014",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "Classic interval session to establish pace confidence."
+      "sourceNote": "Classic interval session to establish pace confidence.",
+      "libraryCategoryId": "three-k-five-k",
+      "libraryCategoryLabel": "3K / 5K",
+      "workoutType": "three-k-five-k",
+      "distanceNavId": "5k",
+      "distanceNavLabel": "5K",
+      "distanceSortOrder": 8
     },
     {
       "id": "tv-35-vo2-015",
@@ -3368,7 +3452,13 @@
       "uniquenessSignature": "35-vo2-015",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "Classic interval session to establish pace confidence."
+      "sourceNote": "Classic interval session to establish pace confidence.",
+      "libraryCategoryId": "three-k-five-k",
+      "libraryCategoryLabel": "3K / 5K",
+      "workoutType": "three-k-five-k",
+      "distanceNavId": "5k",
+      "distanceNavLabel": "5K",
+      "distanceSortOrder": 8
     },
     {
       "id": "tv-35-vo2-016",
@@ -3596,7 +3686,13 @@
       "uniquenessSignature": "35-vo2-016",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "Classic interval session to establish pace confidence."
+      "sourceNote": "Classic interval session to establish pace confidence.",
+      "libraryCategoryId": "three-k-five-k",
+      "libraryCategoryLabel": "3K / 5K",
+      "workoutType": "three-k-five-k",
+      "distanceNavId": "5k",
+      "distanceNavLabel": "5K",
+      "distanceSortOrder": 8
     },
     {
       "id": "tv-35-vo2-017",
@@ -3827,7 +3923,13 @@
       "uniquenessSignature": "35-vo2-017",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "Standard VO2max training for competitive athletes."
+      "sourceNote": "Standard VO2max training for competitive athletes.",
+      "libraryCategoryId": "three-k-five-k",
+      "libraryCategoryLabel": "3K / 5K",
+      "workoutType": "three-k-five-k",
+      "distanceNavId": "5k",
+      "distanceNavLabel": "5K",
+      "distanceSortOrder": 8
     },
     {
       "id": "tv-35-vo2-018",
@@ -4057,7 +4159,13 @@
       "uniquenessSignature": "35-vo2-018",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "Classic interval session to establish pace confidence."
+      "sourceNote": "Classic interval session to establish pace confidence.",
+      "libraryCategoryId": "three-k-five-k",
+      "libraryCategoryLabel": "3K / 5K",
+      "workoutType": "three-k-five-k",
+      "distanceNavId": "5k",
+      "distanceNavLabel": "5K",
+      "distanceSortOrder": 8
     },
     {
       "id": "tv-35-vo2-019",
@@ -4288,7 +4396,13 @@
       "uniquenessSignature": "35-vo2-019",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "Classic interval session to establish pace confidence."
+      "sourceNote": "Classic interval session to establish pace confidence.",
+      "libraryCategoryId": "three-k-five-k",
+      "libraryCategoryLabel": "3K / 5K",
+      "workoutType": "three-k-five-k",
+      "distanceNavId": "5k",
+      "distanceNavLabel": "5K",
+      "distanceSortOrder": 8
     },
     {
       "id": "tv-35-rp-020",
@@ -4518,7 +4632,13 @@
       "uniquenessSignature": "35-rp-020",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "Classic short repeats for pace rhythm development."
+      "sourceNote": "Classic short repeats for pace rhythm development.",
+      "libraryCategoryId": "three-k-five-k",
+      "libraryCategoryLabel": "3K / 5K",
+      "workoutType": "three-k-five-k",
+      "distanceNavId": "5k",
+      "distanceNavLabel": "5K",
+      "distanceSortOrder": 8
     },
     {
       "id": "tv-35-rp-021",
@@ -4749,7 +4869,13 @@
       "uniquenessSignature": "35-rp-021",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "Classic event-specific pacing repeats."
+      "sourceNote": "Classic event-specific pacing repeats.",
+      "libraryCategoryId": "three-k-five-k",
+      "libraryCategoryLabel": "3K / 5K",
+      "workoutType": "three-k-five-k",
+      "distanceNavId": "5k",
+      "distanceNavLabel": "5K",
+      "distanceSortOrder": 8
     },
     {
       "id": "tv-35-rp-022",
@@ -4980,7 +5106,13 @@
       "uniquenessSignature": "35-rp-022",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "Specific racing preparation splits."
+      "sourceNote": "Specific racing preparation splits.",
+      "libraryCategoryId": "three-k-five-k",
+      "libraryCategoryLabel": "3K / 5K",
+      "workoutType": "three-k-five-k",
+      "distanceNavId": "5k",
+      "distanceNavLabel": "5K",
+      "distanceSortOrder": 8
     },
     {
       "id": "tv-35-rp-023",
@@ -5211,7 +5343,13 @@
       "uniquenessSignature": "35-rp-023",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "Specific racing preparation splits."
+      "sourceNote": "Specific racing preparation splits.",
+      "libraryCategoryId": "three-k-five-k",
+      "libraryCategoryLabel": "3K / 5K",
+      "workoutType": "three-k-five-k",
+      "distanceNavId": "5k",
+      "distanceNavLabel": "5K",
+      "distanceSortOrder": 8
     },
     {
       "id": "tv-35-rp-024",
@@ -5442,7 +5580,13 @@
       "uniquenessSignature": "35-rp-024",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "Specific racing preparation splits."
+      "sourceNote": "Specific racing preparation splits.",
+      "libraryCategoryId": "three-k-five-k",
+      "libraryCategoryLabel": "3K / 5K",
+      "workoutType": "three-k-five-k",
+      "distanceNavId": "5k",
+      "distanceNavLabel": "5K",
+      "distanceSortOrder": 8
     },
     {
       "id": "tv-35-rp-025",
@@ -5673,7 +5817,13 @@
       "uniquenessSignature": "35-rp-025",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "Specific racing preparation splits."
+      "sourceNote": "Specific racing preparation splits.",
+      "libraryCategoryId": "three-k-five-k",
+      "libraryCategoryLabel": "3K / 5K",
+      "workoutType": "three-k-five-k",
+      "distanceNavId": "5k",
+      "distanceNavLabel": "5K",
+      "distanceSortOrder": 8
     },
     {
       "id": "tv-35-rp-026",
@@ -5904,7 +6054,13 @@
       "uniquenessSignature": "35-rp-026",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "Specific racing preparation splits."
+      "sourceNote": "Specific racing preparation splits.",
+      "libraryCategoryId": "three-k-five-k",
+      "libraryCategoryLabel": "3K / 5K",
+      "workoutType": "three-k-five-k",
+      "distanceNavId": "5k",
+      "distanceNavLabel": "5K",
+      "distanceSortOrder": 8
     },
     {
       "id": "tv-35-sh-int-027",
@@ -6136,7 +6292,13 @@
       "uniquenessSignature": "35-sh-int-027",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "Specific racing preparation splits."
+      "sourceNote": "Specific racing preparation splits.",
+      "libraryCategoryId": "three-k-five-k",
+      "libraryCategoryLabel": "3K / 5K",
+      "workoutType": "three-k-five-k",
+      "distanceNavId": "3k",
+      "distanceNavLabel": "3K",
+      "distanceSortOrder": 7
     },
     {
       "id": "tv-35-sh-int-028",
@@ -6368,7 +6530,13 @@
       "uniquenessSignature": "35-sh-int-028",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "Specific racing preparation splits."
+      "sourceNote": "Specific racing preparation splits.",
+      "libraryCategoryId": "three-k-five-k",
+      "libraryCategoryLabel": "3K / 5K",
+      "workoutType": "three-k-five-k",
+      "distanceNavId": "3k",
+      "distanceNavLabel": "3K",
+      "distanceSortOrder": 7
     },
     {
       "id": "tv-35-sh-int-029",
@@ -6599,7 +6767,13 @@
       "uniquenessSignature": "35-sh-int-029",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "Classic short repeats for pace rhythm development."
+      "sourceNote": "Classic short repeats for pace rhythm development.",
+      "libraryCategoryId": "three-k-five-k",
+      "libraryCategoryLabel": "3K / 5K",
+      "workoutType": "three-k-five-k",
+      "distanceNavId": "3k",
+      "distanceNavLabel": "3K",
+      "distanceSortOrder": 7
     },
     {
       "id": "tv-35-sh-int-030",
@@ -6826,7 +7000,13 @@
       "uniquenessSignature": "35-sh-int-030",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "Specific racing preparation splits."
+      "sourceNote": "Specific racing preparation splits.",
+      "libraryCategoryId": "three-k-five-k",
+      "libraryCategoryLabel": "3K / 5K",
+      "workoutType": "three-k-five-k",
+      "distanceNavId": "3k",
+      "distanceNavLabel": "3K",
+      "distanceSortOrder": 7
     },
     {
       "id": "tv-35-sh-int-031",
@@ -7058,7 +7238,13 @@
       "uniquenessSignature": "35-sh-int-031",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "Specific racing preparation splits."
+      "sourceNote": "Specific racing preparation splits.",
+      "libraryCategoryId": "three-k-five-k",
+      "libraryCategoryLabel": "3K / 5K",
+      "workoutType": "three-k-five-k",
+      "distanceNavId": "3k",
+      "distanceNavLabel": "3K",
+      "distanceSortOrder": 7
     },
     {
       "id": "tv-35-rep-032",
@@ -7288,7 +7474,13 @@
       "uniquenessSignature": "35-rep-032",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "Classic short repeats for pace rhythm development."
+      "sourceNote": "Classic short repeats for pace rhythm development.",
+      "libraryCategoryId": "three-k-five-k",
+      "libraryCategoryLabel": "3K / 5K",
+      "workoutType": "three-k-five-k",
+      "distanceNavId": "5k",
+      "distanceNavLabel": "5K",
+      "distanceSortOrder": 8
     },
     {
       "id": "tv-35-rep-033",
@@ -7519,7 +7711,13 @@
       "uniquenessSignature": "35-rep-033",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "Classic event-specific pacing repeats."
+      "sourceNote": "Classic event-specific pacing repeats.",
+      "libraryCategoryId": "three-k-five-k",
+      "libraryCategoryLabel": "3K / 5K",
+      "workoutType": "three-k-five-k",
+      "distanceNavId": "5k",
+      "distanceNavLabel": "5K",
+      "distanceSortOrder": 8
     },
     {
       "id": "tv-35-rep-034",
@@ -7750,7 +7948,13 @@
       "uniquenessSignature": "35-rep-034",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "Specific racing preparation splits."
+      "sourceNote": "Specific racing preparation splits.",
+      "libraryCategoryId": "three-k-five-k",
+      "libraryCategoryLabel": "3K / 5K",
+      "workoutType": "three-k-five-k",
+      "distanceNavId": "5k",
+      "distanceNavLabel": "5K",
+      "distanceSortOrder": 8
     },
     {
       "id": "tv-35-rep-035",
@@ -7981,7 +8185,13 @@
       "uniquenessSignature": "35-rep-035",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "Specific racing preparation splits."
+      "sourceNote": "Specific racing preparation splits.",
+      "libraryCategoryId": "three-k-five-k",
+      "libraryCategoryLabel": "3K / 5K",
+      "workoutType": "three-k-five-k",
+      "distanceNavId": "5k",
+      "distanceNavLabel": "5K",
+      "distanceSortOrder": 8
     },
     {
       "id": "tv-35-rep-036",
@@ -8212,7 +8422,13 @@
       "uniquenessSignature": "35-rep-036",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "Specific racing preparation splits."
+      "sourceNote": "Specific racing preparation splits.",
+      "libraryCategoryId": "three-k-five-k",
+      "libraryCategoryLabel": "3K / 5K",
+      "workoutType": "three-k-five-k",
+      "distanceNavId": "5k",
+      "distanceNavLabel": "5K",
+      "distanceSortOrder": 8
     },
     {
       "id": "tv-35-fart-037",
@@ -8444,7 +8660,13 @@
       "uniquenessSignature": "35-fart-037",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "Classic Lydiard-style fartlek adaptation."
+      "sourceNote": "Classic Lydiard-style fartlek adaptation.",
+      "libraryCategoryId": "three-k-five-k",
+      "libraryCategoryLabel": "3K / 5K",
+      "workoutType": "three-k-five-k",
+      "distanceNavId": "5k",
+      "distanceNavLabel": "5K",
+      "distanceSortOrder": 8
     },
     {
       "id": "tv-35-fart-038",
@@ -8676,7 +8898,13 @@
       "uniquenessSignature": "35-fart-038",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "Specific racing preparation splits."
+      "sourceNote": "Specific racing preparation splits.",
+      "libraryCategoryId": "three-k-five-k",
+      "libraryCategoryLabel": "3K / 5K",
+      "workoutType": "three-k-five-k",
+      "distanceNavId": "5k",
+      "distanceNavLabel": "5K",
+      "distanceSortOrder": 8
     },
     {
       "id": "tv-35-fart-039",
@@ -8909,7 +9137,13 @@
       "uniquenessSignature": "35-fart-039",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "Specific racing preparation splits."
+      "sourceNote": "Specific racing preparation splits.",
+      "libraryCategoryId": "three-k-five-k",
+      "libraryCategoryLabel": "3K / 5K",
+      "workoutType": "three-k-five-k",
+      "distanceNavId": "5k",
+      "distanceNavLabel": "5K",
+      "distanceSortOrder": 8
     },
     {
       "id": "tv-35-fart-040",
@@ -9124,7 +9358,13 @@
       "uniquenessSignature": "35-fart-040",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "Classic interval session to establish pace confidence."
+      "sourceNote": "Classic interval session to establish pace confidence.",
+      "libraryCategoryId": "three-k-five-k",
+      "libraryCategoryLabel": "3K / 5K",
+      "workoutType": "three-k-five-k",
+      "distanceNavId": "5k",
+      "distanceNavLabel": "5K",
+      "distanceSortOrder": 8
     },
     {
       "id": "tv-35-taper-041",
@@ -9374,7 +9614,13 @@
       "uniquenessSignature": "35-taper-041",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "Specific racing preparation splits."
+      "sourceNote": "Specific racing preparation splits.",
+      "libraryCategoryId": "three-k-five-k",
+      "libraryCategoryLabel": "3K / 5K",
+      "workoutType": "three-k-five-k",
+      "distanceNavId": "5k",
+      "distanceNavLabel": "5K",
+      "distanceSortOrder": 8
     },
     {
       "id": "tv-35-taper-042",
@@ -9663,7 +9909,13 @@
       "uniquenessSignature": "35-taper-042",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "Specific racing preparation splits."
+      "sourceNote": "Specific racing preparation splits.",
+      "libraryCategoryId": "three-k-five-k",
+      "libraryCategoryLabel": "3K / 5K",
+      "workoutType": "three-k-five-k",
+      "distanceNavId": "5k",
+      "distanceNavLabel": "5K",
+      "distanceSortOrder": 8
     },
     {
       "id": "tv-35-taper-043",
@@ -9953,7 +10205,13 @@
       "uniquenessSignature": "35-taper-043",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "Specific racing preparation splits."
+      "sourceNote": "Specific racing preparation splits.",
+      "libraryCategoryId": "three-k-five-k",
+      "libraryCategoryLabel": "3K / 5K",
+      "workoutType": "three-k-five-k",
+      "distanceNavId": "5k",
+      "distanceNavLabel": "5K",
+      "distanceSortOrder": 8
     },
     {
       "id": "tv-35-adv-044",
@@ -10326,7 +10584,13 @@
       "uniquenessSignature": "35-adv-044",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "Specific racing preparation splits."
+      "sourceNote": "Specific racing preparation splits.",
+      "libraryCategoryId": "three-k-five-k",
+      "libraryCategoryLabel": "3K / 5K",
+      "workoutType": "three-k-five-k",
+      "distanceNavId": "5k",
+      "distanceNavLabel": "5K",
+      "distanceSortOrder": 8
     },
     {
       "id": "tv-35-adv-045",
@@ -10557,7 +10821,13 @@
       "uniquenessSignature": "35-adv-045",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "Specific racing preparation splits."
+      "sourceNote": "Specific racing preparation splits.",
+      "libraryCategoryId": "three-k-five-k",
+      "libraryCategoryLabel": "3K / 5K",
+      "workoutType": "three-k-five-k",
+      "distanceNavId": "5k",
+      "distanceNavLabel": "5K",
+      "distanceSortOrder": 8
     }
   ]
 }

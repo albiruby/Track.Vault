@@ -261,7 +261,13 @@
       "uniquenessSignature": "897c79dd7d-5k-race-week-3-x-1k-controlled-5k-intermediate",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "race-week-taper",
+      "libraryCategoryLabel": "Race Week / Taper / Sharpening",
+      "workoutType": "race-week",
+      "distanceNavId": "5k",
+      "distanceNavLabel": "5K",
+      "distanceSortOrder": 8
     },
     {
       "id": "tv-rt-002",
@@ -499,7 +505,13 @@
       "uniquenessSignature": "64283dc93f-5k-race-week-6-x-400m-smooth-5k-developing",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "race-week-taper",
+      "libraryCategoryLabel": "Race Week / Taper / Sharpening",
+      "workoutType": "pre-race-sharpening",
+      "distanceNavId": "5k",
+      "distanceNavLabel": "5K",
+      "distanceSortOrder": 8
     },
     {
       "id": "tv-rt-003",
@@ -781,7 +793,13 @@
       "uniquenessSignature": "dde74c0948-5k-pre-race-10-min-tempo-strides-5k-recreational",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "race-week-taper",
+      "libraryCategoryLabel": "Race Week / Taper / Sharpening",
+      "workoutType": "race-week",
+      "distanceNavId": "5k",
+      "distanceNavLabel": "5K",
+      "distanceSortOrder": 8
     },
     {
       "id": "tv-rt-004",
@@ -1019,7 +1037,13 @@
       "uniquenessSignature": "3ed9582815-5k-tune-up-5-x-2-min-race-rhythm-5k-intermediate",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "race-week-taper",
+      "libraryCategoryLabel": "Race Week / Taper / Sharpening",
+      "workoutType": "race-week",
+      "distanceNavId": "5k",
+      "distanceNavLabel": "5K",
+      "distanceSortOrder": 8
     },
     {
       "id": "tv-rt-005",
@@ -1260,7 +1284,13 @@
       "uniquenessSignature": "a23ca307f4-5k-race-eve-shakeout-strides-5k-beginner",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "race-week-taper",
+      "libraryCategoryLabel": "Race Week / Taper / Sharpening",
+      "workoutType": "shakeout",
+      "distanceNavId": "5k",
+      "distanceNavLabel": "5K",
+      "distanceSortOrder": 8
     },
     {
       "id": "tv-rt-006",
@@ -1498,7 +1528,13 @@
       "uniquenessSignature": "14c8d816d4-10k-race-week-4-x-1k-controlled-10k-intermediate",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "race-week-taper",
+      "libraryCategoryLabel": "Race Week / Taper / Sharpening",
+      "workoutType": "race-week",
+      "distanceNavId": "10k",
+      "distanceNavLabel": "10K",
+      "distanceSortOrder": 9
     },
     {
       "id": "tv-rt-007",
@@ -1736,7 +1772,13 @@
       "uniquenessSignature": "7b65aa82a3-10k-race-week-3-x-5-min-tempo-touch-10k-developing",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "race-week-taper",
+      "libraryCategoryLabel": "Race Week / Taper / Sharpening",
+      "workoutType": "race-week",
+      "distanceNavId": "10k",
+      "distanceNavLabel": "10K",
+      "distanceSortOrder": 9
     },
     {
       "id": "tv-rt-008",
@@ -1974,7 +2016,13 @@
       "uniquenessSignature": "215a3f2b02-10k-pre-race-8-x-200m-smooth-10k-intermediate",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "race-week-taper",
+      "libraryCategoryLabel": "Race Week / Taper / Sharpening",
+      "workoutType": "pre-race-sharpening",
+      "distanceNavId": "10k",
+      "distanceNavLabel": "10K",
+      "distanceSortOrder": 9
     },
     {
       "id": "tv-rt-009",
@@ -2211,7 +2259,13 @@
       "uniquenessSignature": "1835e4b528-10k-race-eve-easy-strides-10k-recreational",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "race-week-taper",
+      "libraryCategoryLabel": "Race Week / Taper / Sharpening",
+      "workoutType": "shakeout",
+      "distanceNavId": "10k",
+      "distanceNavLabel": "10K",
+      "distanceSortOrder": 9
     },
     {
       "id": "tv-rt-010",
@@ -2449,7 +2503,13 @@
       "uniquenessSignature": "d91cafff13-hm-race-week-3-x-5-min-tempo-half-marathon-intermediate",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "race-week-taper",
+      "libraryCategoryLabel": "Race Week / Taper / Sharpening",
+      "workoutType": "race-week",
+      "distanceNavId": "half-marathon",
+      "distanceNavLabel": "Half Marathon",
+      "distanceSortOrder": 10
     },
     {
       "id": "tv-rt-011",
@@ -2687,7 +2747,13 @@
       "uniquenessSignature": "63c82d524f-hm-race-week-2-x-10-min-race-rhythm-half-marathon-advanced",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "race-week-taper",
+      "libraryCategoryLabel": "Race Week / Taper / Sharpening",
+      "workoutType": "race-week",
+      "distanceNavId": "half-marathon",
+      "distanceNavLabel": "Half Marathon",
+      "distanceSortOrder": 10
     },
     {
       "id": "tv-rt-012",
@@ -2924,7 +2990,13 @@
       "uniquenessSignature": "83fe0231f1-hm-pre-race-easy-6-strides-half-marathon-recreational",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "race-week-taper",
+      "libraryCategoryLabel": "Race Week / Taper / Sharpening",
+      "workoutType": "shakeout",
+      "distanceNavId": "half-marathon",
+      "distanceNavLabel": "Half Marathon",
+      "distanceSortOrder": 10
     },
     {
       "id": "tv-rt-013",
@@ -3143,7 +3215,13 @@
       "uniquenessSignature": "0f0859d7dc-hm-mini-progression-tune-up-half-marathon-developing",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "race-week-taper",
+      "libraryCategoryLabel": "Race Week / Taper / Sharpening",
+      "workoutType": "race-week",
+      "distanceNavId": "half-marathon",
+      "distanceNavLabel": "Half Marathon",
+      "distanceSortOrder": 10
     },
     {
       "id": "tv-rt-014",
@@ -3381,7 +3459,13 @@
       "uniquenessSignature": "425ce3c6b7-marathon-race-week-2-x-10-min-mp-marathon-intermediate",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "race-week-taper",
+      "libraryCategoryLabel": "Race Week / Taper / Sharpening",
+      "workoutType": "race-week",
+      "distanceNavId": "marathon",
+      "distanceNavLabel": "Marathon",
+      "distanceSortOrder": 11
     },
     {
       "id": "tv-rt-015",
@@ -3619,7 +3703,13 @@
       "uniquenessSignature": "6616e321b3-marathon-race-week-6-x-1-min-smooth-marathon-developing",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "race-week-taper",
+      "libraryCategoryLabel": "Race Week / Taper / Sharpening",
+      "workoutType": "pre-race-sharpening",
+      "distanceNavId": "marathon",
+      "distanceNavLabel": "Marathon",
+      "distanceSortOrder": 11
     },
     {
       "id": "tv-rt-016",
@@ -3830,7 +3920,13 @@
       "uniquenessSignature": "0048d7bc7a-marathon-shakeout-fuel-check-marathon-recreational",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "race-week-taper",
+      "libraryCategoryLabel": "Race Week / Taper / Sharpening",
+      "workoutType": "shakeout",
+      "distanceNavId": "marathon",
+      "distanceNavLabel": "Marathon",
+      "distanceSortOrder": 11
     },
     {
       "id": "tv-rt-017",
@@ -4017,7 +4113,13 @@
       "uniquenessSignature": "139cc9d572-marathon-taper-aerobic-maintenance-marathon-beginner",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "race-week-taper",
+      "libraryCategoryLabel": "Race Week / Taper / Sharpening",
+      "workoutType": "taper",
+      "distanceNavId": "marathon",
+      "distanceNavLabel": "Marathon",
+      "distanceSortOrder": 11
     },
     {
       "id": "tv-rt-018",
@@ -4256,7 +4358,13 @@
       "uniquenessSignature": "a2108fd564-800m-race-week-4-x-200m-relaxed-fast-800m-advanced",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "race-week-taper",
+      "libraryCategoryLabel": "Race Week / Taper / Sharpening",
+      "workoutType": "pre-race-sharpening",
+      "distanceNavId": "800m",
+      "distanceNavLabel": "800m",
+      "distanceSortOrder": 4
     },
     {
       "id": "tv-rt-019",
@@ -4497,7 +4605,13 @@
       "uniquenessSignature": "3514b21128-1500m-race-week-5-x-300m-smooth-1500m-advanced",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "race-week-taper",
+      "libraryCategoryLabel": "Race Week / Taper / Sharpening",
+      "workoutType": "pre-race-sharpening",
+      "distanceNavId": "1500m",
+      "distanceNavLabel": "1500m",
+      "distanceSortOrder": 5
     },
     {
       "id": "tv-rt-020",
@@ -4737,7 +4851,13 @@
       "uniquenessSignature": "3c9d47ad5e-mile-race-week-6-x-200m-rhythm-mile-intermediate",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "race-week-taper",
+      "libraryCategoryLabel": "Race Week / Taper / Sharpening",
+      "workoutType": "pre-race-sharpening",
+      "distanceNavId": "mile",
+      "distanceNavLabel": "Mile",
+      "distanceSortOrder": 6
     },
     {
       "id": "tv-rt-021",
@@ -4972,7 +5092,13 @@
       "uniquenessSignature": "rt-800m-prerace-2x300m-2x150m-900m-competitive-021",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "race-week-taper",
+      "libraryCategoryLabel": "Race Week / Taper / Sharpening",
+      "workoutType": "pre-race-sharpening",
+      "distanceNavId": "800m",
+      "distanceNavLabel": "800m",
+      "distanceSortOrder": 4
     },
     {
       "id": "tv-rt-022",
@@ -5209,7 +5335,13 @@
       "uniquenessSignature": "rt-1500m-prerace-400-300-200-cutdown-900m-competitive-022",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "race-week-taper",
+      "libraryCategoryLabel": "Race Week / Taper / Sharpening",
+      "workoutType": "pre-race-sharpening",
+      "distanceNavId": "1500m",
+      "distanceNavLabel": "1500m",
+      "distanceSortOrder": 5
     },
     {
       "id": "tv-rt-023",
@@ -5448,7 +5580,13 @@
       "uniquenessSignature": "1464423f9c-100m-race-week-flying-20s-100m-advanced",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "race-week-taper",
+      "libraryCategoryLabel": "Race Week / Taper / Sharpening",
+      "workoutType": "pre-race-sharpening",
+      "distanceNavId": "100m",
+      "distanceNavLabel": "100m",
+      "distanceSortOrder": 1
     },
     {
       "id": "tv-rt-024",
@@ -5687,7 +5825,13 @@
       "uniquenessSignature": "7c6a55697a-200m-race-week-3-x-120m-smooth-200m-advanced",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "race-week-taper",
+      "libraryCategoryLabel": "Race Week / Taper / Sharpening",
+      "workoutType": "pre-race-sharpening",
+      "distanceNavId": "200m",
+      "distanceNavLabel": "200m",
+      "distanceSortOrder": 2
     },
     {
       "id": "tv-rt-025",
@@ -5926,7 +6070,13 @@
       "uniquenessSignature": "4791a53b7e-400m-race-week-2-x-200m-rhythm-400m-competitive",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "race-week-taper",
+      "libraryCategoryLabel": "Race Week / Taper / Sharpening",
+      "workoutType": "pre-race-sharpening",
+      "distanceNavId": "400m",
+      "distanceNavLabel": "400m",
+      "distanceSortOrder": 3
     },
     {
       "id": "tv-rt-026",
@@ -6112,7 +6262,13 @@
       "uniquenessSignature": "68a59c5b08-general-pre-race-20-min-shakeout-general-beginner",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "race-week-taper",
+      "libraryCategoryLabel": "Race Week / Taper / Sharpening",
+      "workoutType": "shakeout",
+      "distanceNavId": "general",
+      "distanceNavLabel": "General",
+      "distanceSortOrder": 15
     },
     {
       "id": "tv-rt-027",
@@ -6349,7 +6505,13 @@
       "uniquenessSignature": "rt-027-c1cb33a5",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "race-week-taper",
+      "libraryCategoryLabel": "Race Week / Taper / Sharpening",
+      "workoutType": "shakeout",
+      "distanceNavId": "general",
+      "distanceNavLabel": "General",
+      "distanceSortOrder": 15
     },
     {
       "id": "tv-rt-028",
@@ -6558,7 +6720,13 @@
       "uniquenessSignature": "9fdbff5d25-general-travel-day-shakeout-general-recreational",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "race-week-taper",
+      "libraryCategoryLabel": "Race Week / Taper / Sharpening",
+      "workoutType": "shakeout",
+      "distanceNavId": "general",
+      "distanceNavLabel": "General",
+      "distanceSortOrder": 15
     },
     {
       "id": "tv-rt-029",
@@ -6755,7 +6923,13 @@
       "uniquenessSignature": "8e3e88dc50-general-restless-legs-strides-general-developing",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "race-week-taper",
+      "libraryCategoryLabel": "Race Week / Taper / Sharpening",
+      "workoutType": "shakeout",
+      "distanceNavId": "general",
+      "distanceNavLabel": "General",
+      "distanceSortOrder": 15
     },
     {
       "id": "tv-rt-030",
@@ -6937,7 +7111,13 @@
       "uniquenessSignature": "7f75f700b5-general-race-morning-wake-up-general-beginner",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "race-week-taper",
+      "libraryCategoryLabel": "Race Week / Taper / Sharpening",
+      "workoutType": "shakeout",
+      "distanceNavId": "general",
+      "distanceNavLabel": "General",
+      "distanceSortOrder": 15
     }
   ]
 }

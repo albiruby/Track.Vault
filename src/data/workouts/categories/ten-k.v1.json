@@ -211,7 +211,13 @@
       "uniquenessSignature": "10-thresh-001",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "Classic continuous threshold tempo training."
+      "sourceNote": "Classic continuous threshold tempo training.",
+      "libraryCategoryId": "ten-k",
+      "libraryCategoryLabel": "10K",
+      "workoutType": "ten-k",
+      "distanceNavId": "10k",
+      "distanceNavLabel": "10K",
+      "distanceSortOrder": 9
     },
     {
       "id": "tv-10-thresh-002",
@@ -424,7 +430,13 @@
       "uniquenessSignature": "10-thresh-002",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "Classic block tempo training structure."
+      "sourceNote": "Classic block tempo training structure.",
+      "libraryCategoryId": "ten-k",
+      "libraryCategoryLabel": "10K",
+      "workoutType": "ten-k",
+      "distanceNavId": "10k",
+      "distanceNavLabel": "10K",
+      "distanceSortOrder": 9
     },
     {
       "id": "tv-10-thresh-003",
@@ -656,7 +668,13 @@
       "uniquenessSignature": "10-thresh-003",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "Advanced athletic performance training science."
+      "sourceNote": "Advanced athletic performance training science.",
+      "libraryCategoryId": "ten-k",
+      "libraryCategoryLabel": "10K",
+      "workoutType": "ten-k",
+      "distanceNavId": "10k",
+      "distanceNavLabel": "10K",
+      "distanceSortOrder": 9
     },
     {
       "id": "tv-10-thresh-004",
@@ -870,7 +888,13 @@
       "uniquenessSignature": "10-thresh-004",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "Adapted from legendary Australian marathoner Steve Moneghetti's training."
+      "sourceNote": "Adapted from legendary Australian marathoner Steve Moneghetti's training.",
+      "libraryCategoryId": "ten-k",
+      "libraryCategoryLabel": "10K",
+      "workoutType": "ten-k",
+      "distanceNavId": "10k",
+      "distanceNavLabel": "10K",
+      "distanceSortOrder": 9
     },
     {
       "id": "tv-10-thresh-005",
@@ -1100,7 +1124,13 @@
       "uniquenessSignature": "10-thresh-005",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "High-volume ladder workouts for competitive road racers."
+      "sourceNote": "High-volume ladder workouts for competitive road racers.",
+      "libraryCategoryId": "ten-k",
+      "libraryCategoryLabel": "10K",
+      "workoutType": "ten-k",
+      "distanceNavId": "10k",
+      "distanceNavLabel": "10K",
+      "distanceSortOrder": 9
     },
     {
       "id": "tv-10-thresh-006",
@@ -1298,7 +1328,13 @@
       "uniquenessSignature": "10-thresh-006",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "Classic Lydiard progressive aerobic methodology."
+      "sourceNote": "Classic Lydiard progressive aerobic methodology.",
+      "libraryCategoryId": "ten-k",
+      "libraryCategoryLabel": "10K",
+      "workoutType": "ten-k",
+      "distanceNavId": "10k",
+      "distanceNavLabel": "10K",
+      "distanceSortOrder": 9
     },
     {
       "id": "tv-10-thresh-007",
@@ -1529,7 +1565,13 @@
       "uniquenessSignature": "10-thresh-007",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "High-volume ladder workouts for competitive road racers."
+      "sourceNote": "High-volume ladder workouts for competitive road racers.",
+      "libraryCategoryId": "ten-k",
+      "libraryCategoryLabel": "10K",
+      "workoutType": "ten-k",
+      "distanceNavId": "10k",
+      "distanceNavLabel": "10K",
+      "distanceSortOrder": 9
     },
     {
       "id": "tv-10-tempo-008",
@@ -1727,7 +1769,13 @@
       "uniquenessSignature": "10-tempo-008",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "Standard slow aerobic base methodology."
+      "sourceNote": "Standard slow aerobic base methodology.",
+      "libraryCategoryId": "ten-k",
+      "libraryCategoryLabel": "10K",
+      "workoutType": "ten-k",
+      "distanceNavId": "10k",
+      "distanceNavLabel": "10K",
+      "distanceSortOrder": 9
     },
     {
       "id": "tv-10-tempo-009",
@@ -1925,7 +1973,13 @@
       "uniquenessSignature": "10-tempo-009",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "Standard slow aerobic base methodology."
+      "sourceNote": "Standard slow aerobic base methodology.",
+      "libraryCategoryId": "ten-k",
+      "libraryCategoryLabel": "10K",
+      "workoutType": "ten-k",
+      "distanceNavId": "10k",
+      "distanceNavLabel": "10K",
+      "distanceSortOrder": 9
     },
     {
       "id": "tv-10-tempo-010",
@@ -2138,7 +2192,13 @@
       "uniquenessSignature": "10-tempo-010",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "Classic block tempo training structure."
+      "sourceNote": "Classic block tempo training structure.",
+      "libraryCategoryId": "ten-k",
+      "libraryCategoryLabel": "10K",
+      "workoutType": "ten-k",
+      "distanceNavId": "10k",
+      "distanceNavLabel": "10K",
+      "distanceSortOrder": 9
     },
     {
       "id": "tv-10-tempo-011",
@@ -2336,7 +2396,13 @@
       "uniquenessSignature": "10-tempo-011",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "Classic Lydiard progressive aerobic methodology."
+      "sourceNote": "Classic Lydiard progressive aerobic methodology.",
+      "libraryCategoryId": "ten-k",
+      "libraryCategoryLabel": "10K",
+      "workoutType": "ten-k",
+      "distanceNavId": "10k",
+      "distanceNavLabel": "10K",
+      "distanceSortOrder": 9
     },
     {
       "id": "tv-10-tempo-012",
@@ -2534,7 +2600,13 @@
       "uniquenessSignature": "10-tempo-012",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "Standard slow aerobic base methodology."
+      "sourceNote": "Standard slow aerobic base methodology.",
+      "libraryCategoryId": "ten-k",
+      "libraryCategoryLabel": "10K",
+      "workoutType": "ten-k",
+      "distanceNavId": "10k",
+      "distanceNavLabel": "10K",
+      "distanceSortOrder": 9
     },
     {
       "id": "tv-10-cruise-013",
@@ -2746,7 +2818,13 @@
       "uniquenessSignature": "10-cruise-013",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "Classic Jack Daniels threshold interval methodology."
+      "sourceNote": "Classic Jack Daniels threshold interval methodology.",
+      "libraryCategoryId": "ten-k",
+      "libraryCategoryLabel": "10K",
+      "workoutType": "ten-k",
+      "distanceNavId": "10k",
+      "distanceNavLabel": "10K",
+      "distanceSortOrder": 9
     },
     {
       "id": "tv-10-cruise-014",
@@ -2958,7 +3036,13 @@
       "uniquenessSignature": "10-cruise-014",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "Classic Jack Daniels threshold interval methodology."
+      "sourceNote": "Classic Jack Daniels threshold interval methodology.",
+      "libraryCategoryId": "ten-k",
+      "libraryCategoryLabel": "10K",
+      "workoutType": "ten-k",
+      "distanceNavId": "10k",
+      "distanceNavLabel": "10K",
+      "distanceSortOrder": 9
     },
     {
       "id": "tv-10-cruise-015",
@@ -3170,7 +3254,13 @@
       "uniquenessSignature": "10-cruise-015",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "Classic Jack Daniels threshold interval methodology."
+      "sourceNote": "Classic Jack Daniels threshold interval methodology.",
+      "libraryCategoryId": "ten-k",
+      "libraryCategoryLabel": "10K",
+      "workoutType": "ten-k",
+      "distanceNavId": "10k",
+      "distanceNavLabel": "10K",
+      "distanceSortOrder": 9
     },
     {
       "id": "tv-10-cruise-016",
@@ -3400,7 +3490,13 @@
       "uniquenessSignature": "10-cruise-016",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "High-volume ladder workouts for competitive road racers."
+      "sourceNote": "High-volume ladder workouts for competitive road racers.",
+      "libraryCategoryId": "ten-k",
+      "libraryCategoryLabel": "10K",
+      "workoutType": "ten-k",
+      "distanceNavId": "10k",
+      "distanceNavLabel": "10K",
+      "distanceSortOrder": 9
     },
     {
       "id": "tv-10-cruise-017",
@@ -3631,7 +3727,13 @@
       "uniquenessSignature": "10-cruise-017",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "Specific racing preparation splits."
+      "sourceNote": "Specific racing preparation splits.",
+      "libraryCategoryId": "ten-k",
+      "libraryCategoryLabel": "10K",
+      "workoutType": "ten-k",
+      "distanceNavId": "10k",
+      "distanceNavLabel": "10K",
+      "distanceSortOrder": 9
     },
     {
       "id": "tv-10-rep-018",
@@ -3843,7 +3945,13 @@
       "uniquenessSignature": "10k-5x1k-repeats-intermediate-018",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "Classic event-specific pacing repeats."
+      "sourceNote": "Classic event-specific pacing repeats.",
+      "libraryCategoryId": "ten-k",
+      "libraryCategoryLabel": "10K",
+      "workoutType": "ten-k",
+      "distanceNavId": "10k",
+      "distanceNavLabel": "10K",
+      "distanceSortOrder": 9
     },
     {
       "id": "tv-10-rep-019",
@@ -4074,7 +4182,13 @@
       "uniquenessSignature": "10-rep-019",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "Specific racing preparation splits."
+      "sourceNote": "Specific racing preparation splits.",
+      "libraryCategoryId": "ten-k",
+      "libraryCategoryLabel": "10K",
+      "workoutType": "ten-k",
+      "distanceNavId": "10k",
+      "distanceNavLabel": "10K",
+      "distanceSortOrder": 9
     },
     {
       "id": "tv-10-rep-020",
@@ -4305,7 +4419,13 @@
       "uniquenessSignature": "10-rep-020",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "Specific racing preparation splits."
+      "sourceNote": "Specific racing preparation splits.",
+      "libraryCategoryId": "ten-k",
+      "libraryCategoryLabel": "10K",
+      "workoutType": "ten-k",
+      "distanceNavId": "10k",
+      "distanceNavLabel": "10K",
+      "distanceSortOrder": 9
     },
     {
       "id": "tv-10-rep-021",
@@ -4536,7 +4656,13 @@
       "uniquenessSignature": "10-rep-021",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "Specific racing preparation splits."
+      "sourceNote": "Specific racing preparation splits.",
+      "libraryCategoryId": "ten-k",
+      "libraryCategoryLabel": "10K",
+      "workoutType": "ten-k",
+      "distanceNavId": "10k",
+      "distanceNavLabel": "10K",
+      "distanceSortOrder": 9
     },
     {
       "id": "tv-10-rep-022",
@@ -4767,7 +4893,13 @@
       "uniquenessSignature": "10-rep-022",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "Specific racing preparation splits."
+      "sourceNote": "Specific racing preparation splits.",
+      "libraryCategoryId": "ten-k",
+      "libraryCategoryLabel": "10K",
+      "workoutType": "ten-k",
+      "distanceNavId": "10k",
+      "distanceNavLabel": "10K",
+      "distanceSortOrder": 9
     },
     {
       "id": "tv-10-long-rep-023",
@@ -5000,7 +5132,13 @@
       "uniquenessSignature": "10-long-rep-023-b9e9c831",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "High-volume ladder workouts for competitive road racers."
+      "sourceNote": "High-volume ladder workouts for competitive road racers.",
+      "libraryCategoryId": "ten-k",
+      "libraryCategoryLabel": "10K",
+      "workoutType": "ten-k",
+      "distanceNavId": "10k",
+      "distanceNavLabel": "10K",
+      "distanceSortOrder": 9
     },
     {
       "id": "tv-10-long-rep-024",
@@ -5232,7 +5370,13 @@
       "uniquenessSignature": "10-long-rep-024",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "Specific racing preparation splits."
+      "sourceNote": "Specific racing preparation splits.",
+      "libraryCategoryId": "ten-k",
+      "libraryCategoryLabel": "10K",
+      "workoutType": "ten-k",
+      "distanceNavId": "10k",
+      "distanceNavLabel": "10K",
+      "distanceSortOrder": 9
     },
     {
       "id": "tv-10-long-rep-025",
@@ -5463,7 +5607,13 @@
       "uniquenessSignature": "10-long-rep-025",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "Specific racing preparation splits."
+      "sourceNote": "Specific racing preparation splits.",
+      "libraryCategoryId": "ten-k",
+      "libraryCategoryLabel": "10K",
+      "workoutType": "ten-k",
+      "distanceNavId": "10k",
+      "distanceNavLabel": "10K",
+      "distanceSortOrder": 9
     },
     {
       "id": "tv-10-rp-026",
@@ -5674,7 +5824,13 @@
       "uniquenessSignature": "10-rp-026",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "Classic short repeats for pace rhythm development."
+      "sourceNote": "Classic short repeats for pace rhythm development.",
+      "libraryCategoryId": "ten-k",
+      "libraryCategoryLabel": "10K",
+      "workoutType": "ten-k",
+      "distanceNavId": "10k",
+      "distanceNavLabel": "10K",
+      "distanceSortOrder": 9
     },
     {
       "id": "tv-10-rp-027",
@@ -5886,7 +6042,13 @@
       "uniquenessSignature": "10-rp-027",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "Classic event-specific pacing repeats."
+      "sourceNote": "Classic event-specific pacing repeats.",
+      "libraryCategoryId": "ten-k",
+      "libraryCategoryLabel": "10K",
+      "workoutType": "ten-k",
+      "distanceNavId": "10k",
+      "distanceNavLabel": "10K",
+      "distanceSortOrder": 9
     },
     {
       "id": "tv-10-rp-028",
@@ -6117,7 +6279,13 @@
       "uniquenessSignature": "10-rp-028",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "Specific racing preparation splits."
+      "sourceNote": "Specific racing preparation splits.",
+      "libraryCategoryId": "ten-k",
+      "libraryCategoryLabel": "10K",
+      "workoutType": "ten-k",
+      "distanceNavId": "10k",
+      "distanceNavLabel": "10K",
+      "distanceSortOrder": 9
     },
     {
       "id": "tv-10-prog-029",
@@ -6315,7 +6483,13 @@
       "uniquenessSignature": "10-prog-029",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "Standard slow aerobic base methodology."
+      "sourceNote": "Standard slow aerobic base methodology.",
+      "libraryCategoryId": "ten-k",
+      "libraryCategoryLabel": "10K",
+      "workoutType": "ten-k",
+      "distanceNavId": "10k",
+      "distanceNavLabel": "10K",
+      "distanceSortOrder": 9
     },
     {
       "id": "tv-10-prog-030",
@@ -6513,7 +6687,13 @@
       "uniquenessSignature": "10-prog-030",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "Standard slow aerobic base methodology."
+      "sourceNote": "Standard slow aerobic base methodology.",
+      "libraryCategoryId": "ten-k",
+      "libraryCategoryLabel": "10K",
+      "workoutType": "ten-k",
+      "distanceNavId": "10k",
+      "distanceNavLabel": "10K",
+      "distanceSortOrder": 9
     }
   ]
 }

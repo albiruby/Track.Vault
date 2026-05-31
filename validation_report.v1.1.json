@@ -1,0 +1,52 @@
+{
+  "package": "TrackVault_WorkoutLibrary_JSON_FULL_v1.1_NAV_READY.zip",
+  "version": "1.1.0",
+  "source": "TrackVault_WorkoutLibrary_JSON_FULL_v1_STANDARDIZED.zip",
+  "totalWorkouts": 360,
+  "totalCategoryFiles": 13,
+  "errors": [],
+  "duplicateMainSetStructures": 0,
+  "categoryCounts": {
+    "beginner-return": 25,
+    "easy-recovery-base": 25,
+    "fartlek-mixed": 25,
+    "half-marathon": 25,
+    "hill-trail": 25,
+    "long-run-progression": 25,
+    "marathon": 25,
+    "middle-distance-800m-mile": 35,
+    "race-week-taper": 30,
+    "sprint-100m-400m": 30,
+    "ten-k": 30,
+    "three-k-five-k": 45,
+    "treadmill": 15
+  },
+  "distanceNavigationCounts": {
+    "all": 360,
+    "100m": 17,
+    "200m": 8,
+    "400m": 8,
+    "800m": 16,
+    "1500m": 10,
+    "mile": 14,
+    "3k": 6,
+    "5k": 53,
+    "10k": 35,
+    "half-marathon": 31,
+    "marathon": 31,
+    "trail": 8,
+    "treadmill": 15,
+    "base-recovery": 25,
+    "general": 83
+  },
+  "newFieldsAdded": [
+    "libraryCategoryId",
+    "libraryCategoryLabel",
+    "workoutType",
+    "distanceNavId",
+    "distanceNavLabel",
+    "distanceSortOrder"
+  ],
+  "contentChanged": false,
+  "metadataPatchOnly": true
+}

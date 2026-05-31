@@ -31,10 +31,10 @@ export function WorkoutSort({ value, onChange }: WorkoutSortProps) {
       <select
         value={value}
         onChange={(e) => onChange(e.target.value)}
-        className="block w-full pl-9 pr-10 py-3 text-xs md:text-sm bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-xl focus:outline-none focus:ring-2 focus:ring-orange-500/20 focus:border-orange-500 text-slate-700 dark:text-slate-300 transition-all font-sans cursor-pointer appearance-none"
+        className="block w-full pl-9 pr-10 py-3 text-xs md:text-sm bg-white dark:bg-[#151A23] border border-[#D8DEE8] dark:border-[#2A3445] rounded-sm focus:outline-none focus:ring-2 focus:ring-[#FF4E00]/10 focus:border-[#FF4E00] text-[#374151] dark:text-slate-350 transition-all font-sans cursor-pointer appearance-none"
       >
         {options.map((opt) => (
-          <option key={opt.value} value={opt.value} className="bg-white dark:bg-slate-900">
+          <option key={opt.value} value={opt.value} className="bg-white dark:bg-[#151A23]">
             {opt.label}
           </option>
         ))}

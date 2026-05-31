@@ -201,7 +201,13 @@
       "uniquenessSignature": "26808c87c3-marathon-easy-long-run-foundation-marathon-developing",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "marathon",
+      "libraryCategoryLabel": "Marathon",
+      "workoutType": "long-run",
+      "distanceNavId": "marathon",
+      "distanceNavLabel": "Marathon",
+      "distanceSortOrder": 11
     },
     {
       "id": "tv-m-002",
@@ -390,7 +396,13 @@
       "uniquenessSignature": "b416d52417-marathon-soft-surface-long-run-marathon-recreational",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "marathon",
+      "libraryCategoryLabel": "Marathon",
+      "workoutType": "long-run",
+      "distanceNavId": "marathon",
+      "distanceNavLabel": "Marathon",
+      "distanceSortOrder": 11
     },
     {
       "id": "tv-m-003",
@@ -580,7 +592,13 @@
       "uniquenessSignature": "5e975dcdd5-marathon-aerobic-duration-builder-marathon-intermediate",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "marathon",
+      "libraryCategoryLabel": "Marathon",
+      "workoutType": "long-run",
+      "distanceNavId": "marathon",
+      "distanceNavLabel": "Marathon",
+      "distanceSortOrder": 11
     },
     {
       "id": "tv-m-004",
@@ -770,7 +788,13 @@
       "uniquenessSignature": "73e945df18-marathon-recovery-long-jog-marathon-developing",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "marathon",
+      "libraryCategoryLabel": "Marathon",
+      "workoutType": "long-run",
+      "distanceNavId": "marathon",
+      "distanceNavLabel": "Marathon",
+      "distanceSortOrder": 11
     },
     {
       "id": "tv-m-005",
@@ -974,7 +998,13 @@
       "uniquenessSignature": "dbfb99e163-marathon-2-x-20-min-effort-marathon-intermediate",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "marathon",
+      "libraryCategoryLabel": "Marathon",
+      "workoutType": "race-pace",
+      "distanceNavId": "marathon",
+      "distanceNavLabel": "Marathon",
+      "distanceSortOrder": 11
     },
     {
       "id": "tv-m-006",
@@ -1178,7 +1208,13 @@
       "uniquenessSignature": "c5ddde7751-marathon-3-x-5k-pace-blocks-marathon-advanced",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "marathon",
+      "libraryCategoryLabel": "Marathon",
+      "workoutType": "race-pace",
+      "distanceNavId": "marathon",
+      "distanceNavLabel": "Marathon",
+      "distanceSortOrder": 11
     },
     {
       "id": "tv-m-007",
@@ -1367,7 +1403,13 @@
       "uniquenessSignature": "816ebaff6f-marathon-pace-finish-long-run-marathon-intermediate",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "marathon",
+      "libraryCategoryLabel": "Marathon",
+      "workoutType": "long-run",
+      "distanceNavId": "marathon",
+      "distanceNavLabel": "Marathon",
+      "distanceSortOrder": 11
     },
     {
       "id": "tv-m-008",
@@ -1572,7 +1614,13 @@
       "uniquenessSignature": "15e2a7d0f2-marathon-alternating-kilometers-marathon-advanced",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "marathon",
+      "libraryCategoryLabel": "Marathon",
+      "workoutType": "race-pace",
+      "distanceNavId": "marathon",
+      "distanceNavLabel": "Marathon",
+      "distanceSortOrder": 11
     },
     {
       "id": "tv-m-009",
@@ -1776,7 +1824,13 @@
       "uniquenessSignature": "2e524341e7-marathon-4-x-15-min-rhythm-blocks-marathon-developing",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "marathon",
+      "libraryCategoryLabel": "Marathon",
+      "workoutType": "race-pace",
+      "distanceNavId": "marathon",
+      "distanceNavLabel": "Marathon",
+      "distanceSortOrder": 11
     },
     {
       "id": "tv-m-010",
@@ -1965,7 +2019,13 @@
       "uniquenessSignature": "1404507e10-marathon-continuous-50-min-effort-marathon-advanced",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "marathon",
+      "libraryCategoryLabel": "Marathon",
+      "workoutType": "race-pace",
+      "distanceNavId": "marathon",
+      "distanceNavLabel": "Marathon",
+      "distanceSortOrder": 11
     },
     {
       "id": "tv-m-011",
@@ -2155,7 +2215,13 @@
       "uniquenessSignature": "fbda0c2c10-marathon-steady-aerobic-90-marathon-intermediate",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "marathon",
+      "libraryCategoryLabel": "Marathon",
+      "workoutType": "steady-run",
+      "distanceNavId": "marathon",
+      "distanceNavLabel": "Marathon",
+      "distanceSortOrder": 11
     },
     {
       "id": "tv-m-012",
@@ -2344,7 +2410,13 @@
       "uniquenessSignature": "b8b6f49a92-marathon-upper-aerobic-cruise-marathon-advanced",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "marathon",
+      "libraryCategoryLabel": "Marathon",
+      "workoutType": "steady-run",
+      "distanceNavId": "marathon",
+      "distanceNavLabel": "Marathon",
+      "distanceSortOrder": 11
     },
     {
       "id": "tv-m-013",
@@ -2533,7 +2605,13 @@
       "uniquenessSignature": "3787b78849-marathon-medium-long-steady-run-marathon-developing",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "marathon",
+      "libraryCategoryLabel": "Marathon",
+      "workoutType": "steady-run",
+      "distanceNavId": "marathon",
+      "distanceNavLabel": "Marathon",
+      "distanceSortOrder": 11
     },
     {
       "id": "tv-m-014",
@@ -2723,7 +2801,13 @@
       "uniquenessSignature": "dd09d23e40-marathon-rolling-steady-endurance-marathon-intermediate",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "marathon",
+      "libraryCategoryLabel": "Marathon",
+      "workoutType": "steady-run",
+      "distanceNavId": "marathon",
+      "distanceNavLabel": "Marathon",
+      "distanceSortOrder": 11
     },
     {
       "id": "tv-m-015",
@@ -2912,7 +2996,13 @@
       "uniquenessSignature": "294d2d7da1-marathon-90-min-progression-marathon-intermediate",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "marathon",
+      "libraryCategoryLabel": "Marathon",
+      "workoutType": "progression-run",
+      "distanceNavId": "marathon",
+      "distanceNavLabel": "Marathon",
+      "distanceSortOrder": 11
     },
     {
       "id": "tv-m-016",
@@ -3101,7 +3191,13 @@
       "uniquenessSignature": "f3f6893db3-marathon-thirds-progression-long-run-marathon-advanced",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "marathon",
+      "libraryCategoryLabel": "Marathon",
+      "workoutType": "progression-run",
+      "distanceNavId": "marathon",
+      "distanceNavLabel": "Marathon",
+      "distanceSortOrder": 11
     },
     {
       "id": "tv-m-017",
@@ -3290,7 +3386,13 @@
       "uniquenessSignature": "938a58a51f-marathon-fast-finish-30-min-close-marathon-advanced",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "marathon",
+      "libraryCategoryLabel": "Marathon",
+      "workoutType": "progression-run",
+      "distanceNavId": "marathon",
+      "distanceNavLabel": "Marathon",
+      "distanceSortOrder": 11
     },
     {
       "id": "tv-m-018",
@@ -3479,7 +3581,13 @@
       "uniquenessSignature": "2c1ca00112-marathon-controlled-negative-split-marathon-developing",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "marathon",
+      "libraryCategoryLabel": "Marathon",
+      "workoutType": "progression-run",
+      "distanceNavId": "marathon",
+      "distanceNavLabel": "Marathon",
+      "distanceSortOrder": 11
     },
     {
       "id": "tv-m-019",
@@ -3683,7 +3791,13 @@
       "uniquenessSignature": "e86aeeaf09-marathon-long-run-with-6-x-3-min-surges-marathon-intermediate",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "marathon",
+      "libraryCategoryLabel": "Marathon",
+      "workoutType": "fartlek",
+      "distanceNavId": "marathon",
+      "distanceNavLabel": "Marathon",
+      "distanceSortOrder": 11
     },
     {
       "id": "tv-m-020",
@@ -3887,7 +4001,13 @@
       "uniquenessSignature": "36e2c811e8-marathon-late-surges-long-run-marathon-advanced",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "marathon",
+      "libraryCategoryLabel": "Marathon",
+      "workoutType": "fartlek",
+      "distanceNavId": "marathon",
+      "distanceNavLabel": "Marathon",
+      "distanceSortOrder": 11
     },
     {
       "id": "tv-m-021",
@@ -4092,7 +4212,13 @@
       "uniquenessSignature": "1964a5681e-marathon-rolling-surge-run-marathon-developing",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "marathon",
+      "libraryCategoryLabel": "Marathon",
+      "workoutType": "fartlek",
+      "distanceNavId": "marathon",
+      "distanceNavLabel": "Marathon",
+      "distanceSortOrder": 11
     },
     {
       "id": "tv-m-022",
@@ -4297,7 +4423,13 @@
       "uniquenessSignature": "ada5d4ba45-marathon-back-half-strength-simulation-marathon-competitive",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "marathon",
+      "libraryCategoryLabel": "Marathon",
+      "workoutType": "long-run",
+      "distanceNavId": "marathon",
+      "distanceNavLabel": "Marathon",
+      "distanceSortOrder": 11
     },
     {
       "id": "tv-m-023",
@@ -4487,7 +4619,13 @@
       "uniquenessSignature": "51ed573163-marathon-depletion-style-controlled-long-run-marathon-elite-reference",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "marathon",
+      "libraryCategoryLabel": "Marathon",
+      "workoutType": "long-run",
+      "distanceNavId": "marathon",
+      "distanceNavLabel": "Marathon",
+      "distanceSortOrder": 11
     },
     {
       "id": "tv-m-024",
@@ -4676,7 +4814,13 @@
       "uniquenessSignature": "m-024-832a03cd",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "marathon",
+      "libraryCategoryLabel": "Marathon",
+      "workoutType": "long-run",
+      "distanceNavId": "marathon",
+      "distanceNavLabel": "Marathon",
+      "distanceSortOrder": 11
     },
     {
       "id": "tv-m-025",
@@ -4865,7 +5009,13 @@
       "uniquenessSignature": "05cdd630cf-marathon-fuel-marathon-effort-rehearsal-marathon-intermediate",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "marathon",
+      "libraryCategoryLabel": "Marathon",
+      "workoutType": "race-pace",
+      "distanceNavId": "marathon",
+      "distanceNavLabel": "Marathon",
+      "distanceSortOrder": 11
     }
   ]
 }

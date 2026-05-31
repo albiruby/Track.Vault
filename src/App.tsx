@@ -4,7 +4,7 @@
  */
 
 import React, { useState, useEffect } from "react";
-import { getWorkoutIndex, getAllWorkouts, getWorkoutBySlug, searchWorkouts, filterWorkouts, sortWorkouts, formatWorkoutForClipboard, WorkoutFiltersState, getWorkoutsByCategory, formatWorkoutBlock, getWorkoutFilters } from "./lib/workouts";
+import { getWorkoutIndex, getAllWorkouts, getWorkoutBySlug, searchWorkouts, filterWorkouts, sortWorkouts, formatWorkoutForClipboard, WorkoutFiltersState, getWorkoutsByCategory, formatWorkoutBlock, getWorkoutFilters, matchSidebarDistance } from "./lib/workouts";
 import { getSavedWorkouts, saveWorkoutLocally, deleteSavedWorkout, duplicateWorkout } from "./lib/localWorkouts";
 import { copyToClipboard } from "./lib/clipboard";
 import { Workout, WorkoutBlock, WorkoutVariant } from "./types/workout";
@@ -15,7 +15,7 @@ import { WorkoutCard } from "./components/library/WorkoutCard";
 import { WorkoutSearch } from "./components/library/WorkoutSearch";
 import { WorkoutSort } from "./components/library/WorkoutSort";
 import { WorkoutFilters } from "./components/library/WorkoutFilters";
-import { WorkoutCategorySummary } from "./components/library/WorkoutCategorySummary";
+import { DistanceMenu } from "./components/library/WorkoutCategorySummary";
 import { LevelBadge } from "./components/library/LevelBadge";
 import { DifficultyBadge } from "./components/library/DifficultyBadge";
 import { RiskBadge } from "./components/library/RiskBadge";
@@ -66,6 +66,7 @@ export default function App() {
   // Library State
   const [searchQuery, setSearchQuery] = useState("");
   const [sortKey, setSortKey] = useState("title");
+  const [selectedDistance, setSelectedDistance] = useState("All Workouts");
   const [filters, setFilters] = useState<WorkoutFiltersState>({
     targetDistance: "All",
     level: "All",
@@ -75,6 +76,7 @@ export default function App() {
     difficulty: "All",
     risk: "All",
     duration: "All",
+    workoutType: "All",
   });
 
   // Builder Form State
@@ -252,8 +254,10 @@ export default function App() {
   const staticWorkouts = getAllWorkouts();
   const allLibraryCombined = [...staticWorkouts, ...localWorkoutsList];
 
+  const distanceFiltered = allLibraryCombined.filter((w) => matchSidebarDistance(w, selectedDistance));
+
   const filteredCombined = filterWorkouts(
-    searchWorkouts(allLibraryCombined, searchQuery),
+    searchWorkouts(distanceFiltered, searchQuery),
     filters
   );
   const sortedCombined = sortWorkouts(filteredCombined, sortKey);
@@ -400,66 +404,75 @@ export default function App() {
             PAGE 1: HOME PAGE (activeRoute === "home") 
             ==================================== */}
         {activeRoute === "home" && (
-          <div className="grid grid-cols-1 lg:grid-cols-12 border border-[#D8DEE8] dark:border-[#2A3445] bg-white dark:bg-[#151A23] rounded-sm overflow-hidden shadow-sm animate-fade-in w-full">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-stretch animate-fade-in w-full">
             {/* Left Column: Hero & Principles */}
-            <div className="lg:col-span-5 p-8 lg:p-12 flex flex-col justify-between border-b lg:border-b-0 lg:border-r border-[#D8DEE8] dark:border-[#2A3445] bg-white dark:bg-[#0E1117] min-h-[500px]">
+            <div className="lg:col-span-5 p-8 lg:p-10 border border-[#D8DEE8] dark:border-[#2A3445] bg-white dark:bg-[#151A23] rounded-sm flex flex-col justify-between shadow-sm min-h-[500px]">
               <div className="space-y-6">
-                <div className="space-y-3">
-                  <p className="text-[#FF4E00] font-bold text-xs tracking-[0.2em] uppercase">Build. Browse. Share. Run.</p>
-                  <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black tracking-tight leading-[0.95] text-black dark:text-white uppercase font-display">
-                    THE STATIC<br/>WORKOUT<br/>VAULT.
+                <div className="space-y-4">
+                  <div className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded bg-[#FFF1EA] dark:bg-[rgba(255,78,0,0.12)] text-[#FF4E00] text-[10px] font-bold uppercase tracking-wider">
+                    <span className="w-1.5 h-1.5 rounded-full bg-[#FF4E00]" />
+                    Athletic Utility Pacer
+                  </div>
+                  <h1 className="text-4xl sm:text-5xl lg:text-5xl font-black tracking-tight leading-[1.05] text-[#111827] dark:text-white uppercase">
+                    Track.Vault
                   </h1>
-                  <p className="text-sm sm:text-base text-[#6B7280] dark:text-slate-400 max-w-sm mt-4 font-medium leading-relaxed font-sans">
-                    A high-performance library for runners. Zero database, local-first storage, and clean workout card exports.
+                  <p className="text-sm text-[#374151] dark:text-slate-300 leading-relaxed font-sans font-medium">
+                    A premium speed development and physical pacing index for dedicated runners. Program custom routines, browse dynamic templates, and export sheets instantly.
                   </p>
                 </div>
 
-                <div className="flex flex-wrap gap-4 pt-4 font-sans">
+                {/* Principle Chips */}
+                <div className="flex flex-wrap gap-2 pt-1">
+                  <span className="px-3 py-1 bg-slate-50 dark:bg-[#1B2230] border border-[#D8DEE8] dark:border-[#2A3445] text-[#374151] dark:text-slate-200 text-xs font-semibold rounded-sm">
+                    ⚡ Static JSON Catalog
+                  </span>
+                  <span className="px-3 py-1 bg-slate-50 dark:bg-[#1B2230] border border-[#D8DEE8] dark:border-[#2A3445] text-[#374151] dark:text-slate-200 text-xs font-semibold rounded-sm">
+                    🔒 Zero Databases
+                  </span>
+                  <span className="px-3 py-1 bg-slate-50 dark:bg-[#1B2230] border border-[#D8DEE8] dark:border-[#2A3445] text-[#374151] dark:text-slate-200 text-xs font-semibold rounded-sm">
+                    💾 Browser Local Save
+                  </span>
+                  <span className="px-3 py-1 bg-slate-50 dark:bg-[#1B2230] border border-[#D8DEE8] dark:border-[#2A3445] text-[#374151] dark:text-slate-200 text-xs font-semibold rounded-sm">
+                    📋 Export Card Render
+                  </span>
+                </div>
+
+                <div className="flex flex-wrap gap-3.5 pt-4 font-sans">
                   <button 
                     onClick={() => navigateTo("library")}
-                    className="px-6 py-3.5 bg-black dark:bg-[#FF4E00] text-white font-bold rounded-sm text-xs uppercase tracking-widest hover:bg-[#FF4E00] dark:hover:bg-white dark:hover:text-black transition-colors shadow-md cursor-pointer flex items-center gap-1.5"
+                    className="px-6 py-3 bg-[#FF4E00] hover:bg-[#E64600] text-white font-bold rounded-sm text-xs uppercase tracking-widest transition-colors shadow-sm cursor-pointer flex items-center gap-1.5 font-sans"
                   >
                     <BookOpen className="w-4 h-4" /> Browse Library
                   </button>
                   <button 
                     onClick={() => navigateTo("builder")}
-                    className="px-6 py-3 border-2 border-black dark:border-slate-700 text-black dark:text-slate-200 font-bold rounded-sm text-xs uppercase tracking-widest hover:bg-black hover:text-white dark:hover:bg-[#FF4E00] dark:hover:border-[#FF4E00] transition-colors cursor-pointer flex items-center gap-1.5"
+                    className="px-6 py-3 border border-[#CBD5E1] dark:border-[#2A3445] bg-white dark:bg-[#1B2230] text-[#111827] dark:text-slate-200 font-bold rounded-sm text-xs uppercase tracking-widest hover:bg-slate-50 dark:hover:bg-[#202938] transition-colors cursor-pointer flex items-center gap-1.5 font-sans"
                   >
                     <PlusCircle className="w-4 h-4 text-[#FF4E00]" /> Open Builder
                   </button>
                 </div>
               </div>
 
-              {/* Product Principles */}
-              <div className="grid grid-cols-2 gap-6 pt-12 border-t border-[#E5E7EB] dark:border-slate-800 mt-12">
-                <div className="space-y-1">
-                  <h4 className="text-[10px] font-black text-[#9CA3AF] uppercase tracking-widest font-mono">Zero Database</h4>
-                  <p className="text-xs text-[#4B5563] dark:text-slate-400 font-sans">Fully static. Instant loading. No accounts needed.</p>
-                </div>
-                <div className="space-y-1">
-                  <h4 className="text-[10px] font-black text-[#9CA3AF] uppercase tracking-widest font-mono">Local Storage</h4>
-                  <p className="text-xs text-[#4B5563] dark:text-slate-400 font-sans">Custom workouts are saved directly inside your browser cache.</p>
-                </div>
-                <div className="space-y-1">
-                  <h4 className="text-[10px] font-black text-[#9CA3AF] uppercase tracking-widest font-mono">Card Export</h4>
-                  <p className="text-xs text-[#4B5563] dark:text-slate-400 font-sans">Compile gorgeous workout PNG files to share anywhere.</p>
-                </div>
-                <div className="space-y-1">
-                  <h4 className="text-[10px] font-black text-[#9CA3AF] uppercase tracking-widest font-mono">Fast Search</h4>
-                  <p className="text-xs text-[#4B5563] dark:text-slate-400 font-sans">Instant client-side categorical filtering across the entire index.</p>
-                </div>
+              {/* Lower info block */}
+              <div className="pt-8 border-t border-[#E5E7EB] dark:border-slate-800 mt-8">
+                <p className="text-xs text-[#6B7280] dark:text-slate-400 leading-relaxed">
+                  Track.Vault holds pre-indexed track drills, interval schemes, and lactate clearance structures. Stored as offline static JSON models for unmatched load rates.
+                </p>
               </div>
             </div>
 
             {/* Right Column: Dynamic Category Shells & Saved Workouts */}
-            <div className="lg:col-span-7 bg-[#EEF1F5] dark:bg-[#0E1117] p-8 lg:p-12 overflow-y-auto border-t lg:border-t-0 border-[#D8DEE8] dark:border-[#2A3445]">
-              <div className="flex justify-between items-end mb-8">
-                <h3 className="text-xs font-black uppercase tracking-widest text-[#374151] dark:text-slate-300 font-mono">Library Categories</h3>
+            <div className="lg:col-span-7 bg-[#F1F3F6] dark:bg-[#13161F] p-8 lg:p-10 rounded-sm border border-[#D8DEE8] dark:border-[#2A3445] flex flex-col justify-start">
+              <div className="flex justify-between items-end mb-6">
+                <h3 className="text-xs font-black uppercase tracking-widest text-[#374151] dark:text-slate-300 font-mono">
+                  Training Module Roadmap
+                </h3>
                 <span className="text-[10px] bg-white dark:bg-[#151A23] border border-[#D8DEE8] dark:border-[#2A3445] px-2.5 py-1 font-bold text-[#6B7280] dark:text-slate-400 font-mono tracking-wide rounded-sm uppercase">
-                  {getWorkoutIndex().categories.length} MODULES INDEXED
+                  {getWorkoutIndex().categories.length} Modules Online
                 </span>
               </div>
-              <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-4">
+              
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 {getWorkoutIndex().categories.map((c) => {
                   const workoutsCount = getWorkoutsByCategory(c.id).length;
                   
@@ -475,24 +488,25 @@ export default function App() {
                     <div 
                       key={c.id}
                       onClick={() => {
+                        setSelectedDistance("All Workouts");
                         setFilters({ ...filters, category: c.id });
                         navigateTo("library");
                       }}
-                      className="group bg-white dark:bg-[#151A23] p-6 rounded-md border border-[#D8DEE8] dark:border-[#2A3445] hover:border-[#FF4E00] dark:hover:border-[#FF4E00] transition-all cursor-pointer shadow-sm flex flex-col justify-between"
+                      className="group bg-white dark:bg-[#151A23] p-5 rounded-sm border border-[#D8DEE8] dark:border-[#2A3445] hover:border-[#FF4E00] dark:hover:border-[#FF5A1F] hover:shadow-sm transition-all cursor-pointer flex flex-col justify-between"
                     >
                       <div>
-                        <div className="flex justify-between items-start mb-4">
-                          <div className="w-10 h-10 bg-gray-50 dark:bg-[#1B2230] rounded-lg flex items-center justify-center border border-gray-100 dark:border-slate-800 text-lg">
+                        <div className="flex justify-between items-start mb-3">
+                          <div className="w-9 h-9 bg-slate-50 dark:bg-[#1B2230] rounded-sm flex items-center justify-center border border-[#D8DEE8] dark:border-[#2A3445] text-lg">
                             {emoji}
                           </div>
-                          <span className="text-[10px] font-bold text-[#6B7280] dark:text-slate-400 font-mono whitespace-nowrap">
-                            {workoutsCount} WORKOUTS
+                          <span className="text-[10px] font-bold text-[#6B7280] dark:text-slate-400 font-mono">
+                            {workoutsCount} PRESETS
                           </span>
                         </div>
-                        <h4 className="font-bold text-base leading-tight text-[#111827] dark:text-white group-hover:text-[#FF4E00] transition-colors font-sans">
+                        <h4 className="font-bold text-sm leading-tight text-[#111827] dark:text-white group-hover:text-[#FF4E00] transition-colors">
                           {c.name}
                         </h4>
-                        <p className="text-[11px] text-[#4B5563] dark:text-slate-450 mt-2 line-clamp-2 leading-relaxed font-sans font-normal">
+                        <p className="text-xs text-[#6B7280] dark:text-slate-450 mt-2 line-clamp-2 leading-relaxed">
                           {c.description}
                         </p>
                       </div>
@@ -504,22 +518,22 @@ export default function App() {
                 {localWorkoutsList.length > 0 && (
                   <div 
                     onClick={() => navigateTo("saved")}
-                    className="group bg-white dark:bg-[#151A23] p-5 rounded-md border-2 border-dashed border-[#FF4E00]/30 hover:border-[#FF4E00] transition-all cursor-pointer shadow-sm sm:col-span-2 xl:col-span-3 flex justify-between items-center"
+                    className="group bg-white dark:bg-[#151A23] p-4 rounded-sm border-2 border-dashed border-[#FF4E00]/30 hover:border-[#FF4E00] transition-all cursor-pointer shadow-sm sm:col-span-2 flex justify-between items-center"
                   >
                     <div className="flex items-center space-x-3">
-                      <div className="w-10 h-10 bg-orange-50 dark:bg-orange-950/20 rounded-lg flex items-center justify-center text-[#FF4E00] text-lg">
+                      <div className="w-9 h-9 bg-orange-50 dark:bg-orange-950/20 rounded-sm flex items-center justify-center text-[#FF4E00] text-lg">
                         ⭐
                       </div>
                       <div>
-                        <h4 className="font-bold text-sm text-[#111827] dark:text-white group-hover:text-[#FF4E00] transition-colors font-sans">
+                        <h4 className="font-bold text-xs text-[#111827] dark:text-white group-hover:text-[#FF4E00] transition-colors">
                           Your Custom Browser Vault
                         </h4>
-                        <p className="text-[11px] text-[#374151] dark:text-slate-450 mt-0.5 font-sans font-normal">
-                          See your designed sessions and training duplicates.
+                        <p className="text-[10px] text-[#374151] dark:text-slate-450 mt-0.5">
+                          See your custom designed routines offline.
                         </p>
                       </div>
                     </div>
-                    <span className="text-[10px] bg-[#FF4E00] text-white font-black px-2 py-1 rounded-sm uppercase tracking-widest font-mono">
+                    <span className="text-[10px] bg-[#FF4E00] text-white font-bold px-2.5 py-0.5 rounded-sm uppercase tracking-wider font-mono">
                       {localWorkoutsList.length} SAVED
                     </span>
                   </div>
@@ -563,6 +577,7 @@ export default function App() {
                           difficulty: "All",
                           risk: "All",
                           duration: "All",
+                          workoutType: "All",
                         })
                       }
                       availableDistances={filterSummary.targetDistances}
@@ -570,11 +585,16 @@ export default function App() {
                       availablePhases={filterSummary.phases}
                       availableSurfaces={filterSummary.surfaces}
                       availableRisks={filterSummary.risks}
+                      availableWorkoutTypes={filterSummary.workoutTypes}
                     />
                   );
                 })()}
                 
-                <WorkoutCategorySummary />
+                <DistanceMenu
+                  selectedDistance={selectedDistance}
+                  onSelectDistance={setSelectedDistance}
+                  workouts={allLibraryCombined}
+                />
               </div>
 
               {/* Right Column: List & Actions */}
@@ -588,9 +608,18 @@ export default function App() {
                   </div>
                 </div>
 
-                <div className="flex justify-between items-center py-1">
+                <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-2 py-1 border-b border-slate-100 dark:border-slate-850 pb-3 font-sans">
+                  <h3 className="text-xl font-black font-display tracking-tight text-slate-800 dark:text-slate-200">
+                    {(() => {
+                      if (filters.category && filters.category !== "All" && filterMetrics) {
+                        const selectedCat = filterMetrics.categories.find(c => c.id === filters.category);
+                        if (selectedCat) return `${selectedCat.name} Workouts`;
+                      }
+                      return selectedDistance === "All Workouts" ? "All Workouts" : `${selectedDistance} Workouts`;
+                    })()}
+                  </h3>
                   <p className="text-xs font-mono text-[#374151] dark:text-slate-400 font-bold uppercase tracking-wider">
-                    SHOWING {sortedCombined.length} OF {allLibraryCombined.length} ATHLETIC TEMPLATES
+                    Showing {sortedCombined.length} of {allLibraryCombined.length} workouts
                   </p>
                 </div>
 
@@ -767,7 +796,7 @@ export default function App() {
 
               {/* Right side live preview panel */}
               <div className="xl:col-span-5 lg:sticky lg:top-24 space-y-4">
-                <div className="flex justify-between items-center bg-[#EEF1F5] dark:bg-[#1B2230] border border-[#D8DEE8] dark:border-[#2A3445] p-3.5 rounded-sm">
+                <div className="flex justify-between items-center bg-slate-50 dark:bg-[#1B2230] border border-[#D8DEE8] dark:border-[#2A3445] p-3.5 rounded-sm">
                   <span className="text-[10px] font-mono tracking-widest uppercase text-[#374151] dark:text-slate-300 font-extrabold">
                     LIVE CONSTRUCT PREVIEW
                   </span>
@@ -862,21 +891,21 @@ export default function App() {
 
             {localWorkoutsList.length === 0 ? (
               <div className="py-16 text-center max-w-2xl mx-auto space-y-6 bg-white dark:bg-[#151A23] border border-[#D8DEE8] dark:border-[#2A3445] rounded-sm p-8 shadow-sm">
-                <div className="w-16 h-16 rounded-full bg-slate-50 dark:bg-[#1B2230] border border-[#D8DEE8] dark:border-[#2A3445] flex items-center justify-center mx-auto text-[#FF4E00]">
+                <div className="w-16 h-16 rounded-full bg-[#FFF1EA] dark:bg-[rgba(255,78,0,0.12)] border border-[#D8DEE8] dark:border-[#2A3445] flex items-center justify-center mx-auto text-[#FF4E00]">
                   <Bookmark className="w-8 h-8" />
                 </div>
                 <div className="space-y-2">
-                  <h3 className="text-lg font-black font-display text-[#111827] dark:text-[#F8FAFC] uppercase tracking-wide">
+                  <h3 className="text-lg font-bold text-[#111827] dark:text-[#F8FAFC] uppercase tracking-wide">
                     Your Training Vault is Empty
                   </h3>
-                  <p className="text-sm text-[#374151] dark:text-slate-350 max-w-md mx-auto leading-relaxed">
+                  <p className="text-xs text-[#374151] dark:text-slate-350 max-w-md mx-auto leading-relaxed">
                     You haven't designed or clone-saved any professional speed sets. Create customized lactate clearance pyramids or repeated maximum anaerobic interval runs.
                   </p>
                 </div>
                 <div className="pt-2">
                   <button
                     onClick={() => navigateTo("builder")}
-                    className="px-6 py-3 bg-[#FF4E00] hover:bg-[#E04500] text-white text-xs font-black uppercase tracking-widest rounded-sm cursor-pointer shadow-sm active:scale-[0.98] transition-all font-mono"
+                    className="px-6 py-3 bg-[#FF4E00] hover:bg-[#E04500] text-white text-xs font-bold uppercase tracking-widest rounded-sm cursor-pointer shadow-sm active:scale-[0.98] transition-all font-sans"
                   >
                     Launch Program Builder
                   </button>
@@ -920,14 +949,14 @@ export default function App() {
                           <RiskBadge risk={w.risk} />
                         </div>
 
-                        <h3 className="text-base sm:text-lg font-bold font-display text-[#111827] dark:text-slate-100 line-clamp-1 group-hover:text-[#FF4E00] transition-colors uppercase">
+                        <h3 className="text-base sm:text-lg font-bold text-[#111827] dark:text-slate-100 line-clamp-1 group-hover:text-[#FF4E00] transition-colors uppercase">
                           {w.title}
                         </h3>
                         <p className="text-xs text-[#374151] dark:text-slate-300 line-clamp-2 mt-1 leading-normal">
                           {w.summary}
                         </p>
 
-                        <div className="grid grid-cols-2 gap-2 p-3 bg-[#EEF1F5] dark:bg-[#1B2230] border border-[#D8DEE8] dark:border-[#2A3445] rounded-sm my-4 text-center text-xs font-mono">
+                        <div className="grid grid-cols-2 gap-2 p-3 bg-slate-50 dark:bg-[#1B2230] border border-[#D8DEE8] dark:border-[#2A3445] rounded-sm my-4 text-center text-xs font-mono">
                           <div>
                             <span className="text-[9px] text-[#374151] dark:text-slate-400 block uppercase font-bold">Volume</span>
                             <span className="font-bold text-[#111827] dark:text-slate-200">~{w.estimatedDistanceKm} km</span>
@@ -1032,27 +1061,27 @@ export default function App() {
 
             {!exportSelectedWorkout ? (
               <div className="py-16 text-center max-w-2xl mx-auto space-y-6 bg-white dark:bg-[#151A23] border border-[#D8DEE8] dark:border-[#2A3445] rounded-sm p-8 shadow-sm">
-                <div className="w-16 h-16 rounded-full bg-slate-50 dark:bg-[#1B2230] border border-[#D8DEE8] dark:border-[#2A3445] flex items-center justify-center mx-auto text-[#FF4E00]">
+                <div className="w-16 h-16 rounded-full bg-[#FFF1EA] dark:bg-[rgba(255,78,0,0.12)] border border-[#D8DEE8] dark:border-[#2A3445] flex items-center justify-center mx-auto text-[#FF4E00]">
                   <Share2 className="w-8 h-8" />
                 </div>
                 <div className="space-y-2">
-                  <h3 className="text-lg font-black font-display text-[#111827] dark:text-[#F8FAFC] uppercase tracking-wide">
+                  <h3 className="text-lg font-bold text-[#111827] dark:text-[#F8FAFC] uppercase tracking-wide">
                     No Workout Selected for Exporter
                   </h3>
-                  <p className="text-sm text-[#374151] dark:text-slate-350 max-w-md mx-auto leading-relaxed">
+                  <p className="text-xs text-[#374151] dark:text-slate-350 max-w-md mx-auto leading-relaxed">
                     Select any preloaded running workout in the library or draft a custom repetition block first inside the Builder Lab.
                   </p>
                 </div>
                 <div className="flex gap-3 justify-center pt-2">
                   <button
                     onClick={() => navigateTo("library")}
-                    className="px-5 py-3 bg-slate-900 dark:bg-slate-800 text-white hover:bg-slate-800 dark:hover:bg-slate-700 text-xs font-black uppercase tracking-widest rounded-sm cursor-pointer font-mono"
+                    className="px-5 py-3 bg-[#FF4E00] hover:bg-[#E64600] text-white text-xs font-bold uppercase tracking-widest rounded-sm cursor-pointer font-sans"
                   >
                     Select in Library
                   </button>
                   <button
                     onClick={() => navigateTo("builder")}
-                    className="px-5 py-3 border border-[#D8DEE8] dark:border-[#2A3445] text-[#374151] dark:text-slate-300 hover:bg-gray-50 dark:hover:bg-[#1B2230] text-xs font-black uppercase tracking-widest rounded-sm cursor-pointer font-mono"
+                    className="px-5 py-3 border border-[#D8DEE8] dark:border-[#2A3445] bg-white dark:bg-[#1B2230] text-[#374151] dark:text-slate-300 hover:bg-gray-50 dark:hover:bg-[#202938] text-xs font-bold uppercase tracking-widest rounded-sm cursor-pointer font-sans"
                   >
                     Create Custom
                   </button>

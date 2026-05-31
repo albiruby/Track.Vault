@@ -246,7 +246,13 @@
       "uniquenessSignature": "md-800m-rp-001",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General middle-distance training principles."
+      "sourceNote": "General middle-distance training principles.",
+      "libraryCategoryId": "middle-distance-800m-mile",
+      "libraryCategoryLabel": "800m / 1500m / Mile",
+      "workoutType": "middle-distance-800m-mile",
+      "distanceNavId": "800m",
+      "distanceNavLabel": "800m",
+      "distanceSortOrder": 4
     },
     {
       "id": "tv-md-800m-rp-002",
@@ -478,7 +484,13 @@
       "uniquenessSignature": "md-800m-rp-002",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "Classic interval session to establish pace confidence."
+      "sourceNote": "Classic interval session to establish pace confidence.",
+      "libraryCategoryId": "middle-distance-800m-mile",
+      "libraryCategoryLabel": "800m / 1500m / Mile",
+      "workoutType": "middle-distance-800m-mile",
+      "distanceNavId": "800m",
+      "distanceNavLabel": "800m",
+      "distanceSortOrder": 4
     },
     {
       "id": "tv-md-800m-rp-003",
@@ -710,7 +722,13 @@
       "uniquenessSignature": "md-800m-rp-003",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "500m repetitions develop aerobic speed durability."
+      "sourceNote": "500m repetitions develop aerobic speed durability.",
+      "libraryCategoryId": "middle-distance-800m-mile",
+      "libraryCategoryLabel": "800m / 1500m / Mile",
+      "workoutType": "middle-distance-800m-mile",
+      "distanceNavId": "800m",
+      "distanceNavLabel": "800m",
+      "distanceSortOrder": 4
     },
     {
       "id": "tv-md-800m-rp-004",
@@ -935,7 +953,13 @@
       "uniquenessSignature": "md-800m-rp-004",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "Broken repetitions simulate the severe lactic fatigue of the final 200m."
+      "sourceNote": "Broken repetitions simulate the severe lactic fatigue of the final 200m.",
+      "libraryCategoryId": "middle-distance-800m-mile",
+      "libraryCategoryLabel": "800m / 1500m / Mile",
+      "workoutType": "middle-distance-800m-mile",
+      "distanceNavId": "800m",
+      "distanceNavLabel": "800m",
+      "distanceSortOrder": 4
     },
     {
       "id": "tv-md-800m-rp-005",
@@ -1165,7 +1189,13 @@
       "uniquenessSignature": "md-800m-rp-005",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "Elite athletes run 600m repetitions to build specific lactic endurance."
+      "sourceNote": "Elite athletes run 600m repetitions to build specific lactic endurance.",
+      "libraryCategoryId": "middle-distance-800m-mile",
+      "libraryCategoryLabel": "800m / 1500m / Mile",
+      "workoutType": "middle-distance-800m-mile",
+      "distanceNavId": "800m",
+      "distanceNavLabel": "800m",
+      "distanceSortOrder": 4
     },
     {
       "id": "tv-md-800m-rp-006",
@@ -1447,7 +1477,13 @@
       "uniquenessSignature": "md-800m-rp-006",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "Elite athletes run 600m speed endurance to build lactate tolerance."
+      "sourceNote": "Elite athletes run 600m speed endurance to build lactate tolerance.",
+      "libraryCategoryId": "middle-distance-800m-mile",
+      "libraryCategoryLabel": "800m / 1500m / Mile",
+      "workoutType": "middle-distance-800m-mile",
+      "distanceNavId": "800m",
+      "distanceNavLabel": "800m",
+      "distanceSortOrder": 4
     },
     {
       "id": "tv-md-mile-rp-007",
@@ -1681,7 +1717,13 @@
       "uniquenessSignature": "md-mile-rp-007",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "Paced stride runs are key to unlocking mile velocity; relaxation is the enemy of friction."
+      "sourceNote": "Paced stride runs are key to unlocking mile velocity; relaxation is the enemy of friction.",
+      "libraryCategoryId": "middle-distance-800m-mile",
+      "libraryCategoryLabel": "800m / 1500m / Mile",
+      "workoutType": "middle-distance-800m-mile",
+      "distanceNavId": "mile",
+      "distanceNavLabel": "Mile",
+      "distanceSortOrder": 6
     },
     {
       "id": "tv-md-mile-rp-008",
@@ -1913,7 +1955,13 @@
       "uniquenessSignature": "md-mile-rp-008",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "Controlled rhythm runs are crucial for early-season speed endurance."
+      "sourceNote": "Controlled rhythm runs are crucial for early-season speed endurance.",
+      "libraryCategoryId": "middle-distance-800m-mile",
+      "libraryCategoryLabel": "800m / 1500m / Mile",
+      "workoutType": "middle-distance-800m-mile",
+      "distanceNavId": "1500m",
+      "distanceNavLabel": "1500m",
+      "distanceSortOrder": 5
     },
     {
       "id": "tv-md-mile-rp-009",
@@ -2145,7 +2193,13 @@
       "uniquenessSignature": "md-mile-rp-009",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "High hip posture is key to running economy in the second half of sprints."
+      "sourceNote": "High hip posture is key to running economy in the second half of sprints.",
+      "libraryCategoryId": "middle-distance-800m-mile",
+      "libraryCategoryLabel": "800m / 1500m / Mile",
+      "workoutType": "middle-distance-800m-mile",
+      "distanceNavId": "1500m",
+      "distanceNavLabel": "1500m",
+      "distanceSortOrder": 5
     },
     {
       "id": "tv-md-mile-rp-010",
@@ -2377,7 +2431,13 @@
       "uniquenessSignature": "md-mile-rp-010",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "Pyramid pacing is essential for elite lane management in the 1500m."
+      "sourceNote": "Pyramid pacing is essential for elite lane management in the 1500m.",
+      "libraryCategoryId": "middle-distance-800m-mile",
+      "libraryCategoryLabel": "800m / 1500m / Mile",
+      "workoutType": "middle-distance-800m-mile",
+      "distanceNavId": "mile",
+      "distanceNavLabel": "Mile",
+      "distanceSortOrder": 6
     },
     {
       "id": "tv-md-mile-rp-011",
@@ -2608,7 +2668,13 @@
       "uniquenessSignature": "md-mile-rp-011",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "Full lactic recovery takes at least 8-10 minutes between maximal speed bouts."
+      "sourceNote": "Full lactic recovery takes at least 8-10 minutes between maximal speed bouts.",
+      "libraryCategoryId": "middle-distance-800m-mile",
+      "libraryCategoryLabel": "800m / 1500m / Mile",
+      "workoutType": "middle-distance-800m-mile",
+      "distanceNavId": "mile",
+      "distanceNavLabel": "Mile",
+      "distanceSortOrder": 6
     },
     {
       "id": "tv-md-mile-rp-012",
@@ -2839,7 +2905,13 @@
       "uniquenessSignature": "md-mile-rp-012",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "Elite athletes run progressive ladders to simulate full-event pacing."
+      "sourceNote": "Elite athletes run progressive ladders to simulate full-event pacing.",
+      "libraryCategoryId": "middle-distance-800m-mile",
+      "libraryCategoryLabel": "800m / 1500m / Mile",
+      "workoutType": "middle-distance-800m-mile",
+      "distanceNavId": "mile",
+      "distanceNavLabel": "Mile",
+      "distanceSortOrder": 6
     },
     {
       "id": "tv-md-230-rep-013",
@@ -3073,7 +3145,13 @@
       "uniquenessSignature": "md-230-rep-013",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "Elite sprinters spend hours on technical strides to perfect posture."
+      "sourceNote": "Elite sprinters spend hours on technical strides to perfect posture.",
+      "libraryCategoryId": "middle-distance-800m-mile",
+      "libraryCategoryLabel": "800m / 1500m / Mile",
+      "workoutType": "middle-distance-800m-mile",
+      "distanceNavId": "1500m",
+      "distanceNavLabel": "1500m",
+      "distanceSortOrder": 5
     },
     {
       "id": "tv-md-230-rep-014",
@@ -3304,7 +3382,13 @@
       "uniquenessSignature": "md-230-rep-014",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "middle-distance-800m-mile",
+      "libraryCategoryLabel": "800m / 1500m / Mile",
+      "workoutType": "middle-distance-800m-mile",
+      "distanceNavId": "800m",
+      "distanceNavLabel": "800m",
+      "distanceSortOrder": 4
     },
     {
       "id": "tv-md-230-rep-015",
@@ -3536,7 +3620,13 @@
       "uniquenessSignature": "md-230-rep-015",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "Active forefoot strike reduces ground contact time and increases speed."
+      "sourceNote": "Active forefoot strike reduces ground contact time and increases speed.",
+      "libraryCategoryId": "middle-distance-800m-mile",
+      "libraryCategoryLabel": "800m / 1500m / Mile",
+      "workoutType": "middle-distance-800m-mile",
+      "distanceNavId": "mile",
+      "distanceNavLabel": "Mile",
+      "distanceSortOrder": 6
     },
     {
       "id": "tv-md-230-rep-016",
@@ -3766,7 +3856,13 @@
       "uniquenessSignature": "md-230-rep-016",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "Elite athletes run split repetitions to simulate terminal race surges."
+      "sourceNote": "Elite athletes run split repetitions to simulate terminal race surges.",
+      "libraryCategoryId": "middle-distance-800m-mile",
+      "libraryCategoryLabel": "800m / 1500m / Mile",
+      "workoutType": "middle-distance-800m-mile",
+      "distanceNavId": "800m",
+      "distanceNavLabel": "800m",
+      "distanceSortOrder": 4
     },
     {
       "id": "tv-md-230-rep-017",
@@ -3996,7 +4092,13 @@
       "uniquenessSignature": "md-230-rep-017",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "Elite athletes run 300m speed endurance to build lactate tolerance."
+      "sourceNote": "Elite athletes run 300m speed endurance to build lactate tolerance.",
+      "libraryCategoryId": "middle-distance-800m-mile",
+      "libraryCategoryLabel": "800m / 1500m / Mile",
+      "workoutType": "middle-distance-800m-mile",
+      "distanceNavId": "800m",
+      "distanceNavLabel": "800m",
+      "distanceSortOrder": 4
     },
     {
       "id": "tv-md-400-rep-018",
@@ -4230,7 +4332,13 @@
       "uniquenessSignature": "md-400-rep-018",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "Active forefoot strike reduces ground contact time and increases speed."
+      "sourceNote": "Active forefoot strike reduces ground contact time and increases speed.",
+      "libraryCategoryId": "middle-distance-800m-mile",
+      "libraryCategoryLabel": "800m / 1500m / Mile",
+      "workoutType": "middle-distance-800m-mile",
+      "distanceNavId": "1500m",
+      "distanceNavLabel": "1500m",
+      "distanceSortOrder": 5
     },
     {
       "id": "tv-md-400-rep-019",
@@ -4461,7 +4569,13 @@
       "uniquenessSignature": "md-400-rep-019",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "Active forefoot strike reduces ground contact time and increases speed."
+      "sourceNote": "Active forefoot strike reduces ground contact time and increases speed.",
+      "libraryCategoryId": "middle-distance-800m-mile",
+      "libraryCategoryLabel": "800m / 1500m / Mile",
+      "workoutType": "middle-distance-800m-mile",
+      "distanceNavId": "mile",
+      "distanceNavLabel": "Mile",
+      "distanceSortOrder": 6
     },
     {
       "id": "tv-md-400-rep-020",
@@ -4692,7 +4806,13 @@
       "uniquenessSignature": "md-400-rep-020",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "High hip posture is key to running economy in the second half of sprints."
+      "sourceNote": "High hip posture is key to running economy in the second half of sprints.",
+      "libraryCategoryId": "middle-distance-800m-mile",
+      "libraryCategoryLabel": "800m / 1500m / Mile",
+      "workoutType": "middle-distance-800m-mile",
+      "distanceNavId": "1500m",
+      "distanceNavLabel": "1500m",
+      "distanceSortOrder": 5
     },
     {
       "id": "tv-md-400-rep-021",
@@ -4980,7 +5100,13 @@
       "uniquenessSignature": "md-400-rep-021",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "Full lactic recovery takes at least 8-10 minutes between maximal speed bouts."
+      "sourceNote": "Full lactic recovery takes at least 8-10 minutes between maximal speed bouts.",
+      "libraryCategoryId": "middle-distance-800m-mile",
+      "libraryCategoryLabel": "800m / 1500m / Mile",
+      "workoutType": "middle-distance-800m-mile",
+      "distanceNavId": "mile",
+      "distanceNavLabel": "Mile",
+      "distanceSortOrder": 6
     },
     {
       "id": "tv-md-400-rep-022",
@@ -5210,7 +5336,13 @@
       "uniquenessSignature": "md-400-rep-022",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "Elite athletes run 400m speed endurance to build lactate tolerance."
+      "sourceNote": "Elite athletes run 400m speed endurance to build lactate tolerance.",
+      "libraryCategoryId": "middle-distance-800m-mile",
+      "libraryCategoryLabel": "800m / 1500m / Mile",
+      "workoutType": "middle-distance-800m-mile",
+      "distanceNavId": "800m",
+      "distanceNavLabel": "800m",
+      "distanceSortOrder": 4
     },
     {
       "id": "tv-md-560-wrk-023",
@@ -5444,7 +5576,13 @@
       "uniquenessSignature": "md-560-wrk-023",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "Controlled tempo runs are crucial for early-season speed endurance."
+      "sourceNote": "Controlled tempo runs are crucial for early-season speed endurance.",
+      "libraryCategoryId": "middle-distance-800m-mile",
+      "libraryCategoryLabel": "800m / 1500m / Mile",
+      "workoutType": "middle-distance-800m-mile",
+      "distanceNavId": "1500m",
+      "distanceNavLabel": "1500m",
+      "distanceSortOrder": 5
     },
     {
       "id": "tv-md-560-wrk-024",
@@ -5676,7 +5814,13 @@
       "uniquenessSignature": "md-560-wrk-024",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "High hip posture is key to running economy in the second half of sprints."
+      "sourceNote": "High hip posture is key to running economy in the second half of sprints.",
+      "libraryCategoryId": "middle-distance-800m-mile",
+      "libraryCategoryLabel": "800m / 1500m / Mile",
+      "workoutType": "middle-distance-800m-mile",
+      "distanceNavId": "1500m",
+      "distanceNavLabel": "1500m",
+      "distanceSortOrder": 5
     },
     {
       "id": "tv-md-560-wrk-025",
@@ -5908,7 +6052,13 @@
       "uniquenessSignature": "md-560-wrk-025",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "Full lactic recovery takes at least 8-10 minutes between maximal speed bouts."
+      "sourceNote": "Full lactic recovery takes at least 8-10 minutes between maximal speed bouts.",
+      "libraryCategoryId": "middle-distance-800m-mile",
+      "libraryCategoryLabel": "800m / 1500m / Mile",
+      "workoutType": "middle-distance-800m-mile",
+      "distanceNavId": "mile",
+      "distanceNavLabel": "Mile",
+      "distanceSortOrder": 6
     },
     {
       "id": "tv-md-560-wrk-026",
@@ -6140,7 +6290,13 @@
       "uniquenessSignature": "md-560-wrk-026",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "Full lactic recovery takes at least 8-10 minutes between maximal speed bouts."
+      "sourceNote": "Full lactic recovery takes at least 8-10 minutes between maximal speed bouts.",
+      "libraryCategoryId": "middle-distance-800m-mile",
+      "libraryCategoryLabel": "800m / 1500m / Mile",
+      "workoutType": "middle-distance-800m-mile",
+      "distanceNavId": "mile",
+      "distanceNavLabel": "Mile",
+      "distanceSortOrder": 6
     },
     {
       "id": "tv-md-560-wrk-027",
@@ -6370,7 +6526,13 @@
       "uniquenessSignature": "md-560-wrk-027",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "Elite athletes run 500m speed endurance to build lactate tolerance."
+      "sourceNote": "Elite athletes run 500m speed endurance to build lactate tolerance.",
+      "libraryCategoryId": "middle-distance-800m-mile",
+      "libraryCategoryLabel": "800m / 1500m / Mile",
+      "workoutType": "middle-distance-800m-mile",
+      "distanceNavId": "800m",
+      "distanceNavLabel": "800m",
+      "distanceSortOrder": 4
     },
     {
       "id": "tv-md-spd-end-028",
@@ -6604,7 +6766,13 @@
       "uniquenessSignature": "md-spd-end-028",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "Active forefoot strike reduces ground contact time and increases speed."
+      "sourceNote": "Active forefoot strike reduces ground contact time and increases speed.",
+      "libraryCategoryId": "middle-distance-800m-mile",
+      "libraryCategoryLabel": "800m / 1500m / Mile",
+      "workoutType": "middle-distance-800m-mile",
+      "distanceNavId": "1500m",
+      "distanceNavLabel": "1500m",
+      "distanceSortOrder": 5
     },
     {
       "id": "tv-md-spd-end-300m-029",
@@ -6834,7 +7002,13 @@
       "uniquenessSignature": "md-speed-endurance-5x300m-800m-effort-210s-walk-intermediate-029",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "middle-distance-800m-mile",
+      "libraryCategoryLabel": "800m / 1500m / Mile",
+      "workoutType": "middle-distance-800m-mile",
+      "distanceNavId": "800m",
+      "distanceNavLabel": "800m",
+      "distanceSortOrder": 4
     },
     {
       "id": "tv-md-spd-end-030",
@@ -7065,7 +7239,13 @@
       "uniquenessSignature": "md-spd-end-030",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "Focus on relaxed arm swing to maintain tempo."
+      "sourceNote": "Focus on relaxed arm swing to maintain tempo.",
+      "libraryCategoryId": "middle-distance-800m-mile",
+      "libraryCategoryLabel": "800m / 1500m / Mile",
+      "workoutType": "middle-distance-800m-mile",
+      "distanceNavId": "800m",
+      "distanceNavLabel": "800m",
+      "distanceSortOrder": 4
     },
     {
       "id": "tv-md-spd-end-031",
@@ -7295,7 +7475,13 @@
       "uniquenessSignature": "md-spd-end-031",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "Elite athletes run split repetitions to simulate terminal race surges."
+      "sourceNote": "Elite athletes run split repetitions to simulate terminal race surges.",
+      "libraryCategoryId": "middle-distance-800m-mile",
+      "libraryCategoryLabel": "800m / 1500m / Mile",
+      "workoutType": "middle-distance-800m-mile",
+      "distanceNavId": "800m",
+      "distanceNavLabel": "800m",
+      "distanceSortOrder": 4
     },
     {
       "id": "tv-md-aer-sup-032",
@@ -7557,7 +7743,13 @@
       "uniquenessSignature": "md-aer-sup-032",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "Aerobic threshold fartleks develop systemic stamina and capillary density."
+      "sourceNote": "Aerobic threshold fartleks develop systemic stamina and capillary density.",
+      "libraryCategoryId": "middle-distance-800m-mile",
+      "libraryCategoryLabel": "800m / 1500m / Mile",
+      "workoutType": "middle-distance-800m-mile",
+      "distanceNavId": "mile",
+      "distanceNavLabel": "Mile",
+      "distanceSortOrder": 6
     },
     {
       "id": "tv-md-aer-sup-033",
@@ -7818,7 +8010,13 @@
       "uniquenessSignature": "md-aer-sup-033",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "Aerobic base runs develop systemic stamina and capillary density."
+      "sourceNote": "Aerobic base runs develop systemic stamina and capillary density.",
+      "libraryCategoryId": "middle-distance-800m-mile",
+      "libraryCategoryLabel": "800m / 1500m / Mile",
+      "workoutType": "middle-distance-800m-mile",
+      "distanceNavId": "mile",
+      "distanceNavLabel": "Mile",
+      "distanceSortOrder": 6
     },
     {
       "id": "tv-md-rp-shp-034",
@@ -8102,7 +8300,13 @@
       "uniquenessSignature": "md-rp-shp-034",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "Race week preparation prioritizes neural tuning over metabolic load."
+      "sourceNote": "Race week preparation prioritizes neural tuning over metabolic load.",
+      "libraryCategoryId": "middle-distance-800m-mile",
+      "libraryCategoryLabel": "800m / 1500m / Mile",
+      "workoutType": "middle-distance-800m-mile",
+      "distanceNavId": "mile",
+      "distanceNavLabel": "Mile",
+      "distanceSortOrder": 6
     },
     {
       "id": "tv-md-rp-shp-035",
@@ -8391,7 +8595,13 @@
       "uniquenessSignature": "md-rp-shp-035",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "Race week preparation prioritizes neural tuning over metabolic load."
+      "sourceNote": "Race week preparation prioritizes neural tuning over metabolic load.",
+      "libraryCategoryId": "middle-distance-800m-mile",
+      "libraryCategoryLabel": "800m / 1500m / Mile",
+      "workoutType": "middle-distance-800m-mile",
+      "distanceNavId": "mile",
+      "distanceNavLabel": "Mile",
+      "distanceSortOrder": 6
     }
   ]
 }

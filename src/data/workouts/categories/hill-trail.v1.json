@@ -199,7 +199,13 @@
       "uniquenessSignature": "ht-spr-intro-001",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "hill-trail",
+      "libraryCategoryLabel": "Hill / Trail Session",
+      "workoutType": "hill-trail",
+      "distanceNavId": "general",
+      "distanceNavLabel": "General",
+      "distanceSortOrder": 15
     },
     {
       "id": "tv-ht-spr-power-002",
@@ -383,7 +389,13 @@
       "uniquenessSignature": "ht-spr-power-002",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "hill-trail",
+      "libraryCategoryLabel": "Hill / Trail Session",
+      "workoutType": "hill-trail",
+      "distanceNavId": "general",
+      "distanceNavLabel": "General",
+      "distanceSortOrder": 15
     },
     {
       "id": "tv-ht-spr-explosive-003",
@@ -566,7 +578,13 @@
       "uniquenessSignature": "ht-spr-explosive-003",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "hill-trail",
+      "libraryCategoryLabel": "Hill / Trail Session",
+      "workoutType": "hill-trail",
+      "distanceNavId": "general",
+      "distanceNavLabel": "General",
+      "distanceSortOrder": 15
     },
     {
       "id": "tv-ht-spr-maxvel-004",
@@ -749,7 +767,13 @@
       "uniquenessSignature": "ht-spr-maxvel-004",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "hill-trail",
+      "libraryCategoryLabel": "Hill / Trail Session",
+      "workoutType": "hill-trail",
+      "distanceNavId": "general",
+      "distanceNavLabel": "General",
+      "distanceSortOrder": 15
     },
     {
       "id": "tv-ht-sh-dev30s-005",
@@ -933,7 +957,13 @@
       "uniquenessSignature": "ht-sh-dev30s-005",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "hill-trail",
+      "libraryCategoryLabel": "Hill / Trail Session",
+      "workoutType": "hill-trail",
+      "distanceNavId": "general",
+      "distanceNavLabel": "General",
+      "distanceSortOrder": 15
     },
     {
       "id": "tv-ht-sh-int45s-006",
@@ -1117,7 +1147,13 @@
       "uniquenessSignature": "ht-sh-int45s-006",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "hill-trail",
+      "libraryCategoryLabel": "Hill / Trail Session",
+      "workoutType": "hill-trail",
+      "distanceNavId": "general",
+      "distanceNavLabel": "General",
+      "distanceSortOrder": 15
     },
     {
       "id": "tv-ht-sh-adv60s-007",
@@ -1300,7 +1336,13 @@
       "uniquenessSignature": "ht-sh-adv60s-007",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "hill-trail",
+      "libraryCategoryLabel": "Hill / Trail Session",
+      "workoutType": "hill-trail",
+      "distanceNavId": "general",
+      "distanceNavLabel": "General",
+      "distanceSortOrder": 15
     },
     {
       "id": "tv-ht-sh-comp45s-008",
@@ -1483,7 +1525,13 @@
       "uniquenessSignature": "ht-sh-comp45s-008",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "hill-trail",
+      "libraryCategoryLabel": "Hill / Trail Session",
+      "workoutType": "hill-trail",
+      "distanceNavId": "general",
+      "distanceNavLabel": "General",
+      "distanceSortOrder": 15
     },
     {
       "id": "tv-ht-sh-rec45s-009",
@@ -1666,7 +1714,13 @@
       "uniquenessSignature": "ht-sh-rec45s-009",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "hill-trail",
+      "libraryCategoryLabel": "Hill / Trail Session",
+      "workoutType": "hill-trail",
+      "distanceNavId": "general",
+      "distanceNavLabel": "General",
+      "distanceSortOrder": 15
     },
     {
       "id": "tv-ht-lg-int2m-010",
@@ -1850,7 +1904,13 @@
       "uniquenessSignature": "ht-lg-int2m-010",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "hill-trail",
+      "libraryCategoryLabel": "Hill / Trail Session",
+      "workoutType": "hill-trail",
+      "distanceNavId": "general",
+      "distanceNavLabel": "General",
+      "distanceSortOrder": 15
     },
     {
       "id": "tv-ht-lg-adv3m-011",
@@ -2034,7 +2094,13 @@
       "uniquenessSignature": "ht-lg-adv3m-011",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "hill-trail",
+      "libraryCategoryLabel": "Hill / Trail Session",
+      "workoutType": "hill-trail",
+      "distanceNavId": "general",
+      "distanceNavLabel": "General",
+      "distanceSortOrder": 15
     },
     {
       "id": "tv-ht-lg-comp4m-012",
@@ -2217,7 +2283,13 @@
       "uniquenessSignature": "ht-lg-comp4m-012",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "hill-trail",
+      "libraryCategoryLabel": "Hill / Trail Session",
+      "workoutType": "hill-trail",
+      "distanceNavId": "general",
+      "distanceNavLabel": "General",
+      "distanceSortOrder": 15
     },
     {
       "id": "tv-ht-lg-dev90s-013",
@@ -2401,7 +2473,13 @@
       "uniquenessSignature": "ht-lg-dev90s-013",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "hill-trail",
+      "libraryCategoryLabel": "Hill / Trail Session",
+      "workoutType": "hill-trail",
+      "distanceNavId": "general",
+      "distanceNavLabel": "General",
+      "distanceSortOrder": 15
     },
     {
       "id": "tv-ht-rol-rec40m-014",
@@ -2568,7 +2646,13 @@
       "uniquenessSignature": "ht-rol-rec40m-014",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "hill-trail",
+      "libraryCategoryLabel": "Hill / Trail Session",
+      "workoutType": "hill-trail",
+      "distanceNavId": "general",
+      "distanceNavLabel": "General",
+      "distanceSortOrder": 15
     },
     {
       "id": "tv-ht-rol-int50m-015",
@@ -2736,7 +2820,13 @@
       "uniquenessSignature": "ht-rol-int50m-015",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "hill-trail",
+      "libraryCategoryLabel": "Hill / Trail Session",
+      "workoutType": "hill-trail",
+      "distanceNavId": "general",
+      "distanceNavLabel": "General",
+      "distanceSortOrder": 15
     },
     {
       "id": "tv-ht-rol-adv60m-016",
@@ -2947,7 +3037,13 @@
       "uniquenessSignature": "ht-rol-adv60m-016",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "hill-trail",
+      "libraryCategoryLabel": "Hill / Trail Session",
+      "workoutType": "hill-trail",
+      "distanceNavId": "general",
+      "distanceNavLabel": "General",
+      "distanceSortOrder": 15
     },
     {
       "id": "tv-ht-rol-comp80m-017",
@@ -3114,7 +3210,13 @@
       "uniquenessSignature": "ht-rol-comp80m-017",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "hill-trail",
+      "libraryCategoryLabel": "Hill / Trail Session",
+      "workoutType": "hill-trail",
+      "distanceNavId": "general",
+      "distanceNavLabel": "General",
+      "distanceSortOrder": 15
     },
     {
       "id": "tv-ht-end-rec45m-018",
@@ -3280,7 +3382,13 @@
       "uniquenessSignature": "ht-end-rec45m-018",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "hill-trail",
+      "libraryCategoryLabel": "Hill / Trail Session",
+      "workoutType": "hill-trail",
+      "distanceNavId": "trail",
+      "distanceNavLabel": "Trail",
+      "distanceSortOrder": 12
     },
     {
       "id": "tv-ht-end-dev60m-019",
@@ -3446,7 +3554,13 @@
       "uniquenessSignature": "ht-end-dev60m-019",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "hill-trail",
+      "libraryCategoryLabel": "Hill / Trail Session",
+      "workoutType": "hill-trail",
+      "distanceNavId": "trail",
+      "distanceNavLabel": "Trail",
+      "distanceSortOrder": 12
     },
     {
       "id": "tv-ht-end-int75m-020",
@@ -3613,7 +3727,13 @@
       "uniquenessSignature": "ht-end-int75m-020",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "hill-trail",
+      "libraryCategoryLabel": "Hill / Trail Session",
+      "workoutType": "hill-trail",
+      "distanceNavId": "trail",
+      "distanceNavLabel": "Trail",
+      "distanceSortOrder": 12
     },
     {
       "id": "tv-ht-end-adv90m-021",
@@ -3782,7 +3902,13 @@
       "uniquenessSignature": "ht-end-adv90m-021",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "hill-trail",
+      "libraryCategoryLabel": "Hill / Trail Session",
+      "workoutType": "hill-trail",
+      "distanceNavId": "trail",
+      "distanceNavLabel": "Trail",
+      "distanceSortOrder": 12
     },
     {
       "id": "tv-ht-far-dev30m-022",
@@ -3948,7 +4074,13 @@
       "uniquenessSignature": "ht-far-dev30m-022",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "hill-trail",
+      "libraryCategoryLabel": "Hill / Trail Session",
+      "workoutType": "hill-trail",
+      "distanceNavId": "trail",
+      "distanceNavLabel": "Trail",
+      "distanceSortOrder": 12
     },
     {
       "id": "tv-ht-far-int45m-023",
@@ -4116,7 +4248,13 @@
       "uniquenessSignature": "ht-far-int45m-023",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "hill-trail",
+      "libraryCategoryLabel": "Hill / Trail Session",
+      "workoutType": "hill-trail",
+      "distanceNavId": "trail",
+      "distanceNavLabel": "Trail",
+      "distanceSortOrder": 12
     },
     {
       "id": "tv-ht-far-adv60m-024",
@@ -4300,7 +4438,13 @@
       "uniquenessSignature": "ht-far-adv60m-024",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "hill-trail",
+      "libraryCategoryLabel": "Hill / Trail Session",
+      "workoutType": "hill-trail",
+      "distanceNavId": "trail",
+      "distanceNavLabel": "Trail",
+      "distanceSortOrder": 12
     },
     {
       "id": "tv-ht-dwn-control-025",
@@ -4484,7 +4628,13 @@
       "uniquenessSignature": "ht-dwn-control-025",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "hill-trail",
+      "libraryCategoryLabel": "Hill / Trail Session",
+      "workoutType": "hill-trail",
+      "distanceNavId": "trail",
+      "distanceNavLabel": "Trail",
+      "distanceSortOrder": 12
     }
   ]
 }

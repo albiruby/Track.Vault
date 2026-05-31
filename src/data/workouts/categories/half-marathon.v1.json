@@ -246,7 +246,13 @@
       "uniquenessSignature": "d7987c9eb5-hm-3-x-10-min-tempo-builder-half-marathon-developing",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "half-marathon",
+      "libraryCategoryLabel": "Half Marathon",
+      "workoutType": "tempo",
+      "distanceNavId": "half-marathon",
+      "distanceNavLabel": "Half Marathon",
+      "distanceSortOrder": 10
     },
     {
       "id": "tv-hm-002",
@@ -481,7 +487,13 @@
       "uniquenessSignature": "cbda51750e-hm-2-x-20-min-steady-tempo-half-marathon-intermediate",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "half-marathon",
+      "libraryCategoryLabel": "Half Marathon",
+      "workoutType": "tempo",
+      "distanceNavId": "half-marathon",
+      "distanceNavLabel": "Half Marathon",
+      "distanceSortOrder": 10
     },
     {
       "id": "tv-hm-003",
@@ -700,7 +712,13 @@
       "uniquenessSignature": "273c5ed000-hm-continuous-35-min-tempo-half-marathon-advanced",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "half-marathon",
+      "libraryCategoryLabel": "Half Marathon",
+      "workoutType": "tempo",
+      "distanceNavId": "half-marathon",
+      "distanceNavLabel": "Half Marathon",
+      "distanceSortOrder": 10
     },
     {
       "id": "tv-hm-004",
@@ -934,7 +952,13 @@
       "uniquenessSignature": "5cd7e07438-hm-broken-tempo-ladder-half-marathon-intermediate",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "half-marathon",
+      "libraryCategoryLabel": "Half Marathon",
+      "workoutType": "tempo",
+      "distanceNavId": "half-marathon",
+      "distanceNavLabel": "Half Marathon",
+      "distanceSortOrder": 10
     },
     {
       "id": "tv-hm-005",
@@ -1121,7 +1145,13 @@
       "uniquenessSignature": "6f94ffc2fe-hm-tempo-finish-aerobic-run-half-marathon-recreational",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "half-marathon",
+      "libraryCategoryLabel": "Half Marathon",
+      "workoutType": "progression-run",
+      "distanceNavId": "half-marathon",
+      "distanceNavLabel": "Half Marathon",
+      "distanceSortOrder": 10
     },
     {
       "id": "tv-hm-006",
@@ -1355,7 +1385,13 @@
       "uniquenessSignature": "21856cc66f-hm-4-x-8-min-threshold-control-half-marathon-intermediate",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "half-marathon",
+      "libraryCategoryLabel": "Half Marathon",
+      "workoutType": "threshold",
+      "distanceNavId": "half-marathon",
+      "distanceNavLabel": "Half Marathon",
+      "distanceSortOrder": 10
     },
     {
       "id": "tv-hm-007",
@@ -1589,7 +1625,13 @@
       "uniquenessSignature": "8056d2e713-hm-5-x-6-min-cruise-threshold-half-marathon-developing",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "half-marathon",
+      "libraryCategoryLabel": "Half Marathon",
+      "workoutType": "cruise-interval",
+      "distanceNavId": "half-marathon",
+      "distanceNavLabel": "Half Marathon",
+      "distanceSortOrder": 10
     },
     {
       "id": "tv-hm-008",
@@ -1824,7 +1866,13 @@
       "uniquenessSignature": "c745ed853a-hm-3-x-12-min-threshold-blocks-half-marathon-advanced",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "half-marathon",
+      "libraryCategoryLabel": "Half Marathon",
+      "workoutType": "threshold",
+      "distanceNavId": "half-marathon",
+      "distanceNavLabel": "Half Marathon",
+      "distanceSortOrder": 10
     },
     {
       "id": "tv-hm-009",
@@ -2058,7 +2106,13 @@
       "uniquenessSignature": "362f189dfe-hm-6-x-1k-threshold-float-half-marathon-intermediate",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "half-marathon",
+      "libraryCategoryLabel": "Half Marathon",
+      "workoutType": "threshold",
+      "distanceNavId": "half-marathon",
+      "distanceNavLabel": "Half Marathon",
+      "distanceSortOrder": 10
     },
     {
       "id": "tv-hm-010",
@@ -2292,7 +2346,13 @@
       "uniquenessSignature": "770dbc5544-hm-2-x-3k-threshold-strength-half-marathon-advanced",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "half-marathon",
+      "libraryCategoryLabel": "Half Marathon",
+      "workoutType": "threshold",
+      "distanceNavId": "half-marathon",
+      "distanceNavLabel": "Half Marathon",
+      "distanceSortOrder": 10
     },
     {
       "id": "tv-hm-011",
@@ -2526,7 +2586,13 @@
       "uniquenessSignature": "9d080d079c-hm-3-x-15-min-race-effort-half-marathon-intermediate",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "half-marathon",
+      "libraryCategoryLabel": "Half Marathon",
+      "workoutType": "race-pace",
+      "distanceNavId": "half-marathon",
+      "distanceNavLabel": "Half Marathon",
+      "distanceSortOrder": 10
     },
     {
       "id": "tv-hm-012",
@@ -2760,7 +2826,13 @@
       "uniquenessSignature": "hm-5k-4k-3k-race-rhythm-12k-advanced-012",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "half-marathon",
+      "libraryCategoryLabel": "Half Marathon",
+      "workoutType": "race-pace",
+      "distanceNavId": "half-marathon",
+      "distanceNavLabel": "Half Marathon",
+      "distanceSortOrder": 10
     },
     {
       "id": "tv-hm-013",
@@ -2995,7 +3067,13 @@
       "uniquenessSignature": "967c75aa23-hm-race-pace-alternations-half-marathon-intermediate",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "half-marathon",
+      "libraryCategoryLabel": "Half Marathon",
+      "workoutType": "race-pace",
+      "distanceNavId": "half-marathon",
+      "distanceNavLabel": "Half Marathon",
+      "distanceSortOrder": 10
     },
     {
       "id": "tv-hm-014",
@@ -3229,7 +3307,13 @@
       "uniquenessSignature": "9dc7b65042-hm-8-x-1k-race-pace-repeats-half-marathon-developing",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "half-marathon",
+      "libraryCategoryLabel": "Half Marathon",
+      "workoutType": "race-pace",
+      "distanceNavId": "half-marathon",
+      "distanceNavLabel": "Half Marathon",
+      "distanceSortOrder": 10
     },
     {
       "id": "tv-hm-015",
@@ -3448,7 +3532,13 @@
       "uniquenessSignature": "72bc956817-hm-last-third-race-simulation-half-marathon-advanced",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "half-marathon",
+      "libraryCategoryLabel": "Half Marathon",
+      "workoutType": "race-pace",
+      "distanceNavId": "half-marathon",
+      "distanceNavLabel": "Half Marathon",
+      "distanceSortOrder": 10
     },
     {
       "id": "tv-hm-016",
@@ -3650,7 +3740,13 @@
       "uniquenessSignature": "088645fea5-hm-long-run-with-3-x-10-min-tempo-half-marathon-intermediate",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "half-marathon",
+      "libraryCategoryLabel": "Half Marathon",
+      "workoutType": "long-run",
+      "distanceNavId": "half-marathon",
+      "distanceNavLabel": "Half Marathon",
+      "distanceSortOrder": 10
     },
     {
       "id": "tv-hm-017",
@@ -3838,7 +3934,13 @@
       "uniquenessSignature": "2956d77c50-hm-steady-long-run-finish-half-marathon-developing",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "half-marathon",
+      "libraryCategoryLabel": "Half Marathon",
+      "workoutType": "long-run",
+      "distanceNavId": "half-marathon",
+      "distanceNavLabel": "Half Marathon",
+      "distanceSortOrder": 10
     },
     {
       "id": "tv-hm-018",
@@ -4040,7 +4142,13 @@
       "uniquenessSignature": "34606c708f-hm-long-run-with-short-surges-half-marathon-intermediate",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "half-marathon",
+      "libraryCategoryLabel": "Half Marathon",
+      "workoutType": "long-run",
+      "distanceNavId": "half-marathon",
+      "distanceNavLabel": "Half Marathon",
+      "distanceSortOrder": 10
     },
     {
       "id": "tv-hm-019",
@@ -4227,7 +4335,13 @@
       "uniquenessSignature": "cb3bcfd33c-hm-rolling-aerobic-long-run-half-marathon-recreational",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "half-marathon",
+      "libraryCategoryLabel": "Half Marathon",
+      "workoutType": "long-run",
+      "distanceNavId": "half-marathon",
+      "distanceNavLabel": "Half Marathon",
+      "distanceSortOrder": 10
     },
     {
       "id": "tv-hm-020",
@@ -4429,7 +4543,13 @@
       "uniquenessSignature": "ee9e7ab4ad-hm-long-run-with-2-x-15-min-race-rhythm-half-marathon-advanced",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "half-marathon",
+      "libraryCategoryLabel": "Half Marathon",
+      "workoutType": "long-run",
+      "distanceNavId": "half-marathon",
+      "distanceNavLabel": "Half Marathon",
+      "distanceSortOrder": 10
     },
     {
       "id": "tv-hm-021",
@@ -4616,7 +4736,13 @@
       "uniquenessSignature": "42454b2846-hm-60-min-progression-run-half-marathon-developing",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "half-marathon",
+      "libraryCategoryLabel": "Half Marathon",
+      "workoutType": "progression-run",
+      "distanceNavId": "half-marathon",
+      "distanceNavLabel": "Half Marathon",
+      "distanceSortOrder": 10
     },
     {
       "id": "tv-hm-022",
@@ -4804,7 +4930,13 @@
       "uniquenessSignature": "060b3bf267-hm-75-min-negative-split-progression-half-marathon-intermediate",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "half-marathon",
+      "libraryCategoryLabel": "Half Marathon",
+      "workoutType": "progression-run",
+      "distanceNavId": "half-marathon",
+      "distanceNavLabel": "Half Marathon",
+      "distanceSortOrder": 10
     },
     {
       "id": "tv-hm-023",
@@ -4992,7 +5124,13 @@
       "uniquenessSignature": "7a515ed87b-hm-45-min-controlled-progression-half-marathon-recreational",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "half-marathon",
+      "libraryCategoryLabel": "Half Marathon",
+      "workoutType": "progression-run",
+      "distanceNavId": "half-marathon",
+      "distanceNavLabel": "Half Marathon",
+      "distanceSortOrder": 10
     },
     {
       "id": "tv-hm-024",
@@ -5195,7 +5333,13 @@
       "uniquenessSignature": "eb94e9e16f-hm-aerobic-support-strides-half-marathon-recreational",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "half-marathon",
+      "libraryCategoryLabel": "Half Marathon",
+      "workoutType": "easy-run",
+      "distanceNavId": "half-marathon",
+      "distanceNavLabel": "Half Marathon",
+      "distanceSortOrder": 10
     },
     {
       "id": "tv-hm-025",
@@ -5383,7 +5527,13 @@
       "uniquenessSignature": "9548ededa9-hm-aerobic-maintenance-run-half-marathon-beginner",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "half-marathon",
+      "libraryCategoryLabel": "Half Marathon",
+      "workoutType": "easy-run",
+      "distanceNavId": "half-marathon",
+      "distanceNavLabel": "Half Marathon",
+      "distanceSortOrder": 10
     }
   ]
 }

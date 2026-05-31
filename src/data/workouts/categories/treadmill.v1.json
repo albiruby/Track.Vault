@@ -180,7 +180,13 @@
       "uniquenessSignature": "tm-esy-climate30m-001",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "treadmill",
+      "libraryCategoryLabel": "Treadmill Session",
+      "workoutType": "treadmill",
+      "distanceNavId": "treadmill",
+      "distanceNavLabel": "Treadmill",
+      "distanceSortOrder": 13
     },
     {
       "id": "tv-tm-esy-builder40m-002",
@@ -344,7 +350,13 @@
       "uniquenessSignature": "tm-esy-builder40m-002",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "treadmill",
+      "libraryCategoryLabel": "Treadmill Session",
+      "workoutType": "treadmill",
+      "distanceNavId": "treadmill",
+      "distanceNavLabel": "Treadmill",
+      "distanceSortOrder": 13
     },
     {
       "id": "tv-tm-esy-steady45m-003",
@@ -508,7 +520,13 @@
       "uniquenessSignature": "tm-esy-steady45m-003",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "treadmill",
+      "libraryCategoryLabel": "Treadmill Session",
+      "workoutType": "treadmill",
+      "distanceNavId": "treadmill",
+      "distanceNavLabel": "Treadmill",
+      "distanceSortOrder": 13
     },
     {
       "id": "tv-tm-inc-builder30m-004",
@@ -672,7 +690,13 @@
       "uniquenessSignature": "tm-inc-builder30m-004",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "treadmill",
+      "libraryCategoryLabel": "Treadmill Session",
+      "workoutType": "treadmill",
+      "distanceNavId": "treadmill",
+      "distanceNavLabel": "Treadmill",
+      "distanceSortOrder": 13
     },
     {
       "id": "tv-tm-inc-rolling40m-005",
@@ -837,7 +861,13 @@
       "uniquenessSignature": "tm-inc-rolling40m-005",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "treadmill",
+      "libraryCategoryLabel": "Treadmill Session",
+      "workoutType": "treadmill",
+      "distanceNavId": "treadmill",
+      "distanceNavLabel": "Treadmill",
+      "distanceSortOrder": 13
     },
     {
       "id": "tv-tm-inc-mountain45m-006",
@@ -1002,7 +1032,13 @@
       "uniquenessSignature": "tm-inc-mountain45m-006",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "treadmill",
+      "libraryCategoryLabel": "Treadmill Session",
+      "workoutType": "treadmill",
+      "distanceNavId": "treadmill",
+      "distanceNavLabel": "Treadmill",
+      "distanceSortOrder": 13
     },
     {
       "id": "tv-tm-tmp-sustained15m-007",
@@ -1165,7 +1201,13 @@
       "uniquenessSignature": "tm-tmp-sustained15m-007",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "treadmill",
+      "libraryCategoryLabel": "Treadmill Session",
+      "workoutType": "treadmill",
+      "distanceNavId": "treadmill",
+      "distanceNavLabel": "Treadmill",
+      "distanceSortOrder": 13
     },
     {
       "id": "tv-tm-tmp-belt20m-008",
@@ -1329,7 +1371,13 @@
       "uniquenessSignature": "tm-tmp-belt20m-008",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "treadmill",
+      "libraryCategoryLabel": "Treadmill Session",
+      "workoutType": "treadmill",
+      "distanceNavId": "treadmill",
+      "distanceNavLabel": "Treadmill",
+      "distanceSortOrder": 13
     },
     {
       "id": "tv-tm-tmp-alternating3x8-009",
@@ -1509,7 +1557,13 @@
       "uniquenessSignature": "tm-tmp-alternating3x8-009",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "treadmill",
+      "libraryCategoryLabel": "Treadmill Session",
+      "workoutType": "treadmill",
+      "distanceNavId": "treadmill",
+      "distanceNavLabel": "Treadmill",
+      "distanceSortOrder": 13
     },
     {
       "id": "tv-tm-int-repeats5x2-010",
@@ -1690,7 +1744,13 @@
       "uniquenessSignature": "tm-int-repeats5x2-010",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "treadmill",
+      "libraryCategoryLabel": "Treadmill Session",
+      "workoutType": "treadmill",
+      "distanceNavId": "treadmill",
+      "distanceNavLabel": "Treadmill",
+      "distanceSortOrder": 13
     },
     {
       "id": "tv-tm-int-repeats6x3-011",
@@ -1871,7 +1931,13 @@
       "uniquenessSignature": "tm-int-repeats6x3-011",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "treadmill",
+      "libraryCategoryLabel": "Treadmill Session",
+      "workoutType": "treadmill",
+      "distanceNavId": "treadmill",
+      "distanceNavLabel": "Treadmill",
+      "distanceSortOrder": 13
     },
     {
       "id": "tv-tm-int-speed8x1-012",
@@ -2052,7 +2118,13 @@
       "uniquenessSignature": "tm-int-speed8x1-012",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "treadmill",
+      "libraryCategoryLabel": "Treadmill Session",
+      "workoutType": "treadmill",
+      "distanceNavId": "treadmill",
+      "distanceNavLabel": "Treadmill",
+      "distanceSortOrder": 13
     },
     {
       "id": "tv-tm-prg-progressive30m-013",
@@ -2215,7 +2287,13 @@
       "uniquenessSignature": "tm-prg-progressive30m-013",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "treadmill",
+      "libraryCategoryLabel": "Treadmill Session",
+      "workoutType": "treadmill",
+      "distanceNavId": "treadmill",
+      "distanceNavLabel": "Treadmill",
+      "distanceSortOrder": 13
     },
     {
       "id": "tv-tm-prg-outback40m-014",
@@ -2410,7 +2488,13 @@
       "uniquenessSignature": "tm-prg-outback40m-014-3a4d110d",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "treadmill",
+      "libraryCategoryLabel": "Treadmill Session",
+      "workoutType": "treadmill",
+      "distanceNavId": "treadmill",
+      "distanceNavLabel": "Treadmill",
+      "distanceSortOrder": 13
     },
     {
       "id": "tv-tm-rec-active20m-015",
@@ -2575,7 +2659,13 @@
       "uniquenessSignature": "tm-rec-active20m-015",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "treadmill",
+      "libraryCategoryLabel": "Treadmill Session",
+      "workoutType": "treadmill",
+      "distanceNavId": "treadmill",
+      "distanceNavLabel": "Treadmill",
+      "distanceSortOrder": 13
     }
   ]
 }

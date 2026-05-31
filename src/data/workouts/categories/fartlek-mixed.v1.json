@@ -197,7 +197,13 @@
       "uniquenessSignature": "fm-beg-intro-001",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "fartlek-mixed",
+      "libraryCategoryLabel": "Fartlek / Mixed Session",
+      "workoutType": "fartlek-mixed",
+      "distanceNavId": "general",
+      "distanceNavLabel": "General",
+      "distanceSortOrder": 15
     },
     {
       "id": "tv-fm-beg-landmark-002",
@@ -379,7 +385,13 @@
       "uniquenessSignature": "fm-beg-landmark-002",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "fartlek-mixed",
+      "libraryCategoryLabel": "Fartlek / Mixed Session",
+      "workoutType": "fartlek-mixed",
+      "distanceNavId": "general",
+      "distanceNavLabel": "General",
+      "distanceSortOrder": 15
     },
     {
       "id": "tv-fm-beg-ladder-003",
@@ -561,7 +573,13 @@
       "uniquenessSignature": "fm-beg-ladder-003",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "fartlek-mixed",
+      "libraryCategoryLabel": "Fartlek / Mixed Session",
+      "workoutType": "fartlek-mixed",
+      "distanceNavId": "general",
+      "distanceNavLabel": "General",
+      "distanceSortOrder": 15
     },
     {
       "id": "tv-fm-aer-monasim-004",
@@ -801,7 +819,13 @@
       "uniquenessSignature": "fm-aer-monasim-004",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "fartlek-mixed",
+      "libraryCategoryLabel": "Fartlek / Mixed Session",
+      "workoutType": "fartlek-mixed",
+      "distanceNavId": "general",
+      "distanceNavLabel": "General",
+      "distanceSortOrder": 15
     },
     {
       "id": "tv-fm-aer-continuous-005",
@@ -969,7 +993,13 @@
       "uniquenessSignature": "fm-aer-continuous-005",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "fartlek-mixed",
+      "libraryCategoryLabel": "Fartlek / Mixed Session",
+      "workoutType": "fartlek-mixed",
+      "distanceNavId": "general",
+      "distanceNavLabel": "General",
+      "distanceSortOrder": 15
     },
     {
       "id": "tv-fm-aer-progressive-006",
@@ -1179,7 +1209,13 @@
       "uniquenessSignature": "fm-aer-progressive-006",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "fartlek-mixed",
+      "libraryCategoryLabel": "Fartlek / Mixed Session",
+      "workoutType": "fartlek-mixed",
+      "distanceNavId": "general",
+      "distanceNavLabel": "General",
+      "distanceSortOrder": 15
     },
     {
       "id": "tv-fm-aer-float-007",
@@ -1348,7 +1384,13 @@
       "uniquenessSignature": "fm-aer-float-007",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "fartlek-mixed",
+      "libraryCategoryLabel": "Fartlek / Mixed Session",
+      "workoutType": "fartlek-mixed",
+      "distanceNavId": "general",
+      "distanceNavLabel": "General",
+      "distanceSortOrder": 15
     },
     {
       "id": "tv-fm-aer-doublemona-008",
@@ -1540,7 +1582,13 @@
       "uniquenessSignature": "fm-aer-doublemona-008",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "fartlek-mixed",
+      "libraryCategoryLabel": "Fartlek / Mixed Session",
+      "workoutType": "fartlek-mixed",
+      "distanceNavId": "general",
+      "distanceNavLabel": "General",
+      "distanceSortOrder": 15
     },
     {
       "id": "tv-fm-spd-classic3030-009",
@@ -1722,7 +1770,13 @@
       "uniquenessSignature": "fm-spd-classic3030-009",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "fartlek-mixed",
+      "libraryCategoryLabel": "Fartlek / Mixed Session",
+      "workoutType": "fartlek-mixed",
+      "distanceNavId": "general",
+      "distanceNavLabel": "General",
+      "distanceSortOrder": 15
     },
     {
       "id": "tv-fm-spd-minburner-010",
@@ -1906,7 +1960,13 @@
       "uniquenessSignature": "fm-spd-minburner-010",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "fartlek-mixed",
+      "libraryCategoryLabel": "Fartlek / Mixed Session",
+      "workoutType": "fartlek-mixed",
+      "distanceNavId": "general",
+      "distanceNavLabel": "General",
+      "distanceSortOrder": 15
     },
     {
       "id": "tv-fm-spd-alternating-011",
@@ -2090,7 +2150,13 @@
       "uniquenessSignature": "fm-spd-alternating-011",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "fartlek-mixed",
+      "libraryCategoryLabel": "Fartlek / Mixed Session",
+      "workoutType": "fartlek-mixed",
+      "distanceNavId": "general",
+      "distanceNavLabel": "General",
+      "distanceSortOrder": 15
     },
     {
       "id": "tv-fm-spd-microburst-012",
@@ -2371,7 +2437,13 @@
       "uniquenessSignature": "fm-spd-microburst-012",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "fartlek-mixed",
+      "libraryCategoryLabel": "Fartlek / Mixed Session",
+      "workoutType": "fartlek-mixed",
+      "distanceNavId": "general",
+      "distanceNavLabel": "General",
+      "distanceSortOrder": 15
     },
     {
       "id": "tv-fm-spd-hillspeed-013",
@@ -2555,7 +2627,13 @@
       "uniquenessSignature": "fm-spd-hillspeed-013",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "fartlek-mixed",
+      "libraryCategoryLabel": "Fartlek / Mixed Session",
+      "workoutType": "fartlek-mixed",
+      "distanceNavId": "general",
+      "distanceNavLabel": "General",
+      "distanceSortOrder": 15
     },
     {
       "id": "tv-fm-pyr-standard-014",
@@ -2737,7 +2815,13 @@
       "uniquenessSignature": "fm-pyr-standard-014",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "fartlek-mixed",
+      "libraryCategoryLabel": "Fartlek / Mixed Session",
+      "workoutType": "fartlek-mixed",
+      "distanceNavId": "general",
+      "distanceNavLabel": "General",
+      "distanceSortOrder": 15
     },
     {
       "id": "tv-fm-pyr-continuous-015",
@@ -2921,7 +3005,13 @@
       "uniquenessSignature": "fm-pyr-continuous-015",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "fartlek-mixed",
+      "libraryCategoryLabel": "Fartlek / Mixed Session",
+      "workoutType": "fartlek-mixed",
+      "distanceNavId": "general",
+      "distanceNavLabel": "General",
+      "distanceSortOrder": 15
     },
     {
       "id": "tv-fm-pyr-advanced-016",
@@ -3105,7 +3195,13 @@
       "uniquenessSignature": "fm-pyr-advanced-016",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "fartlek-mixed",
+      "libraryCategoryLabel": "Fartlek / Mixed Session",
+      "workoutType": "fartlek-mixed",
+      "distanceNavId": "general",
+      "distanceNavLabel": "General",
+      "distanceSortOrder": 15
     },
     {
       "id": "tv-fm-pyr-double-017",
@@ -3296,7 +3392,13 @@
       "uniquenessSignature": "fm-pyr-double-017",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "fartlek-mixed",
+      "libraryCategoryLabel": "Fartlek / Mixed Session",
+      "workoutType": "fartlek-mixed",
+      "distanceNavId": "general",
+      "distanceNavLabel": "General",
+      "distanceSortOrder": 15
     },
     {
       "id": "tv-fm-rc-5kprep-018",
@@ -3479,7 +3581,13 @@
       "uniquenessSignature": "fm-rc-5kprep-018",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "fartlek-mixed",
+      "libraryCategoryLabel": "Fartlek / Mixed Session",
+      "workoutType": "fartlek-mixed",
+      "distanceNavId": "5k",
+      "distanceNavLabel": "5K",
+      "distanceSortOrder": 8
     },
     {
       "id": "tv-fm-rc-10kprog-019",
@@ -3662,7 +3770,13 @@
       "uniquenessSignature": "fm-rc-10kprog-019",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "fartlek-mixed",
+      "libraryCategoryLabel": "Fartlek / Mixed Session",
+      "workoutType": "fartlek-mixed",
+      "distanceNavId": "10k",
+      "distanceNavLabel": "10K",
+      "distanceSortOrder": 9
     },
     {
       "id": "tv-fm-rc-3ksharp-020",
@@ -3845,7 +3959,13 @@
       "uniquenessSignature": "fm-rc-3ksharp-020",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "fartlek-mixed",
+      "libraryCategoryLabel": "Fartlek / Mixed Session",
+      "workoutType": "fartlek-mixed",
+      "distanceNavId": "3k",
+      "distanceNavLabel": "3K",
+      "distanceSortOrder": 7
     },
     {
       "id": "tv-fm-rc-compsim-021",
@@ -4028,7 +4148,13 @@
       "uniquenessSignature": "fm-rc-compsim-021",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "fartlek-mixed",
+      "libraryCategoryLabel": "Fartlek / Mixed Session",
+      "workoutType": "fartlek-mixed",
+      "distanceNavId": "general",
+      "distanceNavLabel": "General",
+      "distanceSortOrder": 15
     },
     {
       "id": "tv-fm-mix-321-022",
@@ -4210,7 +4336,13 @@
       "uniquenessSignature": "fm-mix-321-022",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "fartlek-mixed",
+      "libraryCategoryLabel": "Fartlek / Mixed Session",
+      "workoutType": "fartlek-mixed",
+      "distanceNavId": "general",
+      "distanceNavLabel": "General",
+      "distanceSortOrder": 15
     },
     {
       "id": "tv-fm-mix-wave-023",
@@ -4379,7 +4511,13 @@
       "uniquenessSignature": "fm-mix-wave-023",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "fartlek-mixed",
+      "libraryCategoryLabel": "Fartlek / Mixed Session",
+      "workoutType": "fartlek-mixed",
+      "distanceNavId": "general",
+      "distanceNavLabel": "General",
+      "distanceSortOrder": 15
     },
     {
       "id": "tv-fm-mix-multipace-024",
@@ -4562,7 +4700,13 @@
       "uniquenessSignature": "fm-mix-multipace-024",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "fartlek-mixed",
+      "libraryCategoryLabel": "Fartlek / Mixed Session",
+      "workoutType": "fartlek-mixed",
+      "distanceNavId": "general",
+      "distanceNavLabel": "General",
+      "distanceSortOrder": 15
     },
     {
       "id": "tv-fm-mix-compladder-025",
@@ -4754,7 +4898,13 @@
       "uniquenessSignature": "fm-mix-compladder-025",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "fartlek-mixed",
+      "libraryCategoryLabel": "Fartlek / Mixed Session",
+      "workoutType": "fartlek-mixed",
+      "distanceNavId": "general",
+      "distanceNavLabel": "General",
+      "distanceSortOrder": 15
     }
   ]
 }

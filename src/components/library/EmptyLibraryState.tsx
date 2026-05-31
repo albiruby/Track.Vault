@@ -12,35 +12,27 @@ interface EmptyLibraryStateProps {
 
 export function EmptyLibraryState({ onNavigateToBuilder }: EmptyLibraryStateProps) {
   return (
-    <div className="flex flex-col items-center text-center p-12 max-w-xl mx-auto my-12 bg-white dark:bg-slate-900 border border-slate-200/60 dark:border-slate-800 rounded-2xl shadow-sm">
-      <div className="w-14 h-14 rounded-full bg-orange-50 dark:bg-orange-950/20 flex items-center justify-center text-orange-600 mb-5 border border-orange-100 dark:border-orange-900/30">
-        <HardHat className="w-6 h-6 animate-pulse" />
+    <div className="flex flex-col items-center text-center p-10 max-w-xl mx-auto my-12 bg-white dark:bg-[#151A23] border border-[#D8DEE8] dark:border-[#2A3445] rounded-sm shadow-sm">
+      <div className="w-12 h-12 rounded-sm bg-[#FFF1EA] dark:bg-[rgba(255,78,0,12)] flex items-center justify-center text-[#FF4E00] mb-5 border border-orange-100 dark:border-orange-950/40">
+        <HardHat className="w-5 h-5" />
       </div>
 
-      <h3 className="text-lg font-bold font-display tracking-tight text-slate-800 dark:text-slate-100">
-        Workout Library Initialized
+      <h3 className="text-base font-bold tracking-tight text-[#111827] dark:text-white uppercase">
+        Workout Library Empty
       </h3>
 
-      <p className="text-sm text-slate-500 dark:text-slate-400 mt-2.5 leading-relaxed max-w-md">
-        Workout library structure is ready. Add finalized workout JSON files to populate this vault.
+      <p className="text-xs text-[#6B7280] dark:text-slate-400 mt-2 leading-relaxed max-w-md">
+         No workouts match your current filter parameters. Expand criteria or program a fresh custom session in the Builder.
       </p>
 
       <div className="mt-6 flex flex-col sm:flex-row gap-3 w-full justify-center">
         <button
           onClick={onNavigateToBuilder}
-          className="px-5 py-2.5 rounded-xl font-bold text-xs tracking-wide bg-orange-600 hover:bg-orange-700 text-white shadow-sm hover:shadow transition-all flex items-center justify-center gap-1.5 cursor-pointer"
+          className="px-5 py-2.5 rounded-sm font-bold text-xs tracking-wide bg-[#FF4E00] hover:bg-[#E64600] text-white shadow-xs transition-all flex items-center justify-center gap-1.5 cursor-pointer font-sans"
         >
           <Compass className="w-4 h-4" />
           <span>Open Custom Builder</span>
         </button>
-
-        <a
-          href="/docs/TRACK_VAULT_DATA_GUIDE.md"
-          className="px-5 py-2.5 rounded-xl font-semibold text-xs tracking-wide border border-slate-200 dark:border-slate-800 text-slate-600 dark:text-slate-300 hover:bg-slate-50 dark:hover:bg-slate-800 flex items-center justify-center gap-1.5 cursor-pointer"
-        >
-          <FileCode className="w-4 h-4 text-slate-400" />
-          <span>Read Data Schema</span>
-        </a>
       </div>
 
 

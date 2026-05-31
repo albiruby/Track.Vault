@@ -190,7 +190,13 @@
       "uniquenessSignature": "br-runwalk-15m-beginner-001",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "beginner-return",
+      "libraryCategoryLabel": "Beginner / Return-to-Running",
+      "workoutType": "easy-run",
+      "distanceNavId": "general",
+      "distanceNavLabel": "General",
+      "distanceSortOrder": 15
     },
     {
       "id": "tv-br-runwalk-20m-beginner-002",
@@ -366,7 +372,13 @@
       "uniquenessSignature": "br-runwalk-20m-beginner-002",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "beginner-return",
+      "libraryCategoryLabel": "Beginner / Return-to-Running",
+      "workoutType": "easy-run",
+      "distanceNavId": "general",
+      "distanceNavLabel": "General",
+      "distanceSortOrder": 15
     },
     {
       "id": "tv-br-runwalk-25m-beginner-003",
@@ -542,7 +554,13 @@
       "uniquenessSignature": "br-runwalk-25m-beginner-003",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "beginner-return",
+      "libraryCategoryLabel": "Beginner / Return-to-Running",
+      "workoutType": "easy-run",
+      "distanceNavId": "general",
+      "distanceNavLabel": "General",
+      "distanceSortOrder": 15
     },
     {
       "id": "tv-br-runwalk-30m-recreational-004",
@@ -718,7 +736,13 @@
       "uniquenessSignature": "br-runwalk-30m-recreational-004",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "beginner-return",
+      "libraryCategoryLabel": "Beginner / Return-to-Running",
+      "workoutType": "easy-run",
+      "distanceNavId": "general",
+      "distanceNavLabel": "General",
+      "distanceSortOrder": 15
     },
     {
       "id": "tv-br-runwalk-35m-recreational-005",
@@ -894,7 +918,13 @@
       "uniquenessSignature": "br-runwalk-35m-recreational-005",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "beginner-return",
+      "libraryCategoryLabel": "Beginner / Return-to-Running",
+      "workoutType": "easy-run",
+      "distanceNavId": "general",
+      "distanceNavLabel": "General",
+      "distanceSortOrder": 15
     },
     {
       "id": "tv-br-runwalk-40m-developing-006",
@@ -1070,7 +1100,13 @@
       "uniquenessSignature": "br-runwalk-40m-developing-006",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "beginner-return",
+      "libraryCategoryLabel": "Beginner / Return-to-Running",
+      "workoutType": "easy-run",
+      "distanceNavId": "general",
+      "distanceNavLabel": "General",
+      "distanceSortOrder": 15
     },
     {
       "id": "tv-br-easy-15m-beginner-007",
@@ -1231,7 +1267,13 @@
       "uniquenessSignature": "br-easy-15m-beginner-007",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "beginner-return",
+      "libraryCategoryLabel": "Beginner / Return-to-Running",
+      "workoutType": "easy-run",
+      "distanceNavId": "general",
+      "distanceNavLabel": "General",
+      "distanceSortOrder": 15
     },
     {
       "id": "tv-br-easy-20m-beginner-008",
@@ -1392,7 +1434,13 @@
       "uniquenessSignature": "br-easy-20m-beginner-008",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "beginner-return",
+      "libraryCategoryLabel": "Beginner / Return-to-Running",
+      "workoutType": "easy-run",
+      "distanceNavId": "general",
+      "distanceNavLabel": "General",
+      "distanceSortOrder": 15
     },
     {
       "id": "tv-br-easy-25m-recreational-009",
@@ -1553,7 +1601,13 @@
       "uniquenessSignature": "br-easy-25m-recreational-009",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "beginner-return",
+      "libraryCategoryLabel": "Beginner / Return-to-Running",
+      "workoutType": "easy-run",
+      "distanceNavId": "general",
+      "distanceNavLabel": "General",
+      "distanceSortOrder": 15
     },
     {
       "id": "tv-br-easy-30m-recreational-010",
@@ -1714,7 +1768,13 @@
       "uniquenessSignature": "br-easy-30m-recreational-010",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "beginner-return",
+      "libraryCategoryLabel": "Beginner / Return-to-Running",
+      "workoutType": "easy-run",
+      "distanceNavId": "general",
+      "distanceNavLabel": "General",
+      "distanceSortOrder": 15
     },
     {
       "id": "tv-br-easy-35m-developing-011",
@@ -1875,7 +1935,13 @@
       "uniquenessSignature": "br-easy-35m-developing-011",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "beginner-return",
+      "libraryCategoryLabel": "Beginner / Return-to-Running",
+      "workoutType": "easy-run",
+      "distanceNavId": "general",
+      "distanceNavLabel": "General",
+      "distanceSortOrder": 15
     },
     {
       "id": "tv-br-aerobic-4x5m-recreational-012",
@@ -2050,7 +2116,13 @@
       "uniquenessSignature": "br-aerobic-4x5m-recreational-012",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "beginner-return",
+      "libraryCategoryLabel": "Beginner / Return-to-Running",
+      "workoutType": "easy-run",
+      "distanceNavId": "5k",
+      "distanceNavLabel": "5K",
+      "distanceSortOrder": 8
     },
     {
       "id": "tv-br-aerobic-3x8m-recreational-013",
@@ -2225,7 +2297,13 @@
       "uniquenessSignature": "br-aerobic-3x8m-recreational-013",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "beginner-return",
+      "libraryCategoryLabel": "Beginner / Return-to-Running",
+      "workoutType": "easy-run",
+      "distanceNavId": "5k",
+      "distanceNavLabel": "5K",
+      "distanceSortOrder": 8
     },
     {
       "id": "tv-br-aerobic-2x12m-developing-014",
@@ -2400,7 +2478,13 @@
       "uniquenessSignature": "br-aerobic-2x12m-developing-014",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "beginner-return",
+      "libraryCategoryLabel": "Beginner / Return-to-Running",
+      "workoutType": "easy-run",
+      "distanceNavId": "5k",
+      "distanceNavLabel": "5K",
+      "distanceSortOrder": 8
     },
     {
       "id": "tv-br-aerobic-15k-prog-developing-015",
@@ -2560,7 +2644,13 @@
       "uniquenessSignature": "br-aerobic-15k-prog-developing-015",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "beginner-return",
+      "libraryCategoryLabel": "Beginner / Return-to-Running",
+      "workoutType": "easy-run",
+      "distanceNavId": "5k",
+      "distanceNavLabel": "5K",
+      "distanceSortOrder": 8
     },
     {
       "id": "tv-br-strides-easy-20m-recreational-016",
@@ -2778,7 +2868,13 @@
       "uniquenessSignature": "br-strides-easy-20m-recreational-016",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "beginner-return",
+      "libraryCategoryLabel": "Beginner / Return-to-Running",
+      "workoutType": "easy-run",
+      "distanceNavId": "general",
+      "distanceNavLabel": "General",
+      "distanceSortOrder": 15
     },
     {
       "id": "tv-br-strides-easy-25m-recreational-017",
@@ -2996,7 +3092,13 @@
       "uniquenessSignature": "br-strides-easy-25m-recreational-017",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "beginner-return",
+      "libraryCategoryLabel": "Beginner / Return-to-Running",
+      "workoutType": "easy-run",
+      "distanceNavId": "general",
+      "distanceNavLabel": "General",
+      "distanceSortOrder": 15
     },
     {
       "id": "tv-br-strides-easy-30m-developing-018",
@@ -3214,7 +3316,13 @@
       "uniquenessSignature": "br-strides-easy-30m-developing-018",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "beginner-return",
+      "libraryCategoryLabel": "Beginner / Return-to-Running",
+      "workoutType": "easy-run",
+      "distanceNavId": "general",
+      "distanceNavLabel": "General",
+      "distanceSortOrder": 15
     },
     {
       "id": "tv-br-fartlek-6x30s-recreational-019",
@@ -3389,7 +3497,13 @@
       "uniquenessSignature": "br-fartlek-6x30s-recreational-019",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "beginner-return",
+      "libraryCategoryLabel": "Beginner / Return-to-Running",
+      "workoutType": "fartlek",
+      "distanceNavId": "5k",
+      "distanceNavLabel": "5K",
+      "distanceSortOrder": 8
     },
     {
       "id": "tv-br-fartlek-8x30s-recreational-020",
@@ -3564,7 +3678,13 @@
       "uniquenessSignature": "br-fartlek-8x30s-recreational-020",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "beginner-return",
+      "libraryCategoryLabel": "Beginner / Return-to-Running",
+      "workoutType": "fartlek",
+      "distanceNavId": "5k",
+      "distanceNavLabel": "5K",
+      "distanceSortOrder": 8
     },
     {
       "id": "tv-br-fartlek-pyramid-developing-021",
@@ -3800,7 +3920,13 @@
       "uniquenessSignature": "br-fartlek-pyramid-developing-021",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "beginner-return",
+      "libraryCategoryLabel": "Beginner / Return-to-Running",
+      "workoutType": "fartlek",
+      "distanceNavId": "5k",
+      "distanceNavLabel": "5K",
+      "distanceSortOrder": 8
     },
     {
       "id": "tv-br-return-10m-beginner-022",
@@ -3961,7 +4087,13 @@
       "uniquenessSignature": "br-return-10m-beginner-022",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "beginner-return",
+      "libraryCategoryLabel": "Beginner / Return-to-Running",
+      "workoutType": "easy-run",
+      "distanceNavId": "general",
+      "distanceNavLabel": "General",
+      "distanceSortOrder": 15
     },
     {
       "id": "tv-br-return-15m-beginner-023",
@@ -4129,7 +4261,13 @@
       "uniquenessSignature": "br-return-15m-beginner-023-2046ccc7",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "beginner-return",
+      "libraryCategoryLabel": "Beginner / Return-to-Running",
+      "workoutType": "easy-run",
+      "distanceNavId": "general",
+      "distanceNavLabel": "General",
+      "distanceSortOrder": 15
     },
     {
       "id": "tv-br-return-20m-recreational-024",
@@ -4297,7 +4435,13 @@
       "uniquenessSignature": "br-return-20m-recreational-024-78825e72",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "beginner-return",
+      "libraryCategoryLabel": "Beginner / Return-to-Running",
+      "workoutType": "easy-run",
+      "distanceNavId": "general",
+      "distanceNavLabel": "General",
+      "distanceSortOrder": 15
     },
     {
       "id": "tv-br-return-25m-developing-025",
@@ -4465,7 +4609,13 @@
       "uniquenessSignature": "br-return-25m-developing-025-b4567241",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "beginner-return",
+      "libraryCategoryLabel": "Beginner / Return-to-Running",
+      "workoutType": "easy-run",
+      "distanceNavId": "general",
+      "distanceNavLabel": "General",
+      "distanceSortOrder": 15
     }
   ]
 }

@@ -178,7 +178,13 @@
       "uniquenessSignature": "lrp-easylong-60m-recreational-001",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "long-run-progression",
+      "libraryCategoryLabel": "Long Run / Progression Run",
+      "workoutType": "long-run",
+      "distanceNavId": "general",
+      "distanceNavLabel": "General",
+      "distanceSortOrder": 15
     },
     {
       "id": "tv-lrp-easylong-75m-developing-002",
@@ -341,7 +347,13 @@
       "uniquenessSignature": "lrp-easylong-75m-developing-002",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "long-run-progression",
+      "libraryCategoryLabel": "Long Run / Progression Run",
+      "workoutType": "long-run",
+      "distanceNavId": "general",
+      "distanceNavLabel": "General",
+      "distanceSortOrder": 15
     },
     {
       "id": "tv-lrp-easylong-90m-intermediate-003",
@@ -505,7 +517,13 @@
       "uniquenessSignature": "lrp-easylong-90m-intermediate-003",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "long-run-progression",
+      "libraryCategoryLabel": "Long Run / Progression Run",
+      "workoutType": "long-run",
+      "distanceNavId": "general",
+      "distanceNavLabel": "General",
+      "distanceSortOrder": 15
     },
     {
       "id": "tv-lrp-easylong-100m-intermediate-004",
@@ -669,7 +687,13 @@
       "uniquenessSignature": "lrp-easylong-100m-intermediate-004",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "long-run-progression",
+      "libraryCategoryLabel": "Long Run / Progression Run",
+      "workoutType": "long-run",
+      "distanceNavId": "general",
+      "distanceNavLabel": "General",
+      "distanceSortOrder": 15
     },
     {
       "id": "tv-lrp-easylong-120m-advanced-005",
@@ -833,7 +857,13 @@
       "uniquenessSignature": "lrp-easylong-120m-advanced-005",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "long-run-progression",
+      "libraryCategoryLabel": "Long Run / Progression Run",
+      "workoutType": "long-run",
+      "distanceNavId": "general",
+      "distanceNavLabel": "General",
+      "distanceSortOrder": 15
     },
     {
       "id": "tv-lrp-steadylong-75m-recreational-006",
@@ -996,7 +1026,13 @@
       "uniquenessSignature": "lrp-steadylong-75m-recreational-006",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "long-run-progression",
+      "libraryCategoryLabel": "Long Run / Progression Run",
+      "workoutType": "long-run",
+      "distanceNavId": "general",
+      "distanceNavLabel": "General",
+      "distanceSortOrder": 15
     },
     {
       "id": "tv-lrp-steadylong-90m-developing-007",
@@ -1160,7 +1196,13 @@
       "uniquenessSignature": "lrp-steadylong-90m-developing-007",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "long-run-progression",
+      "libraryCategoryLabel": "Long Run / Progression Run",
+      "workoutType": "long-run",
+      "distanceNavId": "general",
+      "distanceNavLabel": "General",
+      "distanceSortOrder": 15
     },
     {
       "id": "tv-lrp-steadylong-105m-intermediate-008",
@@ -1324,7 +1366,13 @@
       "uniquenessSignature": "lrp-steadylong-105m-intermediate-008",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "long-run-progression",
+      "libraryCategoryLabel": "Long Run / Progression Run",
+      "workoutType": "long-run",
+      "distanceNavId": "general",
+      "distanceNavLabel": "General",
+      "distanceSortOrder": 15
     },
     {
       "id": "tv-lrp-steadylong-120m-advanced-009",
@@ -1488,7 +1536,13 @@
       "uniquenessSignature": "lrp-steadylong-120m-advanced-009",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "long-run-progression",
+      "libraryCategoryLabel": "Long Run / Progression Run",
+      "workoutType": "long-run",
+      "distanceNavId": "general",
+      "distanceNavLabel": "General",
+      "distanceSortOrder": 15
     },
     {
       "id": "tv-lrp-prog-60m-recreational-010",
@@ -1651,7 +1705,13 @@
       "uniquenessSignature": "lrp-prog-60m-recreational-010",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "long-run-progression",
+      "libraryCategoryLabel": "Long Run / Progression Run",
+      "workoutType": "progression-run",
+      "distanceNavId": "general",
+      "distanceNavLabel": "General",
+      "distanceSortOrder": 15
     },
     {
       "id": "tv-lrp-prog-75m-developing-011",
@@ -1813,7 +1873,13 @@
       "uniquenessSignature": "lrp-prog-75m-developing-011",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "long-run-progression",
+      "libraryCategoryLabel": "Long Run / Progression Run",
+      "workoutType": "progression-run",
+      "distanceNavId": "general",
+      "distanceNavLabel": "General",
+      "distanceSortOrder": 15
     },
     {
       "id": "tv-lrp-prog-90m-intermediate-012",
@@ -1976,7 +2042,13 @@
       "uniquenessSignature": "lrp-prog-90m-intermediate-012",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "long-run-progression",
+      "libraryCategoryLabel": "Long Run / Progression Run",
+      "workoutType": "progression-run",
+      "distanceNavId": "general",
+      "distanceNavLabel": "General",
+      "distanceSortOrder": 15
     },
     {
       "id": "tv-lrp-prog-105m-advanced-013",
@@ -2139,7 +2211,13 @@
       "uniquenessSignature": "lrp-prog-105m-advanced-013",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "long-run-progression",
+      "libraryCategoryLabel": "Long Run / Progression Run",
+      "workoutType": "progression-run",
+      "distanceNavId": "general",
+      "distanceNavLabel": "General",
+      "distanceSortOrder": 15
     },
     {
       "id": "tv-lrp-prog-120m-competitive-014",
@@ -2303,7 +2381,13 @@
       "uniquenessSignature": "lrp-prog-120m-competitive-014",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "long-run-progression",
+      "libraryCategoryLabel": "Long Run / Progression Run",
+      "workoutType": "progression-run",
+      "distanceNavId": "general",
+      "distanceNavLabel": "General",
+      "distanceSortOrder": 15
     },
     {
       "id": "tv-lrp-fastfinish-75m-recreational-015",
@@ -2479,7 +2563,13 @@
       "uniquenessSignature": "lrp-fastfinish-75m-recreational-015",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "long-run-progression",
+      "libraryCategoryLabel": "Long Run / Progression Run",
+      "workoutType": "long-run",
+      "distanceNavId": "general",
+      "distanceNavLabel": "General",
+      "distanceSortOrder": 15
     },
     {
       "id": "tv-lrp-fastfinish-90m-developing-016",
@@ -2656,7 +2746,13 @@
       "uniquenessSignature": "lrp-fastfinish-90m-developing-016",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "long-run-progression",
+      "libraryCategoryLabel": "Long Run / Progression Run",
+      "workoutType": "long-run",
+      "distanceNavId": "general",
+      "distanceNavLabel": "General",
+      "distanceSortOrder": 15
     },
     {
       "id": "tv-lrp-fastfinish-105m-intermediate-017",
@@ -2833,7 +2929,13 @@
       "uniquenessSignature": "lrp-fastfinish-105m-intermediate-017",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "long-run-progression",
+      "libraryCategoryLabel": "Long Run / Progression Run",
+      "workoutType": "long-run",
+      "distanceNavId": "general",
+      "distanceNavLabel": "General",
+      "distanceSortOrder": 15
     },
     {
       "id": "tv-lrp-fastfinish-120m-advanced-018",
@@ -3010,7 +3112,13 @@
       "uniquenessSignature": "lrp-fastfinish-120m-advanced-018",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "long-run-progression",
+      "libraryCategoryLabel": "Long Run / Progression Run",
+      "workoutType": "long-run",
+      "distanceNavId": "general",
+      "distanceNavLabel": "General",
+      "distanceSortOrder": 15
     },
     {
       "id": "tv-lrp-surges-75m-developing-019",
@@ -3228,7 +3336,13 @@
       "uniquenessSignature": "lrp-surges-75m-developing-019",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "long-run-progression",
+      "libraryCategoryLabel": "Long Run / Progression Run",
+      "workoutType": "long-run",
+      "distanceNavId": "general",
+      "distanceNavLabel": "General",
+      "distanceSortOrder": 15
     },
     {
       "id": "tv-lrp-surges-90m-intermediate-020",
@@ -3447,7 +3561,13 @@
       "uniquenessSignature": "lrp-surges-90m-intermediate-020",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "long-run-progression",
+      "libraryCategoryLabel": "Long Run / Progression Run",
+      "workoutType": "long-run",
+      "distanceNavId": "general",
+      "distanceNavLabel": "General",
+      "distanceSortOrder": 15
     },
     {
       "id": "tv-lrp-surges-105m-advanced-021",
@@ -3666,7 +3786,13 @@
       "uniquenessSignature": "lrp-surges-105m-advanced-021",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "long-run-progression",
+      "libraryCategoryLabel": "Long Run / Progression Run",
+      "workoutType": "long-run",
+      "distanceNavId": "general",
+      "distanceNavLabel": "General",
+      "distanceSortOrder": 15
     },
     {
       "id": "tv-lrp-support-hm-20k-intermediate-022",
@@ -3845,7 +3971,13 @@
       "uniquenessSignature": "lrp-support-hm-20k-15k-easy-5k-hm-intermediate-022",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "long-run-progression",
+      "libraryCategoryLabel": "Long Run / Progression Run",
+      "workoutType": "long-run",
+      "distanceNavId": "half-marathon",
+      "distanceNavLabel": "Half Marathon",
+      "distanceSortOrder": 10
     },
     {
       "id": "tv-lrp-support-hm-14mi-advanced-023",
@@ -4037,7 +4169,13 @@
       "uniquenessSignature": "lrp-support-hm-14mi-advanced-023",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "long-run-progression",
+      "libraryCategoryLabel": "Long Run / Progression Run",
+      "workoutType": "long-run",
+      "distanceNavId": "half-marathon",
+      "distanceNavLabel": "Half Marathon",
+      "distanceSortOrder": 10
     },
     {
       "id": "tv-lrp-support-m-26k-advanced-024",
@@ -4214,7 +4352,13 @@
       "uniquenessSignature": "lrp-support-m-26k-20k-easy-6k-mp-advanced-024",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "long-run-progression",
+      "libraryCategoryLabel": "Long Run / Progression Run",
+      "workoutType": "long-run",
+      "distanceNavId": "marathon",
+      "distanceNavLabel": "Marathon",
+      "distanceSortOrder": 11
     },
     {
       "id": "tv-lrp-support-m-30k-competitive-025",
@@ -4391,7 +4535,13 @@
       "uniquenessSignature": "lrp-support-m-30k-20k-easy-10k-mp-competitive-025",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+      "sourceNote": "General running training principles; not personalized medical or coaching advice.",
+      "libraryCategoryId": "long-run-progression",
+      "libraryCategoryLabel": "Long Run / Progression Run",
+      "workoutType": "long-run",
+      "distanceNavId": "marathon",
+      "distanceNavLabel": "Marathon",
+      "distanceSortOrder": 11
     }
   ]
 }

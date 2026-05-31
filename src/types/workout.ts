@@ -81,6 +81,12 @@ export interface Workout {
   searchKeywords?: string[];
   shareCard?: ShareCard;
   isCustom?: boolean; // True if locally designed by user
+  libraryCategoryId?: string;
+  libraryCategoryLabel?: string;
+  workoutType?: string;
+  distanceNavId?: string;
+  distanceNavLabel?: string;
+  distanceSortOrder?: number;
   createdAt?: string;
 }
 

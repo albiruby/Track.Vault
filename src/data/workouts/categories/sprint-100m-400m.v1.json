@@ -248,7 +248,13 @@
       "uniquenessSignature": "sp-acc-intro30m-001",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "General sprint training mechanics; consult a sprint coach for block settings."
+      "sourceNote": "General sprint training mechanics; consult a sprint coach for block settings.",
+      "libraryCategoryId": "sprint-100m-400m",
+      "libraryCategoryLabel": "Sprint / 100m–400m",
+      "workoutType": "sprint-100m-400m",
+      "distanceNavId": "100m",
+      "distanceNavLabel": "100m",
+      "distanceSortOrder": 1
     },
     {
       "id": "tv-sp-acc-block40m-002",
@@ -481,7 +487,13 @@
       "uniquenessSignature": "sp-acc-block40m-002",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "Starting blocks must be adjusted properly to prevent knee injuries."
+      "sourceNote": "Starting blocks must be adjusted properly to prevent knee injuries.",
+      "libraryCategoryId": "sprint-100m-400m",
+      "libraryCategoryLabel": "Sprint / 100m–400m",
+      "workoutType": "sprint-100m-400m",
+      "distanceNavId": "100m",
+      "distanceNavLabel": "100m",
+      "distanceSortOrder": 1
     },
     {
       "id": "tv-sp-acc-prog50m-003",
@@ -713,7 +725,13 @@
       "uniquenessSignature": "sp-acc-prog50m-003",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "Elite sprinters extend their drive phase up to 30-40 meters."
+      "sourceNote": "Elite sprinters extend their drive phase up to 30-40 meters.",
+      "libraryCategoryId": "sprint-100m-400m",
+      "libraryCategoryLabel": "Sprint / 100m–400m",
+      "workoutType": "sprint-100m-400m",
+      "distanceNavId": "100m",
+      "distanceNavLabel": "100m",
+      "distanceSortOrder": 1
     },
     {
       "id": "tv-sp-acc-sled40m-004",
@@ -947,7 +965,13 @@
       "uniquenessSignature": "sp-acc-sled40m-004",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "Resistant sprint training is excellent for horizontal force development."
+      "sourceNote": "Resistant sprint training is excellent for horizontal force development.",
+      "libraryCategoryId": "sprint-100m-400m",
+      "libraryCategoryLabel": "Sprint / 100m–400m",
+      "workoutType": "sprint-100m-400m",
+      "distanceNavId": "100m",
+      "distanceNavLabel": "100m",
+      "distanceSortOrder": 1
     },
     {
       "id": "tv-sp-vel-flying20m-005",
@@ -1179,7 +1203,13 @@
       "uniquenessSignature": "sp-vel-flying20m-005",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "Flying sprints are the gold standard for developing maximum speed."
+      "sourceNote": "Flying sprints are the gold standard for developing maximum speed.",
+      "libraryCategoryId": "sprint-100m-400m",
+      "libraryCategoryLabel": "Sprint / 100m–400m",
+      "workoutType": "sprint-100m-400m",
+      "distanceNavId": "100m",
+      "distanceNavLabel": "100m",
+      "distanceSortOrder": 1
     },
     {
       "id": "tv-sp-vel-flying30m-006",
@@ -1410,7 +1440,13 @@
       "uniquenessSignature": "sp-vel-flying30m-006",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "CNS recovery takes 5-6 minutes after a maximal speed sprint."
+      "sourceNote": "CNS recovery takes 5-6 minutes after a maximal speed sprint.",
+      "libraryCategoryId": "sprint-100m-400m",
+      "libraryCategoryLabel": "Sprint / 100m–400m",
+      "workoutType": "sprint-100m-400m",
+      "distanceNavId": "100m",
+      "distanceNavLabel": "100m",
+      "distanceSortOrder": 1
     },
     {
       "id": "tv-sp-vel-flying40m-007",
@@ -1641,7 +1677,13 @@
       "uniquenessSignature": "sp-vel-flying40m-007",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "Absolute speed work is crucial for breaking 100m personal records."
+      "sourceNote": "Absolute speed work is crucial for breaking 100m personal records.",
+      "libraryCategoryId": "sprint-100m-400m",
+      "libraryCategoryLabel": "Sprint / 100m–400m",
+      "workoutType": "sprint-100m-400m",
+      "distanceNavId": "100m",
+      "distanceNavLabel": "100m",
+      "distanceSortOrder": 1
     },
     {
       "id": "tv-sp-vel-flying10m-008",
@@ -1871,7 +1913,13 @@
       "uniquenessSignature": "sp-vel-flying10m-008",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "Elite sprinters reach top speeds of 11.5 - 12.5 m/s in the flying zone."
+      "sourceNote": "Elite sprinters reach top speeds of 11.5 - 12.5 m/s in the flying zone.",
+      "libraryCategoryId": "sprint-100m-400m",
+      "libraryCategoryLabel": "Sprint / 100m–400m",
+      "workoutType": "sprint-100m-400m",
+      "distanceNavId": "100m",
+      "distanceNavLabel": "100m",
+      "distanceSortOrder": 1
     },
     {
       "id": "tv-sp-100-rhythm8x100-009",
@@ -2105,7 +2153,13 @@
       "uniquenessSignature": "sp-100-rhythm8x100-009",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "Relaxed sprinting is key to unlocking speed; tension is the enemy."
+      "sourceNote": "Relaxed sprinting is key to unlocking speed; tension is the enemy.",
+      "libraryCategoryId": "sprint-100m-400m",
+      "libraryCategoryLabel": "Sprint / 100m–400m",
+      "workoutType": "sprint-100m-400m",
+      "distanceNavId": "100m",
+      "distanceNavLabel": "100m",
+      "distanceSortOrder": 1
     },
     {
       "id": "tv-sp-100-buildups6x100-010",
@@ -2337,7 +2391,13 @@
       "uniquenessSignature": "sp-100-buildups6x100-010",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "Buildup runs teach horizontal energy conservation."
+      "sourceNote": "Buildup runs teach horizontal energy conservation.",
+      "libraryCategoryId": "sprint-100m-400m",
+      "libraryCategoryLabel": "Sprint / 100m–400m",
+      "workoutType": "sprint-100m-400m",
+      "distanceNavId": "100m",
+      "distanceNavLabel": "100m",
+      "distanceSortOrder": 1
     },
     {
       "id": "tv-sp-100-curvestraight-011",
@@ -2569,7 +2629,13 @@
       "uniquenessSignature": "sp-100-curvestraight-011",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "Curve running relies on ankle inversion/eversion strength."
+      "sourceNote": "Curve running relies on ankle inversion/eversion strength.",
+      "libraryCategoryId": "sprint-100m-400m",
+      "libraryCategoryLabel": "Sprint / 100m–400m",
+      "workoutType": "sprint-100m-400m",
+      "distanceNavId": "100m",
+      "distanceNavLabel": "100m",
+      "distanceSortOrder": 1
     },
     {
       "id": "tv-sp-100-racepace4x100-012",
@@ -2800,7 +2866,13 @@
       "uniquenessSignature": "sp-100-racepace4x100-012",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "Mental visualization of the full race helps maximize starting block execution."
+      "sourceNote": "Mental visualization of the full race helps maximize starting block execution.",
+      "libraryCategoryId": "sprint-100m-400m",
+      "libraryCategoryLabel": "Sprint / 100m–400m",
+      "workoutType": "sprint-100m-400m",
+      "distanceNavId": "100m",
+      "distanceNavLabel": "100m",
+      "distanceSortOrder": 1
     },
     {
       "id": "tv-sp-200-tempo6x200-013",
@@ -3034,7 +3106,13 @@
       "uniquenessSignature": "sp-200-tempo6x200-013",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "Tempo endurance develops capillary density in sprint muscle fibers."
+      "sourceNote": "Tempo endurance develops capillary density in sprint muscle fibers.",
+      "libraryCategoryId": "sprint-100m-400m",
+      "libraryCategoryLabel": "Sprint / 100m–400m",
+      "workoutType": "sprint-100m-400m",
+      "distanceNavId": "200m",
+      "distanceNavLabel": "200m",
+      "distanceSortOrder": 2
     },
     {
       "id": "tv-sp-200-rhythm6x200-014",
@@ -3265,7 +3343,13 @@
       "uniquenessSignature": "sp-200-rhythm6x200-014",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "High hip posture is key to running economy in the second half of sprints."
+      "sourceNote": "High hip posture is key to running economy in the second half of sprints.",
+      "libraryCategoryId": "sprint-100m-400m",
+      "libraryCategoryLabel": "Sprint / 100m–400m",
+      "workoutType": "sprint-100m-400m",
+      "distanceNavId": "200m",
+      "distanceNavLabel": "200m",
+      "distanceSortOrder": 2
     },
     {
       "id": "tv-sp-200-curvepacing-015",
@@ -3496,7 +3580,13 @@
       "uniquenessSignature": "sp-200-curvepacing-015",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "Curve pacing is essential for elite lane management in the 200m."
+      "sourceNote": "Curve pacing is essential for elite lane management in the 200m.",
+      "libraryCategoryId": "sprint-100m-400m",
+      "libraryCategoryLabel": "Sprint / 100m–400m",
+      "workoutType": "sprint-100m-400m",
+      "distanceNavId": "200m",
+      "distanceNavLabel": "200m",
+      "distanceSortOrder": 2
     },
     {
       "id": "tv-sp-200-racepace4x200-016",
@@ -3732,7 +3822,13 @@
       "uniquenessSignature": "sp-200-racepace4x200-016",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "Full lactic recovery takes at least 8-10 minutes between maximal speed bouts."
+      "sourceNote": "Full lactic recovery takes at least 8-10 minutes between maximal speed bouts.",
+      "libraryCategoryId": "sprint-100m-400m",
+      "libraryCategoryLabel": "Sprint / 100m–400m",
+      "workoutType": "sprint-100m-400m",
+      "distanceNavId": "200m",
+      "distanceNavLabel": "200m",
+      "distanceSortOrder": 2
     },
     {
       "id": "tv-sp-200-speedend3x200-017",
@@ -3967,7 +4063,13 @@
       "uniquenessSignature": "sp-200-speedend3x200-017",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "Elite athletes run 200m speed endurance to build lactate tolerance."
+      "sourceNote": "Elite athletes run 200m speed endurance to build lactate tolerance.",
+      "libraryCategoryId": "sprint-100m-400m",
+      "libraryCategoryLabel": "Sprint / 100m–400m",
+      "workoutType": "sprint-100m-400m",
+      "distanceNavId": "200m",
+      "distanceNavLabel": "200m",
+      "distanceSortOrder": 2
     },
     {
       "id": "tv-sp-300-aerobic5x300-018",
@@ -4201,7 +4303,13 @@
       "uniquenessSignature": "sp-300-aerobic5x300-018",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "Controlled tempo runs are crucial for early-season speed endurance."
+      "sourceNote": "Controlled tempo runs are crucial for early-season speed endurance.",
+      "libraryCategoryId": "sprint-100m-400m",
+      "libraryCategoryLabel": "Sprint / 100m–400m",
+      "workoutType": "sprint-100m-400m",
+      "distanceNavId": "200m",
+      "distanceNavLabel": "200m",
+      "distanceSortOrder": 2
     },
     {
       "id": "tv-sp-300-rhythm5x300-019",
@@ -4433,7 +4541,13 @@
       "uniquenessSignature": "sp-300-rhythm5x300-019",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "High hip posture is key to running economy in the second half of sprints."
+      "sourceNote": "High hip posture is key to running economy in the second half of sprints.",
+      "libraryCategoryId": "sprint-100m-400m",
+      "libraryCategoryLabel": "Sprint / 100m–400m",
+      "workoutType": "sprint-100m-400m",
+      "distanceNavId": "200m",
+      "distanceNavLabel": "200m",
+      "distanceSortOrder": 2
     },
     {
       "id": "tv-sp-300-specend3x300-020",
@@ -4670,7 +4784,13 @@
       "uniquenessSignature": "sp-300-specend3x300-020",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "Full lactic recovery takes at least 8-10 minutes between maximal speed bouts."
+      "sourceNote": "Full lactic recovery takes at least 8-10 minutes between maximal speed bouts.",
+      "libraryCategoryId": "sprint-100m-400m",
+      "libraryCategoryLabel": "Sprint / 100m–400m",
+      "workoutType": "sprint-100m-400m",
+      "distanceNavId": "400m",
+      "distanceNavLabel": "400m",
+      "distanceSortOrder": 3
     },
     {
       "id": "tv-sp-300-racepace2x300-021",
@@ -4901,7 +5021,13 @@
       "uniquenessSignature": "sp-300-racepace2x300-021",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "Elite athletes run 300m speed endurance to build lactate tolerance."
+      "sourceNote": "Elite athletes run 300m speed endurance to build lactate tolerance.",
+      "libraryCategoryId": "sprint-100m-400m",
+      "libraryCategoryLabel": "Sprint / 100m–400m",
+      "workoutType": "sprint-100m-400m",
+      "distanceNavId": "400m",
+      "distanceNavLabel": "400m",
+      "distanceSortOrder": 3
     },
     {
       "id": "tv-sp-400-aerobic4x400-022",
@@ -5134,7 +5260,13 @@
       "uniquenessSignature": "sp-400-aerobic4x400-022",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "Controlled tempo runs are crucial for early-season speed endurance."
+      "sourceNote": "Controlled tempo runs are crucial for early-season speed endurance.",
+      "libraryCategoryId": "sprint-100m-400m",
+      "libraryCategoryLabel": "Sprint / 100m–400m",
+      "workoutType": "sprint-100m-400m",
+      "distanceNavId": "400m",
+      "distanceNavLabel": "400m",
+      "distanceSortOrder": 3
     },
     {
       "id": "tv-sp-400-rhythm5x400-023",
@@ -5365,7 +5497,13 @@
       "uniquenessSignature": "sp-400-rhythm5x400-023",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "High hip posture is key to running economy in the second half of sprints."
+      "sourceNote": "High hip posture is key to running economy in the second half of sprints.",
+      "libraryCategoryId": "sprint-100m-400m",
+      "libraryCategoryLabel": "Sprint / 100m–400m",
+      "workoutType": "sprint-100m-400m",
+      "distanceNavId": "400m",
+      "distanceNavLabel": "400m",
+      "distanceSortOrder": 3
     },
     {
       "id": "tv-sp-400-specend3x400-024",
@@ -5601,7 +5739,13 @@
       "uniquenessSignature": "sp-400-specend3x400-024",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "Full lactic recovery takes at least 8-10 minutes between maximal speed bouts."
+      "sourceNote": "Full lactic recovery takes at least 8-10 minutes between maximal speed bouts.",
+      "libraryCategoryId": "sprint-100m-400m",
+      "libraryCategoryLabel": "Sprint / 100m–400m",
+      "workoutType": "sprint-100m-400m",
+      "distanceNavId": "400m",
+      "distanceNavLabel": "400m",
+      "distanceSortOrder": 3
     },
     {
       "id": "tv-sp-400-racepace2x400-025",
@@ -5832,7 +5976,13 @@
       "uniquenessSignature": "sp-400-racepace2x400-025",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "Full lactic recovery takes at least 15 minutes between maximal speed bouts."
+      "sourceNote": "Full lactic recovery takes at least 15 minutes between maximal speed bouts.",
+      "libraryCategoryId": "sprint-100m-400m",
+      "libraryCategoryLabel": "Sprint / 100m–400m",
+      "workoutType": "sprint-100m-400m",
+      "distanceNavId": "400m",
+      "distanceNavLabel": "400m",
+      "distanceSortOrder": 3
     },
     {
       "id": "tv-sp-400-critvel2x-026",
@@ -6066,7 +6216,13 @@
       "uniquenessSignature": "sp-400-special-endurance-2x400m-900s-walk-elite-reference-026",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "Elite athletes run 450m speed endurance to build lactate tolerance."
+      "sourceNote": "Elite athletes run 450m speed endurance to build lactate tolerance.",
+      "libraryCategoryId": "sprint-100m-400m",
+      "libraryCategoryLabel": "Sprint / 100m–400m",
+      "workoutType": "sprint-100m-400m",
+      "distanceNavId": "400m",
+      "distanceNavLabel": "400m",
+      "distanceSortOrder": 3
     },
     {
       "id": "tv-sp-rel-baton6x60-027",
@@ -6299,7 +6455,13 @@
       "uniquenessSignature": "sp-rel-baton6x60-027",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "Relay handoffs are won or lost on blind zone acceleration mechanics."
+      "sourceNote": "Relay handoffs are won or lost on blind zone acceleration mechanics.",
+      "libraryCategoryId": "sprint-100m-400m",
+      "libraryCategoryLabel": "Sprint / 100m–400m",
+      "workoutType": "sprint-100m-400m",
+      "distanceNavId": "100m",
+      "distanceNavLabel": "100m",
+      "distanceSortOrder": 1
     },
     {
       "id": "tv-sp-rel-reaction8x40-028",
@@ -6531,7 +6693,13 @@
       "uniquenessSignature": "sp-rel-reaction8x40-028",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "Starting reaction times under 0.12 seconds are considered world-class."
+      "sourceNote": "Starting reaction times under 0.12 seconds are considered world-class.",
+      "libraryCategoryId": "sprint-100m-400m",
+      "libraryCategoryLabel": "Sprint / 100m–400m",
+      "workoutType": "sprint-100m-400m",
+      "distanceNavId": "100m",
+      "distanceNavLabel": "100m",
+      "distanceSortOrder": 1
     },
     {
       "id": "tv-sp-drl-mechanics-029",
@@ -6788,7 +6956,13 @@
       "uniquenessSignature": "sp-drl-mechanics-029",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "Elite sprinters spend hours on A-skips and B-skips to perfect posture."
+      "sourceNote": "Elite sprinters spend hours on A-skips and B-skips to perfect posture.",
+      "libraryCategoryId": "sprint-100m-400m",
+      "libraryCategoryLabel": "Sprint / 100m–400m",
+      "workoutType": "sprint-100m-400m",
+      "distanceNavId": "100m",
+      "distanceNavLabel": "100m",
+      "distanceSortOrder": 1
     },
     {
       "id": "tv-sp-drl-form6x40-030",
@@ -7021,7 +7195,13 @@
       "uniquenessSignature": "sp-drl-form6x40-030",
       "createdBy": "Track.Vault Curated Library",
       "visibility": "public-static",
-      "sourceNote": "Active forefoot strike reduces ground contact time and increases speed."
+      "sourceNote": "Active forefoot strike reduces ground contact time and increases speed.",
+      "libraryCategoryId": "sprint-100m-400m",
+      "libraryCategoryLabel": "Sprint / 100m–400m",
+      "workoutType": "sprint-100m-400m",
+      "distanceNavId": "100m",
+      "distanceNavLabel": "100m",
+      "distanceSortOrder": 1
     }
   ]
 }

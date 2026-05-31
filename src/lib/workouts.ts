@@ -6,6 +6,7 @@
 import { Workout, WorkoutBlock, WorkoutLibraryIndex, CategoryMeta } from "../types/workout";
 import indexJson from "../data/workouts/workoutLibrary.index.json";
 import allWorkoutsJson from "../data/workouts/generated/workoutLibrary.all.v1.json";
+import { WORKOUT_DISTANCE_NAV, DistanceNavItem } from "../data/workouts/workoutDistanceNav";
 
 // Map JSON structures to satisfy the TypeScript interfaces precisely
 const workoutIndex: WorkoutLibraryIndex = {
@@ -93,7 +94,7 @@ export function getWorkoutBySlug(slug: string): Workout | undefined {
 }
 
 export function getWorkoutsByCategory(categoryId: string): Workout[] {
-  return getAllWorkouts().filter((w) => w.category === categoryId);
+  return getAllWorkouts().filter((w) => w.libraryCategoryId === categoryId || w.category === categoryId);
 }
 
 export function formatDistance(metersCount?: number): string {
@@ -183,6 +184,7 @@ export interface WorkoutFiltersState {
   difficulty: string;
   risk: string;
   duration: string;
+  workoutType: string;
 }
 
 export function getWorkoutFilters(workouts: Workout[]) {
@@ -192,6 +194,7 @@ export function getWorkoutFilters(workouts: Workout[]) {
   const phases = new Set<string>();
   const surfaces = new Set<string>();
   const risks = new Set<string>();
+  const workoutTypes = new Set<string>();
 
   workouts.forEach((w) => {
     if (w.targetDistances) {
@@ -199,11 +202,19 @@ export function getWorkoutFilters(workouts: Workout[]) {
         if (d) targetDistances.add(d);
       });
     }
+    if (w.primaryDistance) {
+      targetDistances.add(w.primaryDistance);
+    }
     if (w.level) {
       levels.add(w.level);
     }
-    if (w.category) {
-      categories.add(w.category);
+    const catId = w.libraryCategoryId || w.category;
+    if (catId) {
+      categories.add(catId);
+    }
+    const wType = w.workoutType || w.category;
+    if (wType) {
+      workoutTypes.add(wType);
     }
     
     // Extract phases from either array (phases) or single string (phase)
@@ -223,13 +234,47 @@ export function getWorkoutFilters(workouts: Workout[]) {
     }
   });
 
+  const DISTANCE_ORDER = [
+    "100m",
+    "200m",
+    "400m",
+    "800m",
+    "1500m",
+    "Mile",
+    "3K",
+    "5K",
+    "10K",
+    "15K",
+    "Half Marathon",
+    "Marathon",
+    "Ultra",
+    "Trail",
+    "Treadmill",
+    "General",
+    "Base",
+    "Recovery"
+  ];
+
+  const sortedDistances = Array.from(targetDistances).sort((a, b) => {
+    const indexA = DISTANCE_ORDER.findIndex(val => val.toLowerCase() === a.toLowerCase());
+    const indexB = DISTANCE_ORDER.findIndex(val => val.toLowerCase() === b.toLowerCase());
+    
+    if (indexA !== -1 && indexB !== -1) {
+      return indexA - indexB;
+    }
+    if (indexA !== -1) return -1;
+    if (indexB !== -1) return 1;
+    return a.localeCompare(b);
+  });
+
   return {
-    targetDistances: Array.from(targetDistances).sort(),
+    targetDistances: sortedDistances,
     levels: Array.from(levels),
     categories: Array.from(categories),
     phases: Array.from(phases).sort(),
     surfaces: Array.from(surfaces).sort(),
     risks: Array.from(risks),
+    workoutTypes: Array.from(workoutTypes).sort(),
   };
 }
 
@@ -264,7 +309,14 @@ export function filterWorkouts(workouts: Workout[], filters: Partial<WorkoutFilt
       }
     }
     if (filters.category && filters.category !== "All") {
-      if (w.category?.toLowerCase() !== filters.category?.toLowerCase()) {
+      const wCat = w.libraryCategoryId || w.category;
+      if (wCat?.toLowerCase() !== filters.category?.toLowerCase()) {
+        return false;
+      }
+    }
+    if (filters.workoutType && filters.workoutType !== "All") {
+      const wType = w.workoutType || w.category;
+      if (wType?.toLowerCase() !== filters.workoutType?.toLowerCase()) {
         return false;
       }
     }
@@ -432,3 +484,38 @@ ${workout.riskReason ? `Reason: ${workout.riskReason}\n` : ""}${workout.safetyNo
       return "";
   }
 }
+
+export const SIDEBAR_DISTANCES = WORKOUT_DISTANCE_NAV.map(item => item.label);
+
+export function matchSidebarDistance(w: Workout, distance: string): boolean {
+  const item = WORKOUT_DISTANCE_NAV.find(
+    nav => nav.id.toLowerCase() === distance.toLowerCase() || nav.label.toLowerCase() === distance.toLowerCase()
+  );
+  if (!item) return false;
+
+  if (item.id === "all" || item.match === "all") return true;
+
+  // Use distanceNavId directly for 100% precision with v1.1
+  if (w.distanceNavId) {
+    return w.distanceNavId === item.id;
+  }
+
+  // Fallback for custom/legacy workouts
+  const targetLabel = item.label.toLowerCase();
+  if (w.primaryDistance && w.primaryDistance.toLowerCase() === targetLabel) {
+    return true;
+  }
+  if (w.targetDistances && w.targetDistances.some(td => td?.toLowerCase() === targetLabel)) {
+    return true;
+  }
+  if (item.id === "trail" && w.surface?.toLowerCase() === "trail") return true;
+  if (item.id === "treadmill" && w.surface?.toLowerCase() === "treadmill") return true;
+  if (item.id === "base-recovery" && (
+    w.title?.toLowerCase().includes("easy") || 
+    w.title?.toLowerCase().includes("recovery") || 
+    w.summary?.toLowerCase().includes("recovery")
+  )) return true;
+
+  return false;
+}
+

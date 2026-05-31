@@ -17,6 +17,7 @@ interface WorkoutFiltersProps {
   availablePhases: string[];
   availableSurfaces: string[];
   availableRisks: string[];
+  availableWorkoutTypes: string[];
 }
 
 export function WorkoutFilters({
@@ -28,6 +29,7 @@ export function WorkoutFilters({
   availablePhases,
   availableSurfaces,
   availableRisks,
+  availableWorkoutTypes = [],
 }: WorkoutFiltersProps) {
   const indexManifest = getWorkoutIndex();
 
@@ -43,14 +45,14 @@ export function WorkoutFilters({
   };
 
   return (
-    <div className="bg-white dark:bg-slate-900 border border-slate-200/80 dark:border-slate-800 rounded-2xl p-5 space-y-4 shadow-sm">
-      <div className="flex items-center justify-between border-b border-slate-100 dark:border-slate-800 pb-3">
-        <span className="text-xs font-mono font-bold uppercase tracking-wider text-slate-800 dark:text-slate-100 flex items-center gap-2">
-          <Filter className="w-4 h-4 text-orange-500" /> Filter Criteria
+    <div className="bg-white dark:bg-[#151A23] border border-[#D8DEE8] dark:border-[#2A3445] rounded-sm p-5 space-y-4 shadow-xs">
+      <div className="flex items-center justify-between border-b border-slate-100 dark:border-slate-850 pb-3">
+        <span className="text-xs font-mono font-bold uppercase tracking-wider text-[#111827] dark:text-slate-200 flex items-center gap-2">
+          <Filter className="w-4 h-4 text-[#FF4E00]" /> Filter Criteria
         </span>
         <button
           onClick={onReset}
-          className="text-[10px] font-mono text-slate-400 hover:text-orange-500 flex items-center gap-1 transition-colors cursor-pointer"
+          className="text-[10px] font-mono text-[#6B7280] dark:text-slate-400 hover:text-[#FF4E00] flex items-center gap-1 transition-colors cursor-pointer"
         >
           <RotateCcw className="w-3 h-3" /> Reset
         </button>
@@ -59,26 +61,44 @@ export function WorkoutFilters({
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-1 gap-4">
         {/* Category Filter */}
         <div className="space-y-1">
-          <label className="text-[11px] font-medium text-slate-500 dark:text-slate-400 font-mono">Category Module</label>
+          <label className="text-[11px] font-medium text-slate-500 dark:text-slate-400 font-mono">Library Module</label>
           <select
             value={filters.category}
             onChange={(e) => handleSelectChange("category", e.target.value)}
-            className="w-full p-2 bg-slate-50 dark:bg-slate-800/40 border border-slate-200 dark:border-slate-800 rounded-lg text-xs font-medium text-slate-700 dark:text-slate-300 focus:outline-none cursor-pointer"
+            className="w-full p-2 bg-slate-50 dark:bg-[#1B2230] border border-[#D8DEE8] dark:border-[#2A3445] rounded-sm text-xs font-medium text-slate-750 dark:text-slate-300 focus:outline-none cursor-pointer focus:border-[#FF4E00]"
           >
-            <option value="All">All Categories ({indexManifest.categories.length})</option>
+            <option value="All">All Library Modules ({indexManifest.categories.length})</option>
             {indexManifest.categories.map((c) => (
               <option key={c.id} value={c.id}>{c.name}</option>
             ))}
           </select>
         </div>
 
+        {/* Workout / Training Type Filter */}
+        <div className="space-y-1">
+          <label className="text-[11px] font-medium text-slate-500 dark:text-slate-400 font-mono">Workout Type</label>
+          <select
+            value={filters.workoutType}
+            onChange={(e) => handleSelectChange("workoutType", e.target.value)}
+            className="w-full p-2 bg-slate-50 dark:bg-[#1B2230] border border-[#D8DEE8] dark:border-[#2A3445] rounded-sm text-xs font-medium text-slate-750 dark:text-slate-300 focus:outline-none cursor-pointer focus:border-[#FF4E00]"
+          >
+            <option value="All">All Workout Types</option>
+            {availableWorkoutTypes.filter(Boolean).map((t) => {
+              const label = t.split("-").map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(" ");
+              return (
+                <option key={t} value={t}>{label}</option>
+              );
+            })}
+          </select>
+        </div>
+
         {/* Target Distance Filter */}
         <div className="space-y-1">
-          <label className="text-[11px] font-medium text-slate-500 dark:text-slate-400 font-mono">Target Distance</label>
+          <label className="text-[11px] font-medium text-slate-500 dark:text-slate-400 font-mono">Target Distance / Context</label>
           <select
             value={filters.targetDistance}
             onChange={(e) => handleSelectChange("targetDistance", e.target.value)}
-            className="w-full p-2 bg-slate-50 dark:bg-slate-800/40 border border-slate-200 dark:border-slate-800 rounded-lg text-xs font-medium text-slate-700 dark:text-slate-300 focus:outline-none cursor-pointer"
+            className="w-full p-2 bg-slate-50 dark:bg-[#1B2230] border border-[#D8DEE8] dark:border-[#2A3445] rounded-sm text-xs font-medium text-slate-750 dark:text-slate-300 focus:outline-none cursor-pointer focus:border-[#FF4E00]"
           >
             <option value="All">All Distances</option>
             {defaultDistances.map((d) => (
@@ -93,7 +113,7 @@ export function WorkoutFilters({
           <select
             value={filters.level}
             onChange={(e) => handleSelectChange("level", e.target.value)}
-            className="w-full p-2 bg-slate-50 dark:bg-slate-800/40 border border-slate-200 dark:border-slate-800 rounded-lg text-xs font-medium text-slate-700 dark:text-slate-300 focus:outline-none cursor-pointer"
+            className="w-full p-2 bg-slate-50 dark:bg-[#1B2230] border border-[#D8DEE8] dark:border-[#2A3445] rounded-sm text-xs font-medium text-slate-750 dark:text-slate-300 focus:outline-none cursor-pointer focus:border-[#FF4E00]"
           >
             <option value="All">All Levels</option>
             {defaultLevels.map((l) => (
@@ -108,7 +128,7 @@ export function WorkoutFilters({
           <select
             value={filters.phase}
             onChange={(e) => handleSelectChange("phase", e.target.value)}
-            className="w-full p-2 bg-slate-50 dark:bg-slate-800/40 border border-slate-200 dark:border-slate-800 rounded-lg text-xs font-medium text-slate-700 dark:text-slate-300 focus:outline-none cursor-pointer"
+            className="w-full p-2 bg-slate-50 dark:bg-[#1B2230] border border-[#D8DEE8] dark:border-[#2A3445] rounded-sm text-xs font-medium text-slate-750 dark:text-slate-300 focus:outline-none cursor-pointer focus:border-[#FF4E00]"
           >
             <option value="All">All Phases</option>
             {defaultPhases.map((p) => (
@@ -123,7 +143,7 @@ export function WorkoutFilters({
           <select
             value={filters.surface}
             onChange={(e) => handleSelectChange("surface", e.target.value)}
-            className="w-full p-2 bg-slate-50 dark:bg-slate-800/40 border border-slate-200 dark:border-slate-800 rounded-lg text-xs font-medium text-slate-700 dark:text-slate-300 focus:outline-none cursor-pointer"
+            className="w-full p-2 bg-slate-50 dark:bg-[#1B2230] border border-[#D8DEE8] dark:border-[#2A3445] rounded-sm text-xs font-medium text-slate-750 dark:text-slate-300 focus:outline-none cursor-pointer focus:border-[#FF4E00]"
           >
             <option value="All">All Surfaces</option>
             {defaultSurfaces.map((s) => (
@@ -138,7 +158,7 @@ export function WorkoutFilters({
           <select
             value={filters.difficulty}
             onChange={(e) => handleSelectChange("difficulty", e.target.value)}
-            className="w-full p-2 bg-slate-50 dark:bg-slate-800/40 border border-slate-200 dark:border-slate-800 rounded-lg text-xs font-medium text-slate-700 dark:text-slate-300 focus:outline-none cursor-pointer"
+            className="w-full p-2 bg-slate-50 dark:bg-[#1B2230] border border-[#D8DEE8] dark:border-[#2A3445] rounded-sm text-xs font-medium text-slate-750 dark:text-slate-300 focus:outline-none cursor-pointer focus:border-[#FF4E00]"
           >
             <option value="All">All Hardness</option>
             <option value="1">Easy / Beginner (Pts 1-3)</option>
@@ -153,7 +173,7 @@ export function WorkoutFilters({
           <select
             value={filters.risk}
             onChange={(e) => handleSelectChange("risk", e.target.value)}
-            className="w-full p-2 bg-slate-50 dark:bg-slate-800/40 border border-slate-200 dark:border-slate-800 rounded-lg text-xs font-medium text-slate-700 dark:text-slate-300 focus:outline-none cursor-pointer"
+            className="w-full p-2 bg-slate-50 dark:bg-[#1B2230] border border-[#D8DEE8] dark:border-[#2A3445] rounded-sm text-xs font-medium text-slate-750 dark:text-slate-300 focus:outline-none cursor-pointer focus:border-[#FF4E00]"
           >
             <option value="All">All Risk Profiles</option>
             {defaultRisks.map((r) => (
@@ -168,7 +188,7 @@ export function WorkoutFilters({
           <select
             value={filters.duration}
             onChange={(e) => handleSelectChange("duration", e.target.value)}
-            className="w-full p-2 bg-slate-50 dark:bg-slate-800/40 border border-slate-200 dark:border-slate-800 rounded-lg text-xs font-medium text-slate-700 dark:text-slate-300 focus:outline-none cursor-pointer"
+            className="w-full p-2 bg-slate-50 dark:bg-[#1B2230] border border-[#D8DEE8] dark:border-[#2A3445] rounded-sm text-xs font-medium text-slate-750 dark:text-slate-300 focus:outline-none cursor-pointer focus:border-[#FF4E00]"
           >
             <option value="All">All Durations</option>
             <option value="under-30">Quick (Under 30 min)</option>

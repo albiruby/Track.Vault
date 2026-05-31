@@ -62,14 +62,14 @@ export function WorkoutCard({
         </h3>
         
         {/* Short Summary */}
-        <p className="text-xs text-[#374151] dark:text-slate-300 mt-1 lines-clamp-2 leading-relaxed">
+        <p className="text-xs text-[#374151] dark:text-slate-300 mt-1 line-clamp-2 leading-relaxed">
           {workout.summary}
         </p>
 
         {/* Core Dimensions Info Block */}
-        <div className="grid grid-cols-2 gap-2 my-4 p-3 bg-[#EEF1F5] dark:bg-[#1B2230] border border-[#D8DEE8] dark:border-[#2A3445] rounded-sm text-center">
+        <div className="grid grid-cols-2 gap-2 my-4 p-3 bg-slate-50 dark:bg-[#1B2230] border border-[#D8DEE8] dark:border-[#2A3445] rounded-sm text-center">
           <div>
-            <span className="text-[9px] font-mono uppercase tracking-wider text-[#374151] dark:text-slate-400 block font-bold">Distance</span>
+            <span className="text-[9px] font-mono uppercase tracking-wider text-[#6B7280] dark:text-slate-400 block font-bold">Distance</span>
             <span className="text-xs font-bold text-[#111827] dark:text-slate-200 font-mono">
               {(workout as any).rawDistance && typeof (workout as any).rawDistance === "object"
                 ? `${(workout as any).rawDistance.min}-${(workout as any).rawDistance.max} KM`
@@ -77,7 +77,7 @@ export function WorkoutCard({
             </span>
           </div>
           <div className="border-l border-[#D8DEE8] dark:border-[#2A3445]">
-            <span className="text-[9px] font-mono uppercase tracking-wider text-[#374151] dark:text-slate-400 block font-bold">Duration</span>
+            <span className="text-[9px] font-mono uppercase tracking-wider text-[#6B7280] dark:text-slate-400 block font-bold">Duration</span>
             <span className="text-xs font-bold text-[#111827] dark:text-slate-200 font-mono">
               {(workout as any).rawDuration && typeof (workout as any).rawDuration === "object"
                 ? `${(workout as any).rawDuration.min}-${(workout as any).rawDuration.max} MIN`
