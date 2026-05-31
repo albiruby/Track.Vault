@@ -1,0 +1,5389 @@
+{
+  "categoryMeta": {
+    "product": "Track.Vault",
+    "version": "1.0.0",
+    "categoryId": "half-marathon",
+    "categoryLabel": "Half Marathon",
+    "description": "Half marathon workouts focused on endurance, threshold, tempo, and race-specific stamina.",
+    "targetWorkoutCount": 25,
+    "actualWorkoutCount": 25,
+    "primaryDistances": [
+      "Half Marathon"
+    ],
+    "databaseRequired": false,
+    "aiGeneratedInProduct": false
+  },
+  "workouts": [
+    {
+      "id": "tv-hm-001",
+      "slug": "hm-3-x-10-min-tempo-builder-half-marathon-developing",
+      "title": "HM 3 × 10-Min Tempo Builder",
+      "shortTitle": "3 × 10-Min HM Tempo",
+      "summary": "A block-tempo workout that develops sustainable half-marathon rhythm without forcing all-out pace.",
+      "targetDistances": [
+        "Half Marathon"
+      ],
+      "primaryDistance": "Half Marathon",
+      "category": "tempo",
+      "trainingGoals": [
+        "tempo-stamina",
+        "half-marathon-rhythm"
+      ],
+      "level": "developing",
+      "phase": [
+        "build"
+      ],
+      "surface": [
+        "road",
+        "flat-road",
+        "mixed"
+      ],
+      "equipment": [
+        "gps-watch",
+        "timer"
+      ],
+      "estimatedDurationMin": {
+        "min": 50,
+        "max": 65
+      },
+      "estimatedDistanceKm": {
+        "min": 8.0,
+        "max": 11.0
+      },
+      "qualityDistanceKm": 5.5,
+      "difficulty": "moderate-hard",
+      "risk": "medium",
+      "riskReason": "Sustained moderate-to-hard running can increase calf, shin, and hip fatigue if pacing is forced.",
+      "intensityGuide": {
+        "primaryTarget": "controlled aerobic quality effort",
+        "paceGuide": "Use relative effort. Stay controlled, smooth, and sustainable; avoid turning the session into a time trial.",
+        "hrGuide": "Heart rate should rise gradually and stay stable during sustained blocks; do not chase numbers if heat or fatigue is high.",
+        "rpeGuide": "RPE 6–7/10."
+      },
+      "workoutStructure": {
+        "warmup": [
+          {
+            "blockType": "warmup",
+            "name": "Easy Jog",
+            "description": "Run easy to raise core temperature before the quality work.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 900,
+              "intensity": "easy conversational effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Keep this relaxed and conversational."
+            ]
+          },
+          {
+            "blockType": "drill",
+            "name": "Dynamic Prep",
+            "description": "Complete light dynamic mobility: leg swings, ankle circles, skips, and relaxed running drills.",
+            "repetitions": 1,
+            "work": null,
+            "recovery": null,
+            "notes": [
+              "Move smoothly without forcing range of motion."
+            ]
+          },
+          {
+            "blockType": "stride",
+            "name": "Relaxed Strides",
+            "description": "Run relaxed strides to prepare rhythm and turnover.",
+            "repetitions": 4,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 20,
+              "intensity": "fast but relaxed stride effort",
+              "targetType": "time"
+            },
+            "recovery": {
+              "type": "walk-jog",
+              "durationSeconds": 60,
+              "distanceMeters": null,
+              "intensity": "easy"
+            },
+            "notes": [
+              "Finish feeling sharper, not tired."
+            ]
+          }
+        ],
+        "mainSet": [
+          {
+            "blockType": "repeat",
+            "name": "3 × 10-Min HM Tempo",
+            "description": "Run 3 repetitions of 10s at half-marathon tempo effort.",
+            "repetitions": 3,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 600,
+              "intensity": "half-marathon tempo effort",
+              "targetType": "time"
+            },
+            "recovery": {
+              "type": "jog",
+              "durationSeconds": 180,
+              "distanceMeters": null,
+              "intensity": "easy"
+            },
+            "notes": [
+              "Keep the effort controlled."
+            ]
+          }
+        ],
+        "cooldown": [
+          {
+            "blockType": "cooldown",
+            "name": "Easy Cooldown Jog",
+            "description": "Jog easily after the main set to bring heart rate down gradually.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 600,
+              "intensity": "very easy recovery effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Extend the cooldown if legs feel heavy."
+            ]
+          }
+        ]
+      },
+      "variants": {
+        "easier": {
+          "description": "Reduce the main-set load while keeping the same training purpose.",
+          "mainSet": [
+            {
+              "blockType": "repeat",
+              "name": "2 × 10-Min HM Tempo",
+              "description": "Run 2 repetitions of 10s at controlled tempo effort.",
+              "repetitions": 2,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 600,
+                "intensity": "controlled tempo effort",
+                "targetType": "time"
+              },
+              "recovery": {
+                "type": "jog",
+                "durationSeconds": 210,
+                "distanceMeters": null,
+                "intensity": "easy"
+              },
+              "notes": [
+                "Keep the effort controlled."
+              ]
+            }
+          ]
+        },
+        "harder": {
+          "description": "Increase the main-set load only when the base version is controlled.",
+          "mainSet": [
+            {
+              "blockType": "repeat",
+              "name": "4 × 10-Min HM Tempo",
+              "description": "Run 4 repetitions of 10s at half-marathon tempo effort.",
+              "repetitions": 4,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 600,
+                "intensity": "half-marathon tempo effort",
+                "targetType": "time"
+              },
+              "recovery": {
+                "type": "jog",
+                "durationSeconds": 150,
+                "distanceMeters": null,
+                "intensity": "easy"
+              },
+              "notes": [
+                "Keep the effort controlled."
+              ]
+            }
+          ]
+        }
+      },
+      "coachingNotes": [
+        "Keep the first third of the workout controlled so the final section stays technically clean.",
+        "Use effort rather than exact pace when conditions are hot, windy, hilly, or humid.",
+        "The goal is half-marathon durability, not an all-out time trial."
+      ],
+      "commonMistakes": [
+        "Starting the first block too fast and fading before the planned finish.",
+        "Forcing pace on hills instead of maintaining consistent effort.",
+        "Skipping fueling or hydration on longer sessions."
+      ],
+      "safetyNotes": [
+        "Avoid this workout if sharp pain appears in the shin, Achilles, calf, knee, or hip.",
+        "Use an easier variant when returning from illness, injury, or a heavy training week.",
+        "Stop or shorten the session if form breaks down late in the workout."
+      ],
+      "shareCard": {
+        "cardTitle": "3 × 10-Min HM Tempo",
+        "cardSubtitle": "Half Marathon · DEVELOPING · TEMPO",
+        "mainSetText": "3 × 10-Min HM Tempo",
+        "purposeText": "A block-tempo workout that develops sustainable half-marathon rhythm without forcing all-out pace.",
+        "footerNote": "Risk: medium. Keep it controlled."
+      },
+      "tags": [
+        "Half Marathon",
+        "tempo",
+        "developing",
+        "moderate-hard",
+        "medium"
+      ],
+      "searchKeywords": [
+        "developing",
+        "half marathon",
+        "tempo",
+        "3 × 10-min hm tempo",
+        "workout"
+      ],
+      "uniquenessSignature": "d7987c9eb5-hm-3-x-10-min-tempo-builder-half-marathon-developing",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+    },
+    {
+      "id": "tv-hm-002",
+      "slug": "hm-2-x-20-min-steady-tempo-half-marathon-intermediate",
+      "title": "HM 2 × 20-Min Steady Tempo",
+      "shortTitle": "2 × 20-Min Tempo",
+      "summary": "A longer tempo session for practicing sustained aerobic pressure and pacing discipline.",
+      "targetDistances": [
+        "Half Marathon"
+      ],
+      "primaryDistance": "Half Marathon",
+      "category": "tempo",
+      "trainingGoals": [
+        "tempo-endurance",
+        "pacing-discipline"
+      ],
+      "level": "intermediate",
+      "phase": [
+        "build",
+        "peak"
+      ],
+      "surface": [
+        "road",
+        "flat-road",
+        "mixed"
+      ],
+      "equipment": [
+        "gps-watch",
+        "timer"
+      ],
+      "estimatedDurationMin": {
+        "min": 60,
+        "max": 75
+      },
+      "estimatedDistanceKm": {
+        "min": 10.0,
+        "max": 14.0
+      },
+      "qualityDistanceKm": 8.0,
+      "difficulty": "hard",
+      "risk": "medium",
+      "riskReason": "Sustained moderate-to-hard running can increase calf, shin, and hip fatigue if pacing is forced.",
+      "intensityGuide": {
+        "primaryTarget": "controlled aerobic quality effort",
+        "paceGuide": "Use relative effort. Stay controlled, smooth, and sustainable; avoid turning the session into a time trial.",
+        "hrGuide": "Heart rate should rise gradually and stay stable during sustained blocks; do not chase numbers if heat or fatigue is high.",
+        "rpeGuide": "RPE 7–8/10."
+      },
+      "workoutStructure": {
+        "warmup": [
+          {
+            "blockType": "warmup",
+            "name": "Easy Jog",
+            "description": "Run easy to raise core temperature before the quality work.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 900,
+              "intensity": "easy conversational effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Keep this relaxed and conversational."
+            ]
+          },
+          {
+            "blockType": "drill",
+            "name": "Dynamic Prep",
+            "description": "Complete light dynamic mobility: leg swings, ankle circles, skips, and relaxed running drills.",
+            "repetitions": 1,
+            "work": null,
+            "recovery": null,
+            "notes": [
+              "Move smoothly without forcing range of motion."
+            ]
+          },
+          {
+            "blockType": "stride",
+            "name": "Relaxed Strides",
+            "description": "Run relaxed strides to prepare rhythm and turnover.",
+            "repetitions": 4,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 20,
+              "intensity": "fast but relaxed stride effort",
+              "targetType": "time"
+            },
+            "recovery": {
+              "type": "walk-jog",
+              "durationSeconds": 60,
+              "distanceMeters": null,
+              "intensity": "easy"
+            },
+            "notes": [
+              "Finish feeling sharper, not tired."
+            ]
+          }
+        ],
+        "mainSet": [
+          {
+            "blockType": "repeat",
+            "name": "2 × 20-Min Steady Tempo",
+            "description": "Run 2 repetitions of 20s at steady tempo effort.",
+            "repetitions": 2,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 1200,
+              "intensity": "steady tempo effort",
+              "targetType": "time"
+            },
+            "recovery": {
+              "type": "jog",
+              "durationSeconds": 240,
+              "distanceMeters": null,
+              "intensity": "easy"
+            },
+            "notes": [
+              "Keep the effort controlled."
+            ]
+          }
+        ],
+        "cooldown": [
+          {
+            "blockType": "cooldown",
+            "name": "Easy Cooldown Jog",
+            "description": "Jog easily after the main set to bring heart rate down gradually.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 600,
+              "intensity": "very easy recovery effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Extend the cooldown if legs feel heavy."
+            ]
+          }
+        ]
+      },
+      "variants": {
+        "easier": {
+          "description": "Reduce the main-set load while keeping the same training purpose.",
+          "mainSet": [
+            {
+              "blockType": "repeat",
+              "name": "2 × 15-Min Tempo",
+              "description": "Run 2 repetitions of 15s at steady tempo effort.",
+              "repetitions": 2,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 900,
+                "intensity": "steady tempo effort",
+                "targetType": "time"
+              },
+              "recovery": {
+                "type": "jog",
+                "durationSeconds": 240,
+                "distanceMeters": null,
+                "intensity": "easy"
+              },
+              "notes": [
+                "Keep the effort controlled."
+              ]
+            }
+          ]
+        },
+        "harder": {
+          "description": "Increase the main-set load only when the base version is controlled.",
+          "mainSet": [
+            {
+              "blockType": "repeat",
+              "name": "2 × 25-Min Tempo",
+              "description": "Run 2 repetitions of 25s at steady tempo effort.",
+              "repetitions": 2,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 1500,
+                "intensity": "steady tempo effort",
+                "targetType": "time"
+              },
+              "recovery": {
+                "type": "jog",
+                "durationSeconds": 240,
+                "distanceMeters": null,
+                "intensity": "easy"
+              },
+              "notes": [
+                "Keep the effort controlled."
+              ]
+            }
+          ]
+        }
+      },
+      "coachingNotes": [
+        "Keep the first third of the workout controlled so the final section stays technically clean.",
+        "Use effort rather than exact pace when conditions are hot, windy, hilly, or humid.",
+        "The goal is half-marathon durability, not an all-out time trial."
+      ],
+      "commonMistakes": [
+        "Starting the first block too fast and fading before the planned finish.",
+        "Forcing pace on hills instead of maintaining consistent effort.",
+        "Skipping fueling or hydration on longer sessions."
+      ],
+      "safetyNotes": [
+        "Avoid this workout if sharp pain appears in the shin, Achilles, calf, knee, or hip.",
+        "Use an easier variant when returning from illness, injury, or a heavy training week.",
+        "Stop or shorten the session if form breaks down late in the workout."
+      ],
+      "shareCard": {
+        "cardTitle": "2 × 20-Min Tempo",
+        "cardSubtitle": "Half Marathon · INTERMEDIATE · TEMPO",
+        "mainSetText": "2 × 20-Min Steady Tempo",
+        "purposeText": "A longer tempo session for practicing sustained aerobic pressure and pacing discipline.",
+        "footerNote": "Risk: medium. Keep it controlled."
+      },
+      "tags": [
+        "Half Marathon",
+        "tempo",
+        "intermediate",
+        "hard",
+        "medium"
+      ],
+      "searchKeywords": [
+        "intermediate",
+        "half marathon",
+        "tempo",
+        "2 × 20-min tempo",
+        "workout"
+      ],
+      "uniquenessSignature": "cbda51750e-hm-2-x-20-min-steady-tempo-half-marathon-intermediate",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+    },
+    {
+      "id": "tv-hm-003",
+      "slug": "hm-continuous-35-min-tempo-half-marathon-advanced",
+      "title": "HM Continuous 35-Min Tempo",
+      "shortTitle": "35-Min Tempo",
+      "summary": "A continuous tempo run that builds mental steadiness and half-marathon aerobic strength.",
+      "targetDistances": [
+        "Half Marathon"
+      ],
+      "primaryDistance": "Half Marathon",
+      "category": "tempo",
+      "trainingGoals": [
+        "continuous-tempo",
+        "aerobic-strength"
+      ],
+      "level": "advanced",
+      "phase": [
+        "peak"
+      ],
+      "surface": [
+        "road",
+        "flat-road",
+        "mixed"
+      ],
+      "equipment": [
+        "gps-watch",
+        "timer"
+      ],
+      "estimatedDurationMin": {
+        "min": 60,
+        "max": 75
+      },
+      "estimatedDistanceKm": {
+        "min": 10.0,
+        "max": 15.0
+      },
+      "qualityDistanceKm": 7.0,
+      "difficulty": "hard",
+      "risk": "high",
+      "riskReason": "Long quality volume and sustained race-effort blocks increase fatigue and lower-leg stress.",
+      "intensityGuide": {
+        "primaryTarget": "controlled aerobic quality effort",
+        "paceGuide": "Use relative effort. Stay controlled, smooth, and sustainable; avoid turning the session into a time trial.",
+        "hrGuide": "Heart rate should rise gradually and stay stable during sustained blocks; do not chase numbers if heat or fatigue is high.",
+        "rpeGuide": "RPE 7–8/10."
+      },
+      "workoutStructure": {
+        "warmup": [
+          {
+            "blockType": "warmup",
+            "name": "Easy Jog",
+            "description": "Run easy to raise core temperature before the quality work.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 900,
+              "intensity": "easy conversational effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Keep this relaxed and conversational."
+            ]
+          },
+          {
+            "blockType": "drill",
+            "name": "Dynamic Prep",
+            "description": "Complete light dynamic mobility: leg swings, ankle circles, skips, and relaxed running drills.",
+            "repetitions": 1,
+            "work": null,
+            "recovery": null,
+            "notes": [
+              "Move smoothly without forcing range of motion."
+            ]
+          },
+          {
+            "blockType": "stride",
+            "name": "Relaxed Strides",
+            "description": "Run relaxed strides to prepare rhythm and turnover.",
+            "repetitions": 4,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 20,
+              "intensity": "fast but relaxed stride effort",
+              "targetType": "time"
+            },
+            "recovery": {
+              "type": "walk-jog",
+              "durationSeconds": 60,
+              "distanceMeters": null,
+              "intensity": "easy"
+            },
+            "notes": [
+              "Finish feeling sharper, not tired."
+            ]
+          }
+        ],
+        "mainSet": [
+          {
+            "blockType": "tempo",
+            "name": "35-Min Continuous Tempo",
+            "description": "Run continuously for 35 minutes at controlled half-marathon tempo effort.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 2100,
+              "intensity": "controlled half-marathon tempo effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Start controlled and settle into rhythm."
+            ]
+          }
+        ],
+        "cooldown": [
+          {
+            "blockType": "cooldown",
+            "name": "Easy Cooldown Jog",
+            "description": "Jog easily after the main set to bring heart rate down gradually.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 600,
+              "intensity": "very easy recovery effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Extend the cooldown if legs feel heavy."
+            ]
+          }
+        ]
+      },
+      "variants": {
+        "easier": {
+          "description": "Reduce the main-set load while keeping the same training purpose.",
+          "mainSet": [
+            {
+              "blockType": "tempo",
+              "name": "25-Min Continuous Tempo",
+              "description": "Run continuously for 25 minutes at controlled tempo effort.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 1500,
+                "intensity": "controlled tempo effort",
+                "targetType": "time"
+              },
+              "recovery": null,
+              "notes": [
+                "Start controlled and settle into rhythm."
+              ]
+            }
+          ]
+        },
+        "harder": {
+          "description": "Increase the main-set load only when the base version is controlled.",
+          "mainSet": [
+            {
+              "blockType": "tempo",
+              "name": "40-Min Continuous Tempo",
+              "description": "Run continuously for 40 minutes at controlled tempo effort.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 2400,
+                "intensity": "controlled tempo effort",
+                "targetType": "time"
+              },
+              "recovery": null,
+              "notes": [
+                "Start controlled and settle into rhythm."
+              ]
+            }
+          ]
+        }
+      },
+      "coachingNotes": [
+        "Keep the first third of the workout controlled so the final section stays technically clean.",
+        "Use effort rather than exact pace when conditions are hot, windy, hilly, or humid.",
+        "The goal is half-marathon durability, not an all-out time trial."
+      ],
+      "commonMistakes": [
+        "Starting the first block too fast and fading before the planned finish.",
+        "Forcing pace on hills instead of maintaining consistent effort.",
+        "Skipping fueling or hydration on longer sessions."
+      ],
+      "safetyNotes": [
+        "Avoid this workout if sharp pain appears in the shin, Achilles, calf, knee, or hip.",
+        "Use an easier variant when returning from illness, injury, or a heavy training week.",
+        "Stop or shorten the session if form breaks down late in the workout."
+      ],
+      "shareCard": {
+        "cardTitle": "35-Min Tempo",
+        "cardSubtitle": "Half Marathon · ADVANCED · TEMPO",
+        "mainSetText": "35-Min Continuous Tempo",
+        "purposeText": "A continuous tempo run that builds mental steadiness and half-marathon aerobic strength.",
+        "footerNote": "Risk: high. Keep it controlled."
+      },
+      "tags": [
+        "Half Marathon",
+        "tempo",
+        "advanced",
+        "hard",
+        "high"
+      ],
+      "searchKeywords": [
+        "advanced",
+        "half marathon",
+        "tempo",
+        "35-min tempo",
+        "workout"
+      ],
+      "uniquenessSignature": "273c5ed000-hm-continuous-35-min-tempo-half-marathon-advanced",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+    },
+    {
+      "id": "tv-hm-004",
+      "slug": "hm-broken-tempo-ladder-half-marathon-intermediate",
+      "title": "HM Broken Tempo Ladder",
+      "shortTitle": "Tempo Ladder",
+      "summary": "A controlled ladder of tempo blocks for variety and fatigue management.",
+      "targetDistances": [
+        "Half Marathon"
+      ],
+      "primaryDistance": "Half Marathon",
+      "category": "tempo",
+      "trainingGoals": [
+        "tempo-variety",
+        "fatigue-management"
+      ],
+      "level": "intermediate",
+      "phase": [
+        "build"
+      ],
+      "surface": [
+        "road",
+        "flat-road",
+        "mixed"
+      ],
+      "equipment": [
+        "gps-watch",
+        "timer"
+      ],
+      "estimatedDurationMin": {
+        "min": 55,
+        "max": 70
+      },
+      "estimatedDistanceKm": {
+        "min": 9.0,
+        "max": 13.0
+      },
+      "qualityDistanceKm": 7.5,
+      "difficulty": "moderate-hard",
+      "risk": "medium",
+      "riskReason": "Sustained moderate-to-hard running can increase calf, shin, and hip fatigue if pacing is forced.",
+      "intensityGuide": {
+        "primaryTarget": "controlled aerobic quality effort",
+        "paceGuide": "Use relative effort. Stay controlled, smooth, and sustainable; avoid turning the session into a time trial.",
+        "hrGuide": "Heart rate should rise gradually and stay stable during sustained blocks; do not chase numbers if heat or fatigue is high.",
+        "rpeGuide": "RPE 6–7/10."
+      },
+      "workoutStructure": {
+        "warmup": [
+          {
+            "blockType": "warmup",
+            "name": "Easy Jog",
+            "description": "Run easy to raise core temperature before the quality work.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 900,
+              "intensity": "easy conversational effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Keep this relaxed and conversational."
+            ]
+          },
+          {
+            "blockType": "drill",
+            "name": "Dynamic Prep",
+            "description": "Complete light dynamic mobility: leg swings, ankle circles, skips, and relaxed running drills.",
+            "repetitions": 1,
+            "work": null,
+            "recovery": null,
+            "notes": [
+              "Move smoothly without forcing range of motion."
+            ]
+          },
+          {
+            "blockType": "stride",
+            "name": "Relaxed Strides",
+            "description": "Run relaxed strides to prepare rhythm and turnover.",
+            "repetitions": 4,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 20,
+              "intensity": "fast but relaxed stride effort",
+              "targetType": "time"
+            },
+            "recovery": {
+              "type": "walk-jog",
+              "durationSeconds": 60,
+              "distanceMeters": null,
+              "intensity": "easy"
+            },
+            "notes": [
+              "Finish feeling sharper, not tired."
+            ]
+          }
+        ],
+        "mainSet": [
+          {
+            "blockType": "tempo",
+            "name": "10-15-10 Tempo Ladder",
+            "description": "Run 10 minutes, 15 minutes, then 10 minutes at controlled tempo effort.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 2100,
+              "intensity": "broken tempo effort",
+              "targetType": "time"
+            },
+            "recovery": {
+              "type": "jog",
+              "durationSeconds": 180,
+              "distanceMeters": null,
+              "intensity": "easy"
+            },
+            "notes": [
+              "Keep transitions relaxed between blocks."
+            ]
+          }
+        ],
+        "cooldown": [
+          {
+            "blockType": "cooldown",
+            "name": "Easy Cooldown Jog",
+            "description": "Jog easily after the main set to bring heart rate down gradually.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 600,
+              "intensity": "very easy recovery effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Extend the cooldown if legs feel heavy."
+            ]
+          }
+        ]
+      },
+      "variants": {
+        "easier": {
+          "description": "Reduce the main-set load while keeping the same training purpose.",
+          "mainSet": [
+            {
+              "blockType": "tempo",
+              "name": "8-12-8 Tempo Ladder",
+              "description": "Run 8, 12, and 8 minutes at controlled tempo effort.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 1680,
+                "intensity": "controlled tempo effort",
+                "targetType": "time"
+              },
+              "recovery": {
+                "type": "jog",
+                "durationSeconds": 180,
+                "distanceMeters": null,
+                "intensity": "easy"
+              },
+              "notes": [
+                "Stay patient early."
+              ]
+            }
+          ]
+        },
+        "harder": {
+          "description": "Increase the main-set load only when the base version is controlled.",
+          "mainSet": [
+            {
+              "blockType": "tempo",
+              "name": "12-18-12 Tempo Ladder",
+              "description": "Run 12, 18, and 12 minutes at controlled tempo effort.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 2520,
+                "intensity": "controlled tempo effort",
+                "targetType": "time"
+              },
+              "recovery": {
+                "type": "jog",
+                "durationSeconds": 180,
+                "distanceMeters": null,
+                "intensity": "easy"
+              },
+              "notes": [
+                "Only use if base version stays smooth."
+              ]
+            }
+          ]
+        }
+      },
+      "coachingNotes": [
+        "Keep the first third of the workout controlled so the final section stays technically clean.",
+        "Use effort rather than exact pace when conditions are hot, windy, hilly, or humid.",
+        "The goal is half-marathon durability, not an all-out time trial."
+      ],
+      "commonMistakes": [
+        "Starting the first block too fast and fading before the planned finish.",
+        "Forcing pace on hills instead of maintaining consistent effort.",
+        "Skipping fueling or hydration on longer sessions."
+      ],
+      "safetyNotes": [
+        "Avoid this workout if sharp pain appears in the shin, Achilles, calf, knee, or hip.",
+        "Use an easier variant when returning from illness, injury, or a heavy training week.",
+        "Stop or shorten the session if form breaks down late in the workout."
+      ],
+      "shareCard": {
+        "cardTitle": "Tempo Ladder",
+        "cardSubtitle": "Half Marathon · INTERMEDIATE · TEMPO",
+        "mainSetText": "10-15-10 Tempo Ladder",
+        "purposeText": "A controlled ladder of tempo blocks for variety and fatigue management.",
+        "footerNote": "Risk: medium. Keep it controlled."
+      },
+      "tags": [
+        "Half Marathon",
+        "tempo",
+        "intermediate",
+        "moderate-hard",
+        "medium"
+      ],
+      "searchKeywords": [
+        "intermediate",
+        "half marathon",
+        "tempo",
+        "tempo ladder",
+        "workout"
+      ],
+      "uniquenessSignature": "5cd7e07438-hm-broken-tempo-ladder-half-marathon-intermediate",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+    },
+    {
+      "id": "tv-hm-005",
+      "slug": "hm-tempo-finish-aerobic-run-half-marathon-recreational",
+      "title": "HM Tempo Finish Aerobic Run",
+      "shortTitle": "Tempo Finish Run",
+      "summary": "An aerobic run that finishes with tempo rhythm to simulate late-race focus.",
+      "targetDistances": [
+        "Half Marathon"
+      ],
+      "primaryDistance": "Half Marathon",
+      "category": "progression-run",
+      "trainingGoals": [
+        "tempo-finish",
+        "late-race-focus"
+      ],
+      "level": "recreational",
+      "phase": [
+        "build"
+      ],
+      "surface": [
+        "road",
+        "flat-road",
+        "mixed"
+      ],
+      "equipment": [
+        "gps-watch",
+        "timer"
+      ],
+      "estimatedDurationMin": {
+        "min": 45,
+        "max": 60
+      },
+      "estimatedDistanceKm": {
+        "min": 7.0,
+        "max": 10.0
+      },
+      "qualityDistanceKm": 3.0,
+      "difficulty": "moderate",
+      "risk": "medium",
+      "riskReason": "Sustained moderate-to-hard running can increase calf, shin, and hip fatigue if pacing is forced.",
+      "intensityGuide": {
+        "primaryTarget": "controlled aerobic quality effort",
+        "paceGuide": "Use relative effort. Stay controlled, smooth, and sustainable; avoid turning the session into a time trial.",
+        "hrGuide": "Heart rate should rise gradually and stay stable during sustained blocks; do not chase numbers if heat or fatigue is high.",
+        "rpeGuide": "RPE 5–6/10."
+      },
+      "workoutStructure": {
+        "warmup": [
+          {
+            "blockType": "warmup",
+            "name": "Easy Start",
+            "description": "Start with easy jogging or brisk walking before settling into the main endurance work.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 600,
+              "intensity": "very easy effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Let the first minutes feel almost too easy."
+            ]
+          }
+        ],
+        "mainSet": [
+          {
+            "blockType": "tempo",
+            "name": "Easy Run + 15-Min Tempo Finish",
+            "description": "Run easy first, then finish with 15 minutes at controlled tempo effort.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 2700,
+              "intensity": "easy to tempo progression",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Do not force the first easy section."
+            ]
+          }
+        ],
+        "cooldown": [
+          {
+            "blockType": "cooldown",
+            "name": "Easy Walk-Jog Cooldown",
+            "description": "Walk or jog very easily after the main endurance work.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 300,
+              "intensity": "very easy recovery effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Rehydrate and let breathing return to normal."
+            ]
+          }
+        ]
+      },
+      "variants": {
+        "easier": {
+          "description": "Reduce the main-set load while keeping the same training purpose.",
+          "mainSet": [
+            {
+              "blockType": "tempo",
+              "name": "Easy Run + 10-Min Tempo Finish",
+              "description": "Run easy first, then finish with 10 minutes at controlled tempo effort.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 2400,
+                "intensity": "easy to tempo progression",
+                "targetType": "time"
+              },
+              "recovery": null,
+              "notes": [
+                "Keep it light."
+              ]
+            }
+          ]
+        },
+        "harder": {
+          "description": "Increase the main-set load only when the base version is controlled.",
+          "mainSet": [
+            {
+              "blockType": "tempo",
+              "name": "Easy Run + 20-Min Tempo Finish",
+              "description": "Run easy first, then finish with 20 minutes at controlled tempo effort.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 3300,
+                "intensity": "easy to tempo progression",
+                "targetType": "time"
+              },
+              "recovery": null,
+              "notes": [
+                "Progress gradually."
+              ]
+            }
+          ]
+        }
+      },
+      "coachingNotes": [
+        "Keep the first third of the workout controlled so the final section stays technically clean.",
+        "Use effort rather than exact pace when conditions are hot, windy, hilly, or humid.",
+        "The goal is half-marathon durability, not an all-out time trial."
+      ],
+      "commonMistakes": [
+        "Starting the first block too fast and fading before the planned finish.",
+        "Forcing pace on hills instead of maintaining consistent effort.",
+        "Skipping fueling or hydration on longer sessions."
+      ],
+      "safetyNotes": [
+        "Avoid this workout if sharp pain appears in the shin, Achilles, calf, knee, or hip.",
+        "Use an easier variant when returning from illness, injury, or a heavy training week.",
+        "Stop or shorten the session if form breaks down late in the workout."
+      ],
+      "shareCard": {
+        "cardTitle": "Tempo Finish Run",
+        "cardSubtitle": "Half Marathon · RECREATIONAL · PROGRESSION-RUN",
+        "mainSetText": "Easy Run + 15-Min Tempo Finish",
+        "purposeText": "An aerobic run that finishes with tempo rhythm to simulate late-race focus.",
+        "footerNote": "Risk: medium. Keep it controlled."
+      },
+      "tags": [
+        "Half Marathon",
+        "progression-run",
+        "recreational",
+        "moderate",
+        "medium"
+      ],
+      "searchKeywords": [
+        "recreational",
+        "half marathon",
+        "progression-run",
+        "tempo finish run",
+        "workout"
+      ],
+      "uniquenessSignature": "6f94ffc2fe-hm-tempo-finish-aerobic-run-half-marathon-recreational",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+    },
+    {
+      "id": "tv-hm-006",
+      "slug": "hm-4-x-8-min-threshold-control-half-marathon-intermediate",
+      "title": "HM 4 × 8-Min Threshold Control",
+      "shortTitle": "4 × 8-Min Threshold",
+      "summary": "A threshold interval session designed for controlled lactate clearance and half-marathon stamina.",
+      "targetDistances": [
+        "Half Marathon"
+      ],
+      "primaryDistance": "Half Marathon",
+      "category": "threshold",
+      "trainingGoals": [
+        "lactate-threshold",
+        "stamina"
+      ],
+      "level": "intermediate",
+      "phase": [
+        "build"
+      ],
+      "surface": [
+        "road",
+        "flat-road",
+        "mixed"
+      ],
+      "equipment": [
+        "gps-watch",
+        "timer"
+      ],
+      "estimatedDurationMin": {
+        "min": 55,
+        "max": 70
+      },
+      "estimatedDistanceKm": {
+        "min": 9.0,
+        "max": 13.0
+      },
+      "qualityDistanceKm": 6.4,
+      "difficulty": "hard",
+      "risk": "medium",
+      "riskReason": "Sustained moderate-to-hard running can increase calf, shin, and hip fatigue if pacing is forced.",
+      "intensityGuide": {
+        "primaryTarget": "controlled aerobic quality effort",
+        "paceGuide": "Use relative effort. Stay controlled, smooth, and sustainable; avoid turning the session into a time trial.",
+        "hrGuide": "Heart rate should rise gradually and stay stable during sustained blocks; do not chase numbers if heat or fatigue is high.",
+        "rpeGuide": "RPE 7–8/10."
+      },
+      "workoutStructure": {
+        "warmup": [
+          {
+            "blockType": "warmup",
+            "name": "Easy Jog",
+            "description": "Run easy to raise core temperature before the quality work.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 900,
+              "intensity": "easy conversational effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Keep this relaxed and conversational."
+            ]
+          },
+          {
+            "blockType": "drill",
+            "name": "Dynamic Prep",
+            "description": "Complete light dynamic mobility: leg swings, ankle circles, skips, and relaxed running drills.",
+            "repetitions": 1,
+            "work": null,
+            "recovery": null,
+            "notes": [
+              "Move smoothly without forcing range of motion."
+            ]
+          },
+          {
+            "blockType": "stride",
+            "name": "Relaxed Strides",
+            "description": "Run relaxed strides to prepare rhythm and turnover.",
+            "repetitions": 4,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 20,
+              "intensity": "fast but relaxed stride effort",
+              "targetType": "time"
+            },
+            "recovery": {
+              "type": "walk-jog",
+              "durationSeconds": 60,
+              "distanceMeters": null,
+              "intensity": "easy"
+            },
+            "notes": [
+              "Finish feeling sharper, not tired."
+            ]
+          }
+        ],
+        "mainSet": [
+          {
+            "blockType": "repeat",
+            "name": "4 × 8-Min Threshold",
+            "description": "Run 4 repetitions of 8s at threshold effort.",
+            "repetitions": 4,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 480,
+              "intensity": "threshold effort",
+              "targetType": "time"
+            },
+            "recovery": {
+              "type": "jog",
+              "durationSeconds": 120,
+              "distanceMeters": null,
+              "intensity": "easy"
+            },
+            "notes": [
+              "Keep the effort controlled."
+            ]
+          }
+        ],
+        "cooldown": [
+          {
+            "blockType": "cooldown",
+            "name": "Easy Cooldown Jog",
+            "description": "Jog easily after the main set to bring heart rate down gradually.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 600,
+              "intensity": "very easy recovery effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Extend the cooldown if legs feel heavy."
+            ]
+          }
+        ]
+      },
+      "variants": {
+        "easier": {
+          "description": "Reduce the main-set load while keeping the same training purpose.",
+          "mainSet": [
+            {
+              "blockType": "repeat",
+              "name": "3 × 8-Min Threshold",
+              "description": "Run 3 repetitions of 8s at controlled threshold effort.",
+              "repetitions": 3,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 480,
+                "intensity": "controlled threshold effort",
+                "targetType": "time"
+              },
+              "recovery": {
+                "type": "jog",
+                "durationSeconds": 150,
+                "distanceMeters": null,
+                "intensity": "easy"
+              },
+              "notes": [
+                "Keep the effort controlled."
+              ]
+            }
+          ]
+        },
+        "harder": {
+          "description": "Increase the main-set load only when the base version is controlled.",
+          "mainSet": [
+            {
+              "blockType": "repeat",
+              "name": "5 × 8-Min Threshold",
+              "description": "Run 5 repetitions of 8s at threshold effort.",
+              "repetitions": 5,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 480,
+                "intensity": "threshold effort",
+                "targetType": "time"
+              },
+              "recovery": {
+                "type": "jog",
+                "durationSeconds": 120,
+                "distanceMeters": null,
+                "intensity": "easy"
+              },
+              "notes": [
+                "Keep the effort controlled."
+              ]
+            }
+          ]
+        }
+      },
+      "coachingNotes": [
+        "Keep the first third of the workout controlled so the final section stays technically clean.",
+        "Use effort rather than exact pace when conditions are hot, windy, hilly, or humid.",
+        "The goal is half-marathon durability, not an all-out time trial."
+      ],
+      "commonMistakes": [
+        "Starting the first block too fast and fading before the planned finish.",
+        "Forcing pace on hills instead of maintaining consistent effort.",
+        "Skipping fueling or hydration on longer sessions."
+      ],
+      "safetyNotes": [
+        "Avoid this workout if sharp pain appears in the shin, Achilles, calf, knee, or hip.",
+        "Use an easier variant when returning from illness, injury, or a heavy training week.",
+        "Stop or shorten the session if form breaks down late in the workout."
+      ],
+      "shareCard": {
+        "cardTitle": "4 × 8-Min Threshold",
+        "cardSubtitle": "Half Marathon · INTERMEDIATE · THRESHOLD",
+        "mainSetText": "4 × 8-Min Threshold",
+        "purposeText": "A threshold interval session designed for controlled lactate clearance and half-marathon stamina.",
+        "footerNote": "Risk: medium. Keep it controlled."
+      },
+      "tags": [
+        "Half Marathon",
+        "threshold",
+        "intermediate",
+        "hard",
+        "medium"
+      ],
+      "searchKeywords": [
+        "intermediate",
+        "half marathon",
+        "threshold",
+        "4 × 8-min threshold",
+        "workout"
+      ],
+      "uniquenessSignature": "21856cc66f-hm-4-x-8-min-threshold-control-half-marathon-intermediate",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+    },
+    {
+      "id": "tv-hm-007",
+      "slug": "hm-5-x-6-min-cruise-threshold-half-marathon-developing",
+      "title": "HM 5 × 6-Min Cruise Threshold",
+      "shortTitle": "5 × 6-Min Cruise",
+      "summary": "Shorter threshold blocks with controlled recoveries for repeatable quality.",
+      "targetDistances": [
+        "Half Marathon"
+      ],
+      "primaryDistance": "Half Marathon",
+      "category": "cruise-interval",
+      "trainingGoals": [
+        "threshold-repeatability",
+        "cruise-interval"
+      ],
+      "level": "developing",
+      "phase": [
+        "build"
+      ],
+      "surface": [
+        "road",
+        "flat-road",
+        "mixed"
+      ],
+      "equipment": [
+        "gps-watch",
+        "timer"
+      ],
+      "estimatedDurationMin": {
+        "min": 50,
+        "max": 65
+      },
+      "estimatedDistanceKm": {
+        "min": 8.0,
+        "max": 12.0
+      },
+      "qualityDistanceKm": 6.0,
+      "difficulty": "moderate-hard",
+      "risk": "medium",
+      "riskReason": "Sustained moderate-to-hard running can increase calf, shin, and hip fatigue if pacing is forced.",
+      "intensityGuide": {
+        "primaryTarget": "controlled aerobic quality effort",
+        "paceGuide": "Use relative effort. Stay controlled, smooth, and sustainable; avoid turning the session into a time trial.",
+        "hrGuide": "Heart rate should rise gradually and stay stable during sustained blocks; do not chase numbers if heat or fatigue is high.",
+        "rpeGuide": "RPE 6–7/10."
+      },
+      "workoutStructure": {
+        "warmup": [
+          {
+            "blockType": "warmup",
+            "name": "Easy Jog",
+            "description": "Run easy to raise core temperature before the quality work.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 900,
+              "intensity": "easy conversational effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Keep this relaxed and conversational."
+            ]
+          },
+          {
+            "blockType": "drill",
+            "name": "Dynamic Prep",
+            "description": "Complete light dynamic mobility: leg swings, ankle circles, skips, and relaxed running drills.",
+            "repetitions": 1,
+            "work": null,
+            "recovery": null,
+            "notes": [
+              "Move smoothly without forcing range of motion."
+            ]
+          },
+          {
+            "blockType": "stride",
+            "name": "Relaxed Strides",
+            "description": "Run relaxed strides to prepare rhythm and turnover.",
+            "repetitions": 4,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 20,
+              "intensity": "fast but relaxed stride effort",
+              "targetType": "time"
+            },
+            "recovery": {
+              "type": "walk-jog",
+              "durationSeconds": 60,
+              "distanceMeters": null,
+              "intensity": "easy"
+            },
+            "notes": [
+              "Finish feeling sharper, not tired."
+            ]
+          }
+        ],
+        "mainSet": [
+          {
+            "blockType": "repeat",
+            "name": "5 × 6-Min Cruise Threshold",
+            "description": "Run 5 repetitions of 6s at threshold effort.",
+            "repetitions": 5,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 360,
+              "intensity": "threshold effort",
+              "targetType": "time"
+            },
+            "recovery": {
+              "type": "jog",
+              "durationSeconds": 90,
+              "distanceMeters": null,
+              "intensity": "easy"
+            },
+            "notes": [
+              "Keep the effort controlled."
+            ]
+          }
+        ],
+        "cooldown": [
+          {
+            "blockType": "cooldown",
+            "name": "Easy Cooldown Jog",
+            "description": "Jog easily after the main set to bring heart rate down gradually.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 600,
+              "intensity": "very easy recovery effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Extend the cooldown if legs feel heavy."
+            ]
+          }
+        ]
+      },
+      "variants": {
+        "easier": {
+          "description": "Reduce the main-set load while keeping the same training purpose.",
+          "mainSet": [
+            {
+              "blockType": "repeat",
+              "name": "4 × 6-Min Cruise Threshold",
+              "description": "Run 4 repetitions of 6s at controlled threshold effort.",
+              "repetitions": 4,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 360,
+                "intensity": "controlled threshold effort",
+                "targetType": "time"
+              },
+              "recovery": {
+                "type": "jog",
+                "durationSeconds": 120,
+                "distanceMeters": null,
+                "intensity": "easy"
+              },
+              "notes": [
+                "Keep the effort controlled."
+              ]
+            }
+          ]
+        },
+        "harder": {
+          "description": "Increase the main-set load only when the base version is controlled.",
+          "mainSet": [
+            {
+              "blockType": "repeat",
+              "name": "6 × 6-Min Cruise Threshold",
+              "description": "Run 6 repetitions of 6s at threshold effort.",
+              "repetitions": 6,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 360,
+                "intensity": "threshold effort",
+                "targetType": "time"
+              },
+              "recovery": {
+                "type": "jog",
+                "durationSeconds": 90,
+                "distanceMeters": null,
+                "intensity": "easy"
+              },
+              "notes": [
+                "Keep the effort controlled."
+              ]
+            }
+          ]
+        }
+      },
+      "coachingNotes": [
+        "Keep the first third of the workout controlled so the final section stays technically clean.",
+        "Use effort rather than exact pace when conditions are hot, windy, hilly, or humid.",
+        "The goal is half-marathon durability, not an all-out time trial."
+      ],
+      "commonMistakes": [
+        "Starting the first block too fast and fading before the planned finish.",
+        "Forcing pace on hills instead of maintaining consistent effort.",
+        "Skipping fueling or hydration on longer sessions."
+      ],
+      "safetyNotes": [
+        "Avoid this workout if sharp pain appears in the shin, Achilles, calf, knee, or hip.",
+        "Use an easier variant when returning from illness, injury, or a heavy training week.",
+        "Stop or shorten the session if form breaks down late in the workout."
+      ],
+      "shareCard": {
+        "cardTitle": "5 × 6-Min Cruise",
+        "cardSubtitle": "Half Marathon · DEVELOPING · CRUISE-INTERVAL",
+        "mainSetText": "5 × 6-Min Cruise Threshold",
+        "purposeText": "Shorter threshold blocks with controlled recoveries for repeatable quality.",
+        "footerNote": "Risk: medium. Keep it controlled."
+      },
+      "tags": [
+        "Half Marathon",
+        "cruise-interval",
+        "developing",
+        "moderate-hard",
+        "medium"
+      ],
+      "searchKeywords": [
+        "developing",
+        "half marathon",
+        "cruise-interval",
+        "5 × 6-min cruise",
+        "workout"
+      ],
+      "uniquenessSignature": "8056d2e713-hm-5-x-6-min-cruise-threshold-half-marathon-developing",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+    },
+    {
+      "id": "tv-hm-008",
+      "slug": "hm-3-x-12-min-threshold-blocks-half-marathon-advanced",
+      "title": "HM 3 × 12-Min Threshold Blocks",
+      "shortTitle": "3 × 12-Min Threshold",
+      "summary": "A longer threshold-block workout for building sustained aerobic pressure.",
+      "targetDistances": [
+        "Half Marathon"
+      ],
+      "primaryDistance": "Half Marathon",
+      "category": "threshold",
+      "trainingGoals": [
+        "sustained-threshold",
+        "race-durability"
+      ],
+      "level": "advanced",
+      "phase": [
+        "build",
+        "peak"
+      ],
+      "surface": [
+        "road",
+        "flat-road",
+        "mixed"
+      ],
+      "equipment": [
+        "gps-watch",
+        "timer"
+      ],
+      "estimatedDurationMin": {
+        "min": 60,
+        "max": 75
+      },
+      "estimatedDistanceKm": {
+        "min": 10.0,
+        "max": 15.0
+      },
+      "qualityDistanceKm": 7.2,
+      "difficulty": "hard",
+      "risk": "high",
+      "riskReason": "Long quality volume and sustained race-effort blocks increase fatigue and lower-leg stress.",
+      "intensityGuide": {
+        "primaryTarget": "controlled aerobic quality effort",
+        "paceGuide": "Use relative effort. Stay controlled, smooth, and sustainable; avoid turning the session into a time trial.",
+        "hrGuide": "Heart rate should rise gradually and stay stable during sustained blocks; do not chase numbers if heat or fatigue is high.",
+        "rpeGuide": "RPE 7–8/10."
+      },
+      "workoutStructure": {
+        "warmup": [
+          {
+            "blockType": "warmup",
+            "name": "Easy Jog",
+            "description": "Run easy to raise core temperature before the quality work.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 900,
+              "intensity": "easy conversational effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Keep this relaxed and conversational."
+            ]
+          },
+          {
+            "blockType": "drill",
+            "name": "Dynamic Prep",
+            "description": "Complete light dynamic mobility: leg swings, ankle circles, skips, and relaxed running drills.",
+            "repetitions": 1,
+            "work": null,
+            "recovery": null,
+            "notes": [
+              "Move smoothly without forcing range of motion."
+            ]
+          },
+          {
+            "blockType": "stride",
+            "name": "Relaxed Strides",
+            "description": "Run relaxed strides to prepare rhythm and turnover.",
+            "repetitions": 4,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 20,
+              "intensity": "fast but relaxed stride effort",
+              "targetType": "time"
+            },
+            "recovery": {
+              "type": "walk-jog",
+              "durationSeconds": 60,
+              "distanceMeters": null,
+              "intensity": "easy"
+            },
+            "notes": [
+              "Finish feeling sharper, not tired."
+            ]
+          }
+        ],
+        "mainSet": [
+          {
+            "blockType": "repeat",
+            "name": "3 × 12-Min Threshold Blocks",
+            "description": "Run 3 repetitions of 12s at threshold effort.",
+            "repetitions": 3,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 720,
+              "intensity": "threshold effort",
+              "targetType": "time"
+            },
+            "recovery": {
+              "type": "jog",
+              "durationSeconds": 180,
+              "distanceMeters": null,
+              "intensity": "easy"
+            },
+            "notes": [
+              "Keep the effort controlled."
+            ]
+          }
+        ],
+        "cooldown": [
+          {
+            "blockType": "cooldown",
+            "name": "Easy Cooldown Jog",
+            "description": "Jog easily after the main set to bring heart rate down gradually.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 600,
+              "intensity": "very easy recovery effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Extend the cooldown if legs feel heavy."
+            ]
+          }
+        ]
+      },
+      "variants": {
+        "easier": {
+          "description": "Reduce the main-set load while keeping the same training purpose.",
+          "mainSet": [
+            {
+              "blockType": "repeat",
+              "name": "2 × 12-Min Threshold Blocks",
+              "description": "Run 2 repetitions of 12s at controlled threshold effort.",
+              "repetitions": 2,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 720,
+                "intensity": "controlled threshold effort",
+                "targetType": "time"
+              },
+              "recovery": {
+                "type": "jog",
+                "durationSeconds": 180,
+                "distanceMeters": null,
+                "intensity": "easy"
+              },
+              "notes": [
+                "Keep the effort controlled."
+              ]
+            }
+          ]
+        },
+        "harder": {
+          "description": "Increase the main-set load only when the base version is controlled.",
+          "mainSet": [
+            {
+              "blockType": "repeat",
+              "name": "4 × 12-Min Threshold Blocks",
+              "description": "Run 4 repetitions of 12s at threshold effort.",
+              "repetitions": 4,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 720,
+                "intensity": "threshold effort",
+                "targetType": "time"
+              },
+              "recovery": {
+                "type": "jog",
+                "durationSeconds": 180,
+                "distanceMeters": null,
+                "intensity": "easy"
+              },
+              "notes": [
+                "Keep the effort controlled."
+              ]
+            }
+          ]
+        }
+      },
+      "coachingNotes": [
+        "Keep the first third of the workout controlled so the final section stays technically clean.",
+        "Use effort rather than exact pace when conditions are hot, windy, hilly, or humid.",
+        "The goal is half-marathon durability, not an all-out time trial."
+      ],
+      "commonMistakes": [
+        "Starting the first block too fast and fading before the planned finish.",
+        "Forcing pace on hills instead of maintaining consistent effort.",
+        "Skipping fueling or hydration on longer sessions."
+      ],
+      "safetyNotes": [
+        "Avoid this workout if sharp pain appears in the shin, Achilles, calf, knee, or hip.",
+        "Use an easier variant when returning from illness, injury, or a heavy training week.",
+        "Stop or shorten the session if form breaks down late in the workout."
+      ],
+      "shareCard": {
+        "cardTitle": "3 × 12-Min Threshold",
+        "cardSubtitle": "Half Marathon · ADVANCED · THRESHOLD",
+        "mainSetText": "3 × 12-Min Threshold Blocks",
+        "purposeText": "A longer threshold-block workout for building sustained aerobic pressure.",
+        "footerNote": "Risk: high. Keep it controlled."
+      },
+      "tags": [
+        "Half Marathon",
+        "threshold",
+        "advanced",
+        "hard",
+        "high"
+      ],
+      "searchKeywords": [
+        "advanced",
+        "half marathon",
+        "threshold",
+        "3 × 12-min threshold",
+        "workout"
+      ],
+      "uniquenessSignature": "c745ed853a-hm-3-x-12-min-threshold-blocks-half-marathon-advanced",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+    },
+    {
+      "id": "tv-hm-009",
+      "slug": "hm-6-x-1k-threshold-float-half-marathon-intermediate",
+      "title": "HM 6 × 1K Threshold Float",
+      "shortTitle": "6 × 1K Threshold",
+      "summary": "Distance-based threshold repeats with short floats for race rhythm.",
+      "targetDistances": [
+        "Half Marathon"
+      ],
+      "primaryDistance": "Half Marathon",
+      "category": "threshold",
+      "trainingGoals": [
+        "threshold-rhythm",
+        "economy"
+      ],
+      "level": "intermediate",
+      "phase": [
+        "build"
+      ],
+      "surface": [
+        "road",
+        "flat-road",
+        "mixed"
+      ],
+      "equipment": [
+        "gps-watch",
+        "timer"
+      ],
+      "estimatedDurationMin": {
+        "min": 55,
+        "max": 70
+      },
+      "estimatedDistanceKm": {
+        "min": 9.0,
+        "max": 13.0
+      },
+      "qualityDistanceKm": 6.0,
+      "difficulty": "hard",
+      "risk": "medium",
+      "riskReason": "Sustained moderate-to-hard running can increase calf, shin, and hip fatigue if pacing is forced.",
+      "intensityGuide": {
+        "primaryTarget": "controlled aerobic quality effort",
+        "paceGuide": "Use relative effort. Stay controlled, smooth, and sustainable; avoid turning the session into a time trial.",
+        "hrGuide": "Heart rate should rise gradually and stay stable during sustained blocks; do not chase numbers if heat or fatigue is high.",
+        "rpeGuide": "RPE 7–8/10."
+      },
+      "workoutStructure": {
+        "warmup": [
+          {
+            "blockType": "warmup",
+            "name": "Easy Jog",
+            "description": "Run easy to raise core temperature before the quality work.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 900,
+              "intensity": "easy conversational effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Keep this relaxed and conversational."
+            ]
+          },
+          {
+            "blockType": "drill",
+            "name": "Dynamic Prep",
+            "description": "Complete light dynamic mobility: leg swings, ankle circles, skips, and relaxed running drills.",
+            "repetitions": 1,
+            "work": null,
+            "recovery": null,
+            "notes": [
+              "Move smoothly without forcing range of motion."
+            ]
+          },
+          {
+            "blockType": "stride",
+            "name": "Relaxed Strides",
+            "description": "Run relaxed strides to prepare rhythm and turnover.",
+            "repetitions": 4,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 20,
+              "intensity": "fast but relaxed stride effort",
+              "targetType": "time"
+            },
+            "recovery": {
+              "type": "walk-jog",
+              "durationSeconds": 60,
+              "distanceMeters": null,
+              "intensity": "easy"
+            },
+            "notes": [
+              "Finish feeling sharper, not tired."
+            ]
+          }
+        ],
+        "mainSet": [
+          {
+            "blockType": "repeat",
+            "name": "6 × 1K Threshold Float",
+            "description": "Run 6 repetitions of 1000m at controlled threshold effort.",
+            "repetitions": 6,
+            "work": {
+              "distanceMeters": 1000,
+              "durationSeconds": null,
+              "intensity": "controlled threshold effort",
+              "targetType": "distance"
+            },
+            "recovery": {
+              "type": "float",
+              "durationSeconds": 75,
+              "distanceMeters": null,
+              "intensity": "easy"
+            },
+            "notes": [
+              "Keep each repetition controlled and repeatable."
+            ]
+          }
+        ],
+        "cooldown": [
+          {
+            "blockType": "cooldown",
+            "name": "Easy Cooldown Jog",
+            "description": "Jog easily after the main set to bring heart rate down gradually.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 600,
+              "intensity": "very easy recovery effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Extend the cooldown if legs feel heavy."
+            ]
+          }
+        ]
+      },
+      "variants": {
+        "easier": {
+          "description": "Reduce the main-set load while keeping the same training purpose.",
+          "mainSet": [
+            {
+              "blockType": "repeat",
+              "name": "5 × 1K Threshold Float",
+              "description": "Run 5 repetitions of 1000m at controlled threshold effort.",
+              "repetitions": 5,
+              "work": {
+                "distanceMeters": 1000,
+                "durationSeconds": null,
+                "intensity": "controlled threshold effort",
+                "targetType": "distance"
+              },
+              "recovery": {
+                "type": "float",
+                "durationSeconds": 90,
+                "distanceMeters": null,
+                "intensity": "easy"
+              },
+              "notes": [
+                "Keep each repetition controlled and repeatable."
+              ]
+            }
+          ]
+        },
+        "harder": {
+          "description": "Increase the main-set load only when the base version is controlled.",
+          "mainSet": [
+            {
+              "blockType": "repeat",
+              "name": "7 × 1K Threshold Float",
+              "description": "Run 7 repetitions of 1000m at controlled threshold effort.",
+              "repetitions": 7,
+              "work": {
+                "distanceMeters": 1000,
+                "durationSeconds": null,
+                "intensity": "controlled threshold effort",
+                "targetType": "distance"
+              },
+              "recovery": {
+                "type": "float",
+                "durationSeconds": 75,
+                "distanceMeters": null,
+                "intensity": "easy"
+              },
+              "notes": [
+                "Keep each repetition controlled and repeatable."
+              ]
+            }
+          ]
+        }
+      },
+      "coachingNotes": [
+        "Keep the first third of the workout controlled so the final section stays technically clean.",
+        "Use effort rather than exact pace when conditions are hot, windy, hilly, or humid.",
+        "The goal is half-marathon durability, not an all-out time trial."
+      ],
+      "commonMistakes": [
+        "Starting the first block too fast and fading before the planned finish.",
+        "Forcing pace on hills instead of maintaining consistent effort.",
+        "Skipping fueling or hydration on longer sessions."
+      ],
+      "safetyNotes": [
+        "Avoid this workout if sharp pain appears in the shin, Achilles, calf, knee, or hip.",
+        "Use an easier variant when returning from illness, injury, or a heavy training week.",
+        "Stop or shorten the session if form breaks down late in the workout."
+      ],
+      "shareCard": {
+        "cardTitle": "6 × 1K Threshold",
+        "cardSubtitle": "Half Marathon · INTERMEDIATE · THRESHOLD",
+        "mainSetText": "6 × 1K Threshold Float",
+        "purposeText": "Distance-based threshold repeats with short floats for race rhythm.",
+        "footerNote": "Risk: medium. Keep it controlled."
+      },
+      "tags": [
+        "Half Marathon",
+        "threshold",
+        "intermediate",
+        "hard",
+        "medium"
+      ],
+      "searchKeywords": [
+        "intermediate",
+        "half marathon",
+        "threshold",
+        "6 × 1k threshold",
+        "workout"
+      ],
+      "uniquenessSignature": "362f189dfe-hm-6-x-1k-threshold-float-half-marathon-intermediate",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+    },
+    {
+      "id": "tv-hm-010",
+      "slug": "hm-2-x-3k-threshold-strength-half-marathon-advanced",
+      "title": "HM 2 × 3K Threshold Strength",
+      "shortTitle": "2 × 3K Threshold",
+      "summary": "A distance-based threshold strength session for runners who prefer measured road or track blocks.",
+      "targetDistances": [
+        "Half Marathon"
+      ],
+      "primaryDistance": "Half Marathon",
+      "category": "threshold",
+      "trainingGoals": [
+        "threshold-strength",
+        "race-specific-stamina"
+      ],
+      "level": "advanced",
+      "phase": [
+        "peak"
+      ],
+      "surface": [
+        "road",
+        "flat-road",
+        "mixed"
+      ],
+      "equipment": [
+        "gps-watch",
+        "timer"
+      ],
+      "estimatedDurationMin": {
+        "min": 60,
+        "max": 75
+      },
+      "estimatedDistanceKm": {
+        "min": 10.0,
+        "max": 15.0
+      },
+      "qualityDistanceKm": 6.0,
+      "difficulty": "hard",
+      "risk": "high",
+      "riskReason": "Long quality volume and sustained race-effort blocks increase fatigue and lower-leg stress.",
+      "intensityGuide": {
+        "primaryTarget": "controlled aerobic quality effort",
+        "paceGuide": "Use relative effort. Stay controlled, smooth, and sustainable; avoid turning the session into a time trial.",
+        "hrGuide": "Heart rate should rise gradually and stay stable during sustained blocks; do not chase numbers if heat or fatigue is high.",
+        "rpeGuide": "RPE 7–8/10."
+      },
+      "workoutStructure": {
+        "warmup": [
+          {
+            "blockType": "warmup",
+            "name": "Easy Jog",
+            "description": "Run easy to raise core temperature before the quality work.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 900,
+              "intensity": "easy conversational effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Keep this relaxed and conversational."
+            ]
+          },
+          {
+            "blockType": "drill",
+            "name": "Dynamic Prep",
+            "description": "Complete light dynamic mobility: leg swings, ankle circles, skips, and relaxed running drills.",
+            "repetitions": 1,
+            "work": null,
+            "recovery": null,
+            "notes": [
+              "Move smoothly without forcing range of motion."
+            ]
+          },
+          {
+            "blockType": "stride",
+            "name": "Relaxed Strides",
+            "description": "Run relaxed strides to prepare rhythm and turnover.",
+            "repetitions": 4,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 20,
+              "intensity": "fast but relaxed stride effort",
+              "targetType": "time"
+            },
+            "recovery": {
+              "type": "walk-jog",
+              "durationSeconds": 60,
+              "distanceMeters": null,
+              "intensity": "easy"
+            },
+            "notes": [
+              "Finish feeling sharper, not tired."
+            ]
+          }
+        ],
+        "mainSet": [
+          {
+            "blockType": "repeat",
+            "name": "2 × 3K Threshold Strength",
+            "description": "Run 2 repetitions of 3000m at threshold effort.",
+            "repetitions": 2,
+            "work": {
+              "distanceMeters": 3000,
+              "durationSeconds": null,
+              "intensity": "threshold effort",
+              "targetType": "distance"
+            },
+            "recovery": {
+              "type": "jog",
+              "durationSeconds": 240,
+              "distanceMeters": null,
+              "intensity": "easy"
+            },
+            "notes": [
+              "Keep each repetition controlled and repeatable."
+            ]
+          }
+        ],
+        "cooldown": [
+          {
+            "blockType": "cooldown",
+            "name": "Easy Cooldown Jog",
+            "description": "Jog easily after the main set to bring heart rate down gradually.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 600,
+              "intensity": "very easy recovery effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Extend the cooldown if legs feel heavy."
+            ]
+          }
+        ]
+      },
+      "variants": {
+        "easier": {
+          "description": "Reduce the main-set load while keeping the same training purpose.",
+          "mainSet": [
+            {
+              "blockType": "repeat",
+              "name": "2 × 2K Threshold Strength",
+              "description": "Run 2 repetitions of 2000m at controlled threshold effort.",
+              "repetitions": 2,
+              "work": {
+                "distanceMeters": 2000,
+                "durationSeconds": null,
+                "intensity": "controlled threshold effort",
+                "targetType": "distance"
+              },
+              "recovery": {
+                "type": "jog",
+                "durationSeconds": 240,
+                "distanceMeters": null,
+                "intensity": "easy"
+              },
+              "notes": [
+                "Keep each repetition controlled and repeatable."
+              ]
+            }
+          ]
+        },
+        "harder": {
+          "description": "Increase the main-set load only when the base version is controlled.",
+          "mainSet": [
+            {
+              "blockType": "repeat",
+              "name": "3 × 3K Threshold Strength",
+              "description": "Run 3 repetitions of 3000m at threshold effort.",
+              "repetitions": 3,
+              "work": {
+                "distanceMeters": 3000,
+                "durationSeconds": null,
+                "intensity": "threshold effort",
+                "targetType": "distance"
+              },
+              "recovery": {
+                "type": "jog",
+                "durationSeconds": 240,
+                "distanceMeters": null,
+                "intensity": "easy"
+              },
+              "notes": [
+                "Keep each repetition controlled and repeatable."
+              ]
+            }
+          ]
+        }
+      },
+      "coachingNotes": [
+        "Keep the first third of the workout controlled so the final section stays technically clean.",
+        "Use effort rather than exact pace when conditions are hot, windy, hilly, or humid.",
+        "The goal is half-marathon durability, not an all-out time trial."
+      ],
+      "commonMistakes": [
+        "Starting the first block too fast and fading before the planned finish.",
+        "Forcing pace on hills instead of maintaining consistent effort.",
+        "Skipping fueling or hydration on longer sessions."
+      ],
+      "safetyNotes": [
+        "Avoid this workout if sharp pain appears in the shin, Achilles, calf, knee, or hip.",
+        "Use an easier variant when returning from illness, injury, or a heavy training week.",
+        "Stop or shorten the session if form breaks down late in the workout."
+      ],
+      "shareCard": {
+        "cardTitle": "2 × 3K Threshold",
+        "cardSubtitle": "Half Marathon · ADVANCED · THRESHOLD",
+        "mainSetText": "2 × 3K Threshold Strength",
+        "purposeText": "A distance-based threshold strength session for runners who prefer measured road or track blocks.",
+        "footerNote": "Risk: high. Keep it controlled."
+      },
+      "tags": [
+        "Half Marathon",
+        "threshold",
+        "advanced",
+        "hard",
+        "high"
+      ],
+      "searchKeywords": [
+        "advanced",
+        "half marathon",
+        "threshold",
+        "2 × 3k threshold",
+        "workout"
+      ],
+      "uniquenessSignature": "770dbc5544-hm-2-x-3k-threshold-strength-half-marathon-advanced",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+    },
+    {
+      "id": "tv-hm-011",
+      "slug": "hm-3-x-15-min-race-effort-half-marathon-intermediate",
+      "title": "HM 3 × 15-Min Race Effort",
+      "shortTitle": "3 × 15-Min HM Effort",
+      "summary": "A race-effort block workout that builds confidence at half-marathon rhythm.",
+      "targetDistances": [
+        "Half Marathon"
+      ],
+      "primaryDistance": "Half Marathon",
+      "category": "race-pace",
+      "trainingGoals": [
+        "half-marathon-race-effort",
+        "pacing"
+      ],
+      "level": "intermediate",
+      "phase": [
+        "peak"
+      ],
+      "surface": [
+        "road",
+        "flat-road",
+        "mixed"
+      ],
+      "equipment": [
+        "gps-watch",
+        "timer"
+      ],
+      "estimatedDurationMin": {
+        "min": 65,
+        "max": 80
+      },
+      "estimatedDistanceKm": {
+        "min": 11.0,
+        "max": 16.0
+      },
+      "qualityDistanceKm": 9.0,
+      "difficulty": "hard",
+      "risk": "medium",
+      "riskReason": "Sustained moderate-to-hard running can increase calf, shin, and hip fatigue if pacing is forced.",
+      "intensityGuide": {
+        "primaryTarget": "half-marathon specific effort",
+        "paceGuide": "Use relative effort. Stay controlled, smooth, and sustainable; avoid turning the session into a time trial.",
+        "hrGuide": "Heart rate should rise gradually and stay stable during sustained blocks; do not chase numbers if heat or fatigue is high.",
+        "rpeGuide": "RPE 7–8/10."
+      },
+      "workoutStructure": {
+        "warmup": [
+          {
+            "blockType": "warmup",
+            "name": "Easy Jog",
+            "description": "Run easy to raise core temperature before the quality work.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 900,
+              "intensity": "easy conversational effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Keep this relaxed and conversational."
+            ]
+          },
+          {
+            "blockType": "drill",
+            "name": "Dynamic Prep",
+            "description": "Complete light dynamic mobility: leg swings, ankle circles, skips, and relaxed running drills.",
+            "repetitions": 1,
+            "work": null,
+            "recovery": null,
+            "notes": [
+              "Move smoothly without forcing range of motion."
+            ]
+          },
+          {
+            "blockType": "stride",
+            "name": "Relaxed Strides",
+            "description": "Run relaxed strides to prepare rhythm and turnover.",
+            "repetitions": 4,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 20,
+              "intensity": "fast but relaxed stride effort",
+              "targetType": "time"
+            },
+            "recovery": {
+              "type": "walk-jog",
+              "durationSeconds": 60,
+              "distanceMeters": null,
+              "intensity": "easy"
+            },
+            "notes": [
+              "Finish feeling sharper, not tired."
+            ]
+          }
+        ],
+        "mainSet": [
+          {
+            "blockType": "repeat",
+            "name": "3 × 15-Min HM Effort",
+            "description": "Run 3 repetitions of 15s at half-marathon race effort.",
+            "repetitions": 3,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 900,
+              "intensity": "half-marathon race effort",
+              "targetType": "time"
+            },
+            "recovery": {
+              "type": "jog",
+              "durationSeconds": 180,
+              "distanceMeters": null,
+              "intensity": "easy"
+            },
+            "notes": [
+              "Keep the effort controlled."
+            ]
+          }
+        ],
+        "cooldown": [
+          {
+            "blockType": "cooldown",
+            "name": "Easy Cooldown Jog",
+            "description": "Jog easily after the main set to bring heart rate down gradually.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 600,
+              "intensity": "very easy recovery effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Extend the cooldown if legs feel heavy."
+            ]
+          }
+        ]
+      },
+      "variants": {
+        "easier": {
+          "description": "Reduce the main-set load while keeping the same training purpose.",
+          "mainSet": [
+            {
+              "blockType": "repeat",
+              "name": "2 × 15-Min HM Effort",
+              "description": "Run 2 repetitions of 15s at half-marathon race effort.",
+              "repetitions": 2,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 900,
+                "intensity": "half-marathon race effort",
+                "targetType": "time"
+              },
+              "recovery": {
+                "type": "jog",
+                "durationSeconds": 210,
+                "distanceMeters": null,
+                "intensity": "easy"
+              },
+              "notes": [
+                "Keep the effort controlled."
+              ]
+            }
+          ]
+        },
+        "harder": {
+          "description": "Increase the main-set load only when the base version is controlled.",
+          "mainSet": [
+            {
+              "blockType": "repeat",
+              "name": "4 × 15-Min HM Effort",
+              "description": "Run 4 repetitions of 15s at half-marathon race effort.",
+              "repetitions": 4,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 900,
+                "intensity": "half-marathon race effort",
+                "targetType": "time"
+              },
+              "recovery": {
+                "type": "jog",
+                "durationSeconds": 180,
+                "distanceMeters": null,
+                "intensity": "easy"
+              },
+              "notes": [
+                "Keep the effort controlled."
+              ]
+            }
+          ]
+        }
+      },
+      "coachingNotes": [
+        "Keep the first third of the workout controlled so the final section stays technically clean.",
+        "Use effort rather than exact pace when conditions are hot, windy, hilly, or humid.",
+        "The goal is half-marathon durability, not an all-out time trial."
+      ],
+      "commonMistakes": [
+        "Starting the first block too fast and fading before the planned finish.",
+        "Forcing pace on hills instead of maintaining consistent effort.",
+        "Skipping fueling or hydration on longer sessions."
+      ],
+      "safetyNotes": [
+        "Avoid this workout if sharp pain appears in the shin, Achilles, calf, knee, or hip.",
+        "Use an easier variant when returning from illness, injury, or a heavy training week.",
+        "Stop or shorten the session if form breaks down late in the workout."
+      ],
+      "shareCard": {
+        "cardTitle": "3 × 15-Min HM Effort",
+        "cardSubtitle": "Half Marathon · INTERMEDIATE · RACE-PACE",
+        "mainSetText": "3 × 15-Min HM Effort",
+        "purposeText": "A race-effort block workout that builds confidence at half-marathon rhythm.",
+        "footerNote": "Risk: medium. Keep it controlled."
+      },
+      "tags": [
+        "Half Marathon",
+        "race-pace",
+        "intermediate",
+        "hard",
+        "medium"
+      ],
+      "searchKeywords": [
+        "intermediate",
+        "half marathon",
+        "race-pace",
+        "3 × 15-min hm effort",
+        "workout"
+      ],
+      "uniquenessSignature": "9d080d079c-hm-3-x-15-min-race-effort-half-marathon-intermediate",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+    },
+    {
+      "id": "tv-hm-012",
+      "slug": "hm-5k-4k-3k-race-rhythm-half-marathon-advanced",
+      "title": "HM 5K + 4K + 3K Race Rhythm",
+      "shortTitle": "5K-4K-3K HM Rhythm",
+      "summary": "A descending race-rhythm session for controlled half-marathon pace under fatigue.",
+      "targetDistances": [
+        "Half Marathon"
+      ],
+      "primaryDistance": "Half Marathon",
+      "category": "race-pace",
+      "trainingGoals": [
+        "race-rhythm",
+        "fatigue-resistance"
+      ],
+      "level": "advanced",
+      "phase": [
+        "peak"
+      ],
+      "surface": [
+        "road",
+        "flat-road",
+        "mixed"
+      ],
+      "equipment": [
+        "gps-watch",
+        "timer"
+      ],
+      "estimatedDurationMin": {
+        "min": 70,
+        "max": 85
+      },
+      "estimatedDistanceKm": {
+        "min": 13.0,
+        "max": 18.0
+      },
+      "qualityDistanceKm": 12.0,
+      "difficulty": "hard",
+      "risk": "high",
+      "riskReason": "Long quality volume and sustained race-effort blocks increase fatigue and lower-leg stress.",
+      "intensityGuide": {
+        "primaryTarget": "half-marathon specific effort",
+        "paceGuide": "Use relative effort. Stay controlled, smooth, and sustainable; avoid turning the session into a time trial.",
+        "hrGuide": "Heart rate should rise gradually and stay stable during sustained blocks; do not chase numbers if heat or fatigue is high.",
+        "rpeGuide": "RPE 7–8/10."
+      },
+      "workoutStructure": {
+        "warmup": [
+          {
+            "blockType": "warmup",
+            "name": "Easy Jog",
+            "description": "Run easy to raise core temperature before the quality work.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 900,
+              "intensity": "easy conversational effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Keep this relaxed and conversational."
+            ]
+          },
+          {
+            "blockType": "drill",
+            "name": "Dynamic Prep",
+            "description": "Complete light dynamic mobility: leg swings, ankle circles, skips, and relaxed running drills.",
+            "repetitions": 1,
+            "work": null,
+            "recovery": null,
+            "notes": [
+              "Move smoothly without forcing range of motion."
+            ]
+          },
+          {
+            "blockType": "stride",
+            "name": "Relaxed Strides",
+            "description": "Run relaxed strides to prepare rhythm and turnover.",
+            "repetitions": 4,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 20,
+              "intensity": "fast but relaxed stride effort",
+              "targetType": "time"
+            },
+            "recovery": {
+              "type": "walk-jog",
+              "durationSeconds": 60,
+              "distanceMeters": null,
+              "intensity": "easy"
+            },
+            "notes": [
+              "Finish feeling sharper, not tired."
+            ]
+          }
+        ],
+        "mainSet": [
+          {
+            "blockType": "repeat",
+            "name": "5K + 4K + 3K HM Race Rhythm",
+            "description": "Run 5K, 4K, then 3K at controlled half-marathon race effort.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": 12000,
+              "durationSeconds": null,
+              "intensity": "half-marathon race effort",
+              "targetType": "distance"
+            },
+            "recovery": {
+              "type": "jog",
+              "durationSeconds": 240,
+              "distanceMeters": null,
+              "intensity": "easy"
+            },
+            "notes": [
+              "Control the first 5K block."
+            ]
+          }
+        ],
+        "cooldown": [
+          {
+            "blockType": "cooldown",
+            "name": "Easy Cooldown Jog",
+            "description": "Jog easily after the main set to bring heart rate down gradually.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 600,
+              "intensity": "very easy recovery effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Extend the cooldown if legs feel heavy."
+            ]
+          }
+        ]
+      },
+      "variants": {
+        "easier": {
+          "description": "Reduce the main-set load while keeping the same training purpose.",
+          "mainSet": [
+            {
+              "blockType": "repeat",
+              "name": "4K + 3K + 2K HM Race Rhythm",
+              "description": "Run 4K, 3K, then 2K at controlled half-marathon effort.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": 9000,
+                "durationSeconds": null,
+                "intensity": "half-marathon race effort",
+                "targetType": "distance"
+              },
+              "recovery": {
+                "type": "jog",
+                "durationSeconds": 240,
+                "distanceMeters": null,
+                "intensity": "easy"
+              },
+              "notes": [
+                "Keep it smooth."
+              ]
+            }
+          ]
+        },
+        "harder": {
+          "description": "Increase the main-set load with a standard 14K total rhythm set only when the base version is controlled.",
+          "mainSet": [
+            {
+              "blockType": "repeat",
+              "name": "6K + 5K + 3K HM Race Rhythm",
+              "description": "Run 6K, 5K, then 3K at controlled half-marathon effort.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": 14000,
+                "durationSeconds": null,
+                "intensity": "half-marathon race effort",
+                "targetType": "distance"
+              },
+              "recovery": {
+                "type": "jog",
+                "durationSeconds": 240,
+                "distanceMeters": null,
+                "intensity": "easy"
+              },
+              "notes": [
+                "Advanced only."
+              ]
+            }
+          ]
+        }
+      },
+      "coachingNotes": [
+        "Keep the first third of the workout controlled so the final section stays technically clean.",
+        "Use effort rather than exact pace when conditions are hot, windy, hilly, or humid.",
+        "The goal is half-marathon durability, not an all-out time trial."
+      ],
+      "commonMistakes": [
+        "Starting the first block too fast and fading before the planned finish.",
+        "Forcing pace on hills instead of maintaining consistent effort.",
+        "Skipping fueling or hydration on longer sessions."
+      ],
+      "safetyNotes": [
+        "Avoid this workout if sharp pain appears in the shin, Achilles, calf, knee, or hip.",
+        "Use an easier variant when returning from illness, injury, or a heavy training week.",
+        "Stop or shorten the session if form breaks down late in the workout."
+      ],
+      "shareCard": {
+        "cardTitle": "5K-4K-3K HM Rhythm",
+        "cardSubtitle": "Half Marathon · ADVANCED · RACE-PACE",
+        "mainSetText": "5K + 4K + 3K HM Race Rhythm",
+        "purposeText": "A descending race-rhythm session for controlled half-marathon pace under fatigue.",
+        "footerNote": "Risk: high. Keep it controlled."
+      },
+      "tags": [
+        "Half Marathon",
+        "race-pace",
+        "advanced",
+        "hard",
+        "high"
+      ],
+      "searchKeywords": [
+        "advanced",
+        "half marathon",
+        "race-pace",
+        "5k-4k-3k hm rhythm",
+        "workout"
+      ],
+      "uniquenessSignature": "hm-5k-4k-3k-race-rhythm-12k-advanced-012",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+    },
+    {
+      "id": "tv-hm-013",
+      "slug": "hm-race-pace-alternations-half-marathon-intermediate",
+      "title": "HM Race Pace Alternations",
+      "shortTitle": "HM Alternations",
+      "summary": "Alternating half-marathon effort with steady floats to practice pace control.",
+      "targetDistances": [
+        "Half Marathon"
+      ],
+      "primaryDistance": "Half Marathon",
+      "category": "race-pace",
+      "trainingGoals": [
+        "pace-control",
+        "steady-float"
+      ],
+      "level": "intermediate",
+      "phase": [
+        "build",
+        "peak"
+      ],
+      "surface": [
+        "road",
+        "flat-road",
+        "mixed"
+      ],
+      "equipment": [
+        "gps-watch",
+        "timer"
+      ],
+      "estimatedDurationMin": {
+        "min": 55,
+        "max": 70
+      },
+      "estimatedDistanceKm": {
+        "min": 9.0,
+        "max": 14.0
+      },
+      "qualityDistanceKm": 6.0,
+      "difficulty": "moderate-hard",
+      "risk": "medium",
+      "riskReason": "Sustained moderate-to-hard running can increase calf, shin, and hip fatigue if pacing is forced.",
+      "intensityGuide": {
+        "primaryTarget": "half-marathon specific effort",
+        "paceGuide": "Use relative effort. Stay controlled, smooth, and sustainable; avoid turning the session into a time trial.",
+        "hrGuide": "Heart rate should rise gradually and stay stable during sustained blocks; do not chase numbers if heat or fatigue is high.",
+        "rpeGuide": "RPE 6–7/10."
+      },
+      "workoutStructure": {
+        "warmup": [
+          {
+            "blockType": "warmup",
+            "name": "Easy Jog",
+            "description": "Run easy to raise core temperature before the quality work.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 900,
+              "intensity": "easy conversational effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Keep this relaxed and conversational."
+            ]
+          },
+          {
+            "blockType": "drill",
+            "name": "Dynamic Prep",
+            "description": "Complete light dynamic mobility: leg swings, ankle circles, skips, and relaxed running drills.",
+            "repetitions": 1,
+            "work": null,
+            "recovery": null,
+            "notes": [
+              "Move smoothly without forcing range of motion."
+            ]
+          },
+          {
+            "blockType": "stride",
+            "name": "Relaxed Strides",
+            "description": "Run relaxed strides to prepare rhythm and turnover.",
+            "repetitions": 4,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 20,
+              "intensity": "fast but relaxed stride effort",
+              "targetType": "time"
+            },
+            "recovery": {
+              "type": "walk-jog",
+              "durationSeconds": 60,
+              "distanceMeters": null,
+              "intensity": "easy"
+            },
+            "notes": [
+              "Finish feeling sharper, not tired."
+            ]
+          }
+        ],
+        "mainSet": [
+          {
+            "blockType": "fartlek",
+            "name": "6 × 4-Min HM Effort / 2-Min Steady",
+            "description": "Alternate race effort with steady floats.",
+            "repetitions": 6,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 240,
+              "intensity": "half-marathon race effort",
+              "targetType": "time"
+            },
+            "recovery": {
+              "type": "float",
+              "durationSeconds": 120,
+              "distanceMeters": null,
+              "intensity": "steady effort"
+            },
+            "notes": [
+              "The float is not walking recovery."
+            ]
+          }
+        ],
+        "cooldown": [
+          {
+            "blockType": "cooldown",
+            "name": "Easy Cooldown Jog",
+            "description": "Jog easily after the main set to bring heart rate down gradually.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 600,
+              "intensity": "very easy recovery effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Extend the cooldown if legs feel heavy."
+            ]
+          }
+        ]
+      },
+      "variants": {
+        "easier": {
+          "description": "Reduce the main-set load while keeping the same training purpose.",
+          "mainSet": [
+            {
+              "blockType": "fartlek",
+              "name": "5 × 4-Min HM Effort / 2-Min Steady",
+              "description": "Alternate race effort with steady floats.",
+              "repetitions": 5,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 240,
+                "intensity": "half-marathon race effort",
+                "targetType": "time"
+              },
+              "recovery": {
+                "type": "float",
+                "durationSeconds": 120,
+                "distanceMeters": null,
+                "intensity": "steady effort"
+              },
+              "notes": [
+                "Stay smooth."
+              ]
+            }
+          ]
+        },
+        "harder": {
+          "description": "Increase the main-set load only when the base version is controlled.",
+          "mainSet": [
+            {
+              "blockType": "fartlek",
+              "name": "8 × 4-Min HM Effort / 90s Steady",
+              "description": "Alternate race effort with shorter steady floats.",
+              "repetitions": 8,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 240,
+                "intensity": "half-marathon race effort",
+                "targetType": "time"
+              },
+              "recovery": {
+                "type": "float",
+                "durationSeconds": 90,
+                "distanceMeters": null,
+                "intensity": "steady effort"
+              },
+              "notes": [
+                "Only if controlled."
+              ]
+            }
+          ]
+        }
+      },
+      "coachingNotes": [
+        "Keep the first third of the workout controlled so the final section stays technically clean.",
+        "Use effort rather than exact pace when conditions are hot, windy, hilly, or humid.",
+        "The goal is half-marathon durability, not an all-out time trial."
+      ],
+      "commonMistakes": [
+        "Starting the first block too fast and fading before the planned finish.",
+        "Forcing pace on hills instead of maintaining consistent effort.",
+        "Skipping fueling or hydration on longer sessions."
+      ],
+      "safetyNotes": [
+        "Avoid this workout if sharp pain appears in the shin, Achilles, calf, knee, or hip.",
+        "Use an easier variant when returning from illness, injury, or a heavy training week.",
+        "Stop or shorten the session if form breaks down late in the workout."
+      ],
+      "shareCard": {
+        "cardTitle": "HM Alternations",
+        "cardSubtitle": "Half Marathon · INTERMEDIATE · RACE-PACE",
+        "mainSetText": "6 × 4-Min HM Effort / 2-Min Steady",
+        "purposeText": "Alternating half-marathon effort with steady floats to practice pace control.",
+        "footerNote": "Risk: medium. Keep it controlled."
+      },
+      "tags": [
+        "Half Marathon",
+        "race-pace",
+        "intermediate",
+        "moderate-hard",
+        "medium"
+      ],
+      "searchKeywords": [
+        "intermediate",
+        "half marathon",
+        "race-pace",
+        "hm alternations",
+        "workout"
+      ],
+      "uniquenessSignature": "967c75aa23-hm-race-pace-alternations-half-marathon-intermediate",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+    },
+    {
+      "id": "tv-hm-014",
+      "slug": "hm-8-x-1k-race-pace-repeats-half-marathon-developing",
+      "title": "HM 8 × 1K Race Pace Repeats",
+      "shortTitle": "8 × 1K HM Pace",
+      "summary": "Short race-pace repetitions for practicing rhythm without excessive continuous strain.",
+      "targetDistances": [
+        "Half Marathon"
+      ],
+      "primaryDistance": "Half Marathon",
+      "category": "race-pace",
+      "trainingGoals": [
+        "race-pace-repeatability",
+        "rhythm"
+      ],
+      "level": "developing",
+      "phase": [
+        "build"
+      ],
+      "surface": [
+        "road",
+        "flat-road",
+        "mixed"
+      ],
+      "equipment": [
+        "gps-watch",
+        "timer"
+      ],
+      "estimatedDurationMin": {
+        "min": 55,
+        "max": 70
+      },
+      "estimatedDistanceKm": {
+        "min": 9.0,
+        "max": 13.0
+      },
+      "qualityDistanceKm": 8.0,
+      "difficulty": "moderate-hard",
+      "risk": "medium",
+      "riskReason": "Sustained moderate-to-hard running can increase calf, shin, and hip fatigue if pacing is forced.",
+      "intensityGuide": {
+        "primaryTarget": "half-marathon specific effort",
+        "paceGuide": "Use relative effort. Stay controlled, smooth, and sustainable; avoid turning the session into a time trial.",
+        "hrGuide": "Heart rate should rise gradually and stay stable during sustained blocks; do not chase numbers if heat or fatigue is high.",
+        "rpeGuide": "RPE 6–7/10."
+      },
+      "workoutStructure": {
+        "warmup": [
+          {
+            "blockType": "warmup",
+            "name": "Easy Jog",
+            "description": "Run easy to raise core temperature before the quality work.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 900,
+              "intensity": "easy conversational effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Keep this relaxed and conversational."
+            ]
+          },
+          {
+            "blockType": "drill",
+            "name": "Dynamic Prep",
+            "description": "Complete light dynamic mobility: leg swings, ankle circles, skips, and relaxed running drills.",
+            "repetitions": 1,
+            "work": null,
+            "recovery": null,
+            "notes": [
+              "Move smoothly without forcing range of motion."
+            ]
+          },
+          {
+            "blockType": "stride",
+            "name": "Relaxed Strides",
+            "description": "Run relaxed strides to prepare rhythm and turnover.",
+            "repetitions": 4,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 20,
+              "intensity": "fast but relaxed stride effort",
+              "targetType": "time"
+            },
+            "recovery": {
+              "type": "walk-jog",
+              "durationSeconds": 60,
+              "distanceMeters": null,
+              "intensity": "easy"
+            },
+            "notes": [
+              "Finish feeling sharper, not tired."
+            ]
+          }
+        ],
+        "mainSet": [
+          {
+            "blockType": "repeat",
+            "name": "8 × 1K HM Pace",
+            "description": "Run 8 repetitions of 1000m at half-marathon race effort.",
+            "repetitions": 8,
+            "work": {
+              "distanceMeters": 1000,
+              "durationSeconds": null,
+              "intensity": "half-marathon race effort",
+              "targetType": "distance"
+            },
+            "recovery": {
+              "type": "jog",
+              "durationSeconds": 75,
+              "distanceMeters": null,
+              "intensity": "easy"
+            },
+            "notes": [
+              "Keep each repetition controlled and repeatable."
+            ]
+          }
+        ],
+        "cooldown": [
+          {
+            "blockType": "cooldown",
+            "name": "Easy Cooldown Jog",
+            "description": "Jog easily after the main set to bring heart rate down gradually.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 600,
+              "intensity": "very easy recovery effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Extend the cooldown if legs feel heavy."
+            ]
+          }
+        ]
+      },
+      "variants": {
+        "easier": {
+          "description": "Reduce the main-set load while keeping the same training purpose.",
+          "mainSet": [
+            {
+              "blockType": "repeat",
+              "name": "6 × 1K HM Pace",
+              "description": "Run 6 repetitions of 1000m at half-marathon race effort.",
+              "repetitions": 6,
+              "work": {
+                "distanceMeters": 1000,
+                "durationSeconds": null,
+                "intensity": "half-marathon race effort",
+                "targetType": "distance"
+              },
+              "recovery": {
+                "type": "jog",
+                "durationSeconds": 90,
+                "distanceMeters": null,
+                "intensity": "easy"
+              },
+              "notes": [
+                "Keep each repetition controlled and repeatable."
+              ]
+            }
+          ]
+        },
+        "harder": {
+          "description": "Increase the main-set load only when the base version is controlled.",
+          "mainSet": [
+            {
+              "blockType": "repeat",
+              "name": "10 × 1K HM Pace",
+              "description": "Run 10 repetitions of 1000m at half-marathon race effort.",
+              "repetitions": 10,
+              "work": {
+                "distanceMeters": 1000,
+                "durationSeconds": null,
+                "intensity": "half-marathon race effort",
+                "targetType": "distance"
+              },
+              "recovery": {
+                "type": "jog",
+                "durationSeconds": 60,
+                "distanceMeters": null,
+                "intensity": "easy"
+              },
+              "notes": [
+                "Keep each repetition controlled and repeatable."
+              ]
+            }
+          ]
+        }
+      },
+      "coachingNotes": [
+        "Keep the first third of the workout controlled so the final section stays technically clean.",
+        "Use effort rather than exact pace when conditions are hot, windy, hilly, or humid.",
+        "The goal is half-marathon durability, not an all-out time trial."
+      ],
+      "commonMistakes": [
+        "Starting the first block too fast and fading before the planned finish.",
+        "Forcing pace on hills instead of maintaining consistent effort.",
+        "Skipping fueling or hydration on longer sessions."
+      ],
+      "safetyNotes": [
+        "Avoid this workout if sharp pain appears in the shin, Achilles, calf, knee, or hip.",
+        "Use an easier variant when returning from illness, injury, or a heavy training week.",
+        "Stop or shorten the session if form breaks down late in the workout."
+      ],
+      "shareCard": {
+        "cardTitle": "8 × 1K HM Pace",
+        "cardSubtitle": "Half Marathon · DEVELOPING · RACE-PACE",
+        "mainSetText": "8 × 1K HM Pace",
+        "purposeText": "Short race-pace repetitions for practicing rhythm without excessive continuous strain.",
+        "footerNote": "Risk: medium. Keep it controlled."
+      },
+      "tags": [
+        "Half Marathon",
+        "race-pace",
+        "developing",
+        "moderate-hard",
+        "medium"
+      ],
+      "searchKeywords": [
+        "developing",
+        "half marathon",
+        "race-pace",
+        "8 × 1k hm pace",
+        "workout"
+      ],
+      "uniquenessSignature": "9dc7b65042-hm-8-x-1k-race-pace-repeats-half-marathon-developing",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+    },
+    {
+      "id": "tv-hm-015",
+      "slug": "hm-last-third-race-simulation-half-marathon-advanced",
+      "title": "HM Last-Third Race Simulation",
+      "shortTitle": "Last-Third Simulation",
+      "summary": "A moderate long aerobic run with a half-marathon effort block late in the session.",
+      "targetDistances": [
+        "Half Marathon"
+      ],
+      "primaryDistance": "Half Marathon",
+      "category": "race-pace",
+      "trainingGoals": [
+        "late-race-simulation",
+        "durability"
+      ],
+      "level": "advanced",
+      "phase": [
+        "peak"
+      ],
+      "surface": [
+        "road",
+        "flat-road",
+        "mixed"
+      ],
+      "equipment": [
+        "gps-watch",
+        "timer"
+      ],
+      "estimatedDurationMin": {
+        "min": 75,
+        "max": 95
+      },
+      "estimatedDistanceKm": {
+        "min": 13.0,
+        "max": 18.0
+      },
+      "qualityDistanceKm": 6.0,
+      "difficulty": "hard",
+      "risk": "high",
+      "riskReason": "Long quality volume and sustained race-effort blocks increase fatigue and lower-leg stress.",
+      "intensityGuide": {
+        "primaryTarget": "half-marathon specific effort",
+        "paceGuide": "Use relative effort. Stay controlled, smooth, and sustainable; avoid turning the session into a time trial.",
+        "hrGuide": "Heart rate should rise gradually and stay stable during sustained blocks; do not chase numbers if heat or fatigue is high.",
+        "rpeGuide": "RPE 7–8/10."
+      },
+      "workoutStructure": {
+        "warmup": [
+          {
+            "blockType": "warmup",
+            "name": "Easy Jog",
+            "description": "Run easy to raise core temperature before the quality work.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 900,
+              "intensity": "easy conversational effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Keep this relaxed and conversational."
+            ]
+          },
+          {
+            "blockType": "drill",
+            "name": "Dynamic Prep",
+            "description": "Complete light dynamic mobility: leg swings, ankle circles, skips, and relaxed running drills.",
+            "repetitions": 1,
+            "work": null,
+            "recovery": null,
+            "notes": [
+              "Move smoothly without forcing range of motion."
+            ]
+          },
+          {
+            "blockType": "stride",
+            "name": "Relaxed Strides",
+            "description": "Run relaxed strides to prepare rhythm and turnover.",
+            "repetitions": 4,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 20,
+              "intensity": "fast but relaxed stride effort",
+              "targetType": "time"
+            },
+            "recovery": {
+              "type": "walk-jog",
+              "durationSeconds": 60,
+              "distanceMeters": null,
+              "intensity": "easy"
+            },
+            "notes": [
+              "Finish feeling sharper, not tired."
+            ]
+          }
+        ],
+        "mainSet": [
+          {
+            "blockType": "long-run",
+            "name": "Long Run + 30-Min HM Effort",
+            "description": "Run easy first, then insert 30 minutes at half-marathon effort in the final third.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 5400,
+              "intensity": "easy plus half-marathon effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Fuel if session exceeds 75 minutes."
+            ]
+          }
+        ],
+        "cooldown": [
+          {
+            "blockType": "cooldown",
+            "name": "Easy Cooldown Jog",
+            "description": "Jog easily after the main set to bring heart rate down gradually.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 600,
+              "intensity": "very easy recovery effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Extend the cooldown if legs feel heavy."
+            ]
+          }
+        ]
+      },
+      "variants": {
+        "easier": {
+          "description": "Reduce the main-set load while keeping the same training purpose.",
+          "mainSet": [
+            {
+              "blockType": "long-run",
+              "name": "Long Run + 20-Min HM Effort",
+              "description": "Run easy first, then insert 20 minutes at half-marathon effort.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 4500,
+                "intensity": "easy plus half-marathon effort",
+                "targetType": "time"
+              },
+              "recovery": null,
+              "notes": [
+                "Keep it controlled."
+              ]
+            }
+          ]
+        },
+        "harder": {
+          "description": "Increase the main-set load only when the base version is controlled.",
+          "mainSet": [
+            {
+              "blockType": "long-run",
+              "name": "Long Run + 40-Min HM Effort",
+              "description": "Run easy first, then insert 40 minutes at half-marathon effort.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 6000,
+                "intensity": "easy plus half-marathon effort",
+                "targetType": "time"
+              },
+              "recovery": null,
+              "notes": [
+                "Advanced only."
+              ]
+            }
+          ]
+        }
+      },
+      "coachingNotes": [
+        "Keep the first third of the workout controlled so the final section stays technically clean.",
+        "Use effort rather than exact pace when conditions are hot, windy, hilly, or humid.",
+        "The goal is half-marathon durability, not an all-out time trial."
+      ],
+      "commonMistakes": [
+        "Starting the first block too fast and fading before the planned finish.",
+        "Forcing pace on hills instead of maintaining consistent effort.",
+        "Skipping fueling or hydration on longer sessions."
+      ],
+      "safetyNotes": [
+        "Avoid this workout if sharp pain appears in the shin, Achilles, calf, knee, or hip.",
+        "Use an easier variant when returning from illness, injury, or a heavy training week.",
+        "Stop or shorten the session if form breaks down late in the workout."
+      ],
+      "shareCard": {
+        "cardTitle": "Last-Third Simulation",
+        "cardSubtitle": "Half Marathon · ADVANCED · RACE-PACE",
+        "mainSetText": "Long Run + 30-Min HM Effort",
+        "purposeText": "A moderate long aerobic run with a half-marathon effort block late in the session.",
+        "footerNote": "Risk: high. Keep it controlled."
+      },
+      "tags": [
+        "Half Marathon",
+        "race-pace",
+        "advanced",
+        "hard",
+        "high"
+      ],
+      "searchKeywords": [
+        "advanced",
+        "half marathon",
+        "race-pace",
+        "last-third simulation",
+        "workout"
+      ],
+      "uniquenessSignature": "72bc956817-hm-last-third-race-simulation-half-marathon-advanced",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+    },
+    {
+      "id": "tv-hm-016",
+      "slug": "hm-long-run-with-3-x-10-min-tempo-half-marathon-intermediate",
+      "title": "HM Long Run with 3 × 10-Min Tempo",
+      "shortTitle": "LR 3 × 10 Tempo",
+      "summary": "A long run that layers controlled tempo work into an aerobic endurance session.",
+      "targetDistances": [
+        "Half Marathon"
+      ],
+      "primaryDistance": "Half Marathon",
+      "category": "long-run",
+      "trainingGoals": [
+        "long-run-quality",
+        "tempo-endurance"
+      ],
+      "level": "intermediate",
+      "phase": [
+        "build"
+      ],
+      "surface": [
+        "road",
+        "flat-road",
+        "mixed"
+      ],
+      "equipment": [
+        "gps-watch",
+        "timer"
+      ],
+      "estimatedDurationMin": {
+        "min": 75,
+        "max": 95
+      },
+      "estimatedDistanceKm": {
+        "min": 12.0,
+        "max": 17.0
+      },
+      "qualityDistanceKm": 6.0,
+      "difficulty": "hard",
+      "risk": "medium",
+      "riskReason": "Sustained moderate-to-hard running can increase calf, shin, and hip fatigue if pacing is forced.",
+      "intensityGuide": {
+        "primaryTarget": "half-marathon specific effort",
+        "paceGuide": "Use relative effort. Stay controlled, smooth, and sustainable; avoid turning the session into a time trial.",
+        "hrGuide": "Heart rate should rise gradually and stay stable during sustained blocks; do not chase numbers if heat or fatigue is high.",
+        "rpeGuide": "RPE 7–8/10."
+      },
+      "workoutStructure": {
+        "warmup": [
+          {
+            "blockType": "warmup",
+            "name": "Easy Start",
+            "description": "Start with easy jogging or brisk walking before settling into the main endurance work.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 600,
+              "intensity": "very easy effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Let the first minutes feel almost too easy."
+            ]
+          }
+        ],
+        "mainSet": [
+          {
+            "blockType": "long-run",
+            "name": "Long Run with 3 × 10-Min Tempo",
+            "description": "During an easy long run, include 3 × 10 minutes at tempo effort.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 5400,
+              "intensity": "easy plus tempo segments",
+              "targetType": "time"
+            },
+            "recovery": {
+              "type": "jog",
+              "durationSeconds": 180,
+              "distanceMeters": null,
+              "intensity": "easy"
+            },
+            "notes": [
+              "Keep the non-tempo portions easy."
+            ]
+          }
+        ],
+        "cooldown": [
+          {
+            "blockType": "cooldown",
+            "name": "Easy Walk-Jog Cooldown",
+            "description": "Walk or jog very easily after the main endurance work.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 300,
+              "intensity": "very easy recovery effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Rehydrate and let breathing return to normal."
+            ]
+          }
+        ]
+      },
+      "variants": {
+        "easier": {
+          "description": "Reduce the main-set load while keeping the same training purpose.",
+          "mainSet": [
+            {
+              "blockType": "long-run",
+              "name": "Long Run with 2 × 10-Min Tempo",
+              "description": "During an easy long run, include 2 × 10 minutes at tempo effort.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 4500,
+                "intensity": "easy plus tempo segments",
+                "targetType": "time"
+              },
+              "recovery": {
+                "type": "jog",
+                "durationSeconds": 180,
+                "distanceMeters": null,
+                "intensity": "easy"
+              },
+              "notes": [
+                "Stay conservative."
+              ]
+            }
+          ]
+        },
+        "harder": {
+          "description": "Increase the main-set load only when the base version is controlled.",
+          "mainSet": [
+            {
+              "blockType": "long-run",
+              "name": "Long Run with 4 × 10-Min Tempo",
+              "description": "During an easy long run, include 4 × 10 minutes at tempo effort.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 6000,
+                "intensity": "easy plus tempo segments",
+                "targetType": "time"
+              },
+              "recovery": {
+                "type": "jog",
+                "durationSeconds": 180,
+                "distanceMeters": null,
+                "intensity": "easy"
+              },
+              "notes": [
+                "Advanced only."
+              ]
+            }
+          ]
+        }
+      },
+      "coachingNotes": [
+        "Keep the first third of the workout controlled so the final section stays technically clean.",
+        "Use effort rather than exact pace when conditions are hot, windy, hilly, or humid.",
+        "The goal is half-marathon durability, not an all-out time trial."
+      ],
+      "commonMistakes": [
+        "Starting the first block too fast and fading before the planned finish.",
+        "Forcing pace on hills instead of maintaining consistent effort.",
+        "Skipping fueling or hydration on longer sessions."
+      ],
+      "safetyNotes": [
+        "Avoid this workout if sharp pain appears in the shin, Achilles, calf, knee, or hip.",
+        "Use an easier variant when returning from illness, injury, or a heavy training week.",
+        "Stop or shorten the session if form breaks down late in the workout."
+      ],
+      "shareCard": {
+        "cardTitle": "LR 3 × 10 Tempo",
+        "cardSubtitle": "Half Marathon · INTERMEDIATE · LONG-RUN",
+        "mainSetText": "Long Run with 3 × 10-Min Tempo",
+        "purposeText": "A long run that layers controlled tempo work into an aerobic endurance session.",
+        "footerNote": "Risk: medium. Keep it controlled."
+      },
+      "tags": [
+        "Half Marathon",
+        "long-run",
+        "intermediate",
+        "hard",
+        "medium"
+      ],
+      "searchKeywords": [
+        "intermediate",
+        "half marathon",
+        "long-run",
+        "lr 3 × 10 tempo",
+        "workout"
+      ],
+      "uniquenessSignature": "088645fea5-hm-long-run-with-3-x-10-min-tempo-half-marathon-intermediate",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+    },
+    {
+      "id": "tv-hm-017",
+      "slug": "hm-steady-long-run-finish-half-marathon-developing",
+      "title": "HM Steady Long Run Finish",
+      "shortTitle": "Steady Finish Long Run",
+      "summary": "A long run that finishes steady to build endurance without racing.",
+      "targetDistances": [
+        "Half Marathon"
+      ],
+      "primaryDistance": "Half Marathon",
+      "category": "long-run",
+      "trainingGoals": [
+        "steady-finish",
+        "aerobic-durability"
+      ],
+      "level": "developing",
+      "phase": [
+        "base",
+        "build"
+      ],
+      "surface": [
+        "road",
+        "flat-road",
+        "mixed"
+      ],
+      "equipment": [
+        "gps-watch",
+        "timer"
+      ],
+      "estimatedDurationMin": {
+        "min": 70,
+        "max": 90
+      },
+      "estimatedDistanceKm": {
+        "min": 11.0,
+        "max": 16.0
+      },
+      "qualityDistanceKm": 4.0,
+      "difficulty": "moderate-hard",
+      "risk": "medium",
+      "riskReason": "Sustained moderate-to-hard running can increase calf, shin, and hip fatigue if pacing is forced.",
+      "intensityGuide": {
+        "primaryTarget": "half-marathon specific effort",
+        "paceGuide": "Use relative effort. Stay controlled, smooth, and sustainable; avoid turning the session into a time trial.",
+        "hrGuide": "Heart rate should rise gradually and stay stable during sustained blocks; do not chase numbers if heat or fatigue is high.",
+        "rpeGuide": "RPE 6–7/10."
+      },
+      "workoutStructure": {
+        "warmup": [
+          {
+            "blockType": "warmup",
+            "name": "Easy Start",
+            "description": "Start with easy jogging or brisk walking before settling into the main endurance work.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 600,
+              "intensity": "very easy effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Let the first minutes feel almost too easy."
+            ]
+          }
+        ],
+        "mainSet": [
+          {
+            "blockType": "long-run",
+            "name": "Easy Long Run + 20-Min Steady Finish",
+            "description": "Run easy, then finish the final 20 minutes at steady effort.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 4800,
+              "intensity": "easy to steady effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Steady does not mean race pace."
+            ]
+          }
+        ],
+        "cooldown": [
+          {
+            "blockType": "cooldown",
+            "name": "Easy Walk-Jog Cooldown",
+            "description": "Walk or jog very easily after the main endurance work.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 300,
+              "intensity": "very easy recovery effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Rehydrate and let breathing return to normal."
+            ]
+          }
+        ]
+      },
+      "variants": {
+        "easier": {
+          "description": "Reduce the main-set load while keeping the same training purpose.",
+          "mainSet": [
+            {
+              "blockType": "long-run",
+              "name": "Easy Long Run + 10-Min Steady Finish",
+              "description": "Run easy, then finish the final 10 minutes steady.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 4200,
+                "intensity": "easy to steady effort",
+                "targetType": "time"
+              },
+              "recovery": null,
+              "notes": [
+                "Keep it light."
+              ]
+            }
+          ]
+        },
+        "harder": {
+          "description": "Increase the main-set load only when the base version is controlled.",
+          "mainSet": [
+            {
+              "blockType": "long-run",
+              "name": "Easy Long Run + 30-Min Steady Finish",
+              "description": "Run easy, then finish the final 30 minutes steady.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 5400,
+                "intensity": "easy to steady effort",
+                "targetType": "time"
+              },
+              "recovery": null,
+              "notes": [
+                "Use only when fresh."
+              ]
+            }
+          ]
+        }
+      },
+      "coachingNotes": [
+        "Keep the first third of the workout controlled so the final section stays technically clean.",
+        "Use effort rather than exact pace when conditions are hot, windy, hilly, or humid.",
+        "The goal is half-marathon durability, not an all-out time trial."
+      ],
+      "commonMistakes": [
+        "Starting the first block too fast and fading before the planned finish.",
+        "Forcing pace on hills instead of maintaining consistent effort.",
+        "Skipping fueling or hydration on longer sessions."
+      ],
+      "safetyNotes": [
+        "Avoid this workout if sharp pain appears in the shin, Achilles, calf, knee, or hip.",
+        "Use an easier variant when returning from illness, injury, or a heavy training week.",
+        "Stop or shorten the session if form breaks down late in the workout."
+      ],
+      "shareCard": {
+        "cardTitle": "Steady Finish Long Run",
+        "cardSubtitle": "Half Marathon · DEVELOPING · LONG-RUN",
+        "mainSetText": "Easy Long Run + 20-Min Steady Finish",
+        "purposeText": "A long run that finishes steady to build endurance without racing.",
+        "footerNote": "Risk: medium. Keep it controlled."
+      },
+      "tags": [
+        "Half Marathon",
+        "long-run",
+        "developing",
+        "moderate-hard",
+        "medium"
+      ],
+      "searchKeywords": [
+        "developing",
+        "half marathon",
+        "long-run",
+        "steady finish long run",
+        "workout"
+      ],
+      "uniquenessSignature": "2956d77c50-hm-steady-long-run-finish-half-marathon-developing",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+    },
+    {
+      "id": "tv-hm-018",
+      "slug": "hm-long-run-with-short-surges-half-marathon-intermediate",
+      "title": "HM Long Run with Short Surges",
+      "shortTitle": "LR Short Surges",
+      "summary": "A durability run with short controlled surges that keep mechanics sharp.",
+      "targetDistances": [
+        "Half Marathon"
+      ],
+      "primaryDistance": "Half Marathon",
+      "category": "long-run",
+      "trainingGoals": [
+        "fatigue-resistance",
+        "mechanics"
+      ],
+      "level": "intermediate",
+      "phase": [
+        "build"
+      ],
+      "surface": [
+        "road",
+        "flat-road",
+        "mixed"
+      ],
+      "equipment": [
+        "gps-watch",
+        "timer"
+      ],
+      "estimatedDurationMin": {
+        "min": 70,
+        "max": 90
+      },
+      "estimatedDistanceKm": {
+        "min": 11.0,
+        "max": 16.0
+      },
+      "qualityDistanceKm": 2.4,
+      "difficulty": "moderate-hard",
+      "risk": "medium",
+      "riskReason": "Sustained moderate-to-hard running can increase calf, shin, and hip fatigue if pacing is forced.",
+      "intensityGuide": {
+        "primaryTarget": "half-marathon specific effort",
+        "paceGuide": "Use relative effort. Stay controlled, smooth, and sustainable; avoid turning the session into a time trial.",
+        "hrGuide": "Heart rate should rise gradually and stay stable during sustained blocks; do not chase numbers if heat or fatigue is high.",
+        "rpeGuide": "RPE 6–7/10."
+      },
+      "workoutStructure": {
+        "warmup": [
+          {
+            "blockType": "warmup",
+            "name": "Easy Start",
+            "description": "Start with easy jogging or brisk walking before settling into the main endurance work.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 600,
+              "intensity": "very easy effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Let the first minutes feel almost too easy."
+            ]
+          }
+        ],
+        "mainSet": [
+          {
+            "blockType": "fartlek",
+            "name": "8 × 60s Controlled Surges",
+            "description": "Within the long run, include 8 × 60 seconds at 10K–HM effort.",
+            "repetitions": 8,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 60,
+              "intensity": "controlled surge effort",
+              "targetType": "time"
+            },
+            "recovery": {
+              "type": "jog",
+              "durationSeconds": 180,
+              "distanceMeters": null,
+              "intensity": "easy"
+            },
+            "notes": [
+              "Do not sprint the surges."
+            ]
+          }
+        ],
+        "cooldown": [
+          {
+            "blockType": "cooldown",
+            "name": "Easy Walk-Jog Cooldown",
+            "description": "Walk or jog very easily after the main endurance work.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 300,
+              "intensity": "very easy recovery effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Rehydrate and let breathing return to normal."
+            ]
+          }
+        ]
+      },
+      "variants": {
+        "easier": {
+          "description": "Reduce the main-set load while keeping the same training purpose.",
+          "mainSet": [
+            {
+              "blockType": "fartlek",
+              "name": "6 × 60s Controlled Surges",
+              "description": "Within the long run, include 6 × 60 seconds at controlled effort.",
+              "repetitions": 6,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 60,
+                "intensity": "controlled surge effort",
+                "targetType": "time"
+              },
+              "recovery": {
+                "type": "jog",
+                "durationSeconds": 180,
+                "distanceMeters": null,
+                "intensity": "easy"
+              },
+              "notes": [
+                "Keep it relaxed."
+              ]
+            }
+          ]
+        },
+        "harder": {
+          "description": "Increase the main-set load only when the base version is controlled.",
+          "mainSet": [
+            {
+              "blockType": "fartlek",
+              "name": "10 × 60s Controlled Surges",
+              "description": "Within the long run, include 10 × 60 seconds at controlled effort.",
+              "repetitions": 10,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 60,
+                "intensity": "controlled surge effort",
+                "targetType": "time"
+              },
+              "recovery": {
+                "type": "jog",
+                "durationSeconds": 150,
+                "distanceMeters": null,
+                "intensity": "easy"
+              },
+              "notes": [
+                "Stay smooth late."
+              ]
+            }
+          ]
+        }
+      },
+      "coachingNotes": [
+        "Keep the first third of the workout controlled so the final section stays technically clean.",
+        "Use effort rather than exact pace when conditions are hot, windy, hilly, or humid.",
+        "The goal is half-marathon durability, not an all-out time trial."
+      ],
+      "commonMistakes": [
+        "Starting the first block too fast and fading before the planned finish.",
+        "Forcing pace on hills instead of maintaining consistent effort.",
+        "Skipping fueling or hydration on longer sessions."
+      ],
+      "safetyNotes": [
+        "Avoid this workout if sharp pain appears in the shin, Achilles, calf, knee, or hip.",
+        "Use an easier variant when returning from illness, injury, or a heavy training week.",
+        "Stop or shorten the session if form breaks down late in the workout."
+      ],
+      "shareCard": {
+        "cardTitle": "LR Short Surges",
+        "cardSubtitle": "Half Marathon · INTERMEDIATE · LONG-RUN",
+        "mainSetText": "8 × 60s Controlled Surges",
+        "purposeText": "A durability run with short controlled surges that keep mechanics sharp.",
+        "footerNote": "Risk: medium. Keep it controlled."
+      },
+      "tags": [
+        "Half Marathon",
+        "long-run",
+        "intermediate",
+        "moderate-hard",
+        "medium"
+      ],
+      "searchKeywords": [
+        "intermediate",
+        "half marathon",
+        "long-run",
+        "lr short surges",
+        "workout"
+      ],
+      "uniquenessSignature": "34606c708f-hm-long-run-with-short-surges-half-marathon-intermediate",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+    },
+    {
+      "id": "tv-hm-019",
+      "slug": "hm-rolling-aerobic-long-run-half-marathon-recreational",
+      "title": "HM Rolling Aerobic Long Run",
+      "shortTitle": "Rolling Aerobic LR",
+      "summary": "A terrain-based long run for building strength on rolling roads without formal intervals.",
+      "targetDistances": [
+        "Half Marathon"
+      ],
+      "primaryDistance": "Half Marathon",
+      "category": "long-run",
+      "trainingGoals": [
+        "terrain-strength",
+        "aerobic-base"
+      ],
+      "level": "recreational",
+      "phase": [
+        "base"
+      ],
+      "surface": [
+        "road",
+        "flat-road",
+        "mixed"
+      ],
+      "equipment": [
+        "gps-watch",
+        "timer"
+      ],
+      "estimatedDurationMin": {
+        "min": 70,
+        "max": 90
+      },
+      "estimatedDistanceKm": {
+        "min": 10.0,
+        "max": 15.0
+      },
+      "qualityDistanceKm": 0.0,
+      "difficulty": "moderate",
+      "risk": "medium",
+      "riskReason": "Sustained moderate-to-hard running can increase calf, shin, and hip fatigue if pacing is forced.",
+      "intensityGuide": {
+        "primaryTarget": "half-marathon specific effort",
+        "paceGuide": "Use relative effort. Stay controlled, smooth, and sustainable; avoid turning the session into a time trial.",
+        "hrGuide": "Heart rate should rise gradually and stay stable during sustained blocks; do not chase numbers if heat or fatigue is high.",
+        "rpeGuide": "RPE 5–6/10."
+      },
+      "workoutStructure": {
+        "warmup": [
+          {
+            "blockType": "warmup",
+            "name": "Easy Start",
+            "description": "Start with easy jogging or brisk walking before settling into the main endurance work.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 600,
+              "intensity": "very easy effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Let the first minutes feel almost too easy."
+            ]
+          }
+        ],
+        "mainSet": [
+          {
+            "blockType": "long-run",
+            "name": "Rolling Aerobic Long Run",
+            "description": "Run on rolling terrain at easy-to-steady effort, staying controlled on climbs.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 4800,
+              "intensity": "easy to steady rolling effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Run hills by effort, not pace."
+            ]
+          }
+        ],
+        "cooldown": [
+          {
+            "blockType": "cooldown",
+            "name": "Easy Walk-Jog Cooldown",
+            "description": "Walk or jog very easily after the main endurance work.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 300,
+              "intensity": "very easy recovery effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Rehydrate and let breathing return to normal."
+            ]
+          }
+        ]
+      },
+      "variants": {
+        "easier": {
+          "description": "Reduce the main-set load while keeping the same training purpose.",
+          "mainSet": [
+            {
+              "blockType": "long-run",
+              "name": "Short Rolling Aerobic Long Run",
+              "description": "Run on rolling terrain for a shorter duration.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 3600,
+                "intensity": "easy rolling effort",
+                "targetType": "time"
+              },
+              "recovery": null,
+              "notes": [
+                "Keep it easy."
+              ]
+            }
+          ]
+        },
+        "harder": {
+          "description": "Increase the main-set load only when the base version is controlled.",
+          "mainSet": [
+            {
+              "blockType": "long-run",
+              "name": "Extended Rolling Aerobic Long Run",
+              "description": "Run on rolling terrain with a longer steady finish.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 5400,
+                "intensity": "easy to steady rolling effort",
+                "targetType": "time"
+              },
+              "recovery": null,
+              "notes": [
+                "Do not hammer the descents."
+              ]
+            }
+          ]
+        }
+      },
+      "coachingNotes": [
+        "Keep the first third of the workout controlled so the final section stays technically clean.",
+        "Use effort rather than exact pace when conditions are hot, windy, hilly, or humid.",
+        "The goal is half-marathon durability, not an all-out time trial."
+      ],
+      "commonMistakes": [
+        "Starting the first block too fast and fading before the planned finish.",
+        "Forcing pace on hills instead of maintaining consistent effort.",
+        "Skipping fueling or hydration on longer sessions."
+      ],
+      "safetyNotes": [
+        "Avoid this workout if sharp pain appears in the shin, Achilles, calf, knee, or hip.",
+        "Use an easier variant when returning from illness, injury, or a heavy training week.",
+        "Stop or shorten the session if form breaks down late in the workout."
+      ],
+      "shareCard": {
+        "cardTitle": "Rolling Aerobic LR",
+        "cardSubtitle": "Half Marathon · RECREATIONAL · LONG-RUN",
+        "mainSetText": "Rolling Aerobic Long Run",
+        "purposeText": "A terrain-based long run for building strength on rolling roads without formal intervals.",
+        "footerNote": "Risk: medium. Keep it controlled."
+      },
+      "tags": [
+        "Half Marathon",
+        "long-run",
+        "recreational",
+        "moderate",
+        "medium"
+      ],
+      "searchKeywords": [
+        "recreational",
+        "half marathon",
+        "long-run",
+        "rolling aerobic lr",
+        "workout"
+      ],
+      "uniquenessSignature": "cb3bcfd33c-hm-rolling-aerobic-long-run-half-marathon-recreational",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+    },
+    {
+      "id": "tv-hm-020",
+      "slug": "hm-long-run-with-2-x-15-min-race-rhythm-half-marathon-advanced",
+      "title": "HM Long Run with 2 × 15-Min Race Rhythm",
+      "shortTitle": "LR 2 × 15 HM",
+      "summary": "A long run with two half-marathon rhythm blocks for race-specific durability.",
+      "targetDistances": [
+        "Half Marathon"
+      ],
+      "primaryDistance": "Half Marathon",
+      "category": "long-run",
+      "trainingGoals": [
+        "race-specific-endurance",
+        "durability"
+      ],
+      "level": "advanced",
+      "phase": [
+        "peak"
+      ],
+      "surface": [
+        "road",
+        "flat-road",
+        "mixed"
+      ],
+      "equipment": [
+        "gps-watch",
+        "timer"
+      ],
+      "estimatedDurationMin": {
+        "min": 80,
+        "max": 100
+      },
+      "estimatedDistanceKm": {
+        "min": 13.0,
+        "max": 19.0
+      },
+      "qualityDistanceKm": 6.0,
+      "difficulty": "hard",
+      "risk": "high",
+      "riskReason": "Long quality volume and sustained race-effort blocks increase fatigue and lower-leg stress.",
+      "intensityGuide": {
+        "primaryTarget": "half-marathon specific effort",
+        "paceGuide": "Use relative effort. Stay controlled, smooth, and sustainable; avoid turning the session into a time trial.",
+        "hrGuide": "Heart rate should rise gradually and stay stable during sustained blocks; do not chase numbers if heat or fatigue is high.",
+        "rpeGuide": "RPE 7–8/10."
+      },
+      "workoutStructure": {
+        "warmup": [
+          {
+            "blockType": "warmup",
+            "name": "Easy Start",
+            "description": "Start with easy jogging or brisk walking before settling into the main endurance work.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 600,
+              "intensity": "very easy effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Let the first minutes feel almost too easy."
+            ]
+          }
+        ],
+        "mainSet": [
+          {
+            "blockType": "long-run",
+            "name": "Long Run + 2 × 15-Min HM Rhythm",
+            "description": "During the long run, include two 15-minute blocks at half-marathon effort.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 5700,
+              "intensity": "easy plus half-marathon rhythm",
+              "targetType": "time"
+            },
+            "recovery": {
+              "type": "jog",
+              "durationSeconds": 300,
+              "distanceMeters": null,
+              "intensity": "easy"
+            },
+            "notes": [
+              "Fuel if session runs long."
+            ]
+          }
+        ],
+        "cooldown": [
+          {
+            "blockType": "cooldown",
+            "name": "Easy Walk-Jog Cooldown",
+            "description": "Walk or jog very easily after the main endurance work.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 300,
+              "intensity": "very easy recovery effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Rehydrate and let breathing return to normal."
+            ]
+          }
+        ]
+      },
+      "variants": {
+        "easier": {
+          "description": "Reduce the main-set load while keeping the same training purpose.",
+          "mainSet": [
+            {
+              "blockType": "long-run",
+              "name": "Long Run + 2 × 10-Min HM Rhythm",
+              "description": "During the long run, include two 10-minute blocks at half-marathon effort.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 4800,
+                "intensity": "easy plus half-marathon rhythm",
+                "targetType": "time"
+              },
+              "recovery": {
+                "type": "jog",
+                "durationSeconds": 300,
+                "distanceMeters": null,
+                "intensity": "easy"
+              },
+              "notes": [
+                "Keep it controlled."
+              ]
+            }
+          ]
+        },
+        "harder": {
+          "description": "Increase the main-set load only when the base version is controlled.",
+          "mainSet": [
+            {
+              "blockType": "long-run",
+              "name": "Long Run + 3 × 15-Min HM Rhythm",
+              "description": "During the long run, include three 15-minute blocks at half-marathon effort.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 6300,
+                "intensity": "easy plus half-marathon rhythm",
+                "targetType": "time"
+              },
+              "recovery": {
+                "type": "jog",
+                "durationSeconds": 300,
+                "distanceMeters": null,
+                "intensity": "easy"
+              },
+              "notes": [
+                "Advanced only."
+              ]
+            }
+          ]
+        }
+      },
+      "coachingNotes": [
+        "Keep the first third of the workout controlled so the final section stays technically clean.",
+        "Use effort rather than exact pace when conditions are hot, windy, hilly, or humid.",
+        "The goal is half-marathon durability, not an all-out time trial."
+      ],
+      "commonMistakes": [
+        "Starting the first block too fast and fading before the planned finish.",
+        "Forcing pace on hills instead of maintaining consistent effort.",
+        "Skipping fueling or hydration on longer sessions."
+      ],
+      "safetyNotes": [
+        "Avoid this workout if sharp pain appears in the shin, Achilles, calf, knee, or hip.",
+        "Use an easier variant when returning from illness, injury, or a heavy training week.",
+        "Stop or shorten the session if form breaks down late in the workout."
+      ],
+      "shareCard": {
+        "cardTitle": "LR 2 × 15 HM",
+        "cardSubtitle": "Half Marathon · ADVANCED · LONG-RUN",
+        "mainSetText": "Long Run + 2 × 15-Min HM Rhythm",
+        "purposeText": "A long run with two half-marathon rhythm blocks for race-specific durability.",
+        "footerNote": "Risk: high. Keep it controlled."
+      },
+      "tags": [
+        "Half Marathon",
+        "long-run",
+        "advanced",
+        "hard",
+        "high"
+      ],
+      "searchKeywords": [
+        "advanced",
+        "half marathon",
+        "long-run",
+        "lr 2 × 15 hm",
+        "workout"
+      ],
+      "uniquenessSignature": "ee9e7ab4ad-hm-long-run-with-2-x-15-min-race-rhythm-half-marathon-advanced",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+    },
+    {
+      "id": "tv-hm-021",
+      "slug": "hm-60-min-progression-run-half-marathon-developing",
+      "title": "HM 60-Min Progression Run",
+      "shortTitle": "60-Min Progression",
+      "summary": "A smooth progression run that moves from easy to steady to controlled tempo effort.",
+      "targetDistances": [
+        "Half Marathon"
+      ],
+      "primaryDistance": "Half Marathon",
+      "category": "progression-run",
+      "trainingGoals": [
+        "progression-control",
+        "aerobic-strength"
+      ],
+      "level": "developing",
+      "phase": [
+        "build"
+      ],
+      "surface": [
+        "road",
+        "flat-road",
+        "mixed"
+      ],
+      "equipment": [
+        "gps-watch",
+        "timer"
+      ],
+      "estimatedDurationMin": {
+        "min": 55,
+        "max": 65
+      },
+      "estimatedDistanceKm": {
+        "min": 8.0,
+        "max": 12.0
+      },
+      "qualityDistanceKm": 3.0,
+      "difficulty": "moderate-hard",
+      "risk": "medium",
+      "riskReason": "Sustained moderate-to-hard running can increase calf, shin, and hip fatigue if pacing is forced.",
+      "intensityGuide": {
+        "primaryTarget": "controlled aerobic quality effort",
+        "paceGuide": "Use relative effort. Stay controlled, smooth, and sustainable; avoid turning the session into a time trial.",
+        "hrGuide": "Heart rate should rise gradually and stay stable during sustained blocks; do not chase numbers if heat or fatigue is high.",
+        "rpeGuide": "RPE 6–7/10."
+      },
+      "workoutStructure": {
+        "warmup": [
+          {
+            "blockType": "warmup",
+            "name": "Easy Start",
+            "description": "Start with easy jogging or brisk walking before settling into the main endurance work.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 600,
+              "intensity": "very easy effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Let the first minutes feel almost too easy."
+            ]
+          }
+        ],
+        "mainSet": [
+          {
+            "blockType": "progression-run",
+            "name": "20 Easy + 20 Steady + 20 Controlled",
+            "description": "Progress from easy effort to steady effort, finishing controlled but not all-out.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 3600,
+              "intensity": "easy to controlled tempo progression",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Progress by feel, not ego."
+            ]
+          }
+        ],
+        "cooldown": [
+          {
+            "blockType": "cooldown",
+            "name": "Easy Walk-Jog Cooldown",
+            "description": "Walk or jog very easily after the main endurance work.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 300,
+              "intensity": "very easy recovery effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Rehydrate and let breathing return to normal."
+            ]
+          }
+        ]
+      },
+      "variants": {
+        "easier": {
+          "description": "Reduce the main-set load while keeping the same training purpose.",
+          "mainSet": [
+            {
+              "blockType": "progression-run",
+              "name": "20 Easy + 15 Steady + 10 Controlled",
+              "description": "Shorter progression run.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 2700,
+                "intensity": "easy to controlled effort",
+                "targetType": "time"
+              },
+              "recovery": null,
+              "notes": [
+                "Finish smooth."
+              ]
+            }
+          ]
+        },
+        "harder": {
+          "description": "Increase the main-set load only when the base version is controlled.",
+          "mainSet": [
+            {
+              "blockType": "progression-run",
+              "name": "25 Easy + 25 Steady + 20 Controlled",
+              "description": "Longer progression run.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 4200,
+                "intensity": "easy to controlled tempo progression",
+                "targetType": "time"
+              },
+              "recovery": null,
+              "notes": [
+                "Only if rested."
+              ]
+            }
+          ]
+        }
+      },
+      "coachingNotes": [
+        "Keep the first third of the workout controlled so the final section stays technically clean.",
+        "Use effort rather than exact pace when conditions are hot, windy, hilly, or humid.",
+        "The goal is half-marathon durability, not an all-out time trial."
+      ],
+      "commonMistakes": [
+        "Starting the first block too fast and fading before the planned finish.",
+        "Forcing pace on hills instead of maintaining consistent effort.",
+        "Skipping fueling or hydration on longer sessions."
+      ],
+      "safetyNotes": [
+        "Avoid this workout if sharp pain appears in the shin, Achilles, calf, knee, or hip.",
+        "Use an easier variant when returning from illness, injury, or a heavy training week.",
+        "Stop or shorten the session if form breaks down late in the workout."
+      ],
+      "shareCard": {
+        "cardTitle": "60-Min Progression",
+        "cardSubtitle": "Half Marathon · DEVELOPING · PROGRESSION-RUN",
+        "mainSetText": "20 Easy + 20 Steady + 20 Controlled",
+        "purposeText": "A smooth progression run that moves from easy to steady to controlled tempo effort.",
+        "footerNote": "Risk: medium. Keep it controlled."
+      },
+      "tags": [
+        "Half Marathon",
+        "progression-run",
+        "developing",
+        "moderate-hard",
+        "medium"
+      ],
+      "searchKeywords": [
+        "developing",
+        "half marathon",
+        "progression-run",
+        "60-min progression",
+        "workout"
+      ],
+      "uniquenessSignature": "42454b2846-hm-60-min-progression-run-half-marathon-developing",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+    },
+    {
+      "id": "tv-hm-022",
+      "slug": "hm-75-min-negative-split-progression-half-marathon-intermediate",
+      "title": "HM 75-Min Negative Split Progression",
+      "shortTitle": "75-Min Negative Split",
+      "summary": "A longer progression workout for practicing patience and finishing strength.",
+      "targetDistances": [
+        "Half Marathon"
+      ],
+      "primaryDistance": "Half Marathon",
+      "category": "progression-run",
+      "trainingGoals": [
+        "negative-split",
+        "finish-strength"
+      ],
+      "level": "intermediate",
+      "phase": [
+        "build",
+        "peak"
+      ],
+      "surface": [
+        "road",
+        "flat-road",
+        "mixed"
+      ],
+      "equipment": [
+        "gps-watch",
+        "timer"
+      ],
+      "estimatedDurationMin": {
+        "min": 70,
+        "max": 85
+      },
+      "estimatedDistanceKm": {
+        "min": 11.0,
+        "max": 16.0
+      },
+      "qualityDistanceKm": 4.0,
+      "difficulty": "moderate-hard",
+      "risk": "medium",
+      "riskReason": "Sustained moderate-to-hard running can increase calf, shin, and hip fatigue if pacing is forced.",
+      "intensityGuide": {
+        "primaryTarget": "controlled aerobic quality effort",
+        "paceGuide": "Use relative effort. Stay controlled, smooth, and sustainable; avoid turning the session into a time trial.",
+        "hrGuide": "Heart rate should rise gradually and stay stable during sustained blocks; do not chase numbers if heat or fatigue is high.",
+        "rpeGuide": "RPE 6–7/10."
+      },
+      "workoutStructure": {
+        "warmup": [
+          {
+            "blockType": "warmup",
+            "name": "Easy Start",
+            "description": "Start with easy jogging or brisk walking before settling into the main endurance work.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 600,
+              "intensity": "very easy effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Let the first minutes feel almost too easy."
+            ]
+          }
+        ],
+        "mainSet": [
+          {
+            "blockType": "progression-run",
+            "name": "75-Min Negative Split",
+            "description": "Run the first half easy and gradually move to steady effort in the second half.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 4500,
+              "intensity": "easy to steady progression",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Do not turn the final section into a race."
+            ]
+          }
+        ],
+        "cooldown": [
+          {
+            "blockType": "cooldown",
+            "name": "Easy Walk-Jog Cooldown",
+            "description": "Walk or jog very easily after the main endurance work.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 300,
+              "intensity": "very easy recovery effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Rehydrate and let breathing return to normal."
+            ]
+          }
+        ]
+      },
+      "variants": {
+        "easier": {
+          "description": "Reduce the main-set load while keeping the same training purpose.",
+          "mainSet": [
+            {
+              "blockType": "progression-run",
+              "name": "60-Min Negative Split",
+              "description": "Run the first half easy and finish steady.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 3600,
+                "intensity": "easy to steady progression",
+                "targetType": "time"
+              },
+              "recovery": null,
+              "notes": [
+                "Keep it patient."
+              ]
+            }
+          ]
+        },
+        "harder": {
+          "description": "Increase the main-set load only when the base version is controlled.",
+          "mainSet": [
+            {
+              "blockType": "progression-run",
+              "name": "85-Min Negative Split",
+              "description": "Run the first half easy and finish with a longer steady section.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 5100,
+                "intensity": "easy to steady progression",
+                "targetType": "time"
+              },
+              "recovery": null,
+              "notes": [
+                "Advanced if controlled."
+              ]
+            }
+          ]
+        }
+      },
+      "coachingNotes": [
+        "Keep the first third of the workout controlled so the final section stays technically clean.",
+        "Use effort rather than exact pace when conditions are hot, windy, hilly, or humid.",
+        "The goal is half-marathon durability, not an all-out time trial."
+      ],
+      "commonMistakes": [
+        "Starting the first block too fast and fading before the planned finish.",
+        "Forcing pace on hills instead of maintaining consistent effort.",
+        "Skipping fueling or hydration on longer sessions."
+      ],
+      "safetyNotes": [
+        "Avoid this workout if sharp pain appears in the shin, Achilles, calf, knee, or hip.",
+        "Use an easier variant when returning from illness, injury, or a heavy training week.",
+        "Stop or shorten the session if form breaks down late in the workout."
+      ],
+      "shareCard": {
+        "cardTitle": "75-Min Negative Split",
+        "cardSubtitle": "Half Marathon · INTERMEDIATE · PROGRESSION-RUN",
+        "mainSetText": "75-Min Negative Split",
+        "purposeText": "A longer progression workout for practicing patience and finishing strength.",
+        "footerNote": "Risk: medium. Keep it controlled."
+      },
+      "tags": [
+        "Half Marathon",
+        "progression-run",
+        "intermediate",
+        "moderate-hard",
+        "medium"
+      ],
+      "searchKeywords": [
+        "intermediate",
+        "half marathon",
+        "progression-run",
+        "75-min negative split",
+        "workout"
+      ],
+      "uniquenessSignature": "060b3bf267-hm-75-min-negative-split-progression-half-marathon-intermediate",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+    },
+    {
+      "id": "tv-hm-023",
+      "slug": "hm-45-min-controlled-progression-half-marathon-recreational",
+      "title": "HM 45-Min Controlled Progression",
+      "shortTitle": "45-Min Progression",
+      "summary": "A shorter progression option that gives developing runners controlled quality without long volume.",
+      "targetDistances": [
+        "Half Marathon"
+      ],
+      "primaryDistance": "Half Marathon",
+      "category": "progression-run",
+      "trainingGoals": [
+        "controlled-progression",
+        "aerobic-rhythm"
+      ],
+      "level": "recreational",
+      "phase": [
+        "base",
+        "build"
+      ],
+      "surface": [
+        "road",
+        "flat-road",
+        "mixed"
+      ],
+      "equipment": [
+        "gps-watch",
+        "timer"
+      ],
+      "estimatedDurationMin": {
+        "min": 40,
+        "max": 55
+      },
+      "estimatedDistanceKm": {
+        "min": 6.0,
+        "max": 9.0
+      },
+      "qualityDistanceKm": 2.0,
+      "difficulty": "moderate",
+      "risk": "medium",
+      "riskReason": "Sustained moderate-to-hard running can increase calf, shin, and hip fatigue if pacing is forced.",
+      "intensityGuide": {
+        "primaryTarget": "controlled aerobic quality effort",
+        "paceGuide": "Use relative effort. Stay controlled, smooth, and sustainable; avoid turning the session into a time trial.",
+        "hrGuide": "Heart rate should rise gradually and stay stable during sustained blocks; do not chase numbers if heat or fatigue is high.",
+        "rpeGuide": "RPE 5–6/10."
+      },
+      "workoutStructure": {
+        "warmup": [
+          {
+            "blockType": "warmup",
+            "name": "Easy Start",
+            "description": "Start with easy jogging or brisk walking before settling into the main endurance work.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 600,
+              "intensity": "very easy effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Let the first minutes feel almost too easy."
+            ]
+          }
+        ],
+        "mainSet": [
+          {
+            "blockType": "progression-run",
+            "name": "45-Min Controlled Progression",
+            "description": "Progress every 15 minutes from easy to steady to moderate effort.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 2700,
+              "intensity": "easy to moderate progression",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Finish feeling like you could continue."
+            ]
+          }
+        ],
+        "cooldown": [
+          {
+            "blockType": "cooldown",
+            "name": "Easy Walk-Jog Cooldown",
+            "description": "Walk or jog very easily after the main endurance work.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 300,
+              "intensity": "very easy recovery effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Rehydrate and let breathing return to normal."
+            ]
+          }
+        ]
+      },
+      "variants": {
+        "easier": {
+          "description": "Reduce the main-set load while keeping the same training purpose.",
+          "mainSet": [
+            {
+              "blockType": "progression-run",
+              "name": "35-Min Controlled Progression",
+              "description": "Progress every 10 to 12 minutes from easy to steady.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 2100,
+                "intensity": "easy to steady progression",
+                "targetType": "time"
+              },
+              "recovery": null,
+              "notes": [
+                "Keep it relaxed."
+              ]
+            }
+          ]
+        },
+        "harder": {
+          "description": "Increase the main-set load only when the base version is controlled.",
+          "mainSet": [
+            {
+              "blockType": "progression-run",
+              "name": "55-Min Controlled Progression",
+              "description": "Progress every 15 to 20 minutes from easy to moderate.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 3300,
+                "intensity": "easy to moderate progression",
+                "targetType": "time"
+              },
+              "recovery": null,
+              "notes": [
+                "Do not overcook."
+              ]
+            }
+          ]
+        }
+      },
+      "coachingNotes": [
+        "Keep the first third of the workout controlled so the final section stays technically clean.",
+        "Use effort rather than exact pace when conditions are hot, windy, hilly, or humid.",
+        "The goal is half-marathon durability, not an all-out time trial."
+      ],
+      "commonMistakes": [
+        "Starting the first block too fast and fading before the planned finish.",
+        "Forcing pace on hills instead of maintaining consistent effort.",
+        "Skipping fueling or hydration on longer sessions."
+      ],
+      "safetyNotes": [
+        "Avoid this workout if sharp pain appears in the shin, Achilles, calf, knee, or hip.",
+        "Use an easier variant when returning from illness, injury, or a heavy training week.",
+        "Stop or shorten the session if form breaks down late in the workout."
+      ],
+      "shareCard": {
+        "cardTitle": "45-Min Progression",
+        "cardSubtitle": "Half Marathon · RECREATIONAL · PROGRESSION-RUN",
+        "mainSetText": "45-Min Controlled Progression",
+        "purposeText": "A shorter progression option that gives developing runners controlled quality without long volume.",
+        "footerNote": "Risk: medium. Keep it controlled."
+      },
+      "tags": [
+        "Half Marathon",
+        "progression-run",
+        "recreational",
+        "moderate",
+        "medium"
+      ],
+      "searchKeywords": [
+        "recreational",
+        "half marathon",
+        "progression-run",
+        "45-min progression",
+        "workout"
+      ],
+      "uniquenessSignature": "7a515ed87b-hm-45-min-controlled-progression-half-marathon-recreational",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+    },
+    {
+      "id": "tv-hm-024",
+      "slug": "hm-aerobic-support-strides-half-marathon-recreational",
+      "title": "HM Aerobic Support + Strides",
+      "shortTitle": "Aerobic + Strides",
+      "summary": "An easy aerobic support run with relaxed strides to maintain leg speed.",
+      "targetDistances": [
+        "Half Marathon"
+      ],
+      "primaryDistance": "Half Marathon",
+      "category": "easy-run",
+      "trainingGoals": [
+        "aerobic-support",
+        "leg-speed-maintenance"
+      ],
+      "level": "recreational",
+      "phase": [
+        "base",
+        "general"
+      ],
+      "surface": [
+        "road",
+        "flat-road",
+        "mixed"
+      ],
+      "equipment": [
+        "gps-watch",
+        "timer"
+      ],
+      "estimatedDurationMin": {
+        "min": 40,
+        "max": 55
+      },
+      "estimatedDistanceKm": {
+        "min": 6.0,
+        "max": 10.0
+      },
+      "qualityDistanceKm": 0.8,
+      "difficulty": "moderate",
+      "risk": "low",
+      "riskReason": "Low-intensity aerobic work keeps mechanical and metabolic stress controlled.",
+      "intensityGuide": {
+        "primaryTarget": "controlled aerobic quality effort",
+        "paceGuide": "Use relative effort. Stay controlled, smooth, and sustainable; avoid turning the session into a time trial.",
+        "hrGuide": "Heart rate should rise gradually and stay stable during sustained blocks; do not chase numbers if heat or fatigue is high.",
+        "rpeGuide": "RPE 5–6/10."
+      },
+      "workoutStructure": {
+        "warmup": [
+          {
+            "blockType": "warmup",
+            "name": "Easy Start",
+            "description": "Start with easy jogging or brisk walking before settling into the main endurance work.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 600,
+              "intensity": "very easy effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Let the first minutes feel almost too easy."
+            ]
+          }
+        ],
+        "mainSet": [
+          {
+            "blockType": "stride",
+            "name": "Easy Run + 6 × 20s Strides",
+            "description": "Run easy, then complete six relaxed strides with full easy recovery.",
+            "repetitions": 6,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 20,
+              "intensity": "fast but relaxed stride effort",
+              "targetType": "time"
+            },
+            "recovery": {
+              "type": "walk-jog",
+              "durationSeconds": 80,
+              "distanceMeters": null,
+              "intensity": "easy"
+            },
+            "notes": [
+              "Strides should not be sprints."
+            ]
+          }
+        ],
+        "cooldown": [
+          {
+            "blockType": "cooldown",
+            "name": "Easy Walk-Jog Cooldown",
+            "description": "Walk or jog very easily after the main endurance work.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 300,
+              "intensity": "very easy recovery effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Rehydrate and let breathing return to normal."
+            ]
+          }
+        ]
+      },
+      "variants": {
+        "easier": {
+          "description": "Reduce the main-set load while keeping the same training purpose.",
+          "mainSet": [
+            {
+              "blockType": "stride",
+              "name": "Easy Run + 4 × 20s Strides",
+              "description": "Run easy, then complete four relaxed strides.",
+              "repetitions": 4,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 20,
+                "intensity": "fast but relaxed stride effort",
+                "targetType": "time"
+              },
+              "recovery": {
+                "type": "walk-jog",
+                "durationSeconds": 90,
+                "distanceMeters": null,
+                "intensity": "easy"
+              },
+              "notes": [
+                "Relax."
+              ]
+            }
+          ]
+        },
+        "harder": {
+          "description": "Increase the main-set load only when the base version is controlled.",
+          "mainSet": [
+            {
+              "blockType": "stride",
+              "name": "Easy Run + 8 × 20s Strides",
+              "description": "Run easy, then complete eight relaxed strides.",
+              "repetitions": 8,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 20,
+                "intensity": "fast but relaxed stride effort",
+                "targetType": "time"
+              },
+              "recovery": {
+                "type": "walk-jog",
+                "durationSeconds": 80,
+                "distanceMeters": null,
+                "intensity": "easy"
+              },
+              "notes": [
+                "Stop if form fades."
+              ]
+            }
+          ]
+        }
+      },
+      "coachingNotes": [
+        "Keep the first third of the workout controlled so the final section stays technically clean.",
+        "Use effort rather than exact pace when conditions are hot, windy, hilly, or humid.",
+        "The goal is half-marathon durability, not an all-out time trial."
+      ],
+      "commonMistakes": [
+        "Starting the first block too fast and fading before the planned finish.",
+        "Forcing pace on hills instead of maintaining consistent effort.",
+        "Skipping fueling or hydration on longer sessions."
+      ],
+      "safetyNotes": [
+        "Avoid this workout if sharp pain appears in the shin, Achilles, calf, knee, or hip.",
+        "Use an easier variant when returning from illness, injury, or a heavy training week.",
+        "Stop or shorten the session if form breaks down late in the workout."
+      ],
+      "shareCard": {
+        "cardTitle": "Aerobic + Strides",
+        "cardSubtitle": "Half Marathon · RECREATIONAL · EASY-RUN",
+        "mainSetText": "Easy Run + 6 × 20s Strides",
+        "purposeText": "An easy aerobic support run with relaxed strides to maintain leg speed.",
+        "footerNote": "Risk: low. Keep it controlled."
+      },
+      "tags": [
+        "Half Marathon",
+        "easy-run",
+        "recreational",
+        "moderate",
+        "low"
+      ],
+      "searchKeywords": [
+        "recreational",
+        "half marathon",
+        "easy-run",
+        "aerobic + strides",
+        "workout"
+      ],
+      "uniquenessSignature": "eb94e9e16f-hm-aerobic-support-strides-half-marathon-recreational",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+    },
+    {
+      "id": "tv-hm-025",
+      "slug": "hm-aerobic-maintenance-run-half-marathon-beginner",
+      "title": "HM Aerobic Maintenance Run",
+      "shortTitle": "Aerobic Maintenance",
+      "summary": "A no-frills aerobic maintenance run for supporting half-marathon training between harder days.",
+      "targetDistances": [
+        "Half Marathon"
+      ],
+      "primaryDistance": "Half Marathon",
+      "category": "easy-run",
+      "trainingGoals": [
+        "aerobic-maintenance",
+        "recovery-support"
+      ],
+      "level": "beginner",
+      "phase": [
+        "base",
+        "general"
+      ],
+      "surface": [
+        "road",
+        "flat-road",
+        "mixed"
+      ],
+      "equipment": [
+        "gps-watch",
+        "timer"
+      ],
+      "estimatedDurationMin": {
+        "min": 35,
+        "max": 50
+      },
+      "estimatedDistanceKm": {
+        "min": 5.0,
+        "max": 8.0
+      },
+      "qualityDistanceKm": 0.0,
+      "difficulty": "easy",
+      "risk": "low",
+      "riskReason": "Low-intensity aerobic work keeps mechanical and metabolic stress controlled.",
+      "intensityGuide": {
+        "primaryTarget": "controlled aerobic quality effort",
+        "paceGuide": "Use relative effort. Stay controlled, smooth, and sustainable; avoid turning the session into a time trial.",
+        "hrGuide": "Heart rate should rise gradually and stay stable during sustained blocks; do not chase numbers if heat or fatigue is high.",
+        "rpeGuide": "RPE 3–4/10."
+      },
+      "workoutStructure": {
+        "warmup": [
+          {
+            "blockType": "warmup",
+            "name": "Easy Start",
+            "description": "Start with easy jogging or brisk walking before settling into the main endurance work.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 600,
+              "intensity": "very easy effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Let the first minutes feel almost too easy."
+            ]
+          }
+        ],
+        "mainSet": [
+          {
+            "blockType": "long-run",
+            "name": "Easy Aerobic Maintenance",
+            "description": "Run continuously at easy conversational effort.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 2400,
+              "intensity": "easy conversational effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Keep it truly easy."
+            ]
+          }
+        ],
+        "cooldown": [
+          {
+            "blockType": "cooldown",
+            "name": "Easy Walk-Jog Cooldown",
+            "description": "Walk or jog very easily after the main endurance work.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 300,
+              "intensity": "very easy recovery effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Rehydrate and let breathing return to normal."
+            ]
+          }
+        ]
+      },
+      "variants": {
+        "easier": {
+          "description": "Reduce the main-set load while keeping the same training purpose.",
+          "mainSet": [
+            {
+              "blockType": "long-run",
+              "name": "Short Easy Aerobic Maintenance",
+              "description": "Run continuously at easy effort for a shorter duration.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 1800,
+                "intensity": "easy conversational effort",
+                "targetType": "time"
+              },
+              "recovery": null,
+              "notes": [
+                "Stay relaxed."
+              ]
+            }
+          ]
+        },
+        "harder": {
+          "description": "Increase the main-set load only when the base version is controlled.",
+          "mainSet": [
+            {
+              "blockType": "long-run",
+              "name": "Extended Easy Aerobic Maintenance",
+              "description": "Run continuously at easy effort for a longer duration.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 3000,
+                "intensity": "easy conversational effort",
+                "targetType": "time"
+              },
+              "recovery": null,
+              "notes": [
+                "Still easy."
+              ]
+            }
+          ]
+        }
+      },
+      "coachingNotes": [
+        "Keep the first third of the workout controlled so the final section stays technically clean.",
+        "Use effort rather than exact pace when conditions are hot, windy, hilly, or humid.",
+        "The goal is half-marathon durability, not an all-out time trial."
+      ],
+      "commonMistakes": [
+        "Starting the first block too fast and fading before the planned finish.",
+        "Forcing pace on hills instead of maintaining consistent effort.",
+        "Skipping fueling or hydration on longer sessions."
+      ],
+      "safetyNotes": [
+        "Avoid this workout if sharp pain appears in the shin, Achilles, calf, knee, or hip.",
+        "Use an easier variant when returning from illness, injury, or a heavy training week.",
+        "Stop or shorten the session if form breaks down late in the workout."
+      ],
+      "shareCard": {
+        "cardTitle": "Aerobic Maintenance",
+        "cardSubtitle": "Half Marathon · BEGINNER · EASY-RUN",
+        "mainSetText": "Easy Aerobic Maintenance",
+        "purposeText": "A no-frills aerobic maintenance run for supporting half-marathon training between harder days.",
+        "footerNote": "Risk: low. Keep it controlled."
+      },
+      "tags": [
+        "Half Marathon",
+        "easy-run",
+        "beginner",
+        "easy",
+        "low"
+      ],
+      "searchKeywords": [
+        "beginner",
+        "half marathon",
+        "easy-run",
+        "aerobic maintenance",
+        "workout"
+      ],
+      "uniquenessSignature": "9548ededa9-hm-aerobic-maintenance-run-half-marathon-beginner",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+    }
+  ]
+}

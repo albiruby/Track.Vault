@@ -1,0 +1,6 @@
+{
+  "name": "Track.Vault",
+  "description": "A static running workout vault and workout builder for runners. Browse curated workouts, build custom sessions, save locally, export workout cards, and copy clean workout text.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

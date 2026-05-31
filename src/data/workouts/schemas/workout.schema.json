@@ -1,0 +1,353 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://track-vault.local/schemas/workout.schema.json",
+  "title": "Track.Vault Workout Category File",
+  "type": "object",
+  "required": [
+    "categoryMeta",
+    "workouts"
+  ],
+  "properties": {
+    "categoryMeta": {
+      "type": "object",
+      "required": [
+        "product",
+        "version",
+        "categoryId",
+        "categoryLabel",
+        "description",
+        "targetWorkoutCount",
+        "actualWorkoutCount",
+        "primaryDistances",
+        "databaseRequired",
+        "aiGeneratedInProduct"
+      ],
+      "properties": {
+        "product": {
+          "const": "Track.Vault"
+        },
+        "version": {
+          "type": "string"
+        },
+        "categoryId": {
+          "type": "string"
+        },
+        "categoryLabel": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "targetWorkoutCount": {
+          "type": "integer"
+        },
+        "actualWorkoutCount": {
+          "type": "integer"
+        },
+        "primaryDistances": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "databaseRequired": {
+          "type": "boolean"
+        },
+        "aiGeneratedInProduct": {
+          "type": "boolean"
+        }
+      }
+    },
+    "workouts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "slug",
+          "title",
+          "shortTitle",
+          "summary",
+          "targetDistances",
+          "primaryDistance",
+          "category",
+          "trainingGoals",
+          "level",
+          "phase",
+          "surface",
+          "equipment",
+          "estimatedDurationMin",
+          "estimatedDistanceKm",
+          "qualityDistanceKm",
+          "difficulty",
+          "risk",
+          "riskReason",
+          "intensityGuide",
+          "workoutStructure",
+          "variants",
+          "coachingNotes",
+          "commonMistakes",
+          "safetyNotes",
+          "shareCard",
+          "tags",
+          "searchKeywords",
+          "uniquenessSignature",
+          "createdBy",
+          "visibility",
+          "sourceNote"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "slug": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "shortTitle": {
+            "type": "string"
+          },
+          "summary": {
+            "type": "string"
+          },
+          "targetDistances": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "primaryDistance": {
+            "type": "string"
+          },
+          "category": {
+            "type": "string"
+          },
+          "trainingGoals": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "level": {
+            "enum": [
+              "beginner",
+              "recreational",
+              "developing",
+              "intermediate",
+              "advanced",
+              "competitive",
+              "elite-reference"
+            ]
+          },
+          "phase": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "surface": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "equipment": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "estimatedDurationMin": {
+            "type": "object",
+            "required": [
+              "min",
+              "max"
+            ],
+            "properties": {
+              "min": {
+                "type": "number"
+              },
+              "max": {
+                "type": "number"
+              }
+            }
+          },
+          "estimatedDistanceKm": {
+            "type": "object",
+            "required": [
+              "min",
+              "max"
+            ],
+            "properties": {
+              "min": {
+                "type": "number"
+              },
+              "max": {
+                "type": "number"
+              }
+            }
+          },
+          "qualityDistanceKm": {
+            "type": "number"
+          },
+          "difficulty": {
+            "enum": [
+              "easy",
+              "moderate",
+              "moderate-hard",
+              "hard",
+              "very-hard"
+            ]
+          },
+          "risk": {
+            "enum": [
+              "low",
+              "medium",
+              "high",
+              "very-high"
+            ]
+          },
+          "riskReason": {
+            "type": "string"
+          },
+          "intensityGuide": {
+            "type": "object",
+            "required": [
+              "primaryTarget",
+              "paceGuide",
+              "hrGuide",
+              "rpeGuide"
+            ],
+            "properties": {
+              "primaryTarget": {
+                "type": "string"
+              },
+              "paceGuide": {
+                "type": "string"
+              },
+              "hrGuide": {
+                "type": "string"
+              },
+              "rpeGuide": {
+                "type": "string"
+              }
+            }
+          },
+          "workoutStructure": {
+            "type": "object",
+            "required": [
+              "warmup",
+              "mainSet",
+              "cooldown"
+            ],
+            "properties": {
+              "warmup": {
+                "type": "array"
+              },
+              "mainSet": {
+                "type": "array"
+              },
+              "cooldown": {
+                "type": "array"
+              }
+            }
+          },
+          "variants": {
+            "type": "object",
+            "required": [
+              "easier",
+              "harder"
+            ],
+            "properties": {
+              "easier": {
+                "type": "object",
+                "required": [
+                  "description",
+                  "mainSet"
+                ]
+              },
+              "harder": {
+                "type": "object",
+                "required": [
+                  "description",
+                  "mainSet"
+                ]
+              }
+            }
+          },
+          "coachingNotes": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "commonMistakes": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "safetyNotes": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "shareCard": {
+            "type": "object",
+            "required": [
+              "cardTitle",
+              "cardSubtitle",
+              "mainSetText",
+              "purposeText",
+              "footerNote"
+            ],
+            "properties": {
+              "cardTitle": {
+                "type": "string"
+              },
+              "cardSubtitle": {
+                "type": "string"
+              },
+              "mainSetText": {
+                "type": "string"
+              },
+              "purposeText": {
+                "type": "string"
+              },
+              "footerNote": {
+                "type": "string"
+              }
+            }
+          },
+          "tags": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "searchKeywords": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "uniquenessSignature": {
+            "type": "string"
+          },
+          "createdBy": {
+            "type": "string"
+          },
+          "visibility": {
+            "type": "string"
+          },
+          "sourceNote": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

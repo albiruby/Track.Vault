@@ -1,0 +1,2335 @@
+{
+  "totalWorkouts": 360,
+  "categoryFiles": 13,
+  "errors": [],
+  "warnings": [],
+  "changesCount": 205,
+  "keyChanges": [
+    [
+      "tv-br-easy-15m-beginner-007",
+      "estimatedDistanceKm",
+      {
+        "min": 1.8,
+        "max": 2.6
+      },
+      {
+        "min": 1.5,
+        "max": 3.0
+      }
+    ],
+    [
+      "tv-br-easy-20m-beginner-008",
+      "estimatedDistanceKm",
+      {
+        "min": 2.2,
+        "max": 3.2
+      },
+      {
+        "min": 2.0,
+        "max": 3.5
+      }
+    ],
+    [
+      "tv-br-easy-25m-recreational-009",
+      "estimatedDistanceKm",
+      {
+        "min": 2.8,
+        "max": 4.0
+      },
+      {
+        "min": 2.5,
+        "max": 4.0
+      }
+    ],
+    [
+      "tv-br-easy-30m-recreational-010",
+      "estimatedDistanceKm",
+      {
+        "min": 3.5,
+        "max": 4.8
+      },
+      {
+        "min": 3.5,
+        "max": 5.0
+      }
+    ],
+    [
+      "tv-br-aerobic-2x12m-developing-014",
+      "estimatedDistanceKm",
+      {
+        "min": 4.0,
+        "max": 5.8
+      },
+      {
+        "min": 4.0,
+        "max": 6.0
+      }
+    ],
+    [
+      "tv-br-strides-easy-25m-recreational-017",
+      "estimatedDistanceKm",
+      {
+        "min": 3.0,
+        "max": 4.2
+      },
+      {
+        "min": 3.0,
+        "max": 4.5
+      }
+    ],
+    [
+      "tv-br-strides-easy-30m-developing-018",
+      "estimatedDistanceKm",
+      {
+        "min": 3.8,
+        "max": 5.2
+      },
+      {
+        "min": 3.5,
+        "max": 5.5
+      }
+    ],
+    [
+      "tv-br-fartlek-6x30s-recreational-019",
+      "estimatedDistanceKm",
+      {
+        "min": 2.5,
+        "max": 3.8
+      },
+      {
+        "min": 2.5,
+        "max": 4.0
+      }
+    ],
+    [
+      "tv-br-fartlek-8x30s-recreational-020",
+      "estimatedDistanceKm",
+      {
+        "min": 3.0,
+        "max": 4.2
+      },
+      {
+        "min": 3.0,
+        "max": 4.5
+      }
+    ],
+    [
+      "tv-br-fartlek-pyramid-developing-021",
+      "estimatedDistanceKm",
+      {
+        "min": 2.2,
+        "max": 3.5
+      },
+      {
+        "min": 2.0,
+        "max": 3.5
+      }
+    ],
+    [
+      "tv-br-return-10m-beginner-022",
+      "estimatedDistanceKm",
+      {
+        "min": 1.0,
+        "max": 1.8
+      },
+      {
+        "min": 1.0,
+        "max": 2.0
+      }
+    ],
+    [
+      "tv-br-return-25m-developing-025",
+      "estimatedDistanceKm",
+      {
+        "min": 2.5,
+        "max": 3.8
+      },
+      {
+        "min": 2.5,
+        "max": 4.0
+      }
+    ],
+    [
+      "tv-erb-recovery-40m-developing-003",
+      "estimatedDistanceKm",
+      {
+        "min": 4.5,
+        "max": 5.8
+      },
+      {
+        "min": 4.5,
+        "max": 6.0
+      }
+    ],
+    [
+      "tv-erb-recovery-50m-advanced-005",
+      "estimatedDistanceKm",
+      {
+        "min": 6.8,
+        "max": 8.5
+      },
+      {
+        "min": 6.5,
+        "max": 8.5
+      }
+    ],
+    [
+      "tv-erb-easy-30m-recreational-006",
+      "estimatedDistanceKm",
+      {
+        "min": 3.8,
+        "max": 5.0
+      },
+      {
+        "min": 3.5,
+        "max": 5.0
+      }
+    ],
+    [
+      "tv-erb-easy-40m-recreational-007",
+      "estimatedDistanceKm",
+      {
+        "min": 5.0,
+        "max": 6.8
+      },
+      {
+        "min": 5.0,
+        "max": 7.0
+      }
+    ],
+    [
+      "tv-erb-strides-30m-recreational-017",
+      "estimatedDistanceKm",
+      {
+        "min": 3.8,
+        "max": 5.2
+      },
+      {
+        "min": 3.5,
+        "max": 5.5
+      }
+    ],
+    [
+      "tv-erb-strides-40m-developing-018",
+      "estimatedDistanceKm",
+      {
+        "min": 5.0,
+        "max": 6.8
+      },
+      {
+        "min": 5.0,
+        "max": 7.0
+      }
+    ],
+    [
+      "tv-erb-strides-50m-intermediate-019",
+      "estimatedDistanceKm",
+      {
+        "min": 6.8,
+        "max": 9.2
+      },
+      {
+        "min": 6.5,
+        "max": 9.5
+      }
+    ],
+    [
+      "tv-erb-lowhr-45m-developing-022",
+      "estimatedDistanceKm",
+      {
+        "min": 4.5,
+        "max": 6.8
+      },
+      {
+        "min": 4.5,
+        "max": 7.0
+      }
+    ],
+    [
+      "tv-erb-lowhr-60m-intermediate-023",
+      "estimatedDistanceKm",
+      {
+        "min": 7.5,
+        "max": 10.8
+      },
+      {
+        "min": 7.5,
+        "max": 11.0
+      }
+    ],
+    [
+      "tv-erb-maint-35m-developing-025",
+      "estimatedDistanceKm",
+      {
+        "min": 3.8,
+        "max": 5.0
+      },
+      {
+        "min": 3.5,
+        "max": 5.0
+      }
+    ],
+    [
+      "tv-fm-beg-ladder-003",
+      "estimatedDistanceKm",
+      {
+        "min": 3.5,
+        "max": 5.2
+      },
+      {
+        "min": 3.5,
+        "max": 5.5
+      }
+    ],
+    [
+      "tv-fm-aer-monasim-004",
+      "estimatedDistanceKm",
+      {
+        "min": 4.5,
+        "max": 6.8
+      },
+      {
+        "min": 4.5,
+        "max": 7.0
+      }
+    ],
+    [
+      "tv-fm-aer-continuous-005",
+      "estimatedDistanceKm",
+      {
+        "min": 5.0,
+        "max": 7.2
+      },
+      {
+        "min": 5.0,
+        "max": 7.5
+      }
+    ],
+    [
+      "tv-fm-aer-progressive-006",
+      "estimatedDistanceKm",
+      {
+        "min": 6.8,
+        "max": 9.5
+      },
+      {
+        "min": 6.5,
+        "max": 9.5
+      }
+    ],
+    [
+      "tv-fm-spd-classic3030-009",
+      "estimatedDistanceKm",
+      {
+        "min": 3.8,
+        "max": 5.5
+      },
+      {
+        "min": 3.5,
+        "max": 5.5
+      }
+    ],
+    [
+      "tv-fm-spd-minburner-010",
+      "estimatedDistanceKm",
+      {
+        "min": 4.5,
+        "max": 6.8
+      },
+      {
+        "min": 4.5,
+        "max": 7.0
+      }
+    ],
+    [
+      "tv-fm-spd-alternating-011",
+      "estimatedDistanceKm",
+      {
+        "min": 6.2,
+        "max": 8.5
+      },
+      {
+        "min": 6.0,
+        "max": 8.5
+      }
+    ],
+    [
+      "tv-fm-spd-microburst-012",
+      "estimatedDistanceKm",
+      {
+        "min": 4.5,
+        "max": 6.8
+      },
+      {
+        "min": 4.5,
+        "max": 7.0
+      }
+    ],
+    [
+      "tv-fm-spd-hillspeed-013",
+      "estimatedDistanceKm",
+      {
+        "min": 4.5,
+        "max": 6.8
+      },
+      {
+        "min": 4.5,
+        "max": 7.0
+      }
+    ],
+    [
+      "tv-fm-pyr-standard-014",
+      "estimatedDistanceKm",
+      {
+        "min": 3.8,
+        "max": 5.5
+      },
+      {
+        "min": 3.5,
+        "max": 5.5
+      }
+    ],
+    [
+      "tv-fm-pyr-continuous-015",
+      "estimatedDistanceKm",
+      {
+        "min": 4.5,
+        "max": 6.8
+      },
+      {
+        "min": 4.5,
+        "max": 7.0
+      }
+    ],
+    [
+      "tv-fm-pyr-advanced-016",
+      "estimatedDistanceKm",
+      {
+        "min": 6.2,
+        "max": 8.5
+      },
+      {
+        "min": 6.0,
+        "max": 8.5
+      }
+    ],
+    [
+      "tv-fm-rc-5kprep-018",
+      "estimatedDistanceKm",
+      {
+        "min": 4.5,
+        "max": 6.8
+      },
+      {
+        "min": 4.5,
+        "max": 7.0
+      }
+    ],
+    [
+      "tv-fm-rc-10kprog-019",
+      "estimatedDistanceKm",
+      {
+        "min": 6.2,
+        "max": 8.5
+      },
+      {
+        "min": 6.0,
+        "max": 8.5
+      }
+    ],
+    [
+      "tv-fm-rc-3ksharp-020",
+      "estimatedDistanceKm",
+      {
+        "min": 4.5,
+        "max": 6.8
+      },
+      {
+        "min": 4.5,
+        "max": 7.0
+      }
+    ],
+    [
+      "tv-fm-rc-compsim-021",
+      "estimatedDistanceKm",
+      {
+        "min": 6.2,
+        "max": 8.5
+      },
+      {
+        "min": 6.0,
+        "max": 8.5
+      }
+    ],
+    [
+      "tv-fm-mix-321-022",
+      "estimatedDistanceKm",
+      {
+        "min": 3.8,
+        "max": 5.5
+      },
+      {
+        "min": 3.5,
+        "max": 5.5
+      }
+    ],
+    [
+      "tv-fm-mix-wave-023",
+      "estimatedDistanceKm",
+      {
+        "min": 3.8,
+        "max": 5.5
+      },
+      {
+        "min": 3.5,
+        "max": 5.5
+      }
+    ],
+    [
+      "tv-fm-mix-multipace-024",
+      "estimatedDistanceKm",
+      {
+        "min": 6.2,
+        "max": 8.5
+      },
+      {
+        "min": 6.0,
+        "max": 8.5
+      }
+    ],
+    [
+      "tv-fm-mix-compladder-025",
+      "estimatedDistanceKm",
+      {
+        "min": 6.2,
+        "max": 8.5
+      },
+      {
+        "min": 6.0,
+        "max": 8.5
+      }
+    ],
+    [
+      "tv-hm-012",
+      "variantDistanceStandardized",
+      "13000m",
+      "14000m"
+    ],
+    [
+      "tv-ht-spr-explosive-003",
+      "estimatedDistanceKm",
+      {
+        "min": 4.5,
+        "max": 6.8
+      },
+      {
+        "min": 4.5,
+        "max": 7.0
+      }
+    ],
+    [
+      "tv-ht-spr-maxvel-004",
+      "estimatedDistanceKm",
+      {
+        "min": 6.2,
+        "max": 8.5
+      },
+      {
+        "min": 6.0,
+        "max": 8.5
+      }
+    ],
+    [
+      "tv-ht-sh-int45s-006",
+      "estimatedDistanceKm",
+      {
+        "min": 3.8,
+        "max": 5.5
+      },
+      {
+        "min": 3.5,
+        "max": 5.5
+      }
+    ],
+    [
+      "tv-ht-sh-adv60s-007",
+      "estimatedDistanceKm",
+      {
+        "min": 4.5,
+        "max": 6.8
+      },
+      {
+        "min": 4.5,
+        "max": 7.0
+      }
+    ],
+    [
+      "tv-ht-sh-comp45s-008",
+      "estimatedDistanceKm",
+      {
+        "min": 6.2,
+        "max": 8.5
+      },
+      {
+        "min": 6.0,
+        "max": 8.5
+      }
+    ],
+    [
+      "tv-ht-lg-int2m-010",
+      "estimatedDistanceKm",
+      {
+        "min": 4.5,
+        "max": 6.8
+      },
+      {
+        "min": 4.5,
+        "max": 7.0
+      }
+    ],
+    [
+      "tv-ht-lg-adv3m-011",
+      "estimatedDistanceKm",
+      {
+        "min": 6.2,
+        "max": 8.5
+      },
+      {
+        "min": 6.0,
+        "max": 8.5
+      }
+    ],
+    [
+      "tv-ht-lg-dev90s-013",
+      "estimatedDistanceKm",
+      {
+        "min": 3.8,
+        "max": 5.5
+      },
+      {
+        "min": 3.5,
+        "max": 5.5
+      }
+    ],
+    [
+      "tv-ht-rol-rec40m-014",
+      "estimatedDistanceKm",
+      {
+        "min": 5.0,
+        "max": 7.2
+      },
+      {
+        "min": 5.0,
+        "max": 7.5
+      }
+    ],
+    [
+      "tv-ht-rol-int50m-015",
+      "estimatedDistanceKm",
+      {
+        "min": 6.8,
+        "max": 9.5
+      },
+      {
+        "min": 6.5,
+        "max": 9.5
+      }
+    ],
+    [
+      "tv-ht-end-rec45m-018",
+      "estimatedDistanceKm",
+      {
+        "min": 4.5,
+        "max": 6.8
+      },
+      {
+        "min": 4.5,
+        "max": 7.0
+      }
+    ],
+    [
+      "tv-ht-end-dev60m-019",
+      "estimatedDistanceKm",
+      {
+        "min": 6.2,
+        "max": 8.5
+      },
+      {
+        "min": 6.0,
+        "max": 8.5
+      }
+    ],
+    [
+      "tv-ht-far-dev30m-022",
+      "estimatedDistanceKm",
+      {
+        "min": 3.8,
+        "max": 5.5
+      },
+      {
+        "min": 3.5,
+        "max": 5.5
+      }
+    ],
+    [
+      "tv-ht-far-int45m-023",
+      "estimatedDistanceKm",
+      {
+        "min": 5.0,
+        "max": 7.2
+      },
+      {
+        "min": 5.0,
+        "max": 7.5
+      }
+    ],
+    [
+      "tv-ht-far-adv60m-024",
+      "estimatedDistanceKm",
+      {
+        "min": 6.8,
+        "max": 9.5
+      },
+      {
+        "min": 6.5,
+        "max": 9.5
+      }
+    ],
+    [
+      "tv-ht-dwn-control-025",
+      "estimatedDistanceKm",
+      {
+        "min": 4.5,
+        "max": 6.8
+      },
+      {
+        "min": 4.5,
+        "max": 7.0
+      }
+    ],
+    [
+      "tv-lrp-support-hm-12mi-intermediate-022",
+      "metricizedWorkout",
+      "12-mile/imperial converted distances",
+      "20K metric standard"
+    ],
+    [
+      "tv-lrp-support-m-16mi-advanced-024",
+      "metricizedWorkout",
+      "16-mile/imperial converted distances",
+      "26K metric standard"
+    ],
+    [
+      "tv-lrp-support-m-18mi-competitive-025",
+      "metricizedWorkout",
+      "18-mile/imperial converted distances",
+      "30K metric standard"
+    ],
+    [
+      "tv-md-800m-rp-001",
+      "estimatedDistanceKm",
+      {
+        "min": 3.5,
+        "max": 4.8
+      },
+      {
+        "min": 3.5,
+        "max": 5.0
+      }
+    ],
+    [
+      "tv-md-800m-rp-004",
+      "estimatedDistanceKm",
+      {
+        "min": 3.8,
+        "max": 5
+      },
+      {
+        "min": 3.5,
+        "max": 5.0
+      }
+    ],
+    [
+      "tv-md-800m-rp-005",
+      "estimatedDistanceKm",
+      {
+        "min": 4.2,
+        "max": 5.8
+      },
+      {
+        "min": 4.0,
+        "max": 6.0
+      }
+    ],
+    [
+      "tv-md-800m-rp-006",
+      "estimatedDistanceKm",
+      {
+        "min": 4.5,
+        "max": 6.2
+      },
+      {
+        "min": 4.5,
+        "max": 6.5
+      }
+    ],
+    [
+      "tv-md-mile-rp-007",
+      "estimatedDistanceKm",
+      {
+        "min": 4.2,
+        "max": 5.5
+      },
+      {
+        "min": 4.0,
+        "max": 5.5
+      }
+    ],
+    [
+      "tv-md-mile-rp-008",
+      "estimatedDistanceKm",
+      {
+        "min": 4.8,
+        "max": 6.2
+      },
+      {
+        "min": 4.5,
+        "max": 6.5
+      }
+    ],
+    [
+      "tv-md-mile-rp-009",
+      "estimatedDistanceKm",
+      {
+        "min": 4.8,
+        "max": 6.5
+      },
+      {
+        "min": 4.5,
+        "max": 6.5
+      }
+    ],
+    [
+      "tv-md-mile-rp-010",
+      "estimatedDistanceKm",
+      {
+        "min": 4.8,
+        "max": 6.5
+      },
+      {
+        "min": 4.5,
+        "max": 6.5
+      }
+    ],
+    [
+      "tv-md-mile-rp-011",
+      "estimatedDistanceKm",
+      {
+        "min": 4.8,
+        "max": 6.5
+      },
+      {
+        "min": 4.5,
+        "max": 6.5
+      }
+    ],
+    [
+      "tv-md-mile-rp-012",
+      "estimatedDistanceKm",
+      {
+        "min": 4.8,
+        "max": 6.5
+      },
+      {
+        "min": 4.5,
+        "max": 6.5
+      }
+    ],
+    [
+      "tv-md-230-rep-013",
+      "estimatedDistanceKm",
+      {
+        "min": 3.8,
+        "max": 5
+      },
+      {
+        "min": 3.5,
+        "max": 5.0
+      }
+    ],
+    [
+      "tv-md-230-rep-014",
+      "estimatedDistanceKm",
+      {
+        "min": 3.5,
+        "max": 4.8
+      },
+      {
+        "min": 3.5,
+        "max": 5.0
+      }
+    ],
+    [
+      "tv-md-230-rep-016",
+      "estimatedDistanceKm",
+      {
+        "min": 4.2,
+        "max": 5.8
+      },
+      {
+        "min": 4.0,
+        "max": 6.0
+      }
+    ],
+    [
+      "tv-md-230-rep-017",
+      "estimatedDistanceKm",
+      {
+        "min": 4.2,
+        "max": 5.8
+      },
+      {
+        "min": 4.0,
+        "max": 6.0
+      }
+    ],
+    [
+      "tv-md-400-rep-018",
+      "estimatedDistanceKm",
+      {
+        "min": 4.5,
+        "max": 5.8
+      },
+      {
+        "min": 4.5,
+        "max": 6.0
+      }
+    ],
+    [
+      "tv-md-400-rep-019",
+      "estimatedDistanceKm",
+      {
+        "min": 4.8,
+        "max": 6.2
+      },
+      {
+        "min": 4.5,
+        "max": 6.5
+      }
+    ],
+    [
+      "tv-md-400-rep-020",
+      "estimatedDistanceKm",
+      {
+        "min": 5.5,
+        "max": 7.2
+      },
+      {
+        "min": 5.5,
+        "max": 7.5
+      }
+    ],
+    [
+      "tv-md-400-rep-021",
+      "estimatedDistanceKm",
+      {
+        "min": 5.8,
+        "max": 7.5
+      },
+      {
+        "min": 5.5,
+        "max": 7.5
+      }
+    ],
+    [
+      "tv-md-400-rep-022",
+      "estimatedDistanceKm",
+      {
+        "min": 4.2,
+        "max": 5.8
+      },
+      {
+        "min": 4.0,
+        "max": 6.0
+      }
+    ],
+    [
+      "tv-md-560-wrk-023",
+      "estimatedDistanceKm",
+      {
+        "min": 4.2,
+        "max": 5.8
+      },
+      {
+        "min": 4.0,
+        "max": 6.0
+      }
+    ],
+    [
+      "tv-md-560-wrk-024",
+      "estimatedDistanceKm",
+      {
+        "min": 4.8,
+        "max": 6.2
+      },
+      {
+        "min": 4.5,
+        "max": 6.5
+      }
+    ],
+    [
+      "tv-md-560-wrk-025",
+      "estimatedDistanceKm",
+      {
+        "min": 4.8,
+        "max": 6.5
+      },
+      {
+        "min": 4.5,
+        "max": 6.5
+      }
+    ],
+    [
+      "tv-md-560-wrk-026",
+      "estimatedDistanceKm",
+      {
+        "min": 4.8,
+        "max": 6.5
+      },
+      {
+        "min": 4.5,
+        "max": 6.5
+      }
+    ],
+    [
+      "tv-md-spd-end-028",
+      "estimatedDistanceKm",
+      {
+        "min": 3.5,
+        "max": 4.8
+      },
+      {
+        "min": 3.5,
+        "max": 5.0
+      }
+    ],
+    [
+      "tv-md-spd-end-029",
+      "distanceStandardized",
+      "Intermediate 250m Speed Endurance",
+      "300m Speed Endurance"
+    ],
+    [
+      "tv-md-spd-end-300m-029",
+      "estimatedDistanceKm",
+      {
+        "min": 3.8,
+        "max": 5.2
+      },
+      {
+        "min": 3.5,
+        "max": 5.5
+      }
+    ],
+    [
+      "tv-md-spd-end-031",
+      "estimatedDistanceKm",
+      {
+        "min": 4.2,
+        "max": 5.8
+      },
+      {
+        "min": 4.0,
+        "max": 6.0
+      }
+    ],
+    [
+      "tv-md-aer-sup-032",
+      "estimatedDistanceKm",
+      {
+        "min": 7.2,
+        "max": 9
+      },
+      {
+        "min": 7.0,
+        "max": 9.0
+      }
+    ],
+    [
+      "tv-md-rp-shp-034",
+      "estimatedDistanceKm",
+      {
+        "min": 3.5,
+        "max": 4.8
+      },
+      {
+        "min": 3.5,
+        "max": 5.0
+      }
+    ],
+    [
+      "tv-md-rp-shp-035",
+      "estimatedDistanceKm",
+      {
+        "min": 3.5,
+        "max": 4.8
+      },
+      {
+        "min": 3.5,
+        "max": 5.0
+      }
+    ],
+    [
+      "tv-rt-021",
+      "variantDistanceStandardized",
+      "740m",
+      "600m"
+    ],
+    [
+      "tv-rt-022",
+      "variantDistanceStandardized",
+      "650m",
+      "600m"
+    ],
+    [
+      "tv-rt-023",
+      "qualityDistanceKm",
+      0.12,
+      0.1
+    ],
+    [
+      "tv-rt-024",
+      "qualityDistanceKm",
+      0.36,
+      0.4
+    ],
+    [
+      "tv-sp-acc-intro30m-001",
+      "estimatedDistanceKm",
+      {
+        "min": 2.2,
+        "max": 3.2
+      },
+      {
+        "min": 2.0,
+        "max": 3.5
+      }
+    ],
+    [
+      "tv-sp-acc-intro30m-001",
+      "qualityDistanceKm",
+      0.18,
+      0.2
+    ],
+    [
+      "tv-sp-acc-block40m-002",
+      "estimatedDistanceKm",
+      {
+        "min": 2.5,
+        "max": 3.8
+      },
+      {
+        "min": 2.5,
+        "max": 4.0
+      }
+    ],
+    [
+      "tv-sp-acc-block40m-002",
+      "qualityDistanceKm",
+      0.32,
+      0.3
+    ],
+    [
+      "tv-sp-acc-prog50m-003",
+      "estimatedDistanceKm",
+      {
+        "min": 2.8,
+        "max": 4.2
+      },
+      {
+        "min": 2.5,
+        "max": 4.5
+      }
+    ],
+    [
+      "tv-sp-acc-sled40m-004",
+      "qualityDistanceKm",
+      0.24,
+      0.2
+    ],
+    [
+      "tv-sp-vel-flying20m-005",
+      "estimatedDistanceKm",
+      {
+        "min": 2.2,
+        "max": 3.5
+      },
+      {
+        "min": 2.0,
+        "max": 3.5
+      }
+    ],
+    [
+      "tv-sp-vel-flying20m-005",
+      "qualityDistanceKm",
+      0.08,
+      0.1
+    ],
+    [
+      "tv-sp-vel-flying30m-006",
+      "estimatedDistanceKm",
+      {
+        "min": 2.5,
+        "max": 3.8
+      },
+      {
+        "min": 2.5,
+        "max": 4.0
+      }
+    ],
+    [
+      "tv-sp-vel-flying30m-006",
+      "qualityDistanceKm",
+      0.15,
+      0.2
+    ],
+    [
+      "tv-sp-vel-flying10m-008",
+      "estimatedDistanceKm",
+      {
+        "min": 3.2,
+        "max": 4.8
+      },
+      {
+        "min": 3.0,
+        "max": 5.0
+      }
+    ],
+    [
+      "tv-sp-vel-flying10m-008",
+      "qualityDistanceKm",
+      0.06,
+      0.1
+    ],
+    [
+      "tv-sp-100-rhythm8x100-009",
+      "estimatedDistanceKm",
+      {
+        "min": 2.5,
+        "max": 3.8
+      },
+      {
+        "min": 2.5,
+        "max": 4.0
+      }
+    ],
+    [
+      "tv-sp-100-buildups6x100-010",
+      "estimatedDistanceKm",
+      {
+        "min": 2.8,
+        "max": 4
+      },
+      {
+        "min": 2.5,
+        "max": 4.0
+      }
+    ],
+    [
+      "tv-sp-100-curvestraight-011",
+      "estimatedDistanceKm",
+      {
+        "min": 2.8,
+        "max": 4.2
+      },
+      {
+        "min": 2.5,
+        "max": 4.5
+      }
+    ],
+    [
+      "tv-sp-200-tempo6x200-013",
+      "estimatedDistanceKm",
+      {
+        "min": 2.8,
+        "max": 4.2
+      },
+      {
+        "min": 2.5,
+        "max": 4.5
+      }
+    ],
+    [
+      "tv-sp-200-curvepacing-015",
+      "estimatedDistanceKm",
+      {
+        "min": 3.2,
+        "max": 4.8
+      },
+      {
+        "min": 3.0,
+        "max": 5.0
+      }
+    ],
+    [
+      "tv-sp-200-speedend3x200-017",
+      "estimatedDistanceKm",
+      {
+        "min": 3.8,
+        "max": 5.2
+      },
+      {
+        "min": 3.5,
+        "max": 5.5
+      }
+    ],
+    [
+      "tv-sp-300-aerobic5x300-018",
+      "estimatedDistanceKm",
+      {
+        "min": 3.2,
+        "max": 4.8
+      },
+      {
+        "min": 3.0,
+        "max": 5.0
+      }
+    ],
+    [
+      "tv-sp-400-rhythm5x400-023",
+      "estimatedDistanceKm",
+      {
+        "min": 3.8,
+        "max": 5.5
+      },
+      {
+        "min": 3.5,
+        "max": 5.5
+      }
+    ],
+    [
+      "tv-sp-400-specend3x400-024",
+      "estimatedDistanceKm",
+      {
+        "min": 3.8,
+        "max": 5.5
+      },
+      {
+        "min": 3.5,
+        "max": 5.5
+      }
+    ],
+    [
+      "tv-sp-400-racepace2x400-025",
+      "estimatedDistanceKm",
+      {
+        "min": 3.8,
+        "max": 5.5
+      },
+      {
+        "min": 3.5,
+        "max": 5.5
+      }
+    ],
+    [
+      "tv-sp-400-critvel2x-026",
+      "distanceStandardized",
+      "Elite 400m Critical Velocity",
+      "2x400m"
+    ],
+    [
+      "tv-sp-400-critvel2x-026",
+      "estimatedDistanceKm",
+      {
+        "min": 4.2,
+        "max": 5.8
+      },
+      {
+        "min": 4.0,
+        "max": 6.0
+      }
+    ],
+    [
+      "tv-sp-rel-baton6x60-027",
+      "estimatedDistanceKm",
+      {
+        "min": 2.5,
+        "max": 3.8
+      },
+      {
+        "min": 2.5,
+        "max": 4.0
+      }
+    ],
+    [
+      "tv-sp-rel-baton6x60-027",
+      "qualityDistanceKm",
+      0.36,
+      0.4
+    ],
+    [
+      "tv-sp-rel-reaction8x40-028",
+      "estimatedDistanceKm",
+      {
+        "min": 2.2,
+        "max": 3.5
+      },
+      {
+        "min": 2.0,
+        "max": 3.5
+      }
+    ],
+    [
+      "tv-sp-rel-reaction8x40-028",
+      "qualityDistanceKm",
+      0.32,
+      0.3
+    ],
+    [
+      "tv-sp-drl-form6x40-030",
+      "estimatedDistanceKm",
+      {
+        "min": 2,
+        "max": 3.2
+      },
+      {
+        "min": 2.0,
+        "max": 3.5
+      }
+    ],
+    [
+      "tv-sp-drl-form6x40-030",
+      "qualityDistanceKm",
+      0.24,
+      0.2
+    ],
+    [
+      "tv-10-thresh-001",
+      "estimatedDistanceKm",
+      {
+        "min": 6,
+        "max": 7.8
+      },
+      {
+        "min": 6.0,
+        "max": 8.0
+      }
+    ],
+    [
+      "tv-10-thresh-001",
+      "estimatedDurationMin",
+      {
+        "min": 38,
+        "max": 48
+      },
+      {
+        "min": 35,
+        "max": 50
+      }
+    ],
+    [
+      "tv-10-thresh-002",
+      "estimatedDistanceKm",
+      {
+        "min": 6.8,
+        "max": 8.5
+      },
+      {
+        "min": 6.5,
+        "max": 8.5
+      }
+    ],
+    [
+      "tv-10-thresh-003",
+      "estimatedDistanceKm",
+      {
+        "min": 7.8,
+        "max": 9.8
+      },
+      {
+        "min": 7.5,
+        "max": 10.0
+      }
+    ],
+    [
+      "tv-10-thresh-004",
+      "estimatedDistanceKm",
+      {
+        "min": 7.2,
+        "max": 9
+      },
+      {
+        "min": 7.0,
+        "max": 9.0
+      }
+    ],
+    [
+      "tv-10-thresh-004",
+      "estimatedDurationMin",
+      {
+        "min": 42,
+        "max": 52
+      },
+      {
+        "min": 40,
+        "max": 55
+      }
+    ],
+    [
+      "tv-10-thresh-006",
+      "estimatedDistanceKm",
+      {
+        "min": 7.2,
+        "max": 9
+      },
+      {
+        "min": 7.0,
+        "max": 9.0
+      }
+    ],
+    [
+      "tv-10-thresh-007",
+      "estimatedDistanceKm",
+      {
+        "min": 9.8,
+        "max": 12
+      },
+      {
+        "min": 9.5,
+        "max": 12.0
+      }
+    ],
+    [
+      "tv-10-tempo-008",
+      "estimatedDistanceKm",
+      {
+        "min": 3.8,
+        "max": 5.2
+      },
+      {
+        "min": 3.5,
+        "max": 5.5
+      }
+    ],
+    [
+      "tv-10-tempo-008",
+      "estimatedDurationMin",
+      {
+        "min": 30,
+        "max": 38
+      },
+      {
+        "min": 30,
+        "max": 40
+      }
+    ],
+    [
+      "tv-10-tempo-009",
+      "estimatedDistanceKm",
+      {
+        "min": 5.5,
+        "max": 7.2
+      },
+      {
+        "min": 5.5,
+        "max": 7.5
+      }
+    ],
+    [
+      "tv-10-tempo-009",
+      "estimatedDurationMin",
+      {
+        "min": 40,
+        "max": 48
+      },
+      {
+        "min": 40,
+        "max": 50
+      }
+    ],
+    [
+      "tv-10-tempo-010",
+      "estimatedDistanceKm",
+      {
+        "min": 6.8,
+        "max": 8.5
+      },
+      {
+        "min": 6.5,
+        "max": 8.5
+      }
+    ],
+    [
+      "tv-10-tempo-011",
+      "estimatedDistanceKm",
+      {
+        "min": 7.2,
+        "max": 9
+      },
+      {
+        "min": 7.0,
+        "max": 9.0
+      }
+    ],
+    [
+      "tv-10-tempo-012",
+      "estimatedDistanceKm",
+      {
+        "min": 7.2,
+        "max": 9.8
+      },
+      {
+        "min": 7.0,
+        "max": 10.0
+      }
+    ],
+    [
+      "tv-10-cruise-013",
+      "estimatedDistanceKm",
+      {
+        "min": 6.8,
+        "max": 8.5
+      },
+      {
+        "min": 6.5,
+        "max": 8.5
+      }
+    ],
+    [
+      "tv-10-cruise-014",
+      "estimatedDistanceKm",
+      {
+        "min": 6.8,
+        "max": 8.5
+      },
+      {
+        "min": 6.5,
+        "max": 8.5
+      }
+    ],
+    [
+      "tv-10-rep-018",
+      "estimatedDistanceKm",
+      {
+        "min": 7.2,
+        "max": 9
+      },
+      {
+        "min": 7.0,
+        "max": 9.0
+      }
+    ],
+    [
+      "tv-10-rep-019",
+      "estimatedDistanceKm",
+      {
+        "min": 7.2,
+        "max": 9
+      },
+      {
+        "min": 7.0,
+        "max": 9.0
+      }
+    ],
+    [
+      "tv-10-rep-020",
+      "estimatedDistanceKm",
+      {
+        "min": 7.2,
+        "max": 9
+      },
+      {
+        "min": 7.0,
+        "max": 9.0
+      }
+    ],
+    [
+      "tv-10-rep-021",
+      "estimatedDistanceKm",
+      {
+        "min": 7.2,
+        "max": 9
+      },
+      {
+        "min": 7.0,
+        "max": 9.0
+      }
+    ],
+    [
+      "tv-10-rep-022",
+      "estimatedDistanceKm",
+      {
+        "min": 9.8,
+        "max": 12
+      },
+      {
+        "min": 9.5,
+        "max": 12.0
+      }
+    ],
+    [
+      "tv-10-long-rep-024",
+      "estimatedDistanceKm",
+      {
+        "min": 9.8,
+        "max": 12
+      },
+      {
+        "min": 9.5,
+        "max": 12.0
+      }
+    ],
+    [
+      "tv-10-rp-026",
+      "estimatedDistanceKm",
+      {
+        "min": 6.8,
+        "max": 8.8
+      },
+      {
+        "min": 6.5,
+        "max": 9.0
+      }
+    ],
+    [
+      "tv-10-rp-027",
+      "estimatedDistanceKm",
+      {
+        "min": 9.8,
+        "max": 12
+      },
+      {
+        "min": 9.5,
+        "max": 12.0
+      }
+    ],
+    [
+      "tv-10-prog-029",
+      "estimatedDistanceKm",
+      {
+        "min": 6.8,
+        "max": 8.5
+      },
+      {
+        "min": 6.5,
+        "max": 8.5
+      }
+    ],
+    [
+      "tv-10-prog-030",
+      "estimatedDistanceKm",
+      {
+        "min": 7.8,
+        "max": 9.8
+      },
+      {
+        "min": 7.5,
+        "max": 10.0
+      }
+    ],
+    [
+      "tv-35-beg-001",
+      "estimatedDistanceKm",
+      {
+        "min": 3.5,
+        "max": 4.8
+      },
+      {
+        "min": 3.5,
+        "max": 5.0
+      }
+    ],
+    [
+      "tv-35-beg-002",
+      "estimatedDistanceKm",
+      {
+        "min": 3.8,
+        "max": 5.2
+      },
+      {
+        "min": 3.5,
+        "max": 5.5
+      }
+    ],
+    [
+      "tv-35-beg-002",
+      "estimatedDurationMin",
+      {
+        "min": 30,
+        "max": 38
+      },
+      {
+        "min": 30,
+        "max": 40
+      }
+    ],
+    [
+      "tv-35-beg-003",
+      "estimatedDurationMin",
+      {
+        "min": 32,
+        "max": 42
+      },
+      {
+        "min": 30,
+        "max": 45
+      }
+    ],
+    [
+      "tv-35-thresh-005",
+      "estimatedDistanceKm",
+      {
+        "min": 6.8,
+        "max": 8.5
+      },
+      {
+        "min": 6.5,
+        "max": 8.5
+      }
+    ],
+    [
+      "tv-35-thresh-006",
+      "estimatedDistanceKm",
+      {
+        "min": 6,
+        "max": 7.8
+      },
+      {
+        "min": 6.0,
+        "max": 8.0
+      }
+    ],
+    [
+      "tv-35-thresh-008",
+      "estimatedDistanceKm",
+      {
+        "min": 6.5,
+        "max": 8.2
+      },
+      {
+        "min": 6.5,
+        "max": 8.5
+      }
+    ],
+    [
+      "tv-35-thresh-009",
+      "estimatedDistanceKm",
+      {
+        "min": 5.5,
+        "max": 7.2
+      },
+      {
+        "min": 5.5,
+        "max": 7.5
+      }
+    ],
+    [
+      "tv-35-thresh-009",
+      "estimatedDurationMin",
+      {
+        "min": 42,
+        "max": 52
+      },
+      {
+        "min": 40,
+        "max": 55
+      }
+    ],
+    [
+      "tv-35-thresh-010",
+      "estimatedDistanceKm",
+      {
+        "min": 7.2,
+        "max": 9
+      },
+      {
+        "min": 7.0,
+        "max": 9.0
+      }
+    ],
+    [
+      "tv-35-thresh-011",
+      "estimatedDistanceKm",
+      {
+        "min": 7.8,
+        "max": 9.8
+      },
+      {
+        "min": 7.5,
+        "max": 10.0
+      }
+    ],
+    [
+      "tv-35-vo2-012",
+      "estimatedDistanceKm",
+      {
+        "min": 6.8,
+        "max": 8.5
+      },
+      {
+        "min": 6.5,
+        "max": 8.5
+      }
+    ],
+    [
+      "tv-35-vo2-013",
+      "estimatedDistanceKm",
+      {
+        "min": 7.8,
+        "max": 9.8
+      },
+      {
+        "min": 7.5,
+        "max": 10.0
+      }
+    ],
+    [
+      "tv-35-vo2-014",
+      "estimatedDistanceKm",
+      {
+        "min": 6.2,
+        "max": 8
+      },
+      {
+        "min": 6.0,
+        "max": 8.0
+      }
+    ],
+    [
+      "tv-35-vo2-015",
+      "estimatedDistanceKm",
+      {
+        "min": 6.8,
+        "max": 8.8
+      },
+      {
+        "min": 6.5,
+        "max": 9.0
+      }
+    ],
+    [
+      "tv-35-vo2-016",
+      "estimatedDistanceKm",
+      {
+        "min": 5.5,
+        "max": 7.2
+      },
+      {
+        "min": 5.5,
+        "max": 7.5
+      }
+    ],
+    [
+      "tv-35-vo2-017",
+      "estimatedDistanceKm",
+      {
+        "min": 7.8,
+        "max": 9.8
+      },
+      {
+        "min": 7.5,
+        "max": 10.0
+      }
+    ],
+    [
+      "tv-35-vo2-018",
+      "estimatedDistanceKm",
+      {
+        "min": 5.5,
+        "max": 7.2
+      },
+      {
+        "min": 5.5,
+        "max": 7.5
+      }
+    ],
+    [
+      "tv-35-rp-020",
+      "estimatedDistanceKm",
+      {
+        "min": 6.8,
+        "max": 8.8
+      },
+      {
+        "min": 6.5,
+        "max": 9.0
+      }
+    ],
+    [
+      "tv-35-rp-021",
+      "estimatedDistanceKm",
+      {
+        "min": 7.2,
+        "max": 9
+      },
+      {
+        "min": 7.0,
+        "max": 9.0
+      }
+    ],
+    [
+      "tv-35-rp-022",
+      "estimatedDistanceKm",
+      {
+        "min": 7.8,
+        "max": 9.8
+      },
+      {
+        "min": 7.5,
+        "max": 10.0
+      }
+    ],
+    [
+      "tv-35-rp-023",
+      "estimatedDistanceKm",
+      {
+        "min": 7.2,
+        "max": 9
+      },
+      {
+        "min": 7.0,
+        "max": 9.0
+      }
+    ],
+    [
+      "tv-35-rp-024",
+      "estimatedDistanceKm",
+      {
+        "min": 7.8,
+        "max": 9.8
+      },
+      {
+        "min": 7.5,
+        "max": 10.0
+      }
+    ],
+    [
+      "tv-35-sh-int-027",
+      "estimatedDistanceKm",
+      {
+        "min": 5.5,
+        "max": 7.2
+      },
+      {
+        "min": 5.5,
+        "max": 7.5
+      }
+    ],
+    [
+      "tv-35-sh-int-028",
+      "estimatedDistanceKm",
+      {
+        "min": 6.2,
+        "max": 8
+      },
+      {
+        "min": 6.0,
+        "max": 8.0
+      }
+    ],
+    [
+      "tv-35-sh-int-029",
+      "estimatedDistanceKm",
+      {
+        "min": 5.5,
+        "max": 7.2
+      },
+      {
+        "min": 5.5,
+        "max": 7.5
+      }
+    ],
+    [
+      "tv-35-sh-int-030",
+      "estimatedDistanceKm",
+      {
+        "min": 6.2,
+        "max": 8
+      },
+      {
+        "min": 6.0,
+        "max": 8.0
+      }
+    ],
+    [
+      "tv-35-sh-int-031",
+      "estimatedDistanceKm",
+      {
+        "min": 6.2,
+        "max": 8
+      },
+      {
+        "min": 6.0,
+        "max": 8.0
+      }
+    ],
+    [
+      "tv-35-rep-032",
+      "estimatedDistanceKm",
+      {
+        "min": 6.8,
+        "max": 8.8
+      },
+      {
+        "min": 6.5,
+        "max": 9.0
+      }
+    ],
+    [
+      "tv-35-rep-033",
+      "estimatedDistanceKm",
+      {
+        "min": 7.2,
+        "max": 9
+      },
+      {
+        "min": 7.0,
+        "max": 9.0
+      }
+    ],
+    [
+      "tv-35-rep-034",
+      "estimatedDistanceKm",
+      {
+        "min": 7.2,
+        "max": 9
+      },
+      {
+        "min": 7.0,
+        "max": 9.0
+      }
+    ],
+    [
+      "tv-35-rep-035",
+      "estimatedDistanceKm",
+      {
+        "min": 7.8,
+        "max": 9.8
+      },
+      {
+        "min": 7.5,
+        "max": 10.0
+      }
+    ],
+    [
+      "tv-35-fart-038",
+      "estimatedDistanceKm",
+      {
+        "min": 5.2,
+        "max": 6.8
+      },
+      {
+        "min": 5.0,
+        "max": 7.0
+      }
+    ],
+    [
+      "tv-35-fart-039",
+      "estimatedDistanceKm",
+      {
+        "min": 6.8,
+        "max": 8.5
+      },
+      {
+        "min": 6.5,
+        "max": 8.5
+      }
+    ],
+    [
+      "tv-35-fart-040",
+      "estimatedDistanceKm",
+      {
+        "min": 7.8,
+        "max": 9.8
+      },
+      {
+        "min": 7.5,
+        "max": 10.0
+      }
+    ],
+    [
+      "tv-35-taper-041",
+      "estimatedDistanceKm",
+      {
+        "min": 5.2,
+        "max": 6.8
+      },
+      {
+        "min": 5.0,
+        "max": 7.0
+      }
+    ],
+    [
+      "tv-35-taper-042",
+      "estimatedDistanceKm",
+      {
+        "min": 3.8,
+        "max": 5
+      },
+      {
+        "min": 3.5,
+        "max": 5.0
+      }
+    ],
+    [
+      "tv-35-taper-043",
+      "estimatedDistanceKm",
+      {
+        "min": 4.8,
+        "max": 6.5
+      },
+      {
+        "min": 4.5,
+        "max": 6.5
+      }
+    ],
+    [
+      "tv-35-adv-044",
+      "estimatedDistanceKm",
+      {
+        "min": 6.8,
+        "max": 8.8
+      },
+      {
+        "min": 6.5,
+        "max": 9.0
+      }
+    ],
+    [
+      "tv-tm-esy-builder40m-002",
+      "estimatedDistanceKm",
+      {
+        "min": 4.5,
+        "max": 6.8
+      },
+      {
+        "min": 4.5,
+        "max": 7.0
+      }
+    ],
+    [
+      "tv-tm-esy-steady45m-003",
+      "estimatedDistanceKm",
+      {
+        "min": 5.0,
+        "max": 7.2
+      },
+      {
+        "min": 5.0,
+        "max": 7.5
+      }
+    ],
+    [
+      "tv-tm-inc-builder30m-004",
+      "estimatedDistanceKm",
+      {
+        "min": 3.8,
+        "max": 5.5
+      },
+      {
+        "min": 3.5,
+        "max": 5.5
+      }
+    ],
+    [
+      "tv-tm-inc-rolling40m-005",
+      "estimatedDistanceKm",
+      {
+        "min": 4.5,
+        "max": 6.8
+      },
+      {
+        "min": 4.5,
+        "max": 7.0
+      }
+    ],
+    [
+      "tv-tm-inc-mountain45m-006",
+      "estimatedDistanceKm",
+      {
+        "min": 5.0,
+        "max": 7.2
+      },
+      {
+        "min": 5.0,
+        "max": 7.5
+      }
+    ],
+    [
+      "tv-tm-tmp-sustained15m-007",
+      "estimatedDistanceKm",
+      {
+        "min": 3.8,
+        "max": 5.5
+      },
+      {
+        "min": 3.5,
+        "max": 5.5
+      }
+    ],
+    [
+      "tv-tm-tmp-belt20m-008",
+      "estimatedDistanceKm",
+      {
+        "min": 4.5,
+        "max": 6.8
+      },
+      {
+        "min": 4.5,
+        "max": 7.0
+      }
+    ],
+    [
+      "tv-tm-tmp-alternating3x8-009",
+      "estimatedDistanceKm",
+      {
+        "min": 6.2,
+        "max": 8.5
+      },
+      {
+        "min": 6.0,
+        "max": 8.5
+      }
+    ]
+  ],
+  "distanceMetersUnique": [
+    10,
+    20,
+    30,
+    40,
+    50,
+    60,
+    80,
+    100,
+    120,
+    150,
+    200,
+    300,
+    400,
+    500,
+    600,
+    800,
+    900,
+    1000,
+    1200,
+    1600,
+    2000,
+    3000,
+    3200,
+    4000,
+    5000,
+    6000,
+    9000,
+    10000,
+    12000,
+    14000,
+    15000,
+    16000,
+    20000,
+    22000,
+    26000,
+    28000,
+    32000
+  ],
+  "validation": "PASS"
+}

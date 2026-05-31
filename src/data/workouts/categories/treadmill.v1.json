@@ -1,0 +1,2581 @@
+{
+  "categoryMeta": {
+    "product": "Track.Vault",
+    "version": "1.0.0",
+    "categoryId": "treadmill",
+    "categoryLabel": "Treadmill Session",
+    "description": "Indoor treadmill workouts for easy running, incline aerobic work, tempo, intervals, progression, and controlled recovery.",
+    "targetWorkoutCount": 15,
+    "actualWorkoutCount": 15,
+    "primaryDistances": [
+      "Treadmill",
+      "General",
+      "5K",
+      "10K"
+    ],
+    "databaseRequired": false,
+    "aiGeneratedInProduct": false
+  },
+  "workouts": [
+    {
+      "id": "tv-tm-esy-climate30m-001",
+      "slug": "beginner-climate-controlled-30-min-jog-treadmill-beginner",
+      "title": "Beginner Climate-Controlled 30-Min Jog",
+      "shortTitle": "Climate Jog 30m",
+      "summary": "A flat, comfortable 30-minute easy jog on the treadmill, perfect for bad weather or recovery days.",
+      "targetDistances": [
+        "Treadmill",
+        "General"
+      ],
+      "primaryDistance": "Treadmill",
+      "category": "treadmill",
+      "trainingGoals": [
+        "aerobic-base",
+        "recovery",
+        "cardiorespiratory-health"
+      ],
+      "level": "beginner",
+      "phase": [
+        "base",
+        "return-to-running",
+        "general"
+      ],
+      "surface": [
+        "treadmill"
+      ],
+      "equipment": [
+        "treadmill"
+      ],
+      "estimatedDurationMin": {
+        "min": 25,
+        "max": 30
+      },
+      "estimatedDistanceKm": {
+        "min": 3.0,
+        "max": 4.5
+      },
+      "qualityDistanceKm": 0.0,
+      "difficulty": "easy",
+      "risk": "low",
+      "riskReason": "Continuous easy running on a flat, cushioned treadmill deck is low impact.",
+      "intensityGuide": {
+        "primaryTarget": "steady conversational effort",
+        "paceGuide": "Select a comfortable jogging speed. Keep incline at a steady 1.0% to simulate outdoor wind resistance.",
+        "hrGuide": "Heart rate stable in Zone 1 or Zone 2, RPE 3-4/10.",
+        "rpeGuide": "RPE 3/10."
+      },
+      "workoutStructure": {
+        "warmup": [
+          {
+            "blockType": "warmup",
+            "name": "Active Warm-up walk",
+            "description": "3 mins progressive walk on the belt, starting at a slow stroll and building to a brisk walk.",
+            "repetitions": 1,
+            "work": null,
+            "recovery": null,
+            "notes": []
+          }
+        ],
+        "mainSet": [
+          {
+            "blockType": "long-run",
+            "name": "30-Min Easy Jog",
+            "description": "Run continuously at a relaxed conversational speed on a flat belt (1.0% incline).",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 1800,
+              "intensity": "conversational easy effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": []
+          }
+        ],
+        "cooldown": [
+          {
+            "blockType": "cooldown",
+            "name": "Walking Cooldown",
+            "description": "3 mins slow walking to let heart rate settle down safely.",
+            "repetitions": 1,
+            "work": null,
+            "recovery": null,
+            "notes": []
+          }
+        ]
+      },
+      "variants": {
+        "easier": {
+          "description": "Reduce running duration to 20 minutes continuous.",
+          "mainSet": [
+            {
+              "blockType": "long-run",
+              "name": "20-Min Easy Jog",
+              "description": "Maintain a slow steady jog for 20 minutes.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 1200,
+                "intensity": "easy effort",
+                "targetType": "time"
+              },
+              "recovery": null,
+              "notes": []
+            }
+          ]
+        },
+        "harder": {
+          "description": "Increase running duration to 40 minutes continuous.",
+          "mainSet": [
+            {
+              "blockType": "long-run",
+              "name": "40-Min Easy Jog",
+              "description": "Maintain a steady conversational pace for 40 minutes.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 2400,
+                "intensity": "easy effort",
+                "targetType": "time"
+              },
+              "recovery": null,
+              "notes": []
+            }
+          ]
+        }
+      },
+      "coachingNotes": [
+        "Keep your stride short and quick to avoid slipping.",
+        "Ensure the safety clip is securely attached to your clothing before starting.",
+        "Do not jump off a moving treadmill belt; always let the belt stop completely."
+      ],
+      "commonMistakes": [
+        "Running the early miles too fast.",
+        "Skipping dynamic mobilization."
+      ],
+      "safetyNotes": [
+        "Achilles and knee joint protection. Do not raise incline past 1.5% without a proper warmup.",
+        "Never step off the treadmill while the belt is moving."
+      ],
+      "shareCard": {
+        "cardTitle": "Beginner Climate-Controlled 30-Min Jog",
+        "cardSubtitle": "Treadmill · BEGINNER · TREADMILL",
+        "mainSetText": "1 × 30-Min Easy Jog @ 1.0% Incline",
+        "purposeText": "A flat, comfortable easy jog perfect for bad weather or recovery days.",
+        "footerNote": "Estimated Duration: 25-30 mins"
+      },
+      "tags": [
+        "Treadmill",
+        "beginner",
+        "easy",
+        "low-risk"
+      ],
+      "searchKeywords": [
+        "beginner",
+        "treadmill",
+        "easy jog",
+        "climate control",
+        "time-based"
+      ],
+      "uniquenessSignature": "tm-esy-climate30m-001",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+    },
+    {
+      "id": "tv-tm-esy-builder40m-002",
+      "slug": "recreational-easy-aerobic-treadmill-builder-treadmill-recreational",
+      "title": "Recreational Easy Aerobic Treadmill Builder",
+      "shortTitle": "Treadmill Aerobic 40m",
+      "summary": "A continuous 40-minute easy aerobic jog designed to establish sustained fitness indoors.",
+      "targetDistances": [
+        "Treadmill",
+        "General"
+      ],
+      "primaryDistance": "Treadmill",
+      "category": "treadmill",
+      "trainingGoals": [
+        "aerobic-base",
+        "recovery",
+        "muscular-durability"
+      ],
+      "level": "recreational",
+      "phase": [
+        "base",
+        "general"
+      ],
+      "surface": [
+        "treadmill"
+      ],
+      "equipment": [
+        "treadmill"
+      ],
+      "estimatedDurationMin": {
+        "min": 35,
+        "max": 45
+      },
+      "estimatedDistanceKm": {
+        "min": 4.5,
+        "max": 7.0
+      },
+      "qualityDistanceKm": 0.0,
+      "difficulty": "easy",
+      "risk": "low",
+      "riskReason": "Continuous easy running on a flat, cushioned treadmill deck is low impact.",
+      "intensityGuide": {
+        "primaryTarget": "steady conversational effort",
+        "paceGuide": "Select a comfortable jogging speed. Keep incline at a steady 1.0-1.5% to simulate outdoor wind resistance.",
+        "hrGuide": "Heart rate stable in Zone 2, RPE 3-4/10.",
+        "rpeGuide": "RPE 3/10."
+      },
+      "workoutStructure": {
+        "warmup": [
+          {
+            "blockType": "warmup",
+            "name": "Active Warm-up walk",
+            "description": "3 mins progressive walk on the belt.",
+            "repetitions": 1,
+            "work": null,
+            "recovery": null,
+            "notes": []
+          }
+        ],
+        "mainSet": [
+          {
+            "blockType": "long-run",
+            "name": "40-Min Easy Jog",
+            "description": "Run continuously at a relaxed conversational speed on a flat belt (1.0-1.5% incline).",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 2400,
+              "intensity": "conversational easy effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": []
+          }
+        ],
+        "cooldown": [
+          {
+            "blockType": "cooldown",
+            "name": "Walking Cooldown",
+            "description": "3 mins slow walking to let heart rate settle down safely.",
+            "repetitions": 1,
+            "work": null,
+            "recovery": null,
+            "notes": []
+          }
+        ]
+      },
+      "variants": {
+        "easier": {
+          "description": "Reduce running duration to 30 minutes continuous.",
+          "mainSet": [
+            {
+              "blockType": "long-run",
+              "name": "30-Min Easy Jog",
+              "description": "Maintain a slow steady jog for 30 minutes.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 1800,
+                "intensity": "easy effort",
+                "targetType": "time"
+              },
+              "recovery": null,
+              "notes": []
+            }
+          ]
+        },
+        "harder": {
+          "description": "Increase running duration to 50 minutes continuous.",
+          "mainSet": [
+            {
+              "blockType": "long-run",
+              "name": "50-Min Easy Jog",
+              "description": "Maintain a steady conversational pace for 50 minutes.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 3000,
+                "intensity": "easy effort",
+                "targetType": "time"
+              },
+              "recovery": null,
+              "notes": []
+            }
+          ]
+        }
+      },
+      "coachingNotes": [
+        "Keep your stride short and quick to avoid slipping.",
+        "Ensure the safety clip is securely attached to your clothing before starting.",
+        "Do not jump off a moving treadmill belt; always let the belt stop completely."
+      ],
+      "commonMistakes": [
+        "Running the early miles too fast.",
+        "Skipping dynamic mobilization."
+      ],
+      "safetyNotes": [
+        "Achilles and knee joint protection. Do not raise incline past 1.5% without a proper warmup.",
+        "Never step off the treadmill while the belt is moving."
+      ],
+      "shareCard": {
+        "cardTitle": "Recreational Easy Aerobic Treadmill Builder",
+        "cardSubtitle": "Treadmill · RECREATIONAL · TREADMILL",
+        "mainSetText": "1 × 40-Min Easy Jog @ 1.0-1.5% Incline",
+        "purposeText": "A continuous 40-minute easy aerobic jog to establish sustained fitness indoors.",
+        "footerNote": "Estimated Duration: 35-45 mins"
+      },
+      "tags": [
+        "Treadmill",
+        "recreational",
+        "easy",
+        "low-risk"
+      ],
+      "searchKeywords": [
+        "recreational",
+        "treadmill",
+        "easy jog",
+        "aerobic",
+        "time-based"
+      ],
+      "uniquenessSignature": "tm-esy-builder40m-002",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+    },
+    {
+      "id": "tv-tm-esy-steady45m-003",
+      "slug": "developing-conversational-steady-belt-45-min-treadmill-developing",
+      "title": "Developing Conversational Steady Belt 45-Min",
+      "shortTitle": "Steady Belt 45m",
+      "summary": "A continuous 45-minute steady aerobic jog designed to establish sustained fitness indoors.",
+      "targetDistances": [
+        "Treadmill",
+        "General"
+      ],
+      "primaryDistance": "Treadmill",
+      "category": "treadmill",
+      "trainingGoals": [
+        "aerobic-base",
+        "recovery",
+        "muscular-durability"
+      ],
+      "level": "developing",
+      "phase": [
+        "base",
+        "general"
+      ],
+      "surface": [
+        "treadmill"
+      ],
+      "equipment": [
+        "treadmill"
+      ],
+      "estimatedDurationMin": {
+        "min": 40,
+        "max": 50
+      },
+      "estimatedDistanceKm": {
+        "min": 5.0,
+        "max": 7.5
+      },
+      "qualityDistanceKm": 0.0,
+      "difficulty": "easy",
+      "risk": "low",
+      "riskReason": "Continuous easy running on a flat, cushioned treadmill deck is low impact.",
+      "intensityGuide": {
+        "primaryTarget": "steady conversational effort",
+        "paceGuide": "Select a comfortable jogging speed. Keep incline at a steady 1.0% to simulate outdoor wind resistance.",
+        "hrGuide": "Heart rate stable in Zone 2, RPE 3-4/10.",
+        "rpeGuide": "RPE 3/10."
+      },
+      "workoutStructure": {
+        "warmup": [
+          {
+            "blockType": "warmup",
+            "name": "Active Warm-up walk",
+            "description": "3 mins progressive walk on the belt.",
+            "repetitions": 1,
+            "work": null,
+            "recovery": null,
+            "notes": []
+          }
+        ],
+        "mainSet": [
+          {
+            "blockType": "long-run",
+            "name": "45-Min Easy Jog",
+            "description": "Run continuously at a relaxed conversational speed on a flat belt (1.0% incline).",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 2700,
+              "intensity": "conversational easy effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": []
+          }
+        ],
+        "cooldown": [
+          {
+            "blockType": "cooldown",
+            "name": "Walking Cooldown",
+            "description": "3 mins slow walking to let heart rate settle down safely.",
+            "repetitions": 1,
+            "work": null,
+            "recovery": null,
+            "notes": []
+          }
+        ]
+      },
+      "variants": {
+        "easier": {
+          "description": "Reduce running duration to 35 minutes continuous.",
+          "mainSet": [
+            {
+              "blockType": "long-run",
+              "name": "35-Min Easy Jog",
+              "description": "Maintain a slow steady jog for 35 minutes.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 2100,
+                "intensity": "easy effort",
+                "targetType": "time"
+              },
+              "recovery": null,
+              "notes": []
+            }
+          ]
+        },
+        "harder": {
+          "description": "Increase running duration to 55 minutes continuous.",
+          "mainSet": [
+            {
+              "blockType": "long-run",
+              "name": "55-Min Easy Jog",
+              "description": "Maintain a steady conversational pace for 55 minutes.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 3300,
+                "intensity": "easy effort",
+                "targetType": "time"
+              },
+              "recovery": null,
+              "notes": []
+            }
+          ]
+        }
+      },
+      "coachingNotes": [
+        "Keep your stride short and quick to avoid slipping.",
+        "Ensure the safety clip is securely attached to your clothing before starting.",
+        "Do not jump off a moving treadmill belt; always let the belt stop completely."
+      ],
+      "commonMistakes": [
+        "Running the early miles too fast.",
+        "Skipping dynamic mobilization."
+      ],
+      "safetyNotes": [
+        "Achilles and knee joint protection. Do not raise incline past 1.5% without a proper warmup.",
+        "Never step off the treadmill while the belt is moving."
+      ],
+      "shareCard": {
+        "cardTitle": "Developing Conversational Steady Belt 45-Min",
+        "cardSubtitle": "Treadmill · DEVELOPING · TREADMILL",
+        "mainSetText": "1 × 45-Min Easy Jog @ 1.0% Incline",
+        "purposeText": "A continuous 45-minute steady aerobic jog designed to establish sustained fitness indoors.",
+        "footerNote": "Estimated Duration: 40-50 mins"
+      },
+      "tags": [
+        "Treadmill",
+        "developing",
+        "easy",
+        "low-risk"
+      ],
+      "searchKeywords": [
+        "developing",
+        "treadmill",
+        "easy jog",
+        "aerobic",
+        "time-based"
+      ],
+      "uniquenessSignature": "tm-esy-steady45m-003",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+    },
+    {
+      "id": "tv-tm-inc-builder30m-004",
+      "slug": "developing-gentle-incline-aerobic-builder-30-min-treadmill-developing",
+      "title": "Developing Gentle Incline Aerobic Builder 30-Min",
+      "shortTitle": "Incline Builder 30m",
+      "summary": "A progressive incline session composed of gentle climbs to build leg strength and cardiovascular power safely.",
+      "targetDistances": [
+        "Treadmill",
+        "General"
+      ],
+      "primaryDistance": "Treadmill",
+      "category": "treadmill",
+      "trainingGoals": [
+        "leg-strength",
+        "aerobic-base",
+        "muscular-durability"
+      ],
+      "level": "developing",
+      "phase": [
+        "base",
+        "build"
+      ],
+      "surface": [
+        "treadmill"
+      ],
+      "equipment": [
+        "treadmill"
+      ],
+      "estimatedDurationMin": {
+        "min": 25,
+        "max": 35
+      },
+      "estimatedDistanceKm": {
+        "min": 3.5,
+        "max": 5.5
+      },
+      "qualityDistanceKm": 0.0,
+      "difficulty": "moderate",
+      "risk": "medium",
+      "riskReason": "Variable incline climbing segments introduce moderate calf and tendon loading risks.",
+      "intensityGuide": {
+        "primaryTarget": "progressive incline aerobic effort",
+        "paceGuide": "Steady rhythm, letting effort rise naturally on climbs and keeping incline at 2-4% grade.",
+        "hrGuide": "Heart rate stable in high Zone 2, rising to Zone 3 inside climbs.",
+        "rpeGuide": "RPE 4-5/10."
+      },
+      "workoutStructure": {
+        "warmup": [
+          {
+            "blockType": "warmup",
+            "name": "Dynamic Mobilization Warm-up",
+            "description": "5 mins of easy walking and mobility dynamics.",
+            "repetitions": 1,
+            "work": null,
+            "recovery": null,
+            "notes": []
+          }
+        ],
+        "mainSet": [
+          {
+            "blockType": "long-run",
+            "name": "30-Min Incline Run",
+            "description": "Run 30 minutes continuously, incorporating 15 minutes of gentle climbing at 2-4% incline.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 1800,
+              "intensity": "progressive incline effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": []
+          }
+        ],
+        "cooldown": [
+          {
+            "blockType": "cooldown",
+            "name": "Gentle Walking Cooldown",
+            "description": "5 mins walking.",
+            "repetitions": 1,
+            "work": null,
+            "recovery": null,
+            "notes": []
+          }
+        ]
+      },
+      "variants": {
+        "easier": {
+          "description": "Reduce running duration to 20 minutes continuous.",
+          "mainSet": [
+            {
+              "blockType": "long-run",
+              "name": "20-Min Incline Run",
+              "description": "Maintain a slow steady jog for 20 minutes.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 1200,
+                "intensity": "easy effort",
+                "targetType": "time"
+              },
+              "recovery": null,
+              "notes": []
+            }
+          ]
+        },
+        "harder": {
+          "description": "Increase running duration to 40 minutes continuous.",
+          "mainSet": [
+            {
+              "blockType": "long-run",
+              "name": "40-Min Incline Run",
+              "description": "Maintain a steady conversational pace for 40 minutes.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 2400,
+                "intensity": "easy effort",
+                "targetType": "time"
+              },
+              "recovery": null,
+              "notes": []
+            }
+          ]
+        }
+      },
+      "coachingNotes": [
+        "Focus on maintaining a tall, upright posture on the climbs.",
+        "Let your breathing dictate pace on the climbs."
+      ],
+      "commonMistakes": [
+        "Running the climbs too aggressively.",
+        "Skipping dynamic mobilization."
+      ],
+      "safetyNotes": [
+        "Achilles and calf strain risk. Do not raise incline past 4.0% without a proper warmup.",
+        "Never step off the treadmill while the belt is moving."
+      ],
+      "shareCard": {
+        "cardTitle": "Developing Gentle Incline Aerobic Builder 30-Min",
+        "cardSubtitle": "Treadmill · DEVELOPING · TREADMILL",
+        "mainSetText": "1 × 30-Min Incline Run @ 2-4% Incline",
+        "purposeText": "A progressive incline session to build leg strength and cardiovascular power safely.",
+        "footerNote": "Estimated Duration: 25-35 mins"
+      },
+      "tags": [
+        "Treadmill",
+        "developing",
+        "moderate",
+        "medium-risk"
+      ],
+      "searchKeywords": [
+        "developing",
+        "treadmill",
+        "incline",
+        "strength",
+        "power",
+        "time-based"
+      ],
+      "uniquenessSignature": "tm-inc-builder30m-004",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+    },
+    {
+      "id": "tv-tm-inc-rolling40m-005",
+      "slug": "intermediate-rolling-incline-play-40-min-treadmill-intermediate",
+      "title": "Intermediate Rolling Incline Play 40-Min",
+      "shortTitle": "Rolling Incline 40m",
+      "summary": "A continuous 40-minute steady run on rolling inclines designed to build leg power and running economy safely.",
+      "targetDistances": [
+        "Treadmill",
+        "General",
+        "5K"
+      ],
+      "primaryDistance": "Treadmill",
+      "category": "treadmill",
+      "trainingGoals": [
+        "leg-strength",
+        "aerobic-power",
+        "muscular-durability"
+      ],
+      "level": "intermediate",
+      "phase": [
+        "base",
+        "build"
+      ],
+      "surface": [
+        "treadmill"
+      ],
+      "equipment": [
+        "treadmill"
+      ],
+      "estimatedDurationMin": {
+        "min": 35,
+        "max": 45
+      },
+      "estimatedDistanceKm": {
+        "min": 4.5,
+        "max": 7.0
+      },
+      "qualityDistanceKm": 0.0,
+      "difficulty": "moderate-hard",
+      "risk": "medium",
+      "riskReason": "Variable incline climbing segments introduce moderate calf and tendon loading risks.",
+      "intensityGuide": {
+        "primaryTarget": "steady rolling incline aerobic effort",
+        "paceGuide": "Steady rhythm, letting effort rise naturally on climbs and keeping incline at 3-5% grade.",
+        "hrGuide": "Heart rate stable in Zone 2, rising to Zone 3 inside climbs.",
+        "rpeGuide": "RPE 5-6/10."
+      },
+      "workoutStructure": {
+        "warmup": [
+          {
+            "blockType": "warmup",
+            "name": "Dynamic Mobilization Warm-up",
+            "description": "5 mins of easy walking and mobility dynamics.",
+            "repetitions": 1,
+            "work": null,
+            "recovery": null,
+            "notes": []
+          }
+        ],
+        "mainSet": [
+          {
+            "blockType": "long-run",
+            "name": "40-Min Rolling Incline Run",
+            "description": "Run 40 minutes continuously, alternating incline between 1.0% and 3.0-5.0% every 5 minutes.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 2400,
+              "intensity": "steady rolling effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": []
+          }
+        ],
+        "cooldown": [
+          {
+            "blockType": "cooldown",
+            "name": "Gentle Walking Cooldown",
+            "description": "5 mins walking.",
+            "repetitions": 1,
+            "work": null,
+            "recovery": null,
+            "notes": []
+          }
+        ]
+      },
+      "variants": {
+        "easier": {
+          "description": "Reduce running duration to 30 minutes continuous.",
+          "mainSet": [
+            {
+              "blockType": "long-run",
+              "name": "30-Min Incline Run",
+              "description": "Maintain a slow steady jog for 30 minutes.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 1800,
+                "intensity": "easy effort",
+                "targetType": "time"
+              },
+              "recovery": null,
+              "notes": []
+            }
+          ]
+        },
+        "harder": {
+          "description": "Increase running duration to 50 minutes continuous.",
+          "mainSet": [
+            {
+              "blockType": "long-run",
+              "name": "50-Min Incline Run",
+              "description": "Maintain a steady conversational pace for 50 minutes.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 3000,
+                "intensity": "easy effort",
+                "targetType": "time"
+              },
+              "recovery": null,
+              "notes": []
+            }
+          ]
+        }
+      },
+      "coachingNotes": [
+        "Focus on maintaining a steady rhythm throughout the steep rolling terrain.",
+        "Let your breathing dictate pace on the climbs."
+      ],
+      "commonMistakes": [
+        "Running the climbs too aggressively.",
+        "Skipping dynamic mobilization."
+      ],
+      "safetyNotes": [
+        "Achilles and calf strain risk. Do not raise incline past 5.0% without a proper warmup.",
+        "Never step off the treadmill while the belt is moving."
+      ],
+      "shareCard": {
+        "cardTitle": "Intermediate Rolling Incline Play 40-Min",
+        "cardSubtitle": "Treadmill · INTERMEDIATE · TREADMILL",
+        "mainSetText": "1 × 40-Min Rolling Incline Run @ 3-5% Incline",
+        "purposeText": "A continuous 40-minute steady run on rolling inclines to build leg power.",
+        "footerNote": "Estimated Duration: 35-45 mins"
+      },
+      "tags": [
+        "Treadmill",
+        "intermediate",
+        "moderate-hard",
+        "medium-risk"
+      ],
+      "searchKeywords": [
+        "intermediate",
+        "treadmill",
+        "incline",
+        "strength",
+        "power",
+        "time-based"
+      ],
+      "uniquenessSignature": "tm-inc-rolling40m-005",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+    },
+    {
+      "id": "tv-tm-inc-mountain45m-006",
+      "slug": "advanced-mountain-hike-run-45-min-treadmill-advanced",
+      "title": "Advanced Mountain Hike-Run 45-Min",
+      "shortTitle": "Mountain Hike-Run",
+      "summary": "An intense steep incline aerobic session designed to build muscular endurance and cardiorespiratory power safely.",
+      "targetDistances": [
+        "Treadmill",
+        "General",
+        "10K"
+      ],
+      "primaryDistance": "Treadmill",
+      "category": "treadmill",
+      "trainingGoals": [
+        "muscular-endurance",
+        "climbing-strength",
+        "aerobic-durability"
+      ],
+      "level": "advanced",
+      "phase": [
+        "build",
+        "peak"
+      ],
+      "surface": [
+        "treadmill"
+      ],
+      "equipment": [
+        "treadmill"
+      ],
+      "estimatedDurationMin": {
+        "min": 40,
+        "max": 50
+      },
+      "estimatedDistanceKm": {
+        "min": 5.0,
+        "max": 7.5
+      },
+      "qualityDistanceKm": 0.0,
+      "difficulty": "hard",
+      "risk": "high",
+      "riskReason": "Steep incline climbing segments at RPE 6-7 carry moderate calf and Achilles load.",
+      "intensityGuide": {
+        "primaryTarget": "progressive steep uphill climbing effort",
+        "paceGuide": "Steady rhythm, letting effort rise naturally on climbs and keeping incline at 8-10% grade.",
+        "hrGuide": "Heart rate stable in Zone 3, rising to Zone 4 inside climbs.",
+        "rpeGuide": "RPE 6-7/10."
+      },
+      "workoutStructure": {
+        "warmup": [
+          {
+            "blockType": "warmup",
+            "name": "Dynamic Mobilization Warm-up",
+            "description": "5 mins of easy walking and mobility dynamics.",
+            "repetitions": 1,
+            "work": null,
+            "recovery": null,
+            "notes": []
+          }
+        ],
+        "mainSet": [
+          {
+            "blockType": "repeat",
+            "name": "5 × Incline Blocks",
+            "description": "Run 5 repetitions of: 3 mins power walk at 8-10% incline + 3 mins easy jog at 1.5% incline.",
+            "repetitions": 5,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 360,
+              "intensity": "progressive climbing effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": []
+          }
+        ],
+        "cooldown": [
+          {
+            "blockType": "cooldown",
+            "name": "Gentle Walking Cooldown",
+            "description": "5 mins walking.",
+            "repetitions": 1,
+            "work": null,
+            "recovery": null,
+            "notes": []
+          }
+        ]
+      },
+      "variants": {
+        "easier": {
+          "description": "Reduce incline repetitions to 4, keeping grade at 6-8%.",
+          "mainSet": [
+            {
+              "blockType": "repeat",
+              "name": "4 × Incline Blocks",
+              "description": "Run 4 repetitions of 3 mins walk / 3 mins jog.",
+              "repetitions": 4,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 360,
+                "intensity": "light effort",
+                "targetType": "time"
+              },
+              "recovery": null,
+              "notes": []
+            }
+          ]
+        },
+        "harder": {
+          "description": "Increase incline repetitions to 6, keeping grade at 10-12%.",
+          "mainSet": [
+            {
+              "blockType": "repeat",
+              "name": "6 × Incline Blocks",
+              "description": "Run 6 repetitions of 3 mins walk / 3 mins jog.",
+              "repetitions": 6,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 360,
+                "intensity": "strong effort",
+                "targetType": "time"
+              },
+              "recovery": null,
+              "notes": []
+            }
+          ]
+        }
+      },
+      "coachingNotes": [
+        "Focus on tall, vertical posture and rhythmic breathing on the climbs.",
+        "Let your breathing dictate pace on the climbs."
+      ],
+      "commonMistakes": [
+        "Running the steep climbs too aggressively.",
+        "Skipping dynamic mobilization."
+      ],
+      "safetyNotes": [
+        "Achilles and calf strain risk. Do not raise incline past 10.0% without a proper warmup.",
+        "Never step off the treadmill while the belt is moving."
+      ],
+      "shareCard": {
+        "cardTitle": "Advanced Mountain Hike-Run 45-Min",
+        "cardSubtitle": "Treadmill · ADVANCED · TREADMILL",
+        "mainSetText": "5 × (3m Walk @ 8-10% | 3m Jog @ 1.5%)",
+        "purposeText": "An intense steep incline session to build muscular endurance safely.",
+        "footerNote": "Estimated Duration: 40-50 mins"
+      },
+      "tags": [
+        "Treadmill",
+        "advanced",
+        "hard",
+        "high-risk"
+      ],
+      "searchKeywords": [
+        "advanced",
+        "treadmill",
+        "incline",
+        "climbing",
+        "strength",
+        "time-based"
+      ],
+      "uniquenessSignature": "tm-inc-mountain45m-006",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+    },
+    {
+      "id": "tv-tm-tmp-sustained15m-007",
+      "slug": "developing-15-min-sustained-tempo-treadmill-developing",
+      "title": "Developing 15-Min Sustained Tempo",
+      "shortTitle": "15-Min Sustained Tempo",
+      "summary": "A progressive tempo run that gradually moves from easy base jog to steady tempo pace on the treadmill.",
+      "targetDistances": [
+        "Treadmill",
+        "General"
+      ],
+      "primaryDistance": "Treadmill",
+      "category": "treadmill",
+      "trainingGoals": [
+        "stamina-development",
+        "aerobic-power",
+        "mental-toughness"
+      ],
+      "level": "developing",
+      "phase": [
+        "base",
+        "build"
+      ],
+      "surface": [
+        "treadmill"
+      ],
+      "equipment": [
+        "treadmill"
+      ],
+      "estimatedDurationMin": {
+        "min": 20,
+        "max": 30
+      },
+      "estimatedDistanceKm": {
+        "min": 3.5,
+        "max": 5.5
+      },
+      "qualityDistanceKm": 0.0,
+      "difficulty": "moderate-hard",
+      "risk": "medium",
+      "riskReason": "Sustained tempo running introduces moderate neuromuscular load.",
+      "intensityGuide": {
+        "primaryTarget": "steady progressive tempo effort",
+        "paceGuide": "Select a speed that feels comfortably hard, around RPE 6/10. Keep incline at 1.0%.",
+        "hrGuide": "Heart rate climbs slowly to high Zone 3.",
+        "rpeGuide": "RPE 6/10."
+      },
+      "workoutStructure": {
+        "warmup": [
+          {
+            "blockType": "warmup",
+            "name": "Dynamic Mobilization Warm-up",
+            "description": "5 mins of easy walking and mobility dynamics.",
+            "repetitions": 1,
+            "work": null,
+            "recovery": null,
+            "notes": []
+          }
+        ],
+        "mainSet": [
+          {
+            "blockType": "tempo",
+            "name": "15-Min Tempo Run",
+            "description": "Run continuously for 15 minutes at a steady tempo effort on a flat belt (1.0% incline).",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 900,
+              "intensity": "steady progressive tempo effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": []
+          }
+        ],
+        "cooldown": [
+          {
+            "blockType": "cooldown",
+            "name": "Walking Cooldown",
+            "description": "3 mins slow walking.",
+            "repetitions": 1,
+            "work": null,
+            "recovery": null,
+            "notes": []
+          }
+        ]
+      },
+      "variants": {
+        "easier": {
+          "description": "Reduce tempo running duration to 10 minutes continuous.",
+          "mainSet": [
+            {
+              "blockType": "tempo",
+              "name": "10-Min Tempo Run",
+              "description": "Run 10 minutes continuously at tempo effort.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 600,
+                "intensity": "easy effort",
+                "targetType": "time"
+              },
+              "recovery": null,
+              "notes": []
+            }
+          ]
+        },
+        "harder": {
+          "description": "Increase tempo running duration to 20 minutes continuous.",
+          "mainSet": [
+            {
+              "blockType": "tempo",
+              "name": "20-Min Tempo Run",
+              "description": "Run 20 minutes continuously at tempo effort.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 1200,
+                "intensity": "strong effort",
+                "targetType": "time"
+              },
+              "recovery": null,
+              "notes": []
+            }
+          ]
+        }
+      },
+      "coachingNotes": [
+        "Focus on maintaining a steady rhythm throughout the tempo block.",
+        "Keep the upper body fully relaxed."
+      ],
+      "commonMistakes": [
+        "Running the early miles too fast.",
+        "Skipping dynamic mobilization."
+      ],
+      "safetyNotes": [
+        "Warm up thoroughly before beginning.",
+        "Never step off the treadmill while the belt is moving."
+      ],
+      "shareCard": {
+        "cardTitle": "Developing 15-Min Sustained Tempo",
+        "cardSubtitle": "Treadmill · DEVELOPING · TREADMILL",
+        "mainSetText": "1 × 15-Min Tempo Run @ 1.0% Incline",
+        "purposeText": "A progressive tempo run to build stamina and aerobic power safely.",
+        "footerNote": "Estimated Duration: 20-30 mins"
+      },
+      "tags": [
+        "Treadmill",
+        "developing",
+        "moderate-hard",
+        "medium-risk"
+      ],
+      "searchKeywords": [
+        "developing",
+        "treadmill",
+        "tempo",
+        "stamina",
+        "time-based"
+      ],
+      "uniquenessSignature": "tm-tmp-sustained15m-007",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+    },
+    {
+      "id": "tv-tm-tmp-belt20m-008",
+      "slug": "intermediate-20-min-belt-tempo-treadmill-intermediate",
+      "title": "Intermediate 20-Min Belt Tempo",
+      "shortTitle": "20-Min Belt Tempo",
+      "summary": "A progressive tempo run that gradually moves from easy base jog to steady tempo pace on the treadmill.",
+      "targetDistances": [
+        "Treadmill",
+        "General",
+        "5K"
+      ],
+      "primaryDistance": "Treadmill",
+      "category": "treadmill",
+      "trainingGoals": [
+        "stamina-development",
+        "aerobic-power",
+        "mental-toughness"
+      ],
+      "level": "intermediate",
+      "phase": [
+        "base",
+        "build"
+      ],
+      "surface": [
+        "treadmill"
+      ],
+      "equipment": [
+        "treadmill"
+      ],
+      "estimatedDurationMin": {
+        "min": 25,
+        "max": 35
+      },
+      "estimatedDistanceKm": {
+        "min": 4.5,
+        "max": 7.0
+      },
+      "qualityDistanceKm": 0.0,
+      "difficulty": "hard",
+      "risk": "medium",
+      "riskReason": "Sustained tempo running introduces moderate neuromuscular load.",
+      "intensityGuide": {
+        "primaryTarget": "steady progressive tempo effort",
+        "paceGuide": "Select a speed that feels comfortably hard, around RPE 6-7/10. Keep incline at 1.5%.",
+        "hrGuide": "Heart rate climbs slowly to high Zone 3.",
+        "rpeGuide": "RPE 6-7/10."
+      },
+      "workoutStructure": {
+        "warmup": [
+          {
+            "blockType": "warmup",
+            "name": "Dynamic Mobilization Warm-up",
+            "description": "5 mins of easy walking and mobility dynamics.",
+            "repetitions": 1,
+            "work": null,
+            "recovery": null,
+            "notes": []
+          }
+        ],
+        "mainSet": [
+          {
+            "blockType": "tempo",
+            "name": "20-Min Tempo Run",
+            "description": "Run continuously for 20 minutes at a steady tempo effort on a flat belt (1.5% incline).",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 1200,
+              "intensity": "steady progressive tempo effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": []
+          }
+        ],
+        "cooldown": [
+          {
+            "blockType": "cooldown",
+            "name": "Walking Cooldown",
+            "description": "3 mins slow walking.",
+            "repetitions": 1,
+            "work": null,
+            "recovery": null,
+            "notes": []
+          }
+        ]
+      },
+      "variants": {
+        "easier": {
+          "description": "Reduce tempo running duration to 15 minutes continuous.",
+          "mainSet": [
+            {
+              "blockType": "tempo",
+              "name": "15-Min Tempo Run",
+              "description": "Run 15 minutes continuously at tempo effort.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 900,
+                "intensity": "easy effort",
+                "targetType": "time"
+              },
+              "recovery": null,
+              "notes": []
+            }
+          ]
+        },
+        "harder": {
+          "description": "Increase tempo running duration to 25 minutes continuous.",
+          "mainSet": [
+            {
+              "blockType": "tempo",
+              "name": "25-Min Tempo Run",
+              "description": "Run 25 minutes continuously at tempo effort.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 1500,
+                "intensity": "strong effort",
+                "targetType": "time"
+              },
+              "recovery": null,
+              "notes": []
+            }
+          ]
+        }
+      },
+      "coachingNotes": [
+        "Focus on maintaining a steady rhythm throughout the tempo block.",
+        "Keep the upper body fully relaxed."
+      ],
+      "commonMistakes": [
+        "Running the early miles too fast.",
+        "Skipping dynamic mobilization."
+      ],
+      "safetyNotes": [
+        "Warm up thoroughly before beginning.",
+        "Never step off the treadmill while the belt is moving."
+      ],
+      "shareCard": {
+        "cardTitle": "Intermediate 20-Min Belt Tempo",
+        "cardSubtitle": "Treadmill · INTERMEDIATE · TREADMILL",
+        "mainSetText": "1 × 20-Min Tempo Run @ 1.5% Incline",
+        "purposeText": "A progressive tempo run to build stamina and aerobic power safely.",
+        "footerNote": "Estimated Duration: 25-35 mins"
+      },
+      "tags": [
+        "Treadmill",
+        "intermediate",
+        "hard",
+        "medium-risk"
+      ],
+      "searchKeywords": [
+        "intermediate",
+        "treadmill",
+        "tempo",
+        "stamina",
+        "time-based"
+      ],
+      "uniquenessSignature": "tm-tmp-belt20m-008",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+    },
+    {
+      "id": "tv-tm-tmp-alternating3x8-009",
+      "slug": "advanced-alternating-tempo-intervals-treadmill-advanced",
+      "title": "Advanced Alternating Tempo Intervals",
+      "shortTitle": "Alternating Tempo",
+      "summary": "A demanding speed play session consisting of alternating 8-minute tempo segments on the treadmill to build turnover.",
+      "targetDistances": [
+        "Treadmill",
+        "General",
+        "10K"
+      ],
+      "primaryDistance": "Treadmill",
+      "category": "treadmill",
+      "trainingGoals": [
+        "stamina-development",
+        "aerobic-power",
+        "mental-toughness"
+      ],
+      "level": "advanced",
+      "phase": [
+        "build",
+        "peak"
+      ],
+      "surface": [
+        "treadmill"
+      ],
+      "equipment": [
+        "treadmill"
+      ],
+      "estimatedDurationMin": {
+        "min": 35,
+        "max": 45
+      },
+      "estimatedDistanceKm": {
+        "min": 6.0,
+        "max": 8.5
+      },
+      "qualityDistanceKm": 0.0,
+      "difficulty": "hard",
+      "risk": "medium",
+      "riskReason": "Sustained tempo intervals introduce moderate neuromuscular load.",
+      "intensityGuide": {
+        "primaryTarget": "alternating progressive tempo effort",
+        "paceGuide": "Select a speed that feels comfortably hard, around RPE 7/10. Keep incline at 1.0%.",
+        "hrGuide": "Heart rate stable in high Zone 3.",
+        "rpeGuide": "RPE 7/10."
+      },
+      "workoutStructure": {
+        "warmup": [
+          {
+            "blockType": "warmup",
+            "name": "Dynamic Mobilization Warm-up",
+            "description": "5 mins of easy walking and mobility dynamics.",
+            "repetitions": 1,
+            "work": null,
+            "recovery": null,
+            "notes": []
+          }
+        ],
+        "mainSet": [
+          {
+            "blockType": "repeat",
+            "name": "3 × 8-Min Tempo Blocks",
+            "description": "Run 3 repetitions of 8 minutes at tempo effort with 2 minutes of walking or easy jogging recovery between blocks.",
+            "repetitions": 3,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 480,
+              "intensity": "progressive tempo effort",
+              "targetType": "time"
+            },
+            "recovery": {
+              "type": "walk-jog",
+              "durationSeconds": 120,
+              "distanceMeters": null,
+              "intensity": "easy recovery jog"
+            },
+            "notes": []
+          }
+        ],
+        "cooldown": [
+          {
+            "blockType": "cooldown",
+            "name": "Gentle Walking Cooldown",
+            "description": "5 mins walking.",
+            "repetitions": 1,
+            "work": null,
+            "recovery": null,
+            "notes": []
+          }
+        ]
+      },
+      "variants": {
+        "easier": {
+          "description": "Reduce main set to 2 repetitions with 3-minute walking recoveries.",
+          "mainSet": [
+            {
+              "blockType": "repeat",
+              "name": "2 × 8-Min Tempo Blocks",
+              "description": "Run 2 reps of 8 minutes, walk 180 seconds.",
+              "repetitions": 2,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 480,
+                "intensity": "light effort",
+                "targetType": "time"
+              },
+              "recovery": {
+                "type": "walk",
+                "durationSeconds": 180,
+                "distanceMeters": null,
+                "intensity": "easy walk"
+              },
+              "notes": []
+            }
+          ]
+        },
+        "harder": {
+          "description": "Increase main set to 4 repetitions.",
+          "mainSet": [
+            {
+              "blockType": "repeat",
+              "name": "4 × 8-Min Tempo Blocks",
+              "description": "Run 4 reps of 8 minutes, walk 120 seconds.",
+              "repetitions": 4,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 480,
+                "intensity": "strong effort",
+                "targetType": "time"
+              },
+              "recovery": {
+                "type": "walk-jog",
+                "durationSeconds": 120,
+                "distanceMeters": null,
+                "intensity": "easy recovery jog"
+              },
+              "notes": []
+            }
+          ]
+        }
+      },
+      "coachingNotes": [
+        "Focus on smooth, relaxed running form. Do not sprint.",
+        "Prioritize a smooth, conversational rhythm for your base jog segments.",
+        "Great for building physical and mental pacing discipline."
+      ],
+      "commonMistakes": [
+        "Running the segments too aggressively.",
+        "Shortening the recoveries."
+      ],
+      "safetyNotes": [
+        "Warm up thoroughly before beginning.",
+        "Ensure your posture remains tall and vertical during faster phases."
+      ],
+      "shareCard": {
+        "cardTitle": "Advanced Alternating Tempo Intervals",
+        "cardSubtitle": "Treadmill · ADVANCED · TREADMILL",
+        "mainSetText": "3 × (8-Min Tempo | 2-Min Walk-Jog)",
+        "purposeText": "A demanding speed play session consisting of alternating 8-min tempo segments.",
+        "footerNote": "Estimated Duration: 35-45 mins"
+      },
+      "tags": [
+        "Treadmill",
+        "advanced",
+        "hard",
+        "medium-risk"
+      ],
+      "searchKeywords": [
+        "advanced",
+        "treadmill",
+        "tempo",
+        "stamina",
+        "time-based"
+      ],
+      "uniquenessSignature": "tm-tmp-alternating3x8-009",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+    },
+    {
+      "id": "tv-tm-int-repeats5x2-010",
+      "slug": "developing-5-x-2-min-belt-repeats-treadmill-developing",
+      "title": "Developing 5 × 2-Min Belt Repeats",
+      "shortTitle": "5 × 2-Min Repeats",
+      "summary": "A high-quality speed play session composed of target 5K race pace blocks on the treadmill to build turnover safely.",
+      "targetDistances": [
+        "Treadmill",
+        "General",
+        "5K"
+      ],
+      "primaryDistance": "Treadmill",
+      "category": "treadmill",
+      "trainingGoals": [
+        "neuromuscular-turnover",
+        "aerobic-power",
+        "mental-toughness"
+      ],
+      "level": "developing",
+      "phase": [
+        "build",
+        "peak"
+      ],
+      "surface": [
+        "treadmill"
+      ],
+      "equipment": [
+        "treadmill"
+      ],
+      "estimatedDurationMin": {
+        "min": 25,
+        "max": 35
+      },
+      "estimatedDistanceKm": {
+        "min": 3.5,
+        "max": 5.5
+      },
+      "qualityDistanceKm": 0.0,
+      "difficulty": "hard",
+      "risk": "medium",
+      "riskReason": "Fast running segments at target race pace introduce substantial fatigue.",
+      "intensityGuide": {
+        "primaryTarget": "high-quality speed play effort",
+        "paceGuide": "Select a speed that feels comfortably hard, around RPE 7/10. Keep incline at 1.0%.",
+        "hrGuide": "Spike to Zone 4 inside pickups; ensure it drops during recoveries.",
+        "rpeGuide": "RPE 7/10."
+      },
+      "workoutStructure": {
+        "warmup": [
+          {
+            "blockType": "warmup",
+            "name": "Dynamic Mobilization Warm-up",
+            "description": "5 mins of easy walking and mobility dynamics.",
+            "repetitions": 1,
+            "work": null,
+            "recovery": null,
+            "notes": []
+          }
+        ],
+        "mainSet": [
+          {
+            "blockType": "repeat",
+            "name": "5 × 2-Min Repeats",
+            "description": "Run 5 repetitions of 2 minutes at target 5K race effort with 2 minutes of walking or easy jogging recovery between repeats.",
+            "repetitions": 5,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 120,
+              "intensity": "high-quality speed effort",
+              "targetType": "time"
+            },
+            "recovery": {
+              "type": "walk-jog",
+              "durationSeconds": 120,
+              "distanceMeters": null,
+              "intensity": "easy recovery jog"
+            },
+            "notes": []
+          }
+        ],
+        "cooldown": [
+          {
+            "blockType": "cooldown",
+            "name": "Gentle Walking Cooldown",
+            "description": "5 mins walking.",
+            "repetitions": 1,
+            "work": null,
+            "recovery": null,
+            "notes": []
+          }
+        ]
+      },
+      "variants": {
+        "easier": {
+          "description": "Reduce main set to 4 repetitions with 3-minute walking recoveries.",
+          "mainSet": [
+            {
+              "blockType": "repeat",
+              "name": "4 × 2-Min Repeats",
+              "description": "Run 4 reps of 2 minutes, walk 180 seconds.",
+              "repetitions": 4,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 120,
+                "intensity": "light effort",
+                "targetType": "time"
+              },
+              "recovery": {
+                "type": "walk",
+                "durationSeconds": 180,
+                "distanceMeters": null,
+                "intensity": "easy walk"
+              },
+              "notes": []
+            }
+          ]
+        },
+        "harder": {
+          "description": "Increase main set to 6 repetitions.",
+          "mainSet": [
+            {
+              "blockType": "repeat",
+              "name": "6 × 2-Min Repeats",
+              "description": "Run 6 reps of 2 minutes, walk 120 seconds.",
+              "repetitions": 6,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 120,
+                "intensity": "strong effort",
+                "targetType": "time"
+              },
+              "recovery": {
+                "type": "walk-jog",
+                "durationSeconds": 120,
+                "distanceMeters": null,
+                "intensity": "easy recovery jog"
+              },
+              "notes": []
+            }
+          ]
+        }
+      },
+      "coachingNotes": [
+        "Focus on smooth, relaxed running form. Do not sprint.",
+        "Prioritize a smooth, conversational rhythm for your base jog segments.",
+        "Great for building physical and mental pacing discipline."
+      ],
+      "commonMistakes": [
+        "Sprinting the segments too aggressively.",
+        "Shortening the recoveries."
+      ],
+      "safetyNotes": [
+        "Warm up thoroughly before beginning.",
+        "Ensure your posture remains tall and vertical during faster phases."
+      ],
+      "shareCard": {
+        "cardTitle": "Developing 5 × 2-Min Belt Repeats",
+        "cardSubtitle": "Treadmill · DEVELOPING · TREADMILL",
+        "mainSetText": "5 × (2-Min Repeat | 2-Min Walk-Jog)",
+        "purposeText": "A high-quality speed play session composed of target 5K race pace blocks.",
+        "footerNote": "Estimated Duration: 25-35 mins"
+      },
+      "tags": [
+        "Treadmill",
+        "developing",
+        "hard",
+        "medium-risk"
+      ],
+      "searchKeywords": [
+        "developing",
+        "treadmill",
+        "repeats",
+        "turnover",
+        "fartlek",
+        "time-based"
+      ],
+      "uniquenessSignature": "tm-int-repeats5x2-010",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+    },
+    {
+      "id": "tv-tm-int-repeats6x3-011",
+      "slug": "intermediate-6-x-3-min-tempo-intervals-treadmill-intermediate",
+      "title": "Intermediate 6 × 3-Min Tempo Intervals",
+      "shortTitle": "6 × 3-Min Intervals",
+      "summary": "A classic speed play session focusing on 3-minute high-quality segments to build vo2max safely.",
+      "targetDistances": [
+        "Treadmill",
+        "General",
+        "10K"
+      ],
+      "primaryDistance": "Treadmill",
+      "category": "treadmill",
+      "trainingGoals": [
+        "vo2max-stimulation",
+        "stamina-development",
+        "turnover-development"
+      ],
+      "level": "intermediate",
+      "phase": [
+        "build",
+        "peak"
+      ],
+      "surface": [
+        "treadmill"
+      ],
+      "equipment": [
+        "treadmill"
+      ],
+      "estimatedDurationMin": {
+        "min": 30,
+        "max": 40
+      },
+      "estimatedDistanceKm": {
+        "min": 4.5,
+        "max": 7.0
+      },
+      "qualityDistanceKm": 0.0,
+      "difficulty": "hard",
+      "risk": "medium",
+      "riskReason": "Fast running segments at target race pace introduce substantial fatigue.",
+      "intensityGuide": {
+        "primaryTarget": "high-quality speed play effort",
+        "paceGuide": "Select a speed that feels comfortably hard, around RPE 7/10. Keep incline at 1.0%.",
+        "hrGuide": "Spike to Zone 4 inside pickups; ensure it drops during recoveries.",
+        "rpeGuide": "RPE 7/10."
+      },
+      "workoutStructure": {
+        "warmup": [
+          {
+            "blockType": "warmup",
+            "name": "Dynamic Mobilization Warm-up",
+            "description": "5 mins of easy walking and mobility dynamics.",
+            "repetitions": 1,
+            "work": null,
+            "recovery": null,
+            "notes": []
+          }
+        ],
+        "mainSet": [
+          {
+            "blockType": "repeat",
+            "name": "6 × 3-Min Intervals",
+            "description": "Run 6 repetitions of 3 minutes at target 10K race effort with 90 seconds of easy jogging recovery between intervals.",
+            "repetitions": 6,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 180,
+              "intensity": "high-quality speed effort",
+              "targetType": "time"
+            },
+            "recovery": {
+              "type": "jog",
+              "durationSeconds": 90,
+              "distanceMeters": null,
+              "intensity": "easy recovery jog"
+            },
+            "notes": []
+          }
+        ],
+        "cooldown": [
+          {
+            "blockType": "cooldown",
+            "name": "Gentle Walking Cooldown",
+            "description": "5 mins walking.",
+            "repetitions": 1,
+            "work": null,
+            "recovery": null,
+            "notes": []
+          }
+        ]
+      },
+      "variants": {
+        "easier": {
+          "description": "Reduce main set to 4 repetitions with 2-minute walking recoveries.",
+          "mainSet": [
+            {
+              "blockType": "repeat",
+              "name": "4 × 3-Min Intervals",
+              "description": "Run 4 reps of 3 minutes, walk 120 seconds.",
+              "repetitions": 4,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 180,
+                "intensity": "light effort",
+                "targetType": "time"
+              },
+              "recovery": {
+                "type": "walk",
+                "durationSeconds": 120,
+                "distanceMeters": null,
+                "intensity": "easy walk"
+              },
+              "notes": []
+            }
+          ]
+        },
+        "harder": {
+          "description": "Increase main set to 8 repetitions.",
+          "mainSet": [
+            {
+              "blockType": "repeat",
+              "name": "8 × 3-Min Intervals",
+              "description": "Run 8 reps of 3 minutes, walk 90 seconds.",
+              "repetitions": 8,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 180,
+                "intensity": "strong effort",
+                "targetType": "time"
+              },
+              "recovery": {
+                "type": "walk-jog",
+                "durationSeconds": 90,
+                "distanceMeters": null,
+                "intensity": "easy recovery jog"
+              },
+              "notes": []
+            }
+          ]
+        }
+      },
+      "coachingNotes": [
+        "Focus on smooth, relaxed running form. Do not sprint.",
+        "Prioritize a smooth, conversational rhythm for your base jog segments.",
+        "Great for building physical and mental pacing discipline."
+      ],
+      "commonMistakes": [
+        "Sprinting the segments too aggressively.",
+        "Shortening the recoveries."
+      ],
+      "safetyNotes": [
+        "Warm up thoroughly before beginning.",
+        "Ensure your posture remains tall and vertical during faster phases."
+      ],
+      "shareCard": {
+        "cardTitle": "Intermediate 6 × 3-Min Tempo Intervals",
+        "cardSubtitle": "Treadmill · INTERMEDIATE · TREADMILL",
+        "mainSetText": "6 × (3-Min Interval | 90s Jog)",
+        "purposeText": "A classic speed play session focusing on 3-minute high-quality segments.",
+        "footerNote": "Estimated Duration: 30-40 mins"
+      },
+      "tags": [
+        "Treadmill",
+        "intermediate",
+        "hard",
+        "medium-risk"
+      ],
+      "searchKeywords": [
+        "intermediate",
+        "treadmill",
+        "intervals",
+        "vo2max",
+        "fartlek",
+        "time-based"
+      ],
+      "uniquenessSignature": "tm-int-repeats6x3-011",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+    },
+    {
+      "id": "tv-tm-int-speed8x1-012",
+      "slug": "advanced-8-x-1-min-speed-play-treadmill-advanced",
+      "title": "Advanced 8 × 1-Min Speed Play",
+      "shortTitle": "8 × 1-Min Speed Play",
+      "summary": "A demanding speed play session consisting of alternating 1-minute speed segments on the treadmill to build turnover.",
+      "targetDistances": [
+        "Treadmill",
+        "General",
+        "5K"
+      ],
+      "primaryDistance": "Treadmill",
+      "category": "treadmill",
+      "trainingGoals": [
+        "neuromuscular-turnover",
+        "aerobic-power",
+        "mental-toughness"
+      ],
+      "level": "advanced",
+      "phase": [
+        "build",
+        "peak"
+      ],
+      "surface": [
+        "treadmill"
+      ],
+      "equipment": [
+        "treadmill"
+      ],
+      "estimatedDurationMin": {
+        "min": 30,
+        "max": 40
+      },
+      "estimatedDistanceKm": {
+        "min": 4.5,
+        "max": 7.0
+      },
+      "qualityDistanceKm": 0.0,
+      "difficulty": "hard",
+      "risk": "high",
+      "riskReason": "Fast running segments at target race pace introduce substantial fatigue.",
+      "intensityGuide": {
+        "primaryTarget": "high-quality speed play effort",
+        "paceGuide": "Select a speed that feels comfortably hard, around RPE 7.5/10. Keep incline at 1.5%.",
+        "hrGuide": "Spike to Zone 4 inside pickups; ensure it drops during recoveries.",
+        "rpeGuide": "RPE 7.5/10."
+      },
+      "workoutStructure": {
+        "warmup": [
+          {
+            "blockType": "warmup",
+            "name": "Dynamic Mobilization Warm-up",
+            "description": "5 mins of easy walking and mobility dynamics.",
+            "repetitions": 1,
+            "work": null,
+            "recovery": null,
+            "notes": []
+          }
+        ],
+        "mainSet": [
+          {
+            "blockType": "repeat",
+            "name": "8 × 1-Min Speed Pickups",
+            "description": "Run 8 repetitions of 1 minute at target 5K race effort with 60 seconds of walking or easy jogging recovery between pickups.",
+            "repetitions": 8,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 60,
+              "intensity": "high-quality speed effort",
+              "targetType": "time"
+            },
+            "recovery": {
+              "type": "walk-jog",
+              "durationSeconds": 60,
+              "distanceMeters": null,
+              "intensity": "easy recovery jog"
+            },
+            "notes": []
+          }
+        ],
+        "cooldown": [
+          {
+            "blockType": "cooldown",
+            "name": "Gentle Walking Cooldown",
+            "description": "5 mins walking.",
+            "repetitions": 1,
+            "work": null,
+            "recovery": null,
+            "notes": []
+          }
+        ]
+      },
+      "variants": {
+        "easier": {
+          "description": "Reduce main set to 6 repetitions with 90-second walking recoveries.",
+          "mainSet": [
+            {
+              "blockType": "repeat",
+              "name": "6 × 1-Min Speed Pickups",
+              "description": "Run 6 reps of 1 minute, walk 90 seconds.",
+              "repetitions": 6,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 60,
+                "intensity": "light effort",
+                "targetType": "time"
+              },
+              "recovery": {
+                "type": "walk",
+                "durationSeconds": 90,
+                "distanceMeters": null,
+                "intensity": "easy walk"
+              },
+              "notes": []
+            }
+          ]
+        },
+        "harder": {
+          "description": "Increase main set to 10 repetitions.",
+          "mainSet": [
+            {
+              "blockType": "repeat",
+              "name": "10 × 1-Min Speed Pickups",
+              "description": "Run 10 reps of 1 minute, walk 60 seconds.",
+              "repetitions": 10,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 60,
+                "intensity": "strong effort",
+                "targetType": "time"
+              },
+              "recovery": {
+                "type": "walk-jog",
+                "durationSeconds": 60,
+                "distanceMeters": null,
+                "intensity": "easy recovery jog"
+              },
+              "notes": []
+            }
+          ]
+        }
+      },
+      "coachingNotes": [
+        "Focus on smooth, relaxed running form. Do not sprint.",
+        "Prioritize a smooth, conversational rhythm for your base jog segments.",
+        "Great for building physical and mental pacing discipline."
+      ],
+      "commonMistakes": [
+        "Sprinting the segments too aggressively.",
+        "Shortening the recoveries."
+      ],
+      "safetyNotes": [
+        "Warm up thoroughly before beginning.",
+        "Ensure your posture remains tall and vertical during faster phases."
+      ],
+      "shareCard": {
+        "cardTitle": "Advanced 8 × 1-Min Speed Play",
+        "cardSubtitle": "Treadmill · ADVANCED · TREADMILL",
+        "mainSetText": "8 × (1-Min Speed Pickup | 60s Walk-Jog)",
+        "purposeText": "A demanding speed play session consisting of alternating 1-min speed segments.",
+        "footerNote": "Estimated Duration: 30-40 mins"
+      },
+      "tags": [
+        "Treadmill",
+        "advanced",
+        "hard",
+        "high-risk"
+      ],
+      "searchKeywords": [
+        "advanced",
+        "treadmill",
+        "speed play",
+        "turnover",
+        "fartlek",
+        "time-based"
+      ],
+      "uniquenessSignature": "tm-int-speed8x1-012",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+    },
+    {
+      "id": "tv-tm-prg-progressive30m-013",
+      "slug": "developing-30-min-progressive-belt-treadmill-developing",
+      "title": "Developing 30-Min Progressive Belt",
+      "shortTitle": "Progressive Belt 30m",
+      "summary": "A progressive aerobic run that gradually increases belt speed every 5 minutes to develop pacing discipline safely.",
+      "targetDistances": [
+        "Treadmill",
+        "General"
+      ],
+      "primaryDistance": "Treadmill",
+      "category": "treadmill",
+      "trainingGoals": [
+        "pacing-discipline",
+        "aerobic-power",
+        "muscular-durability"
+      ],
+      "level": "developing",
+      "phase": [
+        "base",
+        "build"
+      ],
+      "surface": [
+        "treadmill"
+      ],
+      "equipment": [
+        "treadmill"
+      ],
+      "estimatedDurationMin": {
+        "min": 25,
+        "max": 35
+      },
+      "estimatedDistanceKm": {
+        "min": 3.5,
+        "max": 5.5
+      },
+      "qualityDistanceKm": 0.0,
+      "difficulty": "moderate",
+      "risk": "medium",
+      "riskReason": "Variable intensity progressive running introduces moderate muscle fatigue.",
+      "intensityGuide": {
+        "primaryTarget": "progressive aerobic tempo effort",
+        "paceGuide": "Start at slow easy jog speed. Increase speed slightly every 5 minutes to end around steady tempo RPE 6/10. Keep incline at 1.0%.",
+        "hrGuide": "Heart rate stable in high Zone 2, rising to Zone 3 in final segment.",
+        "rpeGuide": "RPE 3 to RPE 6."
+      },
+      "workoutStructure": {
+        "warmup": [
+          {
+            "blockType": "warmup",
+            "name": "Dynamic Mobilization Warm-up",
+            "description": "5 mins of easy walking and mobility dynamics.",
+            "repetitions": 1,
+            "work": null,
+            "recovery": null,
+            "notes": []
+          }
+        ],
+        "mainSet": [
+          {
+            "blockType": "repeat",
+            "name": "30-Min Progressive Run",
+            "description": "Run 30 minutes continuously, increasing belt speed slightly every 5 minutes.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 1800,
+              "intensity": "progressive aerobic effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": []
+          }
+        ],
+        "cooldown": [
+          {
+            "blockType": "cooldown",
+            "name": "Walking Cooldown",
+            "description": "3 mins slow walking.",
+            "repetitions": 1,
+            "work": null,
+            "recovery": null,
+            "notes": []
+          }
+        ]
+      },
+      "variants": {
+        "easier": {
+          "description": "Reduce running duration to 20 minutes continuous.",
+          "mainSet": [
+            {
+              "blockType": "repeat",
+              "name": "20-Min Progressive Run",
+              "description": "Run 20 minutes continuously.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 1200,
+                "intensity": "easy effort",
+                "targetType": "time"
+              },
+              "recovery": null,
+              "notes": []
+            }
+          ]
+        },
+        "harder": {
+          "description": "Increase running duration to 40 minutes continuous.",
+          "mainSet": [
+            {
+              "blockType": "repeat",
+              "name": "40-Min Progressive Run",
+              "description": "Run 40 minutes continuously.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 2400,
+                "intensity": "strong effort",
+                "targetType": "time"
+              },
+              "recovery": null,
+              "notes": []
+            }
+          ]
+        }
+      },
+      "coachingNotes": [
+        "Focus on maintaining a smooth, progressive acceleration.",
+        "Keep the upper body fully relaxed."
+      ],
+      "commonMistakes": [
+        "Running the early segments too fast.",
+        "Skipping dynamic mobilization."
+      ],
+      "safetyNotes": [
+        "Warm up thoroughly before beginning.",
+        "Never step off the treadmill while the belt is moving."
+      ],
+      "shareCard": {
+        "cardTitle": "Developing 30-Min Progressive Belt",
+        "cardSubtitle": "Treadmill · DEVELOPING · TREADMILL",
+        "mainSetText": "1 × 30-Min Progressive Run @ 1.0% Incline",
+        "purposeText": "A progressive aerobic run designed to build stamina and pacing control safely.",
+        "footerNote": "Estimated Duration: 25-35 mins"
+      },
+      "tags": [
+        "Treadmill",
+        "developing",
+        "moderate",
+        "medium-risk"
+      ],
+      "searchKeywords": [
+        "developing",
+        "treadmill",
+        "progressive",
+        "stamina",
+        "time-based"
+      ],
+      "uniquenessSignature": "tm-prg-progressive30m-013",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+    },
+    {
+      "id": "tv-tm-prg-outback40m-014",
+      "slug": "intermediate-40-min-out-and-back-progression-treadmill-intermediate",
+      "title": "Intermediate 40-Min Out-and-Back Progression",
+      "shortTitle": "Outback Progression",
+      "summary": "A progressive 40-minute continuous run on the treadmill designed to practice pacing discipline.",
+      "targetDistances": [
+        "Treadmill",
+        "General",
+        "5K"
+      ],
+      "primaryDistance": "Treadmill",
+      "category": "treadmill",
+      "trainingGoals": [
+        "progressive-pacing",
+        "fatigue-resistance",
+        "stamina-development"
+      ],
+      "level": "intermediate",
+      "phase": [
+        "base",
+        "build"
+      ],
+      "surface": [
+        "treadmill"
+      ],
+      "equipment": [
+        "treadmill"
+      ],
+      "estimatedDurationMin": {
+        "min": 35,
+        "max": 45
+      },
+      "estimatedDistanceKm": {
+        "min": 4.5,
+        "max": 7.0
+      },
+      "qualityDistanceKm": 0.0,
+      "difficulty": "moderate-hard",
+      "risk": "medium",
+      "riskReason": "Structured progressive running introduces moderate muscle fatigue.",
+      "intensityGuide": {
+        "primaryTarget": "progressive tempo effort",
+        "paceGuide": "Outward leg warm-up at relaxed conversational pace; return leg has speed increased every 3 minutes to tempo effort. Keep incline at 1.0%.",
+        "hrGuide": "Low Zone 2, rising to Zone 3 on return leg.",
+        "rpeGuide": "RPE 3 to RPE 6."
+      },
+      "workoutStructure": {
+        "warmup": [
+          {
+            "blockType": "warmup",
+            "name": "Dynamic Mobilization Warm-up",
+            "description": "5 mins of easy walking and mobility dynamics.",
+            "repetitions": 1,
+            "work": null,
+            "recovery": null,
+            "notes": []
+          }
+        ],
+        "mainSet": [
+          {
+            "blockType": "progression-run",
+            "name": "Treadmill 36-Min Out-and-Back Progression",
+            "description": "Run 18 minutes gradually building, then 18 minutes settling back down.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 2160,
+              "intensity": "treadmill progression effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Use controlled belt-speed changes only."
+            ]
+          }
+        ],
+        "cooldown": [
+          {
+            "blockType": "cooldown",
+            "name": "Walking Cooldown",
+            "description": "3 mins slow walking.",
+            "repetitions": 1,
+            "work": null,
+            "recovery": null,
+            "notes": []
+          }
+        ]
+      },
+      "variants": {
+        "easier": {
+          "description": "Reduce running duration to 30 minutes total: 15m out, 15m back.",
+          "mainSet": [
+            {
+              "blockType": "long-run",
+              "name": "Outward Leg: Easy Jog",
+              "description": "Run 15 minutes easy.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 900,
+                "intensity": "easy effort",
+                "targetType": "time"
+              },
+              "recovery": null,
+              "notes": []
+            },
+            {
+              "blockType": "repeat",
+              "name": "Return Leg: 15-Min Progression",
+              "description": "Run 15 minutes with speed increases.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 900,
+                "intensity": "moderate pickups",
+                "targetType": "time"
+              },
+              "recovery": null,
+              "notes": []
+            }
+          ]
+        },
+        "harder": {
+          "description": "Increase running duration to 50 minutes total: 25m out, 25m back.",
+          "mainSet": [
+            {
+              "blockType": "long-run",
+              "name": "Outward Leg: Easy Jog",
+              "description": "Run 25 minutes easy.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 1500,
+                "intensity": "easy effort",
+                "targetType": "time"
+              },
+              "recovery": null,
+              "notes": []
+            },
+            {
+              "blockType": "repeat",
+              "name": "Return Leg: 25-Min Progression",
+              "description": "Run 25 minutes with speed increases.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 1500,
+                "intensity": "strong pickups",
+                "targetType": "time"
+              },
+              "recovery": null,
+              "notes": []
+            }
+          ]
+        }
+      },
+      "coachingNotes": [
+        "Pacing discipline is key. Do not race the outward leg.",
+        "Focus on maintaining a steady rhythm on the return leg.",
+        "Practice focusing on a steady breath rhythm as muscles tire."
+      ],
+      "commonMistakes": [
+        "Running the outward leg too aggressively.",
+        "Skipping dynamic mobilization."
+      ],
+      "safetyNotes": [
+        "Warm up thoroughly before beginning.",
+        "Never step off the treadmill while the belt is moving."
+      ],
+      "shareCard": {
+        "cardTitle": "Intermediate 40-Min Out-and-Back Progression",
+        "cardSubtitle": "Treadmill · INTERMEDIATE · TREADMILL",
+        "mainSetText": "Treadmill 36-Min Out-and-Back Progression",
+        "purposeText": "A progressive 40-minute continuous run to build stamina and pacing control.",
+        "footerNote": "Estimated Duration: 35-45 mins"
+      },
+      "tags": [
+        "Treadmill",
+        "intermediate",
+        "moderate-hard",
+        "medium-risk"
+      ],
+      "searchKeywords": [
+        "intermediate",
+        "treadmill",
+        "progressive",
+        "stamina",
+        "time-based"
+      ],
+      "uniquenessSignature": "tm-prg-outback40m-014-3a4d110d",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+    },
+    {
+      "id": "tv-tm-rec-active20m-015",
+      "slug": "beginner-active-recovery-belt-20-min-treadmill-beginner",
+      "title": "Beginner Active Recovery Belt 20-Min",
+      "shortTitle": "Active Recovery 20m",
+      "summary": "A very gentle, low-impact recovery session designed to promote blood circulation and ease muscle tightness.",
+      "targetDistances": [
+        "Treadmill",
+        "General"
+      ],
+      "primaryDistance": "Treadmill",
+      "category": "treadmill",
+      "trainingGoals": [
+        "recovery",
+        "aerobic-base",
+        "cardiorespiratory-health"
+      ],
+      "level": "beginner",
+      "phase": [
+        "base",
+        "return-to-running",
+        "general"
+      ],
+      "surface": [
+        "treadmill"
+      ],
+      "equipment": [
+        "treadmill"
+      ],
+      "estimatedDurationMin": {
+        "min": 15,
+        "max": 20
+      },
+      "estimatedDistanceKm": {
+        "min": 2.0,
+        "max": 3.5
+      },
+      "qualityDistanceKm": 0.0,
+      "difficulty": "easy",
+      "risk": "low",
+      "riskReason": "Continuous easy running on a flat, cushioned treadmill deck is low impact.",
+      "intensityGuide": {
+        "primaryTarget": "steady conversational effort",
+        "paceGuide": "Select a very slow, comfortable jogging speed. Keep incline at a steady 0.5-1.0%.",
+        "hrGuide": "Heart rate stable in Zone 1, RPE 3/10.",
+        "rpeGuide": "RPE 3/10."
+      },
+      "workoutStructure": {
+        "warmup": [
+          {
+            "blockType": "warmup",
+            "name": "Active Warm-up walk",
+            "description": "3 mins progressive walk on the belt.",
+            "repetitions": 1,
+            "work": null,
+            "recovery": null,
+            "notes": []
+          }
+        ],
+        "mainSet": [
+          {
+            "blockType": "long-run",
+            "name": "20-Min Easy Jog",
+            "description": "Run continuously at a relaxed conversational speed on a flat belt (0.5-1.0% incline).",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 1200,
+              "intensity": "conversational easy effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": []
+          }
+        ],
+        "cooldown": [
+          {
+            "blockType": "cooldown",
+            "name": "Walking Cooldown",
+            "description": "3 mins slow walking to let heart rate settle down safely.",
+            "repetitions": 1,
+            "work": null,
+            "recovery": null,
+            "notes": []
+          }
+        ]
+      },
+      "variants": {
+        "easier": {
+          "description": "Reduce running duration to 15 minutes continuous.",
+          "mainSet": [
+            {
+              "blockType": "long-run",
+              "name": "15-Min Easy Jog",
+              "description": "Maintain a slow steady jog for 15 minutes.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 900,
+                "intensity": "easy effort",
+                "targetType": "time"
+              },
+              "recovery": null,
+              "notes": []
+            }
+          ]
+        },
+        "harder": {
+          "description": "Increase running duration to 25 minutes continuous.",
+          "mainSet": [
+            {
+              "blockType": "long-run",
+              "name": "25-Min Easy Jog",
+              "description": "Maintain a steady conversational pace for 25 minutes.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 1500,
+                "intensity": "easy effort",
+                "targetType": "time"
+              },
+              "recovery": null,
+              "notes": []
+            }
+          ]
+        }
+      },
+      "coachingNotes": [
+        "Keep your stride short and quick to avoid slipping.",
+        "Ensure the safety clip is securely attached to your clothing before starting.",
+        "Do not jump off a moving treadmill belt; always let the belt stop completely."
+      ],
+      "commonMistakes": [
+        "Running too fast to chase average stats.",
+        "Skipping dynamic mobilization."
+      ],
+      "safetyNotes": [
+        "Achilles and knee joint protection. Do not raise incline past 1.0% without a proper warmup.",
+        "Never step off the treadmill while the belt is moving."
+      ],
+      "shareCard": {
+        "cardTitle": "Beginner Active Recovery Belt 20-Min",
+        "cardSubtitle": "Treadmill · BEGINNER · TREADMILL",
+        "mainSetText": "1 × 20-Min Easy Jog @ 0.5-1.0% Incline",
+        "purposeText": "A very gentle recovery session to promote blood circulation and ease tightness.",
+        "footerNote": "Estimated Duration: 15-20 mins"
+      },
+      "tags": [
+        "Treadmill",
+        "beginner",
+        "easy",
+        "low-risk"
+      ],
+      "searchKeywords": [
+        "beginner",
+        "treadmill",
+        "recovery",
+        "active",
+        "time-based"
+      ],
+      "uniquenessSignature": "tm-rec-active20m-015",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+    }
+  ]
+}

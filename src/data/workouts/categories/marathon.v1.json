@@ -1,0 +1,4871 @@
+{
+  "categoryMeta": {
+    "product": "Track.Vault",
+    "version": "1.0.0",
+    "categoryId": "marathon",
+    "categoryLabel": "Marathon",
+    "description": "Marathon workouts focused on long runs, steady endurance, marathon effort, and fueling practice.",
+    "targetWorkoutCount": 25,
+    "actualWorkoutCount": 25,
+    "primaryDistances": [
+      "Marathon"
+    ],
+    "databaseRequired": false,
+    "aiGeneratedInProduct": false
+  },
+  "workouts": [
+    {
+      "id": "tv-m-001",
+      "slug": "marathon-easy-long-run-foundation-marathon-developing",
+      "title": "Marathon Easy Long Run Foundation",
+      "shortTitle": "Easy LR Foundation",
+      "summary": "A controlled easy long run for building marathon time-on-feet without added intensity.",
+      "targetDistances": [
+        "Marathon"
+      ],
+      "primaryDistance": "Marathon",
+      "category": "long-run",
+      "trainingGoals": [
+        "time-on-feet",
+        "aerobic-base"
+      ],
+      "level": "developing",
+      "phase": [
+        "base"
+      ],
+      "surface": [
+        "road",
+        "flat-road",
+        "rolling-road"
+      ],
+      "equipment": [
+        "gps-watch",
+        "timer",
+        "fuel"
+      ],
+      "estimatedDurationMin": {
+        "min": 90,
+        "max": 120
+      },
+      "estimatedDistanceKm": {
+        "min": 12.0,
+        "max": 18.0
+      },
+      "qualityDistanceKm": 0.0,
+      "difficulty": "moderate",
+      "risk": "medium",
+      "riskReason": "Long duration increases cumulative fatigue, hydration demand, and lower-leg stress.",
+      "intensityGuide": {
+        "primaryTarget": "marathon effort and aerobic durability",
+        "paceGuide": "Use marathon effort, steady effort, or easy conversational effort. Do not chase fixed pace if terrain, heat, or fatigue changes.",
+        "hrGuide": "Heart rate should rise gradually; sustained drift late in long runs is a sign to slow down, fuel, or shorten.",
+        "rpeGuide": "RPE 4–5/10."
+      },
+      "workoutStructure": {
+        "warmup": [
+          {
+            "blockType": "warmup",
+            "name": "Easy Start",
+            "description": "Start with easy jogging or brisk walking before settling into the main endurance work.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 600,
+              "intensity": "very easy effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Let the first minutes feel almost too easy."
+            ]
+          }
+        ],
+        "mainSet": [
+          {
+            "blockType": "long-run",
+            "name": "90–120-Min Easy Long Run",
+            "description": "Run continuously at easy conversational effort.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 6300,
+              "intensity": "easy conversational effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Fuel if the run exceeds 90 minutes."
+            ]
+          }
+        ],
+        "cooldown": [
+          {
+            "blockType": "cooldown",
+            "name": "Easy Walk-Jog Cooldown",
+            "description": "Walk or jog very easily after the main endurance work.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 300,
+              "intensity": "very easy recovery effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Rehydrate and let breathing return to normal."
+            ]
+          }
+        ]
+      },
+      "variants": {
+        "easier": {
+          "description": "Reduce the main-set load while keeping the same training purpose.",
+          "mainSet": [
+            {
+              "blockType": "long-run",
+              "name": "75–90-Min Easy Long Run",
+              "description": "Run continuously at easy effort for a shorter duration.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 4800,
+                "intensity": "easy conversational effort",
+                "targetType": "time"
+              },
+              "recovery": null,
+              "notes": [
+                "Keep it relaxed."
+              ]
+            }
+          ]
+        },
+        "harder": {
+          "description": "Increase the main-set load only when the base version is controlled.",
+          "mainSet": [
+            {
+              "blockType": "long-run",
+              "name": "120–140-Min Easy Long Run",
+              "description": "Run continuously at easy effort for a longer duration.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 7800,
+                "intensity": "easy conversational effort",
+                "targetType": "time"
+              },
+              "recovery": null,
+              "notes": [
+                "Practice fueling."
+              ]
+            }
+          ]
+        }
+      },
+      "coachingNotes": [
+        "Use effort and fueling execution as the success metric, not only average pace.",
+        "Keep the first half conservative so late running mechanics stay clean.",
+        "Practice the same shoes, socks, hydration, and fueling approach you might use on race day when relevant."
+      ],
+      "commonMistakes": [
+        "Turning marathon effort into threshold effort.",
+        "Waiting too long before taking fuel or fluid during long sessions.",
+        "Forcing pace when heat, hills, or fatigue clearly change the effort."
+      ],
+      "safetyNotes": [
+        "Stop or shorten the workout if pain changes your stride.",
+        "Carry fluids or plan access to water for longer sessions.",
+        "Avoid demanding marathon workouts when sick, under-slept, injured, or carrying heavy fatigue."
+      ],
+      "shareCard": {
+        "cardTitle": "Easy LR Foundation",
+        "cardSubtitle": "Marathon · DEVELOPING · LONG-RUN",
+        "mainSetText": "90–120-Min Easy Long Run",
+        "purposeText": "A controlled easy long run for building marathon time-on-feet without added intensity.",
+        "footerNote": "Risk: medium. Keep it controlled."
+      },
+      "tags": [
+        "Marathon",
+        "long-run",
+        "developing",
+        "moderate",
+        "medium"
+      ],
+      "searchKeywords": [
+        "developing",
+        "marathon",
+        "long-run",
+        "easy lr foundation",
+        "long run",
+        "fueling"
+      ],
+      "uniquenessSignature": "26808c87c3-marathon-easy-long-run-foundation-marathon-developing",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+    },
+    {
+      "id": "tv-m-002",
+      "slug": "marathon-soft-surface-long-run-marathon-recreational",
+      "title": "Marathon Soft-Surface Long Run",
+      "shortTitle": "Soft-Surface LR",
+      "summary": "An easy long run on softer terrain to reduce impact while building endurance.",
+      "targetDistances": [
+        "Marathon"
+      ],
+      "primaryDistance": "Marathon",
+      "category": "long-run",
+      "trainingGoals": [
+        "impact-management",
+        "aerobic-durability"
+      ],
+      "level": "recreational",
+      "phase": [
+        "base"
+      ],
+      "surface": [
+        "road",
+        "flat-road",
+        "rolling-road"
+      ],
+      "equipment": [
+        "gps-watch",
+        "timer",
+        "fuel"
+      ],
+      "estimatedDurationMin": {
+        "min": 75,
+        "max": 105
+      },
+      "estimatedDistanceKm": {
+        "min": 10.0,
+        "max": 16.0
+      },
+      "qualityDistanceKm": 0.0,
+      "difficulty": "moderate",
+      "risk": "medium",
+      "riskReason": "Long duration increases cumulative fatigue, hydration demand, and lower-leg stress.",
+      "intensityGuide": {
+        "primaryTarget": "marathon effort and aerobic durability",
+        "paceGuide": "Use marathon effort, steady effort, or easy conversational effort. Do not chase fixed pace if terrain, heat, or fatigue changes.",
+        "hrGuide": "Heart rate should rise gradually; sustained drift late in long runs is a sign to slow down, fuel, or shorten.",
+        "rpeGuide": "RPE 4–5/10."
+      },
+      "workoutStructure": {
+        "warmup": [
+          {
+            "blockType": "warmup",
+            "name": "Easy Start",
+            "description": "Start with easy jogging or brisk walking before settling into the main endurance work.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 600,
+              "intensity": "very easy effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Let the first minutes feel almost too easy."
+            ]
+          }
+        ],
+        "mainSet": [
+          {
+            "blockType": "long-run",
+            "name": "Soft-Surface Easy Long Run",
+            "description": "Run easy on grass, trail, or smooth park paths.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 5400,
+              "intensity": "easy conversational effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Keep footing safe and controlled."
+            ]
+          }
+        ],
+        "cooldown": [
+          {
+            "blockType": "cooldown",
+            "name": "Easy Walk-Jog Cooldown",
+            "description": "Walk or jog very easily after the main endurance work.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 300,
+              "intensity": "very easy recovery effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Rehydrate and let breathing return to normal."
+            ]
+          }
+        ]
+      },
+      "variants": {
+        "easier": {
+          "description": "Reduce the main-set load while keeping the same training purpose.",
+          "mainSet": [
+            {
+              "blockType": "long-run",
+              "name": "Short Soft-Surface Long Run",
+              "description": "Run easy on soft surface for a shorter duration.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 4200,
+                "intensity": "easy conversational effort",
+                "targetType": "time"
+              },
+              "recovery": null,
+              "notes": [
+                "Do not chase pace."
+              ]
+            }
+          ]
+        },
+        "harder": {
+          "description": "Increase the main-set load only when the base version is controlled.",
+          "mainSet": [
+            {
+              "blockType": "long-run",
+              "name": "Extended Soft-Surface Long Run",
+              "description": "Run easy on soft surface for a longer duration.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 6300,
+                "intensity": "easy conversational effort",
+                "targetType": "time"
+              },
+              "recovery": null,
+              "notes": [
+                "Hydrate well."
+              ]
+            }
+          ]
+        }
+      },
+      "coachingNotes": [
+        "Use effort and fueling execution as the success metric, not only average pace.",
+        "Keep the first half conservative so late running mechanics stay clean.",
+        "Practice the same shoes, socks, hydration, and fueling approach you might use on race day when relevant."
+      ],
+      "commonMistakes": [
+        "Turning marathon effort into threshold effort.",
+        "Waiting too long before taking fuel or fluid during long sessions.",
+        "Forcing pace when heat, hills, or fatigue clearly change the effort."
+      ],
+      "safetyNotes": [
+        "Stop or shorten the workout if pain changes your stride.",
+        "Carry fluids or plan access to water for longer sessions.",
+        "Avoid demanding marathon workouts when sick, under-slept, injured, or carrying heavy fatigue."
+      ],
+      "shareCard": {
+        "cardTitle": "Soft-Surface LR",
+        "cardSubtitle": "Marathon · RECREATIONAL · LONG-RUN",
+        "mainSetText": "Soft-Surface Easy Long Run",
+        "purposeText": "An easy long run on softer terrain to reduce impact while building endurance.",
+        "footerNote": "Risk: medium. Keep it controlled."
+      },
+      "tags": [
+        "Marathon",
+        "long-run",
+        "recreational",
+        "moderate",
+        "medium"
+      ],
+      "searchKeywords": [
+        "recreational",
+        "marathon",
+        "long-run",
+        "soft-surface lr",
+        "long run",
+        "fueling"
+      ],
+      "uniquenessSignature": "b416d52417-marathon-soft-surface-long-run-marathon-recreational",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+    },
+    {
+      "id": "tv-m-003",
+      "slug": "marathon-aerobic-duration-builder-marathon-intermediate",
+      "title": "Marathon Aerobic Duration Builder",
+      "shortTitle": "Duration Builder",
+      "summary": "A long aerobic run focused purely on consistency, patience, and sustainable rhythm.",
+      "targetDistances": [
+        "Marathon"
+      ],
+      "primaryDistance": "Marathon",
+      "category": "long-run",
+      "trainingGoals": [
+        "duration-tolerance",
+        "aerobic-base"
+      ],
+      "level": "intermediate",
+      "phase": [
+        "base",
+        "build"
+      ],
+      "surface": [
+        "road",
+        "flat-road",
+        "rolling-road"
+      ],
+      "equipment": [
+        "gps-watch",
+        "timer",
+        "fuel"
+      ],
+      "estimatedDurationMin": {
+        "min": 105,
+        "max": 135
+      },
+      "estimatedDistanceKm": {
+        "min": 15.0,
+        "max": 22.0
+      },
+      "qualityDistanceKm": 0.0,
+      "difficulty": "moderate-hard",
+      "risk": "medium",
+      "riskReason": "Long duration increases cumulative fatigue, hydration demand, and lower-leg stress.",
+      "intensityGuide": {
+        "primaryTarget": "marathon effort and aerobic durability",
+        "paceGuide": "Use marathon effort, steady effort, or easy conversational effort. Do not chase fixed pace if terrain, heat, or fatigue changes.",
+        "hrGuide": "Heart rate should rise gradually; sustained drift late in long runs is a sign to slow down, fuel, or shorten.",
+        "rpeGuide": "RPE 5–7/10."
+      },
+      "workoutStructure": {
+        "warmup": [
+          {
+            "blockType": "warmup",
+            "name": "Easy Start",
+            "description": "Start with easy jogging or brisk walking before settling into the main endurance work.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 600,
+              "intensity": "very easy effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Let the first minutes feel almost too easy."
+            ]
+          }
+        ],
+        "mainSet": [
+          {
+            "blockType": "long-run",
+            "name": "105–135-Min Aerobic Duration",
+            "description": "Run continuously at easy-to-steady aerobic effort.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 7200,
+              "intensity": "easy to steady aerobic effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Do not progress if fatigued."
+            ]
+          }
+        ],
+        "cooldown": [
+          {
+            "blockType": "cooldown",
+            "name": "Easy Walk-Jog Cooldown",
+            "description": "Walk or jog very easily after the main endurance work.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 300,
+              "intensity": "very easy recovery effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Rehydrate and let breathing return to normal."
+            ]
+          }
+        ]
+      },
+      "variants": {
+        "easier": {
+          "description": "Reduce the main-set load while keeping the same training purpose.",
+          "mainSet": [
+            {
+              "blockType": "long-run",
+              "name": "90-Min Aerobic Duration",
+              "description": "Run continuously at easy aerobic effort.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 5400,
+                "intensity": "easy aerobic effort",
+                "targetType": "time"
+              },
+              "recovery": null,
+              "notes": [
+                "Stay easy."
+              ]
+            }
+          ]
+        },
+        "harder": {
+          "description": "Increase the main-set load only when the base version is controlled.",
+          "mainSet": [
+            {
+              "blockType": "long-run",
+              "name": "140-Min Aerobic Duration",
+              "description": "Run continuously at easy-to-steady aerobic effort.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 8400,
+                "intensity": "easy to steady aerobic effort",
+                "targetType": "time"
+              },
+              "recovery": null,
+              "notes": [
+                "Fuel consistently."
+              ]
+            }
+          ]
+        }
+      },
+      "coachingNotes": [
+        "Use effort and fueling execution as the success metric, not only average pace.",
+        "Keep the first half conservative so late running mechanics stay clean.",
+        "Practice the same shoes, socks, hydration, and fueling approach you might use on race day when relevant."
+      ],
+      "commonMistakes": [
+        "Turning marathon effort into threshold effort.",
+        "Waiting too long before taking fuel or fluid during long sessions.",
+        "Forcing pace when heat, hills, or fatigue clearly change the effort."
+      ],
+      "safetyNotes": [
+        "Stop or shorten the workout if pain changes your stride.",
+        "Carry fluids or plan access to water for longer sessions.",
+        "Avoid demanding marathon workouts when sick, under-slept, injured, or carrying heavy fatigue."
+      ],
+      "shareCard": {
+        "cardTitle": "Duration Builder",
+        "cardSubtitle": "Marathon · INTERMEDIATE · LONG-RUN",
+        "mainSetText": "105–135-Min Aerobic Duration",
+        "purposeText": "A long aerobic run focused purely on consistency, patience, and sustainable rhythm.",
+        "footerNote": "Risk: medium. Keep it controlled."
+      },
+      "tags": [
+        "Marathon",
+        "long-run",
+        "intermediate",
+        "moderate-hard",
+        "medium"
+      ],
+      "searchKeywords": [
+        "intermediate",
+        "marathon",
+        "long-run",
+        "duration builder",
+        "long run",
+        "fueling"
+      ],
+      "uniquenessSignature": "5e975dcdd5-marathon-aerobic-duration-builder-marathon-intermediate",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+    },
+    {
+      "id": "tv-m-004",
+      "slug": "marathon-recovery-long-jog-marathon-developing",
+      "title": "Marathon Recovery Long Jog",
+      "shortTitle": "Recovery Long Jog",
+      "summary": "A lower-stress long jog for maintaining marathon rhythm during heavy training weeks.",
+      "targetDistances": [
+        "Marathon"
+      ],
+      "primaryDistance": "Marathon",
+      "category": "long-run",
+      "trainingGoals": [
+        "recovery-support",
+        "aerobic-maintenance"
+      ],
+      "level": "developing",
+      "phase": [
+        "recovery",
+        "base"
+      ],
+      "surface": [
+        "road",
+        "flat-road",
+        "rolling-road"
+      ],
+      "equipment": [
+        "gps-watch",
+        "timer",
+        "fuel"
+      ],
+      "estimatedDurationMin": {
+        "min": 70,
+        "max": 95
+      },
+      "estimatedDistanceKm": {
+        "min": 9.0,
+        "max": 14.0
+      },
+      "qualityDistanceKm": 0.0,
+      "difficulty": "moderate",
+      "risk": "low",
+      "riskReason": "Low-intensity aerobic running keeps mechanical stress controlled.",
+      "intensityGuide": {
+        "primaryTarget": "marathon effort and aerobic durability",
+        "paceGuide": "Use marathon effort, steady effort, or easy conversational effort. Do not chase fixed pace if terrain, heat, or fatigue changes.",
+        "hrGuide": "Heart rate should rise gradually; sustained drift late in long runs is a sign to slow down, fuel, or shorten.",
+        "rpeGuide": "RPE 4–5/10."
+      },
+      "workoutStructure": {
+        "warmup": [
+          {
+            "blockType": "warmup",
+            "name": "Easy Start",
+            "description": "Start with easy jogging or brisk walking before settling into the main endurance work.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 600,
+              "intensity": "very easy effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Let the first minutes feel almost too easy."
+            ]
+          }
+        ],
+        "mainSet": [
+          {
+            "blockType": "long-run",
+            "name": "70–95-Min Recovery Long Jog",
+            "description": "Run very easily with relaxed cadence and no pace pressure.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 4800,
+              "intensity": "very easy conversational effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Use this when tired."
+            ]
+          }
+        ],
+        "cooldown": [
+          {
+            "blockType": "cooldown",
+            "name": "Easy Walk-Jog Cooldown",
+            "description": "Walk or jog very easily after the main endurance work.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 300,
+              "intensity": "very easy recovery effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Rehydrate and let breathing return to normal."
+            ]
+          }
+        ]
+      },
+      "variants": {
+        "easier": {
+          "description": "Reduce the main-set load while keeping the same training purpose.",
+          "mainSet": [
+            {
+              "blockType": "long-run",
+              "name": "60-Min Recovery Long Jog",
+              "description": "Run very easily for a shorter duration.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 3600,
+                "intensity": "very easy effort",
+                "targetType": "time"
+              },
+              "recovery": null,
+              "notes": [
+                "Walk if needed."
+              ]
+            }
+          ]
+        },
+        "harder": {
+          "description": "Increase the main-set load only when the base version is controlled.",
+          "mainSet": [
+            {
+              "blockType": "long-run",
+              "name": "100-Min Recovery Long Jog",
+              "description": "Run very easily for a longer duration.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 6000,
+                "intensity": "very easy effort",
+                "targetType": "time"
+              },
+              "recovery": null,
+              "notes": [
+                "Only if recovering well."
+              ]
+            }
+          ]
+        }
+      },
+      "coachingNotes": [
+        "Use effort and fueling execution as the success metric, not only average pace.",
+        "Keep the first half conservative so late running mechanics stay clean.",
+        "Practice the same shoes, socks, hydration, and fueling approach you might use on race day when relevant."
+      ],
+      "commonMistakes": [
+        "Turning marathon effort into threshold effort.",
+        "Waiting too long before taking fuel or fluid during long sessions.",
+        "Forcing pace when heat, hills, or fatigue clearly change the effort."
+      ],
+      "safetyNotes": [
+        "Stop or shorten the workout if pain changes your stride.",
+        "Carry fluids or plan access to water for longer sessions.",
+        "Avoid demanding marathon workouts when sick, under-slept, injured, or carrying heavy fatigue."
+      ],
+      "shareCard": {
+        "cardTitle": "Recovery Long Jog",
+        "cardSubtitle": "Marathon · DEVELOPING · LONG-RUN",
+        "mainSetText": "70–95-Min Recovery Long Jog",
+        "purposeText": "A lower-stress long jog for maintaining marathon rhythm during heavy training weeks.",
+        "footerNote": "Risk: low. Keep it controlled."
+      },
+      "tags": [
+        "Marathon",
+        "long-run",
+        "developing",
+        "moderate",
+        "low"
+      ],
+      "searchKeywords": [
+        "developing",
+        "marathon",
+        "long-run",
+        "recovery long jog",
+        "long run",
+        "fueling"
+      ],
+      "uniquenessSignature": "73e945df18-marathon-recovery-long-jog-marathon-developing",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+    },
+    {
+      "id": "tv-m-005",
+      "slug": "marathon-2-x-20-min-effort-marathon-intermediate",
+      "title": "Marathon 2 × 20-Min Effort",
+      "shortTitle": "2 × 20 MP",
+      "summary": "A classic marathon-effort block workout for practicing rhythm while staying controlled.",
+      "targetDistances": [
+        "Marathon"
+      ],
+      "primaryDistance": "Marathon",
+      "category": "race-pace",
+      "trainingGoals": [
+        "marathon-effort",
+        "rhythm"
+      ],
+      "level": "intermediate",
+      "phase": [
+        "build"
+      ],
+      "surface": [
+        "road",
+        "flat-road",
+        "rolling-road"
+      ],
+      "equipment": [
+        "gps-watch",
+        "timer",
+        "fuel"
+      ],
+      "estimatedDurationMin": {
+        "min": 80,
+        "max": 105
+      },
+      "estimatedDistanceKm": {
+        "min": 13.0,
+        "max": 18.0
+      },
+      "qualityDistanceKm": 8.0,
+      "difficulty": "hard",
+      "risk": "medium",
+      "riskReason": "Long duration increases cumulative fatigue, hydration demand, and lower-leg stress.",
+      "intensityGuide": {
+        "primaryTarget": "marathon effort and aerobic durability",
+        "paceGuide": "Use marathon effort, steady effort, or easy conversational effort. Do not chase fixed pace if terrain, heat, or fatigue changes.",
+        "hrGuide": "Heart rate should rise gradually; sustained drift late in long runs is a sign to slow down, fuel, or shorten.",
+        "rpeGuide": "RPE 7–8/10."
+      },
+      "workoutStructure": {
+        "warmup": [
+          {
+            "blockType": "warmup",
+            "name": "Easy Start",
+            "description": "Start with easy jogging or brisk walking before settling into the main endurance work.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 600,
+              "intensity": "very easy effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Let the first minutes feel almost too easy."
+            ]
+          }
+        ],
+        "mainSet": [
+          {
+            "blockType": "repeat",
+            "name": "2 × 20-Min Marathon Effort",
+            "description": "Run 2 repetitions of 20s at marathon effort.",
+            "repetitions": 2,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 1200,
+              "intensity": "marathon effort",
+              "targetType": "time"
+            },
+            "recovery": {
+              "type": "jog",
+              "durationSeconds": 300,
+              "distanceMeters": null,
+              "intensity": "easy"
+            },
+            "notes": [
+              "Keep the effort controlled."
+            ]
+          }
+        ],
+        "cooldown": [
+          {
+            "blockType": "cooldown",
+            "name": "Easy Walk-Jog Cooldown",
+            "description": "Walk or jog very easily after the main endurance work.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 300,
+              "intensity": "very easy recovery effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Rehydrate and let breathing return to normal."
+            ]
+          }
+        ]
+      },
+      "variants": {
+        "easier": {
+          "description": "Reduce the main-set load while keeping the same training purpose.",
+          "mainSet": [
+            {
+              "blockType": "repeat",
+              "name": "2 × 15-Min Marathon Effort",
+              "description": "Run 2 repetitions of 15s at marathon effort.",
+              "repetitions": 2,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 900,
+                "intensity": "marathon effort",
+                "targetType": "time"
+              },
+              "recovery": {
+                "type": "jog",
+                "durationSeconds": 300,
+                "distanceMeters": null,
+                "intensity": "easy"
+              },
+              "notes": [
+                "Keep the effort controlled."
+              ]
+            }
+          ]
+        },
+        "harder": {
+          "description": "Increase the main-set load only when the base version is controlled.",
+          "mainSet": [
+            {
+              "blockType": "repeat",
+              "name": "3 × 20-Min Marathon Effort",
+              "description": "Run 3 repetitions of 20s at marathon effort.",
+              "repetitions": 3,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 1200,
+                "intensity": "marathon effort",
+                "targetType": "time"
+              },
+              "recovery": {
+                "type": "jog",
+                "durationSeconds": 300,
+                "distanceMeters": null,
+                "intensity": "easy"
+              },
+              "notes": [
+                "Keep the effort controlled."
+              ]
+            }
+          ]
+        }
+      },
+      "coachingNotes": [
+        "Use effort and fueling execution as the success metric, not only average pace.",
+        "Keep the first half conservative so late running mechanics stay clean.",
+        "Practice the same shoes, socks, hydration, and fueling approach you might use on race day when relevant."
+      ],
+      "commonMistakes": [
+        "Turning marathon effort into threshold effort.",
+        "Waiting too long before taking fuel or fluid during long sessions.",
+        "Forcing pace when heat, hills, or fatigue clearly change the effort."
+      ],
+      "safetyNotes": [
+        "Stop or shorten the workout if pain changes your stride.",
+        "Carry fluids or plan access to water for longer sessions.",
+        "Avoid demanding marathon workouts when sick, under-slept, injured, or carrying heavy fatigue."
+      ],
+      "shareCard": {
+        "cardTitle": "2 × 20 MP",
+        "cardSubtitle": "Marathon · INTERMEDIATE · RACE-PACE",
+        "mainSetText": "2 × 20-Min Marathon Effort",
+        "purposeText": "A classic marathon-effort block workout for practicing rhythm while staying controlled.",
+        "footerNote": "Risk: medium. Keep it controlled."
+      },
+      "tags": [
+        "Marathon",
+        "race-pace",
+        "intermediate",
+        "hard",
+        "medium"
+      ],
+      "searchKeywords": [
+        "intermediate",
+        "marathon",
+        "race-pace",
+        "2 × 20 mp",
+        "long run",
+        "fueling"
+      ],
+      "uniquenessSignature": "dbfb99e163-marathon-2-x-20-min-effort-marathon-intermediate",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+    },
+    {
+      "id": "tv-m-006",
+      "slug": "marathon-3-x-5k-pace-blocks-marathon-advanced",
+      "title": "Marathon 3 × 5K Pace Blocks",
+      "shortTitle": "3 × 5K MP",
+      "summary": "A distance-based marathon-effort session for practicing pace durability.",
+      "targetDistances": [
+        "Marathon"
+      ],
+      "primaryDistance": "Marathon",
+      "category": "race-pace",
+      "trainingGoals": [
+        "marathon-pace-durability",
+        "fueling-practice"
+      ],
+      "level": "advanced",
+      "phase": [
+        "peak"
+      ],
+      "surface": [
+        "road",
+        "flat-road",
+        "rolling-road"
+      ],
+      "equipment": [
+        "gps-watch",
+        "timer",
+        "fuel"
+      ],
+      "estimatedDurationMin": {
+        "min": 100,
+        "max": 130
+      },
+      "estimatedDistanceKm": {
+        "min": 18.0,
+        "max": 25.0
+      },
+      "qualityDistanceKm": 15.0,
+      "difficulty": "hard",
+      "risk": "high",
+      "riskReason": "Long duration plus marathon-effort quality creates significant fatigue and requires careful pacing.",
+      "intensityGuide": {
+        "primaryTarget": "marathon effort and aerobic durability",
+        "paceGuide": "Use marathon effort, steady effort, or easy conversational effort. Do not chase fixed pace if terrain, heat, or fatigue changes.",
+        "hrGuide": "Heart rate should rise gradually; sustained drift late in long runs is a sign to slow down, fuel, or shorten.",
+        "rpeGuide": "RPE 7–8/10."
+      },
+      "workoutStructure": {
+        "warmup": [
+          {
+            "blockType": "warmup",
+            "name": "Easy Start",
+            "description": "Start with easy jogging or brisk walking before settling into the main endurance work.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 600,
+              "intensity": "very easy effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Let the first minutes feel almost too easy."
+            ]
+          }
+        ],
+        "mainSet": [
+          {
+            "blockType": "repeat",
+            "name": "3 × 5K Marathon Effort",
+            "description": "Run 3 repetitions of 5000m at marathon effort.",
+            "repetitions": 3,
+            "work": {
+              "distanceMeters": 5000,
+              "durationSeconds": null,
+              "intensity": "marathon effort",
+              "targetType": "distance"
+            },
+            "recovery": {
+              "type": "jog",
+              "durationSeconds": 300,
+              "distanceMeters": null,
+              "intensity": "easy"
+            },
+            "notes": [
+              "Keep each repetition controlled and repeatable."
+            ]
+          }
+        ],
+        "cooldown": [
+          {
+            "blockType": "cooldown",
+            "name": "Easy Walk-Jog Cooldown",
+            "description": "Walk or jog very easily after the main endurance work.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 300,
+              "intensity": "very easy recovery effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Rehydrate and let breathing return to normal."
+            ]
+          }
+        ]
+      },
+      "variants": {
+        "easier": {
+          "description": "Reduce the main-set load while keeping the same training purpose.",
+          "mainSet": [
+            {
+              "blockType": "repeat",
+              "name": "2 × 5K Marathon Effort",
+              "description": "Run 2 repetitions of 5000m at marathon effort.",
+              "repetitions": 2,
+              "work": {
+                "distanceMeters": 5000,
+                "durationSeconds": null,
+                "intensity": "marathon effort",
+                "targetType": "distance"
+              },
+              "recovery": {
+                "type": "jog",
+                "durationSeconds": 300,
+                "distanceMeters": null,
+                "intensity": "easy"
+              },
+              "notes": [
+                "Keep each repetition controlled and repeatable."
+              ]
+            }
+          ]
+        },
+        "harder": {
+          "description": "Increase the main-set load only when the base version is controlled.",
+          "mainSet": [
+            {
+              "blockType": "repeat",
+              "name": "4 × 5K Marathon Effort",
+              "description": "Run 4 repetitions of 5000m at marathon effort.",
+              "repetitions": 4,
+              "work": {
+                "distanceMeters": 5000,
+                "durationSeconds": null,
+                "intensity": "marathon effort",
+                "targetType": "distance"
+              },
+              "recovery": {
+                "type": "jog",
+                "durationSeconds": 300,
+                "distanceMeters": null,
+                "intensity": "easy"
+              },
+              "notes": [
+                "Keep each repetition controlled and repeatable."
+              ]
+            }
+          ]
+        }
+      },
+      "coachingNotes": [
+        "Use effort and fueling execution as the success metric, not only average pace.",
+        "Keep the first half conservative so late running mechanics stay clean.",
+        "Practice the same shoes, socks, hydration, and fueling approach you might use on race day when relevant."
+      ],
+      "commonMistakes": [
+        "Turning marathon effort into threshold effort.",
+        "Waiting too long before taking fuel or fluid during long sessions.",
+        "Forcing pace when heat, hills, or fatigue clearly change the effort."
+      ],
+      "safetyNotes": [
+        "Stop or shorten the workout if pain changes your stride.",
+        "Carry fluids or plan access to water for longer sessions.",
+        "Avoid demanding marathon workouts when sick, under-slept, injured, or carrying heavy fatigue."
+      ],
+      "shareCard": {
+        "cardTitle": "3 × 5K MP",
+        "cardSubtitle": "Marathon · ADVANCED · RACE-PACE",
+        "mainSetText": "3 × 5K Marathon Effort",
+        "purposeText": "A distance-based marathon-effort session for practicing pace durability.",
+        "footerNote": "Risk: high. Keep it controlled."
+      },
+      "tags": [
+        "Marathon",
+        "race-pace",
+        "advanced",
+        "hard",
+        "high"
+      ],
+      "searchKeywords": [
+        "advanced",
+        "marathon",
+        "race-pace",
+        "3 × 5k mp",
+        "long run",
+        "fueling"
+      ],
+      "uniquenessSignature": "c5ddde7751-marathon-3-x-5k-pace-blocks-marathon-advanced",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+    },
+    {
+      "id": "tv-m-007",
+      "slug": "marathon-pace-finish-long-run-marathon-intermediate",
+      "title": "Marathon Pace Finish Long Run",
+      "shortTitle": "MP Finish LR",
+      "summary": "A long run finishing at marathon effort to simulate late-race focus.",
+      "targetDistances": [
+        "Marathon"
+      ],
+      "primaryDistance": "Marathon",
+      "category": "long-run",
+      "trainingGoals": [
+        "late-race-specificity",
+        "marathon-effort"
+      ],
+      "level": "intermediate",
+      "phase": [
+        "peak"
+      ],
+      "surface": [
+        "road",
+        "flat-road",
+        "rolling-road"
+      ],
+      "equipment": [
+        "gps-watch",
+        "timer",
+        "fuel"
+      ],
+      "estimatedDurationMin": {
+        "min": 105,
+        "max": 140
+      },
+      "estimatedDistanceKm": {
+        "min": 16.0,
+        "max": 24.0
+      },
+      "qualityDistanceKm": 7.0,
+      "difficulty": "hard",
+      "risk": "high",
+      "riskReason": "Long duration plus marathon-effort quality creates significant fatigue and requires careful pacing.",
+      "intensityGuide": {
+        "primaryTarget": "marathon effort and aerobic durability",
+        "paceGuide": "Use marathon effort, steady effort, or easy conversational effort. Do not chase fixed pace if terrain, heat, or fatigue changes.",
+        "hrGuide": "Heart rate should rise gradually; sustained drift late in long runs is a sign to slow down, fuel, or shorten.",
+        "rpeGuide": "RPE 7–8/10."
+      },
+      "workoutStructure": {
+        "warmup": [
+          {
+            "blockType": "warmup",
+            "name": "Easy Start",
+            "description": "Start with easy jogging or brisk walking before settling into the main endurance work.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 600,
+              "intensity": "very easy effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Let the first minutes feel almost too easy."
+            ]
+          }
+        ],
+        "mainSet": [
+          {
+            "blockType": "long-run",
+            "name": "Long Run + 40-Min Marathon Effort Finish",
+            "description": "Run easy first, then finish with 40 minutes at marathon effort.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 7200,
+              "intensity": "easy plus marathon effort finish",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Fuel before the marathon effort block."
+            ]
+          }
+        ],
+        "cooldown": [
+          {
+            "blockType": "cooldown",
+            "name": "Easy Walk-Jog Cooldown",
+            "description": "Walk or jog very easily after the main endurance work.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 300,
+              "intensity": "very easy recovery effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Rehydrate and let breathing return to normal."
+            ]
+          }
+        ]
+      },
+      "variants": {
+        "easier": {
+          "description": "Reduce the main-set load while keeping the same training purpose.",
+          "mainSet": [
+            {
+              "blockType": "long-run",
+              "name": "Long Run + 25-Min Marathon Effort Finish",
+              "description": "Run easy first, then finish with 25 minutes at marathon effort.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 6000,
+                "intensity": "easy plus marathon effort finish",
+                "targetType": "time"
+              },
+              "recovery": null,
+              "notes": [
+                "Stay controlled."
+              ]
+            }
+          ]
+        },
+        "harder": {
+          "description": "Increase the main-set load only when the base version is controlled.",
+          "mainSet": [
+            {
+              "blockType": "long-run",
+              "name": "Long Run + 60-Min Marathon Effort Finish",
+              "description": "Run easy first, then finish with 60 minutes at marathon effort.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 8400,
+                "intensity": "easy plus marathon effort finish",
+                "targetType": "time"
+              },
+              "recovery": null,
+              "notes": [
+                "Advanced only."
+              ]
+            }
+          ]
+        }
+      },
+      "coachingNotes": [
+        "Use effort and fueling execution as the success metric, not only average pace.",
+        "Keep the first half conservative so late running mechanics stay clean.",
+        "Practice the same shoes, socks, hydration, and fueling approach you might use on race day when relevant."
+      ],
+      "commonMistakes": [
+        "Turning marathon effort into threshold effort.",
+        "Waiting too long before taking fuel or fluid during long sessions.",
+        "Forcing pace when heat, hills, or fatigue clearly change the effort."
+      ],
+      "safetyNotes": [
+        "Stop or shorten the workout if pain changes your stride.",
+        "Carry fluids or plan access to water for longer sessions.",
+        "Avoid demanding marathon workouts when sick, under-slept, injured, or carrying heavy fatigue."
+      ],
+      "shareCard": {
+        "cardTitle": "MP Finish LR",
+        "cardSubtitle": "Marathon · INTERMEDIATE · LONG-RUN",
+        "mainSetText": "Long Run + 40-Min Marathon Effort Finish",
+        "purposeText": "A long run finishing at marathon effort to simulate late-race focus.",
+        "footerNote": "Risk: high. Keep it controlled."
+      },
+      "tags": [
+        "Marathon",
+        "long-run",
+        "intermediate",
+        "hard",
+        "high"
+      ],
+      "searchKeywords": [
+        "intermediate",
+        "marathon",
+        "long-run",
+        "mp finish lr",
+        "long run",
+        "fueling"
+      ],
+      "uniquenessSignature": "816ebaff6f-marathon-pace-finish-long-run-marathon-intermediate",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+    },
+    {
+      "id": "tv-m-008",
+      "slug": "marathon-alternating-kilometers-marathon-advanced",
+      "title": "Marathon Alternating Kilometers",
+      "shortTitle": "MP Alternations",
+      "summary": "Alternating marathon effort with steady floats for rhythm and economy.",
+      "targetDistances": [
+        "Marathon"
+      ],
+      "primaryDistance": "Marathon",
+      "category": "race-pace",
+      "trainingGoals": [
+        "pace-control",
+        "steady-floats"
+      ],
+      "level": "advanced",
+      "phase": [
+        "build",
+        "peak"
+      ],
+      "surface": [
+        "road",
+        "flat-road",
+        "rolling-road"
+      ],
+      "equipment": [
+        "gps-watch",
+        "timer",
+        "fuel"
+      ],
+      "estimatedDurationMin": {
+        "min": 80,
+        "max": 110
+      },
+      "estimatedDistanceKm": {
+        "min": 13.0,
+        "max": 19.0
+      },
+      "qualityDistanceKm": 10.0,
+      "difficulty": "hard",
+      "risk": "high",
+      "riskReason": "Long duration plus marathon-effort quality creates significant fatigue and requires careful pacing.",
+      "intensityGuide": {
+        "primaryTarget": "marathon effort and aerobic durability",
+        "paceGuide": "Use marathon effort, steady effort, or easy conversational effort. Do not chase fixed pace if terrain, heat, or fatigue changes.",
+        "hrGuide": "Heart rate should rise gradually; sustained drift late in long runs is a sign to slow down, fuel, or shorten.",
+        "rpeGuide": "RPE 7–8/10."
+      },
+      "workoutStructure": {
+        "warmup": [
+          {
+            "blockType": "warmup",
+            "name": "Easy Start",
+            "description": "Start with easy jogging or brisk walking before settling into the main endurance work.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 600,
+              "intensity": "very easy effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Let the first minutes feel almost too easy."
+            ]
+          }
+        ],
+        "mainSet": [
+          {
+            "blockType": "fartlek",
+            "name": "10 × 1K Marathon Effort / 1K Steady",
+            "description": "Alternate 1K marathon effort with 1K steady floats.",
+            "repetitions": 10,
+            "work": {
+              "distanceMeters": 1000,
+              "durationSeconds": null,
+              "intensity": "marathon effort",
+              "targetType": "distance"
+            },
+            "recovery": {
+              "type": "float",
+              "durationSeconds": null,
+              "distanceMeters": 1000,
+              "intensity": "steady effort"
+            },
+            "notes": [
+              "The float is not recovery walking."
+            ]
+          }
+        ],
+        "cooldown": [
+          {
+            "blockType": "cooldown",
+            "name": "Easy Walk-Jog Cooldown",
+            "description": "Walk or jog very easily after the main endurance work.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 300,
+              "intensity": "very easy recovery effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Rehydrate and let breathing return to normal."
+            ]
+          }
+        ]
+      },
+      "variants": {
+        "easier": {
+          "description": "Reduce the main-set load while keeping the same training purpose.",
+          "mainSet": [
+            {
+              "blockType": "fartlek",
+              "name": "8 × 1K Marathon Effort / 1K Steady",
+              "description": "Alternate 1K marathon effort with 1K steady floats.",
+              "repetitions": 8,
+              "work": {
+                "distanceMeters": 1000,
+                "durationSeconds": null,
+                "intensity": "marathon effort",
+                "targetType": "distance"
+              },
+              "recovery": {
+                "type": "float",
+                "durationSeconds": null,
+                "distanceMeters": 1000,
+                "intensity": "steady effort"
+              },
+              "notes": [
+                "Keep it rhythmic."
+              ]
+            }
+          ]
+        },
+        "harder": {
+          "description": "Increase the main-set load only when the base version is controlled.",
+          "mainSet": [
+            {
+              "blockType": "fartlek",
+              "name": "12 × 1K Marathon Effort / 1K Steady",
+              "description": "Alternate 1K marathon effort with 1K steady floats.",
+              "repetitions": 12,
+              "work": {
+                "distanceMeters": 1000,
+                "durationSeconds": null,
+                "intensity": "marathon effort",
+                "targetType": "distance"
+              },
+              "recovery": {
+                "type": "float",
+                "durationSeconds": null,
+                "distanceMeters": 1000,
+                "intensity": "steady effort"
+              },
+              "notes": [
+                "Advanced only."
+              ]
+            }
+          ]
+        }
+      },
+      "coachingNotes": [
+        "Use effort and fueling execution as the success metric, not only average pace.",
+        "Keep the first half conservative so late running mechanics stay clean.",
+        "Practice the same shoes, socks, hydration, and fueling approach you might use on race day when relevant."
+      ],
+      "commonMistakes": [
+        "Turning marathon effort into threshold effort.",
+        "Waiting too long before taking fuel or fluid during long sessions.",
+        "Forcing pace when heat, hills, or fatigue clearly change the effort."
+      ],
+      "safetyNotes": [
+        "Stop or shorten the workout if pain changes your stride.",
+        "Carry fluids or plan access to water for longer sessions.",
+        "Avoid demanding marathon workouts when sick, under-slept, injured, or carrying heavy fatigue."
+      ],
+      "shareCard": {
+        "cardTitle": "MP Alternations",
+        "cardSubtitle": "Marathon · ADVANCED · RACE-PACE",
+        "mainSetText": "10 × 1K Marathon Effort / 1K Steady",
+        "purposeText": "Alternating marathon effort with steady floats for rhythm and economy.",
+        "footerNote": "Risk: high. Keep it controlled."
+      },
+      "tags": [
+        "Marathon",
+        "race-pace",
+        "advanced",
+        "hard",
+        "high"
+      ],
+      "searchKeywords": [
+        "advanced",
+        "marathon",
+        "race-pace",
+        "mp alternations",
+        "long run",
+        "fueling"
+      ],
+      "uniquenessSignature": "15e2a7d0f2-marathon-alternating-kilometers-marathon-advanced",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+    },
+    {
+      "id": "tv-m-009",
+      "slug": "marathon-4-x-15-min-rhythm-blocks-marathon-developing",
+      "title": "Marathon 4 × 15-Min Rhythm Blocks",
+      "shortTitle": "4 × 15 MP",
+      "summary": "A controlled block workout to rehearse marathon rhythm without a very long continuous segment.",
+      "targetDistances": [
+        "Marathon"
+      ],
+      "primaryDistance": "Marathon",
+      "category": "race-pace",
+      "trainingGoals": [
+        "marathon-rhythm",
+        "controlled-blocks"
+      ],
+      "level": "developing",
+      "phase": [
+        "build"
+      ],
+      "surface": [
+        "road",
+        "flat-road",
+        "rolling-road"
+      ],
+      "equipment": [
+        "gps-watch",
+        "timer",
+        "fuel"
+      ],
+      "estimatedDurationMin": {
+        "min": 85,
+        "max": 110
+      },
+      "estimatedDistanceKm": {
+        "min": 13.0,
+        "max": 19.0
+      },
+      "qualityDistanceKm": 9.0,
+      "difficulty": "moderate-hard",
+      "risk": "medium",
+      "riskReason": "Long duration increases cumulative fatigue, hydration demand, and lower-leg stress.",
+      "intensityGuide": {
+        "primaryTarget": "marathon effort and aerobic durability",
+        "paceGuide": "Use marathon effort, steady effort, or easy conversational effort. Do not chase fixed pace if terrain, heat, or fatigue changes.",
+        "hrGuide": "Heart rate should rise gradually; sustained drift late in long runs is a sign to slow down, fuel, or shorten.",
+        "rpeGuide": "RPE 5–7/10."
+      },
+      "workoutStructure": {
+        "warmup": [
+          {
+            "blockType": "warmup",
+            "name": "Easy Start",
+            "description": "Start with easy jogging or brisk walking before settling into the main endurance work.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 600,
+              "intensity": "very easy effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Let the first minutes feel almost too easy."
+            ]
+          }
+        ],
+        "mainSet": [
+          {
+            "blockType": "repeat",
+            "name": "4 × 15-Min Marathon Rhythm",
+            "description": "Run 4 repetitions of 15s at marathon effort.",
+            "repetitions": 4,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 900,
+              "intensity": "marathon effort",
+              "targetType": "time"
+            },
+            "recovery": {
+              "type": "jog",
+              "durationSeconds": 180,
+              "distanceMeters": null,
+              "intensity": "easy"
+            },
+            "notes": [
+              "Keep the effort controlled."
+            ]
+          }
+        ],
+        "cooldown": [
+          {
+            "blockType": "cooldown",
+            "name": "Easy Walk-Jog Cooldown",
+            "description": "Walk or jog very easily after the main endurance work.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 300,
+              "intensity": "very easy recovery effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Rehydrate and let breathing return to normal."
+            ]
+          }
+        ]
+      },
+      "variants": {
+        "easier": {
+          "description": "Reduce the main-set load while keeping the same training purpose.",
+          "mainSet": [
+            {
+              "blockType": "repeat",
+              "name": "3 × 15-Min Marathon Rhythm",
+              "description": "Run 3 repetitions of 15s at marathon effort.",
+              "repetitions": 3,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 900,
+                "intensity": "marathon effort",
+                "targetType": "time"
+              },
+              "recovery": {
+                "type": "jog",
+                "durationSeconds": 240,
+                "distanceMeters": null,
+                "intensity": "easy"
+              },
+              "notes": [
+                "Keep the effort controlled."
+              ]
+            }
+          ]
+        },
+        "harder": {
+          "description": "Increase the main-set load only when the base version is controlled.",
+          "mainSet": [
+            {
+              "blockType": "repeat",
+              "name": "5 × 15-Min Marathon Rhythm",
+              "description": "Run 5 repetitions of 15s at marathon effort.",
+              "repetitions": 5,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 900,
+                "intensity": "marathon effort",
+                "targetType": "time"
+              },
+              "recovery": {
+                "type": "jog",
+                "durationSeconds": 180,
+                "distanceMeters": null,
+                "intensity": "easy"
+              },
+              "notes": [
+                "Keep the effort controlled."
+              ]
+            }
+          ]
+        }
+      },
+      "coachingNotes": [
+        "Use effort and fueling execution as the success metric, not only average pace.",
+        "Keep the first half conservative so late running mechanics stay clean.",
+        "Practice the same shoes, socks, hydration, and fueling approach you might use on race day when relevant."
+      ],
+      "commonMistakes": [
+        "Turning marathon effort into threshold effort.",
+        "Waiting too long before taking fuel or fluid during long sessions.",
+        "Forcing pace when heat, hills, or fatigue clearly change the effort."
+      ],
+      "safetyNotes": [
+        "Stop or shorten the workout if pain changes your stride.",
+        "Carry fluids or plan access to water for longer sessions.",
+        "Avoid demanding marathon workouts when sick, under-slept, injured, or carrying heavy fatigue."
+      ],
+      "shareCard": {
+        "cardTitle": "4 × 15 MP",
+        "cardSubtitle": "Marathon · DEVELOPING · RACE-PACE",
+        "mainSetText": "4 × 15-Min Marathon Rhythm",
+        "purposeText": "A controlled block workout to rehearse marathon rhythm without a very long continuous segment.",
+        "footerNote": "Risk: medium. Keep it controlled."
+      },
+      "tags": [
+        "Marathon",
+        "race-pace",
+        "developing",
+        "moderate-hard",
+        "medium"
+      ],
+      "searchKeywords": [
+        "developing",
+        "marathon",
+        "race-pace",
+        "4 × 15 mp",
+        "long run",
+        "fueling"
+      ],
+      "uniquenessSignature": "2e524341e7-marathon-4-x-15-min-rhythm-blocks-marathon-developing",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+    },
+    {
+      "id": "tv-m-010",
+      "slug": "marathon-continuous-50-min-effort-marathon-advanced",
+      "title": "Marathon Continuous 50-Min Effort",
+      "shortTitle": "50-Min MP",
+      "summary": "A continuous marathon-effort run for experienced runners practicing steady race feel.",
+      "targetDistances": [
+        "Marathon"
+      ],
+      "primaryDistance": "Marathon",
+      "category": "race-pace",
+      "trainingGoals": [
+        "continuous-marathon-effort",
+        "mental-control"
+      ],
+      "level": "advanced",
+      "phase": [
+        "peak"
+      ],
+      "surface": [
+        "road",
+        "flat-road",
+        "rolling-road"
+      ],
+      "equipment": [
+        "gps-watch",
+        "timer",
+        "fuel"
+      ],
+      "estimatedDurationMin": {
+        "min": 75,
+        "max": 95
+      },
+      "estimatedDistanceKm": {
+        "min": 12.0,
+        "max": 17.0
+      },
+      "qualityDistanceKm": 10.0,
+      "difficulty": "hard",
+      "risk": "high",
+      "riskReason": "Long duration plus marathon-effort quality creates significant fatigue and requires careful pacing.",
+      "intensityGuide": {
+        "primaryTarget": "marathon effort and aerobic durability",
+        "paceGuide": "Use marathon effort, steady effort, or easy conversational effort. Do not chase fixed pace if terrain, heat, or fatigue changes.",
+        "hrGuide": "Heart rate should rise gradually; sustained drift late in long runs is a sign to slow down, fuel, or shorten.",
+        "rpeGuide": "RPE 7–8/10."
+      },
+      "workoutStructure": {
+        "warmup": [
+          {
+            "blockType": "warmup",
+            "name": "Easy Start",
+            "description": "Start with easy jogging or brisk walking before settling into the main endurance work.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 600,
+              "intensity": "very easy effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Let the first minutes feel almost too easy."
+            ]
+          }
+        ],
+        "mainSet": [
+          {
+            "blockType": "tempo",
+            "name": "50-Min Continuous Marathon Effort",
+            "description": "Run continuously for 50 minutes at marathon effort.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 3000,
+              "intensity": "marathon effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Start controlled and settle into rhythm."
+            ]
+          }
+        ],
+        "cooldown": [
+          {
+            "blockType": "cooldown",
+            "name": "Easy Walk-Jog Cooldown",
+            "description": "Walk or jog very easily after the main endurance work.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 300,
+              "intensity": "very easy recovery effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Rehydrate and let breathing return to normal."
+            ]
+          }
+        ]
+      },
+      "variants": {
+        "easier": {
+          "description": "Reduce the main-set load while keeping the same training purpose.",
+          "mainSet": [
+            {
+              "blockType": "tempo",
+              "name": "35-Min Continuous Marathon Effort",
+              "description": "Run continuously for 35 minutes at marathon effort.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 2100,
+                "intensity": "marathon effort",
+                "targetType": "time"
+              },
+              "recovery": null,
+              "notes": [
+                "Start controlled and settle into rhythm."
+              ]
+            }
+          ]
+        },
+        "harder": {
+          "description": "Increase the main-set load only when the base version is controlled.",
+          "mainSet": [
+            {
+              "blockType": "tempo",
+              "name": "60-Min Continuous Marathon Effort",
+              "description": "Run continuously for 60 minutes at marathon effort.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 3600,
+                "intensity": "marathon effort",
+                "targetType": "time"
+              },
+              "recovery": null,
+              "notes": [
+                "Start controlled and settle into rhythm."
+              ]
+            }
+          ]
+        }
+      },
+      "coachingNotes": [
+        "Use effort and fueling execution as the success metric, not only average pace.",
+        "Keep the first half conservative so late running mechanics stay clean.",
+        "Practice the same shoes, socks, hydration, and fueling approach you might use on race day when relevant."
+      ],
+      "commonMistakes": [
+        "Turning marathon effort into threshold effort.",
+        "Waiting too long before taking fuel or fluid during long sessions.",
+        "Forcing pace when heat, hills, or fatigue clearly change the effort."
+      ],
+      "safetyNotes": [
+        "Stop or shorten the workout if pain changes your stride.",
+        "Carry fluids or plan access to water for longer sessions.",
+        "Avoid demanding marathon workouts when sick, under-slept, injured, or carrying heavy fatigue."
+      ],
+      "shareCard": {
+        "cardTitle": "50-Min MP",
+        "cardSubtitle": "Marathon · ADVANCED · RACE-PACE",
+        "mainSetText": "50-Min Continuous Marathon Effort",
+        "purposeText": "A continuous marathon-effort run for experienced runners practicing steady race feel.",
+        "footerNote": "Risk: high. Keep it controlled."
+      },
+      "tags": [
+        "Marathon",
+        "race-pace",
+        "advanced",
+        "hard",
+        "high"
+      ],
+      "searchKeywords": [
+        "advanced",
+        "marathon",
+        "race-pace",
+        "50-min mp",
+        "long run",
+        "fueling"
+      ],
+      "uniquenessSignature": "1404507e10-marathon-continuous-50-min-effort-marathon-advanced",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+    },
+    {
+      "id": "tv-m-011",
+      "slug": "marathon-steady-aerobic-90-marathon-intermediate",
+      "title": "Marathon Steady Aerobic 90",
+      "shortTitle": "Steady 90",
+      "summary": "A 90-minute steady endurance run for building marathon aerobic strength.",
+      "targetDistances": [
+        "Marathon"
+      ],
+      "primaryDistance": "Marathon",
+      "category": "steady-run",
+      "trainingGoals": [
+        "steady-endurance",
+        "aerobic-strength"
+      ],
+      "level": "intermediate",
+      "phase": [
+        "base",
+        "build"
+      ],
+      "surface": [
+        "road",
+        "flat-road",
+        "rolling-road"
+      ],
+      "equipment": [
+        "gps-watch",
+        "timer",
+        "fuel"
+      ],
+      "estimatedDurationMin": {
+        "min": 85,
+        "max": 95
+      },
+      "estimatedDistanceKm": {
+        "min": 12.0,
+        "max": 16.0
+      },
+      "qualityDistanceKm": 0.0,
+      "difficulty": "moderate-hard",
+      "risk": "medium",
+      "riskReason": "Long duration increases cumulative fatigue, hydration demand, and lower-leg stress.",
+      "intensityGuide": {
+        "primaryTarget": "marathon effort and aerobic durability",
+        "paceGuide": "Use marathon effort, steady effort, or easy conversational effort. Do not chase fixed pace if terrain, heat, or fatigue changes.",
+        "hrGuide": "Heart rate should rise gradually; sustained drift late in long runs is a sign to slow down, fuel, or shorten.",
+        "rpeGuide": "RPE 5–7/10."
+      },
+      "workoutStructure": {
+        "warmup": [
+          {
+            "blockType": "warmup",
+            "name": "Easy Start",
+            "description": "Start with easy jogging or brisk walking before settling into the main endurance work.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 600,
+              "intensity": "very easy effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Let the first minutes feel almost too easy."
+            ]
+          }
+        ],
+        "mainSet": [
+          {
+            "blockType": "long-run",
+            "name": "90-Min Steady Aerobic Run",
+            "description": "Run continuously for 90 minutes at steady aerobic effort.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 5400,
+              "intensity": "steady aerobic effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Start controlled and settle into rhythm."
+            ]
+          }
+        ],
+        "cooldown": [
+          {
+            "blockType": "cooldown",
+            "name": "Easy Walk-Jog Cooldown",
+            "description": "Walk or jog very easily after the main endurance work.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 300,
+              "intensity": "very easy recovery effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Rehydrate and let breathing return to normal."
+            ]
+          }
+        ]
+      },
+      "variants": {
+        "easier": {
+          "description": "Reduce the main-set load while keeping the same training purpose.",
+          "mainSet": [
+            {
+              "blockType": "long-run",
+              "name": "75-Min Steady Aerobic Run",
+              "description": "Run continuously for 75 minutes at steady aerobic effort.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 4500,
+                "intensity": "steady aerobic effort",
+                "targetType": "time"
+              },
+              "recovery": null,
+              "notes": [
+                "Start controlled and settle into rhythm."
+              ]
+            }
+          ]
+        },
+        "harder": {
+          "description": "Increase the main-set load only when the base version is controlled.",
+          "mainSet": [
+            {
+              "blockType": "long-run",
+              "name": "105-Min Steady Aerobic Run",
+              "description": "Run continuously for 105 minutes at steady aerobic effort.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 6300,
+                "intensity": "steady aerobic effort",
+                "targetType": "time"
+              },
+              "recovery": null,
+              "notes": [
+                "Start controlled and settle into rhythm."
+              ]
+            }
+          ]
+        }
+      },
+      "coachingNotes": [
+        "Use effort and fueling execution as the success metric, not only average pace.",
+        "Keep the first half conservative so late running mechanics stay clean.",
+        "Practice the same shoes, socks, hydration, and fueling approach you might use on race day when relevant."
+      ],
+      "commonMistakes": [
+        "Turning marathon effort into threshold effort.",
+        "Waiting too long before taking fuel or fluid during long sessions.",
+        "Forcing pace when heat, hills, or fatigue clearly change the effort."
+      ],
+      "safetyNotes": [
+        "Stop or shorten the workout if pain changes your stride.",
+        "Carry fluids or plan access to water for longer sessions.",
+        "Avoid demanding marathon workouts when sick, under-slept, injured, or carrying heavy fatigue."
+      ],
+      "shareCard": {
+        "cardTitle": "Steady 90",
+        "cardSubtitle": "Marathon · INTERMEDIATE · STEADY-RUN",
+        "mainSetText": "90-Min Steady Aerobic Run",
+        "purposeText": "A 90-minute steady endurance run for building marathon aerobic strength.",
+        "footerNote": "Risk: medium. Keep it controlled."
+      },
+      "tags": [
+        "Marathon",
+        "steady-run",
+        "intermediate",
+        "moderate-hard",
+        "medium"
+      ],
+      "searchKeywords": [
+        "intermediate",
+        "marathon",
+        "steady-run",
+        "steady 90",
+        "long run",
+        "fueling"
+      ],
+      "uniquenessSignature": "fbda0c2c10-marathon-steady-aerobic-90-marathon-intermediate",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+    },
+    {
+      "id": "tv-m-012",
+      "slug": "marathon-upper-aerobic-cruise-marathon-advanced",
+      "title": "Marathon Upper Aerobic Cruise",
+      "shortTitle": "Upper Aerobic Cruise",
+      "summary": "A controlled upper-aerobic run that sits below threshold but above normal easy effort.",
+      "targetDistances": [
+        "Marathon"
+      ],
+      "primaryDistance": "Marathon",
+      "category": "steady-run",
+      "trainingGoals": [
+        "upper-aerobic",
+        "stamina"
+      ],
+      "level": "advanced",
+      "phase": [
+        "build"
+      ],
+      "surface": [
+        "road",
+        "flat-road",
+        "rolling-road"
+      ],
+      "equipment": [
+        "gps-watch",
+        "timer",
+        "fuel"
+      ],
+      "estimatedDurationMin": {
+        "min": 70,
+        "max": 90
+      },
+      "estimatedDistanceKm": {
+        "min": 11.0,
+        "max": 16.0
+      },
+      "qualityDistanceKm": 0.0,
+      "difficulty": "moderate-hard",
+      "risk": "medium",
+      "riskReason": "Long duration increases cumulative fatigue, hydration demand, and lower-leg stress.",
+      "intensityGuide": {
+        "primaryTarget": "marathon effort and aerobic durability",
+        "paceGuide": "Use marathon effort, steady effort, or easy conversational effort. Do not chase fixed pace if terrain, heat, or fatigue changes.",
+        "hrGuide": "Heart rate should rise gradually; sustained drift late in long runs is a sign to slow down, fuel, or shorten.",
+        "rpeGuide": "RPE 5–7/10."
+      },
+      "workoutStructure": {
+        "warmup": [
+          {
+            "blockType": "warmup",
+            "name": "Easy Start",
+            "description": "Start with easy jogging or brisk walking before settling into the main endurance work.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 600,
+              "intensity": "very easy effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Let the first minutes feel almost too easy."
+            ]
+          }
+        ],
+        "mainSet": [
+          {
+            "blockType": "tempo",
+            "name": "70-Min Upper Aerobic Cruise",
+            "description": "Run continuously for 70 minutes at upper aerobic effort.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 4200,
+              "intensity": "upper aerobic effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Start controlled and settle into rhythm."
+            ]
+          }
+        ],
+        "cooldown": [
+          {
+            "blockType": "cooldown",
+            "name": "Easy Walk-Jog Cooldown",
+            "description": "Walk or jog very easily after the main endurance work.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 300,
+              "intensity": "very easy recovery effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Rehydrate and let breathing return to normal."
+            ]
+          }
+        ]
+      },
+      "variants": {
+        "easier": {
+          "description": "Reduce the main-set load while keeping the same training purpose.",
+          "mainSet": [
+            {
+              "blockType": "tempo",
+              "name": "55-Min Upper Aerobic Cruise",
+              "description": "Run continuously for 55 minutes at upper aerobic effort.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 3300,
+                "intensity": "upper aerobic effort",
+                "targetType": "time"
+              },
+              "recovery": null,
+              "notes": [
+                "Start controlled and settle into rhythm."
+              ]
+            }
+          ]
+        },
+        "harder": {
+          "description": "Increase the main-set load only when the base version is controlled.",
+          "mainSet": [
+            {
+              "blockType": "tempo",
+              "name": "85-Min Upper Aerobic Cruise",
+              "description": "Run continuously for 85 minutes at upper aerobic effort.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 5100,
+                "intensity": "upper aerobic effort",
+                "targetType": "time"
+              },
+              "recovery": null,
+              "notes": [
+                "Start controlled and settle into rhythm."
+              ]
+            }
+          ]
+        }
+      },
+      "coachingNotes": [
+        "Use effort and fueling execution as the success metric, not only average pace.",
+        "Keep the first half conservative so late running mechanics stay clean.",
+        "Practice the same shoes, socks, hydration, and fueling approach you might use on race day when relevant."
+      ],
+      "commonMistakes": [
+        "Turning marathon effort into threshold effort.",
+        "Waiting too long before taking fuel or fluid during long sessions.",
+        "Forcing pace when heat, hills, or fatigue clearly change the effort."
+      ],
+      "safetyNotes": [
+        "Stop or shorten the workout if pain changes your stride.",
+        "Carry fluids or plan access to water for longer sessions.",
+        "Avoid demanding marathon workouts when sick, under-slept, injured, or carrying heavy fatigue."
+      ],
+      "shareCard": {
+        "cardTitle": "Upper Aerobic Cruise",
+        "cardSubtitle": "Marathon · ADVANCED · STEADY-RUN",
+        "mainSetText": "70-Min Upper Aerobic Cruise",
+        "purposeText": "A controlled upper-aerobic run that sits below threshold but above normal easy effort.",
+        "footerNote": "Risk: medium. Keep it controlled."
+      },
+      "tags": [
+        "Marathon",
+        "steady-run",
+        "advanced",
+        "moderate-hard",
+        "medium"
+      ],
+      "searchKeywords": [
+        "advanced",
+        "marathon",
+        "steady-run",
+        "upper aerobic cruise",
+        "long run",
+        "fueling"
+      ],
+      "uniquenessSignature": "b8b6f49a92-marathon-upper-aerobic-cruise-marathon-advanced",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+    },
+    {
+      "id": "tv-m-013",
+      "slug": "marathon-medium-long-steady-run-marathon-developing",
+      "title": "Marathon Medium-Long Steady Run",
+      "shortTitle": "Medium-Long Steady",
+      "summary": "A medium-long run at controlled steady effort to support marathon volume.",
+      "targetDistances": [
+        "Marathon"
+      ],
+      "primaryDistance": "Marathon",
+      "category": "steady-run",
+      "trainingGoals": [
+        "medium-long-run",
+        "volume-support"
+      ],
+      "level": "developing",
+      "phase": [
+        "base"
+      ],
+      "surface": [
+        "road",
+        "flat-road",
+        "rolling-road"
+      ],
+      "equipment": [
+        "gps-watch",
+        "timer",
+        "fuel"
+      ],
+      "estimatedDurationMin": {
+        "min": 65,
+        "max": 85
+      },
+      "estimatedDistanceKm": {
+        "min": 9.0,
+        "max": 14.0
+      },
+      "qualityDistanceKm": 0.0,
+      "difficulty": "moderate",
+      "risk": "medium",
+      "riskReason": "Long duration increases cumulative fatigue, hydration demand, and lower-leg stress.",
+      "intensityGuide": {
+        "primaryTarget": "marathon effort and aerobic durability",
+        "paceGuide": "Use marathon effort, steady effort, or easy conversational effort. Do not chase fixed pace if terrain, heat, or fatigue changes.",
+        "hrGuide": "Heart rate should rise gradually; sustained drift late in long runs is a sign to slow down, fuel, or shorten.",
+        "rpeGuide": "RPE 4–5/10."
+      },
+      "workoutStructure": {
+        "warmup": [
+          {
+            "blockType": "warmup",
+            "name": "Easy Start",
+            "description": "Start with easy jogging or brisk walking before settling into the main endurance work.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 600,
+              "intensity": "very easy effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Let the first minutes feel almost too easy."
+            ]
+          }
+        ],
+        "mainSet": [
+          {
+            "blockType": "long-run",
+            "name": "75-Min Medium-Long Steady",
+            "description": "Run continuously for 75 minutes at steady controlled effort.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 4500,
+              "intensity": "steady controlled effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Start controlled and settle into rhythm."
+            ]
+          }
+        ],
+        "cooldown": [
+          {
+            "blockType": "cooldown",
+            "name": "Easy Walk-Jog Cooldown",
+            "description": "Walk or jog very easily after the main endurance work.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 300,
+              "intensity": "very easy recovery effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Rehydrate and let breathing return to normal."
+            ]
+          }
+        ]
+      },
+      "variants": {
+        "easier": {
+          "description": "Reduce the main-set load while keeping the same training purpose.",
+          "mainSet": [
+            {
+              "blockType": "long-run",
+              "name": "60-Min Medium-Long Steady",
+              "description": "Run continuously for 60 minutes at steady controlled effort.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 3600,
+                "intensity": "steady controlled effort",
+                "targetType": "time"
+              },
+              "recovery": null,
+              "notes": [
+                "Start controlled and settle into rhythm."
+              ]
+            }
+          ]
+        },
+        "harder": {
+          "description": "Increase the main-set load only when the base version is controlled.",
+          "mainSet": [
+            {
+              "blockType": "long-run",
+              "name": "90-Min Medium-Long Steady",
+              "description": "Run continuously for 90 minutes at steady controlled effort.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 5400,
+                "intensity": "steady controlled effort",
+                "targetType": "time"
+              },
+              "recovery": null,
+              "notes": [
+                "Start controlled and settle into rhythm."
+              ]
+            }
+          ]
+        }
+      },
+      "coachingNotes": [
+        "Use effort and fueling execution as the success metric, not only average pace.",
+        "Keep the first half conservative so late running mechanics stay clean.",
+        "Practice the same shoes, socks, hydration, and fueling approach you might use on race day when relevant."
+      ],
+      "commonMistakes": [
+        "Turning marathon effort into threshold effort.",
+        "Waiting too long before taking fuel or fluid during long sessions.",
+        "Forcing pace when heat, hills, or fatigue clearly change the effort."
+      ],
+      "safetyNotes": [
+        "Stop or shorten the workout if pain changes your stride.",
+        "Carry fluids or plan access to water for longer sessions.",
+        "Avoid demanding marathon workouts when sick, under-slept, injured, or carrying heavy fatigue."
+      ],
+      "shareCard": {
+        "cardTitle": "Medium-Long Steady",
+        "cardSubtitle": "Marathon · DEVELOPING · STEADY-RUN",
+        "mainSetText": "75-Min Medium-Long Steady",
+        "purposeText": "A medium-long run at controlled steady effort to support marathon volume.",
+        "footerNote": "Risk: medium. Keep it controlled."
+      },
+      "tags": [
+        "Marathon",
+        "steady-run",
+        "developing",
+        "moderate",
+        "medium"
+      ],
+      "searchKeywords": [
+        "developing",
+        "marathon",
+        "steady-run",
+        "medium-long steady",
+        "long run",
+        "fueling"
+      ],
+      "uniquenessSignature": "3787b78849-marathon-medium-long-steady-run-marathon-developing",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+    },
+    {
+      "id": "tv-m-014",
+      "slug": "marathon-rolling-steady-endurance-marathon-intermediate",
+      "title": "Marathon Rolling Steady Endurance",
+      "shortTitle": "Rolling Steady",
+      "summary": "A steady endurance run on rolling roads to build strength without formal hill repeats.",
+      "targetDistances": [
+        "Marathon"
+      ],
+      "primaryDistance": "Marathon",
+      "category": "steady-run",
+      "trainingGoals": [
+        "rolling-strength",
+        "endurance"
+      ],
+      "level": "intermediate",
+      "phase": [
+        "base",
+        "build"
+      ],
+      "surface": [
+        "road",
+        "flat-road",
+        "rolling-road"
+      ],
+      "equipment": [
+        "gps-watch",
+        "timer",
+        "fuel"
+      ],
+      "estimatedDurationMin": {
+        "min": 75,
+        "max": 100
+      },
+      "estimatedDistanceKm": {
+        "min": 11.0,
+        "max": 16.0
+      },
+      "qualityDistanceKm": 0.0,
+      "difficulty": "moderate-hard",
+      "risk": "medium",
+      "riskReason": "Long duration increases cumulative fatigue, hydration demand, and lower-leg stress.",
+      "intensityGuide": {
+        "primaryTarget": "marathon effort and aerobic durability",
+        "paceGuide": "Use marathon effort, steady effort, or easy conversational effort. Do not chase fixed pace if terrain, heat, or fatigue changes.",
+        "hrGuide": "Heart rate should rise gradually; sustained drift late in long runs is a sign to slow down, fuel, or shorten.",
+        "rpeGuide": "RPE 5–7/10."
+      },
+      "workoutStructure": {
+        "warmup": [
+          {
+            "blockType": "warmup",
+            "name": "Easy Start",
+            "description": "Start with easy jogging or brisk walking before settling into the main endurance work.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 600,
+              "intensity": "very easy effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Let the first minutes feel almost too easy."
+            ]
+          }
+        ],
+        "mainSet": [
+          {
+            "blockType": "long-run",
+            "name": "Rolling Steady Endurance",
+            "description": "Run continuously for 90 minutes at steady rolling effort.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 5400,
+              "intensity": "steady rolling effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Start controlled and settle into rhythm."
+            ]
+          }
+        ],
+        "cooldown": [
+          {
+            "blockType": "cooldown",
+            "name": "Easy Walk-Jog Cooldown",
+            "description": "Walk or jog very easily after the main endurance work.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 300,
+              "intensity": "very easy recovery effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Rehydrate and let breathing return to normal."
+            ]
+          }
+        ]
+      },
+      "variants": {
+        "easier": {
+          "description": "Reduce the main-set load while keeping the same training purpose.",
+          "mainSet": [
+            {
+              "blockType": "long-run",
+              "name": "Short Rolling Steady Endurance",
+              "description": "Run continuously for 70 minutes at steady rolling effort.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 4200,
+                "intensity": "steady rolling effort",
+                "targetType": "time"
+              },
+              "recovery": null,
+              "notes": [
+                "Start controlled and settle into rhythm."
+              ]
+            }
+          ]
+        },
+        "harder": {
+          "description": "Increase the main-set load only when the base version is controlled.",
+          "mainSet": [
+            {
+              "blockType": "long-run",
+              "name": "Extended Rolling Steady Endurance",
+              "description": "Run continuously for 105 minutes at steady rolling effort.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 6300,
+                "intensity": "steady rolling effort",
+                "targetType": "time"
+              },
+              "recovery": null,
+              "notes": [
+                "Start controlled and settle into rhythm."
+              ]
+            }
+          ]
+        }
+      },
+      "coachingNotes": [
+        "Use effort and fueling execution as the success metric, not only average pace.",
+        "Keep the first half conservative so late running mechanics stay clean.",
+        "Practice the same shoes, socks, hydration, and fueling approach you might use on race day when relevant."
+      ],
+      "commonMistakes": [
+        "Turning marathon effort into threshold effort.",
+        "Waiting too long before taking fuel or fluid during long sessions.",
+        "Forcing pace when heat, hills, or fatigue clearly change the effort."
+      ],
+      "safetyNotes": [
+        "Stop or shorten the workout if pain changes your stride.",
+        "Carry fluids or plan access to water for longer sessions.",
+        "Avoid demanding marathon workouts when sick, under-slept, injured, or carrying heavy fatigue."
+      ],
+      "shareCard": {
+        "cardTitle": "Rolling Steady",
+        "cardSubtitle": "Marathon · INTERMEDIATE · STEADY-RUN",
+        "mainSetText": "Rolling Steady Endurance",
+        "purposeText": "A steady endurance run on rolling roads to build strength without formal hill repeats.",
+        "footerNote": "Risk: medium. Keep it controlled."
+      },
+      "tags": [
+        "Marathon",
+        "steady-run",
+        "intermediate",
+        "moderate-hard",
+        "medium"
+      ],
+      "searchKeywords": [
+        "intermediate",
+        "marathon",
+        "steady-run",
+        "rolling steady",
+        "long run",
+        "fueling"
+      ],
+      "uniquenessSignature": "dd09d23e40-marathon-rolling-steady-endurance-marathon-intermediate",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+    },
+    {
+      "id": "tv-m-015",
+      "slug": "marathon-90-min-progression-marathon-intermediate",
+      "title": "Marathon 90-Min Progression",
+      "shortTitle": "90-Min Progression",
+      "summary": "A patient progression from easy to steady marathon effort.",
+      "targetDistances": [
+        "Marathon"
+      ],
+      "primaryDistance": "Marathon",
+      "category": "progression-run",
+      "trainingGoals": [
+        "progression-control",
+        "marathon-effort"
+      ],
+      "level": "intermediate",
+      "phase": [
+        "build"
+      ],
+      "surface": [
+        "road",
+        "flat-road",
+        "rolling-road"
+      ],
+      "equipment": [
+        "gps-watch",
+        "timer",
+        "fuel"
+      ],
+      "estimatedDurationMin": {
+        "min": 85,
+        "max": 100
+      },
+      "estimatedDistanceKm": {
+        "min": 12.0,
+        "max": 17.0
+      },
+      "qualityDistanceKm": 3.0,
+      "difficulty": "moderate-hard",
+      "risk": "medium",
+      "riskReason": "Long duration increases cumulative fatigue, hydration demand, and lower-leg stress.",
+      "intensityGuide": {
+        "primaryTarget": "marathon effort and aerobic durability",
+        "paceGuide": "Use marathon effort, steady effort, or easy conversational effort. Do not chase fixed pace if terrain, heat, or fatigue changes.",
+        "hrGuide": "Heart rate should rise gradually; sustained drift late in long runs is a sign to slow down, fuel, or shorten.",
+        "rpeGuide": "RPE 5–7/10."
+      },
+      "workoutStructure": {
+        "warmup": [
+          {
+            "blockType": "warmup",
+            "name": "Easy Start",
+            "description": "Start with easy jogging or brisk walking before settling into the main endurance work.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 600,
+              "intensity": "very easy effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Let the first minutes feel almost too easy."
+            ]
+          }
+        ],
+        "mainSet": [
+          {
+            "blockType": "progression-run",
+            "name": "90-Min Easy-to-Steady Progression",
+            "description": "Run continuously for 90 minutes at easy to steady progression.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 5400,
+              "intensity": "easy to steady progression",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Start controlled and settle into rhythm."
+            ]
+          }
+        ],
+        "cooldown": [
+          {
+            "blockType": "cooldown",
+            "name": "Easy Walk-Jog Cooldown",
+            "description": "Walk or jog very easily after the main endurance work.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 300,
+              "intensity": "very easy recovery effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Rehydrate and let breathing return to normal."
+            ]
+          }
+        ]
+      },
+      "variants": {
+        "easier": {
+          "description": "Reduce the main-set load while keeping the same training purpose.",
+          "mainSet": [
+            {
+              "blockType": "progression-run",
+              "name": "75-Min Easy-to-Steady Progression",
+              "description": "Run continuously for 75 minutes at easy to steady progression.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 4500,
+                "intensity": "easy to steady progression",
+                "targetType": "time"
+              },
+              "recovery": null,
+              "notes": [
+                "Start controlled and settle into rhythm."
+              ]
+            }
+          ]
+        },
+        "harder": {
+          "description": "Increase the main-set load only when the base version is controlled.",
+          "mainSet": [
+            {
+              "blockType": "progression-run",
+              "name": "105-Min Easy-to-Steady Progression",
+              "description": "Run continuously for 105 minutes at easy to steady progression.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 6300,
+                "intensity": "easy to steady progression",
+                "targetType": "time"
+              },
+              "recovery": null,
+              "notes": [
+                "Start controlled and settle into rhythm."
+              ]
+            }
+          ]
+        }
+      },
+      "coachingNotes": [
+        "Use effort and fueling execution as the success metric, not only average pace.",
+        "Keep the first half conservative so late running mechanics stay clean.",
+        "Practice the same shoes, socks, hydration, and fueling approach you might use on race day when relevant."
+      ],
+      "commonMistakes": [
+        "Turning marathon effort into threshold effort.",
+        "Waiting too long before taking fuel or fluid during long sessions.",
+        "Forcing pace when heat, hills, or fatigue clearly change the effort."
+      ],
+      "safetyNotes": [
+        "Stop or shorten the workout if pain changes your stride.",
+        "Carry fluids or plan access to water for longer sessions.",
+        "Avoid demanding marathon workouts when sick, under-slept, injured, or carrying heavy fatigue."
+      ],
+      "shareCard": {
+        "cardTitle": "90-Min Progression",
+        "cardSubtitle": "Marathon · INTERMEDIATE · PROGRESSION-RUN",
+        "mainSetText": "90-Min Easy-to-Steady Progression",
+        "purposeText": "A patient progression from easy to steady marathon effort.",
+        "footerNote": "Risk: medium. Keep it controlled."
+      },
+      "tags": [
+        "Marathon",
+        "progression-run",
+        "intermediate",
+        "moderate-hard",
+        "medium"
+      ],
+      "searchKeywords": [
+        "intermediate",
+        "marathon",
+        "progression-run",
+        "90-min progression",
+        "long run",
+        "fueling"
+      ],
+      "uniquenessSignature": "294d2d7da1-marathon-90-min-progression-marathon-intermediate",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+    },
+    {
+      "id": "tv-m-016",
+      "slug": "marathon-thirds-progression-long-run-marathon-advanced",
+      "title": "Marathon Thirds Progression Long Run",
+      "shortTitle": "Thirds Progression",
+      "summary": "A long run split into easy, steady, and marathon-effort thirds.",
+      "targetDistances": [
+        "Marathon"
+      ],
+      "primaryDistance": "Marathon",
+      "category": "progression-run",
+      "trainingGoals": [
+        "thirds-progression",
+        "fatigue-resistance"
+      ],
+      "level": "advanced",
+      "phase": [
+        "peak"
+      ],
+      "surface": [
+        "road",
+        "flat-road",
+        "rolling-road"
+      ],
+      "equipment": [
+        "gps-watch",
+        "timer",
+        "fuel"
+      ],
+      "estimatedDurationMin": {
+        "min": 105,
+        "max": 135
+      },
+      "estimatedDistanceKm": {
+        "min": 16.0,
+        "max": 23.0
+      },
+      "qualityDistanceKm": 6.0,
+      "difficulty": "hard",
+      "risk": "high",
+      "riskReason": "Long duration plus marathon-effort quality creates significant fatigue and requires careful pacing.",
+      "intensityGuide": {
+        "primaryTarget": "marathon effort and aerobic durability",
+        "paceGuide": "Use marathon effort, steady effort, or easy conversational effort. Do not chase fixed pace if terrain, heat, or fatigue changes.",
+        "hrGuide": "Heart rate should rise gradually; sustained drift late in long runs is a sign to slow down, fuel, or shorten.",
+        "rpeGuide": "RPE 7–8/10."
+      },
+      "workoutStructure": {
+        "warmup": [
+          {
+            "blockType": "warmup",
+            "name": "Easy Start",
+            "description": "Start with easy jogging or brisk walking before settling into the main endurance work.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 600,
+              "intensity": "very easy effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Let the first minutes feel almost too easy."
+            ]
+          }
+        ],
+        "mainSet": [
+          {
+            "blockType": "progression-run",
+            "name": "Easy / Steady / Marathon Effort Thirds",
+            "description": "Split the run into three equal parts: easy, steady, then marathon effort.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 7200,
+              "intensity": "easy to marathon effort progression",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Fuel before the final third."
+            ]
+          }
+        ],
+        "cooldown": [
+          {
+            "blockType": "cooldown",
+            "name": "Easy Walk-Jog Cooldown",
+            "description": "Walk or jog very easily after the main endurance work.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 300,
+              "intensity": "very easy recovery effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Rehydrate and let breathing return to normal."
+            ]
+          }
+        ]
+      },
+      "variants": {
+        "easier": {
+          "description": "Reduce the main-set load while keeping the same training purpose.",
+          "mainSet": [
+            {
+              "blockType": "progression-run",
+              "name": "Short Thirds Progression",
+              "description": "Split a shorter run into easy, steady, then marathon effort thirds.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 5400,
+                "intensity": "easy to marathon effort progression",
+                "targetType": "time"
+              },
+              "recovery": null,
+              "notes": [
+                "Do not force."
+              ]
+            }
+          ]
+        },
+        "harder": {
+          "description": "Increase the main-set load only when the base version is controlled.",
+          "mainSet": [
+            {
+              "blockType": "progression-run",
+              "name": "Extended Thirds Progression",
+              "description": "Split a longer run into easy, steady, then marathon effort thirds.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 8400,
+                "intensity": "easy to marathon effort progression",
+                "targetType": "time"
+              },
+              "recovery": null,
+              "notes": [
+                "Advanced only."
+              ]
+            }
+          ]
+        }
+      },
+      "coachingNotes": [
+        "Use effort and fueling execution as the success metric, not only average pace.",
+        "Keep the first half conservative so late running mechanics stay clean.",
+        "Practice the same shoes, socks, hydration, and fueling approach you might use on race day when relevant."
+      ],
+      "commonMistakes": [
+        "Turning marathon effort into threshold effort.",
+        "Waiting too long before taking fuel or fluid during long sessions.",
+        "Forcing pace when heat, hills, or fatigue clearly change the effort."
+      ],
+      "safetyNotes": [
+        "Stop or shorten the workout if pain changes your stride.",
+        "Carry fluids or plan access to water for longer sessions.",
+        "Avoid demanding marathon workouts when sick, under-slept, injured, or carrying heavy fatigue."
+      ],
+      "shareCard": {
+        "cardTitle": "Thirds Progression",
+        "cardSubtitle": "Marathon · ADVANCED · PROGRESSION-RUN",
+        "mainSetText": "Easy / Steady / Marathon Effort Thirds",
+        "purposeText": "A long run split into easy, steady, and marathon-effort thirds.",
+        "footerNote": "Risk: high. Keep it controlled."
+      },
+      "tags": [
+        "Marathon",
+        "progression-run",
+        "advanced",
+        "hard",
+        "high"
+      ],
+      "searchKeywords": [
+        "advanced",
+        "marathon",
+        "progression-run",
+        "thirds progression",
+        "long run",
+        "fueling"
+      ],
+      "uniquenessSignature": "f3f6893db3-marathon-thirds-progression-long-run-marathon-advanced",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+    },
+    {
+      "id": "tv-m-017",
+      "slug": "marathon-fast-finish-30-min-close-marathon-advanced",
+      "title": "Marathon Fast-Finish 30-Min Close",
+      "shortTitle": "Fast-Finish 30",
+      "summary": "A long aerobic run closing with a controlled 30-minute steady-to-marathon block.",
+      "targetDistances": [
+        "Marathon"
+      ],
+      "primaryDistance": "Marathon",
+      "category": "progression-run",
+      "trainingGoals": [
+        "fast-finish",
+        "late-race-focus"
+      ],
+      "level": "advanced",
+      "phase": [
+        "peak"
+      ],
+      "surface": [
+        "road",
+        "flat-road",
+        "rolling-road"
+      ],
+      "equipment": [
+        "gps-watch",
+        "timer",
+        "fuel"
+      ],
+      "estimatedDurationMin": {
+        "min": 100,
+        "max": 130
+      },
+      "estimatedDistanceKm": {
+        "min": 16.0,
+        "max": 23.0
+      },
+      "qualityDistanceKm": 6.0,
+      "difficulty": "hard",
+      "risk": "high",
+      "riskReason": "Long duration plus marathon-effort quality creates significant fatigue and requires careful pacing.",
+      "intensityGuide": {
+        "primaryTarget": "marathon effort and aerobic durability",
+        "paceGuide": "Use marathon effort, steady effort, or easy conversational effort. Do not chase fixed pace if terrain, heat, or fatigue changes.",
+        "hrGuide": "Heart rate should rise gradually; sustained drift late in long runs is a sign to slow down, fuel, or shorten.",
+        "rpeGuide": "RPE 7–8/10."
+      },
+      "workoutStructure": {
+        "warmup": [
+          {
+            "blockType": "warmup",
+            "name": "Easy Start",
+            "description": "Start with easy jogging or brisk walking before settling into the main endurance work.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 600,
+              "intensity": "very easy effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Let the first minutes feel almost too easy."
+            ]
+          }
+        ],
+        "mainSet": [
+          {
+            "blockType": "progression-run",
+            "name": "Long Run + 30-Min Fast Finish",
+            "description": "Run easy first, then finish the final 30 minutes from steady to marathon effort.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 7200,
+              "intensity": "easy plus steady-to-marathon finish",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "This should not become threshold."
+            ]
+          }
+        ],
+        "cooldown": [
+          {
+            "blockType": "cooldown",
+            "name": "Easy Walk-Jog Cooldown",
+            "description": "Walk or jog very easily after the main endurance work.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 300,
+              "intensity": "very easy recovery effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Rehydrate and let breathing return to normal."
+            ]
+          }
+        ]
+      },
+      "variants": {
+        "easier": {
+          "description": "Reduce the main-set load while keeping the same training purpose.",
+          "mainSet": [
+            {
+              "blockType": "progression-run",
+              "name": "Long Run + 20-Min Fast Finish",
+              "description": "Run easy first, then finish the final 20 minutes steady.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 6000,
+                "intensity": "easy plus steady finish",
+                "targetType": "time"
+              },
+              "recovery": null,
+              "notes": [
+                "Stay controlled."
+              ]
+            }
+          ]
+        },
+        "harder": {
+          "description": "Increase the main-set load only when the base version is controlled.",
+          "mainSet": [
+            {
+              "blockType": "progression-run",
+              "name": "Long Run + 40-Min Fast Finish",
+              "description": "Run easy first, then finish the final 40 minutes steady to marathon effort.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 7800,
+                "intensity": "easy plus steady-to-marathon finish",
+                "targetType": "time"
+              },
+              "recovery": null,
+              "notes": [
+                "Advanced only."
+              ]
+            }
+          ]
+        }
+      },
+      "coachingNotes": [
+        "Use effort and fueling execution as the success metric, not only average pace.",
+        "Keep the first half conservative so late running mechanics stay clean.",
+        "Practice the same shoes, socks, hydration, and fueling approach you might use on race day when relevant."
+      ],
+      "commonMistakes": [
+        "Turning marathon effort into threshold effort.",
+        "Waiting too long before taking fuel or fluid during long sessions.",
+        "Forcing pace when heat, hills, or fatigue clearly change the effort."
+      ],
+      "safetyNotes": [
+        "Stop or shorten the workout if pain changes your stride.",
+        "Carry fluids or plan access to water for longer sessions.",
+        "Avoid demanding marathon workouts when sick, under-slept, injured, or carrying heavy fatigue."
+      ],
+      "shareCard": {
+        "cardTitle": "Fast-Finish 30",
+        "cardSubtitle": "Marathon · ADVANCED · PROGRESSION-RUN",
+        "mainSetText": "Long Run + 30-Min Fast Finish",
+        "purposeText": "A long aerobic run closing with a controlled 30-minute steady-to-marathon block.",
+        "footerNote": "Risk: high. Keep it controlled."
+      },
+      "tags": [
+        "Marathon",
+        "progression-run",
+        "advanced",
+        "hard",
+        "high"
+      ],
+      "searchKeywords": [
+        "advanced",
+        "marathon",
+        "progression-run",
+        "fast-finish 30",
+        "long run",
+        "fueling"
+      ],
+      "uniquenessSignature": "938a58a51f-marathon-fast-finish-30-min-close-marathon-advanced",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+    },
+    {
+      "id": "tv-m-018",
+      "slug": "marathon-controlled-negative-split-marathon-developing",
+      "title": "Marathon Controlled Negative Split",
+      "shortTitle": "Negative Split",
+      "summary": "A controlled negative split run for patience and finish strength.",
+      "targetDistances": [
+        "Marathon"
+      ],
+      "primaryDistance": "Marathon",
+      "category": "progression-run",
+      "trainingGoals": [
+        "negative-split",
+        "pacing-discipline"
+      ],
+      "level": "developing",
+      "phase": [
+        "build"
+      ],
+      "surface": [
+        "road",
+        "flat-road",
+        "rolling-road"
+      ],
+      "equipment": [
+        "gps-watch",
+        "timer",
+        "fuel"
+      ],
+      "estimatedDurationMin": {
+        "min": 70,
+        "max": 95
+      },
+      "estimatedDistanceKm": {
+        "min": 10.0,
+        "max": 16.0
+      },
+      "qualityDistanceKm": 2.0,
+      "difficulty": "moderate-hard",
+      "risk": "medium",
+      "riskReason": "Long duration increases cumulative fatigue, hydration demand, and lower-leg stress.",
+      "intensityGuide": {
+        "primaryTarget": "marathon effort and aerobic durability",
+        "paceGuide": "Use marathon effort, steady effort, or easy conversational effort. Do not chase fixed pace if terrain, heat, or fatigue changes.",
+        "hrGuide": "Heart rate should rise gradually; sustained drift late in long runs is a sign to slow down, fuel, or shorten.",
+        "rpeGuide": "RPE 5–7/10."
+      },
+      "workoutStructure": {
+        "warmup": [
+          {
+            "blockType": "warmup",
+            "name": "Easy Start",
+            "description": "Start with easy jogging or brisk walking before settling into the main endurance work.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 600,
+              "intensity": "very easy effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Let the first minutes feel almost too easy."
+            ]
+          }
+        ],
+        "mainSet": [
+          {
+            "blockType": "progression-run",
+            "name": "Controlled Negative Split Run",
+            "description": "Run continuously for 80 minutes at easy to steady negative split.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 4800,
+              "intensity": "easy to steady negative split",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Start controlled and settle into rhythm."
+            ]
+          }
+        ],
+        "cooldown": [
+          {
+            "blockType": "cooldown",
+            "name": "Easy Walk-Jog Cooldown",
+            "description": "Walk or jog very easily after the main endurance work.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 300,
+              "intensity": "very easy recovery effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Rehydrate and let breathing return to normal."
+            ]
+          }
+        ]
+      },
+      "variants": {
+        "easier": {
+          "description": "Reduce the main-set load while keeping the same training purpose.",
+          "mainSet": [
+            {
+              "blockType": "progression-run",
+              "name": "Short Controlled Negative Split",
+              "description": "Run continuously for 60 minutes at easy to steady negative split.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 3600,
+                "intensity": "easy to steady negative split",
+                "targetType": "time"
+              },
+              "recovery": null,
+              "notes": [
+                "Start controlled and settle into rhythm."
+              ]
+            }
+          ]
+        },
+        "harder": {
+          "description": "Increase the main-set load only when the base version is controlled.",
+          "mainSet": [
+            {
+              "blockType": "progression-run",
+              "name": "Extended Controlled Negative Split",
+              "description": "Run continuously for 95 minutes at easy to steady negative split.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 5700,
+                "intensity": "easy to steady negative split",
+                "targetType": "time"
+              },
+              "recovery": null,
+              "notes": [
+                "Start controlled and settle into rhythm."
+              ]
+            }
+          ]
+        }
+      },
+      "coachingNotes": [
+        "Use effort and fueling execution as the success metric, not only average pace.",
+        "Keep the first half conservative so late running mechanics stay clean.",
+        "Practice the same shoes, socks, hydration, and fueling approach you might use on race day when relevant."
+      ],
+      "commonMistakes": [
+        "Turning marathon effort into threshold effort.",
+        "Waiting too long before taking fuel or fluid during long sessions.",
+        "Forcing pace when heat, hills, or fatigue clearly change the effort."
+      ],
+      "safetyNotes": [
+        "Stop or shorten the workout if pain changes your stride.",
+        "Carry fluids or plan access to water for longer sessions.",
+        "Avoid demanding marathon workouts when sick, under-slept, injured, or carrying heavy fatigue."
+      ],
+      "shareCard": {
+        "cardTitle": "Negative Split",
+        "cardSubtitle": "Marathon · DEVELOPING · PROGRESSION-RUN",
+        "mainSetText": "Controlled Negative Split Run",
+        "purposeText": "A controlled negative split run for patience and finish strength.",
+        "footerNote": "Risk: medium. Keep it controlled."
+      },
+      "tags": [
+        "Marathon",
+        "progression-run",
+        "developing",
+        "moderate-hard",
+        "medium"
+      ],
+      "searchKeywords": [
+        "developing",
+        "marathon",
+        "progression-run",
+        "negative split",
+        "long run",
+        "fueling"
+      ],
+      "uniquenessSignature": "2c1ca00112-marathon-controlled-negative-split-marathon-developing",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+    },
+    {
+      "id": "tv-m-019",
+      "slug": "marathon-long-run-with-6-x-3-min-surges-marathon-intermediate",
+      "title": "Marathon Long Run with 6 × 3-Min Surges",
+      "shortTitle": "6 × 3 Surges",
+      "summary": "A long run with short controlled surges to maintain efficiency under fatigue.",
+      "targetDistances": [
+        "Marathon"
+      ],
+      "primaryDistance": "Marathon",
+      "category": "fartlek",
+      "trainingGoals": [
+        "surge-control",
+        "fatigue-resistance"
+      ],
+      "level": "intermediate",
+      "phase": [
+        "build"
+      ],
+      "surface": [
+        "road",
+        "flat-road",
+        "rolling-road"
+      ],
+      "equipment": [
+        "gps-watch",
+        "timer",
+        "fuel"
+      ],
+      "estimatedDurationMin": {
+        "min": 90,
+        "max": 120
+      },
+      "estimatedDistanceKm": {
+        "min": 14.0,
+        "max": 20.0
+      },
+      "qualityDistanceKm": 3.0,
+      "difficulty": "moderate-hard",
+      "risk": "medium",
+      "riskReason": "Long duration increases cumulative fatigue, hydration demand, and lower-leg stress.",
+      "intensityGuide": {
+        "primaryTarget": "marathon effort and aerobic durability",
+        "paceGuide": "Use marathon effort, steady effort, or easy conversational effort. Do not chase fixed pace if terrain, heat, or fatigue changes.",
+        "hrGuide": "Heart rate should rise gradually; sustained drift late in long runs is a sign to slow down, fuel, or shorten.",
+        "rpeGuide": "RPE 5–7/10."
+      },
+      "workoutStructure": {
+        "warmup": [
+          {
+            "blockType": "warmup",
+            "name": "Easy Start",
+            "description": "Start with easy jogging or brisk walking before settling into the main endurance work.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 600,
+              "intensity": "very easy effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Let the first minutes feel almost too easy."
+            ]
+          }
+        ],
+        "mainSet": [
+          {
+            "blockType": "repeat",
+            "name": "6 × 3-Min Controlled Surges",
+            "description": "Run 6 repetitions of 3s at 10K to half-marathon effort.",
+            "repetitions": 6,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 180,
+              "intensity": "10K to half-marathon effort",
+              "targetType": "time"
+            },
+            "recovery": {
+              "type": "jog",
+              "durationSeconds": 300,
+              "distanceMeters": null,
+              "intensity": "easy"
+            },
+            "notes": [
+              "Keep the effort controlled."
+            ]
+          }
+        ],
+        "cooldown": [
+          {
+            "blockType": "cooldown",
+            "name": "Easy Walk-Jog Cooldown",
+            "description": "Walk or jog very easily after the main endurance work.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 300,
+              "intensity": "very easy recovery effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Rehydrate and let breathing return to normal."
+            ]
+          }
+        ]
+      },
+      "variants": {
+        "easier": {
+          "description": "Reduce the main-set load while keeping the same training purpose.",
+          "mainSet": [
+            {
+              "blockType": "repeat",
+              "name": "4 × 3-Min Controlled Surges",
+              "description": "Run 4 repetitions of 3s at controlled surge effort.",
+              "repetitions": 4,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 180,
+                "intensity": "controlled surge effort",
+                "targetType": "time"
+              },
+              "recovery": {
+                "type": "jog",
+                "durationSeconds": 300,
+                "distanceMeters": null,
+                "intensity": "easy"
+              },
+              "notes": [
+                "Keep the effort controlled."
+              ]
+            }
+          ]
+        },
+        "harder": {
+          "description": "Increase the main-set load only when the base version is controlled.",
+          "mainSet": [
+            {
+              "blockType": "repeat",
+              "name": "8 × 3-Min Controlled Surges",
+              "description": "Run 8 repetitions of 3s at controlled surge effort.",
+              "repetitions": 8,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 180,
+                "intensity": "controlled surge effort",
+                "targetType": "time"
+              },
+              "recovery": {
+                "type": "jog",
+                "durationSeconds": 240,
+                "distanceMeters": null,
+                "intensity": "easy"
+              },
+              "notes": [
+                "Keep the effort controlled."
+              ]
+            }
+          ]
+        }
+      },
+      "coachingNotes": [
+        "Use effort and fueling execution as the success metric, not only average pace.",
+        "Keep the first half conservative so late running mechanics stay clean.",
+        "Practice the same shoes, socks, hydration, and fueling approach you might use on race day when relevant."
+      ],
+      "commonMistakes": [
+        "Turning marathon effort into threshold effort.",
+        "Waiting too long before taking fuel or fluid during long sessions.",
+        "Forcing pace when heat, hills, or fatigue clearly change the effort."
+      ],
+      "safetyNotes": [
+        "Stop or shorten the workout if pain changes your stride.",
+        "Carry fluids or plan access to water for longer sessions.",
+        "Avoid demanding marathon workouts when sick, under-slept, injured, or carrying heavy fatigue."
+      ],
+      "shareCard": {
+        "cardTitle": "6 × 3 Surges",
+        "cardSubtitle": "Marathon · INTERMEDIATE · FARTLEK",
+        "mainSetText": "6 × 3-Min Controlled Surges",
+        "purposeText": "A long run with short controlled surges to maintain efficiency under fatigue.",
+        "footerNote": "Risk: medium. Keep it controlled."
+      },
+      "tags": [
+        "Marathon",
+        "fartlek",
+        "intermediate",
+        "moderate-hard",
+        "medium"
+      ],
+      "searchKeywords": [
+        "intermediate",
+        "marathon",
+        "fartlek",
+        "6 × 3 surges",
+        "long run",
+        "fueling"
+      ],
+      "uniquenessSignature": "e86aeeaf09-marathon-long-run-with-6-x-3-min-surges-marathon-intermediate",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+    },
+    {
+      "id": "tv-m-020",
+      "slug": "marathon-late-surges-long-run-marathon-advanced",
+      "title": "Marathon Late Surges Long Run",
+      "shortTitle": "Late Surges LR",
+      "summary": "A long run with short surges placed late to practice relaxed form under fatigue.",
+      "targetDistances": [
+        "Marathon"
+      ],
+      "primaryDistance": "Marathon",
+      "category": "fartlek",
+      "trainingGoals": [
+        "late-surge-control",
+        "form-under-fatigue"
+      ],
+      "level": "advanced",
+      "phase": [
+        "peak"
+      ],
+      "surface": [
+        "road",
+        "flat-road",
+        "rolling-road"
+      ],
+      "equipment": [
+        "gps-watch",
+        "timer",
+        "fuel"
+      ],
+      "estimatedDurationMin": {
+        "min": 100,
+        "max": 130
+      },
+      "estimatedDistanceKm": {
+        "min": 15.0,
+        "max": 22.0
+      },
+      "qualityDistanceKm": 2.0,
+      "difficulty": "hard",
+      "risk": "high",
+      "riskReason": "Long duration plus marathon-effort quality creates significant fatigue and requires careful pacing.",
+      "intensityGuide": {
+        "primaryTarget": "marathon effort and aerobic durability",
+        "paceGuide": "Use marathon effort, steady effort, or easy conversational effort. Do not chase fixed pace if terrain, heat, or fatigue changes.",
+        "hrGuide": "Heart rate should rise gradually; sustained drift late in long runs is a sign to slow down, fuel, or shorten.",
+        "rpeGuide": "RPE 7–8/10."
+      },
+      "workoutStructure": {
+        "warmup": [
+          {
+            "blockType": "warmup",
+            "name": "Easy Start",
+            "description": "Start with easy jogging or brisk walking before settling into the main endurance work.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 600,
+              "intensity": "very easy effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Let the first minutes feel almost too easy."
+            ]
+          }
+        ],
+        "mainSet": [
+          {
+            "blockType": "fartlek",
+            "name": "10 × 60s Late Surges",
+            "description": "During the final third of a long run, include 10 × 60s controlled surges.",
+            "repetitions": 10,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 60,
+              "intensity": "controlled surge effort",
+              "targetType": "time"
+            },
+            "recovery": {
+              "type": "jog",
+              "durationSeconds": 180,
+              "distanceMeters": null,
+              "intensity": "easy"
+            },
+            "notes": [
+              "Surges should stay smooth."
+            ]
+          }
+        ],
+        "cooldown": [
+          {
+            "blockType": "cooldown",
+            "name": "Easy Walk-Jog Cooldown",
+            "description": "Walk or jog very easily after the main endurance work.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 300,
+              "intensity": "very easy recovery effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Rehydrate and let breathing return to normal."
+            ]
+          }
+        ]
+      },
+      "variants": {
+        "easier": {
+          "description": "Reduce the main-set load while keeping the same training purpose.",
+          "mainSet": [
+            {
+              "blockType": "fartlek",
+              "name": "8 × 60s Late Surges",
+              "description": "During the final third, include 8 × 60s controlled surges.",
+              "repetitions": 8,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 60,
+                "intensity": "controlled surge effort",
+                "targetType": "time"
+              },
+              "recovery": {
+                "type": "jog",
+                "durationSeconds": 180,
+                "distanceMeters": null,
+                "intensity": "easy"
+              },
+              "notes": [
+                "Stay relaxed."
+              ]
+            }
+          ]
+        },
+        "harder": {
+          "description": "Increase the main-set load only when the base version is controlled.",
+          "mainSet": [
+            {
+              "blockType": "fartlek",
+              "name": "12 × 60s Late Surges",
+              "description": "During the final third, include 12 × 60s controlled surges.",
+              "repetitions": 12,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 60,
+                "intensity": "controlled surge effort",
+                "targetType": "time"
+              },
+              "recovery": {
+                "type": "jog",
+                "durationSeconds": 150,
+                "distanceMeters": null,
+                "intensity": "easy"
+              },
+              "notes": [
+                "Advanced only."
+              ]
+            }
+          ]
+        }
+      },
+      "coachingNotes": [
+        "Use effort and fueling execution as the success metric, not only average pace.",
+        "Keep the first half conservative so late running mechanics stay clean.",
+        "Practice the same shoes, socks, hydration, and fueling approach you might use on race day when relevant."
+      ],
+      "commonMistakes": [
+        "Turning marathon effort into threshold effort.",
+        "Waiting too long before taking fuel or fluid during long sessions.",
+        "Forcing pace when heat, hills, or fatigue clearly change the effort."
+      ],
+      "safetyNotes": [
+        "Stop or shorten the workout if pain changes your stride.",
+        "Carry fluids or plan access to water for longer sessions.",
+        "Avoid demanding marathon workouts when sick, under-slept, injured, or carrying heavy fatigue."
+      ],
+      "shareCard": {
+        "cardTitle": "Late Surges LR",
+        "cardSubtitle": "Marathon · ADVANCED · FARTLEK",
+        "mainSetText": "10 × 60s Late Surges",
+        "purposeText": "A long run with short surges placed late to practice relaxed form under fatigue.",
+        "footerNote": "Risk: high. Keep it controlled."
+      },
+      "tags": [
+        "Marathon",
+        "fartlek",
+        "advanced",
+        "hard",
+        "high"
+      ],
+      "searchKeywords": [
+        "advanced",
+        "marathon",
+        "fartlek",
+        "late surges lr",
+        "long run",
+        "fueling"
+      ],
+      "uniquenessSignature": "36e2c811e8-marathon-late-surges-long-run-marathon-advanced",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+    },
+    {
+      "id": "tv-m-021",
+      "slug": "marathon-rolling-surge-run-marathon-developing",
+      "title": "Marathon Rolling Surge Run",
+      "shortTitle": "Rolling Surges",
+      "summary": "A rolling-terrain run using controlled uphill or flat surges for strength.",
+      "targetDistances": [
+        "Marathon"
+      ],
+      "primaryDistance": "Marathon",
+      "category": "fartlek",
+      "trainingGoals": [
+        "rolling-strength",
+        "surge-rhythm"
+      ],
+      "level": "developing",
+      "phase": [
+        "base",
+        "build"
+      ],
+      "surface": [
+        "road",
+        "flat-road",
+        "rolling-road"
+      ],
+      "equipment": [
+        "gps-watch",
+        "timer",
+        "fuel"
+      ],
+      "estimatedDurationMin": {
+        "min": 70,
+        "max": 95
+      },
+      "estimatedDistanceKm": {
+        "min": 10.0,
+        "max": 16.0
+      },
+      "qualityDistanceKm": 2.4,
+      "difficulty": "moderate-hard",
+      "risk": "medium",
+      "riskReason": "Long duration increases cumulative fatigue, hydration demand, and lower-leg stress.",
+      "intensityGuide": {
+        "primaryTarget": "marathon effort and aerobic durability",
+        "paceGuide": "Use marathon effort, steady effort, or easy conversational effort. Do not chase fixed pace if terrain, heat, or fatigue changes.",
+        "hrGuide": "Heart rate should rise gradually; sustained drift late in long runs is a sign to slow down, fuel, or shorten.",
+        "rpeGuide": "RPE 5–7/10."
+      },
+      "workoutStructure": {
+        "warmup": [
+          {
+            "blockType": "warmup",
+            "name": "Easy Start",
+            "description": "Start with easy jogging or brisk walking before settling into the main endurance work.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 600,
+              "intensity": "very easy effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Let the first minutes feel almost too easy."
+            ]
+          }
+        ],
+        "mainSet": [
+          {
+            "blockType": "repeat",
+            "name": "8 × 90s Rolling Surges",
+            "description": "Run 8 repetitions of 90s at steady-to-strong surge effort.",
+            "repetitions": 8,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 90,
+              "intensity": "steady-to-strong surge effort",
+              "targetType": "time"
+            },
+            "recovery": {
+              "type": "jog",
+              "durationSeconds": 180,
+              "distanceMeters": null,
+              "intensity": "easy"
+            },
+            "notes": [
+              "Keep the effort controlled."
+            ]
+          }
+        ],
+        "cooldown": [
+          {
+            "blockType": "cooldown",
+            "name": "Easy Walk-Jog Cooldown",
+            "description": "Walk or jog very easily after the main endurance work.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 300,
+              "intensity": "very easy recovery effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Rehydrate and let breathing return to normal."
+            ]
+          }
+        ]
+      },
+      "variants": {
+        "easier": {
+          "description": "Reduce the main-set load while keeping the same training purpose.",
+          "mainSet": [
+            {
+              "blockType": "repeat",
+              "name": "6 × 90s Rolling Surges",
+              "description": "Run 6 repetitions of 90s at steady-to-strong surge effort.",
+              "repetitions": 6,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 90,
+                "intensity": "steady-to-strong surge effort",
+                "targetType": "time"
+              },
+              "recovery": {
+                "type": "jog",
+                "durationSeconds": 180,
+                "distanceMeters": null,
+                "intensity": "easy"
+              },
+              "notes": [
+                "Keep the effort controlled."
+              ]
+            }
+          ]
+        },
+        "harder": {
+          "description": "Increase the main-set load only when the base version is controlled.",
+          "mainSet": [
+            {
+              "blockType": "repeat",
+              "name": "10 × 90s Rolling Surges",
+              "description": "Run 10 repetitions of 90s at steady-to-strong surge effort.",
+              "repetitions": 10,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 90,
+                "intensity": "steady-to-strong surge effort",
+                "targetType": "time"
+              },
+              "recovery": {
+                "type": "jog",
+                "durationSeconds": 150,
+                "distanceMeters": null,
+                "intensity": "easy"
+              },
+              "notes": [
+                "Keep the effort controlled."
+              ]
+            }
+          ]
+        }
+      },
+      "coachingNotes": [
+        "Use effort and fueling execution as the success metric, not only average pace.",
+        "Keep the first half conservative so late running mechanics stay clean.",
+        "Practice the same shoes, socks, hydration, and fueling approach you might use on race day when relevant."
+      ],
+      "commonMistakes": [
+        "Turning marathon effort into threshold effort.",
+        "Waiting too long before taking fuel or fluid during long sessions.",
+        "Forcing pace when heat, hills, or fatigue clearly change the effort."
+      ],
+      "safetyNotes": [
+        "Stop or shorten the workout if pain changes your stride.",
+        "Carry fluids or plan access to water for longer sessions.",
+        "Avoid demanding marathon workouts when sick, under-slept, injured, or carrying heavy fatigue."
+      ],
+      "shareCard": {
+        "cardTitle": "Rolling Surges",
+        "cardSubtitle": "Marathon · DEVELOPING · FARTLEK",
+        "mainSetText": "8 × 90s Rolling Surges",
+        "purposeText": "A rolling-terrain run using controlled uphill or flat surges for strength.",
+        "footerNote": "Risk: medium. Keep it controlled."
+      },
+      "tags": [
+        "Marathon",
+        "fartlek",
+        "developing",
+        "moderate-hard",
+        "medium"
+      ],
+      "searchKeywords": [
+        "developing",
+        "marathon",
+        "fartlek",
+        "rolling surges",
+        "long run",
+        "fueling"
+      ],
+      "uniquenessSignature": "1964a5681e-marathon-rolling-surge-run-marathon-developing",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+    },
+    {
+      "id": "tv-m-022",
+      "slug": "marathon-back-half-strength-simulation-marathon-competitive",
+      "title": "Marathon Back-Half Strength Simulation",
+      "shortTitle": "Back-Half Strength",
+      "summary": "A long run with controlled marathon-effort work placed after substantial easy running.",
+      "targetDistances": [
+        "Marathon"
+      ],
+      "primaryDistance": "Marathon",
+      "category": "long-run",
+      "trainingGoals": [
+        "back-half-strength",
+        "fatigue-resistance"
+      ],
+      "level": "competitive",
+      "phase": [
+        "peak"
+      ],
+      "surface": [
+        "road",
+        "flat-road",
+        "rolling-road"
+      ],
+      "equipment": [
+        "gps-watch",
+        "timer",
+        "fuel"
+      ],
+      "estimatedDurationMin": {
+        "min": 120,
+        "max": 150
+      },
+      "estimatedDistanceKm": {
+        "min": 20.0,
+        "max": 28.0
+      },
+      "qualityDistanceKm": 10.0,
+      "difficulty": "very-hard",
+      "risk": "very-high",
+      "riskReason": "Very long quality volume is demanding and should be treated as advanced reference work only.",
+      "intensityGuide": {
+        "primaryTarget": "marathon effort and aerobic durability",
+        "paceGuide": "Use marathon effort, steady effort, or easy conversational effort. Do not chase fixed pace if terrain, heat, or fatigue changes.",
+        "hrGuide": "Heart rate should rise gradually; sustained drift late in long runs is a sign to slow down, fuel, or shorten.",
+        "rpeGuide": "RPE 8–9/10."
+      },
+      "workoutStructure": {
+        "warmup": [
+          {
+            "blockType": "warmup",
+            "name": "Easy Start",
+            "description": "Start with easy jogging or brisk walking before settling into the main endurance work.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 600,
+              "intensity": "very easy effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Let the first minutes feel almost too easy."
+            ]
+          }
+        ],
+        "mainSet": [
+          {
+            "blockType": "long-run",
+            "name": "Long Run + 2 × 25-Min Marathon Effort Late",
+            "description": "Run easy first, then complete 2 × 25 minutes at marathon effort late in the run.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 8400,
+              "intensity": "easy plus late marathon effort",
+              "targetType": "time"
+            },
+            "recovery": {
+              "type": "jog",
+              "durationSeconds": 300,
+              "distanceMeters": null,
+              "intensity": "easy"
+            },
+            "notes": [
+              "Competitive runners only. Fuel early and often."
+            ]
+          }
+        ],
+        "cooldown": [
+          {
+            "blockType": "cooldown",
+            "name": "Easy Walk-Jog Cooldown",
+            "description": "Walk or jog very easily after the main endurance work.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 300,
+              "intensity": "very easy recovery effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Rehydrate and let breathing return to normal."
+            ]
+          }
+        ]
+      },
+      "variants": {
+        "easier": {
+          "description": "Reduce the main-set load while keeping the same training purpose.",
+          "mainSet": [
+            {
+              "blockType": "long-run",
+              "name": "Long Run + 2 × 18-Min Marathon Effort Late",
+              "description": "Run easy first, then complete two shorter marathon-effort blocks late.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 7200,
+                "intensity": "easy plus late marathon effort",
+                "targetType": "time"
+              },
+              "recovery": {
+                "type": "jog",
+                "durationSeconds": 300,
+                "distanceMeters": null,
+                "intensity": "easy"
+              },
+              "notes": [
+                "Use if fatigued."
+              ]
+            }
+          ]
+        },
+        "harder": {
+          "description": "Increase the main-set load only when the base version is controlled.",
+          "mainSet": [
+            {
+              "blockType": "long-run",
+              "name": "Long Run + 3 × 25-Min Marathon Effort Late",
+              "description": "Run easy first, then complete three marathon-effort blocks late.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 9000,
+                "intensity": "easy plus late marathon effort",
+                "targetType": "time"
+              },
+              "recovery": {
+                "type": "jog",
+                "durationSeconds": 300,
+                "distanceMeters": null,
+                "intensity": "easy"
+              },
+              "notes": [
+                "Elite reference only if used."
+              ]
+            }
+          ]
+        }
+      },
+      "coachingNotes": [
+        "Use effort and fueling execution as the success metric, not only average pace.",
+        "Keep the first half conservative so late running mechanics stay clean.",
+        "Practice the same shoes, socks, hydration, and fueling approach you might use on race day when relevant."
+      ],
+      "commonMistakes": [
+        "Turning marathon effort into threshold effort.",
+        "Waiting too long before taking fuel or fluid during long sessions.",
+        "Forcing pace when heat, hills, or fatigue clearly change the effort."
+      ],
+      "safetyNotes": [
+        "Stop or shorten the workout if pain changes your stride.",
+        "Carry fluids or plan access to water for longer sessions.",
+        "Avoid demanding marathon workouts when sick, under-slept, injured, or carrying heavy fatigue.",
+        "Treat this as reference-level work; do not attempt without a strong marathon base and adequate recovery."
+      ],
+      "shareCard": {
+        "cardTitle": "Back-Half Strength",
+        "cardSubtitle": "Marathon · COMPETITIVE · LONG-RUN",
+        "mainSetText": "Long Run + 2 × 25-Min Marathon Effort Late",
+        "purposeText": "A long run with controlled marathon-effort work placed after substantial easy running.",
+        "footerNote": "Risk: very-high. Keep it controlled."
+      },
+      "tags": [
+        "Marathon",
+        "long-run",
+        "competitive",
+        "very-hard",
+        "very-high"
+      ],
+      "searchKeywords": [
+        "competitive",
+        "marathon",
+        "long-run",
+        "back-half strength",
+        "long run",
+        "fueling"
+      ],
+      "uniquenessSignature": "ada5d4ba45-marathon-back-half-strength-simulation-marathon-competitive",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+    },
+    {
+      "id": "tv-m-023",
+      "slug": "marathon-depletion-style-controlled-long-run-marathon-elite-reference",
+      "title": "Marathon Depletion-Style Controlled Long Run",
+      "shortTitle": "Controlled Fatigue LR",
+      "summary": "A demanding controlled long run for experienced marathoners practicing late-race discipline.",
+      "targetDistances": [
+        "Marathon"
+      ],
+      "primaryDistance": "Marathon",
+      "category": "long-run",
+      "trainingGoals": [
+        "fatigue-discipline",
+        "marathon-resilience"
+      ],
+      "level": "elite-reference",
+      "phase": [
+        "peak"
+      ],
+      "surface": [
+        "road",
+        "flat-road",
+        "rolling-road"
+      ],
+      "equipment": [
+        "gps-watch",
+        "timer",
+        "fuel"
+      ],
+      "estimatedDurationMin": {
+        "min": 130,
+        "max": 160
+      },
+      "estimatedDistanceKm": {
+        "min": 22.0,
+        "max": 30.0
+      },
+      "qualityDistanceKm": 8.0,
+      "difficulty": "very-hard",
+      "risk": "very-high",
+      "riskReason": "Very long quality volume is demanding and should be treated as advanced reference work only.",
+      "intensityGuide": {
+        "primaryTarget": "marathon effort and aerobic durability",
+        "paceGuide": "Use marathon effort, steady effort, or easy conversational effort. Do not chase fixed pace if terrain, heat, or fatigue changes.",
+        "hrGuide": "Heart rate should rise gradually; sustained drift late in long runs is a sign to slow down, fuel, or shorten.",
+        "rpeGuide": "RPE 8–9/10."
+      },
+      "workoutStructure": {
+        "warmup": [
+          {
+            "blockType": "warmup",
+            "name": "Easy Start",
+            "description": "Start with easy jogging or brisk walking before settling into the main endurance work.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 600,
+              "intensity": "very easy effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Let the first minutes feel almost too easy."
+            ]
+          }
+        ],
+        "mainSet": [
+          {
+            "blockType": "long-run",
+            "name": "Extended Controlled Fatigue Long Run",
+            "description": "Run long at easy-to-steady effort with the final 45 minutes near marathon effort.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 9000,
+              "intensity": "easy to marathon effort under fatigue",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Reference only. Do not use without strong base."
+            ]
+          }
+        ],
+        "cooldown": [
+          {
+            "blockType": "cooldown",
+            "name": "Easy Walk-Jog Cooldown",
+            "description": "Walk or jog very easily after the main endurance work.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 300,
+              "intensity": "very easy recovery effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Rehydrate and let breathing return to normal."
+            ]
+          }
+        ]
+      },
+      "variants": {
+        "easier": {
+          "description": "Reduce the main-set load while keeping the same training purpose.",
+          "mainSet": [
+            {
+              "blockType": "long-run",
+              "name": "Reduced Controlled Fatigue Long Run",
+              "description": "Run long at easy-to-steady effort with final 25 minutes near marathon effort.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 7200,
+                "intensity": "easy to marathon effort under fatigue",
+                "targetType": "time"
+              },
+              "recovery": null,
+              "notes": [
+                "Safer reduced load."
+              ]
+            }
+          ]
+        },
+        "harder": {
+          "description": "Increase the main-set load only when the base version is controlled.",
+          "mainSet": [
+            {
+              "blockType": "long-run",
+              "name": "Extended Controlled Fatigue Long Run Plus",
+              "description": "Run longer with final 60 minutes near marathon effort.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 9600,
+                "intensity": "easy to marathon effort under fatigue",
+                "targetType": "time"
+              },
+              "recovery": null,
+              "notes": [
+                "Elite reference only."
+              ]
+            }
+          ]
+        }
+      },
+      "coachingNotes": [
+        "Use effort and fueling execution as the success metric, not only average pace.",
+        "Keep the first half conservative so late running mechanics stay clean.",
+        "Practice the same shoes, socks, hydration, and fueling approach you might use on race day when relevant."
+      ],
+      "commonMistakes": [
+        "Turning marathon effort into threshold effort.",
+        "Waiting too long before taking fuel or fluid during long sessions.",
+        "Forcing pace when heat, hills, or fatigue clearly change the effort."
+      ],
+      "safetyNotes": [
+        "Stop or shorten the workout if pain changes your stride.",
+        "Carry fluids or plan access to water for longer sessions.",
+        "Avoid demanding marathon workouts when sick, under-slept, injured, or carrying heavy fatigue.",
+        "Treat this as reference-level work; do not attempt without a strong marathon base and adequate recovery."
+      ],
+      "shareCard": {
+        "cardTitle": "Controlled Fatigue LR",
+        "cardSubtitle": "Marathon · ELITE-REFERENCE · LONG-RUN",
+        "mainSetText": "Extended Controlled Fatigue Long Run",
+        "purposeText": "A demanding controlled long run for experienced marathoners practicing late-race discipline.",
+        "footerNote": "Risk: very-high. Keep it controlled."
+      },
+      "tags": [
+        "Marathon",
+        "long-run",
+        "elite-reference",
+        "very-hard",
+        "very-high"
+      ],
+      "searchKeywords": [
+        "elite-reference",
+        "marathon",
+        "long-run",
+        "controlled fatigue lr",
+        "long run",
+        "fueling"
+      ],
+      "uniquenessSignature": "51ed573163-marathon-depletion-style-controlled-long-run-marathon-elite-reference",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+    },
+    {
+      "id": "tv-m-024",
+      "slug": "marathon-fueling-practice-long-run-marathon-developing",
+      "title": "Marathon Fueling Practice Long Run",
+      "shortTitle": "Fueling Practice LR",
+      "summary": "A long run focused on testing fueling, hydration, and stomach tolerance at easy effort.",
+      "targetDistances": [
+        "Marathon"
+      ],
+      "primaryDistance": "Marathon",
+      "category": "long-run",
+      "trainingGoals": [
+        "fueling-practice",
+        "hydration-practice"
+      ],
+      "level": "developing",
+      "phase": [
+        "build"
+      ],
+      "surface": [
+        "road",
+        "flat-road",
+        "rolling-road"
+      ],
+      "equipment": [
+        "gps-watch",
+        "timer",
+        "fuel"
+      ],
+      "estimatedDurationMin": {
+        "min": 90,
+        "max": 120
+      },
+      "estimatedDistanceKm": {
+        "min": 12.0,
+        "max": 18.0
+      },
+      "qualityDistanceKm": 0.0,
+      "difficulty": "moderate",
+      "risk": "medium",
+      "riskReason": "Long duration increases cumulative fatigue, hydration demand, and lower-leg stress.",
+      "intensityGuide": {
+        "primaryTarget": "marathon effort and aerobic durability",
+        "paceGuide": "Use marathon effort, steady effort, or easy conversational effort. Do not chase fixed pace if terrain, heat, or fatigue changes.",
+        "hrGuide": "Heart rate should rise gradually; sustained drift late in long runs is a sign to slow down, fuel, or shorten.",
+        "rpeGuide": "RPE 4–5/10."
+      },
+      "workoutStructure": {
+        "warmup": [
+          {
+            "blockType": "warmup",
+            "name": "Easy Start",
+            "description": "Start with easy jogging or brisk walking before settling into the main endurance work.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 600,
+              "intensity": "very easy effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Let the first minutes feel almost too easy."
+            ]
+          }
+        ],
+        "mainSet": [
+          {
+            "blockType": "long-run",
+            "name": "100–120-Min Fueling Practice Run",
+            "description": "Run easy while practicing planned carbohydrate and fluid intake every 20–30 minutes.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 6600,
+              "intensity": "easy conversational effort with fueling practice",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "The main purpose is fueling execution, not speed."
+            ]
+          }
+        ],
+        "cooldown": [
+          {
+            "blockType": "cooldown",
+            "name": "Easy Walk-Jog Cooldown",
+            "description": "Walk or jog very easily after the main endurance work.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 300,
+              "intensity": "very easy recovery effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Rehydrate and let breathing return to normal."
+            ]
+          }
+        ]
+      },
+      "variants": {
+        "easier": {
+          "description": "Reduce the main-set load while keeping the same training purpose.",
+          "mainSet": [
+            {
+              "blockType": "long-run",
+              "name": "75–90-Min Fueling Practice Run",
+              "description": "Run easy while testing a smaller fueling plan.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 4800,
+                "intensity": "easy conversational effort",
+                "targetType": "time"
+              },
+              "recovery": null,
+              "notes": [
+                "Keep it simple."
+              ]
+            }
+          ]
+        },
+        "harder": {
+          "description": "Increase the main-set load only when the base version is controlled.",
+          "mainSet": [
+            {
+              "blockType": "long-run",
+              "name": "120–140-Min Fueling Practice Run",
+              "description": "Run easy while practicing full marathon-style fueling.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 7800,
+                "intensity": "easy conversational effort",
+                "targetType": "time"
+              },
+              "recovery": null,
+              "notes": [
+                "Use only when prepared."
+              ]
+            }
+          ]
+        }
+      },
+      "coachingNotes": [
+        "Use effort and fueling execution as the success metric, not only average pace.",
+        "Keep the first half conservative so late running mechanics stay clean.",
+        "Practice the same shoes, socks, hydration, and fueling approach you might use on race day when relevant."
+      ],
+      "commonMistakes": [
+        "Turning marathon effort into threshold effort.",
+        "Waiting too long before taking fuel or fluid during long sessions.",
+        "Forcing pace when heat, hills, or fatigue clearly change the effort."
+      ],
+      "safetyNotes": [
+        "Stop or shorten the workout if pain changes your stride.",
+        "Carry fluids or plan access to water for longer sessions.",
+        "Avoid demanding marathon workouts when sick, under-slept, injured, or carrying heavy fatigue."
+      ],
+      "shareCard": {
+        "cardTitle": "Fueling Practice LR",
+        "cardSubtitle": "Marathon · DEVELOPING · LONG-RUN",
+        "mainSetText": "100–120-Min Fueling Practice Run",
+        "purposeText": "A long run focused on testing fueling, hydration, and stomach tolerance at easy effort.",
+        "footerNote": "Risk: medium. Keep it controlled."
+      },
+      "tags": [
+        "Marathon",
+        "long-run",
+        "developing",
+        "moderate",
+        "medium"
+      ],
+      "searchKeywords": [
+        "developing",
+        "marathon",
+        "long-run",
+        "fueling practice lr",
+        "long run",
+        "fueling"
+      ],
+      "uniquenessSignature": "m-024-832a03cd",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+    },
+    {
+      "id": "tv-m-025",
+      "slug": "marathon-fuel-marathon-effort-rehearsal-marathon-intermediate",
+      "title": "Marathon Fuel + Marathon Effort Rehearsal",
+      "shortTitle": "Fuel + MP Rehearsal",
+      "summary": "A controlled rehearsal combining fueling practice with a short marathon-effort block.",
+      "targetDistances": [
+        "Marathon"
+      ],
+      "primaryDistance": "Marathon",
+      "category": "race-pace",
+      "trainingGoals": [
+        "fueling-rehearsal",
+        "marathon-effort"
+      ],
+      "level": "intermediate",
+      "phase": [
+        "peak"
+      ],
+      "surface": [
+        "road",
+        "flat-road",
+        "rolling-road"
+      ],
+      "equipment": [
+        "gps-watch",
+        "timer",
+        "fuel"
+      ],
+      "estimatedDurationMin": {
+        "min": 95,
+        "max": 125
+      },
+      "estimatedDistanceKm": {
+        "min": 14.0,
+        "max": 20.0
+      },
+      "qualityDistanceKm": 5.0,
+      "difficulty": "hard",
+      "risk": "high",
+      "riskReason": "Long duration plus marathon-effort quality creates significant fatigue and requires careful pacing.",
+      "intensityGuide": {
+        "primaryTarget": "marathon effort and aerobic durability",
+        "paceGuide": "Use marathon effort, steady effort, or easy conversational effort. Do not chase fixed pace if terrain, heat, or fatigue changes.",
+        "hrGuide": "Heart rate should rise gradually; sustained drift late in long runs is a sign to slow down, fuel, or shorten.",
+        "rpeGuide": "RPE 7–8/10."
+      },
+      "workoutStructure": {
+        "warmup": [
+          {
+            "blockType": "warmup",
+            "name": "Easy Start",
+            "description": "Start with easy jogging or brisk walking before settling into the main endurance work.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 600,
+              "intensity": "very easy effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Let the first minutes feel almost too easy."
+            ]
+          }
+        ],
+        "mainSet": [
+          {
+            "blockType": "long-run",
+            "name": "Fueling Run + 30-Min Marathon Effort",
+            "description": "Run easy while fueling, then include 30 minutes at marathon effort.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 6600,
+              "intensity": "easy plus marathon effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Test fueling before and during the marathon block."
+            ]
+          }
+        ],
+        "cooldown": [
+          {
+            "blockType": "cooldown",
+            "name": "Easy Walk-Jog Cooldown",
+            "description": "Walk or jog very easily after the main endurance work.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 300,
+              "intensity": "very easy recovery effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": [
+              "Rehydrate and let breathing return to normal."
+            ]
+          }
+        ]
+      },
+      "variants": {
+        "easier": {
+          "description": "Reduce the main-set load while keeping the same training purpose.",
+          "mainSet": [
+            {
+              "blockType": "long-run",
+              "name": "Fueling Run + 20-Min Marathon Effort",
+              "description": "Run easy while fueling, then include 20 minutes at marathon effort.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 5400,
+                "intensity": "easy plus marathon effort",
+                "targetType": "time"
+              },
+              "recovery": null,
+              "notes": [
+                "Stay conservative."
+              ]
+            }
+          ]
+        },
+        "harder": {
+          "description": "Increase the main-set load only when the base version is controlled.",
+          "mainSet": [
+            {
+              "blockType": "long-run",
+              "name": "Fueling Run + 45-Min Marathon Effort",
+              "description": "Run easy while fueling, then include 45 minutes at marathon effort.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 7200,
+                "intensity": "easy plus marathon effort",
+                "targetType": "time"
+              },
+              "recovery": null,
+              "notes": [
+                "Only when fresh."
+              ]
+            }
+          ]
+        }
+      },
+      "coachingNotes": [
+        "Use effort and fueling execution as the success metric, not only average pace.",
+        "Keep the first half conservative so late running mechanics stay clean.",
+        "Practice the same shoes, socks, hydration, and fueling approach you might use on race day when relevant."
+      ],
+      "commonMistakes": [
+        "Turning marathon effort into threshold effort.",
+        "Waiting too long before taking fuel or fluid during long sessions.",
+        "Forcing pace when heat, hills, or fatigue clearly change the effort."
+      ],
+      "safetyNotes": [
+        "Stop or shorten the workout if pain changes your stride.",
+        "Carry fluids or plan access to water for longer sessions.",
+        "Avoid demanding marathon workouts when sick, under-slept, injured, or carrying heavy fatigue."
+      ],
+      "shareCard": {
+        "cardTitle": "Fuel + MP Rehearsal",
+        "cardSubtitle": "Marathon · INTERMEDIATE · RACE-PACE",
+        "mainSetText": "Fueling Run + 30-Min Marathon Effort",
+        "purposeText": "A controlled rehearsal combining fueling practice with a short marathon-effort block.",
+        "footerNote": "Risk: high. Keep it controlled."
+      },
+      "tags": [
+        "Marathon",
+        "race-pace",
+        "intermediate",
+        "hard",
+        "high"
+      ],
+      "searchKeywords": [
+        "intermediate",
+        "marathon",
+        "race-pace",
+        "fuel + mp rehearsal",
+        "long run",
+        "fueling"
+      ],
+      "uniquenessSignature": "05cdd630cf-marathon-fuel-marathon-effort-rehearsal-marathon-intermediate",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+    }
+  ]
+}

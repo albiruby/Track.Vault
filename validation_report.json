@@ -1,0 +1,94 @@
+{
+  "status": "pass",
+  "generatedAt": "2026-05-31T09:23:21",
+  "totalCategories": 13,
+  "totalWorkouts": 360,
+  "categorySummaries": [
+    {
+      "categoryId": "beginner-return",
+      "file": "categories/beginner-return.v1.json",
+      "targetWorkoutCount": 25,
+      "actualWorkoutCount": 25
+    },
+    {
+      "categoryId": "easy-recovery-base",
+      "file": "categories/easy-recovery-base.v1.json",
+      "targetWorkoutCount": 25,
+      "actualWorkoutCount": 25
+    },
+    {
+      "categoryId": "long-run-progression",
+      "file": "categories/long-run-progression.v1.json",
+      "targetWorkoutCount": 25,
+      "actualWorkoutCount": 25
+    },
+    {
+      "categoryId": "fartlek-mixed",
+      "file": "categories/fartlek-mixed.v1.json",
+      "targetWorkoutCount": 25,
+      "actualWorkoutCount": 25
+    },
+    {
+      "categoryId": "hill-trail",
+      "file": "categories/hill-trail.v1.json",
+      "targetWorkoutCount": 25,
+      "actualWorkoutCount": 25
+    },
+    {
+      "categoryId": "treadmill",
+      "file": "categories/treadmill.v1.json",
+      "targetWorkoutCount": 15,
+      "actualWorkoutCount": 15
+    },
+    {
+      "categoryId": "sprint-100m-400m",
+      "file": "categories/sprint-100m-400m.v1.json",
+      "targetWorkoutCount": 30,
+      "actualWorkoutCount": 30
+    },
+    {
+      "categoryId": "middle-distance-800m-mile",
+      "file": "categories/middle-distance-800m-mile.v1.json",
+      "targetWorkoutCount": 35,
+      "actualWorkoutCount": 35
+    },
+    {
+      "categoryId": "three-k-five-k",
+      "file": "categories/three-k-five-k.v1.json",
+      "targetWorkoutCount": 45,
+      "actualWorkoutCount": 45
+    },
+    {
+      "categoryId": "ten-k",
+      "file": "categories/ten-k.v1.json",
+      "targetWorkoutCount": 30,
+      "actualWorkoutCount": 30
+    },
+    {
+      "categoryId": "half-marathon",
+      "file": "categories/half-marathon.v1.json",
+      "targetWorkoutCount": 25,
+      "actualWorkoutCount": 25
+    },
+    {
+      "categoryId": "marathon",
+      "file": "categories/marathon.v1.json",
+      "targetWorkoutCount": 25,
+      "actualWorkoutCount": 25
+    },
+    {
+      "categoryId": "race-week-taper",
+      "file": "categories/race-week-taper.v1.json",
+      "targetWorkoutCount": 30,
+      "actualWorkoutCount": 30
+    }
+  ],
+  "duplicateChecks": {
+    "id": 0,
+    "slug": 0,
+    "title": 0,
+    "uniquenessSignature": 0
+  },
+  "errors": [],
+  "warnings": []
+}

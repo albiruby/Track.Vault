@@ -1,0 +1,4397 @@
+{
+  "categoryMeta": {
+    "product": "Track.Vault",
+    "version": "1.0.0",
+    "categoryId": "long-run-progression",
+    "categoryLabel": "Long Run / Progression Run",
+    "description": "Long run and progression workouts for aerobic durability.",
+    "targetWorkoutCount": 25,
+    "actualWorkoutCount": 25,
+    "primaryDistances": [
+      "10K",
+      "Half Marathon",
+      "Marathon",
+      "General"
+    ],
+    "databaseRequired": false,
+    "aiGeneratedInProduct": false
+  },
+  "workouts": [
+    {
+      "id": "tv-lrp-easylong-60m-recreational-001",
+      "slug": "recreational-60-min-easy-long-run-general-recreational",
+      "title": "Recreational 60-Min Easy Long Run",
+      "shortTitle": "60m Easy Long Run",
+      "summary": "A continuous 60-minute easy jog designed to build basic musculoskeletal durability.",
+      "targetDistances": [
+        "General",
+        "10K"
+      ],
+      "primaryDistance": "General",
+      "category": "long-run",
+      "trainingGoals": [
+        "aerobic-endurance",
+        "fatigue-resistance",
+        "mitochondrial-density"
+      ],
+      "level": "recreational",
+      "phase": [
+        "base",
+        "build"
+      ],
+      "surface": [
+        "road"
+      ],
+      "equipment": [
+        "none"
+      ],
+      "estimatedDurationMin": {
+        "min": 55,
+        "max": 60
+      },
+      "estimatedDistanceKm": {
+        "min": 7.5,
+        "max": 9.5
+      },
+      "qualityDistanceKm": 0.0,
+      "difficulty": "moderate",
+      "risk": "low",
+      "riskReason": "Continuous low-intensity running; minimal joint impact at conversational speed.",
+      "intensityGuide": {
+        "primaryTarget": "steady conversational effort",
+        "paceGuide": "Conversational pace, 60-90s slower than target race pace.",
+        "hrGuide": "Keep heart rate strictly under 75% max (Zone 2).",
+        "rpeGuide": "RPE 4/10."
+      },
+      "workoutStructure": {
+        "warmup": [
+          {
+            "blockType": "warmup",
+            "name": "Gentle Joint Mobilization",
+            "description": "5 mins of slow walking and ankle circles.",
+            "repetitions": 1,
+            "work": null,
+            "recovery": null,
+            "notes": []
+          }
+        ],
+        "mainSet": [
+          {
+            "blockType": "long-run",
+            "name": "60 min Easy Long Run",
+            "description": "Run continuously for 60 minutes at an easy, conversational pace.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 3600,
+              "intensity": "conversational easy effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": []
+          }
+        ],
+        "cooldown": [
+          {
+            "blockType": "cooldown",
+            "name": "Cooldown Walk",
+            "description": "5 mins slow walking to cool down, drink water.",
+            "repetitions": 1,
+            "work": null,
+            "recovery": null,
+            "notes": []
+          }
+        ]
+      },
+      "variants": {
+        "easier": {
+          "description": "Reduce running duration to 45 minutes continuous.",
+          "mainSet": [
+            {
+              "blockType": "long-run",
+              "name": "45 min Conversational Run",
+              "description": "Maintain a slow steady jog for 45 minutes.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 2700,
+                "intensity": "easy effort",
+                "targetType": "time"
+              },
+              "recovery": null,
+              "notes": []
+            }
+          ]
+        },
+        "harder": {
+          "description": "Increase running duration to 75 minutes continuous.",
+          "mainSet": [
+            {
+              "blockType": "long-run",
+              "name": "75 min Conversational Run",
+              "description": "Maintain a steady conversational pace for 75 minutes.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 4500,
+                "intensity": "easy effort",
+                "targetType": "time"
+              },
+              "recovery": null,
+              "notes": []
+            }
+          ]
+        }
+      },
+      "coachingNotes": [
+        "Ignore the pace. Today is about spending time on your feet.",
+        "Ensure conversational breath rhythm is maintained."
+      ],
+      "commonMistakes": [
+        "Running the early miles too fast.",
+        "Skipping dynamic mobilization."
+      ],
+      "safetyNotes": [
+        "Hydrate properly before starting.",
+        "Stop if joint pain appears."
+      ],
+      "shareCard": {
+        "cardTitle": "Recreational 60-Min Easy Long Run",
+        "cardSubtitle": "General · RECREATIONAL · LONG-RUN",
+        "mainSetText": "1 × 60 min Easy Long Run",
+        "purposeText": "A continuous 60-minute easy jog designed to build basic durability.",
+        "footerNote": "Estimated Duration: 55-60 mins"
+      },
+      "tags": [
+        "General",
+        "long-run",
+        "recreational",
+        "moderate",
+        "low-risk"
+      ],
+      "searchKeywords": [
+        "recreational",
+        "easy long run",
+        "60m",
+        "general"
+      ],
+      "uniquenessSignature": "lrp-easylong-60m-recreational-001",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+    },
+    {
+      "id": "tv-lrp-easylong-75m-developing-002",
+      "slug": "developing-75-min-easy-long-run-general-developing",
+      "title": "Developing 75-Min Easy Long Run",
+      "shortTitle": "75m Easy Long Run",
+      "summary": "A continuous 75-minute easy conversational run to build aerobic capacity.",
+      "targetDistances": [
+        "General",
+        "10K"
+      ],
+      "primaryDistance": "General",
+      "category": "long-run",
+      "trainingGoals": [
+        "aerobic-endurance",
+        "fatigue-resistance",
+        "mitochondrial-density"
+      ],
+      "level": "developing",
+      "phase": [
+        "base",
+        "build"
+      ],
+      "surface": [
+        "road"
+      ],
+      "equipment": [
+        "none"
+      ],
+      "estimatedDurationMin": {
+        "min": 70,
+        "max": 75
+      },
+      "estimatedDistanceKm": {
+        "min": 9.5,
+        "max": 12.0
+      },
+      "qualityDistanceKm": 0.0,
+      "difficulty": "moderate",
+      "risk": "low",
+      "riskReason": "Continuous low-intensity running.",
+      "intensityGuide": {
+        "primaryTarget": "steady conversational effort",
+        "paceGuide": "Conversational pace, 60-90s slower than target race pace.",
+        "hrGuide": "Keep heart rate strictly under 75% max (Zone 2).",
+        "rpeGuide": "RPE 4/10."
+      },
+      "workoutStructure": {
+        "warmup": [
+          {
+            "blockType": "warmup",
+            "name": "Gentle Joint Mobilization",
+            "description": "5 mins of slow walking.",
+            "repetitions": 1,
+            "work": null,
+            "recovery": null,
+            "notes": []
+          }
+        ],
+        "mainSet": [
+          {
+            "blockType": "long-run",
+            "name": "75 min Easy Long Run",
+            "description": "Run continuously for 75 minutes at an easy, conversational pace.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 4500,
+              "intensity": "conversational easy effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": []
+          }
+        ],
+        "cooldown": [
+          {
+            "blockType": "cooldown",
+            "name": "Cooldown Walk",
+            "description": "5 mins slow walking.",
+            "repetitions": 1,
+            "work": null,
+            "recovery": null,
+            "notes": []
+          }
+        ]
+      },
+      "variants": {
+        "easier": {
+          "description": "Reduce running duration to 60 minutes continuous.",
+          "mainSet": [
+            {
+              "blockType": "long-run",
+              "name": "60 min Conversational Run",
+              "description": "Maintain a slow steady jog for 60 minutes.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 3600,
+                "intensity": "easy effort",
+                "targetType": "time"
+              },
+              "recovery": null,
+              "notes": []
+            }
+          ]
+        },
+        "harder": {
+          "description": "Increase running duration to 90 minutes continuous.",
+          "mainSet": [
+            {
+              "blockType": "long-run",
+              "name": "90 min Conversational Run",
+              "description": "Maintain a steady conversational pace for 90 minutes.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 5400,
+                "intensity": "easy effort",
+                "targetType": "time"
+              },
+              "recovery": null,
+              "notes": []
+            }
+          ]
+        }
+      },
+      "coachingNotes": [
+        "Focus on smooth running form.",
+        "Keep the jog segment extremely slow."
+      ],
+      "commonMistakes": [
+        "Running too fast to chase average stats.",
+        "Skipping dynamic stretches before starting."
+      ],
+      "safetyNotes": [
+        "Stop immediately if joint pain appears.",
+        "Stay hydrated."
+      ],
+      "shareCard": {
+        "cardTitle": "Developing 75-Min Easy Long Run",
+        "cardSubtitle": "General · DEVELOPING · LONG-RUN",
+        "mainSetText": "1 × 75 min Easy Long Run",
+        "purposeText": "A continuous 75-minute easy conversational run to build aerobic capacity.",
+        "footerNote": "Estimated Duration: 70-75 mins"
+      },
+      "tags": [
+        "General",
+        "long-run",
+        "developing",
+        "moderate",
+        "low-risk"
+      ],
+      "searchKeywords": [
+        "developing",
+        "easy long run",
+        "75m",
+        "general"
+      ],
+      "uniquenessSignature": "lrp-easylong-75m-developing-002",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+    },
+    {
+      "id": "tv-lrp-easylong-90m-intermediate-003",
+      "slug": "intermediate-90-min-conversational-long-run-general-intermediate",
+      "title": "Intermediate 90-Min Conversational Long Run",
+      "shortTitle": "90m Conversational Run",
+      "summary": "A continuous 90-minute conversational jog to build aerobic durability.",
+      "targetDistances": [
+        "General",
+        "10K",
+        "Half Marathon"
+      ],
+      "primaryDistance": "General",
+      "category": "long-run",
+      "trainingGoals": [
+        "aerobic-endurance",
+        "fatigue-resistance",
+        "mitochondrial-density"
+      ],
+      "level": "intermediate",
+      "phase": [
+        "base",
+        "build"
+      ],
+      "surface": [
+        "road"
+      ],
+      "equipment": [
+        "none"
+      ],
+      "estimatedDurationMin": {
+        "min": 85,
+        "max": 90
+      },
+      "estimatedDistanceKm": {
+        "min": 13.0,
+        "max": 16.5
+      },
+      "qualityDistanceKm": 0.0,
+      "difficulty": "moderate",
+      "risk": "medium",
+      "riskReason": "Continuous aerobic running for 90 minutes introduces solid muscular fatigue.",
+      "intensityGuide": {
+        "primaryTarget": "steady conversational effort",
+        "paceGuide": "Conversational pace, 60-90s slower than target race pace.",
+        "hrGuide": "Keep heart rate strictly under 75% max (Zone 2).",
+        "rpeGuide": "RPE 4/10."
+      },
+      "workoutStructure": {
+        "warmup": [
+          {
+            "blockType": "warmup",
+            "name": "Gentle Joint Mobilization",
+            "description": "5 mins of slow walking.",
+            "repetitions": 1,
+            "work": null,
+            "recovery": null,
+            "notes": []
+          }
+        ],
+        "mainSet": [
+          {
+            "blockType": "long-run",
+            "name": "90 min Easy Long Run",
+            "description": "Run continuously for 90 minutes at an easy, conversational pace.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 5400,
+              "intensity": "conversational easy effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": []
+          }
+        ],
+        "cooldown": [
+          {
+            "blockType": "cooldown",
+            "name": "Cooldown Walk",
+            "description": "5 mins slow walking.",
+            "repetitions": 1,
+            "work": null,
+            "recovery": null,
+            "notes": []
+          }
+        ]
+      },
+      "variants": {
+        "easier": {
+          "description": "Reduce running duration to 75 minutes continuous.",
+          "mainSet": [
+            {
+              "blockType": "long-run",
+              "name": "75 min Conversational Run",
+              "description": "Maintain a slow steady jog for 75 minutes.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 4500,
+                "intensity": "easy effort",
+                "targetType": "time"
+              },
+              "recovery": null,
+              "notes": []
+            }
+          ]
+        },
+        "harder": {
+          "description": "Increase running duration to 105 minutes continuous.",
+          "mainSet": [
+            {
+              "blockType": "long-run",
+              "name": "105 min Conversational Run",
+              "description": "Maintain a steady conversational pace for 105 minutes.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 6300,
+                "intensity": "easy effort",
+                "targetType": "time"
+              },
+              "recovery": null,
+              "notes": []
+            }
+          ]
+        }
+      },
+      "coachingNotes": [
+        "Fuel regularly if running over 90 mins.",
+        "Focus on repeatable pacing."
+      ],
+      "commonMistakes": [
+        "Running the early miles too fast.",
+        "Failing to practice fueling."
+      ],
+      "safetyNotes": [
+        "Carry hydration or plan routes with water access.",
+        "Listen to joint pain."
+      ],
+      "shareCard": {
+        "cardTitle": "Intermediate 90-Min Conversational Long Run",
+        "cardSubtitle": "General · INTERMEDIATE · LONG-RUN",
+        "mainSetText": "1 × 90 min Conversational Long Run",
+        "purposeText": "A continuous 90-minute conversational jog to build aerobic durability.",
+        "footerNote": "Estimated Duration: 85-90 mins"
+      },
+      "tags": [
+        "General",
+        "long-run",
+        "intermediate",
+        "moderate",
+        "medium-risk"
+      ],
+      "searchKeywords": [
+        "intermediate",
+        "easy long run",
+        "90m",
+        "general"
+      ],
+      "uniquenessSignature": "lrp-easylong-90m-intermediate-003",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+    },
+    {
+      "id": "tv-lrp-easylong-100m-intermediate-004",
+      "slug": "intermediate-100-min-aerobic-long-run-general-intermediate",
+      "title": "Intermediate 100-Min Aerobic Long Run",
+      "shortTitle": "100m Aerobic Long Run",
+      "summary": "A continuous 100-minute easy jog to establish sustained base stamina.",
+      "targetDistances": [
+        "General",
+        "10K",
+        "Half Marathon"
+      ],
+      "primaryDistance": "General",
+      "category": "long-run",
+      "trainingGoals": [
+        "aerobic-endurance",
+        "fatigue-resistance",
+        "mitochondrial-density"
+      ],
+      "level": "intermediate",
+      "phase": [
+        "base",
+        "build"
+      ],
+      "surface": [
+        "road"
+      ],
+      "equipment": [
+        "none"
+      ],
+      "estimatedDurationMin": {
+        "min": 95,
+        "max": 100
+      },
+      "estimatedDistanceKm": {
+        "min": 14.0,
+        "max": 18.5
+      },
+      "qualityDistanceKm": 0.0,
+      "difficulty": "moderate",
+      "risk": "medium",
+      "riskReason": "Continuous low-intensity running for 100 minutes introduces solid muscular fatigue.",
+      "intensityGuide": {
+        "primaryTarget": "steady conversational effort",
+        "paceGuide": "Conversational pace, 60-90s slower than target race pace.",
+        "hrGuide": "Keep heart rate strictly under 75% max (Zone 2).",
+        "rpeGuide": "RPE 4/10."
+      },
+      "workoutStructure": {
+        "warmup": [
+          {
+            "blockType": "warmup",
+            "name": "Gentle Joint Mobilization",
+            "description": "5 mins of slow walking.",
+            "repetitions": 1,
+            "work": null,
+            "recovery": null,
+            "notes": []
+          }
+        ],
+        "mainSet": [
+          {
+            "blockType": "long-run",
+            "name": "100 min Easy Long Run",
+            "description": "Run continuously for 100 minutes at an easy, conversational pace.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 6000,
+              "intensity": "conversational easy effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": []
+          }
+        ],
+        "cooldown": [
+          {
+            "blockType": "cooldown",
+            "name": "Cooldown Walk",
+            "description": "5 mins slow walking.",
+            "repetitions": 1,
+            "work": null,
+            "recovery": null,
+            "notes": []
+          }
+        ]
+      },
+      "variants": {
+        "easier": {
+          "description": "Reduce running duration to 85 minutes continuous.",
+          "mainSet": [
+            {
+              "blockType": "long-run",
+              "name": "85 min Conversational Run",
+              "description": "Maintain a slow steady jog for 85 minutes.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 5100,
+                "intensity": "easy effort",
+                "targetType": "time"
+              },
+              "recovery": null,
+              "notes": []
+            }
+          ]
+        },
+        "harder": {
+          "description": "Increase running duration to 115 minutes continuous.",
+          "mainSet": [
+            {
+              "blockType": "long-run",
+              "name": "115 min Conversational Run",
+              "description": "Maintain a steady conversational pace for 115 minutes.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 6900,
+                "intensity": "easy effort",
+                "targetType": "time"
+              },
+              "recovery": null,
+              "notes": []
+            }
+          ]
+        }
+      },
+      "coachingNotes": [
+        "Fuel regularly if running over 90 mins.",
+        "Focus on repeatable pacing."
+      ],
+      "commonMistakes": [
+        "Running the early miles too fast.",
+        "Failing to practice fueling."
+      ],
+      "safetyNotes": [
+        "Carry hydration or plan routes with water access.",
+        "Listen to joint pain."
+      ],
+      "shareCard": {
+        "cardTitle": "Intermediate 100-Min Aerobic Long Run",
+        "cardSubtitle": "General · INTERMEDIATE · LONG-RUN",
+        "mainSetText": "1 × 100 min Easy Long Run",
+        "purposeText": "A continuous 100-minute easy jog to establish sustained base stamina.",
+        "footerNote": "Estimated Duration: 95-100 mins"
+      },
+      "tags": [
+        "General",
+        "long-run",
+        "intermediate",
+        "moderate",
+        "medium-risk"
+      ],
+      "searchKeywords": [
+        "intermediate",
+        "easy long run",
+        "100m",
+        "general"
+      ],
+      "uniquenessSignature": "lrp-easylong-100m-intermediate-004",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+    },
+    {
+      "id": "tv-lrp-easylong-120m-advanced-005",
+      "slug": "advanced-120-min-sustained-easy-long-run-general-advanced",
+      "title": "Advanced 120-Min Sustained Easy Long Run",
+      "shortTitle": "120m Easy Long Run",
+      "summary": "A sustained 120-minute gentle long run to promote aerobic circulation for advanced runners.",
+      "targetDistances": [
+        "General",
+        "Half Marathon",
+        "Marathon"
+      ],
+      "primaryDistance": "General",
+      "category": "long-run",
+      "trainingGoals": [
+        "aerobic-endurance",
+        "fatigue-resistance",
+        "mitochondrial-density"
+      ],
+      "level": "advanced",
+      "phase": [
+        "base",
+        "build"
+      ],
+      "surface": [
+        "road"
+      ],
+      "equipment": [
+        "none"
+      ],
+      "estimatedDurationMin": {
+        "min": 110,
+        "max": 120
+      },
+      "estimatedDistanceKm": {
+        "min": 16.0,
+        "max": 22.0
+      },
+      "qualityDistanceKm": 0.0,
+      "difficulty": "moderate",
+      "risk": "medium",
+      "riskReason": "A 2-hour low-intensity run creates massive muscular-skeletal strain.",
+      "intensityGuide": {
+        "primaryTarget": "steady conversational effort",
+        "paceGuide": "Conversational pace, 60-90s slower than target race pace.",
+        "hrGuide": "Keep heart rate strictly under 75% max (Zone 2).",
+        "rpeGuide": "RPE 4/10."
+      },
+      "workoutStructure": {
+        "warmup": [
+          {
+            "blockType": "warmup",
+            "name": "Gentle Joint Mobilization",
+            "description": "5 mins of slow walking.",
+            "repetitions": 1,
+            "work": null,
+            "recovery": null,
+            "notes": []
+          }
+        ],
+        "mainSet": [
+          {
+            "blockType": "long-run",
+            "name": "120 min Easy Long Run",
+            "description": "Run continuously for 120 minutes at an easy, conversational pace.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 7200,
+              "intensity": "conversational easy effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": []
+          }
+        ],
+        "cooldown": [
+          {
+            "blockType": "cooldown",
+            "name": "Cooldown Walk",
+            "description": "5 mins slow walking.",
+            "repetitions": 1,
+            "work": null,
+            "recovery": null,
+            "notes": []
+          }
+        ]
+      },
+      "variants": {
+        "easier": {
+          "description": "Reduce running duration to 100 minutes continuous.",
+          "mainSet": [
+            {
+              "blockType": "long-run",
+              "name": "100 min Conversational Run",
+              "description": "Maintain a slow steady jog for 100 minutes.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 6000,
+                "intensity": "easy effort",
+                "targetType": "time"
+              },
+              "recovery": null,
+              "notes": []
+            }
+          ]
+        },
+        "harder": {
+          "description": "Increase running duration to 140 minutes continuous.",
+          "mainSet": [
+            {
+              "blockType": "long-run",
+              "name": "140 min Conversational Run",
+              "description": "Maintain a steady conversational pace for 140 minutes.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 8400,
+                "intensity": "easy effort",
+                "targetType": "time"
+              },
+              "recovery": null,
+              "notes": []
+            }
+          ]
+        }
+      },
+      "coachingNotes": [
+        "Fuel regularly if running over 90 mins.",
+        "Focus on repeatable pacing."
+      ],
+      "commonMistakes": [
+        "Running the early miles too fast.",
+        "Failing to practice fueling."
+      ],
+      "safetyNotes": [
+        "Carry hydration or plan routes with water access.",
+        "Listen to joint pain."
+      ],
+      "shareCard": {
+        "cardTitle": "Advanced 120-Min Sustained Easy Long Run",
+        "cardSubtitle": "General · ADVANCED · LONG-RUN",
+        "mainSetText": "1 × 120 min Easy Long Run",
+        "purposeText": "A sustained 120-minute gentle long run to promote aerobic circulation.",
+        "footerNote": "Estimated Duration: 110-120 mins"
+      },
+      "tags": [
+        "General",
+        "long-run",
+        "advanced",
+        "moderate",
+        "medium-risk"
+      ],
+      "searchKeywords": [
+        "advanced",
+        "easy long run",
+        "120m",
+        "general"
+      ],
+      "uniquenessSignature": "lrp-easylong-120m-advanced-005",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+    },
+    {
+      "id": "tv-lrp-steadylong-75m-recreational-006",
+      "slug": "recreational-75-min-steady-aerobic-long-run-general-recreational",
+      "title": "Recreational 75-Min Steady Aerobic Long Run",
+      "shortTitle": "75m Steady Long Run",
+      "summary": "A continuous 75-minute steady aerobic long run to build durability.",
+      "targetDistances": [
+        "General",
+        "10K"
+      ],
+      "primaryDistance": "General",
+      "category": "long-run",
+      "trainingGoals": [
+        "aerobic-endurance",
+        "fatigue-resistance",
+        "mitochondrial-density"
+      ],
+      "level": "recreational",
+      "phase": [
+        "base",
+        "build"
+      ],
+      "surface": [
+        "road"
+      ],
+      "equipment": [
+        "none"
+      ],
+      "estimatedDurationMin": {
+        "min": 70,
+        "max": 75
+      },
+      "estimatedDistanceKm": {
+        "min": 9.5,
+        "max": 12.0
+      },
+      "qualityDistanceKm": 0.0,
+      "difficulty": "moderate",
+      "risk": "low",
+      "riskReason": "Continuous low-intensity running.",
+      "intensityGuide": {
+        "primaryTarget": "steady conversational effort",
+        "paceGuide": "Conversational pace, 60-90s slower than target race pace.",
+        "hrGuide": "Keep heart rate strictly under 75% max (Zone 2).",
+        "rpeGuide": "RPE 4/10."
+      },
+      "workoutStructure": {
+        "warmup": [
+          {
+            "blockType": "warmup",
+            "name": "Gentle Joint Mobilization",
+            "description": "5 mins of slow walking.",
+            "repetitions": 1,
+            "work": null,
+            "recovery": null,
+            "notes": []
+          }
+        ],
+        "mainSet": [
+          {
+            "blockType": "long-run",
+            "name": "75 min Steady Long Run",
+            "description": "Run continuously for 75 minutes at a steady, conversational pace.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 4500,
+              "intensity": "steady aerobic effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": []
+          }
+        ],
+        "cooldown": [
+          {
+            "blockType": "cooldown",
+            "name": "Cooldown Walk",
+            "description": "5 mins slow walking.",
+            "repetitions": 1,
+            "work": null,
+            "recovery": null,
+            "notes": []
+          }
+        ]
+      },
+      "variants": {
+        "easier": {
+          "description": "Reduce running duration to 60 minutes continuous.",
+          "mainSet": [
+            {
+              "blockType": "long-run",
+              "name": "60 min Steady Run",
+              "description": "Maintain a slow steady jog for 60 minutes.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 3600,
+                "intensity": "steady effort",
+                "targetType": "time"
+              },
+              "recovery": null,
+              "notes": []
+            }
+          ]
+        },
+        "harder": {
+          "description": "Increase running duration to 90 minutes continuous.",
+          "mainSet": [
+            {
+              "blockType": "long-run",
+              "name": "90 min Steady Run",
+              "description": "Maintain a steady conversational pace for 90 minutes.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 5400,
+                "intensity": "steady effort",
+                "targetType": "time"
+              },
+              "recovery": null,
+              "notes": []
+            }
+          ]
+        }
+      },
+      "coachingNotes": [
+        "Focus on smooth running form.",
+        "Keep the jog segment extremely slow."
+      ],
+      "commonMistakes": [
+        "Running too fast to chase average stats.",
+        "Skipping dynamic stretches before starting."
+      ],
+      "safetyNotes": [
+        "Stop immediately if joint pain appears.",
+        "Stay hydrated."
+      ],
+      "shareCard": {
+        "cardTitle": "Recreational 75-Min Steady Aerobic Long Run",
+        "cardSubtitle": "General · RECREATIONAL · LONG-RUN",
+        "mainSetText": "1 × 75 min Steady Long Run",
+        "purposeText": "A continuous 75-minute steady aerobic long run to build durability.",
+        "footerNote": "Estimated Duration: 70-75 mins"
+      },
+      "tags": [
+        "General",
+        "long-run",
+        "recreational",
+        "moderate",
+        "low-risk"
+      ],
+      "searchKeywords": [
+        "recreational",
+        "steady long run",
+        "75m",
+        "general"
+      ],
+      "uniquenessSignature": "lrp-steadylong-75m-recreational-006",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+    },
+    {
+      "id": "tv-lrp-steadylong-90m-developing-007",
+      "slug": "developing-90-min-steady-base-long-run-general-developing",
+      "title": "Developing 90-Min Steady Base Long Run",
+      "shortTitle": "90m Steady Long Run",
+      "summary": "A continuous 90-minute steady base long run to build aerobic capacity for developing runners.",
+      "targetDistances": [
+        "General",
+        "10K",
+        "Half Marathon"
+      ],
+      "primaryDistance": "General",
+      "category": "long-run",
+      "trainingGoals": [
+        "aerobic-endurance",
+        "fatigue-resistance",
+        "mitochondrial-density"
+      ],
+      "level": "developing",
+      "phase": [
+        "base",
+        "build"
+      ],
+      "surface": [
+        "road"
+      ],
+      "equipment": [
+        "none"
+      ],
+      "estimatedDurationMin": {
+        "min": 85,
+        "max": 90
+      },
+      "estimatedDistanceKm": {
+        "min": 11.5,
+        "max": 14.0
+      },
+      "qualityDistanceKm": 0.0,
+      "difficulty": "moderate",
+      "risk": "medium",
+      "riskReason": "Continuous low-intensity base running for 90 minutes.",
+      "intensityGuide": {
+        "primaryTarget": "steady base effort",
+        "paceGuide": "Conversational steady pace.",
+        "hrGuide": "Keep heart rate strictly under 75% max.",
+        "rpeGuide": "RPE 4/10."
+      },
+      "workoutStructure": {
+        "warmup": [
+          {
+            "blockType": "warmup",
+            "name": "Gentle Joint Mobilization",
+            "description": "5 mins of slow walking.",
+            "repetitions": 1,
+            "work": null,
+            "recovery": null,
+            "notes": []
+          }
+        ],
+        "mainSet": [
+          {
+            "blockType": "easy-run",
+            "name": "90 min Steady Long Run",
+            "description": "Run continuously for 90 minutes at a relaxed steady jog.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 5400,
+              "intensity": "steady effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": []
+          }
+        ],
+        "cooldown": [
+          {
+            "blockType": "cooldown",
+            "name": "Cooldown Walk",
+            "description": "5 mins slow walking.",
+            "repetitions": 1,
+            "work": null,
+            "recovery": null,
+            "notes": []
+          }
+        ]
+      },
+      "variants": {
+        "easier": {
+          "description": "Reduce running duration to 75 minutes continuous.",
+          "mainSet": [
+            {
+              "blockType": "easy-run",
+              "name": "75 min Steady Run",
+              "description": "Run continuously for 75 minutes at a relaxed jog.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 4500,
+                "intensity": "steady effort",
+                "targetType": "time"
+              },
+              "recovery": null,
+              "notes": []
+            }
+          ]
+        },
+        "harder": {
+          "description": "Increase running duration to 105 minutes.",
+          "mainSet": [
+            {
+              "blockType": "easy-run",
+              "name": "105 min Steady Run",
+              "description": "Run continuously for 105 minutes at a relaxed jog.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 6300,
+                "intensity": "steady effort",
+                "targetType": "time"
+              },
+              "recovery": null,
+              "notes": []
+            }
+          ]
+        }
+      },
+      "coachingNotes": [
+        "Focus on smooth running form.",
+        "Keep the jog segment extremely slow."
+      ],
+      "commonMistakes": [
+        "Running too fast to chase average stats.",
+        "Skipping dynamic stretches before starting."
+      ],
+      "safetyNotes": [
+        "Stop immediately if joint pain appears.",
+        "Stay hydrated."
+      ],
+      "shareCard": {
+        "cardTitle": "Developing 90-Min Steady Base Long Run",
+        "cardSubtitle": "General · DEVELOPING · LONG-RUN",
+        "mainSetText": "1 × 90 min Steady Long Run",
+        "purposeText": "A continuous 90-minute steady base long run to build aerobic capacity for developing runners.",
+        "footerNote": "Estimated Duration: 85-90 mins"
+      },
+      "tags": [
+        "General",
+        "long-run",
+        "developing",
+        "moderate",
+        "medium-risk"
+      ],
+      "searchKeywords": [
+        "developing",
+        "steady long run",
+        "90m",
+        "general"
+      ],
+      "uniquenessSignature": "lrp-steadylong-90m-developing-007",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+    },
+    {
+      "id": "tv-lrp-steadylong-105m-intermediate-008",
+      "slug": "intermediate-105-min-sustained-steady-long-run-general-intermediate",
+      "title": "Intermediate 105-Min Sustained Steady Long Run",
+      "shortTitle": "105m Steady Long Run",
+      "summary": "A continuous 105-minute sustained steady long run to establish base stamina.",
+      "targetDistances": [
+        "General",
+        "10K",
+        "Half Marathon"
+      ],
+      "primaryDistance": "General",
+      "category": "long-run",
+      "trainingGoals": [
+        "aerobic-endurance",
+        "fatigue-resistance",
+        "mitochondrial-density"
+      ],
+      "level": "intermediate",
+      "phase": [
+        "base",
+        "build"
+      ],
+      "surface": [
+        "road"
+      ],
+      "equipment": [
+        "none"
+      ],
+      "estimatedDurationMin": {
+        "min": 100,
+        "max": 105
+      },
+      "estimatedDistanceKm": {
+        "min": 15.0,
+        "max": 19.5
+      },
+      "qualityDistanceKm": 0.0,
+      "difficulty": "moderate",
+      "risk": "medium",
+      "riskReason": "Continuous low-intensity running for 105 minutes introduces solid fatigue.",
+      "intensityGuide": {
+        "primaryTarget": "steady base effort",
+        "paceGuide": "Conversational steady pace.",
+        "hrGuide": "Keep heart rate strictly under 75% max.",
+        "rpeGuide": "RPE 4/10."
+      },
+      "workoutStructure": {
+        "warmup": [
+          {
+            "blockType": "warmup",
+            "name": "Gentle Joint Mobilization",
+            "description": "5 mins of slow walking.",
+            "repetitions": 1,
+            "work": null,
+            "recovery": null,
+            "notes": []
+          }
+        ],
+        "mainSet": [
+          {
+            "blockType": "easy-run",
+            "name": "105 min Steady Long Run",
+            "description": "Run continuously for 105 minutes at a relaxed steady jog.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 6300,
+              "intensity": "steady effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": []
+          }
+        ],
+        "cooldown": [
+          {
+            "blockType": "cooldown",
+            "name": "Cooldown Walk",
+            "description": "5 mins slow walking.",
+            "repetitions": 1,
+            "work": null,
+            "recovery": null,
+            "notes": []
+          }
+        ]
+      },
+      "variants": {
+        "easier": {
+          "description": "Reduce running duration to 90 minutes continuous.",
+          "mainSet": [
+            {
+              "blockType": "easy-run",
+              "name": "90 min Steady Run",
+              "description": "Run continuously for 90 minutes at a relaxed jog.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 5400,
+                "intensity": "steady effort",
+                "targetType": "time"
+              },
+              "recovery": null,
+              "notes": []
+            }
+          ]
+        },
+        "harder": {
+          "description": "Increase running duration to 120 minutes.",
+          "mainSet": [
+            {
+              "blockType": "easy-run",
+              "name": "120 min Steady Run",
+              "description": "Run continuously for 120 minutes at a relaxed jog.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 7200,
+                "intensity": "steady effort",
+                "targetType": "time"
+              },
+              "recovery": null,
+              "notes": []
+            }
+          ]
+        }
+      },
+      "coachingNotes": [
+        "Focus on smooth running form.",
+        "Keep the jog segment extremely slow."
+      ],
+      "commonMistakes": [
+        "Running too fast to chase average stats.",
+        "Skipping dynamic stretches before starting."
+      ],
+      "safetyNotes": [
+        "Stop immediately if joint pain appears.",
+        "Stay hydrated."
+      ],
+      "shareCard": {
+        "cardTitle": "Intermediate 105-Min Sustained Steady Long Run",
+        "cardSubtitle": "General · INTERMEDIATE · LONG-RUN",
+        "mainSetText": "1 × 105 min Steady Long Run",
+        "purposeText": "A continuous 105-minute sustained steady long run to establish base stamina.",
+        "footerNote": "Estimated Duration: 100-105 mins"
+      },
+      "tags": [
+        "General",
+        "long-run",
+        "intermediate",
+        "moderate",
+        "medium-risk"
+      ],
+      "searchKeywords": [
+        "intermediate",
+        "steady long run",
+        "105m",
+        "general"
+      ],
+      "uniquenessSignature": "lrp-steadylong-105m-intermediate-008",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+    },
+    {
+      "id": "tv-lrp-steadylong-120m-advanced-009",
+      "slug": "advanced-120-min-steady-aerobic-long-run-general-advanced",
+      "title": "Advanced 120-Min Steady Aerobic Long Run",
+      "shortTitle": "120m Steady Long Run",
+      "summary": "A sustained 120-minute steady long run to promote aerobic circulation for advanced runners.",
+      "targetDistances": [
+        "General",
+        "Half Marathon",
+        "Marathon"
+      ],
+      "primaryDistance": "General",
+      "category": "long-run",
+      "trainingGoals": [
+        "aerobic-endurance",
+        "fatigue-resistance",
+        "mitochondrial-density"
+      ],
+      "level": "advanced",
+      "phase": [
+        "base",
+        "build"
+      ],
+      "surface": [
+        "road"
+      ],
+      "equipment": [
+        "none"
+      ],
+      "estimatedDurationMin": {
+        "min": 110,
+        "max": 120
+      },
+      "estimatedDistanceKm": {
+        "min": 18.0,
+        "max": 24.0
+      },
+      "qualityDistanceKm": 0.0,
+      "difficulty": "moderate",
+      "risk": "medium",
+      "riskReason": "Continuous low-intensity running for 120 minutes.",
+      "intensityGuide": {
+        "primaryTarget": "steady base effort",
+        "paceGuide": "Conversational steady pace.",
+        "hrGuide": "Keep heart rate strictly under 75% max.",
+        "rpeGuide": "RPE 4/10."
+      },
+      "workoutStructure": {
+        "warmup": [
+          {
+            "blockType": "warmup",
+            "name": "Gentle Joint Mobilization",
+            "description": "5 mins of slow walking.",
+            "repetitions": 1,
+            "work": null,
+            "recovery": null,
+            "notes": []
+          }
+        ],
+        "mainSet": [
+          {
+            "blockType": "easy-run",
+            "name": "120 min Steady Long Run",
+            "description": "Run continuously for 120 minutes at a relaxed steady jog.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 7200,
+              "intensity": "steady effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": []
+          }
+        ],
+        "cooldown": [
+          {
+            "blockType": "cooldown",
+            "name": "Cooldown Walk",
+            "description": "5 mins slow walking.",
+            "repetitions": 1,
+            "work": null,
+            "recovery": null,
+            "notes": []
+          }
+        ]
+      },
+      "variants": {
+        "easier": {
+          "description": "Reduce running duration to 100 minutes continuous.",
+          "mainSet": [
+            {
+              "blockType": "easy-run",
+              "name": "100 min Steady Run",
+              "description": "Run continuously for 100 minutes at a relaxed jog.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 6000,
+                "intensity": "steady effort",
+                "targetType": "time"
+              },
+              "recovery": null,
+              "notes": []
+            }
+          ]
+        },
+        "harder": {
+          "description": "Increase running duration to 140 minutes.",
+          "mainSet": [
+            {
+              "blockType": "easy-run",
+              "name": "140 min Steady Run",
+              "description": "Run continuously for 140 minutes at a relaxed jog.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 8400,
+                "intensity": "steady effort",
+                "targetType": "time"
+              },
+              "recovery": null,
+              "notes": []
+            }
+          ]
+        }
+      },
+      "coachingNotes": [
+        "Focus on smooth running form.",
+        "Keep the jog segment extremely slow."
+      ],
+      "commonMistakes": [
+        "Running too fast to chase average stats.",
+        "Skipping dynamic stretches before starting."
+      ],
+      "safetyNotes": [
+        "Stop immediately if joint pain appears.",
+        "Stay hydrated."
+      ],
+      "shareCard": {
+        "cardTitle": "Advanced 120-Min Steady Aerobic Long Run",
+        "cardSubtitle": "General · ADVANCED · LONG-RUN",
+        "mainSetText": "1 × 120 min Steady Long Run",
+        "purposeText": "A sustained 120-minute steady long run to promote aerobic circulation for advanced runners.",
+        "footerNote": "Estimated Duration: 110-120 mins"
+      },
+      "tags": [
+        "General",
+        "long-run",
+        "advanced",
+        "moderate",
+        "medium-risk"
+      ],
+      "searchKeywords": [
+        "advanced",
+        "steady long run",
+        "120m",
+        "general"
+      ],
+      "uniquenessSignature": "lrp-steadylong-120m-advanced-009",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+    },
+    {
+      "id": "tv-lrp-prog-60m-recreational-010",
+      "slug": "recreational-60-min-progression-long-run-general-recreational",
+      "title": "Recreational 60-Min Progression Long Run",
+      "shortTitle": "60m Progression Run",
+      "summary": "A 60-minute continuous progression run starting easy and accelerating to steady pace.",
+      "targetDistances": [
+        "General",
+        "10K"
+      ],
+      "primaryDistance": "General",
+      "category": "progression-run",
+      "trainingGoals": [
+        "pacing-control",
+        "aerobic-power",
+        "mental-toughness"
+      ],
+      "level": "recreational",
+      "phase": [
+        "build",
+        "general"
+      ],
+      "surface": [
+        "road"
+      ],
+      "equipment": [
+        "gps-watch"
+      ],
+      "estimatedDurationMin": {
+        "min": 55,
+        "max": 60
+      },
+      "estimatedDistanceKm": {
+        "min": 7.5,
+        "max": 9.5
+      },
+      "qualityDistanceKm": 0.0,
+      "difficulty": "moderate",
+      "risk": "low",
+      "riskReason": "Continuous low-intensity running progressing smoothly.",
+      "intensityGuide": {
+        "primaryTarget": "steady progressing aerobic effort",
+        "paceGuide": "Start conversational. Build to steady easy jog pace.",
+        "hrGuide": "Heart rate stable around 72% maximum.",
+        "rpeGuide": "RPE 3-4/10."
+      },
+      "workoutStructure": {
+        "warmup": [
+          {
+            "blockType": "warmup",
+            "name": "Gentle Walking Warm-up",
+            "description": "5 mins of slow walking.",
+            "repetitions": 1,
+            "work": null,
+            "recovery": null,
+            "notes": []
+          }
+        ],
+        "mainSet": [
+          {
+            "blockType": "repeat",
+            "name": "60 min Progression Run",
+            "description": "Run 60 minutes continuously progressing from easy jog to steady tempo effort.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 3600,
+              "intensity": "steady jog",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": []
+          }
+        ],
+        "cooldown": [
+          {
+            "blockType": "cooldown",
+            "name": "Cooldown Walk",
+            "description": "5 mins slow walking.",
+            "repetitions": 1,
+            "work": null,
+            "recovery": null,
+            "notes": []
+          }
+        ]
+      },
+      "variants": {
+        "easier": {
+          "description": "Reduce running duration to 45 minutes continuous.",
+          "mainSet": [
+            {
+              "blockType": "repeat",
+              "name": "45 min Progression Run",
+              "description": "Run 45 minutes continuously progressing from easy jog to steady tempo effort.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 2700,
+                "intensity": "steady jog",
+                "targetType": "time"
+              },
+              "recovery": null,
+              "notes": []
+            }
+          ]
+        },
+        "harder": {
+          "description": "Increase running duration to 75 minutes continuous.",
+          "mainSet": [
+            {
+              "blockType": "repeat",
+              "name": "75 min Progression Run",
+              "description": "Run 75 minutes continuously progressing from easy jog to steady tempo effort.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 4500,
+                "intensity": "steady jog",
+                "targetType": "time"
+              },
+              "recovery": null,
+              "notes": []
+            }
+          ]
+        }
+      },
+      "coachingNotes": [
+        "Focus on smooth running form.",
+        "Keep the jog segment extremely slow."
+      ],
+      "commonMistakes": [
+        "Running the jog segments too aggressively.",
+        "Skipping dynamic stretches before starting."
+      ],
+      "safetyNotes": [
+        "Stop immediately if any joint or muscle pain appears.",
+        "Stay hydrated."
+      ],
+      "shareCard": {
+        "cardTitle": "Recreational 60-Min Progression Long Run",
+        "cardSubtitle": "General · RECREATIONAL · PROGRESSION-RUN",
+        "mainSetText": "1 × 60 min Progression Run",
+        "purposeText": "A 60-minute continuous progression run starting easy and accelerating to steady pace.",
+        "footerNote": "Estimated Duration: 55-60 mins"
+      },
+      "tags": [
+        "General",
+        "progression-run",
+        "recreational",
+        "moderate",
+        "low-risk"
+      ],
+      "searchKeywords": [
+        "recreational",
+        "progression",
+        "60m",
+        "general"
+      ],
+      "uniquenessSignature": "lrp-prog-60m-recreational-010",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+    },
+    {
+      "id": "tv-lrp-prog-75m-developing-011",
+      "slug": "developing-75-min-aerobic-progression-long-run-general-developing",
+      "title": "Developing 75-Min Aerobic Progression Long Run",
+      "shortTitle": "75m Progression Run",
+      "summary": "A progressive aerobic run that gradually moves from walk-jog to steady jog.",
+      "targetDistances": [
+        "General",
+        "10K"
+      ],
+      "primaryDistance": "General",
+      "category": "progression-run",
+      "trainingGoals": [
+        "pacing-control",
+        "aerobic-power",
+        "mental-toughness"
+      ],
+      "level": "developing",
+      "phase": [
+        "build"
+      ],
+      "surface": [
+        "road"
+      ],
+      "equipment": [
+        "gps-watch"
+      ],
+      "estimatedDurationMin": {
+        "min": 70,
+        "max": 75
+      },
+      "estimatedDistanceKm": {
+        "min": 9.5,
+        "max": 12.0
+      },
+      "qualityDistanceKm": 0.0,
+      "difficulty": "moderate",
+      "risk": "low",
+      "riskReason": "Continuous low-intensity aerobic running progressing smoothly.",
+      "intensityGuide": {
+        "primaryTarget": "steady jog effort",
+        "paceGuide": "Start conversational. Build to steady easy jog pace.",
+        "hrGuide": "Heart rate stable around 72% maximum.",
+        "rpeGuide": "RPE 3-4/10."
+      },
+      "workoutStructure": {
+        "warmup": [
+          {
+            "blockType": "warmup",
+            "name": "Gentle Walking Warm-up",
+            "description": "5 mins of slow walking.",
+            "repetitions": 1,
+            "work": null,
+            "recovery": null,
+            "notes": []
+          }
+        ],
+        "mainSet": [
+          {
+            "blockType": "repeat",
+            "name": "75 min Progression Run",
+            "description": "Run 75 minutes continuously progressing from easy jog to steady tempo effort.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 4500,
+              "intensity": "steady jog",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": []
+          }
+        ],
+        "cooldown": [
+          {
+            "blockType": "cooldown",
+            "name": "Cooldown Walk",
+            "description": "5 mins slow walking.",
+            "repetitions": 1,
+            "work": null,
+            "recovery": null,
+            "notes": []
+          }
+        ]
+      },
+      "variants": {
+        "easier": {
+          "description": "Reduce running duration to 60 minutes continuous.",
+          "mainSet": [
+            {
+              "blockType": "repeat",
+              "name": "60 min Progression Run",
+              "description": "Run 60 minutes continuously progressing from easy jog to steady tempo effort.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 3600,
+                "intensity": "steady jog",
+                "targetType": "time"
+              },
+              "recovery": null,
+              "notes": []
+            }
+          ]
+        },
+        "harder": {
+          "description": "Increase running duration to 90 minutes continuous.",
+          "mainSet": [
+            {
+              "blockType": "repeat",
+              "name": "90 min Progression Run",
+              "description": "Run 90 minutes continuously progressing from easy jog to steady tempo effort.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 5400,
+                "intensity": "steady jog",
+                "targetType": "time"
+              },
+              "recovery": null,
+              "notes": []
+            }
+          ]
+        }
+      },
+      "coachingNotes": [
+        "Focus on smooth running form.",
+        "Keep the jog segment extremely slow."
+      ],
+      "commonMistakes": [
+        "Running the jog segments too aggressively.",
+        "Skipping dynamic stretches before starting."
+      ],
+      "safetyNotes": [
+        "Stop immediately if any joint or muscle pain appears.",
+        "Stay hydrated."
+      ],
+      "shareCard": {
+        "cardTitle": "Developing 75-Min Aerobic Progression Long Run",
+        "cardSubtitle": "General · DEVELOPING · PROGRESSION-RUN",
+        "mainSetText": "1 × 75 min Progression Run",
+        "purposeText": "A progressive aerobic run that gradually moves from walk-jog to steady jog.",
+        "footerNote": "Estimated Duration: 70-75 mins"
+      },
+      "tags": [
+        "General",
+        "progression-run",
+        "developing",
+        "moderate",
+        "low-risk"
+      ],
+      "searchKeywords": [
+        "developing",
+        "progression",
+        "75m",
+        "general"
+      ],
+      "uniquenessSignature": "lrp-prog-75m-developing-011",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+    },
+    {
+      "id": "tv-lrp-prog-90m-intermediate-012",
+      "slug": "intermediate-90-min-progressive-endurance-run-general-intermediate",
+      "title": "Intermediate 90-Min Progressive Endurance Run",
+      "shortTitle": "90m Progressive Run",
+      "summary": "A continuous 90-minute progressive long run starting easy and accelerating.",
+      "targetDistances": [
+        "General",
+        "10K",
+        "Half Marathon"
+      ],
+      "primaryDistance": "General",
+      "category": "progression-run",
+      "trainingGoals": [
+        "pacing-control",
+        "aerobic-power",
+        "mental-toughness"
+      ],
+      "level": "intermediate",
+      "phase": [
+        "build"
+      ],
+      "surface": [
+        "road"
+      ],
+      "equipment": [
+        "gps-watch"
+      ],
+      "estimatedDurationMin": {
+        "min": 85,
+        "max": 90
+      },
+      "estimatedDistanceKm": {
+        "min": 13.0,
+        "max": 16.5
+      },
+      "qualityDistanceKm": 0.0,
+      "difficulty": "moderate-hard",
+      "risk": "medium",
+      "riskReason": "Continuous progression running for 90 minutes.",
+      "intensityGuide": {
+        "primaryTarget": "steady progressing aerobic effort",
+        "paceGuide": "Start conversational. Build to steady easy jog pace.",
+        "hrGuide": "Heart rate stable around 75% maximum.",
+        "rpeGuide": "RPE 4-6/10."
+      },
+      "workoutStructure": {
+        "warmup": [
+          {
+            "blockType": "warmup",
+            "name": "Gentle Joint Mobilization",
+            "description": "5 mins of slow walking.",
+            "repetitions": 1,
+            "work": null,
+            "recovery": null,
+            "notes": []
+          }
+        ],
+        "mainSet": [
+          {
+            "blockType": "repeat",
+            "name": "90 min Progression Run",
+            "description": "Run 90 minutes continuously progressing from easy jog to steady tempo effort.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 5400,
+              "intensity": "steady jog",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": []
+          }
+        ],
+        "cooldown": [
+          {
+            "blockType": "cooldown",
+            "name": "Cooldown Walk",
+            "description": "5 mins slow walking.",
+            "repetitions": 1,
+            "work": null,
+            "recovery": null,
+            "notes": []
+          }
+        ]
+      },
+      "variants": {
+        "easier": {
+          "description": "Reduce running duration to 75 minutes continuous.",
+          "mainSet": [
+            {
+              "blockType": "repeat",
+              "name": "75 min Progression Run",
+              "description": "Run 75 minutes continuously progressing from easy jog to steady tempo effort.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 4500,
+                "intensity": "steady jog",
+                "targetType": "time"
+              },
+              "recovery": null,
+              "notes": []
+            }
+          ]
+        },
+        "harder": {
+          "description": "Increase running duration to 105 minutes continuous.",
+          "mainSet": [
+            {
+              "blockType": "repeat",
+              "name": "105 min Progression Run",
+              "description": "Run 105 minutes continuously progressing from easy jog to steady tempo effort.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 6300,
+                "intensity": "steady jog",
+                "targetType": "time"
+              },
+              "recovery": null,
+              "notes": []
+            }
+          ]
+        }
+      },
+      "coachingNotes": [
+        "Focus on smooth running form.",
+        "Keep the jog segment extremely slow."
+      ],
+      "commonMistakes": [
+        "Running the jog segments too aggressively.",
+        "Skipping dynamic stretches before starting."
+      ],
+      "safetyNotes": [
+        "Stop immediately if any joint or muscle pain appears.",
+        "Stay hydrated."
+      ],
+      "shareCard": {
+        "cardTitle": "Intermediate 90-Min Progressive Endurance Run",
+        "cardSubtitle": "General · INTERMEDIATE · PROGRESSION-RUN",
+        "mainSetText": "1 × 90 min Progression Run",
+        "purposeText": "A continuous 90-minute progressive long run starting easy and accelerating.",
+        "footerNote": "Estimated Duration: 85-90 mins"
+      },
+      "tags": [
+        "General",
+        "progression-run",
+        "intermediate",
+        "moderate-hard",
+        "medium-risk"
+      ],
+      "searchKeywords": [
+        "intermediate",
+        "progression",
+        "90m",
+        "general"
+      ],
+      "uniquenessSignature": "lrp-prog-90m-intermediate-012",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+    },
+    {
+      "id": "tv-lrp-prog-105m-advanced-013",
+      "slug": "advanced-105-min-stepped-progression-long-run-general-advanced",
+      "title": "Advanced 105-Min Stepped Progression Long Run",
+      "shortTitle": "105m Progression Run",
+      "summary": "A 105-minute progression run progressing by thirds from easy to tempo pace.",
+      "targetDistances": [
+        "General",
+        "Half Marathon",
+        "Marathon"
+      ],
+      "primaryDistance": "General",
+      "category": "progression-run",
+      "trainingGoals": [
+        "pacing-control",
+        "aerobic-power",
+        "mental-toughness"
+      ],
+      "level": "advanced",
+      "phase": [
+        "build"
+      ],
+      "surface": [
+        "road"
+      ],
+      "equipment": [
+        "gps-watch"
+      ],
+      "estimatedDurationMin": {
+        "min": 100,
+        "max": 105
+      },
+      "estimatedDistanceKm": {
+        "min": 15.5,
+        "max": 20.0
+      },
+      "qualityDistanceKm": 0.0,
+      "difficulty": "hard",
+      "risk": "medium",
+      "riskReason": "Stepped progression pacing segment over 105 minutes continuous.",
+      "intensityGuide": {
+        "primaryTarget": "progressing tempo efforts",
+        "paceGuide": "35 min at easy, 35 min at steady, 35 min at half marathon effort.",
+        "hrGuide": "HR climbs from Zone 2 to Zone 4 throughout the segments.",
+        "rpeGuide": "RPE begins at 3, progresses to 5, ends around 7/10."
+      },
+      "workoutStructure": {
+        "warmup": [
+          {
+            "blockType": "warmup",
+            "name": "Gentle Joint Mobilization",
+            "description": "5 mins of slow walking.",
+            "repetitions": 1,
+            "work": null,
+            "recovery": null,
+            "notes": []
+          }
+        ],
+        "mainSet": [
+          {
+            "blockType": "repeat",
+            "name": "105 min Progression Run",
+            "description": "Run 105 minutes continuously progressing by thirds from easy to tempo effort.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 6300,
+              "intensity": "stepped progression effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": []
+          }
+        ],
+        "cooldown": [
+          {
+            "blockType": "cooldown",
+            "name": "Cooldown Walk",
+            "description": "5 mins slow walking.",
+            "repetitions": 1,
+            "work": null,
+            "recovery": null,
+            "notes": []
+          }
+        ]
+      },
+      "variants": {
+        "easier": {
+          "description": "Reduce running duration to 90 minutes continuous.",
+          "mainSet": [
+            {
+              "blockType": "repeat",
+              "name": "90 min Progression Run",
+              "description": "Run 90 minutes continuously progressing by thirds from easy to tempo effort.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 5400,
+                "intensity": "stepped progression effort",
+                "targetType": "time"
+              },
+              "recovery": null,
+              "notes": []
+            }
+          ]
+        },
+        "harder": {
+          "description": "Increase running duration to 120 minutes continuous.",
+          "mainSet": [
+            {
+              "blockType": "repeat",
+              "name": "120 min Progression Run",
+              "description": "Run 120 minutes continuously progressing by thirds from easy to tempo effort.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 7200,
+                "intensity": "stepped progression effort",
+                "targetType": "time"
+              },
+              "recovery": null,
+              "notes": []
+            }
+          ]
+        }
+      },
+      "coachingNotes": [
+        "Focus on smooth running form.",
+        "Keep the jog segment extremely slow."
+      ],
+      "commonMistakes": [
+        "Running the jog segments too aggressively.",
+        "Skipping dynamic stretches before starting."
+      ],
+      "safetyNotes": [
+        "Stop immediately if any joint or muscle pain appears.",
+        "Stay hydrated."
+      ],
+      "shareCard": {
+        "cardTitle": "Advanced 105-Min Stepped Progression Long Run",
+        "cardSubtitle": "General · ADVANCED · PROGRESSION-RUN",
+        "mainSetText": "1 × 105 min Progression Run",
+        "purposeText": "A 105-minute progression run progressing by thirds from easy to tempo pace.",
+        "footerNote": "Estimated Duration: 100-105 mins"
+      },
+      "tags": [
+        "General",
+        "progression-run",
+        "advanced",
+        "hard",
+        "medium-risk"
+      ],
+      "searchKeywords": [
+        "advanced",
+        "progression",
+        "105m",
+        "general"
+      ],
+      "uniquenessSignature": "lrp-prog-105m-advanced-013",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+    },
+    {
+      "id": "tv-lrp-prog-120m-competitive-014",
+      "slug": "competitive-120-min-continuous-progression-long-run-general-competitive",
+      "title": "Competitive 120-Min Continuous Progression Long Run",
+      "shortTitle": "120m Progression Run",
+      "summary": "A continuous 120-minute progressive long run for competitive athletes.",
+      "targetDistances": [
+        "General",
+        "Half Marathon",
+        "Marathon"
+      ],
+      "primaryDistance": "General",
+      "category": "progression-run",
+      "trainingGoals": [
+        "pacing-control",
+        "aerobic-power",
+        "mental-toughness"
+      ],
+      "level": "competitive",
+      "phase": [
+        "build",
+        "peak"
+      ],
+      "surface": [
+        "road"
+      ],
+      "equipment": [
+        "gps-watch"
+      ],
+      "estimatedDurationMin": {
+        "min": 110,
+        "max": 120
+      },
+      "estimatedDistanceKm": {
+        "min": 18.0,
+        "max": 25.5
+      },
+      "qualityDistanceKm": 0.0,
+      "difficulty": "very-hard",
+      "risk": "high",
+      "riskReason": "Continuous progression running for 120 minutes continuous.",
+      "intensityGuide": {
+        "primaryTarget": "steady progressing aerobic effort",
+        "paceGuide": "Start conversational. Build to steady easy jog pace.",
+        "hrGuide": "Heart rate stable around 75% maximum.",
+        "rpeGuide": "RPE 4-7/10."
+      },
+      "workoutStructure": {
+        "warmup": [
+          {
+            "blockType": "warmup",
+            "name": "Gentle Joint Mobilization",
+            "description": "5 mins of slow walking.",
+            "repetitions": 1,
+            "work": null,
+            "recovery": null,
+            "notes": []
+          }
+        ],
+        "mainSet": [
+          {
+            "blockType": "repeat",
+            "name": "120 min Progression Run",
+            "description": "Run 120 minutes continuously progressing from easy jog to steady tempo effort.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 7200,
+              "intensity": "steady jog",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": []
+          }
+        ],
+        "cooldown": [
+          {
+            "blockType": "cooldown",
+            "name": "Cooldown Walk",
+            "description": "5 mins slow walking.",
+            "repetitions": 1,
+            "work": null,
+            "recovery": null,
+            "notes": []
+          }
+        ]
+      },
+      "variants": {
+        "easier": {
+          "description": "Reduce running duration to 100 minutes continuous.",
+          "mainSet": [
+            {
+              "blockType": "repeat",
+              "name": "100 min Progression Run",
+              "description": "Run 100 minutes continuously progressing from easy jog to steady tempo effort.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 6000,
+                "intensity": "steady jog",
+                "targetType": "time"
+              },
+              "recovery": null,
+              "notes": []
+            }
+          ]
+        },
+        "harder": {
+          "description": "Increase running duration to 140 minutes continuous.",
+          "mainSet": [
+            {
+              "blockType": "repeat",
+              "name": "140 min Progression Run",
+              "description": "Run 140 minutes continuously progressing from easy jog to steady tempo effort.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 8400,
+                "intensity": "steady jog",
+                "targetType": "time"
+              },
+              "recovery": null,
+              "notes": []
+            }
+          ]
+        }
+      },
+      "coachingNotes": [
+        "Focus on smooth running form.",
+        "Keep the jog segment extremely slow."
+      ],
+      "commonMistakes": [
+        "Running the jog segments too aggressively.",
+        "Skipping dynamic stretches before starting."
+      ],
+      "safetyNotes": [
+        "Stop immediately if any joint or muscle pain appears.",
+        "Stay hydrated."
+      ],
+      "shareCard": {
+        "cardTitle": "Competitive 120-Min Continuous Progression Long Run",
+        "cardSubtitle": "General · COMPETITIVE · PROGRESSION-RUN",
+        "mainSetText": "1 × 120 min Progression Run",
+        "purposeText": "A continuous 120-minute progressive long run for competitive athletes.",
+        "footerNote": "Estimated Duration: 110-120 mins"
+      },
+      "tags": [
+        "General",
+        "progression-run",
+        "competitive",
+        "very-hard",
+        "high-risk"
+      ],
+      "searchKeywords": [
+        "competitive",
+        "progression",
+        "120m",
+        "general"
+      ],
+      "uniquenessSignature": "lrp-prog-120m-competitive-014",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+    },
+    {
+      "id": "tv-lrp-fastfinish-75m-recreational-015",
+      "slug": "recreational-75-min-long-run-with-15-min-fast-finish-general-recreational",
+      "title": "Recreational 75-Min Long Run with 15-Min Fast Finish",
+      "shortTitle": "75m Fast Finish Run",
+      "summary": "A 75-minute long run ending with a 15-minute steady finish to build stamina.",
+      "targetDistances": [
+        "General",
+        "10K"
+      ],
+      "primaryDistance": "General",
+      "category": "long-run",
+      "trainingGoals": [
+        "fatigue-resistance",
+        "endurance-durability",
+        "race-pace-familiarity"
+      ],
+      "level": "recreational",
+      "phase": [
+        "build"
+      ],
+      "surface": [
+        "road"
+      ],
+      "equipment": [
+        "gps-watch"
+      ],
+      "estimatedDurationMin": {
+        "min": 70,
+        "max": 75
+      },
+      "estimatedDistanceKm": {
+        "min": 9.5,
+        "max": 12.0
+      },
+      "qualityDistanceKm": 0.0,
+      "difficulty": "moderate-hard",
+      "risk": "medium",
+      "riskReason": "Quality fast finish segment on pre-fatigued legs.",
+      "intensityGuide": {
+        "primaryTarget": "steady progressing easy to moderate effort",
+        "paceGuide": "Conversational easy jog, ending with 15 mins at marathon effort pace.",
+        "hrGuide": "Zone 2, rising slowly to Zone 3 in final segment.",
+        "rpeGuide": "RPE 4-5/10, rising to 6/10 for the final block."
+      },
+      "workoutStructure": {
+        "warmup": [
+          {
+            "blockType": "warmup",
+            "name": "Gentle Joint Mobilization",
+            "description": "5 mins of slow walking.",
+            "repetitions": 1,
+            "work": null,
+            "recovery": null,
+            "notes": []
+          }
+        ],
+        "mainSet": [
+          {
+            "blockType": "long-run",
+            "name": "First 60-Min easy jog",
+            "description": "Run 60 minutes continuously at a relaxed conversational pace.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 3600,
+              "intensity": "conversational easy effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": []
+          },
+          {
+            "blockType": "tempo",
+            "name": "Final 15-Min steady finish",
+            "description": "Immediately progress the final 15 minutes to steady marathon effort.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 900,
+              "intensity": "marathon pace effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": []
+          }
+        ],
+        "cooldown": [
+          {
+            "blockType": "cooldown",
+            "name": "Cooldown Walk",
+            "description": "5 mins walking.",
+            "repetitions": 1,
+            "work": null,
+            "recovery": null,
+            "notes": []
+          }
+        ]
+      },
+      "variants": {
+        "easier": {
+          "description": "Reduce running duration to 60 minutes total, with a 10-minute steady finish.",
+          "mainSet": [
+            {
+              "blockType": "long-run",
+              "name": "50m Easy + 10m Steady",
+              "description": "Run 50 minutes easy, then progress final 10 minutes to steady rhythm.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 3600,
+                "intensity": "progression",
+                "targetType": "time"
+              },
+              "recovery": null,
+              "notes": []
+            }
+          ]
+        },
+        "harder": {
+          "description": "Increase running duration to 90 minutes total, with a 20-minute steady finish.",
+          "mainSet": [
+            {
+              "blockType": "long-run",
+              "name": "70m Easy + 20m Steady",
+              "description": "Run 70 minutes easy, then immediately progress final 20 minutes to steady rhythm.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 5400,
+                "intensity": "progression",
+                "targetType": "time"
+              },
+              "recovery": null,
+              "notes": []
+            }
+          ]
+        }
+      },
+      "coachingNotes": [
+        "Focus on smooth running form.",
+        "Keep the jog segment extremely slow."
+      ],
+      "commonMistakes": [
+        "Running the jog segment too fast.",
+        "Skipping dynamic mobilization."
+      ],
+      "safetyNotes": [
+        "Stop immediately if any joint or muscle pain appears.",
+        "Stay hydrated."
+      ],
+      "shareCard": {
+        "cardTitle": "Recreational 75-Min Long Run with 15-Min Fast Finish",
+        "cardSubtitle": "General · RECREATIONAL · LONG-RUN",
+        "mainSetText": "60m Easy Jog | 15m steady finish",
+        "purposeText": "A 75-minute long run ending with a 15-minute steady finish to build stamina.",
+        "footerNote": "Estimated Duration: 70-75 mins"
+      },
+      "tags": [
+        "General",
+        "long-run",
+        "recreational",
+        "moderate-hard",
+        "medium-risk"
+      ],
+      "searchKeywords": [
+        "recreational",
+        "75m long run",
+        "fast finish",
+        "general"
+      ],
+      "uniquenessSignature": "lrp-fastfinish-75m-recreational-015",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+    },
+    {
+      "id": "tv-lrp-fastfinish-90m-developing-016",
+      "slug": "developing-90-min-long-run-with-20-min-steady-finish-general-developing",
+      "title": "Developing 90-Min Long Run with 20-Min Steady Finish",
+      "shortTitle": "90m Fast Finish Run",
+      "summary": "A 90-minute long run ending with a 20-minute steady finish to build stamina.",
+      "targetDistances": [
+        "General",
+        "10K",
+        "Half Marathon"
+      ],
+      "primaryDistance": "General",
+      "category": "long-run",
+      "trainingGoals": [
+        "fatigue-resistance",
+        "endurance-durability",
+        "race-pace-familiarity"
+      ],
+      "level": "developing",
+      "phase": [
+        "build"
+      ],
+      "surface": [
+        "road"
+      ],
+      "equipment": [
+        "gps-watch"
+      ],
+      "estimatedDurationMin": {
+        "min": 85,
+        "max": 90
+      },
+      "estimatedDistanceKm": {
+        "min": 11.5,
+        "max": 14.5
+      },
+      "qualityDistanceKm": 0.0,
+      "difficulty": "moderate-hard",
+      "risk": "medium",
+      "riskReason": "Quality fast finish segment on pre-fatigued legs.",
+      "intensityGuide": {
+        "primaryTarget": "steady progressing easy to moderate effort",
+        "paceGuide": "Conversational easy jog, ending with 20 mins at marathon effort pace.",
+        "hrGuide": "Zone 2, rising slowly to Zone 3 in final segment.",
+        "rpeGuide": "RPE 4-5/10, rising to 6/10 for the final block."
+      },
+      "workoutStructure": {
+        "warmup": [
+          {
+            "blockType": "warmup",
+            "name": "Gentle Joint Mobilization",
+            "description": "5 mins of slow walking.",
+            "repetitions": 1,
+            "work": null,
+            "recovery": null,
+            "notes": []
+          }
+        ],
+        "mainSet": [
+          {
+            "blockType": "long-run",
+            "name": "First 70-Min easy jog",
+            "description": "Run 70 minutes continuously at a relaxed conversational pace.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 4200,
+              "intensity": "conversational easy effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": []
+          },
+          {
+            "blockType": "tempo",
+            "name": "Final 20-Min steady finish",
+            "description": "Immediately progress the final 20 minutes to steady marathon effort.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 1200,
+              "intensity": "marathon pace effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": []
+          }
+        ],
+        "cooldown": [
+          {
+            "blockType": "cooldown",
+            "name": "Cooldown Walk",
+            "description": "5 mins walking.",
+            "repetitions": 1,
+            "work": null,
+            "recovery": null,
+            "notes": []
+          }
+        ]
+      },
+      "variants": {
+        "easier": {
+          "description": "Reduce running duration to 75 minutes total, with a 15-minute steady finish.",
+          "mainSet": [
+            {
+              "blockType": "long-run",
+              "name": "60m Easy + 15m Steady",
+              "description": "Run 60 minutes easy, then progress final 15 minutes to steady rhythm.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 4500,
+                "intensity": "progression",
+                "targetType": "time"
+              },
+              "recovery": null,
+              "notes": []
+            }
+          ]
+        },
+        "harder": {
+          "description": "Increase running duration to 105 minutes total, with a 25-minute steady finish.",
+          "mainSet": [
+            {
+              "blockType": "long-run",
+              "name": "80m Easy + 25m Steady",
+              "description": "Run 80 minutes easy, then immediately progress final 25 minutes to steady rhythm.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 6300,
+                "intensity": "progression",
+                "targetType": "time"
+              },
+              "recovery": null,
+              "notes": []
+            }
+          ]
+        }
+      },
+      "coachingNotes": [
+        "Focus on smooth running form.",
+        "Keep the jog segment extremely slow."
+      ],
+      "commonMistakes": [
+        "Running the jog segment too fast.",
+        "Skipping dynamic mobilization."
+      ],
+      "safetyNotes": [
+        "Stop immediately if any joint or muscle pain appears.",
+        "Stay hydrated."
+      ],
+      "shareCard": {
+        "cardTitle": "Developing 90-Min Long Run with 20-Min Steady Finish",
+        "cardSubtitle": "General · DEVELOPING · LONG-RUN",
+        "mainSetText": "70m Easy Jog | 20m steady finish",
+        "purposeText": "A 90-minute long run ending with a 20-minute steady finish to build stamina.",
+        "footerNote": "Estimated Duration: 85-90 mins"
+      },
+      "tags": [
+        "General",
+        "long-run",
+        "developing",
+        "moderate-hard",
+        "medium-risk"
+      ],
+      "searchKeywords": [
+        "developing",
+        "90m long run",
+        "fast finish",
+        "general"
+      ],
+      "uniquenessSignature": "lrp-fastfinish-90m-developing-016",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+    },
+    {
+      "id": "tv-lrp-fastfinish-105m-intermediate-017",
+      "slug": "intermediate-105-min-long-run-with-25-min-tempo-finish-general-intermediate",
+      "title": "Intermediate 105-Min Long Run with 25-Min Tempo Finish",
+      "shortTitle": "105m Fast Finish Run",
+      "summary": "A 105-minute long run ending with a 25-minute steady finish to build stamina.",
+      "targetDistances": [
+        "General",
+        "10K",
+        "Half Marathon"
+      ],
+      "primaryDistance": "General",
+      "category": "long-run",
+      "trainingGoals": [
+        "fatigue-resistance",
+        "endurance-durability",
+        "race-pace-familiarity"
+      ],
+      "level": "intermediate",
+      "phase": [
+        "build"
+      ],
+      "surface": [
+        "road"
+      ],
+      "equipment": [
+        "gps-watch"
+      ],
+      "estimatedDurationMin": {
+        "min": 100,
+        "max": 105
+      },
+      "estimatedDistanceKm": {
+        "min": 14.0,
+        "max": 18.5
+      },
+      "qualityDistanceKm": 0.0,
+      "difficulty": "hard",
+      "risk": "medium",
+      "riskReason": "Quality fast finish segment on pre-fatigued legs.",
+      "intensityGuide": {
+        "primaryTarget": "steady progressing easy to moderate effort",
+        "paceGuide": "Conversational easy jog, ending with 25 mins at marathon effort pace.",
+        "hrGuide": "Zone 2, rising slowly to Zone 3 in final segment.",
+        "rpeGuide": "RPE 4-5/10, rising to 6/10 for the final block."
+      },
+      "workoutStructure": {
+        "warmup": [
+          {
+            "blockType": "warmup",
+            "name": "Gentle Joint Mobilization",
+            "description": "5 mins of slow walking.",
+            "repetitions": 1,
+            "work": null,
+            "recovery": null,
+            "notes": []
+          }
+        ],
+        "mainSet": [
+          {
+            "blockType": "long-run",
+            "name": "First 80-Min easy jog",
+            "description": "Run 80 minutes continuously at a relaxed conversational pace.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 4800,
+              "intensity": "conversational easy effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": []
+          },
+          {
+            "blockType": "tempo",
+            "name": "Final 25-Min steady finish",
+            "description": "Immediately progress the final 25 minutes to steady marathon effort.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 1500,
+              "intensity": "marathon pace effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": []
+          }
+        ],
+        "cooldown": [
+          {
+            "blockType": "cooldown",
+            "name": "Cooldown Walk",
+            "description": "5 mins walking.",
+            "repetitions": 1,
+            "work": null,
+            "recovery": null,
+            "notes": []
+          }
+        ]
+      },
+      "variants": {
+        "easier": {
+          "description": "Reduce running duration to 90 minutes total, with a 20-minute steady finish.",
+          "mainSet": [
+            {
+              "blockType": "long-run",
+              "name": "70m Easy + 20m Steady",
+              "description": "Run 70 minutes easy, then progress final 20 minutes to steady rhythm.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 5400,
+                "intensity": "progression",
+                "targetType": "time"
+              },
+              "recovery": null,
+              "notes": []
+            }
+          ]
+        },
+        "harder": {
+          "description": "Increase running duration to 120 minutes total, with a 30-minute steady finish.",
+          "mainSet": [
+            {
+              "blockType": "long-run",
+              "name": "90m Easy + 30m Steady",
+              "description": "Run 90 minutes easy, then immediately progress final 30 minutes to steady rhythm.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 7200,
+                "intensity": "progression",
+                "targetType": "time"
+              },
+              "recovery": null,
+              "notes": []
+            }
+          ]
+        }
+      },
+      "coachingNotes": [
+        "Focus on smooth running form.",
+        "Keep the jog segment extremely slow."
+      ],
+      "commonMistakes": [
+        "Running the jog segment too fast.",
+        "Skipping dynamic mobilization."
+      ],
+      "safetyNotes": [
+        "Stop immediately if any joint or muscle pain appears.",
+        "Stay hydrated."
+      ],
+      "shareCard": {
+        "cardTitle": "Intermediate 105-Min Long Run with 25-Min Tempo Finish",
+        "cardSubtitle": "General · INTERMEDIATE · LONG-RUN",
+        "mainSetText": "80m Easy Jog | 25m steady finish",
+        "purposeText": "A 105-minute long run ending with a 25-minute steady finish to build stamina.",
+        "footerNote": "Estimated Duration: 100-105 mins"
+      },
+      "tags": [
+        "General",
+        "long-run",
+        "intermediate",
+        "hard",
+        "medium-risk"
+      ],
+      "searchKeywords": [
+        "intermediate",
+        "105m long run",
+        "fast finish",
+        "general"
+      ],
+      "uniquenessSignature": "lrp-fastfinish-105m-intermediate-017",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+    },
+    {
+      "id": "tv-lrp-fastfinish-120m-advanced-018",
+      "slug": "advanced-120-min-long-run-with-30-min-threshold-finish-general-advanced",
+      "title": "Advanced 120-Min Long Run with 30-Min Threshold Finish",
+      "shortTitle": "120m Fast Finish Run",
+      "summary": "A 120-minute long run ending with a 30-minute steady finish to build stamina.",
+      "targetDistances": [
+        "General",
+        "Half Marathon",
+        "Marathon"
+      ],
+      "primaryDistance": "General",
+      "category": "long-run",
+      "trainingGoals": [
+        "fatigue-resistance",
+        "endurance-durability",
+        "race-pace-familiarity"
+      ],
+      "level": "advanced",
+      "phase": [
+        "build"
+      ],
+      "surface": [
+        "road"
+      ],
+      "equipment": [
+        "gps-watch"
+      ],
+      "estimatedDurationMin": {
+        "min": 110,
+        "max": 120
+      },
+      "estimatedDistanceKm": {
+        "min": 16.0,
+        "max": 22.0
+      },
+      "qualityDistanceKm": 0.0,
+      "difficulty": "hard",
+      "risk": "high",
+      "riskReason": "Quality fast finish segment on pre-fatigued legs.",
+      "intensityGuide": {
+        "primaryTarget": "steady progressing easy to moderate effort",
+        "paceGuide": "Conversational easy jog, ending with 30 mins at marathon effort pace.",
+        "hrGuide": "Zone 2, rising slowly to Zone 3 in final segment.",
+        "rpeGuide": "RPE 4-5/10, rising to 6/10 for the final block."
+      },
+      "workoutStructure": {
+        "warmup": [
+          {
+            "blockType": "warmup",
+            "name": "Gentle Joint Mobilization",
+            "description": "5 mins of slow walking.",
+            "repetitions": 1,
+            "work": null,
+            "recovery": null,
+            "notes": []
+          }
+        ],
+        "mainSet": [
+          {
+            "blockType": "long-run",
+            "name": "First 90-Min easy jog",
+            "description": "Run 90 minutes continuously at a relaxed conversational pace.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 5400,
+              "intensity": "conversational easy effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": []
+          },
+          {
+            "blockType": "tempo",
+            "name": "Final 30-Min steady finish",
+            "description": "Immediately progress the final 30 minutes to steady marathon effort.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 1800,
+              "intensity": "marathon pace effort",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": []
+          }
+        ],
+        "cooldown": [
+          {
+            "blockType": "cooldown",
+            "name": "Cooldown Walk",
+            "description": "5 mins walking.",
+            "repetitions": 1,
+            "work": null,
+            "recovery": null,
+            "notes": []
+          }
+        ]
+      },
+      "variants": {
+        "easier": {
+          "description": "Reduce running duration to 100 minutes total, with a 20-minute steady finish.",
+          "mainSet": [
+            {
+              "blockType": "long-run",
+              "name": "80m Easy + 20m Steady",
+              "description": "Run 80 minutes easy, then progress final 20 minutes to steady rhythm.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 6000,
+                "intensity": "progression",
+                "targetType": "time"
+              },
+              "recovery": null,
+              "notes": []
+            }
+          ]
+        },
+        "harder": {
+          "description": "Increase running duration to 140 minutes total, with a 40-minute steady finish.",
+          "mainSet": [
+            {
+              "blockType": "long-run",
+              "name": "100m Easy + 40m Steady",
+              "description": "Run 100 minutes easy, then immediately progress final 40 minutes to steady rhythm.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 8400,
+                "intensity": "progression",
+                "targetType": "time"
+              },
+              "recovery": null,
+              "notes": []
+            }
+          ]
+        }
+      },
+      "coachingNotes": [
+        "Focus on smooth running form.",
+        "Keep the jog segment extremely slow."
+      ],
+      "commonMistakes": [
+        "Running the jog segment too fast.",
+        "Skipping dynamic mobilization."
+      ],
+      "safetyNotes": [
+        "Stop immediately if any joint or muscle pain appears.",
+        "Stay hydrated."
+      ],
+      "shareCard": {
+        "cardTitle": "Advanced 120-Min Long Run with 30-Min Threshold Finish",
+        "cardSubtitle": "General · ADVANCED · LONG-RUN",
+        "mainSetText": "90m Easy Jog | 30m steady finish",
+        "purposeText": "A 120-minute long run ending with a 30-minute steady finish to build stamina.",
+        "footerNote": "Estimated Duration: 110-120 mins"
+      },
+      "tags": [
+        "General",
+        "long-run",
+        "advanced",
+        "hard",
+        "medium-risk"
+      ],
+      "searchKeywords": [
+        "advanced",
+        "120m long run",
+        "fast finish",
+        "general"
+      ],
+      "uniquenessSignature": "lrp-fastfinish-120m-advanced-018",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+    },
+    {
+      "id": "tv-lrp-surges-75m-developing-019",
+      "slug": "developing-75-min-long-run-with-5-x-1-min-surges-general-developing",
+      "title": "Developing 75-Min Long Run with 5 × 1-Min Surges",
+      "shortTitle": "75m Surges Run",
+      "summary": "An easy aerobic long run with short, controlled surges to break monotony.",
+      "targetDistances": [
+        "General",
+        "10K"
+      ],
+      "primaryDistance": "General",
+      "category": "long-run",
+      "trainingGoals": [
+        "recovery",
+        "aerobic-base"
+      ],
+      "level": "developing",
+      "phase": [
+        "build"
+      ],
+      "surface": [
+        "road"
+      ],
+      "equipment": [
+        "gps-watch"
+      ],
+      "estimatedDurationMin": {
+        "min": 70,
+        "max": 75
+      },
+      "estimatedDistanceKm": {
+        "min": 9.5,
+        "max": 12.0
+      },
+      "qualityDistanceKm": 0.0,
+      "difficulty": "moderate",
+      "risk": "medium",
+      "riskReason": "Structured low-intensity strides segments with walking recoveries.",
+      "intensityGuide": {
+        "primaryTarget": "steady aerobic jog",
+        "paceGuide": "Conversational easy jog pace.",
+        "hrGuide": "Heart rate stable around 70% maximum.",
+        "rpeGuide": "RPE 3/10."
+      },
+      "workoutStructure": {
+        "warmup": [
+          {
+            "blockType": "warmup",
+            "name": "Gentle Joint Mobilization",
+            "description": "5 mins of slow walking.",
+            "repetitions": 1,
+            "work": null,
+            "recovery": null,
+            "notes": []
+          }
+        ],
+        "mainSet": [
+          {
+            "blockType": "repeat",
+            "name": "65-Min Continuous Jog",
+            "description": "Run 65 minutes continuous at a relaxed easy jog.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 3900,
+              "intensity": "gentle jog",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": []
+          },
+          {
+            "blockType": "repeat",
+            "name": "5 × 1-Min Surges",
+            "description": "Short accelerations focusing on fast, relaxed leg turnover.",
+            "repetitions": 5,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 60,
+              "intensity": "fast but relaxed",
+              "targetType": "time"
+            },
+            "recovery": {
+              "type": "jog",
+              "durationSeconds": 60,
+              "distanceMeters": null,
+              "intensity": "very easy"
+            },
+            "notes": []
+          }
+        ],
+        "cooldown": [
+          {
+            "blockType": "cooldown",
+            "name": "Gentle Walking Cooldown",
+            "description": "5 mins slow walking.",
+            "repetitions": 1,
+            "work": null,
+            "recovery": null,
+            "notes": []
+          }
+        ]
+      },
+      "variants": {
+        "easier": {
+          "description": "Reduce running duration to 60 minutes total, with 4 surges.",
+          "mainSet": [
+            {
+              "blockType": "repeat",
+              "name": "52-Min Continuous Jog",
+              "description": "Run 52 minutes continuous at a relaxed easy jog.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 3120,
+                "intensity": "gentle jog",
+                "targetType": "time"
+              },
+              "recovery": null,
+              "notes": []
+            },
+            {
+              "blockType": "repeat",
+              "name": "4 × 1-Min Surges",
+              "description": "Short accelerations focusing on fast, relaxed leg turnover.",
+              "repetitions": 4,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 60,
+                "intensity": "fast but relaxed",
+                "targetType": "time"
+              },
+              "recovery": {
+                "type": "jog",
+                "durationSeconds": 60,
+                "distanceMeters": null,
+                "intensity": "very easy"
+              },
+              "notes": []
+            }
+          ]
+        },
+        "harder": {
+          "description": "Increase running duration to 90 minutes total, with 6 surges.",
+          "mainSet": [
+            {
+              "blockType": "repeat",
+              "name": "78-Min Continuous Jog",
+              "description": "Run 78 minutes continuous at a relaxed easy jog.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 4680,
+                "intensity": "gentle jog",
+                "targetType": "time"
+              },
+              "recovery": null,
+              "notes": []
+            },
+            {
+              "blockType": "repeat",
+              "name": "6 × 1-Min Surges",
+              "description": "Short accelerations focusing on fast, relaxed leg turnover.",
+              "repetitions": 6,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 60,
+                "intensity": "fast but relaxed",
+                "targetType": "time"
+              },
+              "recovery": {
+                "type": "jog",
+                "durationSeconds": 60,
+                "distanceMeters": null,
+                "intensity": "very easy"
+              },
+              "notes": []
+            }
+          ]
+        }
+      },
+      "coachingNotes": [
+        "Do not sprint the surges.",
+        "Keep shoulders relaxed and posture vertical."
+      ],
+      "commonMistakes": [
+        "Sprinting aggressively.",
+        "Skipping dynamic mobilization."
+      ],
+      "safetyNotes": [
+        "Hamstring strain risk. Never do surges cold.",
+        "Stop if joint or muscle pain appears."
+      ],
+      "shareCard": {
+        "cardTitle": "Developing 75-Min Long Run with 5 × 1-Min Surges",
+        "cardSubtitle": "General · DEVELOPING · LONG-RUN",
+        "mainSetText": "65-Min Jog | 5 × 1-Min Surges",
+        "purposeText": "An easy aerobic long run with short, controlled surges to break monotony.",
+        "footerNote": "Estimated Duration: 70-75 mins"
+      },
+      "tags": [
+        "General",
+        "long-run",
+        "developing",
+        "moderate",
+        "medium-risk"
+      ],
+      "searchKeywords": [
+        "developing",
+        "surges",
+        "easy long run",
+        "75m"
+      ],
+      "uniquenessSignature": "lrp-surges-75m-developing-019",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+    },
+    {
+      "id": "tv-lrp-surges-90m-intermediate-020",
+      "slug": "intermediate-90-min-long-run-with-6-x-1-min-surges-general-intermediate",
+      "title": "Intermediate 90-Min Long Run with 6 × 1-Min Surges",
+      "shortTitle": "90m Surges Run",
+      "summary": "An easy aerobic long run with short, controlled surges to break monotony.",
+      "targetDistances": [
+        "General",
+        "10K",
+        "Half Marathon"
+      ],
+      "primaryDistance": "General",
+      "category": "long-run",
+      "trainingGoals": [
+        "recovery",
+        "aerobic-base"
+      ],
+      "level": "intermediate",
+      "phase": [
+        "build"
+      ],
+      "surface": [
+        "road"
+      ],
+      "equipment": [
+        "gps-watch"
+      ],
+      "estimatedDurationMin": {
+        "min": 85,
+        "max": 90
+      },
+      "estimatedDistanceKm": {
+        "min": 11.5,
+        "max": 14.5
+      },
+      "qualityDistanceKm": 0.0,
+      "difficulty": "moderate",
+      "risk": "medium",
+      "riskReason": "Structured low-intensity strides segments.",
+      "intensityGuide": {
+        "primaryTarget": "steady aerobic jog",
+        "paceGuide": "Conversational easy jog pace.",
+        "hrGuide": "Heart rate stable around 70% maximum.",
+        "rpeGuide": "RPE 3/10."
+      },
+      "workoutStructure": {
+        "warmup": [
+          {
+            "blockType": "warmup",
+            "name": "Gentle Joint Mobilization",
+            "description": "5 mins of slow walking.",
+            "repetitions": 1,
+            "work": null,
+            "recovery": null,
+            "notes": []
+          }
+        ],
+        "mainSet": [
+          {
+            "blockType": "repeat",
+            "name": "78-Min Continuous Jog",
+            "description": "Run 78 minutes continuous at a relaxed easy jog.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 4680,
+              "intensity": "gentle jog",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": []
+          },
+          {
+            "blockType": "repeat",
+            "name": "6 × 1-Min Surges",
+            "description": "Short accelerations focusing on fast, relaxed leg turnover.",
+            "repetitions": 6,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 60,
+              "intensity": "fast but relaxed",
+              "targetType": "time"
+            },
+            "recovery": {
+              "type": "jog",
+              "durationSeconds": 60,
+              "distanceMeters": null,
+              "intensity": "very easy"
+            },
+            "notes": []
+          }
+        ],
+        "cooldown": [
+          {
+            "blockType": "cooldown",
+            "name": "Gentle Walking Cooldown",
+            "description": "5 mins slow walking.",
+            "repetitions": 1,
+            "work": null,
+            "recovery": null,
+            "notes": []
+          }
+        ]
+      },
+      "variants": {
+        "easier": {
+          "description": "Reduce running duration to 75 minutes total, with 5 surges.",
+          "mainSet": [
+            {
+              "blockType": "repeat",
+              "name": "65-Min Continuous Jog",
+              "description": "Run 65 minutes continuous at a relaxed easy jog.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 3900,
+                "intensity": "gentle jog",
+                "targetType": "time"
+              },
+              "recovery": null,
+              "notes": []
+            },
+            {
+              "blockType": "repeat",
+              "name": "5 × 1-Min Surges",
+              "description": "Short accelerations focusing on fast, relaxed leg turnover.",
+              "repetitions": 5,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 60,
+                "intensity": "fast but relaxed",
+                "targetType": "time"
+              },
+              "recovery": {
+                "type": "jog",
+                "durationSeconds": 60,
+                "distanceMeters": null,
+                "intensity": "very easy"
+              },
+              "notes": []
+            }
+          ]
+        },
+        "harder": {
+          "description": "Increase running duration to 105 minutes total, with 8 surges.",
+          "mainSet": [
+            {
+              "blockType": "repeat",
+              "name": "90-Min Continuous Jog",
+              "description": "Run 90 minutes continuous at a relaxed easy jog.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 5400,
+                "intensity": "gentle jog",
+                "targetType": "time"
+              },
+              "recovery": null,
+              "notes": []
+            },
+            {
+              "blockType": "repeat",
+              "name": "8 × 1-Min Surges",
+              "description": "Short accelerations focusing on fast, relaxed leg turnover.",
+              "repetitions": 8,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 60,
+                "intensity": "fast but relaxed",
+                "targetType": "time"
+              },
+              "recovery": {
+                "type": "jog",
+                "durationSeconds": 60,
+                "distanceMeters": null,
+                "intensity": "very easy"
+              },
+              "notes": []
+            }
+          ]
+        }
+      },
+      "coachingNotes": [
+        "Do not sprint the surges.",
+        "Keep shoulders relaxed and posture vertical."
+      ],
+      "commonMistakes": [
+        "Sprinting aggressively.",
+        "Skipping dynamic mobilization."
+      ],
+      "safetyNotes": [
+        "Hamstring strain risk. Never do surges cold.",
+        "Stop if joint or muscle pain appears."
+      ],
+      "shareCard": {
+        "cardTitle": "Intermediate 90-Min Long Run with 6 × 1-Min Surges",
+        "cardSubtitle": "General · INTERMEDIATE · LONG-RUN",
+        "mainSetText": "78-Min Jog | 6 × 1-Min Surges",
+        "purposeText": "An easy aerobic long run with short, controlled surges to break monotony.",
+        "footerNote": "Estimated Duration: 85-90 mins"
+      },
+      "tags": [
+        "General",
+        "long-run",
+        "intermediate",
+        "moderate",
+        "medium-risk"
+      ],
+      "searchKeywords": [
+        "intermediate",
+        "surges",
+        "easy long run",
+        "90m"
+      ],
+      "uniquenessSignature": "lrp-surges-90m-intermediate-020",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+    },
+    {
+      "id": "tv-lrp-surges-105m-advanced-021",
+      "slug": "advanced-105-min-long-run-with-8-x-1-min-strides-general-advanced",
+      "title": "Advanced 105-Min Long Run with 8 × 1-Min Strides",
+      "shortTitle": "105m Surges Run",
+      "summary": "An easy aerobic long run with short, controlled surges to break monotony.",
+      "targetDistances": [
+        "General",
+        "Half Marathon",
+        "Marathon"
+      ],
+      "primaryDistance": "General",
+      "category": "long-run",
+      "trainingGoals": [
+        "recovery",
+        "aerobic-base"
+      ],
+      "level": "advanced",
+      "phase": [
+        "build"
+      ],
+      "surface": [
+        "road"
+      ],
+      "equipment": [
+        "gps-watch"
+      ],
+      "estimatedDurationMin": {
+        "min": 100,
+        "max": 105
+      },
+      "estimatedDistanceKm": {
+        "min": 14.0,
+        "max": 18.5
+      },
+      "qualityDistanceKm": 0.0,
+      "difficulty": "moderate",
+      "risk": "medium",
+      "riskReason": "Structured low-intensity strides segments.",
+      "intensityGuide": {
+        "primaryTarget": "steady aerobic jog",
+        "paceGuide": "Conversational easy jog pace.",
+        "hrGuide": "Heart rate stable around 70% maximum.",
+        "rpeGuide": "RPE 3/10."
+      },
+      "workoutStructure": {
+        "warmup": [
+          {
+            "blockType": "warmup",
+            "name": "Gentle Walking Warm-up",
+            "description": "5 mins of slow walking.",
+            "repetitions": 1,
+            "work": null,
+            "recovery": null,
+            "notes": []
+          }
+        ],
+        "mainSet": [
+          {
+            "blockType": "repeat",
+            "name": "89-Min Continuous Jog",
+            "description": "Run 89 minutes continuous at a relaxed easy jog.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 5340,
+              "intensity": "gentle jog",
+              "targetType": "time"
+            },
+            "recovery": null,
+            "notes": []
+          },
+          {
+            "blockType": "repeat",
+            "name": "8 × 1-Min Surges",
+            "description": "Short accelerations focusing on fast, relaxed leg turnover.",
+            "repetitions": 8,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 60,
+              "intensity": "fast but relaxed",
+              "targetType": "time"
+            },
+            "recovery": {
+              "type": "jog",
+              "durationSeconds": 60,
+              "distanceMeters": null,
+              "intensity": "very easy"
+            },
+            "notes": []
+          }
+        ],
+        "cooldown": [
+          {
+            "blockType": "cooldown",
+            "name": "Gentle Walking Cooldown",
+            "description": "5 mins slow walking.",
+            "repetitions": 1,
+            "work": null,
+            "recovery": null,
+            "notes": []
+          }
+        ]
+      },
+      "variants": {
+        "easier": {
+          "description": "Reduce running duration to 90 minutes total, with 6 surges.",
+          "mainSet": [
+            {
+              "blockType": "repeat",
+              "name": "78-Min Continuous Jog",
+              "description": "Run 78 minutes continuous at a relaxed easy jog.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 4680,
+                "intensity": "gentle jog",
+                "targetType": "time"
+              },
+              "recovery": null,
+              "notes": []
+            },
+            {
+              "blockType": "repeat",
+              "name": "6 × 1-Min Surges",
+              "description": "Short accelerations focusing on fast, relaxed leg turnover.",
+              "repetitions": 6,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 60,
+                "intensity": "fast but relaxed",
+                "targetType": "time"
+              },
+              "recovery": {
+                "type": "jog",
+                "durationSeconds": 60,
+                "distanceMeters": null,
+                "intensity": "very easy"
+              },
+              "notes": []
+            }
+          ]
+        },
+        "harder": {
+          "description": "Increase running duration to 120 minutes total, with 10 surges.",
+          "mainSet": [
+            {
+              "blockType": "repeat",
+              "name": "100-Min Continuous Jog",
+              "description": "Run 100 minutes continuous at a relaxed easy jog.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 6000,
+                "intensity": "gentle jog",
+                "targetType": "time"
+              },
+              "recovery": null,
+              "notes": []
+            },
+            {
+              "blockType": "repeat",
+              "name": "10 × 1-Min Surges",
+              "description": "Short accelerations focusing on fast, relaxed leg turnover.",
+              "repetitions": 10,
+              "work": {
+                "distanceMeters": null,
+                "durationSeconds": 60,
+                "intensity": "fast but relaxed",
+                "targetType": "time"
+              },
+              "recovery": {
+                "type": "jog",
+                "durationSeconds": 60,
+                "distanceMeters": null,
+                "intensity": "very easy"
+              },
+              "notes": []
+            }
+          ]
+        }
+      },
+      "coachingNotes": [
+        "Do not sprint the surges.",
+        "Keep shoulders relaxed and posture vertical."
+      ],
+      "commonMistakes": [
+        "Sprinting aggressively.",
+        "Skipping dynamic mobilization."
+      ],
+      "safetyNotes": [
+        "Hamstring strain risk. Never do surges cold.",
+        "Stop if joint or muscle pain appears."
+      ],
+      "shareCard": {
+        "cardTitle": "Advanced 105-Min Long Run with 8 × 1-Min Strides",
+        "cardSubtitle": "General · ADVANCED · LONG-RUN",
+        "mainSetText": "89-Min Jog | 8 × 1-Min Surges",
+        "purposeText": "An easy aerobic long run with short, controlled surges to break monotony.",
+        "footerNote": "Estimated Duration: 100-105 mins"
+      },
+      "tags": [
+        "General",
+        "long-run",
+        "advanced",
+        "moderate",
+        "medium-risk"
+      ],
+      "searchKeywords": [
+        "advanced",
+        "surges",
+        "easy long run",
+        "105m"
+      ],
+      "uniquenessSignature": "lrp-surges-105m-advanced-021",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+    },
+    {
+      "id": "tv-lrp-support-hm-20k-intermediate-022",
+      "slug": "intermediate-20k-hm-pace-practice-long-run-half-marathon-intermediate",
+      "title": "Intermediate 20K HM Pace Practice Long Run",
+      "shortTitle": "20K HM Pace Long Run",
+      "summary": "A metric half-marathon support long run with 15K easy and a controlled 5K half-marathon effort finish.",
+      "targetDistances": [
+        "Half Marathon"
+      ],
+      "primaryDistance": "Half Marathon",
+      "category": "long-run",
+      "trainingGoals": [
+        "fatigue-resistance",
+        "endurance-durability",
+        "race-pace-familiarity"
+      ],
+      "level": "intermediate",
+      "phase": [
+        "build",
+        "peak"
+      ],
+      "surface": [
+        "road"
+      ],
+      "equipment": [
+        "gps-watch"
+      ],
+      "estimatedDurationMin": {
+        "min": 85,
+        "max": 105
+      },
+      "estimatedDistanceKm": {
+        "min": 19.0,
+        "max": 21.0
+      },
+      "qualityDistanceKm": 5.0,
+      "difficulty": "hard",
+      "risk": "high",
+      "riskReason": "Fast finish quality running at target race pace on pre-fatigued legs.",
+      "intensityGuide": {
+        "primaryTarget": "steady progressing to half marathon race pace",
+        "paceGuide": "Run first 9 miles conversational, then immediately lock into HM race pace for final 5 kilometers.",
+        "hrGuide": "Low Zone 2, spiking rapidly to High Zone 4 in the final segment.",
+        "rpeGuide": "RPE 4-5/10, rising to 7.5/10 for the final block."
+      },
+      "workoutStructure": {
+        "warmup": [
+          {
+            "blockType": "warmup",
+            "name": "Mobilization",
+            "description": "5 mins light joint mobility stretches.",
+            "repetitions": 1,
+            "work": null,
+            "recovery": null,
+            "notes": []
+          }
+        ],
+        "mainSet": [
+          {
+            "blockType": "long-run",
+            "name": "First 15K: Conversational Jog",
+            "description": "Run 15 kilometers continuously at a relaxed conversational pace.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": 15000,
+              "durationSeconds": null,
+              "intensity": "conversational easy effort",
+              "targetType": "distance"
+            },
+            "recovery": null,
+            "notes": []
+          },
+          {
+            "blockType": "tempo",
+            "name": "Final 5K: HM Race Effort Finish",
+            "description": "Immediately progress the final 5 kilometers to controlled half-marathon race effort.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": 5000,
+              "durationSeconds": null,
+              "intensity": "half marathon race pace",
+              "targetType": "distance"
+            },
+            "recovery": null,
+            "notes": []
+          }
+        ],
+        "cooldown": [
+          {
+            "blockType": "cooldown",
+            "name": "Active Recovery Walk",
+            "description": "5 mins walking, drink electrolytes.",
+            "repetitions": 1,
+            "work": null,
+            "recovery": null,
+            "notes": []
+          }
+        ]
+      },
+      "variants": {
+        "easier": {
+          "description": "Reduce to 16K total with a 4K half-marathon effort finish.",
+          "mainSet": [
+            {
+              "blockType": "long-run",
+              "name": "12K Easy + 4K HM Finish",
+              "description": "Run 12K easy, then progress the final 4K to controlled half-marathon effort.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": 16000,
+                "durationSeconds": null,
+                "intensity": "progression",
+                "targetType": "distance"
+              },
+              "recovery": null,
+              "notes": []
+            }
+          ]
+        },
+        "harder": {
+          "description": "Increase to 22K total with a 6K half-marathon effort finish.",
+          "mainSet": [
+            {
+              "blockType": "long-run",
+              "name": "16K Easy + 6K HM Finish",
+              "description": "Run 16K easy, then progress the final 6K to controlled half-marathon effort.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": 22000,
+                "durationSeconds": null,
+                "intensity": "aggressive progression",
+                "targetType": "distance"
+              },
+              "recovery": null,
+              "notes": []
+            }
+          ]
+        }
+      },
+      "coachingNotes": [
+        "Practice your race-day fueling and hydration strategy every 30-45 minutes.",
+        "Start conversational. Do not push the early pace.",
+        "Focus on locked-in pacing in the final 5 kilometers."
+      ],
+      "commonMistakes": [
+        "Running the first half too fast and hitting the wall.",
+        "Failing to practice fueling."
+      ],
+      "safetyNotes": [
+        "Carry hydration or plan routes with water access.",
+        "Listen to joint pain. Stop immediately if sharp joint pain occurs."
+      ],
+      "shareCard": {
+        "cardTitle": "20K HM Pace Long Run",
+        "cardSubtitle": "Half Marathon · INTERMEDIATE · LONG-RUN",
+        "mainSetText": "15K easy + 5K controlled HM effort",
+        "purposeText": "A sustained long run including pace blocks exactly at target Half Marathon effort.",
+        "footerNote": "Metric long-run format. Keep the finish controlled."
+      },
+      "tags": [
+        "Half Marathon",
+        "long-run",
+        "intermediate",
+        "hard",
+        "high-risk",
+        "20K",
+        "metric"
+      ],
+      "searchKeywords": [
+        "20k half marathon long run",
+        "hm pace finish",
+        "15k easy 5k hm effort",
+        "metric long run"
+      ],
+      "uniquenessSignature": "lrp-support-hm-20k-15k-easy-5k-hm-intermediate-022",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+    },
+    {
+      "id": "tv-lrp-support-hm-14mi-advanced-023",
+      "slug": "advanced-14K-long-run-with-3-x-4K-hm-pace-blocks-half-marathon-advanced",
+      "title": "Advanced 14-Mile Long Run with 3 × 2-Mile HM Pace Blocks",
+      "shortTitle": "14-Mile HM Practice",
+      "summary": "A sustained 14K long run incorporating three distinct 4K blocks at target HM effort.",
+      "targetDistances": [
+        "Half Marathon"
+      ],
+      "primaryDistance": "Half Marathon",
+      "category": "long-run",
+      "trainingGoals": [
+        "fatigue-resistance",
+        "endurance-durability",
+        "race-pace-familiarity"
+      ],
+      "level": "advanced",
+      "phase": [
+        "build",
+        "peak"
+      ],
+      "surface": [
+        "road"
+      ],
+      "equipment": [
+        "gps-watch"
+      ],
+      "estimatedDurationMin": {
+        "min": 100,
+        "max": 120
+      },
+      "estimatedDistanceKm": {
+        "min": 22.5,
+        "max": 24.5
+      },
+      "qualityDistanceKm": 9.6,
+      "difficulty": "hard",
+      "risk": "high",
+      "riskReason": "Repetitive quality mile intervals at target race pace on pre-fatigued legs.",
+      "intensityGuide": {
+        "primaryTarget": "steady progressing to half marathon race pace",
+        "paceGuide": "Run conversational easy segments with 4K blocks exactly at HM race effort.",
+        "hrGuide": "Low Zone 2, spiking rapidly to Zone 4 inside the HM pace blocks.",
+        "rpeGuide": "RPE 4-5/10, rising to 7.5/10 for the HM pace blocks."
+      },
+      "workoutStructure": {
+        "warmup": [
+          {
+            "blockType": "warmup",
+            "name": "Mobilization",
+            "description": "5 mins light joint mobility stretches.",
+            "repetitions": 1,
+            "work": null,
+            "recovery": null,
+            "notes": []
+          }
+        ],
+        "mainSet": [
+          {
+            "blockType": "long-run",
+            "name": "2 Miles Conversational Jog",
+            "description": "Run 4 kilometers continuously at a relaxed conversational pace.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": 3200,
+              "durationSeconds": null,
+              "intensity": "conversational easy effort",
+              "targetType": "distance"
+            },
+            "recovery": null,
+            "notes": []
+          },
+          {
+            "blockType": "repeat",
+            "name": "3 × HM Pace Blocks",
+            "description": "Run 3 repetitions of 4 kilometers at HM race pace with 4 kilometers easy jog recovery.",
+            "repetitions": 3,
+            "work": {
+              "distanceMeters": 3200,
+              "durationSeconds": null,
+              "intensity": "half marathon race pace",
+              "targetType": "distance"
+            },
+            "recovery": {
+              "type": "jog",
+              "durationSeconds": null,
+              "distanceMeters": 3200,
+              "intensity": "easy recovery jog"
+            },
+            "notes": []
+          }
+        ],
+        "cooldown": [
+          {
+            "blockType": "cooldown",
+            "name": "Active Recovery Walk",
+            "description": "5 mins walking, drink electrolytes.",
+            "repetitions": 1,
+            "work": null,
+            "recovery": null,
+            "notes": []
+          }
+        ]
+      },
+      "variants": {
+        "easier": {
+          "description": "Reduce running progression to 16 kilometers total, with 2 × 4K HM blocks.",
+          "mainSet": [
+            {
+              "blockType": "repeat",
+              "name": "2 × HM Pace Blocks",
+              "description": "Run 2 reps of 4 kilometers at HM pace with 4 kilometers easy recovery.",
+              "repetitions": 2,
+              "work": {
+                "distanceMeters": 3200,
+                "durationSeconds": null,
+                "intensity": "half marathon race pace",
+                "targetType": "distance"
+              },
+              "recovery": {
+                "type": "jog",
+                "durationSeconds": null,
+                "distanceMeters": 3200,
+                "intensity": "easy recovery jog"
+              },
+              "notes": []
+            }
+          ]
+        },
+        "harder": {
+          "description": "Increase distance to 26 kilometers total, with 4 × 4K HM blocks.",
+          "mainSet": [
+            {
+              "blockType": "repeat",
+              "name": "4 × HM Pace Blocks",
+              "description": "Run 4 reps of 4 kilometers at HM pace with 4 kilometers easy recovery.",
+              "repetitions": 4,
+              "work": {
+                "distanceMeters": 3200,
+                "durationSeconds": null,
+                "intensity": "half marathon race pace",
+                "targetType": "distance"
+              },
+              "recovery": {
+                "type": "jog",
+                "durationSeconds": null,
+                "distanceMeters": 3200,
+                "intensity": "easy recovery jog"
+              },
+              "notes": []
+            }
+          ]
+        }
+      },
+      "coachingNotes": [
+        "Practice your race-day fueling and hydration strategy every 30-45 minutes.",
+        "Start conversational. Do not push the early pace.",
+        "Focus on locked-in pacing in the HM pace blocks."
+      ],
+      "commonMistakes": [
+        "Running the first HM pace block too fast.",
+        "Failing to practice fueling."
+      ],
+      "safetyNotes": [
+        "Carry hydration or plan routes with water access.",
+        "Listen to joint pain. Stop immediately if sharp joint pain occurs."
+      ],
+      "shareCard": {
+        "cardTitle": "Advanced 14-Mile Long Run with 3 × 2-Mile HM Pace Blocks",
+        "cardSubtitle": "Half Marathon · ADVANCED · LONG-RUN",
+        "mainSetText": "3 × 2 Miles @ HM Pace | 2 Miles Easy Recovery",
+        "purposeText": "A sustained 14K long run incorporating three distinct 4K blocks at target HM effort.",
+        "footerNote": "Estimated Duration: 100-120 mins"
+      },
+      "tags": [
+        "Half Marathon",
+        "long-run",
+        "advanced",
+        "hard",
+        "high-risk"
+      ],
+      "searchKeywords": [
+        "advanced",
+        "14K",
+        "hm blocks",
+        "half marathon"
+      ],
+      "uniquenessSignature": "lrp-support-hm-14mi-advanced-023",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+    },
+    {
+      "id": "tv-lrp-support-m-26k-advanced-024",
+      "slug": "advanced-26k-marathon-pace-practice-long-run-marathon-advanced",
+      "title": "Advanced 26K Marathon Pace Practice Long Run",
+      "shortTitle": "26K MP Long Run",
+      "summary": "A metric marathon support long run with 20K easy and a controlled 6K marathon-effort finish.",
+      "targetDistances": [
+        "Marathon"
+      ],
+      "primaryDistance": "Marathon",
+      "category": "long-run",
+      "trainingGoals": [
+        "fatigue-resistance",
+        "endurance-durability",
+        "race-pace-familiarity"
+      ],
+      "level": "advanced",
+      "phase": [
+        "build",
+        "peak"
+      ],
+      "surface": [
+        "road"
+      ],
+      "equipment": [
+        "gps-watch"
+      ],
+      "estimatedDurationMin": {
+        "min": 110,
+        "max": 135
+      },
+      "estimatedDistanceKm": {
+        "min": 25.0,
+        "max": 27.0
+      },
+      "qualityDistanceKm": 6.0,
+      "difficulty": "hard",
+      "risk": "high",
+      "riskReason": "Fast finish quality running at target race pace on pre-fatigued legs.",
+      "intensityGuide": {
+        "primaryTarget": "steady progressing to marathon race pace",
+        "paceGuide": "Run first 20 kilometers conversational, then immediately lock into marathon pace for final 4 kilometers.",
+        "hrGuide": "Low Zone 2, spiking rapidly to Zone 3 in the final segment.",
+        "rpeGuide": "RPE 4-5/10, rising to 6/10 for the final block."
+      },
+      "workoutStructure": {
+        "warmup": [
+          {
+            "blockType": "warmup",
+            "name": "Mobilization",
+            "description": "5 mins light joint mobility stretches.",
+            "repetitions": 1,
+            "work": null,
+            "recovery": null,
+            "notes": []
+          }
+        ],
+        "mainSet": [
+          {
+            "blockType": "long-run",
+            "name": "First 20K: Conversational Jog",
+            "description": "Run 20 kilometers continuously at a relaxed conversational pace.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": 20000,
+              "durationSeconds": null,
+              "intensity": "conversational easy effort",
+              "targetType": "distance"
+            },
+            "recovery": null,
+            "notes": []
+          },
+          {
+            "blockType": "tempo",
+            "name": "Final 6K: Marathon Effort Finish",
+            "description": "Immediately progress the final 6 kilometers to controlled marathon effort.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": 6000,
+              "durationSeconds": null,
+              "intensity": "marathon race pace",
+              "targetType": "distance"
+            },
+            "recovery": null,
+            "notes": []
+          }
+        ],
+        "cooldown": [
+          {
+            "blockType": "cooldown",
+            "name": "Active Recovery Walk",
+            "description": "5 mins walking, drink electrolytes.",
+            "repetitions": 1,
+            "work": null,
+            "recovery": null,
+            "notes": []
+          }
+        ]
+      },
+      "variants": {
+        "easier": {
+          "description": "Reduce to 22K total with a 4K marathon-effort finish.",
+          "mainSet": [
+            {
+              "blockType": "long-run",
+              "name": "18K Easy + 4K MP Finish",
+              "description": "Run 18K easy, then progress the final 4K to controlled marathon effort.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": 22000,
+                "durationSeconds": null,
+                "intensity": "progression",
+                "targetType": "distance"
+              },
+              "recovery": null,
+              "notes": []
+            }
+          ]
+        },
+        "harder": {
+          "description": "Increase to 28K total with an 8K marathon-effort finish.",
+          "mainSet": [
+            {
+              "blockType": "long-run",
+              "name": "20K Easy + 8K MP Finish",
+              "description": "Run 20K easy, then progress the final 8K to controlled marathon effort.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": 28000,
+                "durationSeconds": null,
+                "intensity": "aggressive progression",
+                "targetType": "distance"
+              },
+              "recovery": null,
+              "notes": []
+            }
+          ]
+        }
+      },
+      "coachingNotes": [
+        "Practice your race-day fueling and hydration strategy every 30-45 minutes.",
+        "Start conversational. Do not push the early pace.",
+        "Focus on locked-in pacing in the final 4 kilometers."
+      ],
+      "commonMistakes": [
+        "Running the first half too fast and hitting the wall.",
+        "Failing to practice fueling."
+      ],
+      "safetyNotes": [
+        "Carry hydration or plan routes with water access.",
+        "Listen to joint pain. Stop immediately if sharp joint pain occurs."
+      ],
+      "shareCard": {
+        "cardTitle": "26K MP Long Run",
+        "cardSubtitle": "Marathon · ADVANCED · LONG-RUN",
+        "mainSetText": "20K easy + 6K controlled marathon effort",
+        "purposeText": "A sustained long run including pace blocks exactly at target Marathon effort.",
+        "footerNote": "Metric long-run format. Practice fueling."
+      },
+      "tags": [
+        "Marathon",
+        "long-run",
+        "advanced",
+        "hard",
+        "high-risk"
+      ],
+      "searchKeywords": [
+        "26k marathon long run",
+        "marathon pace finish",
+        "20k easy 6k marathon effort",
+        "metric long run"
+      ],
+      "uniquenessSignature": "lrp-support-m-26k-20k-easy-6k-mp-advanced-024",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+    },
+    {
+      "id": "tv-lrp-support-m-30k-competitive-025",
+      "slug": "competitive-30k-long-run-with-10k-marathon-effort-marathon-competitive",
+      "title": "Competitive 30K Long Run with 10K Marathon Effort",
+      "shortTitle": "30K + 10K MP",
+      "summary": "A competitive metric marathon long run using 20K easy followed by 10K controlled marathon effort.",
+      "targetDistances": [
+        "Marathon"
+      ],
+      "primaryDistance": "Marathon",
+      "category": "long-run",
+      "trainingGoals": [
+        "fatigue-resistance",
+        "endurance-durability",
+        "race-pace-familiarity"
+      ],
+      "level": "competitive",
+      "phase": [
+        "build",
+        "peak"
+      ],
+      "surface": [
+        "road"
+      ],
+      "equipment": [
+        "gps-watch"
+      ],
+      "estimatedDurationMin": {
+        "min": 120,
+        "max": 150
+      },
+      "estimatedDistanceKm": {
+        "min": 29.0,
+        "max": 31.0
+      },
+      "qualityDistanceKm": 10.0,
+      "difficulty": "very-hard",
+      "risk": "high",
+      "riskReason": "Long sustained pace block at marathon effort on pre-fatigued legs.",
+      "intensityGuide": {
+        "primaryTarget": "steady progressing to marathon race pace",
+        "paceGuide": "Run first 16 kilometers conversational, then immediately lock into marathon pace for final 10 kilometers.",
+        "hrGuide": "Low Zone 2, spiking rapidly to Zone 3 in the final segment.",
+        "rpeGuide": "RPE 4-5/10, rising to 6/10 for the final block."
+      },
+      "workoutStructure": {
+        "warmup": [
+          {
+            "blockType": "warmup",
+            "name": "Mobilization",
+            "description": "5 mins light joint mobility stretches.",
+            "repetitions": 1,
+            "work": null,
+            "recovery": null,
+            "notes": []
+          }
+        ],
+        "mainSet": [
+          {
+            "blockType": "long-run",
+            "name": "First 20K: Conversational Jog",
+            "description": "Run 20 kilometers continuously at a relaxed conversational pace.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": 20000,
+              "durationSeconds": null,
+              "intensity": "conversational easy effort",
+              "targetType": "distance"
+            },
+            "recovery": null,
+            "notes": []
+          },
+          {
+            "blockType": "tempo",
+            "name": "Final 10K: Marathon Effort Finish",
+            "description": "Immediately progress the final 10 kilometers to controlled marathon effort.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": 10000,
+              "durationSeconds": null,
+              "intensity": "marathon race pace",
+              "targetType": "distance"
+            },
+            "recovery": null,
+            "notes": []
+          }
+        ],
+        "cooldown": [
+          {
+            "blockType": "cooldown",
+            "name": "Active Recovery Walk",
+            "description": "5 mins walking, drink electrolytes.",
+            "repetitions": 1,
+            "work": null,
+            "recovery": null,
+            "notes": []
+          }
+        ]
+      },
+      "variants": {
+        "easier": {
+          "description": "Reduce to 26K total with a 6K marathon-effort finish.",
+          "mainSet": [
+            {
+              "blockType": "long-run",
+              "name": "20K Easy + 6K MP Finish",
+              "description": "Run 20K easy, then progress the final 6K to controlled marathon effort.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": 26000,
+                "durationSeconds": null,
+                "intensity": "progression",
+                "targetType": "distance"
+              },
+              "recovery": null,
+              "notes": []
+            }
+          ]
+        },
+        "harder": {
+          "description": "Increase to 32K total with a 12K marathon-effort finish.",
+          "mainSet": [
+            {
+              "blockType": "long-run",
+              "name": "20K Easy + 12K MP Finish",
+              "description": "Run 20K easy, then progress the final 12K to controlled marathon effort.",
+              "repetitions": 1,
+              "work": {
+                "distanceMeters": 32000,
+                "durationSeconds": null,
+                "intensity": "aggressive progression",
+                "targetType": "distance"
+              },
+              "recovery": null,
+              "notes": []
+            }
+          ]
+        }
+      },
+      "coachingNotes": [
+        "Practice your race-day fueling and hydration strategy every 30-45 minutes.",
+        "Start conversational. Do not push the early pace.",
+        "Focus on locked-in pacing in the final 10 kilometers."
+      ],
+      "commonMistakes": [
+        "Running the first half too fast and hitting the wall.",
+        "Failing to practice fueling."
+      ],
+      "safetyNotes": [
+        "Carry hydration or plan routes with water access.",
+        "Listen to joint pain. Stop immediately if sharp joint pain occurs."
+      ],
+      "shareCard": {
+        "cardTitle": "30K + 10K MP",
+        "cardSubtitle": "Marathon · COMPETITIVE · LONG-RUN",
+        "mainSetText": "20K easy + 10K controlled marathon effort",
+        "purposeText": "A sustained 30K long run incorporating a massive 8-mile pace block at target marathon effort.",
+        "footerNote": "Competitive metric marathon session. Fuel early."
+      },
+      "tags": [
+        "Marathon",
+        "long-run",
+        "competitive",
+        "very-hard",
+        "high-risk"
+      ],
+      "searchKeywords": [
+        "30k marathon long run",
+        "10k marathon effort finish",
+        "20k easy 10k mp",
+        "metric long run"
+      ],
+      "uniquenessSignature": "lrp-support-m-30k-20k-easy-10k-mp-competitive-025",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "General running training principles; not personalized medical or coaching advice."
+    }
+  ]
+}

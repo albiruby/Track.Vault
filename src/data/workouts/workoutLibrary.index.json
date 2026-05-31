@@ -1,0 +1,121 @@
+{
+  "libraryMeta": {
+    "product": "Track.Vault",
+    "libraryName": "Track.Vault Static Workout Library",
+    "version": "1.0.0",
+    "description": "Static curated running workout library for runners of different distances, levels, and training goals.",
+    "dataType": "static-json",
+    "createdFor": "Track.Vault v1",
+    "databaseRequired": false,
+    "aiGeneratedInProduct": false,
+    "lastUpdated": "2026-05-31",
+    "totalTargetWorkouts": 360,
+    "actualWorkoutCount": 360
+  },
+  "categories": [
+    {
+      "categoryId": "beginner-return",
+      "label": "Beginner / Return-to-Running",
+      "file": "categories/beginner-return.v1.json",
+      "targetWorkoutCount": 25,
+      "actualWorkoutCount": 25,
+      "description": "Beginner-friendly and return-to-running workouts."
+    },
+    {
+      "categoryId": "easy-recovery-base",
+      "label": "Easy / Recovery / Base Run",
+      "file": "categories/easy-recovery-base.v1.json",
+      "targetWorkoutCount": 25,
+      "actualWorkoutCount": 25,
+      "description": "Low-risk aerobic, recovery, and base-building runs."
+    },
+    {
+      "categoryId": "long-run-progression",
+      "label": "Long Run / Progression Run",
+      "file": "categories/long-run-progression.v1.json",
+      "targetWorkoutCount": 25,
+      "actualWorkoutCount": 25,
+      "description": "Long run and progression workouts for aerobic durability."
+    },
+    {
+      "categoryId": "fartlek-mixed",
+      "label": "Fartlek / Mixed Session",
+      "file": "categories/fartlek-mixed.v1.json",
+      "targetWorkoutCount": 25,
+      "actualWorkoutCount": 25,
+      "description": "Flexible mixed-effort and fartlek running sessions."
+    },
+    {
+      "categoryId": "hill-trail",
+      "label": "Hill / Trail Session",
+      "file": "categories/hill-trail.v1.json",
+      "targetWorkoutCount": 25,
+      "actualWorkoutCount": 25,
+      "description": "Hill, trail, climbing, and rolling-terrain workouts."
+    },
+    {
+      "categoryId": "treadmill",
+      "label": "Treadmill Session",
+      "file": "categories/treadmill.v1.json",
+      "targetWorkoutCount": 15,
+      "actualWorkoutCount": 15,
+      "description": "Indoor treadmill workouts for aerobic, tempo, incline, and interval training."
+    },
+    {
+      "categoryId": "sprint-100m-400m",
+      "label": "Sprint / 100m–400m",
+      "file": "categories/sprint-100m-400m.v1.json",
+      "targetWorkoutCount": 30,
+      "actualWorkoutCount": 30,
+      "description": "Sprint, acceleration, max velocity, speed endurance, and 400m-specific sessions."
+    },
+    {
+      "categoryId": "middle-distance-800m-mile",
+      "label": "800m / 1500m / Mile",
+      "file": "categories/middle-distance-800m-mile.v1.json",
+      "targetWorkoutCount": 35,
+      "actualWorkoutCount": 35,
+      "description": "Middle-distance workouts for 800m, 1500m, and mile racing."
+    },
+    {
+      "categoryId": "three-k-five-k",
+      "label": "3K / 5K",
+      "file": "categories/three-k-five-k.v1.json",
+      "targetWorkoutCount": 45,
+      "actualWorkoutCount": 45,
+      "description": "3K and 5K workouts including VO2max, threshold, race pace, and sharpening sessions."
+    },
+    {
+      "categoryId": "ten-k",
+      "label": "10K",
+      "file": "categories/ten-k.v1.json",
+      "targetWorkoutCount": 30,
+      "actualWorkoutCount": 30,
+      "description": "10K workouts focused on threshold, tempo, stamina, and race-pace durability."
+    },
+    {
+      "categoryId": "half-marathon",
+      "label": "Half Marathon",
+      "file": "categories/half-marathon.v1.json",
+      "targetWorkoutCount": 25,
+      "actualWorkoutCount": 25,
+      "description": "Half marathon workouts focused on endurance, threshold, tempo, and race-specific stamina."
+    },
+    {
+      "categoryId": "marathon",
+      "label": "Marathon",
+      "file": "categories/marathon.v1.json",
+      "targetWorkoutCount": 25,
+      "actualWorkoutCount": 25,
+      "description": "Marathon workouts focused on long runs, steady endurance, marathon effort, and fueling practice."
+    },
+    {
+      "categoryId": "race-week-taper",
+      "label": "Race Week / Taper / Sharpening",
+      "file": "categories/race-week-taper.v1.json",
+      "targetWorkoutCount": 30,
+      "actualWorkoutCount": 30,
+      "description": "Race-week, taper, pre-race, and sharpening workouts across different race distances."
+    }
+  ]
+}
