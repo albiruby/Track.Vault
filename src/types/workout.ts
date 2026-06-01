@@ -48,47 +48,72 @@ export interface ShareCard {
  coachingCue?: string;
 }
 
-export interface Workout {
- id: string;
- slug: string;
- title: string;
- shortTitle: string;
- summary: string;
- targetDistances: string[]; // e.g. ["5K", "10K"]
- primaryDistance: string; // e.g. "5K"
- category: string; // e.g. "beginner-return-to-running", "three-k-five-k"
- trainingGoals: string[]; // e.g. ["Aerobic capacity", "Speed endurance"]
- level: "beginner" | "intermediate" | "advanced" | "elite";
- phase: string; // e.g. "Base", "Build", "Peak", "Taper", "Race"
- surface: string; // e.g. "Track", "Road", "Trail", "Treadmill", "Any"
- equipment: string[]; // e.g. ["None", "Spikes", "GPS Watch"]
- estimatedDurationMin: number;
- estimatedDistanceKm: number;
- qualityDistanceKm?: number;
- difficulty: number; // 1-10
- risk: "low" | "medium" | "high" | "very-high";
- riskReason?: string;
- intensityGuide?: IntensityGuide;
- warmup: WorkoutBlock[];
- mainSet: WorkoutBlock[];
- cooldown: WorkoutBlock[];
- easierVariant?: string | WorkoutVariant;
- harderVariant?: string | WorkoutVariant;
- coachingNotes?: string[];
- commonMistakes?: string[];
- safetyNotes?: string[];
- tags?: string[];
- searchKeywords?: string[];
- shareCard?: ShareCard;
- isCustom?: boolean; // True if locally designed by user
- libraryCategoryId?: string;
- libraryCategoryLabel?: string;
- workoutType?: string;
- distanceNavId?: string;
- distanceNavLabel?: string;
- distanceSortOrder?: number;
- createdAt?: string;
+export interface BaseTrackVaultEntry {
+  id: string;
+  slug?: string;
+  entryType: "running-workout" | "support-routine";
+  title: string;
+  shortTitle?: string;
+  summary?: string;
+  level?: string;
+  phase?: string | string[];
+  equipment?: string[];
+  difficulty?: number;
+  rawDifficulty?: string | number;
+  risk?: string;
+  riskReason?: string;
+  commonMistakes?: string[];
+  easierVariant?: string | any;
+  harderVariant?: string | any;
+  shareCard?: any;
+  coachingNotes?: string[];
+  safetyNotes?: string[];
+  tags?: string[];
+  searchKeywords?: string[];
+  isCustom?: boolean;
+  createdAt?: string;
+
+  formattedDuration?: string;
+  formattedDistance?: string;
+  formattedQualityDistance?: string;
 }
+
+export interface RunningWorkout extends BaseTrackVaultEntry {
+  entryType: "running-workout";
+  targetDistances?: string[];
+  primaryDistance?: string;
+  distanceNavId?: string;
+  workoutType?: string;
+  workoutStructure?: any;
+  surface?: string | string[];
+  estimatedDurationMin?: number;
+  estimatedDistanceKm?: number;
+  qualityDistanceKm?: number;
+  rawDuration?: any;
+  rawDistance?: any;
+  intensityGuide?: any;
+  warmup?: any[];
+  mainSet?: any[];
+  cooldown?: any[];
+  category?: string;
+  libraryCategoryId?: string;
+}
+
+export interface SupportRoutine extends BaseTrackVaultEntry {
+  entryType: "support-routine";
+  supportCategoryId?: string;
+  supportCategoryLabel?: string;
+  routineType?: string;
+  bodyFocus?: string[];
+  movementGoals?: string[];
+  durationMin?: number;
+  estimatedDurationMin?: number;
+  sessionStructure?: string | any;
+  exercises?: any[];
+}
+
+export type TrackVaultEntry = RunningWorkout | SupportRoutine;
+export type Workout = RunningWorkout;
 
 export interface CategoryMeta {
  id: string;
@@ -103,4 +128,23 @@ export interface WorkoutLibraryIndex {
  categories: CategoryMeta[];
  lastRegenerated?: string;
  version: string;
+}
+
+
+export interface TrackVaultLibrary {
+  libraryMeta: any;
+  runningWorkouts: RunningWorkout[];
+  supportRoutines: SupportRoutine[];
+  allEntries: TrackVaultEntry[];
+}
+
+export interface TrackVaultIndex {
+  version: string;
+  total: number;
+  entries: { id: string; title: string; entryType: string }[];
+}
+
+export interface TrackVaultNavigation {
+  runningNavigation: any[];
+  supportNavigation: any[];
 }

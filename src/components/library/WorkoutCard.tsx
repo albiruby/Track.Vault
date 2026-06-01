@@ -48,7 +48,7 @@ export function WorkoutCard({
  <div className="flex flex-wrap items-center gap-1.5 mb-3">
  <LevelBadge level={workout.level} />
  <DifficultyBadge difficulty={workout.difficulty} />
- <RiskBadge risk={workout.risk} />
+ <RiskBadge risk={workout.risk as any} />
  {workout.isCustom && (
  <span className="bg-blue-50 text-blue-650 text-[9px] font-mono border border-blue-100 px-1.5 py-0.5 rounded-md uppercase font-black">
  LOCAL

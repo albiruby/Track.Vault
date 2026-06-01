@@ -63,7 +63,7 @@ export function TrackSessionCard({ workout, theme, size }: TemplateProps) {
  <div className={`border-b-2 pb-2 mb-3 ${getHeaderClasses()}`}>
  <div className="flex justify-between items-center text-[10px] font-mono tracking-widest font-semibold uppercase">
  <span>TRACK SESSION</span>
- <span>{workout.surface.toUpperCase()} SPECIALIST</span>
+ <span>{typeof workout.surface === "string" ? workout.surface.toUpperCase() : Array.isArray(workout.surface) ? workout.surface[0]?.toUpperCase() : "ROAD"} SPECIALIST</span>
  </div>
  <h2 className="text-2xl font-bold font-display tracking-tight leading-none mt-1">
  {workout.title}

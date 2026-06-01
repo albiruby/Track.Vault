@@ -512,20 +512,18 @@ export default function App() {
  </div>
  </div>
 
- {/* 3. Distance Menus */}
+ {/* 3. Total Categories */}
  <div className="bg-white border border-[#E2E8F0] rounded-2xl p-5 shadow-sm flex flex-col justify-between">
  <div className="w-8 h-8 rounded-xl bg-violet-50 text-violet-500 flex items-center justify-center mb-3">
  <Compass className="w-4 h-4" />
  </div>
  <div>
- <span className="text-2xl font-black text-slate-900 font-mono block">
- 16
- </span>
+ <span className="text-2xl font-black text-slate-900 font-mono block">{26}</span>
  <span className="text-[11px] font-bold text-slate-800 uppercase tracking-tighter mt-1 block">
  Distance Menus
  </span>
  <span className="text-[10px] text-slate-400 mt-0.5 block leading-tight font-medium">
- Distance navigation contexts mapped.
+ 15 Running Categories + 11 Support Categories
  </span>
  </div>
  </div>
@@ -1205,11 +1203,27 @@ export default function App() {
  Scope of Service & Limitations
  </h4>
  <p className="text-slate-700 text-xs sm:text-sm font-bold">
- Track.Vault does not track VO2max, strain, readiness, calories, or live training load. It is a static workout library and builder.
+ Track.Vault does not track VO2max, strain, readiness, calories, TSS, or live physiological metrics. It is a static workout library and builder.
  </p>
  </div>
 
  <div className="p-6 bg-slate-50 border border-[#E2E8F0] rounded-3xl">
+  <h4 className="font-bold text-slate-700 font-mono text-xs uppercase mb-2">Track.Vault v1.2 updates</h4>
+  <div className="text-slate-700 text-xs sm:text-sm">
+  <strong>Track.Vault v1.2 includes:</strong>
+  <ul className="list-disc pl-5 mt-2 space-y-1">
+   <li>1,300 curated static entries</li>
+   <li>750 running workouts</li>
+   <li>550 support routines</li>
+   <li>zero database</li>
+   <li>no account</li>
+   <li>no telemetry</li>
+   <li>no fake performance analytics</li>
+   <li>localStorage only for saved custom workouts</li>
+  </ul>
+  </div>
+  </div>
+  <div className="p-6 bg-slate-50 border border-[#E2E8F0] rounded-3xl mt-6">
  <h4 className="font-bold text-slate-700 font-mono text-xs uppercase mb-2">
  Coaching & Load Principle Framework
  </h4>

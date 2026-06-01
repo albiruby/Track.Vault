@@ -4,9 +4,12 @@
  */
 
 import { Workout, WorkoutBlock, WorkoutLibraryIndex, CategoryMeta } from "../types/workout";
-import indexJson from "../data/workouts/workoutLibrary.index.json";
-import allWorkoutsJson from "../data/workouts/generated/workoutLibrary.all.v1.json";
-import { WORKOUT_DISTANCE_NAV, DistanceNavItem } from "../data/workouts/workoutDistanceNav";
+import indexJson from "../data/workouts/workoutLibrary.index.v1.2.json";
+import fullLibraryJson from "../data/workouts/generated/trackVaultLibrary.full.v1.2.json";
+import { trackVaultNavigation } from "../data/workouts/trackVaultNavigation.v1.2";
+
+export const WORKOUT_DISTANCE_NAV = trackVaultNavigation.runningNavigation;
+export type DistanceNavItem = any;
 
 // Map JSON structures to satisfy the TypeScript interfaces precisely
 const workoutIndex: WorkoutLibraryIndex = {
@@ -22,8 +25,8 @@ const workoutIndex: WorkoutLibraryIndex = {
  }))
 };
 
-const rawWorkouts: any[] = (allWorkoutsJson as any)?.workouts || [];
-const allWorkouts: Workout[] = rawWorkouts.map((w: any) => {
+const rawWorkouts: any[] = (fullLibraryJson as any)?.allEntries || [];
+const allWorkouts: any[] = rawWorkouts.map((w: any) => {
  const durationNum = w.estimatedDurationMin && typeof w.estimatedDurationMin === "object"
  ? Math.round((w.estimatedDurationMin.min + w.estimatedDurationMin.max) / 2)
  : (typeof w.estimatedDurationMin === "number" ? w.estimatedDurationMin : 0);
@@ -493,7 +496,7 @@ export function matchSidebarDistance(w: Workout, distance: string): boolean {
  );
  if (!item) return false;
 
- if (item.id === "all" || item.match === "all") return true;
+ if (item.id === "all") return true;
 
  // Use distanceNavId directly for 100% precision with v1.1
  if (w.distanceNavId) {
@@ -508,8 +511,8 @@ export function matchSidebarDistance(w: Workout, distance: string): boolean {
  if (w.targetDistances && w.targetDistances.some(td => td?.toLowerCase() === targetLabel)) {
  return true;
  }
- if (item.id === "trail" && w.surface?.toLowerCase() === "trail") return true;
- if (item.id === "treadmill" && w.surface?.toLowerCase() === "treadmill") return true;
+ if (item.id === "trail" && (Array.isArray(w.surface) ? w.surface[0] : w.surface)?.toLowerCase() === "trail") return true;
+ if (item.id === "treadmill" && (Array.isArray(w.surface) ? w.surface[0] : w.surface)?.toLowerCase() === "treadmill") return true;
  if (item.id === "base-recovery" && (
  w.title?.toLowerCase().includes("easy") || 
  w.title?.toLowerCase().includes("recovery") || 

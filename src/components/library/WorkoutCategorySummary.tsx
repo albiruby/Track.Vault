@@ -6,7 +6,7 @@
 import React from "react";
 import { Workout } from "../../types/workout";
 import { matchSidebarDistance } from "../../lib/workouts";
-import { WORKOUT_DISTANCE_NAV, DistanceNavItem } from "../../data/workouts/workoutDistanceNav";
+import { WORKOUT_DISTANCE_NAV, DistanceNavItem } from "../../lib/workouts";
 import { 
  Compass, 
  Flame, 

@@ -34,7 +34,7 @@ export function WorkoutPreview({ workout }: WorkoutPreviewProps) {
  <div className="flex flex-wrap items-center gap-2 mb-3">
  <LevelBadge level={level} />
  <DifficultyBadge difficulty={difficulty} />
- <RiskBadge risk={risk} />
+ <RiskBadge risk={risk as any} />
  <span className="bg-slate-100 text-slate-600 px-2 py-0.5 rounded text-[10px] font-mono border border-slate-200 uppercase font-semibold">
  {workout.surface || "Road"}
  </span>

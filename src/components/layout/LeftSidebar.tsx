@@ -5,8 +5,9 @@
 
 import React from "react";
 import { Workout } from "../../types/workout";
+import { trackVaultNavigation } from "../../data/workouts/trackVaultNavigation.v1.2";
 import { matchSidebarDistance } from "../../lib/workouts";
-import { WORKOUT_DISTANCE_NAV } from "../../data/workouts/workoutDistanceNav";
+import { WORKOUT_DISTANCE_NAV } from "../../lib/workouts";
 import { 
  Compass, 
  Flame, 
@@ -110,56 +111,140 @@ export function LeftSidebar({
  {/* Sidebar Middle Section: Filter Title and Distance Options Scrollbox */}
  <div className="flex-1 overflow-y-auto px-4 py-6 space-y-6">
  <div>
- <h3 className="px-3 text-xs font-black uppercase tracking-wider text-slate-900 font-display">
- Categories
- </h3>
- <p className="px-3 text-[10px] text-slate-400 font-mono tracking-normal mb-3 leading-none">
- Filter Workouts
- </p>
+          <h3 className="px-3 text-xs font-black uppercase tracking-wider text-slate-900 font-display">
+            A. Running Workouts
+          </h3>
+          <p className="px-3 text-[10px] text-slate-400 font-mono tracking-normal mb-3 leading-none">
+            Track & Field Events
+          </p>
+          <div className="space-y-1">
+            <button
+              onClick={() => {
+                onSelectDistance("All Running");
+                onNavigateTo("library");
+                onClose();
+              }}
+              className={`w-full text-left px-3.5 py-2.5 rounded-xl text-xs transition-all flex items-center justify-between cursor-pointer group ${
+                selectedDistance === "All Running" || selectedDistance === "All Workouts"
+                  ? "bg-blue-600 text-white font-bold shadow-sm"
+                  : "text-slate-600 hover:bg-slate-100 hover:text-slate-900"
+              }`}
+            >
+              <div className="flex items-center gap-2.5 min-w-0">
+                <span className="shrink-0 font-bold"><Compass className="w-4 h-4" /></span>
+                <span className="truncate tracking-tight font-medium">All Running</span>
+              </div>
+              <span className={`font-mono text-[9px] px-2 py-0.5 rounded-full font-bold bg-slate-100 text-slate-500`}>750</span>
+            </button>
+            {trackVaultNavigation.runningNavigation.map((item) => {
+              const count = item.entries || 50;
+              const isActive = selectedDistance.toLowerCase() === item.id.toLowerCase() || 
+                               selectedDistance.toLowerCase() === item.label.toLowerCase();
+              return (
+                <button
+                  key={item.id}
+                  onClick={() => {
+                    onSelectDistance(item.label);
+                    onNavigateTo("library");
+                    onClose();
+                  }}
+                  className={`w-full text-left px-3.5 py-2.5 rounded-xl text-xs transition-all flex items-center justify-between cursor-pointer group ${
+                    isActive
+                      ? "bg-blue-600 text-white font-bold shadow-sm"
+                      : count === 0
+                      ? "text-slate-400 line-through opacity-50 cursor-not-allowed"
+                      : "text-slate-600 hover:bg-slate-100 hover:text-slate-900"
+                  }`}
+                  disabled={count === 0}
+                >
+                  <div className="flex items-center gap-2.5 min-w-0">
+                    <span className="shrink-0 font-bold">
+                      {getIcon(item.id, isActive)}
+                    </span>
+                    <span className="truncate tracking-tight font-medium">{item.label}</span>
+                  </div>
+                  <span
+                    className={`font-mono text-[9px] px-2 py-0.5 rounded-full font-bold ${
+                      isActive
+                        ? "bg-white/20 text-white"
+                        : "bg-slate-100 text-slate-500 group-hover:bg-slate-200 group-hover:text-slate-700"
+                    }`}
+                  >
+                    {count}
+                  </span>
+                </button>
+              );
+            })}
+          </div>
+        </div>
 
- <div className="space-y-1">
- {WORKOUT_DISTANCE_NAV.map((item) => {
- const count = workouts.filter((w) => matchSidebarDistance(w, item.id)).length;
- const isActive = selectedDistance.toLowerCase() === item.id.toLowerCase() || 
- selectedDistance.toLowerCase() === item.label.toLowerCase();
-
- return (
- <button
- key={item.id}
- onClick={() => {
- onSelectDistance(item.label);
- onNavigateTo("library");
- onClose();
- }}
- className={`w-full text-left px-3.5 py-2.5 rounded-xl text-xs transition-all flex items-center justify-between cursor-pointer group ${
- isActive
- ? "bg-blue-600 text-white font-bold shadow-sm"
- : count === 0
- ? "text-slate-400 line-through opacity-50 cursor-not-allowed"
- : "text-slate-600 hover:bg-slate-100 hover:text-slate-900"
- }`}
- disabled={count === 0}
- >
- <div className="flex items-center gap-2.5 min-w-0">
- <span className="shrink-0 font-bold">
- {getIcon(item.id, isActive)}
- </span>
- <span className="truncate tracking-tight font-medium">{item.label}</span>
- </div>
- <span
- className={`font-mono text-[9px] px-2 py-0.5 rounded-full font-bold ${
- isActive
- ? "bg-white/20 text-white"
- : "bg-slate-100 text-slate-500 group-hover:bg-slate-200 group-hover:text-slate-700"
- }`}
- >
- {count}
- </span>
- </button>
- );
- })}
- </div>
- </div>
+        <div>
+          <h3 className="px-3 text-xs font-black uppercase tracking-wider text-slate-900 font-display mt-6">
+            B. Support Training
+          </h3>
+          <p className="px-3 text-[10px] text-slate-400 font-mono tracking-normal mb-3 leading-none">
+            Routines & Drills
+          </p>
+          <div className="space-y-1">
+            <button
+              onClick={() => {
+                onSelectDistance("All Support");
+                onNavigateTo("library");
+                onClose();
+              }}
+              className={`w-full text-left px-3.5 py-2.5 rounded-xl text-xs transition-all flex items-center justify-between cursor-pointer group ${
+                selectedDistance === "All Support"
+                  ? "bg-blue-600 text-white font-bold shadow-sm"
+                  : "text-slate-600 hover:bg-slate-100 hover:text-slate-900"
+              }`}
+            >
+              <div className="flex items-center gap-2.5 min-w-0">
+                <span className="shrink-0 font-bold"><Compass className="w-4 h-4" /></span>
+                <span className="truncate tracking-tight font-medium">All Support</span>
+              </div>
+              <span className={`font-mono text-[9px] px-2 py-0.5 rounded-full font-bold bg-slate-100 text-slate-500`}>550</span>
+            </button>
+            {trackVaultNavigation.supportNavigation.map((item) => {
+              const count = item.entries || 50;
+              const isActive = selectedDistance.toLowerCase() === item.id.toLowerCase() || 
+                               selectedDistance.toLowerCase() === item.label.toLowerCase();
+              return (
+                <button
+                  key={item.id}
+                  onClick={() => {
+                    onSelectDistance(item.label);
+                    onNavigateTo("library");
+                    onClose();
+                  }}
+                  className={`w-full text-left px-3.5 py-2.5 rounded-xl text-xs transition-all flex items-center justify-between cursor-pointer group ${
+                    isActive
+                      ? "bg-blue-600 text-white font-bold shadow-sm"
+                      : count === 0
+                      ? "text-slate-400 line-through opacity-50 cursor-not-allowed"
+                      : "text-slate-600 hover:bg-slate-100 hover:text-slate-900"
+                  }`}
+                  disabled={count === 0}
+                >
+                  <div className="flex items-center gap-2.5 min-w-0">
+                    <span className="shrink-0 font-bold">
+                      {getIcon(item.id, isActive)}
+                    </span>
+                    <span className="truncate tracking-tight font-medium">{item.label}</span>
+                  </div>
+                  <span
+                    className={`font-mono text-[9px] px-2 py-0.5 rounded-full font-bold ${
+                      isActive
+                        ? "bg-white/20 text-white"
+                        : "bg-slate-100 text-slate-500 group-hover:bg-slate-200 group-hover:text-slate-700"
+                    }`}
+                  >
+                    {count}
+                  </span>
+                </button>
+              );
+            })}
+          </div>
+        </div>
  </div>
 
  {/* Sidebar Footer Stamp */}
