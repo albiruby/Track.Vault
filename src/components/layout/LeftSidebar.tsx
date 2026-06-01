@@ -82,10 +82,10 @@ export function LeftSidebar({
  onNavigateHome();
  onClose();
  }}
- className="h-18 px-6 flex items-center justify-between border-b border-[#E2E8F0] cursor-pointer hover:bg-slate-105/50 transition-colors"
+ className="h-18 px-6 flex items-center justify-between border-b border-[#E2E8F0] cursor-pointer hover:bg-slate-50 transition-colors"
  >
  <div className="flex items-center gap-2.5">
- <div className="w-8 h-8 rounded-lg bg-blue-650 flex items-center justify-center font-bold text-white shadow-sm">
+ <div className="w-8 h-8 rounded-lg bg-blue-600 flex items-center justify-center font-bold text-white shadow-sm">
  <span className="font-display font-black text-sm">TV</span>
  </div>
  <div>
@@ -133,9 +133,9 @@ export function LeftSidebar({
  }}
  className={`w-full text-left px-3.5 py-2.5 rounded-xl text-xs transition-all flex items-center justify-between cursor-pointer group ${
  isActive
- ? "bg-blue-620 text-white font-bold shadow-sm"
+ ? "bg-blue-600 text-white font-bold shadow-sm"
  : count === 0
- ? "text-slate-350 line-through opacity-50 cursor-not-allowed"
+ ? "text-slate-400 line-through opacity-50 cursor-not-allowed"
  : "text-slate-600 hover:bg-slate-100 hover:text-slate-900"
  }`}
  disabled={count === 0}
@@ -150,7 +150,7 @@ export function LeftSidebar({
  className={`font-mono text-[9px] px-2 py-0.5 rounded-full font-bold ${
  isActive
  ? "bg-white/20 text-white"
- : "bg-slate-100 text-slate-500 group-hover:bg-slate-205[#334155]"
+ : "bg-slate-100 text-slate-500 group-hover:bg-slate-200 group-hover:text-slate-700"
  }`}
  >
  {count}
@@ -165,7 +165,7 @@ export function LeftSidebar({
  {/* Sidebar Footer Stamp */}
  <div className="p-4 border-t border-[#E2E8F0] bg-slate-50/50 text-center">
  <span className="font-mono text-[9px] font-semibold text-slate-400 tracking-wider block uppercase">
- TRACK.VAULT WORKOUTS v1.1
+ TRACK.VAULT WORKOUTS v1.2
  </span>
  </div>
  </div>

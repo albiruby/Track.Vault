@@ -478,7 +478,7 @@ export default function App() {
  <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
  {/* 1. Total Workouts */}
  <div className="bg-white border border-[#E2E8F0] rounded-2xl p-5 shadow-sm flex flex-col justify-between">
- <div className="w-8 h-8 rounded-xl bg-blue-550/20 text-blue-600 flex items-center justify-center mb-3">
+ <div className="w-8 h-8 rounded-xl bg-blue-50 text-blue-600 flex items-center justify-center mb-3">
  <Zap className="w-4 h-4" />
  </div>
  <div>
@@ -744,7 +744,7 @@ export default function App() {
  return selectedDistance === "All Workouts" ? "All Presets" : `${selectedDistance}`;
  })()}
  </h3>
- <p className="text-[10px] font-mono text-slate-550 font-bold uppercase tracking-wider">
+ <p className="text-[10px] font-mono text-slate-500 font-bold uppercase tracking-wider">
  Showing {sortedCombined.length} of {allLibraryCombined.length} workouts
  </p>
  </div>
@@ -1087,7 +1087,7 @@ export default function App() {
  <div className="flex flex-col gap-2">
  <h2 className="text-3xl sm:text-4xl font-extrabold font-display text-slate-900 uppercase tracking-tight flex flex-wrap items-baseline gap-2">
  Card Exporter Studio{" "}
- <span className="bg-blue-550/20 text-blue-600 border border-blue-100 text-[10px] font-mono uppercase rounded-lg px-2.5 py-1 font-bold ">
+ <span className="bg-blue-50 text-blue-600 border border-blue-100 text-[10px] font-mono uppercase rounded-lg px-2.5 py-1 font-bold ">
  PNG GENERATOR
  </span>
  </h2>
@@ -1118,7 +1118,7 @@ export default function App() {
  </button>
  <button
  onClick={() => navigateTo("builder")}
- className="px-5 py-3 border border-[#E2E8F0] bg-white text-slate-705 hover:bg-slate-50 text-xs font-bold uppercase tracking-wider rounded-xl cursor-pointer"
+ className="px-5 py-3 border border-[#E2E8F0] bg-white text-slate-700 hover:bg-slate-50 text-xs font-bold uppercase tracking-wider rounded-xl cursor-pointer"
  >
  Program Custom
  </button>
@@ -1134,7 +1134,7 @@ export default function App() {
  Library
  </button>
  <span className="text-slate-300">/</span>
- <span className="font-semibold text-slate-805 font-display">
+ <span className="font-semibold text-slate-800 font-display">
  Exporter Studio: {exportSelectedWorkout.title}
  </span>
  </div>
@@ -1204,7 +1204,7 @@ export default function App() {
  <h4 className="font-bold text-blue-600 font-mono text-xs uppercase mb-2">
  Scope of Service & Limitations
  </h4>
- <p className="text-slate-705 text-xs sm:text-sm font-bold">
+ <p className="text-slate-700 text-xs sm:text-sm font-bold">
  Track.Vault does not track VO2max, strain, readiness, calories, or live training load. It is a static workout library and builder.
  </p>
  </div>
