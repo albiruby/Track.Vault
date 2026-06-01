@@ -4,11 +4,11 @@
  */
 
 import React from "react";
-import { Workout } from "../../../types/workout";
+import { Workout, TrackVaultEntry } from "../../../types/workout";
 import { formatWorkoutBlock } from "../../../lib/workouts";
 
 interface TemplateProps {
- workout: Workout;
+ workout: any/*Workout|SupportRoutine*/;
  theme: "light" | "dark" | "orange" | "mono";
  size: "square" | "story" | "compact";
 }
@@ -81,15 +81,15 @@ export function TrackSessionCard({ workout, theme, size }: TemplateProps) {
  INTERVAL REPEATS
  </span>
  <ul className="space-y-1.5">
- {workout.mainSet.slice(0, size === "compact" ? 2 : 4).map((block, i) => (
+ {(workout.entryType === "support-routine" ? (Array.isArray(workout.sessionStructure) ? workout.sessionStructure : [workout.sessionStructure || ""]) : (workout.mainSet || [])).slice(0, size === "compact" ? 2 : 4).map((block, i) => (
  <li key={block.id || i} className="text-xs font-mono font-semibold flex gap-2 items-center">
  <span className="px-1.5 py-0.5 rounded text-[9px] bg-red-500 text-white">R{i + 1}</span>
- {formatWorkoutBlock(block)}
+ {(workout.entryType === "support-routine" ? String(block) : formatWorkoutBlock(block as any))}
  </li>
  ))}
- {workout.mainSet.length > (size === "compact" ? 2 : 4) && (
+ {(workout.entryType === "support-routine" ? (Array.isArray(workout.sessionStructure) ? workout.sessionStructure : [workout.sessionStructure || ""]) : (workout.mainSet || [])).length > (size === "compact" ? 2 : 4) && (
  <li className="text-[10px] italic opacity-60">
- + {workout.mainSet.length - (size === "compact" ? 2 : 4)} more rep sets.
+ + {(workout.entryType === "support-routine" ? (Array.isArray(workout.sessionStructure) ? workout.sessionStructure : [workout.sessionStructure || ""]) : (workout.mainSet || [])).length - (size === "compact" ? 2 : 4)} more rep sets.
  </li>
  )}
  </ul>
@@ -100,7 +100,7 @@ export function TrackSessionCard({ workout, theme, size }: TemplateProps) {
  {/* Footer track stamp */}
  <div className="flex justify-between items-center text-[10px] font-mono border-t pt-3 border-current/10">
  <div>
- <span>EST_DISTANCE: {workout.estimatedDistanceKm} KM</span>
+ <span>EST_DISTANCE: {(workout.estimatedDistanceKm || 0)} KM</span>
  </div>
  <div className="text-right">
  <span>{workout.primaryDistance} TRACK_PACER v1.0</span>

@@ -4,11 +4,11 @@
  */
 
 import React from "react";
-import { Workout } from "../../../types/workout";
+import { Workout, TrackVaultEntry } from "../../../types/workout";
 import { formatWorkoutBlock } from "../../../lib/workouts";
 
 interface TemplateProps {
- workout: Workout;
+ workout: any/*Workout|SupportRoutine*/;
  theme: "light" | "dark" | "orange" | "mono";
  size: "square" | "story" | "compact";
 }
@@ -78,10 +78,10 @@ export function RaceWeekCard({ workout, theme, size }: TemplateProps) {
  ⚡ NERVOUS SYSTEM PRIMER
  </span>
  <ul className="space-y-1.5 text-xs font-mono">
- {workout.mainSet.slice(0, size === "compact" ? 2 : 4).map((block, i) => (
+ {(workout.entryType === "support-routine" ? (Array.isArray(workout.sessionStructure) ? workout.sessionStructure : [workout.sessionStructure || ""]) : (workout.mainSet || [])).slice(0, size === "compact" ? 2 : 4).map((block, i) => (
  <li key={block.id || i} className="flex gap-2 items-start leading-snug font-medium">
  <span>🏁</span>
- <span>{formatWorkoutBlock(block)}</span>
+ <span>{(workout.entryType === "support-routine" ? String(block) : formatWorkoutBlock(block as any))}</span>
  </li>
  ))}
  </ul>
@@ -94,7 +94,7 @@ export function RaceWeekCard({ workout, theme, size }: TemplateProps) {
  <div className="flex flex-col">
  <span className="text-[8px] font-mono uppercase tracking-wider">Taper Volume</span>
  <span className="text-xs font-bold leading-none mt-1">
- {workout.estimatedDistanceKm} KM / {workout.estimatedDurationMin} MIN
+ {(workout.estimatedDistanceKm || 0)} KM / {workout.estimatedDurationMin} MIN
  </span>
  </div>
  <div className="text-right">

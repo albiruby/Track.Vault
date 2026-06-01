@@ -4,11 +4,11 @@
  */
 
 import React from "react";
-import { Workout } from "../../../types/workout";
+import { Workout, TrackVaultEntry } from "../../../types/workout";
 import { formatWorkoutBlock } from "../../../lib/workouts";
 
 interface TemplateProps {
- workout: Workout;
+ workout: any/*Workout|SupportRoutine*/;
  theme: "light" | "dark" | "orange" | "mono";
  size: "square" | "story" | "compact";
 }
@@ -111,15 +111,15 @@ export function MinimalWorkoutCard({ workout, theme, size }: TemplateProps) {
  <span className="text-[9px] font-mono uppercase tracking-widest block font-semibold text-orange-500">Main Prescription</span>
  <div className={`p-3 rounded-lg border ${getAccentBorder()} ${theme === "orange" ? "bg-orange-700/50" : theme === "dark" ? "bg-slate-900/50" : "bg-slate-50"} mt-0.5`}>
  <ul className="space-y-1">
- {workout.mainSet.slice(0, size === "compact" ? 2 : 4).map((b, i) => (
+ {(workout.entryType === "support-routine" ? (Array.isArray(workout.sessionStructure) ? workout.sessionStructure : [workout.sessionStructure || ""]) : (workout.mainSet || [])).slice(0, size === "compact" ? 2 : 4).map((b, i) => (
  <li key={b.id || i} className="text-xs font-mono font-medium flex items-center gap-1.5 leading-snug">
  <span className="w-1.5 h-1.5 rounded-full bg-orange-500" />
- {formatWorkoutBlock(b)}
+ {(workout.entryType === "support-routine" ? String(b) : formatWorkoutBlock(b as any))}
  </li>
  ))}
- {workout.mainSet.length > (size === "compact" ? 2 : 4) && (
+ {(workout.entryType === "support-routine" ? (Array.isArray(workout.sessionStructure) ? workout.sessionStructure : [workout.sessionStructure || ""]) : (workout.mainSet || [])).length > (size === "compact" ? 2 : 4) && (
  <li className={`text-[10px] italic ${getSubtextClasses()}`}>
- + {workout.mainSet.length - (size === "compact" ? 2 : 4)} more prescription blocks.
+ + {(workout.entryType === "support-routine" ? (Array.isArray(workout.sessionStructure) ? workout.sessionStructure : [workout.sessionStructure || ""]) : (workout.mainSet || [])).length - (size === "compact" ? 2 : 4)} more prescription blocks.
  </li>
  )}
  </ul>
@@ -142,7 +142,7 @@ export function MinimalWorkoutCard({ workout, theme, size }: TemplateProps) {
  <div className="flex flex-col">
  <span className="text-[9px] font-mono leading-none">Est Distance & Duration</span>
  <span className="text-xs font-bold leading-none mt-1">
- {workout.estimatedDistanceKm} KM / {workout.estimatedDurationMin} MIN
+ {(workout.estimatedDistanceKm || 0)} KM / {workout.estimatedDurationMin} MIN
  </span>
  </div>
  <div className="text-right">

@@ -4,11 +4,11 @@
  */
 
 import React from "react";
-import { Workout } from "../../../types/workout";
+import { Workout, TrackVaultEntry } from "../../../types/workout";
 import { formatWorkoutBlock } from "../../../lib/workouts";
 
 interface TemplateProps {
- workout: Workout;
+ workout: any/*Workout|SupportRoutine*/;
  theme: "light" | "dark" | "orange" | "mono";
  size: "square" | "story" | "compact";
 }
@@ -51,7 +51,7 @@ export function CoachWorkoutCard({ workout, theme, size }: TemplateProps) {
  [ COACHES SHEET ]
  </span>
  <span className="text-[10px] font-mono uppercase bg-current/10 px-2 py-0.5 rounded">
- Diff: {workout.difficulty}/10
+ Diff: {(workout.difficulty || 0)}/10
  </span>
  </div>
  <h2 className="text-xl font-bold font-display tracking-tight mt-1">{workout.title}</h2>
@@ -67,9 +67,9 @@ export function CoachWorkoutCard({ workout, theme, size }: TemplateProps) {
  </h4>
  <div className="bg-current/5 border border-current/10 p-2.5 rounded-lg">
  <ul className="space-y-1 text-xs font-mono">
- {workout.mainSet.slice(0, size === "compact" ? 2 : 3).map((block, i) => (
+ {(workout.entryType === "support-routine" ? (Array.isArray(workout.sessionStructure) ? workout.sessionStructure : [workout.sessionStructure || ""]) : (workout.mainSet || [])).slice(0, size === "compact" ? 2 : 3).map((block, i) => (
  <li key={block.id || i} className="truncate">
- {i + 1}. {formatWorkoutBlock(block)}
+ {i + 1}. {(workout.entryType === "support-routine" ? String(block) : formatWorkoutBlock(block as any))}
  </li>
  ))}
  </ul>
@@ -109,7 +109,7 @@ export function CoachWorkoutCard({ workout, theme, size }: TemplateProps) {
  <span>COACH: TRACK.VAULT APPROVED</span>
  </div>
  <div className="text-right">
- <span className="font-bold">{workout.estimatedDistanceKm}K TOTAL</span>
+ <span className="font-bold">{(workout.estimatedDistanceKm || 0)}K TOTAL</span>
  </div>
  </div>
  </div>

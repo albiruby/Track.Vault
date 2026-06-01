@@ -4,7 +4,7 @@
  */
 
 import React, { useState } from "react";
-import { Workout } from "../../types/workout";
+import { Workout, TrackVaultEntry } from "../../types/workout";
 import { RiskBadge } from "./RiskBadge";
 import { DifficultyBadge } from "./DifficultyBadge";
 import { LevelBadge } from "./LevelBadge";
@@ -14,10 +14,10 @@ import { Copy, ClipboardCheck, ExternalLink, RefreshCw, Eye } from "lucide-react
 
 interface WorkoutCardProps {
  key?: string;
- workout: Workout;
- onViewDetails: (workout: Workout) => void;
- onDuplicateInBuilder: (workout: Workout) => void;
- onExportCard: (workout: Workout) => void;
+ workout: TrackVaultEntry;
+ onViewDetails: (workout: TrackVaultEntry) => void;
+ onDuplicateInBuilder: (workout: TrackVaultEntry) => void;
+ onExportCard: (workout: TrackVaultEntry) => void;
 }
 
 export function WorkoutCard({
@@ -69,11 +69,11 @@ export function WorkoutCard({
  {/* Core Dimensions Info Block */}
  <div className="grid grid-cols-2 gap-2 my-4 p-3 bg-slate-50 border border-[#E2E8F0] rounded-2xl text-center">
  <div>
- <span className="text-[9px] font-mono uppercase tracking-wider text-slate-400 block font-bold">Distance</span>
+ {workout.entryType === "support-routine" ? <span className="text-[9px] font-mono uppercase tracking-wider text-slate-400 block font-bold">Focus</span> : <span className="text-[9px] font-mono uppercase tracking-wider text-slate-400 block font-bold">Distance</span>}
  <span className="text-xs font-bold text-[#0F172A] font-mono">
  {(workout as any).rawDistance && typeof (workout as any).rawDistance === "object"
  ? `${(workout as any).rawDistance.min}-${(workout as any).rawDistance.max} KM`
- : `~${workout.estimatedDistanceKm} KM`}
+ : `~${(workout as any).estimatedDistanceKm} KM`}
  </span>
  </div>
  <div className="border-l border-[#E2E8F0]">
@@ -81,7 +81,7 @@ export function WorkoutCard({
  <span className="text-xs font-bold text-[#0F172A] font-mono">
  {(workout as any).rawDuration && typeof (workout as any).rawDuration === "object"
  ? `${(workout as any).rawDuration.min}-${(workout as any).rawDuration.max} MIN`
- : `~${workout.estimatedDurationMin} MIN`}
+ : `~${(workout as any).estimatedDurationMin} MIN`}
  </span>
  </div>
  </div>
@@ -92,15 +92,15 @@ export function WorkoutCard({
  Primary Prescription
  </span>
  <div className="space-y-1 text-xs text-[#0F172A] font-mono">
- {workout.mainSet.slice(0, 2).map((block, i) => (
+ {(workout.entryType === "support-routine" ? (Array.isArray((workout as any).sessionStructure) ? (workout as any).sessionStructure : [(workout as any).sessionStructure || ""]) : (workout.mainSet || [])).slice(0, 2).map((block, i) => (
  <div key={block.id || i} className="flex gap-1.5 items-center truncate leading-relaxed">
  <span className="w-1.5 h-1.5 rounded-full bg-blue-600 " />
- <span className="font-semibold">{formatWorkoutBlock(block)}</span>
+ <span className="font-semibold">{workout.entryType === "support-routine" ? String(block) : formatWorkoutBlock(block as any)}</span>
  </div>
  ))}
- {workout.mainSet.length > 2 && (
+ {(workout.entryType === "support-routine" ? (Array.isArray((workout as any).sessionStructure) ? (workout as any).sessionStructure : [(workout as any).sessionStructure || ""]) : (workout.mainSet || [])).length > 2 && (
  <span className="text-[10px] font-mono italic text-slate-400 font-medium">
- + {workout.mainSet.length - 2} more prescription steps
+ + {(workout.entryType === "support-routine" ? (Array.isArray((workout as any).sessionStructure) ? (workout as any).sessionStructure : [(workout as any).sessionStructure || ""]) : (workout.mainSet || [])).length - 2} more steps
  </span>
  )}
  </div>

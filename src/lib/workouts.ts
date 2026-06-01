@@ -390,7 +390,7 @@ export function sortWorkouts(workouts: Workout[], sortKey: string): Workout[] {
  }
 }
 
-export function formatWorkoutForClipboard(workout: Workout, format: "simple" | "compact" | "structured-markdown" | "coach-notes"): string {
+export function formatWorkoutForClipboard(workout: any, format: "simple" | "compact" | "structured-markdown" | "coach-notes"): string {
  const formatBlockList = (blocks: WorkoutBlock[]) => {
  if (!blocks || blocks.length === 0) return "None";
  return blocks.map((b) => `- ${formatWorkoutBlock(b)}`).join("\n");

@@ -520,7 +520,7 @@ export default function App() {
  <div>
  <span className="text-2xl font-black text-slate-900 font-mono block">{26}</span>
  <span className="text-[11px] font-bold text-slate-800 uppercase tracking-tighter mt-1 block">
- Distance Menus
+ Total Categories
  </span>
  <span className="text-[10px] text-slate-400 mt-0.5 block leading-tight font-medium">
  15 Running Categories + 11 Support Categories
