@@ -42,6 +42,7 @@ import { WorkoutBlockEditor } from "./components/builder/WorkoutBlockEditor";
 import { WorkoutNotesEditor } from "./components/builder/WorkoutNotesEditor";
 import { WorkoutPreview } from "./components/builder/WorkoutPreview";
 import { BuilderActionBar } from "./components/builder/BuilderActionBar";
+import { EntryDetailPage } from "./components/detail/EntryDetailPage";
 
 // Import upgraded Dashboard Layers
 import { DashboardHero, DashboardSummaryGrid, DashboardCategoryShowcase } from "./components/dashboard/DashboardPanels";
@@ -947,52 +948,16 @@ export default function App() {
  );
  }
 
- return (
- <div className="space-y-6">
- {/* Detailed Preview Render */}
- <WorkoutPreview workout={workout} />
-
- {/* Action controls tray under details preview */}
- <div className="bg-blue-50/50 p-5 rounded-2xl flex flex-col md:flex-row items-center justify-between gap-4 border border-blue-100">
- <div className="flex flex-col text-center md:text-left">
- <span className="text-[10px] font-mono uppercase tracking-wider text-blue-800 font-bold">Share or Edit Workout</span>
- <span className="text-xs text-slate-600 leading-relaxed mt-0.5">
- Download high-definition templates or compile custom variant schemas.
- </span>
- </div>
-
- <div className="flex flex-wrap gap-2 justify-center">
- <button
- onClick={() => handleCopyClipboardText(workout, "simple")}
- className="px-3.5 py-2 font-bold text-xs bg-slate-800 hover:bg-slate-700 text-white border border-slate-700 rounded-xl flex items-center gap-1 cursor-pointer"
- >
- <Copy className="w-3.5 h-3.5 text-blue-400" /> Copy Simple
- </button>
-
- <button
- onClick={() => handleCopyClipboardText(workout, "structured-markdown")}
- className="px-3.5 py-2 font-bold text-xs bg-slate-800 hover:bg-slate-700 text-white border border-slate-700 rounded-xl flex items-center gap-1 cursor-pointer"
- >
- <Copy className="w-3.5 h-3.5 text-blue-400" /> Copy Markdown
- </button>
-
- <button
- onClick={() => handleSelectForExport(workout)}
- className="px-4.5 py-2 font-bold text-xs bg-blue-600 hover:bg-blue-700 text-white rounded-xl flex items-center gap-1 shadow-md shadow-blue-600/10 cursor-pointer"
- >
- <Share2 className="w-3.5 h-3.5" /> Exporter Card
- </button>
-
- <button
- onClick={() => handleDuplicateToBuilder(workout)}
- className="px-3.5 py-2 font-bold text-xs bg-slate-800/80 hover:bg-slate-800 text-slate-100 border border-slate-700 rounded-xl flex items-center gap-1 cursor-pointer"
- >
- Edit Clone
- </button>
- </div>
- </div>
- </div>
- );
+  return (
+    <EntryDetailPage
+      workout={workout}
+      onBack={() => navigateTo("library")}
+      onCopySimple={(w) => handleCopyClipboardText(w, "simple")}
+      onCopyMarkdown={(w) => handleCopyClipboardText(w, "structured-markdown")}
+      onExport={(w) => handleSelectForExport(w)}
+      onClone={(w) => handleDuplicateToBuilder(w)}
+    />
+  );
  })()}
  </div>
  )}
