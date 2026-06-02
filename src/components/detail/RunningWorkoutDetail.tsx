@@ -12,6 +12,7 @@ import { VolumeBreakdownBar } from "../visuals/VolumeBreakdownBar";
 import { LevelBadge } from "../library/LevelBadge";
 import { DifficultyBadge } from "../library/DifficultyBadge";
 import { RiskBadge } from "../library/RiskBadge";
+import { RelatedSections } from "./RelatedSections";
 import { 
   Clock, 
   Route, 
@@ -470,7 +471,7 @@ export function RunningWorkoutDetail({
             🛡 Core Athlete Safety
           </span>
           {norm.safetyNotes.length > 0 ? (
-            <ul className="space-y-2 text-xs text-slate-600 font-medium pb-1.5">
+            <ul className="space-y-2 text-xs text-slate-600 font-medium pb-1.5 font-sans">
               {norm.safetyNotes.map((safety, idx) => (
                 <li key={idx} className="flex gap-2 leading-relaxed">
                   <span className="text-rose-500 shrink-0 select-none">⚠</span>
@@ -483,6 +484,9 @@ export function RunningWorkoutDetail({
           )}
         </div>
       </div>
+
+      {/* 7. Related Navigation Sections */}
+      <RelatedSections currentEntry={workout} />
 
     </div>
   );

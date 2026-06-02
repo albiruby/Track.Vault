@@ -12,6 +12,7 @@ import { SetRepHoldSummary } from "../visuals/SetRepHoldSummary";
 import { LevelBadge } from "../library/LevelBadge";
 import { DifficultyBadge } from "../library/DifficultyBadge";
 import { RiskBadge } from "../library/RiskBadge";
+import { RelatedSections } from "./RelatedSections";
 import { 
   Clock, 
   Dumbbell, 
@@ -366,6 +367,9 @@ export function SupportRoutineDetail({
           )}
         </div>
       </div>
+
+      {/* 7. Related Navigation Sections */}
+      <RelatedSections currentEntry={workout} />
 
     </div>
   );
