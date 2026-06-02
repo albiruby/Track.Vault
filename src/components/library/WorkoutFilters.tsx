@@ -18,6 +18,7 @@ interface WorkoutFiltersProps {
  availableSurfaces: string[];
  availableRisks: string[];
  availableWorkoutTypes: string[];
+ isSupport?: boolean;
 }
 
 export function WorkoutFilters({
@@ -30,6 +31,7 @@ export function WorkoutFilters({
  availableSurfaces,
  availableRisks,
  availableWorkoutTypes = [],
+ isSupport = false,
 }: WorkoutFiltersProps) {
  const indexManifest = getWorkoutIndex();
 
@@ -43,6 +45,17 @@ export function WorkoutFilters({
  const handleSelectChange = (key: keyof WorkoutFiltersState, value: string) => {
  onChange({ [key]: value });
  };
+
+ const SUPPORT_CAT_IDS = [
+  "upper-strength", "lower-strength", "core", "mobility", "activation", 
+  "plyometric", "running-drills", "warmup", "cooldown", "recovery", "injury-risk"
+ ];
+
+ const filteredCategories = indexManifest.categories.filter((c) => {
+  const isSup = SUPPORT_CAT_IDS.includes(c.id);
+  if (isSupport) return isSup;
+  return !isSup;
+ });
 
  return (
  <div className="bg-white border border-[#E2E8F0] rounded-2xl p-5 space-y-4 shadow-sm">
@@ -67,45 +80,51 @@ export function WorkoutFilters({
  onChange={(e) => handleSelectChange("category", e.target.value)}
  className="w-full p-2 bg-[#F8FAFC] border border-[#E2E8F0] rounded-xl text-xs font-medium text-slate-700 focus:outline-none cursor-pointer focus:border-blue-600 focus:ring-2 focus:ring-blue-500/10"
  >
- <option value="All">All Library Modules ({indexManifest.categories.length})</option>
- {indexManifest.categories.map((c) => (
+ <option value="All">
+   {isSupport ? "All Support Routines" : "All Running Presets"} ({filteredCategories.length})
+ </option>
+ {filteredCategories.map((c) => (
  <option key={c.id} value={c.id}>{c.name}</option>
  ))}
  </select>
  </div>
 
- {/* Workout / Training Type Filter */}
- <div className="space-y-1">
- <label className="text-[11px] font-semibold text-slate-500 font-mono">Workout Type</label>
- <select
- value={filters.workoutType}
- onChange={(e) => handleSelectChange("workoutType", e.target.value)}
- className="w-full p-2 bg-[#F8FAFC] border border-[#E2E8F0] rounded-xl text-xs font-medium text-slate-700 focus:outline-none cursor-pointer focus:border-blue-600 focus:ring-2 focus:ring-blue-500/10"
- >
- <option value="All">All Workout Types</option>
- {availableWorkoutTypes.filter(Boolean).map((t) => {
- const label = t.split("-").map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(" ");
- return (
- <option key={t} value={t}>{label}</option>
- );
- })}
- </select>
- </div>
+ {!isSupport && (
+   <>
+    {/* Workout / Training Type Filter */}
+    <div className="space-y-1">
+    <label className="text-[11px] font-semibold text-slate-500 font-mono">Workout Type</label>
+    <select
+    value={filters.workoutType}
+    onChange={(e) => handleSelectChange("workoutType", e.target.value)}
+    className="w-full p-2 bg-[#F8FAFC] border border-[#E2E8F0] rounded-xl text-xs font-medium text-slate-700 focus:outline-none cursor-pointer focus:border-blue-600 focus:ring-2 focus:ring-blue-500/10"
+    >
+    <option value="All">All Workout Types</option>
+    {availableWorkoutTypes.filter(Boolean).map((t) => {
+    const label = t.split("-").map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(" ");
+    return (
+    <option key={t} value={t}>{label}</option>
+    );
+    })}
+    </select>
+    </div>
 
- {/* Target Distance Filter */}
- <div className="space-y-1">
- <label className="text-[11px] font-semibold text-slate-500 font-mono">Target Distance / Context</label>
- <select
- value={filters.targetDistance}
- onChange={(e) => handleSelectChange("targetDistance", e.target.value)}
- className="w-full p-2 bg-[#F8FAFC] border border-[#E2E8F0] rounded-xl text-xs font-medium text-slate-700 focus:outline-none cursor-pointer focus:border-blue-600 focus:ring-2 focus:ring-blue-500/10"
- >
- <option value="All">All Distances</option>
- {defaultDistances.map((d) => (
- <option key={d} value={d}>{d}</option>
- ))}
- </select>
- </div>
+    {/* Target Distance Filter */}
+    <div className="space-y-1">
+    <label className="text-[11px] font-semibold text-slate-500 font-mono">Target Distance / Context</label>
+    <select
+    value={filters.targetDistance}
+    onChange={(e) => handleSelectChange("targetDistance", e.target.value)}
+    className="w-full p-2 bg-[#F8FAFC] border border-[#E2E8F0] rounded-xl text-xs font-medium text-slate-700 focus:outline-none cursor-pointer focus:border-blue-600 focus:ring-2 focus:ring-blue-500/10"
+    >
+    <option value="All">All Distances</option>
+    {defaultDistances.map((d) => (
+    <option key={d} value={d}>{d}</option>
+    ))}
+    </select>
+    </div>
+   </>
+ )}
 
  {/* Athlete Goal level */}
  <div className="space-y-1">
@@ -122,35 +141,39 @@ export function WorkoutFilters({
  </select>
  </div>
 
- {/* Training Phase */}
- <div className="space-y-1">
- <label className="text-[11px] font-semibold text-slate-500 font-mono">Training Phase</label>
- <select
- value={filters.phase}
- onChange={(e) => handleSelectChange("phase", e.target.value)}
- className="w-full p-2 bg-[#F8FAFC] border border-[#E2E8F0] rounded-xl text-xs font-medium text-slate-700 focus:outline-none cursor-pointer focus:border-blue-600 focus:ring-2 focus:ring-blue-500/10"
- >
- <option value="All">All Phases</option>
- {defaultPhases.map((p) => (
- <option key={p} value={p}>{p.charAt(0).toUpperCase() + p.slice(1)}</option>
- ))}
- </select>
- </div>
+ {!isSupport && (
+   <>
+    {/* Training Phase */}
+    <div className="space-y-1">
+    <label className="text-[11px] font-semibold text-slate-500 font-mono">Training Phase</label>
+    <select
+    value={filters.phase}
+    onChange={(e) => handleSelectChange("phase", e.target.value)}
+    className="w-full p-2 bg-[#F8FAFC] border border-[#E2E8F0] rounded-xl text-xs font-medium text-slate-700 focus:outline-none cursor-pointer focus:border-blue-600 focus:ring-2 focus:ring-blue-500/10"
+    >
+    <option value="All">All Phases</option>
+    {defaultPhases.map((p) => (
+    <option key={p} value={p}>{p.charAt(0).toUpperCase() + p.slice(1)}</option>
+    ))}
+    </select>
+    </div>
 
- {/* Run Surface */}
- <div className="space-y-1">
- <label className="text-[11px] font-semibold text-slate-500 font-mono">Running Surface</label>
- <select
- value={filters.surface}
- onChange={(e) => handleSelectChange("surface", e.target.value)}
- className="w-full p-2 bg-[#F8FAFC] border border-[#E2E8F0] rounded-xl text-xs font-medium text-slate-700 focus:outline-none cursor-pointer focus:border-blue-600 focus:ring-2 focus:ring-blue-500/10"
- >
- <option value="All">All Surfaces</option>
- {defaultSurfaces.map((s) => (
- <option key={s} value={s}>{s.charAt(0).toUpperCase() + s.slice(1)}</option>
- ))}
- </select>
- </div>
+    {/* Run Surface */}
+    <div className="space-y-1">
+    <label className="text-[11px] font-semibold text-slate-500 font-mono">Running Surface</label>
+    <select
+    value={filters.surface}
+    onChange={(e) => handleSelectChange("surface", e.target.value)}
+    className="w-full p-2 bg-[#F8FAFC] border border-[#E2E8F0] rounded-xl text-xs font-medium text-slate-700 focus:outline-none cursor-pointer focus:border-blue-600 focus:ring-2 focus:ring-blue-500/10"
+    >
+    <option value="All">All Surfaces</option>
+    {defaultSurfaces.map((s) => (
+    <option key={s} value={s}>{s.charAt(0).toUpperCase() + s.slice(1)}</option>
+    ))}
+    </select>
+    </div>
+   </>
+ )}
 
  {/* Point difficulty Category */}
  <div className="space-y-1">

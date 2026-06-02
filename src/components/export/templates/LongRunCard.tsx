@@ -5,7 +5,7 @@
 
 import React from "react";
 import { Workout, TrackVaultEntry } from "../../../types/workout";
-import { formatWorkoutBlock } from "../../../lib/workouts";
+import { formatWorkoutBlock, formatExerciseBlock } from "../../../lib/workouts";
 
 interface TemplateProps {
  workout: any/*Workout|SupportRoutine*/;
@@ -74,7 +74,7 @@ export function LongRunCard({ workout, theme, size }: TemplateProps) {
  {(workout.entryType === "support-routine" ? (Array.isArray(workout.sessionStructure) ? workout.sessionStructure : [workout.sessionStructure || ""]) : (workout.mainSet || [])).slice(0, size === "compact" ? 2 : 4).map((block, i) => (
  <li key={block.id || i} className="flex gap-2 items-start leading-snug font-medium">
  <span>◽</span>
- <span>{(workout.entryType === "support-routine" ? String(block) : formatWorkoutBlock(block as any))}</span>
+ <span>{(workout.entryType === "support-routine" ? formatExerciseBlock(block) : formatWorkoutBlock(block as any))}</span>
  </li>
  ))}
  </ul>
@@ -87,7 +87,11 @@ export function LongRunCard({ workout, theme, size }: TemplateProps) {
  <div className="flex flex-col">
  <span className="text-[8px] font-mono uppercase tracking-wider">Estimated Volume</span>
  <span className="text-xs font-bold leading-none mt-1">
- {(workout.estimatedDistanceKm || 0)} KM / {workout.estimatedDurationMin} MIN
+ {workout.rawDistance && typeof workout.rawDistance === "object"
+   ? `${workout.rawDistance.min}-${workout.rawDistance.max} KM`
+   : `${workout.estimatedDistanceKm || 0} KM`} / {workout.rawDuration && typeof workout.rawDuration === "object"
+   ? `${workout.rawDuration.min}-${workout.rawDuration.max} MIN`
+   : `${workout.estimatedDurationMin || 0} MIN`}
  </span>
  </div>
  <div className="text-right">

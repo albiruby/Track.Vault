@@ -22,5 +22,14 @@
     },
     "allowImportingTsExtensions": true,
     "noEmit": true
-  }
+  },
+  "exclude": [
+    "node_modules",
+    "dist",
+    "final*",
+    "final\\\\*",
+    "final\\*",
+    "final/*",
+    "final\\trackVaultNavigation.v1.2.ts"
+  ]
 }

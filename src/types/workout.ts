@@ -113,7 +113,7 @@ export interface SupportRoutine extends BaseTrackVaultEntry {
 }
 
 export type TrackVaultEntry = RunningWorkout | SupportRoutine;
-export type Workout = RunningWorkout;
+export type Workout = any;
 
 export interface CategoryMeta {
  id: string;

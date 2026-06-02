@@ -23,6 +23,7 @@ import {
  deleteSavedWorkout 
 } from "./lib/localWorkouts";
 import { copyToClipboard } from "./lib/clipboard";
+import { trackVaultNavigation } from "./data/workouts/trackVaultNavigation.v1.2";
 import { Workout } from "./types/workout";
 
 // Import modular UI components
@@ -42,12 +43,16 @@ import { WorkoutNotesEditor } from "./components/builder/WorkoutNotesEditor";
 import { WorkoutPreview } from "./components/builder/WorkoutPreview";
 import { BuilderActionBar } from "./components/builder/BuilderActionBar";
 
+// Import upgraded Dashboard Layers
+import { DashboardHero, DashboardSummaryGrid, DashboardCategoryShowcase } from "./components/dashboard/DashboardPanels";
+
 // Import Export components
 import { WorkoutCardPreview } from "./components/export/WorkoutCardPreview";
 import { ExportCardControls } from "./components/export/ExportCardControls";
 
 // Import Layout Component
 import { LeftSidebar } from "./components/layout/LeftSidebar";
+import { TrackVaultIcon } from "./components/icons/trackVaultIcons";
 
 // Icons
 import {
@@ -76,6 +81,19 @@ export default function App() {
  const [activeRoute, setActiveRoute] = useState<string>("home"); // "home" | "library" | "detail" | "builder" | "saved" | "export" | "about"
  const [selectedSlug, setSelectedSlug] = useState<string>("");
  const [isMobileSidebarOpen, setIsMobileSidebarOpen] = useState(false);
+ 
+ const [toast, setToast] = useState<{ message: string; type: "success" | "error" | "info" } | null>(null);
+
+ const showToast = (message: string, type: "success" | "error" | "info" = "success") => {
+   setToast({ message, type });
+ };
+
+ useEffect(() => {
+   if (toast) {
+     const timer = setTimeout(() => setToast(null), 3500);
+     return () => clearTimeout(timer);
+   }
+ }, [toast]);
  
  // Library State
  const [searchQuery, setSearchQuery] = useState("");
@@ -187,7 +205,7 @@ export default function App() {
 
  const handleSaveLocalCustom = () => {
  if (!builderWorkout.title || !builderWorkout.summary) {
- alert("Please fill in basic fields: Title and Summary.");
+  showToast("Please fill in basic fields: Title and Summary.", "error");
  return;
  }
  const id = builderWorkout.id || `custom-${Math.random().toString(36).substr(2, 9)}`;
@@ -204,7 +222,7 @@ export default function App() {
 
  saveWorkoutLocally(completeWorkout);
  refreshLocalSaved();
- alert("Workout successfully saved to your browser local vault!");
+ showToast("Workout successfully saved to your browser local vault!", "success");
  navigateTo("saved");
  };
 
@@ -237,9 +255,9 @@ export default function App() {
  setShowClipboardOverlay(true);
  setTimeout(() => setClipboardFeedback(false), 2000);
  } else {
- alert("Local clipboard blocked. Opening alternate text popup box.");
- setClipboardText(formatted);
- setShowClipboardOverlay(true);
+  showToast("Alternate copy overlay box activated.", "info");
+  setClipboardText(formatted);
+  setShowClipboardOverlay(true);
  }
  };
 
@@ -314,7 +332,7 @@ export default function App() {
  <button
  onClick={() => {
  copyToClipboard(clipboardText);
- alert("Copied to clipboard!");
+ showToast("Copied to clipboard!", "success");
  }}
  className="px-4 py-2 bg-blue-600 hover:bg-blue-700 font-bold text-white rounded-xl flex items-center gap-1 cursor-pointer"
  >
@@ -440,6 +458,82 @@ export default function App() {
  PAGE 1: HOME PAGE (activeRoute === "home") 
  ==================================== */}
  {activeRoute === "home" && (
+    <>
+ <div className="space-y-12 animate-fade-in w-full text-slate-800">
+    {/* Visual, real-capacity upgraded Hero Banner */}
+    <DashboardHero 
+      staticWorkouts={staticWorkouts} 
+      localWorkoutsList={localWorkoutsList}
+      onNavigate={navigateTo}
+      onSelectCategory={() => {}}
+    />
+
+    {/* Structured Variable Size Stats Summary Grid */}
+    <div className="space-y-4">
+      <h3 className="text-xs font-black uppercase tracking-widest text-slate-400 font-mono">
+        System Overview & Diagnostics
+      </h3>
+      <DashboardSummaryGrid 
+        staticWorkouts={staticWorkouts}
+        localWorkoutsList={localWorkoutsList}
+        onNavigate={navigateTo}
+        onSelectCategory={() => {}}
+      />
+    </div>
+
+    {/* Upgraded Premium Categorized Showcase Grid */}
+    <div className="space-y-4">
+      <div className="space-y-1">
+        <h3 className="text-xs font-black uppercase tracking-widest text-[#64748B] font-mono">
+          Structured Curated Index
+        </h3>
+        <h2 className="text-2xl sm:text-3xl font-extrabold tracking-tight text-slate-900 font-display uppercase">
+          Workout Library Coverage
+        </h2>
+        <p className="text-xs text-slate-500 max-w-xl font-medium leading-relaxed">
+          Delve into focused training matrices categorized by scientific block divisions, track durations, loading metrics, and musculoskeletal recovery disciplines.
+        </p>
+      </div>
+      
+      <DashboardCategoryShowcase 
+        staticWorkouts={staticWorkouts}
+        localWorkoutsList={localWorkoutsList}
+        onNavigate={navigateTo}
+        onSelectCategory={(categoryName) => {
+          setSelectedDistance(categoryName);
+          setFilters(prev => ({ ...prev, category: "All" }));
+          navigateTo("library");
+        }}
+      />
+    </div>
+
+    {/* Local Storage Saved summary row */}
+    {localWorkoutsList.length > 0 && (
+      <div 
+        onClick={() => navigateTo("saved")}
+        className="group bg-white p-5 rounded-3xl border-2 border-dashed border-blue-500/20 hover:border-blue-600 transition-all cursor-pointer shadow-sm flex justify-between items-center"
+      >
+        <div className="flex items-center space-x-3.5">
+          <div className="w-9 h-9 bg-blue-50 rounded-xl flex items-center justify-center text-blue-600 text-lg">
+            ⭐
+          </div>
+          <div>
+            <h4 className="font-black text-sm text-[#0F172A] uppercase transition-colors group-hover:text-blue-600 font-display">
+              LOCAL PROGRAM CLIPS
+            </h4>
+            <p className="text-xs text-slate-500 mt-0.5 font-medium">
+              See your customized designed intervals browser cache list.
+            </p>
+          </div>
+        </div>
+        <span className="text-[10px] bg-blue-600 text-white font-bold px-2.5 py-1 rounded-lg uppercase tracking-wider font-mono">
+          {localWorkoutsList.length} SAVED
+        </span>
+      </div>
+    )}
+ </div>
+
+ <div className="hidden">
  <div className="space-y-8 animate-fade-in w-full">
  
  {/* Track.Vault Workout Library Hero & Utility Grid */}
@@ -475,8 +569,8 @@ export default function App() {
  </div>
 
  {/* Honest Track.Vault Real Utility Metric widgets */}
- <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
- {/* 1. Total Workouts */}
+ <div className="grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-6 gap-4">
+ {/* 1. Total Entries */}
  <div className="bg-white border border-[#E2E8F0] rounded-2xl p-5 shadow-sm flex flex-col justify-between">
  <div className="w-8 h-8 rounded-xl bg-blue-50 text-blue-600 flex items-center justify-center mb-3">
  <Zap className="w-4 h-4" />
@@ -486,7 +580,7 @@ export default function App() {
  {staticWorkouts.length}
  </span>
  <span className="text-[11px] font-bold text-slate-800 uppercase tracking-tighter mt-1 block">
- Total Workouts
+ Total Entries
  </span>
  <span className="text-[10px] text-slate-400 mt-0.5 block leading-tight font-medium">
  Static references in frozen library.
@@ -494,43 +588,61 @@ export default function App() {
  </div>
  </div>
 
- {/* 2. Library Modules */}
+ {/* 2. Running Workouts */}
  <div className="bg-white border border-[#E2E8F0] rounded-2xl p-5 shadow-sm flex flex-col justify-between">
- <div className="w-8 h-8 rounded-xl bg-cyan-50 text-cyan-500 flex items-center justify-center mb-3">
+ <div className="w-8 h-8 rounded-xl bg-cyan-50 text-cyan-550 flex items-center justify-center mb-3">
  <Layers className="w-4 h-4" />
  </div>
  <div>
  <span className="text-2xl font-black text-slate-900 font-mono block">
- {getWorkoutIndex().categories.length}
+ {staticWorkouts.filter(w => w.entryType !== "support-routine").length}
  </span>
  <span className="text-[11px] font-bold text-slate-800 uppercase tracking-tighter mt-1 block">
- Library Modules
+ Running Workouts
  </span>
  <span className="text-[10px] text-slate-400 mt-0.5 block leading-tight font-medium">
- Curated workout module category sets.
+ Speed development sessions.
  </span>
  </div>
  </div>
 
- {/* 3. Total Categories */}
+ {/* 3. Support Routines */}
  <div className="bg-white border border-[#E2E8F0] rounded-2xl p-5 shadow-sm flex flex-col justify-between">
- <div className="w-8 h-8 rounded-xl bg-violet-50 text-violet-500 flex items-center justify-center mb-3">
+ <div className="w-8 h-8 rounded-xl bg-violet-50 text-violet-600 flex items-center justify-center mb-3">
  <Compass className="w-4 h-4" />
  </div>
  <div>
- <span className="text-2xl font-black text-slate-900 font-mono block">{26}</span>
+ <span className="text-2xl font-black text-slate-900 font-mono block">
+ {staticWorkouts.filter(w => w.entryType === "support-routine").length}
+ </span>
+ <span className="text-[11px] font-bold text-slate-800 uppercase tracking-tighter mt-1 block">
+ Support Routines
+ </span>
+ <span className="text-[10px] text-slate-400 mt-0.5 block leading-tight font-medium">
+ Physical prep & active recovery.
+ </span>
+ </div>
+ </div>
+
+ {/* 4. Total Categories */}
+ <div className="bg-white border border-[#E2E8F0] rounded-2xl p-5 shadow-sm flex flex-col justify-between">
+ <div className="w-8 h-8 rounded-xl bg-emerald-50 text-emerald-600 flex items-center justify-center mb-3">
+ <Activity className="w-4 h-4" />
+ </div>
+ <div>
+ <span className="text-2xl font-black text-slate-900 font-mono block">26</span>
  <span className="text-[11px] font-bold text-slate-800 uppercase tracking-tighter mt-1 block">
  Total Categories
  </span>
  <span className="text-[10px] text-slate-400 mt-0.5 block leading-tight font-medium">
- 15 Running Categories + 11 Support Categories
+ 15 Running + 11 Support modules.
  </span>
  </div>
  </div>
 
- {/* 4. Local Saved Workouts */}
+ {/* 5. Local Saved Workouts */}
  <div className="bg-white border border-[#E2E8F0] rounded-2xl p-5 shadow-sm flex flex-col justify-between">
- <div className="w-8 h-8 rounded-xl bg-amber-50 text-amber-500 flex items-center justify-center mb-3 font-bold">
+ <div className="w-8 h-8 rounded-xl bg-amber-50 text-amber-500 flex items-center justify-center mb-3 font-bold text-center pl-1 pt-0.5">
  ★
  </div>
  <div>
@@ -541,7 +653,7 @@ export default function App() {
  Local Saves
  </span>
  <span className="text-[10px] text-slate-400 mt-0.5 block leading-tight font-medium">
- Custom structures inside browser cache.
+ Custom templates inside browser.
  </span>
  </div>
  </div>
@@ -601,49 +713,62 @@ export default function App() {
  </span>
  </div>
  
- <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
- {getWorkoutIndex().categories.map((c) => {
- const workoutsCount = getWorkoutsByCategory(c.id).length;
- 
- let emoji = "🏃";
- if (c.id.includes("marathon") || c.id.includes("long")) emoji = "⛰️";
- else if (c.id.includes("five-k") || c.id.includes("three")) emoji = "⚡";
- else if (c.id.includes("easy") || c.id.includes("base")) emoji = "🌱";
- else if (c.id.includes("threshold") || c.id.includes("tempo")) emoji = "⏱️";
- else if (c.id.includes("track")) emoji = "🏃";
- else if (c.id.includes("hill")) emoji = "🏔️";
+   <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+  {getWorkoutIndex().categories.map((c) => {
+    const workoutsCount = getWorkoutsByCategory(c.id).length;
+    
+    const isSupportCat = [
+      "upper-strength", "lower-strength", "core", "mobility", "activation", 
+      "plyometric", "running-drills", "warmup", "cooldown", "recovery", "injury-risk"
+    ].includes(c.id);
 
- return (
- <div 
- key={c.id}
- onClick={() => {
- setSelectedDistance("All Workouts");
- setFilters(prev => ({ ...prev, category: c.id }));
- navigateTo("library");
- }}
- className="group bg-white p-5 rounded-3xl border border-[#E2E8F0] hover:border-blue-600 hover:shadow-md transition-all cursor-pointer flex flex-col justify-between"
- >
- <div>
- <div className="flex justify-between items-start mb-3">
- <div className="w-9 h-9 bg-[#F8FAFC] rounded-xl flex items-center justify-center border border-[#E2E8F0] text-lg">
- {emoji}
- </div>
- <span className="text-[10px] font-bold text-slate-400 font-mono">
- {workoutsCount} PRESETS
- </span>
- </div>
- <h4 className="font-extrabold text-sm leading-tight text-slate-900 group-hover:text-blue-600 transition-colors uppercase font-display">
- {c.name}
- </h4>
- <p className="text-xs text-slate-500 mt-2 line-clamp-2 leading-relaxed">
- {c.description}
- </p>
- </div>
- </div>
- );
- })}
- </div>
- </div>
+    const entryType = isSupportCat ? "Support Routine" : "Running Workout";
+
+    return (
+      <div 
+        key={c.id}
+        onClick={() => {
+          setSelectedDistance(c.name);
+          setFilters(prev => ({ ...prev, category: "All" }));
+          navigateTo("library");
+        }}
+        onKeyDown={(e) => {
+          if (e.key === 'Enter' || e.key === ' ') {
+            setSelectedDistance(c.name);
+            setFilters(prev => ({ ...prev, category: "All" }));
+            navigateTo("library");
+          }
+        }}
+        role="button"
+        tabIndex={0}
+        aria-label={`Category ${c.name}, ${workoutsCount} presets, ${entryType}`}
+        className="group bg-white p-5 rounded-3xl border border-[#E2E8F0] hover:border-blue-600 hover:shadow-md focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all cursor-pointer flex flex-col justify-between"
+      >
+        <div>
+          <div className="flex justify-between items-start mb-3">
+            <div className={`w-9 h-9 flex items-center justify-center rounded-xl border transition-colors ${
+              isSupportCat 
+                ? "bg-violet-50/70 border-violet-100 text-violet-600 group-hover:bg-violet-100 group-hover:text-violet-700" 
+                : "bg-blue-50/70 border-blue-100 text-blue-600 group-hover:bg-blue-100 group-hover:text-blue-700"
+            }`}>
+              <TrackVaultIcon id={c.id} className="w-5 h-5" strokeWidth={2} />
+            </div>
+            <span className="text-[10px] font-bold text-slate-400 font-mono">
+              {workoutsCount} PRESETS
+            </span>
+          </div>
+          <h4 className="font-extrabold text-sm leading-tight text-slate-900 group-hover:text-blue-600 transition-colors uppercase font-display">
+            {c.name}
+          </h4>
+          <p className="text-xs text-slate-500 mt-2 line-clamp-2 leading-relaxed">
+            {c.description}
+          </p>
+        </div>
+      </div>
+    );
+  })}
+  </div>
+  </div>
 
  {/* Local Storage Saved summary row */}
  {localWorkoutsList.length > 0 && (
@@ -671,6 +796,8 @@ export default function App() {
  )}
 
  </div>
+ </div>
+    </>
  )}
 
  {/* ====================================
@@ -691,34 +818,39 @@ export default function App() {
  <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 items-start">
  {/* Left Column: Filters (Compact stickied sidebar block) */}
  <div className="lg:col-span-4 xl:col-span-3 space-y-4 lg:sticky lg:top-[90px] lg:max-h-[calc(100vh-140px)] lg:overflow-y-auto pr-1">
- {(() => {
- const filterSummary = getWorkoutFilters(allLibraryCombined);
- return (
- <WorkoutFilters
- filters={filters}
- onChange={(u) => setFilters({ ...filters, ...u })}
- onReset={() =>
- setFilters({
- targetDistance: "All",
- level: "All",
- category: "All",
- phase: "All",
- surface: "All",
- difficulty: "All",
- risk: "All",
- duration: "All",
- workoutType: "All",
- })
- }
- availableDistances={filterSummary.targetDistances}
- availableLevels={filterSummary.levels}
- availablePhases={filterSummary.phases}
- availableSurfaces={filterSummary.surfaces}
- availableRisks={filterSummary.risks}
- availableWorkoutTypes={filterSummary.workoutTypes}
- />
- );
- })()}
+  {(() => {
+    const isSupportActive = selectedDistance === "All Support" || 
+      trackVaultNavigation.supportNavigation.some(
+        (nav) => nav.label.toLowerCase() === selectedDistance.toLowerCase() || nav.id.toLowerCase() === selectedDistance.toLowerCase()
+      );
+    const filterSummary = getWorkoutFilters(allLibraryCombined);
+    return (
+      <WorkoutFilters
+        filters={filters}
+        onChange={(u) => setFilters({ ...filters, ...u })}
+        onReset={() =>
+          setFilters({
+            targetDistance: "All",
+            level: "All",
+            category: "All",
+            phase: "All",
+            surface: "All",
+            difficulty: "All",
+            risk: "All",
+            duration: "All",
+            workoutType: "All",
+          })
+        }
+        availableDistances={filterSummary.targetDistances}
+        availableLevels={filterSummary.levels}
+        availablePhases={filterSummary.phases}
+        availableSurfaces={filterSummary.surfaces}
+        availableRisks={filterSummary.risks}
+        availableWorkoutTypes={filterSummary.workoutTypes}
+        isSupport={isSupportActive}
+      />
+    );
+  })()}
  </div>
 
  {/* Right Column: Search bar, sort, and grid of workout cards */}
@@ -786,7 +918,13 @@ export default function App() {
  </button>
  
  <span className="text-[10px] font-mono text-slate-400 uppercase font-black tracking-widest pl-2">
- SPECIFICATION DATA // {selectedSlug}
+ {(() => {
+    const workout = allLibraryCombined.find((w) => w.slug === selectedSlug);
+    if (!workout) return "Back to Library";
+    return workout.entryType === "support-routine"
+      ? `SUPPORT ROUTINE // ${workout.supportCategoryLabel || "Routine"}`
+      : `RUNNING WORKOUT // ${workout.distanceNavLabel || workout.primaryDistance || "Workout"}`;
+  })()}
  </span>
  </div>
 
@@ -1293,6 +1431,17 @@ export default function App() {
  </p>
  </div>
  </footer>
+
+ {/* Elegant Toast notification overlay */}
+ {toast && (
+   <div className="fixed bottom-6 right-6 z-50 flex items-center gap-3 px-4 py-3 rounded-2xl shadow-xl border bg-white text-slate-800 max-w-sm" style={{
+     borderColor: toast.type === "error" ? "#EF4444" : toast.type === "info" ? "#3B82F6" : "#10B981",
+     boxShadow: "0 10px 30px -10px rgba(0, 0, 0, 0.15)"
+   }}>
+     <div className={`w-2 h-2 rounded-full ${toast.type === "error" ? "bg-red-500" : toast.type === "info" ? "bg-blue-500" : "bg-emerald-500"}`} />
+     <span className="text-xs font-semibold leading-relaxed font-sans">{toast.message}</span>
+   </div>
+ )}
 
  </div>
  </div>

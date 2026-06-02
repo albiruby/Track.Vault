@@ -7,18 +7,8 @@ import React from "react";
 import { Workout } from "../../types/workout";
 import { matchSidebarDistance } from "../../lib/workouts";
 import { WORKOUT_DISTANCE_NAV, DistanceNavItem } from "../../lib/workouts";
-import { 
- Compass, 
- Flame, 
- MapPin, 
- Activity, 
- Zap, 
- Footprints, 
- Mountain, 
- Heart, 
- Smartphone,
- Gauge
-} from "lucide-react";
+import { Footprints } from "lucide-react";
+import { TrackVaultIcon } from "../icons/trackVaultIcons";
 
 interface DistanceMenuProps {
  selectedDistance: string; // matches item.id or item.label
@@ -27,44 +17,19 @@ interface DistanceMenuProps {
 }
 
 export function DistanceMenu({
- selectedDistance,
- onSelectDistance,
- workouts
+  selectedDistance,
+  onSelectDistance,
+  workouts
 }: DistanceMenuProps) {
 
- // Map each distance option ID/label to an appropriate minimal lucide icon
- const getIcon = (id: string) => {
- switch (id) {
- case "all":
- return <Activity className="w-3.5 h-3.5" />;
- case "100m":
- case "200m":
- case "400m":
- return <Zap className="w-3.5 h-3.5 text-amber-500" />;
- case "800m":
- case "1500m":
- case "mile":
- return <Flame className="w-3.5 h-3.5 text-orange-500" />;
- case "3k":
- case "5k":
- case "10k":
- return <Gauge className="w-3.5 h-3.5 text-[#FF4E00]" />;
- case "half-marathon":
- case "marathon":
- return <Compass className="w-3.5 h-3.5 text-blue-500" />;
- case "trail":
- return <Mountain className="w-3.5 h-3.5 text-emerald-600 " />;
- case "treadmill":
- return <Smartphone className="w-3.5 h-3.5 text-indigo-500" />;
- case "base-recovery":
- return <Heart className="w-3.5 h-3.5 text-rose-500" />;
- case "general":
- default:
- return <MapPin className="w-3.5 h-3.5 text-slate-400" />;
- }
- };
+  // Map each distance option ID/label to an appropriate minimal lucide icon
+  const getIcon = (id: string, active: boolean) => {
+    const cls = `w-3.5 h-3.5 transition-colors ${active ? "text-[#FF4E00]" : "text-slate-400 group-hover:text-[#FF4E00]"}`;
+    const lookupId = id === "all" ? "all-running" : id === "base-recovery" ? "base" : id;
+    return <TrackVaultIcon id={lookupId} className={cls} />;
+  };
 
- return (
+  return (
  <div className="bg-white border border-[#D8DEE8] rounded-sm p-5 space-y-4 shadow-xs">
  <div className="flex items-center gap-2 border-b border-slate-100 pb-2.5">
  <Footprints className="w-4 h-4 text-[#FF4E00]" />
@@ -92,9 +57,9 @@ export function DistanceMenu({
  }`}
  >
  <div className="flex items-center gap-2.5 min-w-0">
- <span className={`transition-transform group-hover:scale-105 duration-200 ${isActive ? "text-[#FF4E00]" : "text-slate-400 "}`}>
- {getIcon(item.id)}
- </span>
+ <span className="transition-transform group-hover:scale-105 duration-200">
+  {getIcon(item.id, isActive)}
+  </span>
  <span className="truncate">{item.label}</span>
  </div>
  <span

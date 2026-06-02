@@ -5,7 +5,7 @@
 
 import React from "react";
 import { Workout, TrackVaultEntry } from "../../../types/workout";
-import { formatWorkoutBlock } from "../../../lib/workouts";
+import { formatWorkoutBlock, formatExerciseBlock } from "../../../lib/workouts";
 
 interface TemplateProps {
  workout: any/*Workout|SupportRoutine*/;
@@ -94,7 +94,31 @@ export function MinimalWorkoutCard({ workout, theme, size }: TemplateProps) {
 
  <p className={`text-xs line-clamp-2 italic mb-4 pb-3 border-b ${getAccentBorder()} ${getSubtextClasses()}`}>
  "{workout.summary}"
- </p>
+	</p>
+
+	{/* Condensed Visual Structure Summary for Export Card */}
+	<div className="mb-3.5">
+		<div className={`flex h-1.5 gap-0.5 rounded overflow-hidden w-full ${theme === 'dark' ? 'bg-white/10' : theme === 'orange' ? 'bg-white/20' : 'bg-slate-100'}`}>
+			{workout.entryType === "support-routine" ? (
+				Array.from({ length: Math.min((workout.sessionStructure || []).length || 5, 8) }).map((_, i) => (
+					<div key={i} className={`h-full flex-1 ${theme === 'orange' ? 'bg-white' : 'bg-blue-500'}`} />
+				))
+			) : (
+				<>
+					{Array.from({ length: Math.max((workout.warmup || []).length, 1) }).map((_, i) => (
+						<div key={`wu-${i}`} className="h-full bg-slate-300" style={{ flexGrow: 1 }} />
+					))}
+					{Array.from({ length: Math.max((workout.mainSet || []).length, 1) }).map((_, i) => (
+						<div key={`ms-${i}`} className={`h-full ${theme === "orange" ? "bg-white" : "bg-orange-500"}`} style={{ flexGrow: 2 }} />
+					))}
+					{Array.from({ length: Math.max((workout.cooldown || []).length, 1) }).map((_, i) => (
+						<div key={`cd-${i}`} className={`h-full ${theme === 'dark' ? 'bg-slate-500' : 'bg-slate-700'}`} style={{ flexGrow: 1 }} />
+					))}
+				</>
+			)}
+		</div>
+	</div>
+
 
  {/* Workout Prescription Block */}
  <div className="space-y-3 overflow-hidden flex-1">
@@ -114,7 +138,7 @@ export function MinimalWorkoutCard({ workout, theme, size }: TemplateProps) {
  {(workout.entryType === "support-routine" ? (Array.isArray(workout.sessionStructure) ? workout.sessionStructure : [workout.sessionStructure || ""]) : (workout.mainSet || [])).slice(0, size === "compact" ? 2 : 4).map((b, i) => (
  <li key={b.id || i} className="text-xs font-mono font-medium flex items-center gap-1.5 leading-snug">
  <span className="w-1.5 h-1.5 rounded-full bg-orange-500" />
- {(workout.entryType === "support-routine" ? String(b) : formatWorkoutBlock(b as any))}
+ {(workout.entryType === "support-routine" ? formatExerciseBlock(b) : formatWorkoutBlock(b as any))}
  </li>
  ))}
  {(workout.entryType === "support-routine" ? (Array.isArray(workout.sessionStructure) ? workout.sessionStructure : [workout.sessionStructure || ""]) : (workout.mainSet || [])).length > (size === "compact" ? 2 : 4) && (
@@ -142,7 +166,11 @@ export function MinimalWorkoutCard({ workout, theme, size }: TemplateProps) {
  <div className="flex flex-col">
  <span className="text-[9px] font-mono leading-none">Est Distance & Duration</span>
  <span className="text-xs font-bold leading-none mt-1">
- {(workout.estimatedDistanceKm || 0)} KM / {workout.estimatedDurationMin} MIN
+ {workout.rawDistance && typeof workout.rawDistance === "object"
+   ? `${workout.rawDistance.min}-${workout.rawDistance.max} KM`
+   : `${workout.estimatedDistanceKm || 0} KM`} / {workout.rawDuration && typeof workout.rawDuration === "object"
+   ? `${workout.rawDuration.min}-${workout.rawDuration.max} MIN`
+   : `${workout.estimatedDurationMin || 0} MIN`}
  </span>
  </div>
  <div className="text-right">

@@ -11,93 +11,165 @@ import { trackVaultNavigation } from "../data/workouts/trackVaultNavigation.v1.2
 export const WORKOUT_DISTANCE_NAV = trackVaultNavigation.runningNavigation;
 export type DistanceNavItem = any;
 
+const categoriesMapped: CategoryMeta[] = [
+  ...trackVaultNavigation.runningNavigation,
+  ...trackVaultNavigation.supportNavigation
+].map((item: any) => ({
+  id: item.id,
+  name: item.label,
+  description: `${item.label} training and support assets.`,
+  targetWorkoutCount: item.entries || 50,
+  icon: item.type,
+  tags: [item.type]
+}));
+
 // Map JSON structures to satisfy the TypeScript interfaces precisely
 const workoutIndex: WorkoutLibraryIndex = {
- version: (indexJson as any).libraryMeta?.version || "1.0.0",
- lastRegenerated: (indexJson as any).libraryMeta?.lastUpdated,
- categories: ((indexJson as any).categories || []).map((cat: any) => ({
- id: cat.categoryId,
- name: cat.label,
- description: cat.description,
- targetWorkoutCount: cat.targetWorkoutCount,
- icon: cat.icon,
- tags: cat.tags
- }))
+  version: (indexJson as any).version || "1.2",
+  lastRegenerated: new Date().toISOString().split('T')[0],
+  categories: categoriesMapped
 };
 
-const rawWorkouts: any[] = (fullLibraryJson as any)?.allEntries || [];
-const allWorkouts: any[] = rawWorkouts.map((w: any) => {
- const durationNum = w.estimatedDurationMin && typeof w.estimatedDurationMin === "object"
- ? Math.round((w.estimatedDurationMin.min + w.estimatedDurationMin.max) / 2)
- : (typeof w.estimatedDurationMin === "number" ? w.estimatedDurationMin : 0);
+const mapRawWorkout = (w: any) => {
+  const rawDur = w.estimatedDurationMin !== undefined ? w.estimatedDurationMin : w.durationMin;
+  const durationNum = rawDur && typeof rawDur === "object"
+    ? Math.round(((rawDur as any).min + (rawDur as any).max) / 2)
+    : (typeof rawDur === "number" ? rawDur : 0);
 
- const distanceNum = w.estimatedDistanceKm && typeof w.estimatedDistanceKm === "object"
- ? Math.round(((w.estimatedDistanceKm.min + w.estimatedDistanceKm.max) / 2) * 10) / 10
- : (typeof w.estimatedDistanceKm === "number" ? w.estimatedDistanceKm : 0);
+  const distanceNum = w.estimatedDistanceKm && typeof w.estimatedDistanceKm === "object"
+    ? Math.round(((w.estimatedDistanceKm.min + w.estimatedDistanceKm.max) / 2) * 10) / 10
+    : (typeof w.estimatedDistanceKm === "number" ? w.estimatedDistanceKm : 0);
 
- let diffNum = typeof w.difficulty === "number" ? w.difficulty : 5;
- if (typeof w.difficulty === "string") {
- const dLower = w.difficulty.toLowerCase();
- if (dLower === "easy") diffNum = 2;
- else if (dLower === "moderate") diffNum = 5;
- else if (dLower === "moderate-hard") diffNum = 7;
- else if (dLower === "hard") diffNum = 8;
- else if (dLower === "very-hard") diffNum = 10;
- }
+  let diffNum = typeof w.difficulty === "number" ? w.difficulty : 5;
+  if (typeof w.difficulty === "string") {
+    const dLower = w.difficulty.toLowerCase();
+    if (dLower === "easy") diffNum = 2;
+    else if (dLower === "moderate") diffNum = 5;
+    else if (dLower === "moderate-hard") diffNum = 7;
+    else if (dLower === "hard") diffNum = 8;
+    else if (dLower === "very-hard") diffNum = 10;
+  }
 
- const phaseStr = Array.isArray(w.phase) ? w.phase[0] : (w.phase || "Build");
- const surfaceStr = Array.isArray(w.surface) ? w.surface[0] : (w.surface || "Track");
+  const phaseStr = Array.isArray(w.phase) ? w.phase[0] : (w.phase || "Build");
+  const phasesArr = Array.isArray(w.phase) ? w.phase : (w.phase ? [w.phase] : []);
+  const surfaceStr = Array.isArray(w.surface) ? w.surface[0] : (w.surface || "Track");
+  const surfacesArr = Array.isArray(w.surface) ? w.surface : (w.surface ? [w.surface] : []);
 
- const mapBlock = (b: any) => {
- if (!b) return null;
- return {
- ...b,
- id: b.id || `b-${Math.random().toString(36).substr(2, 9)}`,
- type: b.type || b.blockType || "repeat",
- work: b.work ? {
- ...b.work,
- targetType: b.work.targetType === "time" ? "duration" : b.work.targetType
- } : { targetType: "unlimited" },
- notes: Array.isArray(b.notes) ? b.notes.join(". ") : b.notes
- };
- };
+  const mapBlock = (b: any) => {
+    if (!b) return null;
+    return {
+      ...b,
+      id: b.id || `b-${Math.random().toString(36).substr(2, 9)}`,
+      type: b.type || b.blockType || "repeat",
+      work: b.work ? {
+        ...b.work,
+        targetType: b.work.targetType === "time" ? "duration" : b.work.targetType
+      } : { targetType: "unlimited" },
+      notes: Array.isArray(b.notes) ? b.notes.join(". ") : b.notes
+    };
+  };
 
- const warmupMapped = (w.workoutStructure?.warmup || w.warmup || []).map(mapBlock).filter(Boolean);
- const mainSetMapped = (w.workoutStructure?.mainSet || w.mainSet || []).map(mapBlock).filter(Boolean);
- const cooldownMapped = (w.workoutStructure?.cooldown || w.cooldown || []).map(mapBlock).filter(Boolean);
+  const warmupMapped = (w.workoutStructure?.warmup || w.warmup || []).map(mapBlock).filter(Boolean);
+  const mainSetMapped = (w.workoutStructure?.mainSet || w.mainSet || []).map(mapBlock).filter(Boolean);
+  const cooldownMapped = (w.workoutStructure?.cooldown || w.cooldown || []).map(mapBlock).filter(Boolean);
 
- return {
- ...w,
- estimatedDurationMin: durationNum,
- estimatedDistanceKm: distanceNum,
- difficulty: diffNum,
- rawDifficulty: w.difficulty,
- rawDuration: w.estimatedDurationMin,
- rawDistance: w.estimatedDistanceKm,
- phase: phaseStr,
- phases: w.phase,
- surface: surfaceStr,
- surfaces: w.surface,
- warmup: warmupMapped,
- mainSet: mainSetMapped,
- cooldown: cooldownMapped,
- };
-});
+  let supportCatId = w.supportCategoryId;
+  if (supportCatId) {
+    const norm = supportCatId.toLowerCase();
+    if (norm === "upper_strength") supportCatId = "upper-strength";
+    else if (norm === "lower_strength") supportCatId = "lower-strength";
+    else if (norm === "core_stability") supportCatId = "core";
+    else if (norm === "running_drills") supportCatId = "running-drills";
+    else if (norm === "warm_up_routine") supportCatId = "warmup";
+    else if (norm === "cooldown_routine") supportCatId = "cooldown";
+    else if (norm === "recovery_routine") supportCatId = "recovery";
+    else if (norm === "injury_risk_reduction") supportCatId = "injury-risk";
+  }
+
+  let distNavId = w.distanceNavId;
+  if (distNavId === "base-recovery") {
+    distNavId = "base";
+  }
+
+  const generatedSlug = w.slug || (w.title
+    ? `${w.id}-${w.title.toLowerCase().trim().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "")}`
+    : `${w.id}`);
+
+  return {
+    ...w,
+    supportCategoryId: supportCatId,
+    distanceNavId: distNavId,
+    slug: generatedSlug,
+    estimatedDurationMin: durationNum,
+    estimatedDistanceKm: distanceNum,
+    difficulty: diffNum,
+    rawDifficulty: w.difficulty,
+    rawDuration: w.estimatedDurationMin,
+    rawDistance: w.estimatedDistanceKm,
+    phase: phaseStr,
+    phases: phasesArr,
+    surface: surfaceStr,
+    surfaces: surfacesArr,
+    warmup: warmupMapped,
+    mainSet: mainSetMapped,
+    cooldown: cooldownMapped,
+  };
+};
+
+const allWorkouts: Workout[] = ((fullLibraryJson as any)?.allEntries || []).map(mapRawWorkout);
+const mappedRunningWorkouts: Workout[] = ((fullLibraryJson as any)?.runningWorkouts || []).map(mapRawWorkout);
+const mappedSupportRoutines: Workout[] = ((fullLibraryJson as any)?.supportRoutines || []).map(mapRawWorkout);
+
+export function getTrackVaultLibrary() {
+  return {
+    libraryMeta: (fullLibraryJson as any).libraryMeta,
+    allEntries: getAllEntries(),
+    runningWorkouts: getRunningWorkouts(),
+    supportRoutines: getSupportRoutines()
+  };
+}
+
+export function getAllEntries(): Workout[] {
+  return allWorkouts || [];
+}
+
+export function getRunningWorkouts(): Workout[] {
+  return mappedRunningWorkouts || [];
+}
+
+export function getSupportRoutines(): Workout[] {
+  return mappedSupportRoutines || [];
+}
+
+export function getEntryBySlug(slug: string): Workout | undefined {
+  return getAllEntries().find((w) => w.slug === slug);
+}
 
 export function getWorkoutIndex(): WorkoutLibraryIndex {
- return workoutIndex;
+  return workoutIndex;
 }
 
 export function getAllWorkouts(): Workout[] {
- return allWorkouts || [];
+  return allWorkouts || [];
 }
 
 export function getWorkoutBySlug(slug: string): Workout | undefined {
- return getAllWorkouts().find((w) => w.slug === slug);
+  return getEntryBySlug(slug);
 }
 
 export function getWorkoutsByCategory(categoryId: string): Workout[] {
- return getAllWorkouts().filter((w) => w.libraryCategoryId === categoryId || w.category === categoryId);
+  const normId = categoryId?.trim()?.toLowerCase();
+  
+  const isSupportCat = [
+    "upper-strength", "lower-strength", "core", "mobility", "activation", 
+    "plyometric", "running-drills", "warmup", "cooldown", "recovery", "injury-risk"
+  ].includes(normId);
+
+  if (isSupportCat) {
+    return getSupportRoutines().filter(w => w.supportCategoryId?.toLowerCase() === normId);
+  } else {
+    return getRunningWorkouts().filter(w => w.distanceNavId?.toLowerCase() === normId);
+  }
 }
 
 export function formatDistance(metersCount?: number): string {
@@ -156,6 +228,44 @@ export function formatWorkoutBlock(block: WorkoutBlock): string {
  }
 
  return `${reps}${name} ${targetText}${intensity}${recoveryText}`;
+}
+
+export function formatExerciseBlock(ex: any): string {
+  if (!ex || typeof ex !== "object") return String(ex || "");
+  
+  const name = ex.name || "Exercise";
+  const parts: string[] = [];
+  
+  if (ex.sets) {
+    if (ex.reps) {
+      parts.push(`${ex.sets}x${ex.reps}`);
+    } else if (ex.durationSeconds) {
+      parts.push(`${ex.sets}x ${ex.durationSeconds}s`);
+    } else if (ex.distanceMeters) {
+      parts.push(`${ex.sets}x ${ex.distanceMeters}m`);
+    } else {
+      parts.push(`${ex.sets} sets`);
+    }
+  } else if (ex.reps) {
+    parts.push(`${ex.reps} reps`);
+  } else if (ex.durationSeconds) {
+    parts.push(`${ex.durationSeconds}s`);
+  } else if (ex.distanceMeters) {
+    parts.push(`${ex.distanceMeters}m`);
+  }
+
+  if (ex.side && ex.side !== "both" && ex.side !== "none" && ex.side !== "all") {
+    parts.push(`(${ex.side} side)`);
+  }
+  
+  if (ex.intensity && ex.intensity !== "controlled" && ex.intensity !== "easy" && ex.intensity !== "moderate") {
+    parts.push(`@ ${ex.intensity}`);
+  }
+
+  const specStr = parts.join(" ");
+  const restStr = ex.restSeconds ? ` [Rest: ${ex.restSeconds}s]` : "";
+  
+  return `${name}${specStr ? `: ${specStr}` : ""}${restStr}`;
 }
 
 export function normalizeWorkoutForDisplay(workout: Workout) {
@@ -221,13 +331,15 @@ export function getWorkoutFilters(workouts: Workout[]) {
  }
  
  // Extract phases from either array (phases) or single string (phase)
- const pArr = (w as any).phases || (w.phase ? [w.phase] : []);
+ const phasesRaw = (w as any).phases || w.phase;
+ const pArr = Array.isArray(phasesRaw) ? phasesRaw : (typeof phasesRaw === "string" && phasesRaw ? [phasesRaw] : []);
  pArr.forEach((p: string) => {
  if (p) phases.add(p);
  });
 
  // Extract surfaces from either array (surfaces) or single string (surface)
- const sArr = (w as any).surfaces || (w.surface ? [w.surface] : []);
+ const surfacesRaw = (w as any).surfaces || w.surface;
+ const sArr = Array.isArray(surfacesRaw) ? surfacesRaw : (typeof surfacesRaw === "string" && surfacesRaw ? [surfacesRaw] : []);
  sArr.forEach((s: string) => {
  if (s) surfaces.add(s);
  });
@@ -282,41 +394,49 @@ export function getWorkoutFilters(workouts: Workout[]) {
 }
 
 export function searchWorkouts(workouts: Workout[], query: string): Workout[] {
- if (!query.trim()) return workouts;
- const q = query.toLowerCase();
- return workouts.filter(
- (w) =>
- w.title.toLowerCase().includes(q) ||
- w.summary.toLowerCase().includes(q) ||
- w.shortTitle.toLowerCase().includes(q) ||
- (w.category && w.category.toLowerCase().includes(q)) ||
- (w.level && w.level.toLowerCase().includes(q)) ||
- (w.primaryDistance && w.primaryDistance.toLowerCase().includes(q)) ||
- (w.targetDistances || []).some((d) => d.toLowerCase().includes(q)) ||
- (w.tags || []).some((t) => t.toLowerCase().includes(q)) ||
- (w.searchKeywords || []).some((k) => k.toLowerCase().includes(q))
- );
+  if (!query.trim()) return workouts;
+  const q = query.toLowerCase();
+  return workouts.filter((w) => {
+    const title = (w.title || "").toLowerCase();
+    const summary = (w.summary || "").toLowerCase();
+    const shortTitle = (w.shortTitle || "").toLowerCase();
+    const cat = (w.category || "").toLowerCase();
+    const lev = (w.level || "").toLowerCase();
+    const primDist = (w.primaryDistance || "").toLowerCase();
+    
+    return (
+      title.includes(q) ||
+      summary.includes(q) ||
+      shortTitle.includes(q) ||
+      cat.includes(q) ||
+      lev.includes(q) ||
+      primDist.includes(q) ||
+      (w.targetDistances || []).some((d) => d?.toLowerCase().includes(q)) ||
+      (w.tags || []).some((t) => t?.toLowerCase().includes(q)) ||
+      ((w as any).searchKeywords || []).some((k: string) => k?.toLowerCase().includes(q))
+    );
+  });
 }
 
 export function filterWorkouts(workouts: Workout[], filters: Partial<WorkoutFiltersState>): Workout[] {
- return workouts.filter((w) => {
- if (filters.targetDistance && filters.targetDistance !== "All") {
- const match = (w.targetDistances || []).some(
- (td) => td?.toLowerCase() === filters.targetDistance?.toLowerCase()
- );
- if (!match) return false;
- }
- if (filters.level && filters.level !== "All") {
- if (w.level?.toLowerCase() !== filters.level?.toLowerCase()) {
- return false;
- }
- }
- if (filters.category && filters.category !== "All") {
- const wCat = w.libraryCategoryId || w.category;
- if (wCat?.toLowerCase() !== filters.category?.toLowerCase()) {
- return false;
- }
- }
+  return workouts.filter((w) => {
+    if (filters.targetDistance && filters.targetDistance !== "All") {
+      const match = (w.targetDistances || []).some(
+        (td) => td?.toLowerCase() === filters.targetDistance?.toLowerCase()
+      );
+      if (!match) return false;
+    }
+    if (filters.level && filters.level !== "All") {
+      if (w.level?.toLowerCase() !== filters.level?.toLowerCase()) {
+        return false;
+      }
+    }
+    if (filters.category && filters.category !== "All") {
+      const wCat = w.distanceNavId || (w as any).supportCategoryId || w.category || w.libraryCategoryId || "";
+      if (wCat.toLowerCase() !== filters.category.toLowerCase()) {
+        return false;
+      }
+    }
  if (filters.workoutType && filters.workoutType !== "All") {
  const wType = w.workoutType || w.category;
  if (wType?.toLowerCase() !== filters.workoutType?.toLowerCase()) {
@@ -324,14 +444,16 @@ export function filterWorkouts(workouts: Workout[], filters: Partial<WorkoutFilt
  }
  }
  if (filters.phase && filters.phase !== "All") {
- const pArr = (w as any).phases || [w.phase];
+ const phasesRaw = (w as any).phases || w.phase;
+ const pArr = Array.isArray(phasesRaw) ? phasesRaw : (typeof phasesRaw === "string" && phasesRaw ? [phasesRaw] : []);
  const match = pArr.some(
  (p: string) => p?.toLowerCase() === filters.phase?.toLowerCase()
  );
  if (!match) return false;
  }
  if (filters.surface && filters.surface !== "All") {
- const sArr = (w as any).surfaces || [w.surface];
+ const surfacesRaw = (w as any).surfaces || w.surface;
+ const sArr = Array.isArray(surfacesRaw) ? surfacesRaw : (typeof surfacesRaw === "string" && surfacesRaw ? [surfacesRaw] : []);
  const match = sArr.some(
  (s: string) => s?.toLowerCase() === filters.surface?.toLowerCase()
  );
@@ -491,34 +613,58 @@ ${workout.riskReason ? `Reason: ${workout.riskReason}\n` : ""}${workout.safetyNo
 export const SIDEBAR_DISTANCES = WORKOUT_DISTANCE_NAV.map(item => item.label);
 
 export function matchSidebarDistance(w: Workout, distance: string): boolean {
- const item = WORKOUT_DISTANCE_NAV.find(
- nav => nav.id.toLowerCase() === distance.toLowerCase() || nav.label.toLowerCase() === distance.toLowerCase()
- );
- if (!item) return false;
-
- if (item.id === "all") return true;
-
- // Use distanceNavId directly for 100% precision with v1.1
- if (w.distanceNavId) {
- return w.distanceNavId === item.id;
- }
-
- // Fallback for custom/legacy workouts
- const targetLabel = item.label.toLowerCase();
- if (w.primaryDistance && w.primaryDistance.toLowerCase() === targetLabel) {
- return true;
- }
- if (w.targetDistances && w.targetDistances.some(td => td?.toLowerCase() === targetLabel)) {
- return true;
- }
- if (item.id === "trail" && (Array.isArray(w.surface) ? w.surface[0] : w.surface)?.toLowerCase() === "trail") return true;
- if (item.id === "treadmill" && (Array.isArray(w.surface) ? w.surface[0] : w.surface)?.toLowerCase() === "treadmill") return true;
- if (item.id === "base-recovery" && (
- w.title?.toLowerCase().includes("easy") || 
- w.title?.toLowerCase().includes("recovery") || 
- w.summary?.toLowerCase().includes("recovery")
- )) return true;
-
- return false;
+  const normDist = distance.trim().toLowerCase();
+  
+  if (normDist === "all" || normDist === "all workouts" || normDist === "all workouts & routines") {
+    return true;
+  }
+  
+  if (normDist === "all running") {
+    return (w as any).entryType !== "support-routine";
+  }
+  
+  if (normDist === "all support") {
+    return (w as any).entryType === "support-routine";
+  }
+  
+  // Try to find in runningNavigation first
+  const runningItem = trackVaultNavigation.runningNavigation.find(
+    nav => nav.id.toLowerCase() === normDist || nav.label.toLowerCase() === normDist
+  );
+  if (runningItem) {
+    if ((w as any).entryType === "support-routine") return false;
+    
+    if (w.distanceNavId) {
+      return w.distanceNavId.toLowerCase() === runningItem.id.toLowerCase();
+    }
+    
+    // Fallback for custom/legacy workouts
+    const targetLabel = runningItem.label.toLowerCase();
+    if (w.primaryDistance && w.primaryDistance.toLowerCase() === targetLabel) {
+      return true;
+    }
+    if (w.targetDistances && w.targetDistances.some(td => td?.toLowerCase() === targetLabel)) {
+      return true;
+    }
+    if (runningItem.id === "trail" && (Array.isArray(w.surface) ? w.surface[0] : w.surface)?.toLowerCase() === "trail") return true;
+    if (runningItem.id === "treadmill" && (Array.isArray(w.surface) ? w.surface[0] : w.surface)?.toLowerCase() === "treadmill") return true;
+    return false;
+  }
+  
+  // Try to find in supportNavigation
+  const supportItem = trackVaultNavigation.supportNavigation.find(
+    nav => nav.id.toLowerCase() === normDist || nav.label.toLowerCase() === normDist
+  );
+  if (supportItem) {
+    if ((w as any).entryType !== "support-routine") return false;
+    
+    const wSupId = (w as any).supportCategoryId || "";
+    const wSupLabel = (w as any).supportCategoryLabel || "";
+    
+    return wSupId.toLowerCase() === supportItem.id.toLowerCase() || 
+           wSupLabel.toLowerCase() === supportItem.label.toLowerCase();
+  }
+  
+  return false;
 }
 

@@ -21,6 +21,7 @@ import {
  Gauge,
  X
 } from "lucide-react";
+import { TrackVaultIcon } from "../icons/trackVaultIcons";
 
 interface LeftSidebarProps {
  selectedDistance: string;
@@ -44,38 +45,12 @@ export function LeftSidebar({
 
  // Minimal and distinct Lucide Icons matching the dashboard screenshot
  const getIcon = (id: string, active: boolean) => {
- const cls = `w-4 h-4 transition-colors ${active ? "text-white" : "text-slate-550 group-hover:text-blue-600"}`;
- switch (id) {
- case "all":
- return <Activity className={cls} />;
- case "100m":
- case "200m":
- case "400m":
- return <Zap className={cls} />;
- case "800m":
- case "1500m":
- case "mile":
- return <Flame className={cls} />;
- case "3k":
- case "5k":
- case "10k":
- return <Gauge className={cls} />;
- case "half-marathon":
- case "marathon":
- return <Compass className={cls} />;
- case "trail":
- return <Mountain className={cls} />;
- case "treadmill":
- return <Smartphone className={cls} />;
- case "base-recovery":
- return <Heart className={cls} />;
- case "general":
- default:
- return <MapPin className={cls} />;
- }
- };
+    const cls = `w-4 h-4 transition-colors ${active ? "text-white" : "text-slate-500 group-hover:text-blue-600"}`;
+    const lookupId = id === "all" ? "all-running" : id === "base-recovery" ? "base" : id;
+    return <TrackVaultIcon id={lookupId} className={cls} />;
+  };
 
- const menuContent = (
+  const menuContent = (
  <div className="flex flex-col h-full bg-[#F8FAFC] border-r border-[#E2E8F0] select-none">
  {/* Sidebar Top: Branding Logo Block */}
  <div 
@@ -131,13 +106,15 @@ export function LeftSidebar({
               }`}
             >
               <div className="flex items-center gap-2.5 min-w-0">
-                <span className="shrink-0 font-bold"><Compass className="w-4 h-4" /></span>
+                <span className="shrink-0 font-bold"><TrackVaultIcon id="all-running" className="w-4 h-4" /></span>
                 <span className="truncate tracking-tight font-medium">All Running</span>
               </div>
-              <span className={`font-mono text-[9px] px-2 py-0.5 rounded-full font-bold bg-slate-100 text-slate-500`}>750</span>
+              <span className={`font-mono text-[9px] px-2 py-0.5 rounded-full font-bold bg-slate-100 text-slate-500`}>
+                {workouts.filter(w => w.entryType !== "support-routine").length}
+              </span>
             </button>
             {trackVaultNavigation.runningNavigation.map((item) => {
-              const count = item.entries || 50;
+              const count = workouts.filter(w => w.entryType !== "support-routine" && w.distanceNavId?.toLowerCase() === item.id.toLowerCase()).length;
               const isActive = selectedDistance.toLowerCase() === item.id.toLowerCase() || 
                                selectedDistance.toLowerCase() === item.label.toLowerCase();
               return (
@@ -199,13 +176,15 @@ export function LeftSidebar({
               }`}
             >
               <div className="flex items-center gap-2.5 min-w-0">
-                <span className="shrink-0 font-bold"><Compass className="w-4 h-4" /></span>
+                <span className="shrink-0 font-bold"><TrackVaultIcon id="all-support" className="w-4 h-4" /></span>
                 <span className="truncate tracking-tight font-medium">All Support</span>
               </div>
-              <span className={`font-mono text-[9px] px-2 py-0.5 rounded-full font-bold bg-slate-100 text-slate-500`}>550</span>
+              <span className={`font-mono text-[9px] px-2 py-0.5 rounded-full font-bold bg-slate-100 text-slate-500`}>
+                {workouts.filter(w => w.entryType === "support-routine").length}
+              </span>
             </button>
             {trackVaultNavigation.supportNavigation.map((item) => {
-              const count = item.entries || 50;
+              const count = workouts.filter(w => w.entryType === "support-routine" && w.supportCategoryId?.toLowerCase() === item.id.toLowerCase()).length;
               const isActive = selectedDistance.toLowerCase() === item.id.toLowerCase() || 
                                selectedDistance.toLowerCase() === item.label.toLowerCase();
               return (

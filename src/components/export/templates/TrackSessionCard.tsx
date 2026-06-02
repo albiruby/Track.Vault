@@ -5,7 +5,7 @@
 
 import React from "react";
 import { Workout, TrackVaultEntry } from "../../../types/workout";
-import { formatWorkoutBlock } from "../../../lib/workouts";
+import { formatWorkoutBlock, formatExerciseBlock } from "../../../lib/workouts";
 
 interface TemplateProps {
  workout: any/*Workout|SupportRoutine*/;
@@ -84,7 +84,7 @@ export function TrackSessionCard({ workout, theme, size }: TemplateProps) {
  {(workout.entryType === "support-routine" ? (Array.isArray(workout.sessionStructure) ? workout.sessionStructure : [workout.sessionStructure || ""]) : (workout.mainSet || [])).slice(0, size === "compact" ? 2 : 4).map((block, i) => (
  <li key={block.id || i} className="text-xs font-mono font-semibold flex gap-2 items-center">
  <span className="px-1.5 py-0.5 rounded text-[9px] bg-red-500 text-white">R{i + 1}</span>
- {(workout.entryType === "support-routine" ? String(block) : formatWorkoutBlock(block as any))}
+ {(workout.entryType === "support-routine" ? formatExerciseBlock(block) : formatWorkoutBlock(block as any))}
  </li>
  ))}
  {(workout.entryType === "support-routine" ? (Array.isArray(workout.sessionStructure) ? workout.sessionStructure : [workout.sessionStructure || ""]) : (workout.mainSet || [])).length > (size === "compact" ? 2 : 4) && (
