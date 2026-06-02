@@ -35,6 +35,8 @@ import { WorkoutFilters } from "./components/library/WorkoutFilters";
 import { LevelBadge } from "./components/library/LevelBadge";
 import { DifficultyBadge } from "./components/library/DifficultyBadge";
 import { RiskBadge } from "./components/library/RiskBadge";
+import { FilterPresetBar } from "./components/library/FilterPresetBar";
+import { FILTER_PRESETS } from "./lib/filterPresets";
 
 // Import Builder components
 import { WorkoutBasicInfoForm } from "./components/builder/WorkoutBasicInfoForm";
@@ -75,7 +77,8 @@ import {
  ArrowRight,
  Activity,
  Lock,
- Layers
+ Layers,
+ X
 } from "lucide-react";
 
 export default function App() {
@@ -99,6 +102,7 @@ export default function App() {
  // Library State
  const [searchQuery, setSearchQuery] = useState("");
  const [sortKey, setSortKey] = useState("title");
+ const [selectedPresetId, setSelectedPresetId] = useState<string | null>(null);
  const [selectedDistance, setSelectedDistance] = useState("All Workouts");
  const [filters, setFilters] = useState<WorkoutFiltersState>({
  targetDistance: "All",
@@ -272,7 +276,16 @@ export default function App() {
  searchWorkouts(distanceFiltered, searchQuery),
  filters
  );
- const sortedCombined = sortWorkouts(filteredCombined, sortKey);
+ // Apply our selectedPreset if any
+ let finalWorkoutsBeforeSort = filteredCombined;
+ if (selectedPresetId) {
+   const activePreset = FILTER_PRESETS.find(p => p.id === selectedPresetId);
+   if (activePreset) {
+     finalWorkoutsBeforeSort = filteredCombined.filter(w => activePreset.apply(w));
+   }
+ }
+
+ const sortedCombined = sortWorkouts(finalWorkoutsBeforeSort, sortKey);
 
  const filterMetrics = getAllWorkouts().length > 0 ? getWorkoutIndex() : null;
 
@@ -865,24 +878,101 @@ export default function App() {
  </div>
  </div>
 
+ <FilterPresetBar
+   selectedPresetId={selectedPresetId}
+   onSelectPreset={(presetId) => {
+     setSelectedPresetId(presetId);
+     // Clear category if switching active preset
+     if (presetId) {
+       setFilters(prev => ({ ...prev, category: "All" }));
+     }
+   }}
+   resultsCount={sortedCombined.length}
+ />
+
  <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-2 py-1 border-b border-slate-100 pb-3">
- <h3 className="text-lg font-black font-display tracking-tight text-slate-800 uppercase">
+ <div className="space-y-0.5">
+ <h3 className="text-sm sm:text-base font-black font-display tracking-tight text-slate-850 uppercase">
  {(() => {
  if (filters.category && filters.category !== "All" && filterMetrics) {
  const selectedCat = filterMetrics.categories.find(c => c.id === filters.category);
  if (selectedCat) return `${selectedCat.name}`;
  }
- return selectedDistance === "All Workouts" ? "All Presets" : `${selectedDistance}`;
+ return selectedDistance === "All Workouts" ? "All Categories" : `${selectedDistance}`;
  })()}
  </h3>
+ {selectedPresetId && (
+   <p className="text-[10px] font-mono font-black text-blue-600 uppercase tracking-widest leading-none">
+     Static Preset Filter: {FILTER_PRESETS.find(p => p.id === selectedPresetId)?.label}
+   </p>
+ )}
+ </div>
  <p className="text-[10px] font-mono text-slate-500 font-bold uppercase tracking-wider">
- Showing {sortedCombined.length} of {allLibraryCombined.length} workouts
+ {selectedPresetId ? (
+   `Showing ${sortedCombined.length} Filtered by ${FILTER_PRESETS.find(p => p.id === selectedPresetId)?.label} entries`
+ ) : (
+   `Showing ${sortedCombined.length} of ${allLibraryCombined.length} workouts`
+ )}
  </p>
  </div>
 
  {/* Grid layout results */}
  {sortedCombined.length === 0 ? (
- <EmptyLibraryState onNavigateToBuilder={() => navigateTo("builder")} />
+   (() => {
+     const isAnyFilterActive = searchQuery !== "" || selectedPresetId !== null || Object.values(filters).some(v => v !== "All");
+     if (isAnyFilterActive) {
+       return (
+         <div className="flex flex-col items-center text-center p-10 max-w-xl mx-auto my-12 bg-white border border-[#E2E8F0] rounded-3xl shadow-xs space-y-4 font-sans">
+           <div className="w-12 h-12 rounded-2xl bg-rose-50 flex items-center justify-center text-rose-600 border border-rose-100 shadow-xs">
+             <X className="w-5 h-5" />
+           </div>
+           <h3 className="text-sm font-black font-display tracking-tight text-slate-800 uppercase">
+             No entries match current parameters
+           </h3>
+           <p className="text-xs text-slate-500 leading-relaxed max-w-md font-medium">
+             No workouts match your current filter parameters or the active preset layer. Try resetting search queries, clearing the preset, or returning categories to wide defaults.
+           </p>
+           <div className="flex flex-wrap gap-2 justify-center pt-2">
+             {searchQuery && (
+               <button
+                 onClick={() => setSearchQuery("")}
+                 className="px-3.5 py-1.5 bg-slate-50 hover:bg-slate-100 text-slate-700 hover:text-slate-905 font-bold tracking-wide rounded-xl cursor-pointer text-[10px] uppercase border border-slate-200 transition-all font-sans"
+               >
+                 Clear Search
+               </button>
+             )}
+             {selectedPresetId && (
+               <button
+                 onClick={() => setSelectedPresetId(null)}
+                 className="px-3.5 py-1.5 bg-blue-550 hover:bg-blue-600 text-white font-bold tracking-wide rounded-xl cursor-pointer text-[10px] uppercase shadow-xs transition-all font-sans"
+               >
+                 Clear Preset
+               </button>
+             )}
+             {Object.values(filters).some(v => v !== "All") && (
+               <button
+                 onClick={() => setFilters({
+                   targetDistance: "All",
+                   level: "All",
+                   category: "All",
+                   phase: "All",
+                   surface: "All",
+                   difficulty: "All",
+                   risk: "All",
+                   duration: "All",
+                   workoutType: "All",
+                 })}
+                 className="px-3.5 py-1.5 bg-rose-50 hover:bg-rose-100 text-rose-600 hover:text-rose-700 font-bold tracking-wide rounded-xl cursor-pointer text-[10px] uppercase border border-rose-150 transition-all font-sans"
+               >
+                 Clear Manual Filters
+               </button>
+             )}
+           </div>
+         </div>
+       );
+     }
+     return <EmptyLibraryState onNavigateToBuilder={() => navigateTo("builder")} />;
+   })()
  ) : (
  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-5">
  {sortedCombined.map((w) => (
