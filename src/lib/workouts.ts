@@ -116,9 +116,9 @@ const mapRawWorkout = (w: any) => {
   };
 };
 
-const allWorkouts: Workout[] = ((fullLibraryJson as any)?.allEntries || []).map(mapRawWorkout);
 const mappedRunningWorkouts: Workout[] = ((fullLibraryJson as any)?.runningWorkouts || []).map(mapRawWorkout);
 const mappedSupportRoutines: Workout[] = ((fullLibraryJson as any)?.supportRoutines || []).map(mapRawWorkout);
+const allWorkouts: Workout[] = [...mappedRunningWorkouts, ...mappedSupportRoutines];
 
 export function getTrackVaultLibrary() {
   return {
