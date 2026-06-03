@@ -286,6 +286,44 @@ export default function App() {
  };
  }, []);
 
+ // Synchronize and clean preset compatibility when changing sidebar tracks
+ useEffect(() => {
+   const isSupport = selectedDistance === "All Support" || 
+     trackVaultNavigation.supportNavigation.some(
+       (nav) => nav.label.toLowerCase() === selectedDistance.toLowerCase() || nav.id.toLowerCase() === selectedDistance.toLowerCase()
+     );
+
+   const isRunning = selectedDistance === "All Running" || selectedDistance === "All Workouts" ||
+     trackVaultNavigation.runningNavigation.some(
+       (nav) => nav.label.toLowerCase() === selectedDistance.toLowerCase() || nav.id.toLowerCase() === selectedDistance.toLowerCase()
+     );
+
+   if (isSupport) {
+     if (selectedPresetId) {
+       const activePreset = FILTER_PRESETS.find(p => p.id === selectedPresetId);
+       if (activePreset && (activePreset.group === "running" || activePreset.entryType === "running-workout")) {
+         setSelectedPresetId(null);
+       }
+     }
+     setFilters(prev => ({
+       ...prev,
+       targetDistance: "All",
+       surface: prev.surface === "Track" || prev.surface === "Treadmill" || prev.surface === "Trail" ? "All" : prev.surface
+     }));
+   } else if (isRunning) {
+     if (selectedPresetId) {
+       const activePreset = FILTER_PRESETS.find(p => p.id === selectedPresetId);
+       if (activePreset && (activePreset.group === "support" || activePreset.entryType === "support-routine")) {
+         setSelectedPresetId(null);
+       }
+     }
+     setFilters(prev => ({
+       ...prev,
+       category: "All"
+     }));
+   }
+ }, [selectedDistance, selectedPresetId]);
+
  // Sync pending builder templates on page load
  useEffect(() => {
   if (activeRoute === "builder") {
@@ -873,7 +911,7 @@ export default function App() {
  </header>
 
  {/* 4. Main content pages view framework */}
- <main className="flex-1 w-full page-container py-8 flex flex-col justify-start">
+ <main className="flex-1 w-full page-container pt-10 pb-16 flex flex-col justify-start">
  
  {/* ====================================
  PAGE 1: HOME PAGE (activeRoute === "home") 
@@ -1315,11 +1353,55 @@ export default function App() {
  )}
  </div>
  <p className="text-[10px] font-mono text-slate-500 font-bold uppercase tracking-wider">
- {selectedPresetId ? (
-   `Showing ${sortedCombined.length} Filtered by ${FILTER_PRESETS.find(p => p.id === selectedPresetId)?.label} entries`
- ) : (
-   `Showing ${sortedCombined.length} of ${allLibraryCombined.length} workouts`
- )}
+ {(() => {
+   const isSupport = selectedDistance === "All Support" || 
+     trackVaultNavigation.supportNavigation.some(
+       (nav) => nav.label.toLowerCase() === selectedDistance.toLowerCase() || nav.id.toLowerCase() === selectedDistance.toLowerCase()
+     );
+   
+   let totalInTrack = allLibraryCombined.length;
+   let labelUnits = "workouts";
+
+   if (isSupport) {
+     labelUnits = "support routines";
+     if (selectedDistance === "All Support") {
+       totalInTrack = allLibraryCombined.filter(w => w.entryType === "support-routine").length;
+     } else {
+       const item = trackVaultNavigation.supportNavigation.find(
+         (nav) => nav.label.toLowerCase() === selectedDistance.toLowerCase() || nav.id.toLowerCase() === selectedDistance.toLowerCase()
+       );
+       if (item) {
+         totalInTrack = allLibraryCombined.filter(w => w.entryType === "support-routine" && w.supportCategoryId?.toLowerCase() === item.id.toLowerCase()).length;
+       } else {
+         totalInTrack = allLibraryCombined.filter(w => w.entryType === "support-routine").length;
+       }
+     }
+   } else {
+     labelUnits = "running workouts";
+     if (selectedDistance === "All Running" || selectedDistance === "All Workouts") {
+       totalInTrack = allLibraryCombined.filter(w => w.entryType !== "support-routine").length;
+       if (selectedDistance === "All Workouts") {
+         labelUnits = "workouts";
+         totalInTrack = allLibraryCombined.length;
+       }
+     } else {
+       const item = trackVaultNavigation.runningNavigation.find(
+         (nav) => nav.label.toLowerCase() === selectedDistance.toLowerCase() || nav.id.toLowerCase() === selectedDistance.toLowerCase()
+       );
+       if (item) {
+         totalInTrack = allLibraryCombined.filter(w => w.entryType !== "support-routine" && w.distanceNavId?.toLowerCase() === item.id.toLowerCase()).length;
+       } else {
+         totalInTrack = allLibraryCombined.filter(w => w.entryType !== "support-routine").length;
+       }
+     }
+   }
+
+   if (selectedPresetId) {
+     const presetLabel = FILTER_PRESETS.find(p => p.id === selectedPresetId)?.label;
+     return `Showing ${sortedCombined.length} Filtered by ${presetLabel} (${labelUnits})`;
+   }
+   return `Showing ${sortedCombined.length} of ${totalInTrack} ${labelUnits}`;
+ })()}
  </p>
  </div>
 

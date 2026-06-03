@@ -75,7 +75,7 @@ export function DashboardHero({ staticWorkouts, localWorkoutsList, onNavigate }:
           Active Release v1.2
         </div>
         
-        <h1 className="text-3xl sm:text-4xl font-extrabold tracking-tight leading-normal pt-2 pb-1 text-slate-900 uppercase font-display">
+        <h1 className="text-3xl sm:text-4xl font-extrabold tracking-tight leading-relaxed pt-4 pb-1 text-slate-900 uppercase font-display">
           Track.Vault Workout Library
         </h1>
         
