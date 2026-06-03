@@ -215,7 +215,7 @@ export function RunningWorkoutDetail({
             Visual Session Analysis
           </h3>
           <p className="text-xs text-slate-400 font-mono mt-1 pl-3.5">
-            Deterministic sports science graphs constructed directly from raw prescription telemetry.
+            Deterministic sports science graphs constructed directly from raw prescription sequence parameters.
           </p>
         </div>
 
