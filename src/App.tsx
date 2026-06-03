@@ -22,9 +22,31 @@ import {
  saveWorkoutLocally, 
  deleteSavedWorkout 
 } from "./lib/localWorkouts";
+import {
+  getSavedVaultItems,
+  saveVaultItem,
+  updateSavedVaultItem,
+  deleteSavedVaultItem,
+  duplicateSavedVaultItem,
+  togglePinnedSavedItem,
+  clearSavedVault,
+  filterSavedVaultItems,
+  searchSavedVaultItems,
+  SavedVaultItem
+} from "./lib/savedVault";
+import {
+  getCompareTray,
+  isItemInCompareTray,
+  addToCompareTray,
+  removeFromCompareTray,
+  clearCompareTray,
+  CompareTrayItem
+} from "./lib/compareEntries";
+import { createBuilderDraftFromEntry } from "./lib/libraryToBuilder";
 import { copyToClipboard } from "./lib/clipboard";
 import { trackVaultNavigation } from "./data/workouts/trackVaultNavigation.v1.2";
 import { Workout } from "./types/workout";
+import { Pin, Trash2, Edit, Check, Search, GitCompare } from "lucide-react";
 
 // Import modular UI components
 import { EmptyLibraryState } from "./components/library/EmptyLibraryState";
@@ -37,6 +59,11 @@ import { DifficultyBadge } from "./components/library/DifficultyBadge";
 import { RiskBadge } from "./components/library/RiskBadge";
 import { FilterPresetBar } from "./components/library/FilterPresetBar";
 import { FILTER_PRESETS } from "./lib/filterPresets";
+
+// Compare elements
+import CompareBar from "./components/compare/CompareBar";
+import CompareDrawer from "./components/compare/CompareDrawer";
+import BuilderQualityChecklist from "./components/builder/BuilderQualityChecklist";
 
 // Import Builder components
 import { WorkoutBasicInfoForm } from "./components/builder/WorkoutBasicInfoForm";
@@ -59,6 +86,10 @@ import { TrackVaultIcon } from "./components/icons/trackVaultIcons";
 
 // Icons
 import {
+ Sparkles,
+ Dumbbell,
+ ShieldAlert,
+ Sliders,
  Zap,
  BookOpen,
  PlusCircle,
@@ -87,6 +118,56 @@ export default function App() {
  const [isMobileSidebarOpen, setIsMobileSidebarOpen] = useState(false);
  
  const [toast, setToast] = useState<{ message: string; type: "success" | "error" | "info" } | null>(null);
+
+ // Compare states
+ const [compareItems, setCompareItems] = useState<CompareTrayItem[]>([]);
+ const [isCompareDrawerOpen, setIsCompareDrawerOpen] = useState(false);
+
+ useEffect(() => {
+   // Synchronize compare tray on mount
+   setCompareItems(getCompareTray());
+ }, []);
+
+ const handleToggleCompare = (entry: any) => {
+   if (isItemInCompareTray(entry)) {
+     const list = getCompareTray();
+     const targetId = entry.localId || entry.id;
+     const targetSlug = entry.slug;
+     const found = list.find(item => 
+       (targetId && (item.entryId === targetId || item.localId === targetId)) ||
+       (targetSlug && item.slug === targetSlug)
+     );
+     if (found) {
+       const updated = removeFromCompareTray(found.localCompareId);
+       setCompareItems(updated);
+       showToast("Removed from comparison tray.", "info");
+     }
+   } else {
+     const result = addToCompareTray(entry);
+     if (result.success) {
+       setCompareItems(result.items);
+       showToast("Added to comparison tray!", "success");
+     } else if (result.error === "limit_reached") {
+       if (confirm("Comparison tray limit of 3 reached. Would you like to replace the oldest slot with this new workout?")) {
+         const forceResult = addToCompareTray(entry, { forceReplaceOldest: true });
+         setCompareItems(forceResult.items);
+         showToast("Replaced oldest slot with new selection.", "success");
+       }
+     }
+   }
+ };
+
+ const handleRemoveCompareItem = (localCompareId: string) => {
+   const updated = removeFromCompareTray(localCompareId);
+   setCompareItems(updated);
+   showToast("Removed from comparison.", "info");
+ };
+
+ const handleClearCompare = () => {
+   clearCompareTray();
+   setCompareItems([]);
+   showToast("Comparison tray cleared.", "info");
+ };
 
  const showToast = (message: string, type: "success" | "error" | "info" = "success") => {
    setToast({ message, type });
@@ -156,14 +237,22 @@ export default function App() {
 
  // Local storage cache trigger
  const [localWorkoutsList, setLocalWorkoutsList] = useState<Workout[]>([]);
+  const [localSavedItems, setLocalSavedItems] = useState<SavedVaultItem[]>([]);
+  const [savedSearchQuery, setSavedSearchQuery] = useState("");
+  const [savedCategoryFilter, setSavedCategoryFilter] = useState("all");
+  const [savedSortBy, setSavedSortBy] = useState("recent");
+  const [editingItem, setEditingItem] = useState<SavedVaultItem | null>(null);
+  const [editNotes, setEditNotes] = useState("");
+  const [editTagsInput, setEditTagsInput] = useState("");
  const [clipboardFeedback, setClipboardFeedback] = useState(false);
  const [clipboardText, setClipboardText] = useState("");
  const [showClipboardOverlay, setShowClipboardOverlay] = useState(false);
+	const [exportShowBrandFooter, setExportShowBrandFooter] = useState(true);
 
  // Listen to Hash Changes for state routing
  useEffect(() => {
  // Sync localStorage list
- setLocalWorkoutsList(getSavedWorkouts());
+ refreshLocalSaved();
 
  document.documentElement.classList.remove("dark");
 
@@ -197,6 +286,26 @@ export default function App() {
  };
  }, []);
 
+ // Sync pending builder templates on page load
+ useEffect(() => {
+  if (activeRoute === "builder") {
+    try {
+      const pendingValue = localStorage.getItem("trackvault_pending_builder_draft");
+      if (pendingValue) {
+        const draft = JSON.parse(pendingValue);
+        setBuilderWorkout(draft);
+        if (draft.intensityGuide) {
+          setBuilderIntensityGuide(draft.intensityGuide);
+        }
+        localStorage.removeItem("trackvault_pending_builder_draft");
+        showToast(`Template "${draft.title}" loaded successfully!`, "success");
+      }
+    } catch (e) {
+      console.error("Failed to parse pending builder template:", e);
+    }
+  }
+ }, [activeRoute]);
+
  const navigateTo = (route: string) => {
  window.location.hash = `#/${route}`;
  // Scroll window back to top on navigation actions
@@ -205,8 +314,19 @@ export default function App() {
 
  // Saved local storage actions
  const refreshLocalSaved = () => {
- setLocalWorkoutsList(getSavedWorkouts());
- };
+    const items = getSavedVaultItems();
+    setLocalSavedItems(items);
+    setLocalWorkoutsList(items.map(it => ({
+      ...it.data,
+      id: it.localId,
+      localId: it.localId,
+      pinned: it.pinned,
+      localTags: it.localTags,
+      notes: it.notes,
+      savedAt: it.savedAt,
+      slug: it.slug || `local-${it.localId}`
+    })));
+  };
 
  const handleSaveLocalCustom = () => {
  if (!builderWorkout.title || !builderWorkout.summary) {
@@ -225,25 +345,38 @@ export default function App() {
  createdAt: builderWorkout.createdAt || new Date().toISOString(),
  };
 
- saveWorkoutLocally(completeWorkout);
+ saveVaultItem(completeWorkout);
  refreshLocalSaved();
  showToast("Workout successfully saved to your browser local vault!", "success");
  navigateTo("saved");
  };
 
  const handleDuplicateToBuilder = (workout: Workout) => {
- setBuilderWorkout({
- ...workout,
- id: `custom-${Math.random().toString(36).substr(2, 9)}`, // Give fresh ID so it's a clone
- slug: `${workout.slug}-clone`,
- title: `${workout.title} (Clone)`,
- isCustom: true,
- createdAt: new Date().toISOString(),
- });
- if (workout.intensityGuide) {
- setBuilderIntensityGuide(workout.intensityGuide);
- }
- navigateTo("builder");
+  const draft = createBuilderDraftFromEntry(workout);
+  if (!draft) {
+    showToast("Could not create template draft from this entry.", "error");
+    return;
+  }
+  
+  try {
+    localStorage.setItem("trackvault_pending_builder_draft", JSON.stringify(draft));
+  } catch (e) {
+    console.error("Failed to write pending builder draft to localStorage:", e);
+  }
+  
+  setBuilderWorkout(draft);
+  if (draft.intensityGuide) {
+    setBuilderIntensityGuide(draft.intensityGuide);
+  } else {
+    setBuilderIntensityGuide({
+      warmup: "Easy jogging below aerobic threshold",
+      mainSet: "Target pacing zone based on goal velocity",
+      cooldown: "Light active recovery stroll",
+    });
+  }
+  
+  showToast(`Loaded "${workout.title}" as custom editable template!`, "success");
+  navigateTo("builder");
  };
 
  const handleSelectForExport = (workout: Workout) => {
@@ -285,7 +418,281 @@ export default function App() {
    }
  }
 
- const sortedCombined = sortWorkouts(finalWorkoutsBeforeSort, sortKey);
+ 
+  // Saved Vault Action Handlers
+  const handleTogglePin = (localId: string) => {
+    togglePinnedSavedItem(localId);
+    refreshLocalSaved();
+    showToast("Pin state updated!", "success");
+  };
+
+  const handleDuplicateSaved = (localId: string) => {
+    const updated = duplicateSavedVaultItem(localId);
+    refreshLocalSaved();
+    showToast("Duplicated saved item successfully!", "success");
+  };
+
+  const handleDeleteSaved = (localId: string, title: string) => {
+    if (confirm(`Are you sure you want to permanently delete "${title}"?`)) {
+      deleteSavedVaultItem(localId);
+      refreshLocalSaved();
+      showToast(`Deleted "${title}" successfully.`, "success");
+    }
+  };
+
+  const handleOpenEditDialog = (item: SavedVaultItem) => {
+    setEditingItem(item);
+    setEditNotes(item.notes || "");
+    setEditTagsInput((item.localTags || []).join(", "));
+  };
+
+  const handleSaveEditChanges = () => {
+    if (!editingItem) return;
+    const tagsArray = editTagsInput
+      .split(",")
+      .map(t => t.trim())
+      .filter(t => t.length > 0);
+    
+    updateSavedVaultItem(editingItem.localId, {
+      notes: editNotes,
+      localTags: tagsArray
+    });
+    
+    setEditingItem(null);
+    refreshLocalSaved();
+    showToast("Annotation saved successfully!", "success");
+  };
+
+  const renderSavedCard = (item: SavedVaultItem) => {
+    const d = item.data || {};
+    const isSupport = item.entryType?.includes("support") || d.sessionStructure || d.supportCategoryLabel;
+    
+    const typeLabel = item.entryType === "running-workout"
+      ? "Curated Workout"
+      : item.entryType === "support-routine"
+        ? "Curated Support"
+        : item.entryType === "custom-running-workout"
+          ? "Custom Running"
+          : "Custom Support";
+          
+    const typeColor = item.entryType === "running-workout"
+      ? "bg-violet-50 text-violet-700 border-violet-100"
+      : item.entryType === "support-routine"
+        ? "bg-teal-50 text-teal-700 border-teal-100"
+        : item.entryType === "custom-running-workout"
+          ? "bg-emerald-50 text-emerald-700 border-emerald-100"
+          : "bg-blue-50 text-blue-700 border-blue-100";
+          
+    const savedDateFormatted = new Date(item.savedAt).toLocaleDateString(undefined, {
+      month: "short",
+      day: "numeric",
+      year: "numeric"
+    });
+    
+    return (
+      <div key={item.localId} className="bg-white border border-slate-200 rounded-3xl p-5 hover:border-blue-500 hover:shadow-md transition-all flex flex-col justify-between relative group animate-fade-in text-slate-800">
+        <div>
+          {/* Top category row & Pinned Badge */}
+          <div className="flex justify-between items-start gap-1 pb-2">
+            <div className="flex flex-wrap gap-1 items-center">
+              <span className={`text-[9px] font-mono font-bold uppercase tracking-wide border px-1.5 py-0.5 rounded-md ${typeColor}`}>
+                {typeLabel}
+              </span>
+              {item.pinned && (
+                <span className="bg-orange-50 text-orange-600 text-[9px] border border-orange-100 px-1.5 py-0.5 rounded-md font-mono font-bold flex items-center gap-0.5">
+                  <Pin className="w-2.5 h-2.5" /> PINNED
+                </span>
+              )}
+            </div>
+            
+            <button
+              onClick={() => handleTogglePin(item.localId)}
+              title={item.pinned ? "Unpin this entry" : "Pin this entry to the top"}
+              className={`p-1 rounded-lg border border-slate-200 bg-slate-50 hover:bg-orange-50 hover:border-orange-200 text-slate-400 hover:text-orange-550 cursor-pointer transition-colors ${
+                item.pinned ? "text-orange-500 border-orange-100 bg-orange-50/40" : ""
+              }`}
+            >
+              <Pin className="w-3.5 h-3.5" />
+            </button>
+          </div>
+          
+          {/* Title */}
+          <h3 className="text-base font-bold text-slate-900 tracking-tight leading-snug font-display mt-1 group-hover:text-blue-650 transition-colors line-clamp-1">
+            {item.title}
+          </h3>
+          
+          {/* Source Entry Detail References */}
+          {item.createdFromLibrary ? (
+            <p className="text-[10px] text-slate-400 font-semibold italic mt-0.5 line-clamp-1">
+              {item.sourceEntryTitle ? `Copy • Based on: ${item.sourceEntryTitle}` : "Curated adaptation"}
+            </p>
+          ) : (
+            <p className="text-[10px] text-emerald-600 font-mono font-black uppercase tracking-wider mt-0.5">
+              ✦ Custom Design Craft
+            </p>
+          )}
+          
+          <span className="text-[9px] text-slate-400 font-mono font-bold uppercase tracking-wider block mt-1.5">
+            Saved {savedDateFormatted}
+          </span>
+          
+          {/* Structure Metrics */}
+          <div className="grid grid-cols-2 gap-2 my-3 p-2.5 bg-slate-50 border border-slate-150 rounded-xl text-center">
+            <div>
+              <span className="text-[8px] font-mono uppercase tracking-wider text-slate-400 block font-bold">
+                {isSupport ? "Focus Type" : "Distance"}
+              </span>
+              <span className="text-[10px] font-bold text-slate-800 font-mono truncate block">
+                {isSupport 
+                  ? (d.supportCategoryLabel || d.routineType || "Support Group")
+                  : (d.rawDistance && typeof d.rawDistance === "object"
+                    ? `${d.rawDistance.min}-${d.rawDistance.max}k`
+                    : d.estimatedDistanceKm ? `~${d.estimatedDistanceKm}k` : "Track Set")}
+              </span>
+            </div>
+            <div className="border-l border-slate-200">
+              <span className="text-[8px] font-mono uppercase tracking-wider text-slate-400 block font-bold">
+                Duration
+              </span>
+              <span className="text-[10px] font-bold text-slate-800 font-mono truncate block">
+                {d.rawDuration && typeof d.rawDuration === "object"
+                  ? `${d.rawDuration.min}-${d.rawDuration.max}m`
+                  : d.estimatedDurationMin ? `~${d.estimatedDurationMin}m` : "Untimed"}
+              </span>
+            </div>
+          </div>
+          
+          {/* Local Note Section */}
+          {item.notes && (
+            <div className="my-2.5 p-2 bg-amber-50/50 border border-amber-100 rounded-xl text-[11px] leading-relaxed italic text-slate-600">
+              <span className="font-bold text-amber-800 font-mono text-[9px] uppercase tracking-wide block not-italic leading-none mb-1">
+                Local Training Note:
+              </span>
+              "${item.notes}"
+            </div>
+          )}
+          
+          {/* Local Tags badging */}
+          {item.localTags && item.localTags.length > 0 && (
+            <div className="flex flex-wrap gap-1 my-2">
+              {item.localTags.map((tag, i) => (
+                <span key={i} className="bg-slate-100 text-slate-600 text-[8px] font-bold px-1.5 py-0.5 rounded uppercase tracking-wide border border-slate-200">
+                  #{tag}
+                </span>
+              ))}
+            </div>
+          )}
+        </div>
+        
+        {/* Actions Button Bar */}
+        <div className="mt-4 pt-3.5 border-t border-slate-150 flex flex-col gap-2">
+          {/* Row 1 Primary actions */}
+          <div className="flex gap-1">
+            <button
+              onClick={() => {
+                setSelectedSlug(item.slug || `local-${item.localId}`);
+                navigateTo(`library/${item.slug || `local-${item.localId}`}`);
+              }}
+              className="flex-1 py-1 px-2.5 rounded-lg border border-slate-200 bg-[#0F172A] hover:bg-slate-800 text-white hover:text-slate-100 cursor-pointer text-[10px] font-bold font-mono uppercase tracking-wider text-center"
+            >
+              Inspect
+            </button>
+            
+            <button
+              onClick={() => {
+                const completeWorkout = {
+                  ...item.data,
+                  id: item.localId,
+                  slug: item.slug || `local-${item.localId}`,
+                  isCustom: true
+                };
+                handleDuplicateToBuilder(completeWorkout);
+              }}
+              className="flex-1 py-1 px-2.5 rounded-lg border border-blue-200 bg-blue-50 text-blue-600 hover:bg-blue-600 hover:text-white hover:border-blue-600 cursor-pointer text-[10px] font-bold font-mono uppercase tracking-wider text-center transition-all"
+            >
+              Use Draft
+            </button>
+          </div>
+          
+          {/* Row 2 Admin secondary Actions */}
+          <div className="flex justify-between items-center gap-1">
+            <button
+              onClick={() => handleOpenEditDialog(item)}
+              className="text-[9px] font-bold text-slate-500 hover:text-blue-600 flex items-center gap-1 font-mono uppercase cursor-pointer"
+              title="Edit notes & tags"
+            >
+              <Edit className="w-3 h-3" /> Note/Tag
+            </button>
+            
+            <div className="flex gap-1">
+              <button
+                onClick={() => {
+                  const completeWorkout = {
+                    ...item.data,
+                    id: item.localId,
+                    localId: item.localId,
+                    slug: item.slug || `local-${item.localId}`,
+                    title: item.title,
+                    summary: item.notes || item.data?.summary || "",
+                    isCustom: true,
+                    entryType: item.entryType
+                  };
+                  handleToggleCompare(completeWorkout);
+                }}
+                className={`p-1.5 rounded-lg border cursor-pointer transition-colors ${
+                  isItemInCompareTray({
+                    id: item.localId,
+                    localId: item.localId,
+                    slug: item.slug || `local-${item.localId}`
+                  })
+                    ? "bg-blue-600 border-blue-600 text-white hover:bg-blue-700"
+                    : "border-slate-200 bg-slate-50 hover:bg-blue-50 hover:text-blue-600 hover:border-blue-200 text-slate-500"
+                }`}
+                title="Toggle Workout Comparison State"
+              >
+                <GitCompare className="w-3 h-3" />
+              </button>
+
+              <button
+                onClick={() => {
+                  const completeWorkout = {
+                    ...item.data,
+                    id: `custom-export-${item.localId}`,
+                    slug: `custom-export-${item.localId}`,
+                    isCustom: true
+                  };
+                  setExportSelectedWorkout(completeWorkout);
+                  navigateTo("export");
+                }}
+                className="p-1.5 rounded-lg border border-slate-200 bg-slate-50 hover:bg-blue-50 hover:text-blue-600 hover:border-blue-200 text-slate-500 cursor-pointer transition-colors"
+                title="Open Sharing Cards Export Studio"
+              >
+                <Share2 className="w-3 h-3" />
+              </button>
+              
+              <button
+                onClick={() => handleDuplicateSaved(item.localId)}
+                className="p-1.5 rounded-lg border border-slate-200 bg-slate-50 hover:bg-slate-100 text-slate-500 cursor-pointer transition-colors"
+                title="Duplicate entry in Saved Vault list"
+              >
+                <Copy className="w-3 h-3" />
+              </button>
+              
+              <button
+                onClick={() => handleDeleteSaved(item.localId, item.title)}
+                className="p-1.5 rounded-lg border border-rose-100 bg-rose-50 hover:bg-rose-100 text-rose-600 cursor-pointer transition-colors"
+                title="Delete from browser cache"
+              >
+                <Trash2 className="w-3 h-3" />
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+  };
+
+  const sortedCombined = sortWorkouts(finalWorkoutsBeforeSort, sortKey);
 
  const filterMetrics = getAllWorkouts().length > 0 ? getWorkoutIndex() : null;
 
@@ -985,6 +1392,8 @@ export default function App() {
  }}
  onDuplicateInBuilder={handleDuplicateToBuilder}
  onExportCard={handleSelectForExport}
+ isInCompare={isItemInCompareTray(w)}
+ onToggleCompare={handleToggleCompare}
  />
  ))}
  </div>
@@ -1046,6 +1455,8 @@ export default function App() {
       onCopyMarkdown={(w) => handleCopyClipboardText(w, "structured-markdown")}
       onExport={(w) => handleSelectForExport(w)}
       onClone={(w) => handleDuplicateToBuilder(w)}
+      isInCompare={workout ? isItemInCompareTray(workout) : false}
+      onToggleCompare={handleToggleCompare}
     />
   );
  })()}
@@ -1070,6 +1481,69 @@ export default function App() {
  </p>
  </div>
 
+ {/* Curated Library Draft Banner */}
+ {builderWorkout.createdFromLibrary && (
+  <div className="bg-blue-50 border border-blue-200 rounded-3xl p-5 mb-4 flex flex-col md:flex-row md:items-center justify-between gap-4 font-sans text-xs">
+    <div className="flex items-start gap-3">
+      <div className="w-9 h-9 rounded-xl bg-blue-600 text-white flex items-center justify-center font-bold shrink-0 shadow-xs">
+        <Sparkles className="w-5 h-5 animate-pulse" />
+      </div>
+      <div>
+        <h4 className="text-sm font-black font-display text-slate-900 uppercase tracking-tight flex items-center gap-1.5 leading-none">
+          Draft Created from Curated Template
+        </h4>
+        <div className="flex flex-wrap items-center gap-x-2 gap-y-1 mt-1.5 text-slate-500 font-medium select-none">
+          <span>Based on:</span>
+          <span className="font-bold text-slate-850">{builderWorkout.sourceEntryTitle || "Curated Template"}</span>
+          <span className="text-slate-300">|</span>
+          <span className="font-bold font-mono text-[9px] uppercase tracking-wider bg-blue-100 text-blue-700 px-1.5 py-0.5 rounded">
+            {builderWorkout.sourceEntryType === "support-routine" ? "Support Routine" : "Running Workout"}
+          </span>
+          {builderWorkout.distanceNavId && (
+            <>
+              <span className="text-slate-300">|</span>
+              <span className="font-bold uppercase font-mono text-[9px] bg-slate-100 text-slate-700 px-1.5 py-0.5 rounded animate-pulse-slow">
+                Category: {builderWorkout.distanceNavId}
+              </span>
+            </>
+          )}
+        </div>
+        <p className="text-[11px] text-slate-400 mt-2 leading-relaxed font-semibold">
+          This is a local editable draft clone of the curated database entry. The original curated library entry remains strictly immutable and unaffected.
+        </p>
+      </div>
+    </div>
+    
+    <div className="flex items-center gap-2 self-end md:self-center shrink-0">
+      {builderWorkout.sourceEntrySlug && (
+        <button
+          onClick={() => {
+            setSelectedSlug(builderWorkout.sourceEntrySlug);
+            navigateTo(`library/${builderWorkout.sourceEntrySlug}`);
+          }}
+          className="px-3 py-1.5 bg-white text-blue-600 hover:text-blue-700 border border-blue-200 hover:border-blue-300 font-bold font-mono text-[9px] uppercase rounded-xl transition-all cursor-pointer shadow-xs"
+        >
+          View Original Info
+        </button>
+      )}
+      <button
+        onClick={() => {
+          setBuilderWorkout(prev => ({
+            ...prev,
+            createdFromLibrary: false,
+            sourceEntrySlug: undefined,
+            sourceEntryId: undefined,
+            sourceEntryTitle: undefined
+          }));
+        }}
+        className="px-3 py-1.5 bg-slate-205 hover:bg-slate-300 text-slate-700 font-bold font-mono text-[9px] uppercase rounded-xl transition-all cursor-pointer"
+      >
+        Dismiss
+      </button>
+    </div>
+  </div>
+ )}
+
  <div className="grid grid-cols-1 xl:grid-cols-12 gap-6 items-start">
  
  {/* Left side editor form card components */}
@@ -1081,26 +1555,171 @@ export default function App() {
  onIntensityGuideChange={(guide) => setBuilderIntensityGuide(guide)}
  />
 
- <WorkoutBlockEditor
- label="1. Warm-Up prescription Steps"
- blocks={builderWorkout.warmup || []}
- onChange={(blocks) => setBuilderWorkout({ ...builderWorkout, warmup: blocks })}
- defaultType="warmup"
- />
+  {builderWorkout.entryType === "custom-support-routine" ? (
+    <div className="space-y-6">
+      {/* Alert Info Box */}
+      <div className="bg-amber-50 border border-amber-200 rounded-2xl p-4.5 flex items-start gap-3 text-xs font-sans">
+        <div className="text-amber-600 shrink-0 mt-0.5">
+          <ShieldAlert className="w-4 h-4" />
+        </div>
+        <div>
+          <p className="font-bold text-amber-800">Support Routine Customization Active</p>
+          <p className="text-amber-700 mt-0.5 leading-relaxed font-semibold">
+            Support routine templates are designed as continuous loops instead of running repetition steps. Customize metadata, accessories list, target body focus, and the structural session sets below.
+          </p>
+        </div>
+      </div>
 
- <WorkoutBlockEditor
- label="2. Main set Prescription steps"
- blocks={builderWorkout.mainSet || []}
- onChange={(blocks) => setBuilderWorkout({ ...builderWorkout, mainSet: blocks })}
- defaultType="interval"
- />
+      {/* Configuration Grid */}
+      <div className="bg-white border border-[#E2E8F0] rounded-2xl p-6 space-y-4 shadow-sm font-sans">
+        <h3 className="text-xs font-mono font-bold uppercase tracking-wider text-[#0F172A] flex items-center gap-2">
+          <Dumbbell className="w-4 h-4 text-blue-600" /> Support Routine Configuration
+        </h3>
+        
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+          <div className="space-y-1">
+            <label className="text-xs font-bold text-slate-600">Support Category Label</label>
+            <input
+              type="text"
+              value={builderWorkout.supportCategoryLabel || ""}
+              onChange={(e) => setBuilderWorkout({ ...builderWorkout, supportCategoryLabel: e.target.value })}
+              placeholder="e.g. Injury Warm-up"
+              className="w-full p-2.5 bg-[#F8FAFC] border border-[#E2E8F0] text-sm rounded-xl text-[#0F172A] focus:outline-none font-semibold"
+            />
+          </div>
+          <div className="space-y-1">
+            <label className="text-xs font-bold text-slate-600">Routine Type</label>
+            <input
+              type="text"
+              value={builderWorkout.routineType || ""}
+              onChange={(e) => setBuilderWorkout({ ...builderWorkout, routineType: e.target.value })}
+              placeholder="e.g. Mobility"
+              className="w-full p-2.5 bg-[#F8FAFC] border border-[#E2E8F0] text-sm rounded-xl text-[#0F172A] focus:outline-none font-semibold"
+            />
+          </div>
+          <div className="space-y-1">
+            <label className="text-xs font-bold text-slate-600">Duration (Minutes)</label>
+            <input
+              type="number"
+              value={builderWorkout.durationMin || builderWorkout.estimatedDurationMin || 15}
+              onChange={(e) => setBuilderWorkout({ 
+                ...builderWorkout, 
+                durationMin: parseInt(e.target.value) || 15, 
+                estimatedDurationMin: parseInt(e.target.value) || 15 
+              })}
+              className="w-full p-2.5 bg-[#F8FAFC] border border-[#E2E8F0] text-sm rounded-xl text-[#0F172A] focus:outline-none font-semibold"
+            />
+          </div>
+          <div className="space-y-1 sm:col-span-2 md:col-span-3">
+            <label className="text-xs font-bold text-slate-600">Equipment / Accessories List (comma isolated)</label>
+            <input
+              type="text"
+              value={builderWorkout.equipment ? builderWorkout.equipment.join(", ") : ""}
+              onChange={(e) => setBuilderWorkout({ 
+                ...builderWorkout, 
+                equipment: e.target.value.split(",").map(itm => itm.trim()).filter(Boolean) 
+              })}
+              placeholder="e.g. Foam Roller, Resistance Loop Band"
+              className="w-full p-2.5 bg-[#F8FAFC] border border-[#E2E8F0] text-sm rounded-xl text-[#0F172A] focus:outline-none font-semibold"
+            />
+          </div>
+          <div className="space-y-1 sm:col-span-1 md:col-span-1.5">
+            <label className="text-xs font-bold text-slate-600">Target Body Focus (comma isolated)</label>
+            <input
+              type="text"
+              value={builderWorkout.bodyFocus ? builderWorkout.bodyFocus.join(", ") : ""}
+              onChange={(e) => setBuilderWorkout({ 
+                ...builderWorkout, 
+                bodyFocus: e.target.value.split(",").map(itm => itm.trim()).filter(Boolean) 
+              })}
+              placeholder="e.g. Quads, Glutes, IT-Band"
+              className="w-full p-2.5 bg-[#F8FAFC] border border-[#E2E8F0] text-sm rounded-xl text-[#0F172A] focus:outline-none font-semibold"
+            />
+          </div>
+          <div className="space-y-1 sm:col-span-1 md:col-span-1.5">
+            <label className="text-xs font-bold text-slate-600">Key Movement Goals (comma isolated)</label>
+            <input
+              type="text"
+              value={builderWorkout.movementGoals ? builderWorkout.movementGoals.join(", ") : ""}
+              onChange={(e) => setBuilderWorkout({ 
+                ...builderWorkout, 
+                movementGoals: e.target.value.split(",").map(itm => itm.trim()).filter(Boolean) 
+              })}
+              placeholder="e.g. Foam Rolling, Dynamic Range"
+              className="w-full p-2.5 bg-[#F8FAFC] border border-[#E2E8F0] text-sm rounded-xl text-[#0F172A] focus:outline-none font-semibold"
+            />
+          </div>
+        </div>
+      </div>
 
- <WorkoutBlockEditor
- label="3. Cooldown prescription Steps"
- blocks={builderWorkout.cooldown || []}
- onChange={(blocks) => setBuilderWorkout({ ...builderWorkout, cooldown: blocks })}
- defaultType="cooldown"
- />
+      {/* Session Exercises Structure */}
+      <div className="bg-white border border-[#E2E8F0] rounded-2xl p-6 space-y-4 shadow-sm font-sans font-semibold text-slate-800">
+        <h3 className="text-xs font-mono font-bold uppercase tracking-wider text-[#0F172A] flex items-center gap-2">
+          <Sliders className="w-4 h-4 text-blue-600" /> Session Exercises Structure
+        </h3>
+        <p className="text-[11px] text-slate-400 font-sans font-medium">Describe step-by-step reps, sets, timing durations, or foam roller instructions in prose or outlines.</p>
+        <textarea
+          rows={10}
+          value={typeof builderWorkout.sessionStructure === "string" ? builderWorkout.sessionStructure : ""}
+          onChange={(e) => setBuilderWorkout({ ...builderWorkout, sessionStructure: e.target.value })}
+          placeholder="Step 1: Roll outer calves 10 passes each side..."
+          className="w-full p-3 bg-[#F8FAFC] border border-[#E2E8F0] text-xs rounded-xl text-[#0F172A] focus:outline-none font-mono"
+        />
+      </div>
+
+      {/* Routine Variants */}
+      <div className="bg-white border border-[#E2E8F0] rounded-2xl p-6 space-y-4 shadow-sm font-sans font-medium">
+        <h3 className="text-xs font-mono font-bold uppercase tracking-wider text-[#0F172A] flex items-center gap-2">
+          <Compass className="w-4 h-4 text-blue-600" /> Routine Grade Variants
+        </h3>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div className="space-y-1">
+            <label className="text-xs font-bold text-slate-600">Easier Variant Level</label>
+            <textarea
+              rows={3}
+              value={typeof builderWorkout.easierVariant === "string" ? builderWorkout.easierVariant : ""}
+              onChange={(e) => setBuilderWorkout({ ...builderWorkout, easierVariant: e.target.value })}
+              placeholder="e.g. Perform exercises on floor with support"
+              className="w-full p-2.5 bg-[#F8FAFC] border border-[#E2E8F0] text-xs rounded-xl focus:outline-none font-sans font-semibold text-slate-750"
+            />
+          </div>
+          <div className="space-y-1">
+            <label className="text-xs font-bold text-slate-600">Harder Variant Level</label>
+            <textarea
+              rows={3}
+              value={typeof builderWorkout.harderVariant === "string" ? builderWorkout.harderVariant : ""}
+              onChange={(e) => setBuilderWorkout({ ...builderWorkout, harderVariant: e.target.value })}
+              placeholder="e.g. Elevate legs or increase resistance loops"
+              className="w-full p-2.5 bg-[#F8FAFC] border border-[#E2E8F0] text-xs rounded-xl focus:outline-none font-sans font-semibold text-slate-750"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  ) : (
+    <>
+    <WorkoutBlockEditor
+    label="1. Warm-Up prescription Steps"
+    blocks={builderWorkout.warmup || []}
+    onChange={(blocks) => setBuilderWorkout({ ...builderWorkout, warmup: blocks })}
+    defaultType="warmup"
+    />
+
+    <WorkoutBlockEditor
+    label="2. Main set Prescription steps"
+    blocks={builderWorkout.mainSet || []}
+    onChange={(blocks) => setBuilderWorkout({ ...builderWorkout, mainSet: blocks })}
+    defaultType="interval"
+    />
+
+    <WorkoutBlockEditor
+    label="3. Cooldown prescription Steps"
+    blocks={builderWorkout.cooldown || []}
+    onChange={(blocks) => setBuilderWorkout({ ...builderWorkout, cooldown: blocks })}
+    defaultType="cooldown"
+    />
+    </>
+  )}
 
  <WorkoutNotesEditor
  coachingNotes={builderWorkout.coachingNotes || []}
@@ -1128,6 +1747,12 @@ export default function App() {
  ...builderWorkout,
  intensityGuide: builderIntensityGuide,
  }}
+ />
+
+ <BuilderQualityChecklist 
+   workout={builderWorkout} 
+   intensityGuide={builderIntensityGuide}
+   entryType={builderWorkout.entryType} 
  />
  </div>
  </div>
@@ -1184,7 +1809,13 @@ export default function App() {
  navigateTo("export");
  }}
  copiedState={clipboardFeedback}
- isValid={!!builderWorkout.title && !!builderWorkout.summary && (builderWorkout.mainSet?.length || 0) > 0}
+ isValid={
+   !!builderWorkout.title && 
+   !!builderWorkout.summary && 
+   (builderWorkout.entryType === "custom-support-routine" 
+     ? !!builderWorkout.sessionStructure 
+     : (builderWorkout.mainSet?.length || 0) > 0)
+ }
  />
  </div>
  )}
@@ -1192,82 +1823,321 @@ export default function App() {
  {/* ====================================
  PAGE 5: SAVED PAGE (activeRoute === "saved") 
  ==================================== */}
- {activeRoute === "saved" && (
- <div className="space-y-6 animate-fade-in w-full">
- {/* Page Header */}
- <div className="flex flex-col gap-1.5 border-b border-[#E2E8F0] pb-4">
- <h2 className="text-3xl sm:text-4xl font-extrabold font-display text-slate-900 uppercase tracking-tight flex flex-wrap items-baseline gap-2">
- Local Saved Vault{" "}
- <span className="bg-blue-50 border border-blue-150 text-blue-600 text-[10px] font-mono font-bold uppercase rounded-lg px-2.5 py-0.5">
- Browser cache persistence
- </span>
- </h2>
- <p className="text-xs sm:text-sm text-slate-500 font-semibold leading-relaxed max-w-2xl">
- Custom running schedules programmed here are persisted. Stored offline, data stays 100% inside your client physical browser.
- </p>
- </div>
+ {activeRoute === "saved" && (() => {
+    const searchedItems = searchSavedVaultItems(localSavedItems, savedSearchQuery);
+    const filteredItems = filterSavedVaultItems(searchedItems, {
+      categoryType: savedCategoryFilter as any,
+      sortBy: savedSortBy as any
+    });
+    
+    const pinnedItemsList = filteredItems.filter(it => it.pinned);
+    const unpinnedItemsList = filteredItems.filter(it => !it.pinned);
+    
+    return (
+      <div className="space-y-6 animate-fade-in w-full text-slate-800">
+        {/* Header Block with Trust Badges */}
+        <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 border-b border-slate-200 pb-5">
+          <div className="space-y-1">
+            <h2 className="text-3xl font-black font-display text-slate-900 tracking-tight flex items-baseline gap-2">
+              SAVED VAULT
+              <span className="bg-emerald-50 text-emerald-700 text-[10px] font-mono border border-emerald-100 px-2.5 py-0.5 rounded-lg font-black uppercase">
+                Local-Only
+              </span>
+            </h2>
+            <p className="text-xs text-slate-500 font-semibold">
+              Saved entries are stored only in this browser. Stored offline, data stays 100% inside your client physical browser.
+            </p>
+          </div>
+          
+          <div className="flex gap-2">
+            <div className="bg-slate-50 border border-slate-200 rounded-xl px-3 py-1.5 text-center text-xs self-center">
+              <span className="text-[9px] text-slate-400 font-mono font-bold block uppercase leading-none">Security Status</span>
+              <span className="text-xs font-bold text-slate-700 font-mono mt-1 block">🔒 Zero Database / Zero AI</span>
+            </div>
+            {localSavedItems.length > 0 && (
+              <button
+                onClick={() => {
+                  if (confirm("Are you sure you want to completely wipe your browser training vault? This is irreversible!")) {
+                    clearSavedVault();
+                    refreshLocalSaved();
+                    showToast("Vault completely wiped.", "info");
+                  }
+                }}
+                className="px-3.5 py-2 rounded-xl text-xs font-bold text-rose-500 bg-rose-50 border border-rose-100 hover:bg-rose-100 transition-colors uppercase font-mono tracking-wider cursor-pointer"
+              >
+                Clear Vault
+              </button>
+            )}
+          </div>
+        </div>
 
- {localWorkoutsList.length === 0 ? (
- <div className="py-16 text-center max-w-2xl mx-auto space-y-6 bg-white border border-[#E2E8F0] rounded-3xl p-8 shadow-sm">
- <div className="w-16 h-16 rounded-full bg-blue-50 border border-blue-100 flex items-center justify-center mx-auto text-blue-600">
- <Bookmark className="w-7 h-7" />
- </div>
- <div className="space-y-2">
- <h3 className="text-lg font-bold text-slate-900 uppercase tracking-wide">
- Your Training Vault is Empty
- </h3>
- <p className="text-xs text-slate-500 max-w-md mx-auto leading-relaxed font-semibold">
- You haven't programmed any local routines yet. Click below to launch the Builder Lab and configure custom repetition structures.
- </p>
- </div>
- <div className="pt-2">
- <button
- onClick={() => navigateTo("builder")}
- className="px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white text-xs font-bold uppercase tracking-wider rounded-xl cursor-pointer shadow-md transition-all font-sans"
- >
- Program Custom Workout
- </button>
- </div>
- </div>
- ) : (
- <div className="space-y-6">
- <div className="flex justify-between items-center text-xs">
- <span className="font-mono text-slate-500 uppercase tracking-widest font-black pb-1">
- LOCAL COLLECTION ({localWorkoutsList.length})
- </span>
- 
- <button
- onClick={() => {
- if (confirm("Clear all locally saved workouts? This is irreversible!")) {
- localStorage.removeItem("track_vault_saved_workouts");
- refreshLocalSaved();
- }
- }}
- className="text-xs font-bold text-rose-500 hover:text-rose-600 cursor-pointer uppercase font-mono tracking-wider bg-rose-50 border border-rose-100 px-3 py-1.5 rounded-lg"
- >
- Clear All Saved
- </button>
- </div>
+        {localSavedItems.length === 0 ? (
+          /* Elegant Empty State Page */
+          <div className="py-16 text-center max-w-2xl mx-auto space-y-6 bg-white border border-slate-200 rounded-3xl p-8 shadow-xs">
+            <div className="w-16 h-16 rounded-full bg-blue-50 border border-blue-100 flex items-center justify-center mx-auto text-blue-600">
+              <Bookmark className="w-7 h-7" />
+            </div>
+            <div className="space-y-2">
+              <h3 className="text-lg font-bold text-slate-950 uppercase tracking-wide font-display">
+                Your Training Vault is Empty
+              </h3>
+              <p className="text-xs text-slate-500 max-w-md mx-auto leading-relaxed font-semibold">
+                You haven't saved any coached workouts or programmed templates yet. Stored strictly client-side, your library runs offline with zero server sync.
+              </p>
+            </div>
+            <div className="flex justify-center gap-3 pt-2">
+              <button
+                onClick={() => navigateTo("library")}
+                className="px-5 py-2.5 bg-slate-100 border border-slate-200 hover:bg-slate-200 text-slate-700 text-xs font-bold uppercase tracking-wider rounded-xl cursor-pointer transition-all font-sans"
+              >
+                Browse Library
+              </button>
+              <button
+                onClick={() => navigateTo("builder")}
+                className="px-5 py-2.5 bg-blue-600 hover:bg-blue-700 text-white text-xs font-bold uppercase tracking-wider rounded-xl cursor-pointer shadow-md transition-all font-sans"
+              >
+                Launch Builder
+              </button>
+            </div>
+          </div>
+        ) : (
+          <div className="space-y-6">
+            {/* Visual Real totals grid summary card row */}
+            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4">
+              <div className="bg-white border border-slate-200 rounded-2xl p-4 flex items-center gap-3 shadow-xs">
+                <div className="p-2.5 rounded-xl bg-blue-50 text-blue-600 border border-blue-100">
+                  <Bookmark className="w-5 h-5" />
+                </div>
+                <div>
+                  <span className="text-[10px] font-mono font-bold text-slate-400 uppercase tracking-wider block leading-none">Total Saved</span>
+                  <span className="text-lg font-black text-slate-900 mt-1 block">{localSavedItems.length}</span>
+                </div>
+              </div>
+              
+              <div className="bg-white border border-slate-200 rounded-2xl p-4 flex items-center gap-3 shadow-xs">
+                <div className="p-2.5 rounded-xl bg-orange-50 text-orange-600 border border-orange-100">
+                  <Pin className="w-5 h-5" />
+                </div>
+                <div>
+                  <span className="text-[10px] font-mono font-bold text-slate-400 uppercase tracking-wider block leading-none">Pinned List</span>
+                  <span className="text-lg font-black text-slate-900 mt-1 block">{localSavedItems.filter(it => it.pinned).length}</span>
+                </div>
+              </div>
+              
+              <div className="bg-white border border-slate-200 rounded-2xl p-4 flex items-center gap-3 shadow-xs">
+                <div className="p-2.5 rounded-xl bg-violet-50 text-violet-600 border border-violet-100">
+                  <Zap className="w-5 h-5" />
+                </div>
+                <div>
+                  <span className="text-[10px] font-mono font-bold text-slate-400 uppercase tracking-wider block leading-none">Running List</span>
+                  <span className="text-lg font-black text-slate-900 mt-1 block">{localSavedItems.filter(it => it.entryType === "running-workout").length}</span>
+                </div>
+              </div>
+              
+              <div className="bg-white border border-slate-200 rounded-2xl p-4 flex items-center gap-3 shadow-xs">
+                <div className="p-2.5 rounded-xl bg-teal-50 text-teal-650 border border-teal-100">
+                  <Dumbbell className="w-5 h-5" />
+                </div>
+                <div>
+                  <span className="text-[10px] font-mono font-bold text-slate-400 uppercase tracking-wider block leading-none">Support List</span>
+                  <span className="text-lg font-black text-slate-900 mt-1 block">{localSavedItems.filter(it => it.entryType === "support-routine").length}</span>
+                </div>
+              </div>
+              
+              <div className="bg-white border border-slate-200 rounded-2xl p-4 flex items-center gap-3 shadow-xs col-span-2 lg:col-span-1">
+                <div className="p-2.5 rounded-xl bg-emerald-50 text-emerald-600 border border-emerald-100">
+                  <Sparkles className="w-5 h-5" />
+                </div>
+                <div>
+                  <span className="text-[10px] font-mono font-bold text-slate-400 uppercase tracking-wider block leading-none">Custom Drafts</span>
+                  <span className="text-lg font-black text-slate-900 mt-1 block">{localSavedItems.filter(it => it.entryType?.startsWith("custom") || it.data.isCustom).length}</span>
+                </div>
+              </div>
+            </div>
 
- {/* Saved routines list using WorkoutCard to remain unified */}
- <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
- {localWorkoutsList.map((w) => (
- <WorkoutCard
- key={w.id}
- workout={w}
- onViewDetails={(work) => {
- setSelectedSlug(work.slug);
- navigateTo(`library/${work.slug}`);
- }}
- onDuplicateInBuilder={handleDuplicateToBuilder}
- onExportCard={handleSelectForExport}
- />
- ))}
- </div>
- </div>
- )}
- </div>
- )}
+            {/* Controls Filter Options Panel */}
+            <div className="bg-slate-50 border border-slate-200 rounded-3xl p-4 space-y-3">
+              <div className="flex flex-col sm:flex-row gap-2.5">
+                <div className="relative flex-1">
+                  <Search className="absolute left-3.5 top-3 w-4 h-4 text-slate-400" />
+                  <input
+                    type="text"
+                    placeholder="Search by title, original workouts, keywords, internal coaching notes, saved tags..."
+                    value={savedSearchQuery}
+                    onChange={(e) => setSavedSearchQuery(e.target.value)}
+                    className="w-full pl-10 pr-16 py-2 bg-white border border-slate-200 rounded-xl text-xs font-semibold focus:border-blue-500 focus:ring-1 focus:ring-blue-500 focus:outline-hidden text-slate-800"
+                  />
+                  {savedSearchQuery && (
+                    <button
+                      onClick={() => setSavedSearchQuery("")}
+                      className="absolute right-3.5 top-2.5 text-[10px] font-mono font-black text-slate-400 hover:text-slate-705 cursor-pointer"
+                    >
+                      CLEAR
+                    </button>
+                  )}
+                </div>
+                
+                <div className="shrink-0">
+                  <select
+                    value={savedSortBy}
+                    onChange={(e) => setSavedSortBy(e.target.value)}
+                    className="bg-white border border-slate-200 rounded-xl px-3 py-2 text-xs font-bold text-slate-700 focus:outline-hidden focus:border-blue-500 cursor-pointer"
+                  >
+                    <option value="recent">⏱️ Recently Saved</option>
+                    <option value="title-asc">🔤 Title A-Z</option>
+                    <option value="type">📂 Category Type</option>
+                    <option value="pinned-first">📌 Pin Items First</option>
+                  </select>
+                </div>
+              </div>
+              
+              <div className="flex flex-wrap gap-1.5 pt-1 border-t border-slate-200/50">
+                {[
+                  { id: "all", label: "All Items", count: localSavedItems.length },
+                  { id: "running-workout", label: "Running Workouts", count: localSavedItems.filter(it => it.entryType === "running-workout").length },
+                  { id: "support-routine", label: "Support Routines", count: localSavedItems.filter(it => it.entryType === "support-routine").length },
+                  { id: "custom-running", label: "Custom Running Drafts", count: localSavedItems.filter(it => it.entryType === "custom-running-workout").length },
+                  { id: "custom-support", label: "Custom Support Drafts", count: localSavedItems.filter(it => it.entryType === "custom-support-routine").length },
+                  { id: "pinned", label: "Pinned Only", count: localSavedItems.filter(it => it.pinned).length }
+                ].map((btn) => (
+                  <button
+                    key={btn.id}
+                    onClick={() => setSavedCategoryFilter(btn.id)}
+                    className={`px-3 py-1.5 rounded-lg text-xs font-bold cursor-pointer transition-colors flex items-center gap-1.5 border ${
+                      savedCategoryFilter === btn.id
+                        ? "bg-blue-600 text-white border-blue-650"
+                        : "bg-white text-slate-600 border-slate-200 hover:bg-slate-100"
+                    }`}
+                  >
+                    <span>{btn.label}</span>
+                    <span className={`text-[9px] px-1.5 py-0.2 rounded ${
+                      savedCategoryFilter === btn.id ? "bg-blue-700 text-blue-100" : "bg-slate-100 text-slate-500"
+                    }`}>
+                      {btn.count}
+                    </span>
+                  </button>
+                ))}
+              </div>
+            </div>
+
+            {/* Results Grid Displays */}
+            {filteredItems.length === 0 ? (
+              <div className="py-12 text-center max-w-md mx-auto space-y-3 bg-white border border-slate-200 rounded-3xl p-6">
+                <Search className="w-8 h-8 text-slate-350 mx-auto" />
+                <h4 className="text-xs font-bold text-slate-700">No matching items in your search filters.</h4>
+                <p className="text-[11px] text-slate-400 font-semibold leading-relaxed">
+                  Try typing a different name or note comment, or clear your query entirely to reset your metrics.
+                </p>
+                <button
+                  onClick={() => { setSavedSearchQuery(""); setSavedCategoryFilter("all"); }}
+                  className="px-3.5 py-1.5 bg-slate-900 text-white text-[10px] font-mono tracking-wide rounded-md font-bold uppercase mt-1 cursor-pointer"
+                >
+                  Reset Filtering Queries
+                </button>
+              </div>
+            ) : (
+              <div className="space-y-8">
+                {/* Pinned Section */}
+                {pinnedItemsList.length > 0 && (
+                  <div className="space-y-3">
+                    <div className="flex items-center gap-1.5 text-xs text-orange-500 font-mono font-black uppercase tracking-wider pl-1">
+                      <Pin className="w-3.5 h-3.5" />
+                      <span>PINNED ENTRIES ({pinnedItemsList.length})</span>
+                    </div>
+                    
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
+                      {pinnedItemsList.map(item => renderSavedCard(item))}
+                    </div>
+                  </div>
+                )}
+                
+                {/* General Section */}
+                {unpinnedItemsList.length > 0 && (
+                  <div className="space-y-3 mt-4">
+                    {pinnedItemsList.length > 0 && (
+                      <div className="text-xs font-mono font-black text-slate-400 uppercase tracking-wider pl-1 border-t border-slate-100 pt-5">
+                        <span>ALL VAULT ENTRIES ({unpinnedItemsList.length})</span>
+                      </div>
+                    )}
+                    
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
+                      {unpinnedItemsList.map(item => renderSavedCard(item))}
+                    </div>
+                  </div>
+                )}
+              </div>
+            )}
+          </div>
+        )}
+
+        {/* Note/Tag Annotations Editor Modal Overlays */}
+        {editingItem && (
+          <div className="fixed inset-0 bg-slate-900/60 backdrop-blur-xs flex items-center justify-center z-50 p-4 animate-fade-in">
+            <div className="bg-white border border-slate-200 shadow-2xl rounded-3xl p-6 max-w-md w-full space-y-4 animate-scale-up text-slate-800">
+              <div className="flex justify-between items-center border-b border-slate-100 pb-3">
+                <h3 className="text-sm font-black font-mono uppercase tracking-widest text-slate-950">
+                  Edit Training Annotations
+                </h3>
+                <button
+                  onClick={() => setEditingItem(null)}
+                  className="p-1 rounded-lg hover:bg-slate-100 text-slate-400 hover:text-slate-600 transition-colors cursor-pointer"
+                >
+                  <X className="w-4 h-4" />
+                </button>
+              </div>
+              
+              <div className="space-y-3.5">
+                <p className="text-xs text-slate-500 font-semibold italic border-l-2 border-blue-500 pl-2 leading-relaxed">
+                  "{editingItem.title}"
+                </p>
+                
+                <div className="space-y-1">
+                  <label className="text-[10px] font-mono font-black text-slate-400 uppercase tracking-widest block font-bold">
+                    Local Workout Notes:
+                  </label>
+                  <textarea
+                    value={editNotes}
+                    onChange={(e) => setEditNotes(e.target.value)}
+                    placeholder="e.g. Done on track in light rain. Felt good. Target pacing was hard to hit at step 3."
+                    className="w-full h-24 p-3 bg-slate-50 border border-slate-200 rounded-xl text-xs font-semibold focus:border-blue-500 focus:ring-1 focus:ring-blue-500 focus:outline-hidden text-slate-800 placeholder:text-slate-400"
+                  />
+                </div>
+                
+                <div className="space-y-1">
+                  <label className="text-[10px] font-mono font-black text-slate-400 uppercase tracking-widest block block font-bold flex justify-between">
+                    <span>Local Custom Tags (comma-separated):</span>
+                    <span className="text-slate-300">Max 5 advised</span>
+                  </label>
+                  <input
+                    type="text"
+                    value={editTagsInput}
+                    onChange={(e) => setEditTagsInput(e.target.value)}
+                    placeholder="e.g. recovery, track, outdoor"
+                    className="w-full p-2.5 bg-slate-50 border border-slate-200 rounded-xl text-xs font-semibold focus:border-blue-500 focus:ring-1 focus:ring-blue-500 focus:outline-hidden text-slate-800 placeholder:text-slate-400"
+                  />
+                </div>
+              </div>
+              
+              <div className="flex justify-end gap-2 pt-3 border-t border-slate-100">
+                <button
+                  onClick={() => setEditingItem(null)}
+                  className="px-4 py-2 border border-slate-200 hover:bg-slate-50 rounded-xl text-xs font-bold text-slate-600 cursor-pointer"
+                >
+                  Cancel
+                </button>
+                <button
+                  onClick={handleSaveEditChanges}
+                  className="px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-xl text-xs font-bold cursor-pointer"
+                >
+                  Save Annotations
+                </button>
+              </div>
+            </div>
+          </div>
+        )}
+      </div>
+    );
+  })()}
 
  {/* ====================================
  PAGE 6: EXPORT STUDIO PAGE (activeRoute === "export") 
@@ -1340,7 +2210,9 @@ export default function App() {
  theme={exportTheme}
  setTheme={setExportTheme}
  size={exportSize}
- setSize={setExportSize}
+ setSize={setExportSize as any}
+						showBrandFooter={exportShowBrandFooter}
+						setShowBrandFooter={setExportShowBrandFooter}
  />
  </div>
 
@@ -1355,7 +2227,7 @@ export default function App() {
  </span>
  </div>
 
- <WorkoutCardPreview
+ <WorkoutCardPreview showBrandFooter={exportShowBrandFooter}
  workout={exportSelectedWorkout}
  template={exportTemplate}
  theme={exportTheme}
@@ -1497,6 +2369,30 @@ export default function App() {
      <span className="text-xs font-semibold leading-relaxed font-sans">{toast.message}</span>
    </div>
  )}
+
+ {/* Modern Comparison Components */}
+ <CompareBar 
+   items={compareItems} 
+   onRemove={handleRemoveCompareItem}
+   onClear={handleClearCompare} 
+   onOpenCompare={() => setIsCompareDrawerOpen(true)} 
+ />
+ 
+ <CompareDrawer 
+   isOpen={isCompareDrawerOpen} 
+   onClose={() => setIsCompareDrawerOpen(false)} 
+   items={compareItems} 
+   onRemove={handleRemoveCompareItem} 
+   onInspect={(slug) => {
+     setSelectedSlug(slug);
+     navigateTo(`library/${slug}`);
+     setIsCompareDrawerOpen(false);
+   }}
+   onUseDraft={(workout) => {
+     handleDuplicateToBuilder(workout);
+     setIsCompareDrawerOpen(false);
+   }}
+ />
 
  </div>
  </div>

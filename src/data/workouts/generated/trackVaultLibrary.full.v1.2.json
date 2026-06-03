@@ -56534,5 +56534,6 @@
         "cooldown": [
           {
             "blockType": "cooldown",
-            "name": "Recovery Cooldown",
-           
+            "name": "Recovery Cooldown"
+          }
+ 

@@ -10,7 +10,7 @@ import { DifficultyBadge } from "./DifficultyBadge";
 import { LevelBadge } from "./LevelBadge";
 import { formatWorkoutBlock, formatWorkoutForClipboard } from "../../lib/workouts";
 import { copyToClipboard } from "../../lib/clipboard";
-import { Copy, ClipboardCheck, ExternalLink, RefreshCw, Eye } from "lucide-react";
+import { Copy, ClipboardCheck, ExternalLink, RefreshCw, Eye, GitCompare } from "lucide-react";
 
 interface WorkoutCardProps {
  key?: string;
@@ -18,6 +18,8 @@ interface WorkoutCardProps {
  onViewDetails: (workout: TrackVaultEntry) => void;
  onDuplicateInBuilder: (workout: TrackVaultEntry) => void;
  onExportCard: (workout: TrackVaultEntry) => void;
+ isInCompare?: boolean;
+ onToggleCompare?: (workout: TrackVaultEntry) => void;
 }
 
 export function WorkoutCard({
@@ -25,6 +27,8 @@ export function WorkoutCard({
  onViewDetails,
  onDuplicateInBuilder,
  onExportCard,
+ isInCompare = false,
+ onToggleCompare,
 }: WorkoutCardProps) {
  const [copied, setCopied] = useState(false);
 
@@ -186,6 +190,20 @@ export function WorkoutCard({
 
  <div className="flex gap-1.5">
  <button
+ onClick={(e) => {
+   e.stopPropagation();
+   if (onToggleCompare) onToggleCompare(workout);
+ }}
+ title={isInCompare ? "Remove from Compare Tray" : "Add to Compare Tray"}
+ className={`p-2 rounded-xl border transition-all cursor-pointer ${
+   isInCompare
+     ? "bg-blue-600 border-blue-600 text-white hover:bg-blue-700"
+     : "border-[#E2E8F0] bg-slate-50 hover:bg-blue-600/10 hover:border-blue-600 text-slate-600 hover:text-blue-600"
+ }`}
+ >
+ <GitCompare className="w-3.5 h-3.5" />
+ </button>
+ <button
  onClick={handleQuickCopy}
  title="Copy simple text description to clipboard"
  className="p-2 rounded-xl border border-[#E2E8F0] bg-slate-50 hover:bg-blue-600/10 hover:border-blue-600 text-slate-600 hover:text-blue-600 cursor-pointer transition-all"
@@ -213,10 +231,11 @@ export function WorkoutCard({
  e.stopPropagation();
  onDuplicateInBuilder(workout);
  }}
- title="Duplicate and load inside details editor"
- className="p-2 rounded-xl border border-[#E2E8F0] bg-slate-50 hover:bg-blue-600/10 hover:border-blue-600 text-slate-600 hover:text-blue-600 cursor-pointer transition-all"
+ title="Use as Template in Workout Builder"
+ className="py-1.5 px-2.5 rounded-xl border border-blue-200 bg-blue-50 text-blue-600 hover:bg-blue-600 hover:text-white hover:border-blue-600 cursor-pointer transition-all text-[9.5px] font-bold font-mono uppercase tracking-wider flex items-center gap-1 shrink-0"
  >
- <RefreshCw className="w-3.5 h-3.5" />
+ <RefreshCw className="w-3 h-3" />
+ <span>Use as Template</span>
  </button>
  </div>
  </div>

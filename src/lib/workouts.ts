@@ -512,102 +512,272 @@ export function sortWorkouts(workouts: Workout[], sortKey: string): Workout[] {
  }
 }
 
-export function formatWorkoutForClipboard(workout: any, format: "simple" | "compact" | "structured-markdown" | "coach-notes"): string {
- const formatBlockList = (blocks: WorkoutBlock[]) => {
- if (!blocks || blocks.length === 0) return "None";
- return blocks.map((b) => `- ${formatWorkoutBlock(b)}`).join("\n");
- };
+export function formatWorkoutForClipboard(workout: any, format: "simple" | "compact" | "structured-markdown" | "coach-notes" | "whatsapp-telegram" | "training-log"): string {
+  if (!workout) return "";
 
- const getIntensityGuideText = () => {
- if (!workout.intensityGuide) return "Standard pacing chart";
- const { warmup, mainSet, cooldown, general } = workout.intensityGuide;
- const parts = [];
- if (general) parts.push(`General: ${general}`);
- if (warmup) parts.push(`Warmup Pace: ${warmup}`);
- if (mainSet) parts.push(`Main Set intensity: ${mainSet}`);
- if (cooldown) parts.push(`Cooldown pace: ${cooldown}`);
- return parts.join(" | ");
- };
+  const isSupport = workout.entryType === "support-routine" || workout.entryType === "custom-support-routine" || !!workout.sessionStructure;
 
- switch (format) {
- case "simple": {
- return `Track.Vault Workout
-------------------------
-Title: ${workout.title}
-Target: ${workout.primaryDistance} | Level: ${workout.level.toUpperCase()} | Difficulty: Pt ${workout.difficulty}/10
+  const title = workout.title || "Untitled Session";
+  const category = isSupport 
+    ? (workout.supportCategoryLabel || workout.supportCategoryId || "Support Routine").replace("-", " ")
+    : (workout.category || workout.distanceNavId || "Running").replace("-", " ");
+  
+  const rawDur = (workout as any).rawDuration;
+  const rawDist = (workout as any).rawDistance;
+  
+  const durationText = isSupport
+    ? `${workout.durationMin || workout.estimatedDurationMin || 15} min`
+    : (rawDur && typeof rawDur === "object"
+        ? `${rawDur.min}-${rawDur.max} min`
+        : `${workout.estimatedDurationMin || 0} min`);
+        
+  const distanceText = isSupport
+    ? ""
+    : (rawDist && typeof rawDist === "object"
+        ? `${rawDist.min}-${rawDist.max} km`
+        : `${workout.estimatedDistanceKm || 0} km`);
 
-Warm-up:
-${workout.warmup.map((b) => ` ${formatWorkoutBlock(b)}`).join("\n")}
+  const volumeText = isSupport ? durationText : `${durationText} (${distanceText})`;
 
-Main Set:
-${workout.mainSet.map((b) => ` ${formatWorkoutBlock(b)}`).join("\n")}
+  const formatBlockListSub = (blocks: WorkoutBlock[]) => {
+    if (!blocks || blocks.length === 0) return "None";
+    return blocks.map((b) => `- ${formatWorkoutBlock(b)}`).join("\n");
+  };
 
-Cooldown:
-${workout.cooldown.map((b) => ` ${formatWorkoutBlock(b)}`).join("\n")}
+  const getIntensityGuideText = () => {
+    if (!workout.intensityGuide) return "Standard effort pacing";
+    const { warmup, mainSet, cooldown, general } = workout.intensityGuide;
+    const parts = [];
+    if (general) parts.push(`General: ${general}`);
+    if (warmup) parts.push(`Warmup Pace: ${warmup}`);
+    if (mainSet) parts.push(`Main Set intensity: ${mainSet}`);
+    if (cooldown) parts.push(`Cooldown pace: ${cooldown}`);
+    return parts.join(" | ");
+  };
 
-Notes & Guidance:
-${workout.coachingNotes ? workout.coachingNotes.join("\n") : "None provided."}
+  const cue = (workout.coachingNotes && workout.coachingNotes.length > 0)
+    ? workout.coachingNotes[0]
+    : "Focus on relaxed coordination, stable core posturing, and fluid breathing looping.";
+  const coachingCuesText = (workout.coachingNotes && workout.coachingNotes.length > 0)
+    ? workout.coachingNotes.map((n: string, idx: number) => `* ${n}`).join("\n")
+    : "Maintain robust alignment.";
 
-Disclaimer:
-Workouts are general training references, not personalized medical or coaching advice.`;
- }
+  const safety = (workout.safetyNotes && workout.safetyNotes.length > 0)
+    ? workout.safetyNotes[0]
+    : "Check ground terrain condition. Discontinue immediately if acute articular pain behaves abnormally.";
+  
+  const safetyNotesText = (workout.safetyNotes && workout.safetyNotes.length > 0)
+    ? workout.safetyNotes.map((s: string) => `* ${s}`).join("\n")
+    : "Listen to physical biofeedback.";
 
- case "compact": {
- return `${workout.title} (${workout.primaryDistance} | ${workout.level.toUpperCase()})
-WU: ${workout.warmup.map((b) => formatWorkoutBlock(b)).join(" -> ") || "None"}
-MAIN: ${workout.mainSet.map((b) => formatWorkoutBlock(b)).join(" -> ")}
-CD: ${workout.cooldown.map((b) => formatWorkoutBlock(b)).join(" -> ") || "None"}
-Goal: ${workout.summary}`;
- }
+  const equipmentText = workout.equipment && workout.equipment.length > 0
+    ? workout.equipment.join(", ")
+    : "None required";
 
- case "structured-markdown": {
- return `# ${workout.title}
-> **${workout.summary}**
+  const movementGoalsText = workout.movementGoals && workout.movementGoals.length > 0
+    ? workout.movementGoals.join(", ")
+    : "Tissue capacity enhancement, movement quality control";
 
-## Summary & Profile
-* **Target Distances**: ${workout.targetDistances.join(", ")}
-* **Level**: ${workout.level}
-* **Surface**: ${workout.surface} 
-* **Duration**: ~${workout.estimatedDurationMin} min (~${workout.estimatedDistanceKm} km)
-* **Pacing Focus**: ${getIntensityGuideText()}
+  let sessionStructureText = "";
+  if (isSupport) {
+    if (typeof workout.sessionStructure === "string") {
+      sessionStructureText = workout.sessionStructure;
+    } else if (Array.isArray(workout.sessionStructure)) {
+      sessionStructureText = workout.sessionStructure.map((ex: any) => `- ${formatExerciseBlock(ex)}`).join("\n");
+    } else if (Array.isArray(workout.exercises)) {
+      sessionStructureText = workout.exercises.map((ex: any) => `- ${formatExerciseBlock(ex)}`).join("\n");
+    } else {
+      sessionStructureText = "No structured sets provided.";
+    }
+  }
 
-## Warm-up
-${formatBlockList(workout.warmup)}
+  switch (format) {
+    case "compact": {
+      if (isSupport) {
+        return `${title} (${category} | Support Routine)
+Duration: ${durationText}
+Equipment: ${equipmentText}
+Goal: ${workout.summary || ""}`;
+      } else {
+        return `${title} (${category} | ${workout.level?.toUpperCase() || "General"})
+WU: ${workout.warmup?.map((b: any) => formatWorkoutBlock(b)).join(" -> ") || "None"}
+MAIN: ${workout.mainSet?.map((b: any) => formatWorkoutBlock(b)).join(" -> ")}
+CD: ${workout.cooldown?.map((b: any) => formatWorkoutBlock(b)).join(" -> ") || "None"}
+Goal: ${workout.summary || ""}`;
+      }
+    }
 
-## Main Set
-${formatBlockList(workout.mainSet)}
-
-## Cooldown
-${formatBlockList(workout.cooldown)}
-
-${workout.coachingNotes && workout.coachingNotes.length > 0 ? `## Coaching Notes\n${workout.coachingNotes.map((n) => `* ${n}`).join("\n")}` : ""}
-
-${workout.safetyNotes && workout.safetyNotes.length > 0 ? `## Safety Notes\n${workout.safetyNotes.map((s) => `* ${s}`).join("\n")}` : ""}
-
----
-*Disclaimer: Workouts are general training references, not personalized medical or coaching advice.*`;
- }
-
- case "coach-notes": {
- return `COACHING SHEET: ${workout.title}
+    case "coach-notes": {
+      if (isSupport) {
+        return `COACHING SHEET: ${title} [SUPPORT ROUTINE]
 ===========================================
-Purpose & Objective: ${workout.summary}
-Paces / Threshold Guide: ${getIntensityGuideText()}
+Objective: ${workout.summary || ""}
+Category / Focus: ${category} | Body Focus: ${workout.bodyFocus?.join(", ") || "General Body"}
+Equipment / Gear: ${equipmentText}
+Routine Duration: ${durationText}
+
+Exercises & Reps Plan:
+${sessionStructureText}
+
+Movement & Capacity Goals:
+- ${movementGoalsText}
+
+Coaching Cues / Execution Guide:
+${coachingCuesText}
+
+Safety & Compliance Note:
+${safetyNotesText}
+
+Approved general training support resource. No clinical medical diagnostic claims.`;
+      } else {
+        return `COACHING SHEET: ${title} [RUNNING WORKOUT]
+===========================================
+Objective: ${workout.summary || ""}
+Category: ${category} | Level: ${workout.level?.toUpperCase() || "General"}
+Expected Volume: ${volumeText}
+Paces / Intensity Guide: ${getIntensityGuideText()}
+
+Prescription Steps Detail:
+1. Warm-Up Series:
+${workout.warmup && workout.warmup.length > 0 ? workout.warmup.map((b: any) => `   - ${formatWorkoutBlock(b)}`).join("\n") : "   - Standard light jog & dynamic drills"}
+2. Main Workout Sets:
+${workout.mainSet && workout.mainSet.length > 0 ? workout.mainSet.map((b: any) => `   - ${formatWorkoutBlock(b)}`).join("\n") : "   - Steady state mileage"}
+3. Cooldown Run:
+${workout.cooldown && workout.cooldown.length > 0 ? workout.cooldown.map((b: any) => `   - ${formatWorkoutBlock(b)}`).join("\n") : "   - Gentle recovery stretch"}
 
 Execution Cues:
-${workout.coachingNotes ? workout.coachingNotes.map((n, i) => `${i + 1}. ${n}`).join("\n") : "Maintain progressive pacing structure."}
+${coachingCuesText}
 
-Common Mistakes to Correct:
-${workout.commonMistakes ? workout.commonMistakes.map((m) => `[X] ${m}`).join("\n") : "Rushing the starting intervals too quickly."}
+Safety Rules:
+${safetyNotesText}
 
-Safety & Risks (Risk Rating: ${workout.risk.toUpperCase()}):
-${workout.riskReason ? `Reason: ${workout.riskReason}\n` : ""}${workout.safetyNotes ? workout.safetyNotes.map((s) => `* ${s}`).join("\n") : "Ensure proper hydration and warm surface check."}
-===========================================`;
- }
+Approved general training reference.`;
+      }
+    }
 
- default:
- return "";
- }
+    case "structured-markdown":
+    case "simple": {
+      if (isSupport) {
+        return `# ${title}
+> **${workout.summary || ""}**
+
+## Summary & Profile
+* **Routine Category**: Support Routine / ${category}
+* **Prescribed Duration**: ~${durationText}
+* **Target Body Focus**: ${workout.bodyFocus?.join(", ") || "Full Body"}
+* **Equipments**: ${equipmentText}
+* **Movement Intent**: ${movementGoalsText}
+
+## Session Exercise Structure
+${sessionStructureText}
+
+${workout.coachingNotes && workout.coachingNotes.length > 0 ? `## Coaching Cues\n${workout.coachingNotes.map((n: string) => `* ${n}`).join("\n")}` : ""}
+
+## Safety & Compliance
+* Risk Assessment: **${(workout.risk || "Low").toUpperCase()}**
+${workout.safetyNotes && workout.safetyNotes.length > 0 ? workout.safetyNotes.map((s: string) => `* ${s}`).join("\n") : "* Maintain comfortable physical limits."}
+
+---
+*Disclaimer: Support routines are general movement quality and risk reduction logs. They are not physical therapy, rehab guarantees, or medical prescriptions.*`;
+      } else {
+        return `# ${title}
+> **${workout.summary || ""}**
+
+## Summary & Profile
+* **Target Category**: Running / ${category}
+* **Level Placement**: ${workout.level || "General"}
+* **Estimated Volume**: ~${durationText} (~${distanceText})
+* **Surface/Terrain**: ${Array.isArray(workout.surface) ? workout.surface.join(", ") : (workout.surface || "Road")}
+* **Pacing Focus**: ${getIntensityGuideText()}
+
+## 1. Warm-up
+${formatBlockListSub(workout.warmup)}
+
+## 2. Main prescription sets
+${formatBlockListSub(workout.mainSet)}
+
+## 3. Cooldown stretch
+${formatBlockListSub(workout.cooldown)}
+
+${workout.coachingNotes && workout.coachingNotes.length > 0 ? `## Execution Cues\n${workout.coachingNotes.map((n: string) => `* ${n}`).join("\n")}` : ""}
+
+## Safety Rules
+* Risk Assessment: **${(workout.risk || "Low").toUpperCase()}**
+${workout.safetyNotes && workout.safetyNotes.length > 0 ? workout.safetyNotes.map((s: string) => `* ${s}`).join("\n") : "* Follow proper threshold intensity scaling."}
+
+---
+*Disclaimer: Running workouts are general training references, not personalized medical or coaching advice.*`;
+      }
+    }
+
+    case "whatsapp-telegram": {
+      if (isSupport) {
+        return `*🏃‍♂️ TRACK.VAULT Support Routine: ${title}*
+_${workout.summary || ""}_
+
+🔹 *Category:* ${category}
+⏱️ *Duration:* ~${durationText}
+🛠️ *Equipment:* ${equipmentText}
+🎯 *Body Focus:* ${workout.bodyFocus?.join(", ") || "General Body"}
+
+📋 *Reps & Session Plan:*
+${sessionStructureText}
+
+💡 *Coaching Cue:* "${cue}"
+⚠️ *Safety note:* ${safety}
+
+_Approved general movement quality and capacity support._`;
+      } else {
+        return `*🏃‍♂️ TRACK.VAULT Session: ${title}*
+_${workout.summary || ""}_
+
+🔹 *Type / Category:* ${category}
+⚡ *Level:* ${workout.level?.toUpperCase()} | *Diff:* Pt ${workout.difficulty || 5}/10
+⏱️ *Volume:* ~${durationText} (~${distanceText})
+
+🏁 *Prescription Checklist:*
+*WU:* ${workout.warmup && workout.warmup.length > 0 ? workout.warmup.map((b: any) => formatWorkoutBlock(b)).join(" ➔ ") : "Standard light prep"}
+🚀 *MAIN:* ${workout.mainSet && workout.mainSet.length > 0 ? workout.mainSet.map((b: any) => formatWorkoutBlock(b)).join(" ➔ ") : "No intervals programmed"}
+*CD:* ${workout.cooldown && workout.cooldown.length > 0 ? workout.cooldown.map((b: any) => formatWorkoutBlock(b)).join(" ➔ ") : "Dynamic cool"}
+
+💡 *Coach Cue:* "${cue}"
+⚠️ *Safety note:* ${safety}
+
+_Workouts are general reference templates, not custom advice._`;
+      }
+    }
+
+    case "training-log": {
+      if (isSupport) {
+        return `TrackVault Training Log [Support]
+Title: ${title}
+Focus: ${category} | Equipment: ${equipmentText}
+Duration: ${durationText}
+Primary Target: ${workout.summary || ""}
+
+Routine Log Flow:
+${sessionStructureText}
+
+Highlights:
+- ${cue}
+- Risk Rating: ${workout.risk?.toUpperCase() || "LOW"} / ${safety}`;
+      } else {
+        return `TrackVault Training Log [Run]
+Title: ${title} | Type: ${category}
+Distance: ${distanceText} | Duration: ${durationText}
+Difficulty Pt: ${workout.difficulty || 4}/10
+
+Session Breakdown:
+- Warmup: ${workout.warmup && workout.warmup.length > 0 ? workout.warmup.map((b: any) => formatWorkoutBlock(b)).join(" -> ") : "Standard"}
+- Main Set: ${workout.mainSet && workout.mainSet.length > 0 ? workout.mainSet.map((b: any) => formatWorkoutBlock(b)).join(" -> ") : "Steady Run"}
+- Cooldown: ${workout.cooldown && workout.cooldown.length > 0 ? workout.cooldown.map((b: any) => formatWorkoutBlock(b)).join(" -> ") : "Gentle stretching"}
+
+Pacing Intensity: ${getIntensityGuideText()}
+Coaching cue: "${cue}"
+Safety status: Checked / ${safety}`;
+      }
+    }
+  }
 }
 
 export const SIDEBAR_DISTANCES = WORKOUT_DISTANCE_NAV.map(item => item.label);

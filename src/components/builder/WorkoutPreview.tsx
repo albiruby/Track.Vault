@@ -18,7 +18,7 @@ interface WorkoutPreviewProps {
 
 export function WorkoutPreview({ workout }: WorkoutPreviewProps) {
   // Check if it's a support routine
-  const isSupport = (workout as any).entryType === "support-routine";
+  const isSupport = (workout as any).entryType === "support-routine" || (workout as any).entryType === "custom-support-routine";
 
   // Safe defaults if empty
   const title = workout.title || "Untitled Active Session";

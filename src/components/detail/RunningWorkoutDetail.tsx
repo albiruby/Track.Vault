@@ -32,7 +32,8 @@ import {
   ShieldCheck,
   CheckCircle2,
   XCircle,
-  HelpCircle
+  HelpCircle,
+  GitCompare
 } from "lucide-react";
 
 interface RunningWorkoutDetailProps {
@@ -42,6 +43,8 @@ interface RunningWorkoutDetailProps {
   onCopyMarkdown: () => void;
   onExport: () => void;
   onClone: () => void;
+  isInCompare?: boolean;
+  onToggleCompare?: () => void;
 }
 
 export function RunningWorkoutDetail({
@@ -51,6 +54,8 @@ export function RunningWorkoutDetail({
   onCopyMarkdown,
   onExport,
   onClone,
+  isInCompare = false,
+  onToggleCompare,
 }: RunningWorkoutDetailProps) {
   const norm = normalizeRunningWorkout(workout);
 
@@ -125,10 +130,29 @@ export function RunningWorkoutDetail({
             </button>
             <button
               onClick={onClone}
-              title="Clone this workout to your Builder editor workspace"
-              className="px-3 py-1.5 font-bold text-xs bg-slate-100 hover:bg-slate-200 text-slate-700 rounded-xl flex items-center gap-1 cursor-pointer transition-colors border border-slate-250"
+              title="Open this curated template inside the Workout Builder lab to begin editing"
+              className="px-3 py-1.5 font-bold text-xs bg-blue-50 hover:bg-blue-100 text-blue-600 rounded-xl flex items-center gap-1 cursor-pointer transition-colors border border-blue-200"
             >
-              <Sliders className="w-3.5 h-3.5" /> Clone
+              <Sliders className="w-3.5 h-3.5 text-blue-500" /> Open in Builder
+            </button>
+            <button
+              onClick={onClone}
+              title="Duplicate this workout as a cloned local copy to your Builder"
+              className="px-3 py-1.5 font-bold text-xs bg-slate-105 hover:bg-slate-200 text-slate-700 rounded-xl flex items-center gap-1 cursor-pointer transition-colors border border-slate-250"
+            >
+              <RefreshCw className="w-3.5 h-3.5 text-slate-500" /> Duplicate to Builder
+            </button>
+            <button
+              onClick={onToggleCompare}
+              title={isInCompare ? "Remove from comparison tray" : "Add to comparison tray"}
+              className={`px-3 py-1.5 font-bold text-xs rounded-xl flex items-center gap-1.5 cursor-pointer transition-colors border ${
+                isInCompare
+                  ? "bg-blue-600 hover:bg-blue-700 text-white border-blue-600"
+                  : "bg-white hover:bg-slate-50 text-slate-700 border-slate-200"
+              }`}
+            >
+              <GitCompare className="w-3.5 h-3.5" />
+              <span>{isInCompare ? "Comparing" : "Compare"}</span>
             </button>
           </div>
         </div>

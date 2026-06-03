@@ -14,6 +14,8 @@ interface EntryDetailPageProps {
   onCopyMarkdown: (workout: any) => void;
   onExport: (workout: any) => void;
   onClone: (workout: any) => void;
+  isInCompare?: boolean;
+  onToggleCompare?: (workout: any) => void;
 }
 
 export function EntryDetailPage({
@@ -23,6 +25,8 @@ export function EntryDetailPage({
   onCopyMarkdown,
   onExport,
   onClone,
+  isInCompare = false,
+  onToggleCompare,
 }: EntryDetailPageProps) {
   if (!workout) {
     return (
@@ -44,6 +48,8 @@ export function EntryDetailPage({
         onCopyMarkdown={() => onCopyMarkdown(workout)}
         onExport={() => onExport(workout)}
         onClone={() => onClone(workout)}
+        isInCompare={isInCompare}
+        onToggleCompare={() => onToggleCompare && onToggleCompare(workout)}
       />
     );
   }
@@ -56,6 +62,8 @@ export function EntryDetailPage({
       onCopyMarkdown={() => onCopyMarkdown(workout)}
       onExport={() => onExport(workout)}
       onClone={() => onClone(workout)}
+      isInCompare={isInCompare}
+      onToggleCompare={() => onToggleCompare && onToggleCompare(workout)}
     />
   );
 }
