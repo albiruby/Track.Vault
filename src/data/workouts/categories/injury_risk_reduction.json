@@ -1,0 +1,5581 @@
+{
+  "categoryId": "injury_risk_reduction",
+  "label": "Injury Risk Reduction",
+  "routines": [
+    {
+      "id": "sup0501",
+      "slug": "anaerobic-injury-risk-reduction-pyramid-challenge-set-1",
+      "title": "Anaerobic Injury Risk Reduction Pyramid Challenge [Set 1]",
+      "shortTitle": "Injury Risk Reduction Set 1",
+      "summary": "High quality Injury Risk Reduction support routine designed to support skeletal alignment, tissue elasticity, and structural stability.",
+      "entryType": "support-routine",
+      "supportCategoryId": "injury_risk_reduction",
+      "supportCategoryLabel": "Injury Risk Reduction",
+      "routineType": "mobility",
+      "targetRunnerType": "all runners",
+      "level": "intermediate",
+      "phase": [
+        "base"
+      ],
+      "durationMin": 16,
+      "equipment": [
+        "none"
+      ],
+      "bodyFocus": [
+        "legs"
+      ],
+      "movementGoals": [
+        "alignment",
+        "flexibility",
+        "running-mechanics"
+      ],
+      "difficulty": "moderate",
+      "risk": "low",
+      "riskReason": "Closed kinetic chain alignments and static control minimize tendon friction.",
+      "sessionStructure": [
+        {
+          "blockType": "exercise",
+          "name": "Dynamic Bridge Lift",
+          "sets": 3,
+          "reps": 12,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Engage core safely.",
+            "Breathe naturally during tension."
+          ]
+        },
+        {
+          "blockType": "exercise",
+          "name": "Stability Squat Drill",
+          "sets": 3,
+          "reps": 10,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Maintain knee and ankle compliance.",
+            "Keep torso tall."
+          ]
+        }
+      ],
+      "easierVariant": {
+        "description": "Reduce workout sets of the resistance moves to 2 sets for managing soft tissue load.",
+        "modifications": [
+          "Execute 2 sets per move.",
+          "Moderate posture depths if joints feel tight."
+        ]
+      },
+      "harderVariant": {
+        "description": "Increase dynamic repetitions to 15 per set or hold static planks for 60s.",
+        "modifications": [
+          "Hold static postures for 60s.",
+          "Limit transitions rests to 30s."
+        ]
+      },
+      "coachingNotes": [
+        "Perform elements slowly with perfect alignment.",
+        "Keep spine in neutral plane.",
+        "Do not force range of motion indices."
+      ],
+      "commonMistakes": [
+        "Holding your breath during isometric loads.",
+        "Leaning forward or hyperextending neck lines."
+      ],
+      "safetyNotes": [
+        "Discontinue reps immediately if any articulation pain surfaces.",
+        "Use cushion matting for knee security as prescribed."
+      ],
+      "shareCard": {
+        "cardTitle": "Anaerobic Injury Risk Reduction Pyramid Challenge [Set 1]",
+        "cardSubtitle": "Track.Vault Curated Injury Risk Reduction",
+        "mainSetText": "Completed targeted support set series.",
+        "purposeText": "Stabilization core and alignment support routine.",
+        "footerNote": "Track.Vault static system"
+      },
+      "tags": [
+        "injury_risk_reduction",
+        "support-routine",
+        "injury-risk-reduction"
+      ],
+      "searchKeywords": [
+        "injury_risk_reduction",
+        "anaerobic injury risk reduction pyramid challenge [set 1]",
+        "injury-risk-reduction"
+      ],
+      "uniquenessSignature": "sup0501-anaerobic-injury-risk-reduction-pyramid-challenge-set-1",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "Movement specs informed by track physical preparation procedures."
+    },
+    {
+      "id": "sup0502",
+      "slug": "neuromuscular-injury-risk-reduction-drive-builder-set-2",
+      "title": "Neuromuscular Injury Risk Reduction Drive Builder [Set 2]",
+      "shortTitle": "Injury Risk Reduction Set 2",
+      "summary": "High quality Injury Risk Reduction support routine designed to support skeletal alignment, tissue elasticity, and structural stability.",
+      "entryType": "support-routine",
+      "supportCategoryId": "injury_risk_reduction",
+      "supportCategoryLabel": "Injury Risk Reduction",
+      "routineType": "strength",
+      "targetRunnerType": "all runners",
+      "level": "advanced",
+      "phase": [
+        "base"
+      ],
+      "durationMin": 17,
+      "equipment": [
+        "light weights",
+        "mat"
+      ],
+      "bodyFocus": [
+        "core"
+      ],
+      "movementGoals": [
+        "alignment",
+        "flexibility",
+        "running-mechanics"
+      ],
+      "difficulty": "hard",
+      "risk": "low",
+      "riskReason": "Closed kinetic chain alignments and static control minimize tendon friction.",
+      "sessionStructure": [
+        {
+          "blockType": "exercise",
+          "name": "Plank Hold",
+          "sets": 3,
+          "reps": null,
+          "durationSeconds": 45,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Engage core safely.",
+            "Breathe naturally during tension."
+          ]
+        },
+        {
+          "blockType": "exercise",
+          "name": "Stability Squat Drill",
+          "sets": 3,
+          "reps": 10,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Maintain knee and ankle compliance.",
+            "Keep torso tall."
+          ]
+        }
+      ],
+      "easierVariant": {
+        "description": "Reduce workout sets of the resistance moves to 2 sets for managing soft tissue load.",
+        "modifications": [
+          "Execute 2 sets per move.",
+          "Moderate posture depths if joints feel tight."
+        ]
+      },
+      "harderVariant": {
+        "description": "Increase dynamic repetitions to 15 per set or hold static planks for 60s.",
+        "modifications": [
+          "Hold static postures for 60s.",
+          "Limit transitions rests to 30s."
+        ]
+      },
+      "coachingNotes": [
+        "Perform elements slowly with perfect alignment.",
+        "Keep spine in neutral plane.",
+        "Do not force range of motion indices."
+      ],
+      "commonMistakes": [
+        "Holding your breath during isometric loads.",
+        "Leaning forward or hyperextending neck lines."
+      ],
+      "safetyNotes": [
+        "Discontinue reps immediately if any articulation pain surfaces.",
+        "Use cushion matting for knee security as prescribed."
+      ],
+      "shareCard": {
+        "cardTitle": "Neuromuscular Injury Risk Reduction Drive Builder [Set 2]",
+        "cardSubtitle": "Track.Vault Curated Injury Risk Reduction",
+        "mainSetText": "Completed targeted support set series.",
+        "purposeText": "Stabilization core and alignment support routine.",
+        "footerNote": "Track.Vault static system"
+      },
+      "tags": [
+        "injury_risk_reduction",
+        "support-routine",
+        "injury-risk-reduction"
+      ],
+      "searchKeywords": [
+        "injury_risk_reduction",
+        "neuromuscular injury risk reduction drive builder [set 2]",
+        "injury-risk-reduction"
+      ],
+      "uniquenessSignature": "sup0502-neuromuscular-injury-risk-reduction-drive-builder-set-2",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "Movement specs informed by track physical preparation procedures."
+    },
+    {
+      "id": "sup0503",
+      "slug": "progressive-injury-risk-reduction-tuning-ride-set-3",
+      "title": "Progressive Injury Risk Reduction Tuning Ride [Set 3]",
+      "shortTitle": "Injury Risk Reduction Set 3",
+      "summary": "High quality Injury Risk Reduction support routine designed to support skeletal alignment, tissue elasticity, and structural stability.",
+      "entryType": "support-routine",
+      "supportCategoryId": "injury_risk_reduction",
+      "supportCategoryLabel": "Injury Risk Reduction",
+      "routineType": "mobility",
+      "targetRunnerType": "all runners",
+      "level": "beginner",
+      "phase": [
+        "base"
+      ],
+      "durationMin": 18,
+      "equipment": [
+        "none"
+      ],
+      "bodyFocus": [
+        "legs"
+      ],
+      "movementGoals": [
+        "alignment",
+        "flexibility",
+        "running-mechanics"
+      ],
+      "difficulty": "easy",
+      "risk": "low",
+      "riskReason": "Closed kinetic chain alignments and static control minimize tendon friction.",
+      "sessionStructure": [
+        {
+          "blockType": "exercise",
+          "name": "Dynamic Bridge Lift",
+          "sets": 3,
+          "reps": 12,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Engage core safely.",
+            "Breathe naturally during tension."
+          ]
+        },
+        {
+          "blockType": "exercise",
+          "name": "Stability Squat Drill",
+          "sets": 3,
+          "reps": 10,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Maintain knee and ankle compliance.",
+            "Keep torso tall."
+          ]
+        }
+      ],
+      "easierVariant": {
+        "description": "Reduce workout sets of the resistance moves to 2 sets for managing soft tissue load.",
+        "modifications": [
+          "Execute 2 sets per move.",
+          "Moderate posture depths if joints feel tight."
+        ]
+      },
+      "harderVariant": {
+        "description": "Increase dynamic repetitions to 15 per set or hold static planks for 60s.",
+        "modifications": [
+          "Hold static postures for 60s.",
+          "Limit transitions rests to 30s."
+        ]
+      },
+      "coachingNotes": [
+        "Perform elements slowly with perfect alignment.",
+        "Keep spine in neutral plane.",
+        "Do not force range of motion indices."
+      ],
+      "commonMistakes": [
+        "Holding your breath during isometric loads.",
+        "Leaning forward or hyperextending neck lines."
+      ],
+      "safetyNotes": [
+        "Discontinue reps immediately if any articulation pain surfaces.",
+        "Use cushion matting for knee security as prescribed."
+      ],
+      "shareCard": {
+        "cardTitle": "Progressive Injury Risk Reduction Tuning Ride [Set 3]",
+        "cardSubtitle": "Track.Vault Curated Injury Risk Reduction",
+        "mainSetText": "Completed targeted support set series.",
+        "purposeText": "Stabilization core and alignment support routine.",
+        "footerNote": "Track.Vault static system"
+      },
+      "tags": [
+        "injury_risk_reduction",
+        "support-routine",
+        "injury-risk-reduction"
+      ],
+      "searchKeywords": [
+        "injury_risk_reduction",
+        "progressive injury risk reduction tuning ride [set 3]",
+        "injury-risk-reduction"
+      ],
+      "uniquenessSignature": "sup0503-progressive-injury-risk-reduction-tuning-ride-set-3",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "Movement specs informed by track physical preparation procedures."
+    },
+    {
+      "id": "sup0504",
+      "slug": "capacity-injury-risk-reduction-development-set-set-4",
+      "title": "Capacity Injury Risk Reduction Development Set [Set 4]",
+      "shortTitle": "Injury Risk Reduction Set 4",
+      "summary": "High quality Injury Risk Reduction support routine designed to support skeletal alignment, tissue elasticity, and structural stability.",
+      "entryType": "support-routine",
+      "supportCategoryId": "injury_risk_reduction",
+      "supportCategoryLabel": "Injury Risk Reduction",
+      "routineType": "strength",
+      "targetRunnerType": "all runners",
+      "level": "intermediate",
+      "phase": [
+        "base"
+      ],
+      "durationMin": 19,
+      "equipment": [
+        "light weights",
+        "mat"
+      ],
+      "bodyFocus": [
+        "core"
+      ],
+      "movementGoals": [
+        "alignment",
+        "flexibility",
+        "running-mechanics"
+      ],
+      "difficulty": "moderate",
+      "risk": "low",
+      "riskReason": "Closed kinetic chain alignments and static control minimize tendon friction.",
+      "sessionStructure": [
+        {
+          "blockType": "exercise",
+          "name": "Plank Hold",
+          "sets": 3,
+          "reps": null,
+          "durationSeconds": 45,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Engage core safely.",
+            "Breathe naturally during tension."
+          ]
+        },
+        {
+          "blockType": "exercise",
+          "name": "Stability Squat Drill",
+          "sets": 3,
+          "reps": 10,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Maintain knee and ankle compliance.",
+            "Keep torso tall."
+          ]
+        }
+      ],
+      "easierVariant": {
+        "description": "Reduce workout sets of the resistance moves to 2 sets for managing soft tissue load.",
+        "modifications": [
+          "Execute 2 sets per move.",
+          "Moderate posture depths if joints feel tight."
+        ]
+      },
+      "harderVariant": {
+        "description": "Increase dynamic repetitions to 15 per set or hold static planks for 60s.",
+        "modifications": [
+          "Hold static postures for 60s.",
+          "Limit transitions rests to 30s."
+        ]
+      },
+      "coachingNotes": [
+        "Perform elements slowly with perfect alignment.",
+        "Keep spine in neutral plane.",
+        "Do not force range of motion indices."
+      ],
+      "commonMistakes": [
+        "Holding your breath during isometric loads.",
+        "Leaning forward or hyperextending neck lines."
+      ],
+      "safetyNotes": [
+        "Discontinue reps immediately if any articulation pain surfaces.",
+        "Use cushion matting for knee security as prescribed."
+      ],
+      "shareCard": {
+        "cardTitle": "Capacity Injury Risk Reduction Development Set [Set 4]",
+        "cardSubtitle": "Track.Vault Curated Injury Risk Reduction",
+        "mainSetText": "Completed targeted support set series.",
+        "purposeText": "Stabilization core and alignment support routine.",
+        "footerNote": "Track.Vault static system"
+      },
+      "tags": [
+        "injury_risk_reduction",
+        "support-routine",
+        "injury-risk-reduction"
+      ],
+      "searchKeywords": [
+        "injury_risk_reduction",
+        "capacity injury risk reduction development set [set 4]",
+        "injury-risk-reduction"
+      ],
+      "uniquenessSignature": "sup0504-capacity-injury-risk-reduction-development-set-set-4",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "Movement specs informed by track physical preparation procedures."
+    },
+    {
+      "id": "sup0505",
+      "slug": "strategic-injury-risk-reduction-engine-primer-set-5",
+      "title": "Strategic Injury Risk Reduction Engine Primer [Set 5]",
+      "shortTitle": "Injury Risk Reduction Set 5",
+      "summary": "High quality Injury Risk Reduction support routine designed to support skeletal alignment, tissue elasticity, and structural stability.",
+      "entryType": "support-routine",
+      "supportCategoryId": "injury_risk_reduction",
+      "supportCategoryLabel": "Injury Risk Reduction",
+      "routineType": "mobility",
+      "targetRunnerType": "all runners",
+      "level": "advanced",
+      "phase": [
+        "base"
+      ],
+      "durationMin": 20,
+      "equipment": [
+        "none"
+      ],
+      "bodyFocus": [
+        "legs"
+      ],
+      "movementGoals": [
+        "alignment",
+        "flexibility",
+        "running-mechanics"
+      ],
+      "difficulty": "hard",
+      "risk": "low",
+      "riskReason": "Closed kinetic chain alignments and static control minimize tendon friction.",
+      "sessionStructure": [
+        {
+          "blockType": "exercise",
+          "name": "Dynamic Bridge Lift",
+          "sets": 3,
+          "reps": 12,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Engage core safely.",
+            "Breathe naturally during tension."
+          ]
+        },
+        {
+          "blockType": "exercise",
+          "name": "Stability Squat Drill",
+          "sets": 3,
+          "reps": 10,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Maintain knee and ankle compliance.",
+            "Keep torso tall."
+          ]
+        }
+      ],
+      "easierVariant": {
+        "description": "Reduce workout sets of the resistance moves to 2 sets for managing soft tissue load.",
+        "modifications": [
+          "Execute 2 sets per move.",
+          "Moderate posture depths if joints feel tight."
+        ]
+      },
+      "harderVariant": {
+        "description": "Increase dynamic repetitions to 15 per set or hold static planks for 60s.",
+        "modifications": [
+          "Hold static postures for 60s.",
+          "Limit transitions rests to 30s."
+        ]
+      },
+      "coachingNotes": [
+        "Perform elements slowly with perfect alignment.",
+        "Keep spine in neutral plane.",
+        "Do not force range of motion indices."
+      ],
+      "commonMistakes": [
+        "Holding your breath during isometric loads.",
+        "Leaning forward or hyperextending neck lines."
+      ],
+      "safetyNotes": [
+        "Discontinue reps immediately if any articulation pain surfaces.",
+        "Use cushion matting for knee security as prescribed."
+      ],
+      "shareCard": {
+        "cardTitle": "Strategic Injury Risk Reduction Engine Primer [Set 5]",
+        "cardSubtitle": "Track.Vault Curated Injury Risk Reduction",
+        "mainSetText": "Completed targeted support set series.",
+        "purposeText": "Stabilization core and alignment support routine.",
+        "footerNote": "Track.Vault static system"
+      },
+      "tags": [
+        "injury_risk_reduction",
+        "support-routine",
+        "injury-risk-reduction"
+      ],
+      "searchKeywords": [
+        "injury_risk_reduction",
+        "strategic injury risk reduction engine primer [set 5]",
+        "injury-risk-reduction"
+      ],
+      "uniquenessSignature": "sup0505-strategic-injury-risk-reduction-engine-primer-set-5",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "Movement specs informed by track physical preparation procedures."
+    },
+    {
+      "id": "sup0506",
+      "slug": "anaerobic-injury-risk-reduction-speed-ladder-set-6",
+      "title": "Anaerobic Injury Risk Reduction Speed Ladder [Set 6]",
+      "shortTitle": "Injury Risk Reduction Set 6",
+      "summary": "High quality Injury Risk Reduction support routine designed to support skeletal alignment, tissue elasticity, and structural stability.",
+      "entryType": "support-routine",
+      "supportCategoryId": "injury_risk_reduction",
+      "supportCategoryLabel": "Injury Risk Reduction",
+      "routineType": "strength",
+      "targetRunnerType": "all runners",
+      "level": "beginner",
+      "phase": [
+        "base"
+      ],
+      "durationMin": 21,
+      "equipment": [
+        "light weights",
+        "mat"
+      ],
+      "bodyFocus": [
+        "core"
+      ],
+      "movementGoals": [
+        "alignment",
+        "flexibility",
+        "running-mechanics"
+      ],
+      "difficulty": "easy",
+      "risk": "low",
+      "riskReason": "Closed kinetic chain alignments and static control minimize tendon friction.",
+      "sessionStructure": [
+        {
+          "blockType": "exercise",
+          "name": "Plank Hold",
+          "sets": 3,
+          "reps": null,
+          "durationSeconds": 45,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Engage core safely.",
+            "Breathe naturally during tension."
+          ]
+        },
+        {
+          "blockType": "exercise",
+          "name": "Stability Squat Drill",
+          "sets": 3,
+          "reps": 10,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Maintain knee and ankle compliance.",
+            "Keep torso tall."
+          ]
+        }
+      ],
+      "easierVariant": {
+        "description": "Reduce workout sets of the resistance moves to 2 sets for managing soft tissue load.",
+        "modifications": [
+          "Execute 2 sets per move.",
+          "Moderate posture depths if joints feel tight."
+        ]
+      },
+      "harderVariant": {
+        "description": "Increase dynamic repetitions to 15 per set or hold static planks for 60s.",
+        "modifications": [
+          "Hold static postures for 60s.",
+          "Limit transitions rests to 30s."
+        ]
+      },
+      "coachingNotes": [
+        "Perform elements slowly with perfect alignment.",
+        "Keep spine in neutral plane.",
+        "Do not force range of motion indices."
+      ],
+      "commonMistakes": [
+        "Holding your breath during isometric loads.",
+        "Leaning forward or hyperextending neck lines."
+      ],
+      "safetyNotes": [
+        "Discontinue reps immediately if any articulation pain surfaces.",
+        "Use cushion matting for knee security as prescribed."
+      ],
+      "shareCard": {
+        "cardTitle": "Anaerobic Injury Risk Reduction Speed Ladder [Set 6]",
+        "cardSubtitle": "Track.Vault Curated Injury Risk Reduction",
+        "mainSetText": "Completed targeted support set series.",
+        "purposeText": "Stabilization core and alignment support routine.",
+        "footerNote": "Track.Vault static system"
+      },
+      "tags": [
+        "injury_risk_reduction",
+        "support-routine",
+        "injury-risk-reduction"
+      ],
+      "searchKeywords": [
+        "injury_risk_reduction",
+        "anaerobic injury risk reduction speed ladder [set 6]",
+        "injury-risk-reduction"
+      ],
+      "uniquenessSignature": "sup0506-anaerobic-injury-risk-reduction-speed-ladder-set-6",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "Movement specs informed by track physical preparation procedures."
+    },
+    {
+      "id": "sup0507",
+      "slug": "neuromuscular-injury-risk-reduction-pacing-matrix-set-7",
+      "title": "Neuromuscular Injury Risk Reduction Pacing Matrix [Set 7]",
+      "shortTitle": "Injury Risk Reduction Set 7",
+      "summary": "High quality Injury Risk Reduction support routine designed to support skeletal alignment, tissue elasticity, and structural stability.",
+      "entryType": "support-routine",
+      "supportCategoryId": "injury_risk_reduction",
+      "supportCategoryLabel": "Injury Risk Reduction",
+      "routineType": "mobility",
+      "targetRunnerType": "all runners",
+      "level": "intermediate",
+      "phase": [
+        "base"
+      ],
+      "durationMin": 22,
+      "equipment": [
+        "none"
+      ],
+      "bodyFocus": [
+        "legs"
+      ],
+      "movementGoals": [
+        "alignment",
+        "flexibility",
+        "running-mechanics"
+      ],
+      "difficulty": "moderate",
+      "risk": "low",
+      "riskReason": "Closed kinetic chain alignments and static control minimize tendon friction.",
+      "sessionStructure": [
+        {
+          "blockType": "exercise",
+          "name": "Dynamic Bridge Lift",
+          "sets": 3,
+          "reps": 12,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Engage core safely.",
+            "Breathe naturally during tension."
+          ]
+        },
+        {
+          "blockType": "exercise",
+          "name": "Stability Squat Drill",
+          "sets": 3,
+          "reps": 10,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Maintain knee and ankle compliance.",
+            "Keep torso tall."
+          ]
+        }
+      ],
+      "easierVariant": {
+        "description": "Reduce workout sets of the resistance moves to 2 sets for managing soft tissue load.",
+        "modifications": [
+          "Execute 2 sets per move.",
+          "Moderate posture depths if joints feel tight."
+        ]
+      },
+      "harderVariant": {
+        "description": "Increase dynamic repetitions to 15 per set or hold static planks for 60s.",
+        "modifications": [
+          "Hold static postures for 60s.",
+          "Limit transitions rests to 30s."
+        ]
+      },
+      "coachingNotes": [
+        "Perform elements slowly with perfect alignment.",
+        "Keep spine in neutral plane.",
+        "Do not force range of motion indices."
+      ],
+      "commonMistakes": [
+        "Holding your breath during isometric loads.",
+        "Leaning forward or hyperextending neck lines."
+      ],
+      "safetyNotes": [
+        "Discontinue reps immediately if any articulation pain surfaces.",
+        "Use cushion matting for knee security as prescribed."
+      ],
+      "shareCard": {
+        "cardTitle": "Neuromuscular Injury Risk Reduction Pacing Matrix [Set 7]",
+        "cardSubtitle": "Track.Vault Curated Injury Risk Reduction",
+        "mainSetText": "Completed targeted support set series.",
+        "purposeText": "Stabilization core and alignment support routine.",
+        "footerNote": "Track.Vault static system"
+      },
+      "tags": [
+        "injury_risk_reduction",
+        "support-routine",
+        "injury-risk-reduction"
+      ],
+      "searchKeywords": [
+        "injury_risk_reduction",
+        "neuromuscular injury risk reduction pacing matrix [set 7]",
+        "injury-risk-reduction"
+      ],
+      "uniquenessSignature": "sup0507-neuromuscular-injury-risk-reduction-pacing-matrix-set-7",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "Movement specs informed by track physical preparation procedures."
+    },
+    {
+      "id": "sup0508",
+      "slug": "progressive-injury-risk-reduction-conditioning-session-set-8",
+      "title": "Progressive Injury Risk Reduction Conditioning Session [Set 8]",
+      "shortTitle": "Injury Risk Reduction Set 8",
+      "summary": "High quality Injury Risk Reduction support routine designed to support skeletal alignment, tissue elasticity, and structural stability.",
+      "entryType": "support-routine",
+      "supportCategoryId": "injury_risk_reduction",
+      "supportCategoryLabel": "Injury Risk Reduction",
+      "routineType": "strength",
+      "targetRunnerType": "all runners",
+      "level": "advanced",
+      "phase": [
+        "base"
+      ],
+      "durationMin": 23,
+      "equipment": [
+        "light weights",
+        "mat"
+      ],
+      "bodyFocus": [
+        "core"
+      ],
+      "movementGoals": [
+        "alignment",
+        "flexibility",
+        "running-mechanics"
+      ],
+      "difficulty": "hard",
+      "risk": "low",
+      "riskReason": "Closed kinetic chain alignments and static control minimize tendon friction.",
+      "sessionStructure": [
+        {
+          "blockType": "exercise",
+          "name": "Plank Hold",
+          "sets": 3,
+          "reps": null,
+          "durationSeconds": 45,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Engage core safely.",
+            "Breathe naturally during tension."
+          ]
+        },
+        {
+          "blockType": "exercise",
+          "name": "Stability Squat Drill",
+          "sets": 3,
+          "reps": 10,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Maintain knee and ankle compliance.",
+            "Keep torso tall."
+          ]
+        }
+      ],
+      "easierVariant": {
+        "description": "Reduce workout sets of the resistance moves to 2 sets for managing soft tissue load.",
+        "modifications": [
+          "Execute 2 sets per move.",
+          "Moderate posture depths if joints feel tight."
+        ]
+      },
+      "harderVariant": {
+        "description": "Increase dynamic repetitions to 15 per set or hold static planks for 60s.",
+        "modifications": [
+          "Hold static postures for 60s.",
+          "Limit transitions rests to 30s."
+        ]
+      },
+      "coachingNotes": [
+        "Perform elements slowly with perfect alignment.",
+        "Keep spine in neutral plane.",
+        "Do not force range of motion indices."
+      ],
+      "commonMistakes": [
+        "Holding your breath during isometric loads.",
+        "Leaning forward or hyperextending neck lines."
+      ],
+      "safetyNotes": [
+        "Discontinue reps immediately if any articulation pain surfaces.",
+        "Use cushion matting for knee security as prescribed."
+      ],
+      "shareCard": {
+        "cardTitle": "Progressive Injury Risk Reduction Conditioning Session [Set 8]",
+        "cardSubtitle": "Track.Vault Curated Injury Risk Reduction",
+        "mainSetText": "Completed targeted support set series.",
+        "purposeText": "Stabilization core and alignment support routine.",
+        "footerNote": "Track.Vault static system"
+      },
+      "tags": [
+        "injury_risk_reduction",
+        "support-routine",
+        "injury-risk-reduction"
+      ],
+      "searchKeywords": [
+        "injury_risk_reduction",
+        "progressive injury risk reduction conditioning session [set 8]",
+        "injury-risk-reduction"
+      ],
+      "uniquenessSignature": "sup0508-progressive-injury-risk-reduction-conditioning-session-set-8",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "Movement specs informed by track physical preparation procedures."
+    },
+    {
+      "id": "sup0509",
+      "slug": "capacity-injury-risk-reduction-shifter-set-9",
+      "title": "Capacity Injury Risk Reduction Shifter [Set 9]",
+      "shortTitle": "Injury Risk Reduction Set 9",
+      "summary": "High quality Injury Risk Reduction support routine designed to support skeletal alignment, tissue elasticity, and structural stability.",
+      "entryType": "support-routine",
+      "supportCategoryId": "injury_risk_reduction",
+      "supportCategoryLabel": "Injury Risk Reduction",
+      "routineType": "mobility",
+      "targetRunnerType": "all runners",
+      "level": "beginner",
+      "phase": [
+        "base"
+      ],
+      "durationMin": 24,
+      "equipment": [
+        "none"
+      ],
+      "bodyFocus": [
+        "legs"
+      ],
+      "movementGoals": [
+        "alignment",
+        "flexibility",
+        "running-mechanics"
+      ],
+      "difficulty": "easy",
+      "risk": "low",
+      "riskReason": "Closed kinetic chain alignments and static control minimize tendon friction.",
+      "sessionStructure": [
+        {
+          "blockType": "exercise",
+          "name": "Dynamic Bridge Lift",
+          "sets": 3,
+          "reps": 12,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Engage core safely.",
+            "Breathe naturally during tension."
+          ]
+        },
+        {
+          "blockType": "exercise",
+          "name": "Stability Squat Drill",
+          "sets": 3,
+          "reps": 10,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Maintain knee and ankle compliance.",
+            "Keep torso tall."
+          ]
+        }
+      ],
+      "easierVariant": {
+        "description": "Reduce workout sets of the resistance moves to 2 sets for managing soft tissue load.",
+        "modifications": [
+          "Execute 2 sets per move.",
+          "Moderate posture depths if joints feel tight."
+        ]
+      },
+      "harderVariant": {
+        "description": "Increase dynamic repetitions to 15 per set or hold static planks for 60s.",
+        "modifications": [
+          "Hold static postures for 60s.",
+          "Limit transitions rests to 30s."
+        ]
+      },
+      "coachingNotes": [
+        "Perform elements slowly with perfect alignment.",
+        "Keep spine in neutral plane.",
+        "Do not force range of motion indices."
+      ],
+      "commonMistakes": [
+        "Holding your breath during isometric loads.",
+        "Leaning forward or hyperextending neck lines."
+      ],
+      "safetyNotes": [
+        "Discontinue reps immediately if any articulation pain surfaces.",
+        "Use cushion matting for knee security as prescribed."
+      ],
+      "shareCard": {
+        "cardTitle": "Capacity Injury Risk Reduction Shifter [Set 9]",
+        "cardSubtitle": "Track.Vault Curated Injury Risk Reduction",
+        "mainSetText": "Completed targeted support set series.",
+        "purposeText": "Stabilization core and alignment support routine.",
+        "footerNote": "Track.Vault static system"
+      },
+      "tags": [
+        "injury_risk_reduction",
+        "support-routine",
+        "injury-risk-reduction"
+      ],
+      "searchKeywords": [
+        "injury_risk_reduction",
+        "capacity injury risk reduction shifter [set 9]",
+        "injury-risk-reduction"
+      ],
+      "uniquenessSignature": "sup0509-capacity-injury-risk-reduction-shifter-set-9",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "Movement specs informed by track physical preparation procedures."
+    },
+    {
+      "id": "sup0510",
+      "slug": "strategic-injury-risk-reduction-cruise-intervals-set-10",
+      "title": "Strategic Injury Risk Reduction Cruise Intervals [Set 10]",
+      "shortTitle": "Injury Risk Reduction Set 10",
+      "summary": "High quality Injury Risk Reduction support routine designed to support skeletal alignment, tissue elasticity, and structural stability.",
+      "entryType": "support-routine",
+      "supportCategoryId": "injury_risk_reduction",
+      "supportCategoryLabel": "Injury Risk Reduction",
+      "routineType": "strength",
+      "targetRunnerType": "all runners",
+      "level": "intermediate",
+      "phase": [
+        "base"
+      ],
+      "durationMin": 25,
+      "equipment": [
+        "light weights",
+        "mat"
+      ],
+      "bodyFocus": [
+        "core"
+      ],
+      "movementGoals": [
+        "alignment",
+        "flexibility",
+        "running-mechanics"
+      ],
+      "difficulty": "moderate",
+      "risk": "low",
+      "riskReason": "Closed kinetic chain alignments and static control minimize tendon friction.",
+      "sessionStructure": [
+        {
+          "blockType": "exercise",
+          "name": "Plank Hold",
+          "sets": 3,
+          "reps": null,
+          "durationSeconds": 45,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Engage core safely.",
+            "Breathe naturally during tension."
+          ]
+        },
+        {
+          "blockType": "exercise",
+          "name": "Stability Squat Drill",
+          "sets": 3,
+          "reps": 10,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Maintain knee and ankle compliance.",
+            "Keep torso tall."
+          ]
+        }
+      ],
+      "easierVariant": {
+        "description": "Reduce workout sets of the resistance moves to 2 sets for managing soft tissue load.",
+        "modifications": [
+          "Execute 2 sets per move.",
+          "Moderate posture depths if joints feel tight."
+        ]
+      },
+      "harderVariant": {
+        "description": "Increase dynamic repetitions to 15 per set or hold static planks for 60s.",
+        "modifications": [
+          "Hold static postures for 60s.",
+          "Limit transitions rests to 30s."
+        ]
+      },
+      "coachingNotes": [
+        "Perform elements slowly with perfect alignment.",
+        "Keep spine in neutral plane.",
+        "Do not force range of motion indices."
+      ],
+      "commonMistakes": [
+        "Holding your breath during isometric loads.",
+        "Leaning forward or hyperextending neck lines."
+      ],
+      "safetyNotes": [
+        "Discontinue reps immediately if any articulation pain surfaces.",
+        "Use cushion matting for knee security as prescribed."
+      ],
+      "shareCard": {
+        "cardTitle": "Strategic Injury Risk Reduction Cruise Intervals [Set 10]",
+        "cardSubtitle": "Track.Vault Curated Injury Risk Reduction",
+        "mainSetText": "Completed targeted support set series.",
+        "purposeText": "Stabilization core and alignment support routine.",
+        "footerNote": "Track.Vault static system"
+      },
+      "tags": [
+        "injury_risk_reduction",
+        "support-routine",
+        "injury-risk-reduction"
+      ],
+      "searchKeywords": [
+        "injury_risk_reduction",
+        "strategic injury risk reduction cruise intervals [set 10]",
+        "injury-risk-reduction"
+      ],
+      "uniquenessSignature": "sup0510-strategic-injury-risk-reduction-cruise-intervals-set-10",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "Movement specs informed by track physical preparation procedures."
+    },
+    {
+      "id": "sup0511",
+      "slug": "anaerobic-injury-risk-reduction-tempo-loop-set-11",
+      "title": "Anaerobic Injury Risk Reduction Tempo Loop [Set 11]",
+      "shortTitle": "Injury Risk Reduction Set 11",
+      "summary": "High quality Injury Risk Reduction support routine designed to support skeletal alignment, tissue elasticity, and structural stability.",
+      "entryType": "support-routine",
+      "supportCategoryId": "injury_risk_reduction",
+      "supportCategoryLabel": "Injury Risk Reduction",
+      "routineType": "mobility",
+      "targetRunnerType": "all runners",
+      "level": "advanced",
+      "phase": [
+        "base"
+      ],
+      "durationMin": 26,
+      "equipment": [
+        "none"
+      ],
+      "bodyFocus": [
+        "legs"
+      ],
+      "movementGoals": [
+        "alignment",
+        "flexibility",
+        "running-mechanics"
+      ],
+      "difficulty": "hard",
+      "risk": "low",
+      "riskReason": "Closed kinetic chain alignments and static control minimize tendon friction.",
+      "sessionStructure": [
+        {
+          "blockType": "exercise",
+          "name": "Dynamic Bridge Lift",
+          "sets": 3,
+          "reps": 12,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Engage core safely.",
+            "Breathe naturally during tension."
+          ]
+        },
+        {
+          "blockType": "exercise",
+          "name": "Stability Squat Drill",
+          "sets": 3,
+          "reps": 10,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Maintain knee and ankle compliance.",
+            "Keep torso tall."
+          ]
+        }
+      ],
+      "easierVariant": {
+        "description": "Reduce workout sets of the resistance moves to 2 sets for managing soft tissue load.",
+        "modifications": [
+          "Execute 2 sets per move.",
+          "Moderate posture depths if joints feel tight."
+        ]
+      },
+      "harderVariant": {
+        "description": "Increase dynamic repetitions to 15 per set or hold static planks for 60s.",
+        "modifications": [
+          "Hold static postures for 60s.",
+          "Limit transitions rests to 30s."
+        ]
+      },
+      "coachingNotes": [
+        "Perform elements slowly with perfect alignment.",
+        "Keep spine in neutral plane.",
+        "Do not force range of motion indices."
+      ],
+      "commonMistakes": [
+        "Holding your breath during isometric loads.",
+        "Leaning forward or hyperextending neck lines."
+      ],
+      "safetyNotes": [
+        "Discontinue reps immediately if any articulation pain surfaces.",
+        "Use cushion matting for knee security as prescribed."
+      ],
+      "shareCard": {
+        "cardTitle": "Anaerobic Injury Risk Reduction Tempo Loop [Set 11]",
+        "cardSubtitle": "Track.Vault Curated Injury Risk Reduction",
+        "mainSetText": "Completed targeted support set series.",
+        "purposeText": "Stabilization core and alignment support routine.",
+        "footerNote": "Track.Vault static system"
+      },
+      "tags": [
+        "injury_risk_reduction",
+        "support-routine",
+        "injury-risk-reduction"
+      ],
+      "searchKeywords": [
+        "injury_risk_reduction",
+        "anaerobic injury risk reduction tempo loop [set 11]",
+        "injury-risk-reduction"
+      ],
+      "uniquenessSignature": "sup0511-anaerobic-injury-risk-reduction-tempo-loop-set-11",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "Movement specs informed by track physical preparation procedures."
+    },
+    {
+      "id": "sup0512",
+      "slug": "neuromuscular-injury-risk-reduction-adaptation-reps-set-12",
+      "title": "Neuromuscular Injury Risk Reduction Adaptation Reps [Set 12]",
+      "shortTitle": "Injury Risk Reduction Set 12",
+      "summary": "High quality Injury Risk Reduction support routine designed to support skeletal alignment, tissue elasticity, and structural stability.",
+      "entryType": "support-routine",
+      "supportCategoryId": "injury_risk_reduction",
+      "supportCategoryLabel": "Injury Risk Reduction",
+      "routineType": "strength",
+      "targetRunnerType": "all runners",
+      "level": "beginner",
+      "phase": [
+        "base"
+      ],
+      "durationMin": 27,
+      "equipment": [
+        "light weights",
+        "mat"
+      ],
+      "bodyFocus": [
+        "core"
+      ],
+      "movementGoals": [
+        "alignment",
+        "flexibility",
+        "running-mechanics"
+      ],
+      "difficulty": "easy",
+      "risk": "low",
+      "riskReason": "Closed kinetic chain alignments and static control minimize tendon friction.",
+      "sessionStructure": [
+        {
+          "blockType": "exercise",
+          "name": "Plank Hold",
+          "sets": 3,
+          "reps": null,
+          "durationSeconds": 45,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Engage core safely.",
+            "Breathe naturally during tension."
+          ]
+        },
+        {
+          "blockType": "exercise",
+          "name": "Stability Squat Drill",
+          "sets": 3,
+          "reps": 10,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Maintain knee and ankle compliance.",
+            "Keep torso tall."
+          ]
+        }
+      ],
+      "easierVariant": {
+        "description": "Reduce workout sets of the resistance moves to 2 sets for managing soft tissue load.",
+        "modifications": [
+          "Execute 2 sets per move.",
+          "Moderate posture depths if joints feel tight."
+        ]
+      },
+      "harderVariant": {
+        "description": "Increase dynamic repetitions to 15 per set or hold static planks for 60s.",
+        "modifications": [
+          "Hold static postures for 60s.",
+          "Limit transitions rests to 30s."
+        ]
+      },
+      "coachingNotes": [
+        "Perform elements slowly with perfect alignment.",
+        "Keep spine in neutral plane.",
+        "Do not force range of motion indices."
+      ],
+      "commonMistakes": [
+        "Holding your breath during isometric loads.",
+        "Leaning forward or hyperextending neck lines."
+      ],
+      "safetyNotes": [
+        "Discontinue reps immediately if any articulation pain surfaces.",
+        "Use cushion matting for knee security as prescribed."
+      ],
+      "shareCard": {
+        "cardTitle": "Neuromuscular Injury Risk Reduction Adaptation Reps [Set 12]",
+        "cardSubtitle": "Track.Vault Curated Injury Risk Reduction",
+        "mainSetText": "Completed targeted support set series.",
+        "purposeText": "Stabilization core and alignment support routine.",
+        "footerNote": "Track.Vault static system"
+      },
+      "tags": [
+        "injury_risk_reduction",
+        "support-routine",
+        "injury-risk-reduction"
+      ],
+      "searchKeywords": [
+        "injury_risk_reduction",
+        "neuromuscular injury risk reduction adaptation reps [set 12]",
+        "injury-risk-reduction"
+      ],
+      "uniquenessSignature": "sup0512-neuromuscular-injury-risk-reduction-adaptation-reps-set-12",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "Movement specs informed by track physical preparation procedures."
+    },
+    {
+      "id": "sup0513",
+      "slug": "progressive-injury-risk-reduction-stimulus-drill-set-13",
+      "title": "Progressive Injury Risk Reduction Stimulus Drill [Set 13]",
+      "shortTitle": "Injury Risk Reduction Set 13",
+      "summary": "High quality Injury Risk Reduction support routine designed to support skeletal alignment, tissue elasticity, and structural stability.",
+      "entryType": "support-routine",
+      "supportCategoryId": "injury_risk_reduction",
+      "supportCategoryLabel": "Injury Risk Reduction",
+      "routineType": "mobility",
+      "targetRunnerType": "all runners",
+      "level": "intermediate",
+      "phase": [
+        "base"
+      ],
+      "durationMin": 28,
+      "equipment": [
+        "none"
+      ],
+      "bodyFocus": [
+        "legs"
+      ],
+      "movementGoals": [
+        "alignment",
+        "flexibility",
+        "running-mechanics"
+      ],
+      "difficulty": "moderate",
+      "risk": "low",
+      "riskReason": "Closed kinetic chain alignments and static control minimize tendon friction.",
+      "sessionStructure": [
+        {
+          "blockType": "exercise",
+          "name": "Dynamic Bridge Lift",
+          "sets": 3,
+          "reps": 12,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Engage core safely.",
+            "Breathe naturally during tension."
+          ]
+        },
+        {
+          "blockType": "exercise",
+          "name": "Stability Squat Drill",
+          "sets": 3,
+          "reps": 10,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Maintain knee and ankle compliance.",
+            "Keep torso tall."
+          ]
+        }
+      ],
+      "easierVariant": {
+        "description": "Reduce workout sets of the resistance moves to 2 sets for managing soft tissue load.",
+        "modifications": [
+          "Execute 2 sets per move.",
+          "Moderate posture depths if joints feel tight."
+        ]
+      },
+      "harderVariant": {
+        "description": "Increase dynamic repetitions to 15 per set or hold static planks for 60s.",
+        "modifications": [
+          "Hold static postures for 60s.",
+          "Limit transitions rests to 30s."
+        ]
+      },
+      "coachingNotes": [
+        "Perform elements slowly with perfect alignment.",
+        "Keep spine in neutral plane.",
+        "Do not force range of motion indices."
+      ],
+      "commonMistakes": [
+        "Holding your breath during isometric loads.",
+        "Leaning forward or hyperextending neck lines."
+      ],
+      "safetyNotes": [
+        "Discontinue reps immediately if any articulation pain surfaces.",
+        "Use cushion matting for knee security as prescribed."
+      ],
+      "shareCard": {
+        "cardTitle": "Progressive Injury Risk Reduction Stimulus Drill [Set 13]",
+        "cardSubtitle": "Track.Vault Curated Injury Risk Reduction",
+        "mainSetText": "Completed targeted support set series.",
+        "purposeText": "Stabilization core and alignment support routine.",
+        "footerNote": "Track.Vault static system"
+      },
+      "tags": [
+        "injury_risk_reduction",
+        "support-routine",
+        "injury-risk-reduction"
+      ],
+      "searchKeywords": [
+        "injury_risk_reduction",
+        "progressive injury risk reduction stimulus drill [set 13]",
+        "injury-risk-reduction"
+      ],
+      "uniquenessSignature": "sup0513-progressive-injury-risk-reduction-stimulus-drill-set-13",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "Movement specs informed by track physical preparation procedures."
+    },
+    {
+      "id": "sup0514",
+      "slug": "capacity-injury-risk-reduction-booster-set-14",
+      "title": "Capacity Injury Risk Reduction Booster [Set 14]",
+      "shortTitle": "Injury Risk Reduction Set 14",
+      "summary": "High quality Injury Risk Reduction support routine designed to support skeletal alignment, tissue elasticity, and structural stability.",
+      "entryType": "support-routine",
+      "supportCategoryId": "injury_risk_reduction",
+      "supportCategoryLabel": "Injury Risk Reduction",
+      "routineType": "strength",
+      "targetRunnerType": "all runners",
+      "level": "advanced",
+      "phase": [
+        "base"
+      ],
+      "durationMin": 29,
+      "equipment": [
+        "light weights",
+        "mat"
+      ],
+      "bodyFocus": [
+        "core"
+      ],
+      "movementGoals": [
+        "alignment",
+        "flexibility",
+        "running-mechanics"
+      ],
+      "difficulty": "hard",
+      "risk": "low",
+      "riskReason": "Closed kinetic chain alignments and static control minimize tendon friction.",
+      "sessionStructure": [
+        {
+          "blockType": "exercise",
+          "name": "Plank Hold",
+          "sets": 3,
+          "reps": null,
+          "durationSeconds": 45,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Engage core safely.",
+            "Breathe naturally during tension."
+          ]
+        },
+        {
+          "blockType": "exercise",
+          "name": "Stability Squat Drill",
+          "sets": 3,
+          "reps": 10,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Maintain knee and ankle compliance.",
+            "Keep torso tall."
+          ]
+        }
+      ],
+      "easierVariant": {
+        "description": "Reduce workout sets of the resistance moves to 2 sets for managing soft tissue load.",
+        "modifications": [
+          "Execute 2 sets per move.",
+          "Moderate posture depths if joints feel tight."
+        ]
+      },
+      "harderVariant": {
+        "description": "Increase dynamic repetitions to 15 per set or hold static planks for 60s.",
+        "modifications": [
+          "Hold static postures for 60s.",
+          "Limit transitions rests to 30s."
+        ]
+      },
+      "coachingNotes": [
+        "Perform elements slowly with perfect alignment.",
+        "Keep spine in neutral plane.",
+        "Do not force range of motion indices."
+      ],
+      "commonMistakes": [
+        "Holding your breath during isometric loads.",
+        "Leaning forward or hyperextending neck lines."
+      ],
+      "safetyNotes": [
+        "Discontinue reps immediately if any articulation pain surfaces.",
+        "Use cushion matting for knee security as prescribed."
+      ],
+      "shareCard": {
+        "cardTitle": "Capacity Injury Risk Reduction Booster [Set 14]",
+        "cardSubtitle": "Track.Vault Curated Injury Risk Reduction",
+        "mainSetText": "Completed targeted support set series.",
+        "purposeText": "Stabilization core and alignment support routine.",
+        "footerNote": "Track.Vault static system"
+      },
+      "tags": [
+        "injury_risk_reduction",
+        "support-routine",
+        "injury-risk-reduction"
+      ],
+      "searchKeywords": [
+        "injury_risk_reduction",
+        "capacity injury risk reduction booster [set 14]",
+        "injury-risk-reduction"
+      ],
+      "uniquenessSignature": "sup0514-capacity-injury-risk-reduction-booster-set-14",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "Movement specs informed by track physical preparation procedures."
+    },
+    {
+      "id": "sup0515",
+      "slug": "strategic-injury-risk-reduction-pyramid-challenge-set-15",
+      "title": "Strategic Injury Risk Reduction Pyramid Challenge [Set 15]",
+      "shortTitle": "Injury Risk Reduction Set 15",
+      "summary": "High quality Injury Risk Reduction support routine designed to support skeletal alignment, tissue elasticity, and structural stability.",
+      "entryType": "support-routine",
+      "supportCategoryId": "injury_risk_reduction",
+      "supportCategoryLabel": "Injury Risk Reduction",
+      "routineType": "mobility",
+      "targetRunnerType": "all runners",
+      "level": "beginner",
+      "phase": [
+        "base"
+      ],
+      "durationMin": 15,
+      "equipment": [
+        "none"
+      ],
+      "bodyFocus": [
+        "legs"
+      ],
+      "movementGoals": [
+        "alignment",
+        "flexibility",
+        "running-mechanics"
+      ],
+      "difficulty": "easy",
+      "risk": "low",
+      "riskReason": "Closed kinetic chain alignments and static control minimize tendon friction.",
+      "sessionStructure": [
+        {
+          "blockType": "exercise",
+          "name": "Dynamic Bridge Lift",
+          "sets": 3,
+          "reps": 12,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Engage core safely.",
+            "Breathe naturally during tension."
+          ]
+        },
+        {
+          "blockType": "exercise",
+          "name": "Stability Squat Drill",
+          "sets": 3,
+          "reps": 10,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Maintain knee and ankle compliance.",
+            "Keep torso tall."
+          ]
+        }
+      ],
+      "easierVariant": {
+        "description": "Reduce workout sets of the resistance moves to 2 sets for managing soft tissue load.",
+        "modifications": [
+          "Execute 2 sets per move.",
+          "Moderate posture depths if joints feel tight."
+        ]
+      },
+      "harderVariant": {
+        "description": "Increase dynamic repetitions to 15 per set or hold static planks for 60s.",
+        "modifications": [
+          "Hold static postures for 60s.",
+          "Limit transitions rests to 30s."
+        ]
+      },
+      "coachingNotes": [
+        "Perform elements slowly with perfect alignment.",
+        "Keep spine in neutral plane.",
+        "Do not force range of motion indices."
+      ],
+      "commonMistakes": [
+        "Holding your breath during isometric loads.",
+        "Leaning forward or hyperextending neck lines."
+      ],
+      "safetyNotes": [
+        "Discontinue reps immediately if any articulation pain surfaces.",
+        "Use cushion matting for knee security as prescribed."
+      ],
+      "shareCard": {
+        "cardTitle": "Strategic Injury Risk Reduction Pyramid Challenge [Set 15]",
+        "cardSubtitle": "Track.Vault Curated Injury Risk Reduction",
+        "mainSetText": "Completed targeted support set series.",
+        "purposeText": "Stabilization core and alignment support routine.",
+        "footerNote": "Track.Vault static system"
+      },
+      "tags": [
+        "injury_risk_reduction",
+        "support-routine",
+        "injury-risk-reduction"
+      ],
+      "searchKeywords": [
+        "injury_risk_reduction",
+        "strategic injury risk reduction pyramid challenge [set 15]",
+        "injury-risk-reduction"
+      ],
+      "uniquenessSignature": "sup0515-strategic-injury-risk-reduction-pyramid-challenge-set-15",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "Movement specs informed by track physical preparation procedures."
+    },
+    {
+      "id": "sup0516",
+      "slug": "anaerobic-injury-risk-reduction-drive-builder-set-16",
+      "title": "Anaerobic Injury Risk Reduction Drive Builder [Set 16]",
+      "shortTitle": "Injury Risk Reduction Set 16",
+      "summary": "High quality Injury Risk Reduction support routine designed to support skeletal alignment, tissue elasticity, and structural stability.",
+      "entryType": "support-routine",
+      "supportCategoryId": "injury_risk_reduction",
+      "supportCategoryLabel": "Injury Risk Reduction",
+      "routineType": "strength",
+      "targetRunnerType": "all runners",
+      "level": "intermediate",
+      "phase": [
+        "base"
+      ],
+      "durationMin": 16,
+      "equipment": [
+        "light weights",
+        "mat"
+      ],
+      "bodyFocus": [
+        "core"
+      ],
+      "movementGoals": [
+        "alignment",
+        "flexibility",
+        "running-mechanics"
+      ],
+      "difficulty": "moderate",
+      "risk": "low",
+      "riskReason": "Closed kinetic chain alignments and static control minimize tendon friction.",
+      "sessionStructure": [
+        {
+          "blockType": "exercise",
+          "name": "Plank Hold",
+          "sets": 3,
+          "reps": null,
+          "durationSeconds": 45,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Engage core safely.",
+            "Breathe naturally during tension."
+          ]
+        },
+        {
+          "blockType": "exercise",
+          "name": "Stability Squat Drill",
+          "sets": 3,
+          "reps": 10,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Maintain knee and ankle compliance.",
+            "Keep torso tall."
+          ]
+        }
+      ],
+      "easierVariant": {
+        "description": "Reduce workout sets of the resistance moves to 2 sets for managing soft tissue load.",
+        "modifications": [
+          "Execute 2 sets per move.",
+          "Moderate posture depths if joints feel tight."
+        ]
+      },
+      "harderVariant": {
+        "description": "Increase dynamic repetitions to 15 per set or hold static planks for 60s.",
+        "modifications": [
+          "Hold static postures for 60s.",
+          "Limit transitions rests to 30s."
+        ]
+      },
+      "coachingNotes": [
+        "Perform elements slowly with perfect alignment.",
+        "Keep spine in neutral plane.",
+        "Do not force range of motion indices."
+      ],
+      "commonMistakes": [
+        "Holding your breath during isometric loads.",
+        "Leaning forward or hyperextending neck lines."
+      ],
+      "safetyNotes": [
+        "Discontinue reps immediately if any articulation pain surfaces.",
+        "Use cushion matting for knee security as prescribed."
+      ],
+      "shareCard": {
+        "cardTitle": "Anaerobic Injury Risk Reduction Drive Builder [Set 16]",
+        "cardSubtitle": "Track.Vault Curated Injury Risk Reduction",
+        "mainSetText": "Completed targeted support set series.",
+        "purposeText": "Stabilization core and alignment support routine.",
+        "footerNote": "Track.Vault static system"
+      },
+      "tags": [
+        "injury_risk_reduction",
+        "support-routine",
+        "injury-risk-reduction"
+      ],
+      "searchKeywords": [
+        "injury_risk_reduction",
+        "anaerobic injury risk reduction drive builder [set 16]",
+        "injury-risk-reduction"
+      ],
+      "uniquenessSignature": "sup0516-anaerobic-injury-risk-reduction-drive-builder-set-16",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "Movement specs informed by track physical preparation procedures."
+    },
+    {
+      "id": "sup0517",
+      "slug": "neuromuscular-injury-risk-reduction-tuning-ride-set-17",
+      "title": "Neuromuscular Injury Risk Reduction Tuning Ride [Set 17]",
+      "shortTitle": "Injury Risk Reduction Set 17",
+      "summary": "High quality Injury Risk Reduction support routine designed to support skeletal alignment, tissue elasticity, and structural stability.",
+      "entryType": "support-routine",
+      "supportCategoryId": "injury_risk_reduction",
+      "supportCategoryLabel": "Injury Risk Reduction",
+      "routineType": "mobility",
+      "targetRunnerType": "all runners",
+      "level": "advanced",
+      "phase": [
+        "base"
+      ],
+      "durationMin": 17,
+      "equipment": [
+        "none"
+      ],
+      "bodyFocus": [
+        "legs"
+      ],
+      "movementGoals": [
+        "alignment",
+        "flexibility",
+        "running-mechanics"
+      ],
+      "difficulty": "hard",
+      "risk": "low",
+      "riskReason": "Closed kinetic chain alignments and static control minimize tendon friction.",
+      "sessionStructure": [
+        {
+          "blockType": "exercise",
+          "name": "Dynamic Bridge Lift",
+          "sets": 3,
+          "reps": 12,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Engage core safely.",
+            "Breathe naturally during tension."
+          ]
+        },
+        {
+          "blockType": "exercise",
+          "name": "Stability Squat Drill",
+          "sets": 3,
+          "reps": 10,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Maintain knee and ankle compliance.",
+            "Keep torso tall."
+          ]
+        }
+      ],
+      "easierVariant": {
+        "description": "Reduce workout sets of the resistance moves to 2 sets for managing soft tissue load.",
+        "modifications": [
+          "Execute 2 sets per move.",
+          "Moderate posture depths if joints feel tight."
+        ]
+      },
+      "harderVariant": {
+        "description": "Increase dynamic repetitions to 15 per set or hold static planks for 60s.",
+        "modifications": [
+          "Hold static postures for 60s.",
+          "Limit transitions rests to 30s."
+        ]
+      },
+      "coachingNotes": [
+        "Perform elements slowly with perfect alignment.",
+        "Keep spine in neutral plane.",
+        "Do not force range of motion indices."
+      ],
+      "commonMistakes": [
+        "Holding your breath during isometric loads.",
+        "Leaning forward or hyperextending neck lines."
+      ],
+      "safetyNotes": [
+        "Discontinue reps immediately if any articulation pain surfaces.",
+        "Use cushion matting for knee security as prescribed."
+      ],
+      "shareCard": {
+        "cardTitle": "Neuromuscular Injury Risk Reduction Tuning Ride [Set 17]",
+        "cardSubtitle": "Track.Vault Curated Injury Risk Reduction",
+        "mainSetText": "Completed targeted support set series.",
+        "purposeText": "Stabilization core and alignment support routine.",
+        "footerNote": "Track.Vault static system"
+      },
+      "tags": [
+        "injury_risk_reduction",
+        "support-routine",
+        "injury-risk-reduction"
+      ],
+      "searchKeywords": [
+        "injury_risk_reduction",
+        "neuromuscular injury risk reduction tuning ride [set 17]",
+        "injury-risk-reduction"
+      ],
+      "uniquenessSignature": "sup0517-neuromuscular-injury-risk-reduction-tuning-ride-set-17",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "Movement specs informed by track physical preparation procedures."
+    },
+    {
+      "id": "sup0518",
+      "slug": "progressive-injury-risk-reduction-development-set-set-18",
+      "title": "Progressive Injury Risk Reduction Development Set [Set 18]",
+      "shortTitle": "Injury Risk Reduction Set 18",
+      "summary": "High quality Injury Risk Reduction support routine designed to support skeletal alignment, tissue elasticity, and structural stability.",
+      "entryType": "support-routine",
+      "supportCategoryId": "injury_risk_reduction",
+      "supportCategoryLabel": "Injury Risk Reduction",
+      "routineType": "strength",
+      "targetRunnerType": "all runners",
+      "level": "beginner",
+      "phase": [
+        "base"
+      ],
+      "durationMin": 18,
+      "equipment": [
+        "light weights",
+        "mat"
+      ],
+      "bodyFocus": [
+        "core"
+      ],
+      "movementGoals": [
+        "alignment",
+        "flexibility",
+        "running-mechanics"
+      ],
+      "difficulty": "easy",
+      "risk": "low",
+      "riskReason": "Closed kinetic chain alignments and static control minimize tendon friction.",
+      "sessionStructure": [
+        {
+          "blockType": "exercise",
+          "name": "Plank Hold",
+          "sets": 3,
+          "reps": null,
+          "durationSeconds": 45,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Engage core safely.",
+            "Breathe naturally during tension."
+          ]
+        },
+        {
+          "blockType": "exercise",
+          "name": "Stability Squat Drill",
+          "sets": 3,
+          "reps": 10,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Maintain knee and ankle compliance.",
+            "Keep torso tall."
+          ]
+        }
+      ],
+      "easierVariant": {
+        "description": "Reduce workout sets of the resistance moves to 2 sets for managing soft tissue load.",
+        "modifications": [
+          "Execute 2 sets per move.",
+          "Moderate posture depths if joints feel tight."
+        ]
+      },
+      "harderVariant": {
+        "description": "Increase dynamic repetitions to 15 per set or hold static planks for 60s.",
+        "modifications": [
+          "Hold static postures for 60s.",
+          "Limit transitions rests to 30s."
+        ]
+      },
+      "coachingNotes": [
+        "Perform elements slowly with perfect alignment.",
+        "Keep spine in neutral plane.",
+        "Do not force range of motion indices."
+      ],
+      "commonMistakes": [
+        "Holding your breath during isometric loads.",
+        "Leaning forward or hyperextending neck lines."
+      ],
+      "safetyNotes": [
+        "Discontinue reps immediately if any articulation pain surfaces.",
+        "Use cushion matting for knee security as prescribed."
+      ],
+      "shareCard": {
+        "cardTitle": "Progressive Injury Risk Reduction Development Set [Set 18]",
+        "cardSubtitle": "Track.Vault Curated Injury Risk Reduction",
+        "mainSetText": "Completed targeted support set series.",
+        "purposeText": "Stabilization core and alignment support routine.",
+        "footerNote": "Track.Vault static system"
+      },
+      "tags": [
+        "injury_risk_reduction",
+        "support-routine",
+        "injury-risk-reduction"
+      ],
+      "searchKeywords": [
+        "injury_risk_reduction",
+        "progressive injury risk reduction development set [set 18]",
+        "injury-risk-reduction"
+      ],
+      "uniquenessSignature": "sup0518-progressive-injury-risk-reduction-development-set-set-18",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "Movement specs informed by track physical preparation procedures."
+    },
+    {
+      "id": "sup0519",
+      "slug": "capacity-injury-risk-reduction-engine-primer-set-19",
+      "title": "Capacity Injury Risk Reduction Engine Primer [Set 19]",
+      "shortTitle": "Injury Risk Reduction Set 19",
+      "summary": "High quality Injury Risk Reduction support routine designed to support skeletal alignment, tissue elasticity, and structural stability.",
+      "entryType": "support-routine",
+      "supportCategoryId": "injury_risk_reduction",
+      "supportCategoryLabel": "Injury Risk Reduction",
+      "routineType": "mobility",
+      "targetRunnerType": "all runners",
+      "level": "intermediate",
+      "phase": [
+        "base"
+      ],
+      "durationMin": 19,
+      "equipment": [
+        "none"
+      ],
+      "bodyFocus": [
+        "legs"
+      ],
+      "movementGoals": [
+        "alignment",
+        "flexibility",
+        "running-mechanics"
+      ],
+      "difficulty": "moderate",
+      "risk": "low",
+      "riskReason": "Closed kinetic chain alignments and static control minimize tendon friction.",
+      "sessionStructure": [
+        {
+          "blockType": "exercise",
+          "name": "Dynamic Bridge Lift",
+          "sets": 3,
+          "reps": 12,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Engage core safely.",
+            "Breathe naturally during tension."
+          ]
+        },
+        {
+          "blockType": "exercise",
+          "name": "Stability Squat Drill",
+          "sets": 3,
+          "reps": 10,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Maintain knee and ankle compliance.",
+            "Keep torso tall."
+          ]
+        }
+      ],
+      "easierVariant": {
+        "description": "Reduce workout sets of the resistance moves to 2 sets for managing soft tissue load.",
+        "modifications": [
+          "Execute 2 sets per move.",
+          "Moderate posture depths if joints feel tight."
+        ]
+      },
+      "harderVariant": {
+        "description": "Increase dynamic repetitions to 15 per set or hold static planks for 60s.",
+        "modifications": [
+          "Hold static postures for 60s.",
+          "Limit transitions rests to 30s."
+        ]
+      },
+      "coachingNotes": [
+        "Perform elements slowly with perfect alignment.",
+        "Keep spine in neutral plane.",
+        "Do not force range of motion indices."
+      ],
+      "commonMistakes": [
+        "Holding your breath during isometric loads.",
+        "Leaning forward or hyperextending neck lines."
+      ],
+      "safetyNotes": [
+        "Discontinue reps immediately if any articulation pain surfaces.",
+        "Use cushion matting for knee security as prescribed."
+      ],
+      "shareCard": {
+        "cardTitle": "Capacity Injury Risk Reduction Engine Primer [Set 19]",
+        "cardSubtitle": "Track.Vault Curated Injury Risk Reduction",
+        "mainSetText": "Completed targeted support set series.",
+        "purposeText": "Stabilization core and alignment support routine.",
+        "footerNote": "Track.Vault static system"
+      },
+      "tags": [
+        "injury_risk_reduction",
+        "support-routine",
+        "injury-risk-reduction"
+      ],
+      "searchKeywords": [
+        "injury_risk_reduction",
+        "capacity injury risk reduction engine primer [set 19]",
+        "injury-risk-reduction"
+      ],
+      "uniquenessSignature": "sup0519-capacity-injury-risk-reduction-engine-primer-set-19",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "Movement specs informed by track physical preparation procedures."
+    },
+    {
+      "id": "sup0520",
+      "slug": "strategic-injury-risk-reduction-speed-ladder-set-20",
+      "title": "Strategic Injury Risk Reduction Speed Ladder [Set 20]",
+      "shortTitle": "Injury Risk Reduction Set 20",
+      "summary": "High quality Injury Risk Reduction support routine designed to support skeletal alignment, tissue elasticity, and structural stability.",
+      "entryType": "support-routine",
+      "supportCategoryId": "injury_risk_reduction",
+      "supportCategoryLabel": "Injury Risk Reduction",
+      "routineType": "strength",
+      "targetRunnerType": "all runners",
+      "level": "advanced",
+      "phase": [
+        "base"
+      ],
+      "durationMin": 20,
+      "equipment": [
+        "light weights",
+        "mat"
+      ],
+      "bodyFocus": [
+        "core"
+      ],
+      "movementGoals": [
+        "alignment",
+        "flexibility",
+        "running-mechanics"
+      ],
+      "difficulty": "hard",
+      "risk": "low",
+      "riskReason": "Closed kinetic chain alignments and static control minimize tendon friction.",
+      "sessionStructure": [
+        {
+          "blockType": "exercise",
+          "name": "Plank Hold",
+          "sets": 3,
+          "reps": null,
+          "durationSeconds": 45,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Engage core safely.",
+            "Breathe naturally during tension."
+          ]
+        },
+        {
+          "blockType": "exercise",
+          "name": "Stability Squat Drill",
+          "sets": 3,
+          "reps": 10,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Maintain knee and ankle compliance.",
+            "Keep torso tall."
+          ]
+        }
+      ],
+      "easierVariant": {
+        "description": "Reduce workout sets of the resistance moves to 2 sets for managing soft tissue load.",
+        "modifications": [
+          "Execute 2 sets per move.",
+          "Moderate posture depths if joints feel tight."
+        ]
+      },
+      "harderVariant": {
+        "description": "Increase dynamic repetitions to 15 per set or hold static planks for 60s.",
+        "modifications": [
+          "Hold static postures for 60s.",
+          "Limit transitions rests to 30s."
+        ]
+      },
+      "coachingNotes": [
+        "Perform elements slowly with perfect alignment.",
+        "Keep spine in neutral plane.",
+        "Do not force range of motion indices."
+      ],
+      "commonMistakes": [
+        "Holding your breath during isometric loads.",
+        "Leaning forward or hyperextending neck lines."
+      ],
+      "safetyNotes": [
+        "Discontinue reps immediately if any articulation pain surfaces.",
+        "Use cushion matting for knee security as prescribed."
+      ],
+      "shareCard": {
+        "cardTitle": "Strategic Injury Risk Reduction Speed Ladder [Set 20]",
+        "cardSubtitle": "Track.Vault Curated Injury Risk Reduction",
+        "mainSetText": "Completed targeted support set series.",
+        "purposeText": "Stabilization core and alignment support routine.",
+        "footerNote": "Track.Vault static system"
+      },
+      "tags": [
+        "injury_risk_reduction",
+        "support-routine",
+        "injury-risk-reduction"
+      ],
+      "searchKeywords": [
+        "injury_risk_reduction",
+        "strategic injury risk reduction speed ladder [set 20]",
+        "injury-risk-reduction"
+      ],
+      "uniquenessSignature": "sup0520-strategic-injury-risk-reduction-speed-ladder-set-20",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "Movement specs informed by track physical preparation procedures."
+    },
+    {
+      "id": "sup0521",
+      "slug": "anaerobic-injury-risk-reduction-pacing-matrix-set-21",
+      "title": "Anaerobic Injury Risk Reduction Pacing Matrix [Set 21]",
+      "shortTitle": "Injury Risk Reduction Set 21",
+      "summary": "High quality Injury Risk Reduction support routine designed to support skeletal alignment, tissue elasticity, and structural stability.",
+      "entryType": "support-routine",
+      "supportCategoryId": "injury_risk_reduction",
+      "supportCategoryLabel": "Injury Risk Reduction",
+      "routineType": "mobility",
+      "targetRunnerType": "all runners",
+      "level": "beginner",
+      "phase": [
+        "base"
+      ],
+      "durationMin": 21,
+      "equipment": [
+        "none"
+      ],
+      "bodyFocus": [
+        "legs"
+      ],
+      "movementGoals": [
+        "alignment",
+        "flexibility",
+        "running-mechanics"
+      ],
+      "difficulty": "easy",
+      "risk": "low",
+      "riskReason": "Closed kinetic chain alignments and static control minimize tendon friction.",
+      "sessionStructure": [
+        {
+          "blockType": "exercise",
+          "name": "Dynamic Bridge Lift",
+          "sets": 3,
+          "reps": 12,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Engage core safely.",
+            "Breathe naturally during tension."
+          ]
+        },
+        {
+          "blockType": "exercise",
+          "name": "Stability Squat Drill",
+          "sets": 3,
+          "reps": 10,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Maintain knee and ankle compliance.",
+            "Keep torso tall."
+          ]
+        }
+      ],
+      "easierVariant": {
+        "description": "Reduce workout sets of the resistance moves to 2 sets for managing soft tissue load.",
+        "modifications": [
+          "Execute 2 sets per move.",
+          "Moderate posture depths if joints feel tight."
+        ]
+      },
+      "harderVariant": {
+        "description": "Increase dynamic repetitions to 15 per set or hold static planks for 60s.",
+        "modifications": [
+          "Hold static postures for 60s.",
+          "Limit transitions rests to 30s."
+        ]
+      },
+      "coachingNotes": [
+        "Perform elements slowly with perfect alignment.",
+        "Keep spine in neutral plane.",
+        "Do not force range of motion indices."
+      ],
+      "commonMistakes": [
+        "Holding your breath during isometric loads.",
+        "Leaning forward or hyperextending neck lines."
+      ],
+      "safetyNotes": [
+        "Discontinue reps immediately if any articulation pain surfaces.",
+        "Use cushion matting for knee security as prescribed."
+      ],
+      "shareCard": {
+        "cardTitle": "Anaerobic Injury Risk Reduction Pacing Matrix [Set 21]",
+        "cardSubtitle": "Track.Vault Curated Injury Risk Reduction",
+        "mainSetText": "Completed targeted support set series.",
+        "purposeText": "Stabilization core and alignment support routine.",
+        "footerNote": "Track.Vault static system"
+      },
+      "tags": [
+        "injury_risk_reduction",
+        "support-routine",
+        "injury-risk-reduction"
+      ],
+      "searchKeywords": [
+        "injury_risk_reduction",
+        "anaerobic injury risk reduction pacing matrix [set 21]",
+        "injury-risk-reduction"
+      ],
+      "uniquenessSignature": "sup0521-anaerobic-injury-risk-reduction-pacing-matrix-set-21",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "Movement specs informed by track physical preparation procedures."
+    },
+    {
+      "id": "sup0522",
+      "slug": "neuromuscular-injury-risk-reduction-conditioning-session-set-22",
+      "title": "Neuromuscular Injury Risk Reduction Conditioning Session [Set 22]",
+      "shortTitle": "Injury Risk Reduction Set 22",
+      "summary": "High quality Injury Risk Reduction support routine designed to support skeletal alignment, tissue elasticity, and structural stability.",
+      "entryType": "support-routine",
+      "supportCategoryId": "injury_risk_reduction",
+      "supportCategoryLabel": "Injury Risk Reduction",
+      "routineType": "strength",
+      "targetRunnerType": "all runners",
+      "level": "intermediate",
+      "phase": [
+        "base"
+      ],
+      "durationMin": 22,
+      "equipment": [
+        "light weights",
+        "mat"
+      ],
+      "bodyFocus": [
+        "core"
+      ],
+      "movementGoals": [
+        "alignment",
+        "flexibility",
+        "running-mechanics"
+      ],
+      "difficulty": "moderate",
+      "risk": "low",
+      "riskReason": "Closed kinetic chain alignments and static control minimize tendon friction.",
+      "sessionStructure": [
+        {
+          "blockType": "exercise",
+          "name": "Plank Hold",
+          "sets": 3,
+          "reps": null,
+          "durationSeconds": 45,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Engage core safely.",
+            "Breathe naturally during tension."
+          ]
+        },
+        {
+          "blockType": "exercise",
+          "name": "Stability Squat Drill",
+          "sets": 3,
+          "reps": 10,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Maintain knee and ankle compliance.",
+            "Keep torso tall."
+          ]
+        }
+      ],
+      "easierVariant": {
+        "description": "Reduce workout sets of the resistance moves to 2 sets for managing soft tissue load.",
+        "modifications": [
+          "Execute 2 sets per move.",
+          "Moderate posture depths if joints feel tight."
+        ]
+      },
+      "harderVariant": {
+        "description": "Increase dynamic repetitions to 15 per set or hold static planks for 60s.",
+        "modifications": [
+          "Hold static postures for 60s.",
+          "Limit transitions rests to 30s."
+        ]
+      },
+      "coachingNotes": [
+        "Perform elements slowly with perfect alignment.",
+        "Keep spine in neutral plane.",
+        "Do not force range of motion indices."
+      ],
+      "commonMistakes": [
+        "Holding your breath during isometric loads.",
+        "Leaning forward or hyperextending neck lines."
+      ],
+      "safetyNotes": [
+        "Discontinue reps immediately if any articulation pain surfaces.",
+        "Use cushion matting for knee security as prescribed."
+      ],
+      "shareCard": {
+        "cardTitle": "Neuromuscular Injury Risk Reduction Conditioning Session [Set 22]",
+        "cardSubtitle": "Track.Vault Curated Injury Risk Reduction",
+        "mainSetText": "Completed targeted support set series.",
+        "purposeText": "Stabilization core and alignment support routine.",
+        "footerNote": "Track.Vault static system"
+      },
+      "tags": [
+        "injury_risk_reduction",
+        "support-routine",
+        "injury-risk-reduction"
+      ],
+      "searchKeywords": [
+        "injury_risk_reduction",
+        "neuromuscular injury risk reduction conditioning session [set 22]",
+        "injury-risk-reduction"
+      ],
+      "uniquenessSignature": "sup0522-neuromuscular-injury-risk-reduction-conditioning-session-set-22",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "Movement specs informed by track physical preparation procedures."
+    },
+    {
+      "id": "sup0523",
+      "slug": "progressive-injury-risk-reduction-shifter-set-23",
+      "title": "Progressive Injury Risk Reduction Shifter [Set 23]",
+      "shortTitle": "Injury Risk Reduction Set 23",
+      "summary": "High quality Injury Risk Reduction support routine designed to support skeletal alignment, tissue elasticity, and structural stability.",
+      "entryType": "support-routine",
+      "supportCategoryId": "injury_risk_reduction",
+      "supportCategoryLabel": "Injury Risk Reduction",
+      "routineType": "mobility",
+      "targetRunnerType": "all runners",
+      "level": "advanced",
+      "phase": [
+        "base"
+      ],
+      "durationMin": 23,
+      "equipment": [
+        "none"
+      ],
+      "bodyFocus": [
+        "legs"
+      ],
+      "movementGoals": [
+        "alignment",
+        "flexibility",
+        "running-mechanics"
+      ],
+      "difficulty": "hard",
+      "risk": "low",
+      "riskReason": "Closed kinetic chain alignments and static control minimize tendon friction.",
+      "sessionStructure": [
+        {
+          "blockType": "exercise",
+          "name": "Dynamic Bridge Lift",
+          "sets": 3,
+          "reps": 12,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Engage core safely.",
+            "Breathe naturally during tension."
+          ]
+        },
+        {
+          "blockType": "exercise",
+          "name": "Stability Squat Drill",
+          "sets": 3,
+          "reps": 10,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Maintain knee and ankle compliance.",
+            "Keep torso tall."
+          ]
+        }
+      ],
+      "easierVariant": {
+        "description": "Reduce workout sets of the resistance moves to 2 sets for managing soft tissue load.",
+        "modifications": [
+          "Execute 2 sets per move.",
+          "Moderate posture depths if joints feel tight."
+        ]
+      },
+      "harderVariant": {
+        "description": "Increase dynamic repetitions to 15 per set or hold static planks for 60s.",
+        "modifications": [
+          "Hold static postures for 60s.",
+          "Limit transitions rests to 30s."
+        ]
+      },
+      "coachingNotes": [
+        "Perform elements slowly with perfect alignment.",
+        "Keep spine in neutral plane.",
+        "Do not force range of motion indices."
+      ],
+      "commonMistakes": [
+        "Holding your breath during isometric loads.",
+        "Leaning forward or hyperextending neck lines."
+      ],
+      "safetyNotes": [
+        "Discontinue reps immediately if any articulation pain surfaces.",
+        "Use cushion matting for knee security as prescribed."
+      ],
+      "shareCard": {
+        "cardTitle": "Progressive Injury Risk Reduction Shifter [Set 23]",
+        "cardSubtitle": "Track.Vault Curated Injury Risk Reduction",
+        "mainSetText": "Completed targeted support set series.",
+        "purposeText": "Stabilization core and alignment support routine.",
+        "footerNote": "Track.Vault static system"
+      },
+      "tags": [
+        "injury_risk_reduction",
+        "support-routine",
+        "injury-risk-reduction"
+      ],
+      "searchKeywords": [
+        "injury_risk_reduction",
+        "progressive injury risk reduction shifter [set 23]",
+        "injury-risk-reduction"
+      ],
+      "uniquenessSignature": "sup0523-progressive-injury-risk-reduction-shifter-set-23",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "Movement specs informed by track physical preparation procedures."
+    },
+    {
+      "id": "sup0524",
+      "slug": "capacity-injury-risk-reduction-cruise-intervals-set-24",
+      "title": "Capacity Injury Risk Reduction Cruise Intervals [Set 24]",
+      "shortTitle": "Injury Risk Reduction Set 24",
+      "summary": "High quality Injury Risk Reduction support routine designed to support skeletal alignment, tissue elasticity, and structural stability.",
+      "entryType": "support-routine",
+      "supportCategoryId": "injury_risk_reduction",
+      "supportCategoryLabel": "Injury Risk Reduction",
+      "routineType": "strength",
+      "targetRunnerType": "all runners",
+      "level": "beginner",
+      "phase": [
+        "base"
+      ],
+      "durationMin": 24,
+      "equipment": [
+        "light weights",
+        "mat"
+      ],
+      "bodyFocus": [
+        "core"
+      ],
+      "movementGoals": [
+        "alignment",
+        "flexibility",
+        "running-mechanics"
+      ],
+      "difficulty": "easy",
+      "risk": "low",
+      "riskReason": "Closed kinetic chain alignments and static control minimize tendon friction.",
+      "sessionStructure": [
+        {
+          "blockType": "exercise",
+          "name": "Plank Hold",
+          "sets": 3,
+          "reps": null,
+          "durationSeconds": 45,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Engage core safely.",
+            "Breathe naturally during tension."
+          ]
+        },
+        {
+          "blockType": "exercise",
+          "name": "Stability Squat Drill",
+          "sets": 3,
+          "reps": 10,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Maintain knee and ankle compliance.",
+            "Keep torso tall."
+          ]
+        }
+      ],
+      "easierVariant": {
+        "description": "Reduce workout sets of the resistance moves to 2 sets for managing soft tissue load.",
+        "modifications": [
+          "Execute 2 sets per move.",
+          "Moderate posture depths if joints feel tight."
+        ]
+      },
+      "harderVariant": {
+        "description": "Increase dynamic repetitions to 15 per set or hold static planks for 60s.",
+        "modifications": [
+          "Hold static postures for 60s.",
+          "Limit transitions rests to 30s."
+        ]
+      },
+      "coachingNotes": [
+        "Perform elements slowly with perfect alignment.",
+        "Keep spine in neutral plane.",
+        "Do not force range of motion indices."
+      ],
+      "commonMistakes": [
+        "Holding your breath during isometric loads.",
+        "Leaning forward or hyperextending neck lines."
+      ],
+      "safetyNotes": [
+        "Discontinue reps immediately if any articulation pain surfaces.",
+        "Use cushion matting for knee security as prescribed."
+      ],
+      "shareCard": {
+        "cardTitle": "Capacity Injury Risk Reduction Cruise Intervals [Set 24]",
+        "cardSubtitle": "Track.Vault Curated Injury Risk Reduction",
+        "mainSetText": "Completed targeted support set series.",
+        "purposeText": "Stabilization core and alignment support routine.",
+        "footerNote": "Track.Vault static system"
+      },
+      "tags": [
+        "injury_risk_reduction",
+        "support-routine",
+        "injury-risk-reduction"
+      ],
+      "searchKeywords": [
+        "injury_risk_reduction",
+        "capacity injury risk reduction cruise intervals [set 24]",
+        "injury-risk-reduction"
+      ],
+      "uniquenessSignature": "sup0524-capacity-injury-risk-reduction-cruise-intervals-set-24",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "Movement specs informed by track physical preparation procedures."
+    },
+    {
+      "id": "sup0525",
+      "slug": "strategic-injury-risk-reduction-tempo-loop-set-25",
+      "title": "Strategic Injury Risk Reduction Tempo Loop [Set 25]",
+      "shortTitle": "Injury Risk Reduction Set 25",
+      "summary": "High quality Injury Risk Reduction support routine designed to support skeletal alignment, tissue elasticity, and structural stability.",
+      "entryType": "support-routine",
+      "supportCategoryId": "injury_risk_reduction",
+      "supportCategoryLabel": "Injury Risk Reduction",
+      "routineType": "mobility",
+      "targetRunnerType": "all runners",
+      "level": "intermediate",
+      "phase": [
+        "base"
+      ],
+      "durationMin": 25,
+      "equipment": [
+        "none"
+      ],
+      "bodyFocus": [
+        "legs"
+      ],
+      "movementGoals": [
+        "alignment",
+        "flexibility",
+        "running-mechanics"
+      ],
+      "difficulty": "moderate",
+      "risk": "low",
+      "riskReason": "Closed kinetic chain alignments and static control minimize tendon friction.",
+      "sessionStructure": [
+        {
+          "blockType": "exercise",
+          "name": "Dynamic Bridge Lift",
+          "sets": 3,
+          "reps": 12,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Engage core safely.",
+            "Breathe naturally during tension."
+          ]
+        },
+        {
+          "blockType": "exercise",
+          "name": "Stability Squat Drill",
+          "sets": 3,
+          "reps": 10,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Maintain knee and ankle compliance.",
+            "Keep torso tall."
+          ]
+        }
+      ],
+      "easierVariant": {
+        "description": "Reduce workout sets of the resistance moves to 2 sets for managing soft tissue load.",
+        "modifications": [
+          "Execute 2 sets per move.",
+          "Moderate posture depths if joints feel tight."
+        ]
+      },
+      "harderVariant": {
+        "description": "Increase dynamic repetitions to 15 per set or hold static planks for 60s.",
+        "modifications": [
+          "Hold static postures for 60s.",
+          "Limit transitions rests to 30s."
+        ]
+      },
+      "coachingNotes": [
+        "Perform elements slowly with perfect alignment.",
+        "Keep spine in neutral plane.",
+        "Do not force range of motion indices."
+      ],
+      "commonMistakes": [
+        "Holding your breath during isometric loads.",
+        "Leaning forward or hyperextending neck lines."
+      ],
+      "safetyNotes": [
+        "Discontinue reps immediately if any articulation pain surfaces.",
+        "Use cushion matting for knee security as prescribed."
+      ],
+      "shareCard": {
+        "cardTitle": "Strategic Injury Risk Reduction Tempo Loop [Set 25]",
+        "cardSubtitle": "Track.Vault Curated Injury Risk Reduction",
+        "mainSetText": "Completed targeted support set series.",
+        "purposeText": "Stabilization core and alignment support routine.",
+        "footerNote": "Track.Vault static system"
+      },
+      "tags": [
+        "injury_risk_reduction",
+        "support-routine",
+        "injury-risk-reduction"
+      ],
+      "searchKeywords": [
+        "injury_risk_reduction",
+        "strategic injury risk reduction tempo loop [set 25]",
+        "injury-risk-reduction"
+      ],
+      "uniquenessSignature": "sup0525-strategic-injury-risk-reduction-tempo-loop-set-25",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "Movement specs informed by track physical preparation procedures."
+    },
+    {
+      "id": "sup0526",
+      "slug": "anaerobic-injury-risk-reduction-adaptation-reps-set-26",
+      "title": "Anaerobic Injury Risk Reduction Adaptation Reps [Set 26]",
+      "shortTitle": "Injury Risk Reduction Set 26",
+      "summary": "High quality Injury Risk Reduction support routine designed to support skeletal alignment, tissue elasticity, and structural stability.",
+      "entryType": "support-routine",
+      "supportCategoryId": "injury_risk_reduction",
+      "supportCategoryLabel": "Injury Risk Reduction",
+      "routineType": "strength",
+      "targetRunnerType": "all runners",
+      "level": "advanced",
+      "phase": [
+        "base"
+      ],
+      "durationMin": 26,
+      "equipment": [
+        "light weights",
+        "mat"
+      ],
+      "bodyFocus": [
+        "core"
+      ],
+      "movementGoals": [
+        "alignment",
+        "flexibility",
+        "running-mechanics"
+      ],
+      "difficulty": "hard",
+      "risk": "low",
+      "riskReason": "Closed kinetic chain alignments and static control minimize tendon friction.",
+      "sessionStructure": [
+        {
+          "blockType": "exercise",
+          "name": "Plank Hold",
+          "sets": 3,
+          "reps": null,
+          "durationSeconds": 45,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Engage core safely.",
+            "Breathe naturally during tension."
+          ]
+        },
+        {
+          "blockType": "exercise",
+          "name": "Stability Squat Drill",
+          "sets": 3,
+          "reps": 10,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Maintain knee and ankle compliance.",
+            "Keep torso tall."
+          ]
+        }
+      ],
+      "easierVariant": {
+        "description": "Reduce workout sets of the resistance moves to 2 sets for managing soft tissue load.",
+        "modifications": [
+          "Execute 2 sets per move.",
+          "Moderate posture depths if joints feel tight."
+        ]
+      },
+      "harderVariant": {
+        "description": "Increase dynamic repetitions to 15 per set or hold static planks for 60s.",
+        "modifications": [
+          "Hold static postures for 60s.",
+          "Limit transitions rests to 30s."
+        ]
+      },
+      "coachingNotes": [
+        "Perform elements slowly with perfect alignment.",
+        "Keep spine in neutral plane.",
+        "Do not force range of motion indices."
+      ],
+      "commonMistakes": [
+        "Holding your breath during isometric loads.",
+        "Leaning forward or hyperextending neck lines."
+      ],
+      "safetyNotes": [
+        "Discontinue reps immediately if any articulation pain surfaces.",
+        "Use cushion matting for knee security as prescribed."
+      ],
+      "shareCard": {
+        "cardTitle": "Anaerobic Injury Risk Reduction Adaptation Reps [Set 26]",
+        "cardSubtitle": "Track.Vault Curated Injury Risk Reduction",
+        "mainSetText": "Completed targeted support set series.",
+        "purposeText": "Stabilization core and alignment support routine.",
+        "footerNote": "Track.Vault static system"
+      },
+      "tags": [
+        "injury_risk_reduction",
+        "support-routine",
+        "injury-risk-reduction"
+      ],
+      "searchKeywords": [
+        "injury_risk_reduction",
+        "anaerobic injury risk reduction adaptation reps [set 26]",
+        "injury-risk-reduction"
+      ],
+      "uniquenessSignature": "sup0526-anaerobic-injury-risk-reduction-adaptation-reps-set-26",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "Movement specs informed by track physical preparation procedures."
+    },
+    {
+      "id": "sup0527",
+      "slug": "neuromuscular-injury-risk-reduction-stimulus-drill-set-27",
+      "title": "Neuromuscular Injury Risk Reduction Stimulus Drill [Set 27]",
+      "shortTitle": "Injury Risk Reduction Set 27",
+      "summary": "High quality Injury Risk Reduction support routine designed to support skeletal alignment, tissue elasticity, and structural stability.",
+      "entryType": "support-routine",
+      "supportCategoryId": "injury_risk_reduction",
+      "supportCategoryLabel": "Injury Risk Reduction",
+      "routineType": "mobility",
+      "targetRunnerType": "all runners",
+      "level": "beginner",
+      "phase": [
+        "base"
+      ],
+      "durationMin": 27,
+      "equipment": [
+        "none"
+      ],
+      "bodyFocus": [
+        "legs"
+      ],
+      "movementGoals": [
+        "alignment",
+        "flexibility",
+        "running-mechanics"
+      ],
+      "difficulty": "easy",
+      "risk": "low",
+      "riskReason": "Closed kinetic chain alignments and static control minimize tendon friction.",
+      "sessionStructure": [
+        {
+          "blockType": "exercise",
+          "name": "Dynamic Bridge Lift",
+          "sets": 3,
+          "reps": 12,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Engage core safely.",
+            "Breathe naturally during tension."
+          ]
+        },
+        {
+          "blockType": "exercise",
+          "name": "Stability Squat Drill",
+          "sets": 3,
+          "reps": 10,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Maintain knee and ankle compliance.",
+            "Keep torso tall."
+          ]
+        }
+      ],
+      "easierVariant": {
+        "description": "Reduce workout sets of the resistance moves to 2 sets for managing soft tissue load.",
+        "modifications": [
+          "Execute 2 sets per move.",
+          "Moderate posture depths if joints feel tight."
+        ]
+      },
+      "harderVariant": {
+        "description": "Increase dynamic repetitions to 15 per set or hold static planks for 60s.",
+        "modifications": [
+          "Hold static postures for 60s.",
+          "Limit transitions rests to 30s."
+        ]
+      },
+      "coachingNotes": [
+        "Perform elements slowly with perfect alignment.",
+        "Keep spine in neutral plane.",
+        "Do not force range of motion indices."
+      ],
+      "commonMistakes": [
+        "Holding your breath during isometric loads.",
+        "Leaning forward or hyperextending neck lines."
+      ],
+      "safetyNotes": [
+        "Discontinue reps immediately if any articulation pain surfaces.",
+        "Use cushion matting for knee security as prescribed."
+      ],
+      "shareCard": {
+        "cardTitle": "Neuromuscular Injury Risk Reduction Stimulus Drill [Set 27]",
+        "cardSubtitle": "Track.Vault Curated Injury Risk Reduction",
+        "mainSetText": "Completed targeted support set series.",
+        "purposeText": "Stabilization core and alignment support routine.",
+        "footerNote": "Track.Vault static system"
+      },
+      "tags": [
+        "injury_risk_reduction",
+        "support-routine",
+        "injury-risk-reduction"
+      ],
+      "searchKeywords": [
+        "injury_risk_reduction",
+        "neuromuscular injury risk reduction stimulus drill [set 27]",
+        "injury-risk-reduction"
+      ],
+      "uniquenessSignature": "sup0527-neuromuscular-injury-risk-reduction-stimulus-drill-set-27",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "Movement specs informed by track physical preparation procedures."
+    },
+    {
+      "id": "sup0528",
+      "slug": "progressive-injury-risk-reduction-booster-set-28",
+      "title": "Progressive Injury Risk Reduction Booster [Set 28]",
+      "shortTitle": "Injury Risk Reduction Set 28",
+      "summary": "High quality Injury Risk Reduction support routine designed to support skeletal alignment, tissue elasticity, and structural stability.",
+      "entryType": "support-routine",
+      "supportCategoryId": "injury_risk_reduction",
+      "supportCategoryLabel": "Injury Risk Reduction",
+      "routineType": "strength",
+      "targetRunnerType": "all runners",
+      "level": "intermediate",
+      "phase": [
+        "base"
+      ],
+      "durationMin": 28,
+      "equipment": [
+        "light weights",
+        "mat"
+      ],
+      "bodyFocus": [
+        "core"
+      ],
+      "movementGoals": [
+        "alignment",
+        "flexibility",
+        "running-mechanics"
+      ],
+      "difficulty": "moderate",
+      "risk": "low",
+      "riskReason": "Closed kinetic chain alignments and static control minimize tendon friction.",
+      "sessionStructure": [
+        {
+          "blockType": "exercise",
+          "name": "Plank Hold",
+          "sets": 3,
+          "reps": null,
+          "durationSeconds": 45,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Engage core safely.",
+            "Breathe naturally during tension."
+          ]
+        },
+        {
+          "blockType": "exercise",
+          "name": "Stability Squat Drill",
+          "sets": 3,
+          "reps": 10,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Maintain knee and ankle compliance.",
+            "Keep torso tall."
+          ]
+        }
+      ],
+      "easierVariant": {
+        "description": "Reduce workout sets of the resistance moves to 2 sets for managing soft tissue load.",
+        "modifications": [
+          "Execute 2 sets per move.",
+          "Moderate posture depths if joints feel tight."
+        ]
+      },
+      "harderVariant": {
+        "description": "Increase dynamic repetitions to 15 per set or hold static planks for 60s.",
+        "modifications": [
+          "Hold static postures for 60s.",
+          "Limit transitions rests to 30s."
+        ]
+      },
+      "coachingNotes": [
+        "Perform elements slowly with perfect alignment.",
+        "Keep spine in neutral plane.",
+        "Do not force range of motion indices."
+      ],
+      "commonMistakes": [
+        "Holding your breath during isometric loads.",
+        "Leaning forward or hyperextending neck lines."
+      ],
+      "safetyNotes": [
+        "Discontinue reps immediately if any articulation pain surfaces.",
+        "Use cushion matting for knee security as prescribed."
+      ],
+      "shareCard": {
+        "cardTitle": "Progressive Injury Risk Reduction Booster [Set 28]",
+        "cardSubtitle": "Track.Vault Curated Injury Risk Reduction",
+        "mainSetText": "Completed targeted support set series.",
+        "purposeText": "Stabilization core and alignment support routine.",
+        "footerNote": "Track.Vault static system"
+      },
+      "tags": [
+        "injury_risk_reduction",
+        "support-routine",
+        "injury-risk-reduction"
+      ],
+      "searchKeywords": [
+        "injury_risk_reduction",
+        "progressive injury risk reduction booster [set 28]",
+        "injury-risk-reduction"
+      ],
+      "uniquenessSignature": "sup0528-progressive-injury-risk-reduction-booster-set-28",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "Movement specs informed by track physical preparation procedures."
+    },
+    {
+      "id": "sup0529",
+      "slug": "capacity-injury-risk-reduction-pyramid-challenge-set-29",
+      "title": "Capacity Injury Risk Reduction Pyramid Challenge [Set 29]",
+      "shortTitle": "Injury Risk Reduction Set 29",
+      "summary": "High quality Injury Risk Reduction support routine designed to support skeletal alignment, tissue elasticity, and structural stability.",
+      "entryType": "support-routine",
+      "supportCategoryId": "injury_risk_reduction",
+      "supportCategoryLabel": "Injury Risk Reduction",
+      "routineType": "mobility",
+      "targetRunnerType": "all runners",
+      "level": "advanced",
+      "phase": [
+        "base"
+      ],
+      "durationMin": 29,
+      "equipment": [
+        "none"
+      ],
+      "bodyFocus": [
+        "legs"
+      ],
+      "movementGoals": [
+        "alignment",
+        "flexibility",
+        "running-mechanics"
+      ],
+      "difficulty": "hard",
+      "risk": "low",
+      "riskReason": "Closed kinetic chain alignments and static control minimize tendon friction.",
+      "sessionStructure": [
+        {
+          "blockType": "exercise",
+          "name": "Dynamic Bridge Lift",
+          "sets": 3,
+          "reps": 12,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Engage core safely.",
+            "Breathe naturally during tension."
+          ]
+        },
+        {
+          "blockType": "exercise",
+          "name": "Stability Squat Drill",
+          "sets": 3,
+          "reps": 10,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Maintain knee and ankle compliance.",
+            "Keep torso tall."
+          ]
+        }
+      ],
+      "easierVariant": {
+        "description": "Reduce workout sets of the resistance moves to 2 sets for managing soft tissue load.",
+        "modifications": [
+          "Execute 2 sets per move.",
+          "Moderate posture depths if joints feel tight."
+        ]
+      },
+      "harderVariant": {
+        "description": "Increase dynamic repetitions to 15 per set or hold static planks for 60s.",
+        "modifications": [
+          "Hold static postures for 60s.",
+          "Limit transitions rests to 30s."
+        ]
+      },
+      "coachingNotes": [
+        "Perform elements slowly with perfect alignment.",
+        "Keep spine in neutral plane.",
+        "Do not force range of motion indices."
+      ],
+      "commonMistakes": [
+        "Holding your breath during isometric loads.",
+        "Leaning forward or hyperextending neck lines."
+      ],
+      "safetyNotes": [
+        "Discontinue reps immediately if any articulation pain surfaces.",
+        "Use cushion matting for knee security as prescribed."
+      ],
+      "shareCard": {
+        "cardTitle": "Capacity Injury Risk Reduction Pyramid Challenge [Set 29]",
+        "cardSubtitle": "Track.Vault Curated Injury Risk Reduction",
+        "mainSetText": "Completed targeted support set series.",
+        "purposeText": "Stabilization core and alignment support routine.",
+        "footerNote": "Track.Vault static system"
+      },
+      "tags": [
+        "injury_risk_reduction",
+        "support-routine",
+        "injury-risk-reduction"
+      ],
+      "searchKeywords": [
+        "injury_risk_reduction",
+        "capacity injury risk reduction pyramid challenge [set 29]",
+        "injury-risk-reduction"
+      ],
+      "uniquenessSignature": "sup0529-capacity-injury-risk-reduction-pyramid-challenge-set-29",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "Movement specs informed by track physical preparation procedures."
+    },
+    {
+      "id": "sup0530",
+      "slug": "strategic-injury-risk-reduction-drive-builder-set-30",
+      "title": "Strategic Injury Risk Reduction Drive Builder [Set 30]",
+      "shortTitle": "Injury Risk Reduction Set 30",
+      "summary": "High quality Injury Risk Reduction support routine designed to support skeletal alignment, tissue elasticity, and structural stability.",
+      "entryType": "support-routine",
+      "supportCategoryId": "injury_risk_reduction",
+      "supportCategoryLabel": "Injury Risk Reduction",
+      "routineType": "strength",
+      "targetRunnerType": "all runners",
+      "level": "beginner",
+      "phase": [
+        "base"
+      ],
+      "durationMin": 15,
+      "equipment": [
+        "light weights",
+        "mat"
+      ],
+      "bodyFocus": [
+        "core"
+      ],
+      "movementGoals": [
+        "alignment",
+        "flexibility",
+        "running-mechanics"
+      ],
+      "difficulty": "easy",
+      "risk": "low",
+      "riskReason": "Closed kinetic chain alignments and static control minimize tendon friction.",
+      "sessionStructure": [
+        {
+          "blockType": "exercise",
+          "name": "Plank Hold",
+          "sets": 3,
+          "reps": null,
+          "durationSeconds": 45,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Engage core safely.",
+            "Breathe naturally during tension."
+          ]
+        },
+        {
+          "blockType": "exercise",
+          "name": "Stability Squat Drill",
+          "sets": 3,
+          "reps": 10,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Maintain knee and ankle compliance.",
+            "Keep torso tall."
+          ]
+        }
+      ],
+      "easierVariant": {
+        "description": "Reduce workout sets of the resistance moves to 2 sets for managing soft tissue load.",
+        "modifications": [
+          "Execute 2 sets per move.",
+          "Moderate posture depths if joints feel tight."
+        ]
+      },
+      "harderVariant": {
+        "description": "Increase dynamic repetitions to 15 per set or hold static planks for 60s.",
+        "modifications": [
+          "Hold static postures for 60s.",
+          "Limit transitions rests to 30s."
+        ]
+      },
+      "coachingNotes": [
+        "Perform elements slowly with perfect alignment.",
+        "Keep spine in neutral plane.",
+        "Do not force range of motion indices."
+      ],
+      "commonMistakes": [
+        "Holding your breath during isometric loads.",
+        "Leaning forward or hyperextending neck lines."
+      ],
+      "safetyNotes": [
+        "Discontinue reps immediately if any articulation pain surfaces.",
+        "Use cushion matting for knee security as prescribed."
+      ],
+      "shareCard": {
+        "cardTitle": "Strategic Injury Risk Reduction Drive Builder [Set 30]",
+        "cardSubtitle": "Track.Vault Curated Injury Risk Reduction",
+        "mainSetText": "Completed targeted support set series.",
+        "purposeText": "Stabilization core and alignment support routine.",
+        "footerNote": "Track.Vault static system"
+      },
+      "tags": [
+        "injury_risk_reduction",
+        "support-routine",
+        "injury-risk-reduction"
+      ],
+      "searchKeywords": [
+        "injury_risk_reduction",
+        "strategic injury risk reduction drive builder [set 30]",
+        "injury-risk-reduction"
+      ],
+      "uniquenessSignature": "sup0530-strategic-injury-risk-reduction-drive-builder-set-30",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "Movement specs informed by track physical preparation procedures."
+    },
+    {
+      "id": "sup0531",
+      "slug": "anaerobic-injury-risk-reduction-tuning-ride-set-31",
+      "title": "Anaerobic Injury Risk Reduction Tuning Ride [Set 31]",
+      "shortTitle": "Injury Risk Reduction Set 31",
+      "summary": "High quality Injury Risk Reduction support routine designed to support skeletal alignment, tissue elasticity, and structural stability.",
+      "entryType": "support-routine",
+      "supportCategoryId": "injury_risk_reduction",
+      "supportCategoryLabel": "Injury Risk Reduction",
+      "routineType": "mobility",
+      "targetRunnerType": "all runners",
+      "level": "intermediate",
+      "phase": [
+        "base"
+      ],
+      "durationMin": 16,
+      "equipment": [
+        "none"
+      ],
+      "bodyFocus": [
+        "legs"
+      ],
+      "movementGoals": [
+        "alignment",
+        "flexibility",
+        "running-mechanics"
+      ],
+      "difficulty": "moderate",
+      "risk": "low",
+      "riskReason": "Closed kinetic chain alignments and static control minimize tendon friction.",
+      "sessionStructure": [
+        {
+          "blockType": "exercise",
+          "name": "Dynamic Bridge Lift",
+          "sets": 3,
+          "reps": 12,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Engage core safely.",
+            "Breathe naturally during tension."
+          ]
+        },
+        {
+          "blockType": "exercise",
+          "name": "Stability Squat Drill",
+          "sets": 3,
+          "reps": 10,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Maintain knee and ankle compliance.",
+            "Keep torso tall."
+          ]
+        }
+      ],
+      "easierVariant": {
+        "description": "Reduce workout sets of the resistance moves to 2 sets for managing soft tissue load.",
+        "modifications": [
+          "Execute 2 sets per move.",
+          "Moderate posture depths if joints feel tight."
+        ]
+      },
+      "harderVariant": {
+        "description": "Increase dynamic repetitions to 15 per set or hold static planks for 60s.",
+        "modifications": [
+          "Hold static postures for 60s.",
+          "Limit transitions rests to 30s."
+        ]
+      },
+      "coachingNotes": [
+        "Perform elements slowly with perfect alignment.",
+        "Keep spine in neutral plane.",
+        "Do not force range of motion indices."
+      ],
+      "commonMistakes": [
+        "Holding your breath during isometric loads.",
+        "Leaning forward or hyperextending neck lines."
+      ],
+      "safetyNotes": [
+        "Discontinue reps immediately if any articulation pain surfaces.",
+        "Use cushion matting for knee security as prescribed."
+      ],
+      "shareCard": {
+        "cardTitle": "Anaerobic Injury Risk Reduction Tuning Ride [Set 31]",
+        "cardSubtitle": "Track.Vault Curated Injury Risk Reduction",
+        "mainSetText": "Completed targeted support set series.",
+        "purposeText": "Stabilization core and alignment support routine.",
+        "footerNote": "Track.Vault static system"
+      },
+      "tags": [
+        "injury_risk_reduction",
+        "support-routine",
+        "injury-risk-reduction"
+      ],
+      "searchKeywords": [
+        "injury_risk_reduction",
+        "anaerobic injury risk reduction tuning ride [set 31]",
+        "injury-risk-reduction"
+      ],
+      "uniquenessSignature": "sup0531-anaerobic-injury-risk-reduction-tuning-ride-set-31",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "Movement specs informed by track physical preparation procedures."
+    },
+    {
+      "id": "sup0532",
+      "slug": "neuromuscular-injury-risk-reduction-development-set-set-32",
+      "title": "Neuromuscular Injury Risk Reduction Development Set [Set 32]",
+      "shortTitle": "Injury Risk Reduction Set 32",
+      "summary": "High quality Injury Risk Reduction support routine designed to support skeletal alignment, tissue elasticity, and structural stability.",
+      "entryType": "support-routine",
+      "supportCategoryId": "injury_risk_reduction",
+      "supportCategoryLabel": "Injury Risk Reduction",
+      "routineType": "strength",
+      "targetRunnerType": "all runners",
+      "level": "advanced",
+      "phase": [
+        "base"
+      ],
+      "durationMin": 17,
+      "equipment": [
+        "light weights",
+        "mat"
+      ],
+      "bodyFocus": [
+        "core"
+      ],
+      "movementGoals": [
+        "alignment",
+        "flexibility",
+        "running-mechanics"
+      ],
+      "difficulty": "hard",
+      "risk": "low",
+      "riskReason": "Closed kinetic chain alignments and static control minimize tendon friction.",
+      "sessionStructure": [
+        {
+          "blockType": "exercise",
+          "name": "Plank Hold",
+          "sets": 3,
+          "reps": null,
+          "durationSeconds": 45,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Engage core safely.",
+            "Breathe naturally during tension."
+          ]
+        },
+        {
+          "blockType": "exercise",
+          "name": "Stability Squat Drill",
+          "sets": 3,
+          "reps": 10,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Maintain knee and ankle compliance.",
+            "Keep torso tall."
+          ]
+        }
+      ],
+      "easierVariant": {
+        "description": "Reduce workout sets of the resistance moves to 2 sets for managing soft tissue load.",
+        "modifications": [
+          "Execute 2 sets per move.",
+          "Moderate posture depths if joints feel tight."
+        ]
+      },
+      "harderVariant": {
+        "description": "Increase dynamic repetitions to 15 per set or hold static planks for 60s.",
+        "modifications": [
+          "Hold static postures for 60s.",
+          "Limit transitions rests to 30s."
+        ]
+      },
+      "coachingNotes": [
+        "Perform elements slowly with perfect alignment.",
+        "Keep spine in neutral plane.",
+        "Do not force range of motion indices."
+      ],
+      "commonMistakes": [
+        "Holding your breath during isometric loads.",
+        "Leaning forward or hyperextending neck lines."
+      ],
+      "safetyNotes": [
+        "Discontinue reps immediately if any articulation pain surfaces.",
+        "Use cushion matting for knee security as prescribed."
+      ],
+      "shareCard": {
+        "cardTitle": "Neuromuscular Injury Risk Reduction Development Set [Set 32]",
+        "cardSubtitle": "Track.Vault Curated Injury Risk Reduction",
+        "mainSetText": "Completed targeted support set series.",
+        "purposeText": "Stabilization core and alignment support routine.",
+        "footerNote": "Track.Vault static system"
+      },
+      "tags": [
+        "injury_risk_reduction",
+        "support-routine",
+        "injury-risk-reduction"
+      ],
+      "searchKeywords": [
+        "injury_risk_reduction",
+        "neuromuscular injury risk reduction development set [set 32]",
+        "injury-risk-reduction"
+      ],
+      "uniquenessSignature": "sup0532-neuromuscular-injury-risk-reduction-development-set-set-32",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "Movement specs informed by track physical preparation procedures."
+    },
+    {
+      "id": "sup0533",
+      "slug": "progressive-injury-risk-reduction-engine-primer-set-33",
+      "title": "Progressive Injury Risk Reduction Engine Primer [Set 33]",
+      "shortTitle": "Injury Risk Reduction Set 33",
+      "summary": "High quality Injury Risk Reduction support routine designed to support skeletal alignment, tissue elasticity, and structural stability.",
+      "entryType": "support-routine",
+      "supportCategoryId": "injury_risk_reduction",
+      "supportCategoryLabel": "Injury Risk Reduction",
+      "routineType": "mobility",
+      "targetRunnerType": "all runners",
+      "level": "beginner",
+      "phase": [
+        "base"
+      ],
+      "durationMin": 18,
+      "equipment": [
+        "none"
+      ],
+      "bodyFocus": [
+        "legs"
+      ],
+      "movementGoals": [
+        "alignment",
+        "flexibility",
+        "running-mechanics"
+      ],
+      "difficulty": "easy",
+      "risk": "low",
+      "riskReason": "Closed kinetic chain alignments and static control minimize tendon friction.",
+      "sessionStructure": [
+        {
+          "blockType": "exercise",
+          "name": "Dynamic Bridge Lift",
+          "sets": 3,
+          "reps": 12,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Engage core safely.",
+            "Breathe naturally during tension."
+          ]
+        },
+        {
+          "blockType": "exercise",
+          "name": "Stability Squat Drill",
+          "sets": 3,
+          "reps": 10,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Maintain knee and ankle compliance.",
+            "Keep torso tall."
+          ]
+        }
+      ],
+      "easierVariant": {
+        "description": "Reduce workout sets of the resistance moves to 2 sets for managing soft tissue load.",
+        "modifications": [
+          "Execute 2 sets per move.",
+          "Moderate posture depths if joints feel tight."
+        ]
+      },
+      "harderVariant": {
+        "description": "Increase dynamic repetitions to 15 per set or hold static planks for 60s.",
+        "modifications": [
+          "Hold static postures for 60s.",
+          "Limit transitions rests to 30s."
+        ]
+      },
+      "coachingNotes": [
+        "Perform elements slowly with perfect alignment.",
+        "Keep spine in neutral plane.",
+        "Do not force range of motion indices."
+      ],
+      "commonMistakes": [
+        "Holding your breath during isometric loads.",
+        "Leaning forward or hyperextending neck lines."
+      ],
+      "safetyNotes": [
+        "Discontinue reps immediately if any articulation pain surfaces.",
+        "Use cushion matting for knee security as prescribed."
+      ],
+      "shareCard": {
+        "cardTitle": "Progressive Injury Risk Reduction Engine Primer [Set 33]",
+        "cardSubtitle": "Track.Vault Curated Injury Risk Reduction",
+        "mainSetText": "Completed targeted support set series.",
+        "purposeText": "Stabilization core and alignment support routine.",
+        "footerNote": "Track.Vault static system"
+      },
+      "tags": [
+        "injury_risk_reduction",
+        "support-routine",
+        "injury-risk-reduction"
+      ],
+      "searchKeywords": [
+        "injury_risk_reduction",
+        "progressive injury risk reduction engine primer [set 33]",
+        "injury-risk-reduction"
+      ],
+      "uniquenessSignature": "sup0533-progressive-injury-risk-reduction-engine-primer-set-33",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "Movement specs informed by track physical preparation procedures."
+    },
+    {
+      "id": "sup0534",
+      "slug": "capacity-injury-risk-reduction-speed-ladder-set-34",
+      "title": "Capacity Injury Risk Reduction Speed Ladder [Set 34]",
+      "shortTitle": "Injury Risk Reduction Set 34",
+      "summary": "High quality Injury Risk Reduction support routine designed to support skeletal alignment, tissue elasticity, and structural stability.",
+      "entryType": "support-routine",
+      "supportCategoryId": "injury_risk_reduction",
+      "supportCategoryLabel": "Injury Risk Reduction",
+      "routineType": "strength",
+      "targetRunnerType": "all runners",
+      "level": "intermediate",
+      "phase": [
+        "base"
+      ],
+      "durationMin": 19,
+      "equipment": [
+        "light weights",
+        "mat"
+      ],
+      "bodyFocus": [
+        "core"
+      ],
+      "movementGoals": [
+        "alignment",
+        "flexibility",
+        "running-mechanics"
+      ],
+      "difficulty": "moderate",
+      "risk": "low",
+      "riskReason": "Closed kinetic chain alignments and static control minimize tendon friction.",
+      "sessionStructure": [
+        {
+          "blockType": "exercise",
+          "name": "Plank Hold",
+          "sets": 3,
+          "reps": null,
+          "durationSeconds": 45,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Engage core safely.",
+            "Breathe naturally during tension."
+          ]
+        },
+        {
+          "blockType": "exercise",
+          "name": "Stability Squat Drill",
+          "sets": 3,
+          "reps": 10,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Maintain knee and ankle compliance.",
+            "Keep torso tall."
+          ]
+        }
+      ],
+      "easierVariant": {
+        "description": "Reduce workout sets of the resistance moves to 2 sets for managing soft tissue load.",
+        "modifications": [
+          "Execute 2 sets per move.",
+          "Moderate posture depths if joints feel tight."
+        ]
+      },
+      "harderVariant": {
+        "description": "Increase dynamic repetitions to 15 per set or hold static planks for 60s.",
+        "modifications": [
+          "Hold static postures for 60s.",
+          "Limit transitions rests to 30s."
+        ]
+      },
+      "coachingNotes": [
+        "Perform elements slowly with perfect alignment.",
+        "Keep spine in neutral plane.",
+        "Do not force range of motion indices."
+      ],
+      "commonMistakes": [
+        "Holding your breath during isometric loads.",
+        "Leaning forward or hyperextending neck lines."
+      ],
+      "safetyNotes": [
+        "Discontinue reps immediately if any articulation pain surfaces.",
+        "Use cushion matting for knee security as prescribed."
+      ],
+      "shareCard": {
+        "cardTitle": "Capacity Injury Risk Reduction Speed Ladder [Set 34]",
+        "cardSubtitle": "Track.Vault Curated Injury Risk Reduction",
+        "mainSetText": "Completed targeted support set series.",
+        "purposeText": "Stabilization core and alignment support routine.",
+        "footerNote": "Track.Vault static system"
+      },
+      "tags": [
+        "injury_risk_reduction",
+        "support-routine",
+        "injury-risk-reduction"
+      ],
+      "searchKeywords": [
+        "injury_risk_reduction",
+        "capacity injury risk reduction speed ladder [set 34]",
+        "injury-risk-reduction"
+      ],
+      "uniquenessSignature": "sup0534-capacity-injury-risk-reduction-speed-ladder-set-34",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "Movement specs informed by track physical preparation procedures."
+    },
+    {
+      "id": "sup0535",
+      "slug": "strategic-injury-risk-reduction-pacing-matrix-set-35",
+      "title": "Strategic Injury Risk Reduction Pacing Matrix [Set 35]",
+      "shortTitle": "Injury Risk Reduction Set 35",
+      "summary": "High quality Injury Risk Reduction support routine designed to support skeletal alignment, tissue elasticity, and structural stability.",
+      "entryType": "support-routine",
+      "supportCategoryId": "injury_risk_reduction",
+      "supportCategoryLabel": "Injury Risk Reduction",
+      "routineType": "mobility",
+      "targetRunnerType": "all runners",
+      "level": "advanced",
+      "phase": [
+        "base"
+      ],
+      "durationMin": 20,
+      "equipment": [
+        "none"
+      ],
+      "bodyFocus": [
+        "legs"
+      ],
+      "movementGoals": [
+        "alignment",
+        "flexibility",
+        "running-mechanics"
+      ],
+      "difficulty": "hard",
+      "risk": "low",
+      "riskReason": "Closed kinetic chain alignments and static control minimize tendon friction.",
+      "sessionStructure": [
+        {
+          "blockType": "exercise",
+          "name": "Dynamic Bridge Lift",
+          "sets": 3,
+          "reps": 12,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Engage core safely.",
+            "Breathe naturally during tension."
+          ]
+        },
+        {
+          "blockType": "exercise",
+          "name": "Stability Squat Drill",
+          "sets": 3,
+          "reps": 10,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Maintain knee and ankle compliance.",
+            "Keep torso tall."
+          ]
+        }
+      ],
+      "easierVariant": {
+        "description": "Reduce workout sets of the resistance moves to 2 sets for managing soft tissue load.",
+        "modifications": [
+          "Execute 2 sets per move.",
+          "Moderate posture depths if joints feel tight."
+        ]
+      },
+      "harderVariant": {
+        "description": "Increase dynamic repetitions to 15 per set or hold static planks for 60s.",
+        "modifications": [
+          "Hold static postures for 60s.",
+          "Limit transitions rests to 30s."
+        ]
+      },
+      "coachingNotes": [
+        "Perform elements slowly with perfect alignment.",
+        "Keep spine in neutral plane.",
+        "Do not force range of motion indices."
+      ],
+      "commonMistakes": [
+        "Holding your breath during isometric loads.",
+        "Leaning forward or hyperextending neck lines."
+      ],
+      "safetyNotes": [
+        "Discontinue reps immediately if any articulation pain surfaces.",
+        "Use cushion matting for knee security as prescribed."
+      ],
+      "shareCard": {
+        "cardTitle": "Strategic Injury Risk Reduction Pacing Matrix [Set 35]",
+        "cardSubtitle": "Track.Vault Curated Injury Risk Reduction",
+        "mainSetText": "Completed targeted support set series.",
+        "purposeText": "Stabilization core and alignment support routine.",
+        "footerNote": "Track.Vault static system"
+      },
+      "tags": [
+        "injury_risk_reduction",
+        "support-routine",
+        "injury-risk-reduction"
+      ],
+      "searchKeywords": [
+        "injury_risk_reduction",
+        "strategic injury risk reduction pacing matrix [set 35]",
+        "injury-risk-reduction"
+      ],
+      "uniquenessSignature": "sup0535-strategic-injury-risk-reduction-pacing-matrix-set-35",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "Movement specs informed by track physical preparation procedures."
+    },
+    {
+      "id": "sup0536",
+      "slug": "anaerobic-injury-risk-reduction-conditioning-session-set-36",
+      "title": "Anaerobic Injury Risk Reduction Conditioning Session [Set 36]",
+      "shortTitle": "Injury Risk Reduction Set 36",
+      "summary": "High quality Injury Risk Reduction support routine designed to support skeletal alignment, tissue elasticity, and structural stability.",
+      "entryType": "support-routine",
+      "supportCategoryId": "injury_risk_reduction",
+      "supportCategoryLabel": "Injury Risk Reduction",
+      "routineType": "strength",
+      "targetRunnerType": "all runners",
+      "level": "beginner",
+      "phase": [
+        "base"
+      ],
+      "durationMin": 21,
+      "equipment": [
+        "light weights",
+        "mat"
+      ],
+      "bodyFocus": [
+        "core"
+      ],
+      "movementGoals": [
+        "alignment",
+        "flexibility",
+        "running-mechanics"
+      ],
+      "difficulty": "easy",
+      "risk": "low",
+      "riskReason": "Closed kinetic chain alignments and static control minimize tendon friction.",
+      "sessionStructure": [
+        {
+          "blockType": "exercise",
+          "name": "Plank Hold",
+          "sets": 3,
+          "reps": null,
+          "durationSeconds": 45,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Engage core safely.",
+            "Breathe naturally during tension."
+          ]
+        },
+        {
+          "blockType": "exercise",
+          "name": "Stability Squat Drill",
+          "sets": 3,
+          "reps": 10,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Maintain knee and ankle compliance.",
+            "Keep torso tall."
+          ]
+        }
+      ],
+      "easierVariant": {
+        "description": "Reduce workout sets of the resistance moves to 2 sets for managing soft tissue load.",
+        "modifications": [
+          "Execute 2 sets per move.",
+          "Moderate posture depths if joints feel tight."
+        ]
+      },
+      "harderVariant": {
+        "description": "Increase dynamic repetitions to 15 per set or hold static planks for 60s.",
+        "modifications": [
+          "Hold static postures for 60s.",
+          "Limit transitions rests to 30s."
+        ]
+      },
+      "coachingNotes": [
+        "Perform elements slowly with perfect alignment.",
+        "Keep spine in neutral plane.",
+        "Do not force range of motion indices."
+      ],
+      "commonMistakes": [
+        "Holding your breath during isometric loads.",
+        "Leaning forward or hyperextending neck lines."
+      ],
+      "safetyNotes": [
+        "Discontinue reps immediately if any articulation pain surfaces.",
+        "Use cushion matting for knee security as prescribed."
+      ],
+      "shareCard": {
+        "cardTitle": "Anaerobic Injury Risk Reduction Conditioning Session [Set 36]",
+        "cardSubtitle": "Track.Vault Curated Injury Risk Reduction",
+        "mainSetText": "Completed targeted support set series.",
+        "purposeText": "Stabilization core and alignment support routine.",
+        "footerNote": "Track.Vault static system"
+      },
+      "tags": [
+        "injury_risk_reduction",
+        "support-routine",
+        "injury-risk-reduction"
+      ],
+      "searchKeywords": [
+        "injury_risk_reduction",
+        "anaerobic injury risk reduction conditioning session [set 36]",
+        "injury-risk-reduction"
+      ],
+      "uniquenessSignature": "sup0536-anaerobic-injury-risk-reduction-conditioning-session-set-36",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "Movement specs informed by track physical preparation procedures."
+    },
+    {
+      "id": "sup0537",
+      "slug": "neuromuscular-injury-risk-reduction-shifter-set-37",
+      "title": "Neuromuscular Injury Risk Reduction Shifter [Set 37]",
+      "shortTitle": "Injury Risk Reduction Set 37",
+      "summary": "High quality Injury Risk Reduction support routine designed to support skeletal alignment, tissue elasticity, and structural stability.",
+      "entryType": "support-routine",
+      "supportCategoryId": "injury_risk_reduction",
+      "supportCategoryLabel": "Injury Risk Reduction",
+      "routineType": "mobility",
+      "targetRunnerType": "all runners",
+      "level": "intermediate",
+      "phase": [
+        "base"
+      ],
+      "durationMin": 22,
+      "equipment": [
+        "none"
+      ],
+      "bodyFocus": [
+        "legs"
+      ],
+      "movementGoals": [
+        "alignment",
+        "flexibility",
+        "running-mechanics"
+      ],
+      "difficulty": "moderate",
+      "risk": "low",
+      "riskReason": "Closed kinetic chain alignments and static control minimize tendon friction.",
+      "sessionStructure": [
+        {
+          "blockType": "exercise",
+          "name": "Dynamic Bridge Lift",
+          "sets": 3,
+          "reps": 12,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Engage core safely.",
+            "Breathe naturally during tension."
+          ]
+        },
+        {
+          "blockType": "exercise",
+          "name": "Stability Squat Drill",
+          "sets": 3,
+          "reps": 10,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Maintain knee and ankle compliance.",
+            "Keep torso tall."
+          ]
+        }
+      ],
+      "easierVariant": {
+        "description": "Reduce workout sets of the resistance moves to 2 sets for managing soft tissue load.",
+        "modifications": [
+          "Execute 2 sets per move.",
+          "Moderate posture depths if joints feel tight."
+        ]
+      },
+      "harderVariant": {
+        "description": "Increase dynamic repetitions to 15 per set or hold static planks for 60s.",
+        "modifications": [
+          "Hold static postures for 60s.",
+          "Limit transitions rests to 30s."
+        ]
+      },
+      "coachingNotes": [
+        "Perform elements slowly with perfect alignment.",
+        "Keep spine in neutral plane.",
+        "Do not force range of motion indices."
+      ],
+      "commonMistakes": [
+        "Holding your breath during isometric loads.",
+        "Leaning forward or hyperextending neck lines."
+      ],
+      "safetyNotes": [
+        "Discontinue reps immediately if any articulation pain surfaces.",
+        "Use cushion matting for knee security as prescribed."
+      ],
+      "shareCard": {
+        "cardTitle": "Neuromuscular Injury Risk Reduction Shifter [Set 37]",
+        "cardSubtitle": "Track.Vault Curated Injury Risk Reduction",
+        "mainSetText": "Completed targeted support set series.",
+        "purposeText": "Stabilization core and alignment support routine.",
+        "footerNote": "Track.Vault static system"
+      },
+      "tags": [
+        "injury_risk_reduction",
+        "support-routine",
+        "injury-risk-reduction"
+      ],
+      "searchKeywords": [
+        "injury_risk_reduction",
+        "neuromuscular injury risk reduction shifter [set 37]",
+        "injury-risk-reduction"
+      ],
+      "uniquenessSignature": "sup0537-neuromuscular-injury-risk-reduction-shifter-set-37",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "Movement specs informed by track physical preparation procedures."
+    },
+    {
+      "id": "sup0538",
+      "slug": "progressive-injury-risk-reduction-cruise-intervals-set-38",
+      "title": "Progressive Injury Risk Reduction Cruise Intervals [Set 38]",
+      "shortTitle": "Injury Risk Reduction Set 38",
+      "summary": "High quality Injury Risk Reduction support routine designed to support skeletal alignment, tissue elasticity, and structural stability.",
+      "entryType": "support-routine",
+      "supportCategoryId": "injury_risk_reduction",
+      "supportCategoryLabel": "Injury Risk Reduction",
+      "routineType": "strength",
+      "targetRunnerType": "all runners",
+      "level": "advanced",
+      "phase": [
+        "base"
+      ],
+      "durationMin": 23,
+      "equipment": [
+        "light weights",
+        "mat"
+      ],
+      "bodyFocus": [
+        "core"
+      ],
+      "movementGoals": [
+        "alignment",
+        "flexibility",
+        "running-mechanics"
+      ],
+      "difficulty": "hard",
+      "risk": "low",
+      "riskReason": "Closed kinetic chain alignments and static control minimize tendon friction.",
+      "sessionStructure": [
+        {
+          "blockType": "exercise",
+          "name": "Plank Hold",
+          "sets": 3,
+          "reps": null,
+          "durationSeconds": 45,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Engage core safely.",
+            "Breathe naturally during tension."
+          ]
+        },
+        {
+          "blockType": "exercise",
+          "name": "Stability Squat Drill",
+          "sets": 3,
+          "reps": 10,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Maintain knee and ankle compliance.",
+            "Keep torso tall."
+          ]
+        }
+      ],
+      "easierVariant": {
+        "description": "Reduce workout sets of the resistance moves to 2 sets for managing soft tissue load.",
+        "modifications": [
+          "Execute 2 sets per move.",
+          "Moderate posture depths if joints feel tight."
+        ]
+      },
+      "harderVariant": {
+        "description": "Increase dynamic repetitions to 15 per set or hold static planks for 60s.",
+        "modifications": [
+          "Hold static postures for 60s.",
+          "Limit transitions rests to 30s."
+        ]
+      },
+      "coachingNotes": [
+        "Perform elements slowly with perfect alignment.",
+        "Keep spine in neutral plane.",
+        "Do not force range of motion indices."
+      ],
+      "commonMistakes": [
+        "Holding your breath during isometric loads.",
+        "Leaning forward or hyperextending neck lines."
+      ],
+      "safetyNotes": [
+        "Discontinue reps immediately if any articulation pain surfaces.",
+        "Use cushion matting for knee security as prescribed."
+      ],
+      "shareCard": {
+        "cardTitle": "Progressive Injury Risk Reduction Cruise Intervals [Set 38]",
+        "cardSubtitle": "Track.Vault Curated Injury Risk Reduction",
+        "mainSetText": "Completed targeted support set series.",
+        "purposeText": "Stabilization core and alignment support routine.",
+        "footerNote": "Track.Vault static system"
+      },
+      "tags": [
+        "injury_risk_reduction",
+        "support-routine",
+        "injury-risk-reduction"
+      ],
+      "searchKeywords": [
+        "injury_risk_reduction",
+        "progressive injury risk reduction cruise intervals [set 38]",
+        "injury-risk-reduction"
+      ],
+      "uniquenessSignature": "sup0538-progressive-injury-risk-reduction-cruise-intervals-set-38",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "Movement specs informed by track physical preparation procedures."
+    },
+    {
+      "id": "sup0539",
+      "slug": "capacity-injury-risk-reduction-tempo-loop-set-39",
+      "title": "Capacity Injury Risk Reduction Tempo Loop [Set 39]",
+      "shortTitle": "Injury Risk Reduction Set 39",
+      "summary": "High quality Injury Risk Reduction support routine designed to support skeletal alignment, tissue elasticity, and structural stability.",
+      "entryType": "support-routine",
+      "supportCategoryId": "injury_risk_reduction",
+      "supportCategoryLabel": "Injury Risk Reduction",
+      "routineType": "mobility",
+      "targetRunnerType": "all runners",
+      "level": "beginner",
+      "phase": [
+        "base"
+      ],
+      "durationMin": 24,
+      "equipment": [
+        "none"
+      ],
+      "bodyFocus": [
+        "legs"
+      ],
+      "movementGoals": [
+        "alignment",
+        "flexibility",
+        "running-mechanics"
+      ],
+      "difficulty": "easy",
+      "risk": "low",
+      "riskReason": "Closed kinetic chain alignments and static control minimize tendon friction.",
+      "sessionStructure": [
+        {
+          "blockType": "exercise",
+          "name": "Dynamic Bridge Lift",
+          "sets": 3,
+          "reps": 12,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Engage core safely.",
+            "Breathe naturally during tension."
+          ]
+        },
+        {
+          "blockType": "exercise",
+          "name": "Stability Squat Drill",
+          "sets": 3,
+          "reps": 10,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Maintain knee and ankle compliance.",
+            "Keep torso tall."
+          ]
+        }
+      ],
+      "easierVariant": {
+        "description": "Reduce workout sets of the resistance moves to 2 sets for managing soft tissue load.",
+        "modifications": [
+          "Execute 2 sets per move.",
+          "Moderate posture depths if joints feel tight."
+        ]
+      },
+      "harderVariant": {
+        "description": "Increase dynamic repetitions to 15 per set or hold static planks for 60s.",
+        "modifications": [
+          "Hold static postures for 60s.",
+          "Limit transitions rests to 30s."
+        ]
+      },
+      "coachingNotes": [
+        "Perform elements slowly with perfect alignment.",
+        "Keep spine in neutral plane.",
+        "Do not force range of motion indices."
+      ],
+      "commonMistakes": [
+        "Holding your breath during isometric loads.",
+        "Leaning forward or hyperextending neck lines."
+      ],
+      "safetyNotes": [
+        "Discontinue reps immediately if any articulation pain surfaces.",
+        "Use cushion matting for knee security as prescribed."
+      ],
+      "shareCard": {
+        "cardTitle": "Capacity Injury Risk Reduction Tempo Loop [Set 39]",
+        "cardSubtitle": "Track.Vault Curated Injury Risk Reduction",
+        "mainSetText": "Completed targeted support set series.",
+        "purposeText": "Stabilization core and alignment support routine.",
+        "footerNote": "Track.Vault static system"
+      },
+      "tags": [
+        "injury_risk_reduction",
+        "support-routine",
+        "injury-risk-reduction"
+      ],
+      "searchKeywords": [
+        "injury_risk_reduction",
+        "capacity injury risk reduction tempo loop [set 39]",
+        "injury-risk-reduction"
+      ],
+      "uniquenessSignature": "sup0539-capacity-injury-risk-reduction-tempo-loop-set-39",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "Movement specs informed by track physical preparation procedures."
+    },
+    {
+      "id": "sup0540",
+      "slug": "strategic-injury-risk-reduction-adaptation-reps-set-40",
+      "title": "Strategic Injury Risk Reduction Adaptation Reps [Set 40]",
+      "shortTitle": "Injury Risk Reduction Set 40",
+      "summary": "High quality Injury Risk Reduction support routine designed to support skeletal alignment, tissue elasticity, and structural stability.",
+      "entryType": "support-routine",
+      "supportCategoryId": "injury_risk_reduction",
+      "supportCategoryLabel": "Injury Risk Reduction",
+      "routineType": "strength",
+      "targetRunnerType": "all runners",
+      "level": "intermediate",
+      "phase": [
+        "base"
+      ],
+      "durationMin": 25,
+      "equipment": [
+        "light weights",
+        "mat"
+      ],
+      "bodyFocus": [
+        "core"
+      ],
+      "movementGoals": [
+        "alignment",
+        "flexibility",
+        "running-mechanics"
+      ],
+      "difficulty": "moderate",
+      "risk": "low",
+      "riskReason": "Closed kinetic chain alignments and static control minimize tendon friction.",
+      "sessionStructure": [
+        {
+          "blockType": "exercise",
+          "name": "Plank Hold",
+          "sets": 3,
+          "reps": null,
+          "durationSeconds": 45,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Engage core safely.",
+            "Breathe naturally during tension."
+          ]
+        },
+        {
+          "blockType": "exercise",
+          "name": "Stability Squat Drill",
+          "sets": 3,
+          "reps": 10,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Maintain knee and ankle compliance.",
+            "Keep torso tall."
+          ]
+        }
+      ],
+      "easierVariant": {
+        "description": "Reduce workout sets of the resistance moves to 2 sets for managing soft tissue load.",
+        "modifications": [
+          "Execute 2 sets per move.",
+          "Moderate posture depths if joints feel tight."
+        ]
+      },
+      "harderVariant": {
+        "description": "Increase dynamic repetitions to 15 per set or hold static planks for 60s.",
+        "modifications": [
+          "Hold static postures for 60s.",
+          "Limit transitions rests to 30s."
+        ]
+      },
+      "coachingNotes": [
+        "Perform elements slowly with perfect alignment.",
+        "Keep spine in neutral plane.",
+        "Do not force range of motion indices."
+      ],
+      "commonMistakes": [
+        "Holding your breath during isometric loads.",
+        "Leaning forward or hyperextending neck lines."
+      ],
+      "safetyNotes": [
+        "Discontinue reps immediately if any articulation pain surfaces.",
+        "Use cushion matting for knee security as prescribed."
+      ],
+      "shareCard": {
+        "cardTitle": "Strategic Injury Risk Reduction Adaptation Reps [Set 40]",
+        "cardSubtitle": "Track.Vault Curated Injury Risk Reduction",
+        "mainSetText": "Completed targeted support set series.",
+        "purposeText": "Stabilization core and alignment support routine.",
+        "footerNote": "Track.Vault static system"
+      },
+      "tags": [
+        "injury_risk_reduction",
+        "support-routine",
+        "injury-risk-reduction"
+      ],
+      "searchKeywords": [
+        "injury_risk_reduction",
+        "strategic injury risk reduction adaptation reps [set 40]",
+        "injury-risk-reduction"
+      ],
+      "uniquenessSignature": "sup0540-strategic-injury-risk-reduction-adaptation-reps-set-40",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "Movement specs informed by track physical preparation procedures."
+    },
+    {
+      "id": "sup0541",
+      "slug": "anaerobic-injury-risk-reduction-stimulus-drill-set-41",
+      "title": "Anaerobic Injury Risk Reduction Stimulus Drill [Set 41]",
+      "shortTitle": "Injury Risk Reduction Set 41",
+      "summary": "High quality Injury Risk Reduction support routine designed to support skeletal alignment, tissue elasticity, and structural stability.",
+      "entryType": "support-routine",
+      "supportCategoryId": "injury_risk_reduction",
+      "supportCategoryLabel": "Injury Risk Reduction",
+      "routineType": "mobility",
+      "targetRunnerType": "all runners",
+      "level": "advanced",
+      "phase": [
+        "base"
+      ],
+      "durationMin": 26,
+      "equipment": [
+        "none"
+      ],
+      "bodyFocus": [
+        "legs"
+      ],
+      "movementGoals": [
+        "alignment",
+        "flexibility",
+        "running-mechanics"
+      ],
+      "difficulty": "hard",
+      "risk": "low",
+      "riskReason": "Closed kinetic chain alignments and static control minimize tendon friction.",
+      "sessionStructure": [
+        {
+          "blockType": "exercise",
+          "name": "Dynamic Bridge Lift",
+          "sets": 3,
+          "reps": 12,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Engage core safely.",
+            "Breathe naturally during tension."
+          ]
+        },
+        {
+          "blockType": "exercise",
+          "name": "Stability Squat Drill",
+          "sets": 3,
+          "reps": 10,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Maintain knee and ankle compliance.",
+            "Keep torso tall."
+          ]
+        }
+      ],
+      "easierVariant": {
+        "description": "Reduce workout sets of the resistance moves to 2 sets for managing soft tissue load.",
+        "modifications": [
+          "Execute 2 sets per move.",
+          "Moderate posture depths if joints feel tight."
+        ]
+      },
+      "harderVariant": {
+        "description": "Increase dynamic repetitions to 15 per set or hold static planks for 60s.",
+        "modifications": [
+          "Hold static postures for 60s.",
+          "Limit transitions rests to 30s."
+        ]
+      },
+      "coachingNotes": [
+        "Perform elements slowly with perfect alignment.",
+        "Keep spine in neutral plane.",
+        "Do not force range of motion indices."
+      ],
+      "commonMistakes": [
+        "Holding your breath during isometric loads.",
+        "Leaning forward or hyperextending neck lines."
+      ],
+      "safetyNotes": [
+        "Discontinue reps immediately if any articulation pain surfaces.",
+        "Use cushion matting for knee security as prescribed."
+      ],
+      "shareCard": {
+        "cardTitle": "Anaerobic Injury Risk Reduction Stimulus Drill [Set 41]",
+        "cardSubtitle": "Track.Vault Curated Injury Risk Reduction",
+        "mainSetText": "Completed targeted support set series.",
+        "purposeText": "Stabilization core and alignment support routine.",
+        "footerNote": "Track.Vault static system"
+      },
+      "tags": [
+        "injury_risk_reduction",
+        "support-routine",
+        "injury-risk-reduction"
+      ],
+      "searchKeywords": [
+        "injury_risk_reduction",
+        "anaerobic injury risk reduction stimulus drill [set 41]",
+        "injury-risk-reduction"
+      ],
+      "uniquenessSignature": "sup0541-anaerobic-injury-risk-reduction-stimulus-drill-set-41",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "Movement specs informed by track physical preparation procedures."
+    },
+    {
+      "id": "sup0542",
+      "slug": "neuromuscular-injury-risk-reduction-booster-set-42",
+      "title": "Neuromuscular Injury Risk Reduction Booster [Set 42]",
+      "shortTitle": "Injury Risk Reduction Set 42",
+      "summary": "High quality Injury Risk Reduction support routine designed to support skeletal alignment, tissue elasticity, and structural stability.",
+      "entryType": "support-routine",
+      "supportCategoryId": "injury_risk_reduction",
+      "supportCategoryLabel": "Injury Risk Reduction",
+      "routineType": "strength",
+      "targetRunnerType": "all runners",
+      "level": "beginner",
+      "phase": [
+        "base"
+      ],
+      "durationMin": 27,
+      "equipment": [
+        "light weights",
+        "mat"
+      ],
+      "bodyFocus": [
+        "core"
+      ],
+      "movementGoals": [
+        "alignment",
+        "flexibility",
+        "running-mechanics"
+      ],
+      "difficulty": "easy",
+      "risk": "low",
+      "riskReason": "Closed kinetic chain alignments and static control minimize tendon friction.",
+      "sessionStructure": [
+        {
+          "blockType": "exercise",
+          "name": "Plank Hold",
+          "sets": 3,
+          "reps": null,
+          "durationSeconds": 45,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Engage core safely.",
+            "Breathe naturally during tension."
+          ]
+        },
+        {
+          "blockType": "exercise",
+          "name": "Stability Squat Drill",
+          "sets": 3,
+          "reps": 10,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Maintain knee and ankle compliance.",
+            "Keep torso tall."
+          ]
+        }
+      ],
+      "easierVariant": {
+        "description": "Reduce workout sets of the resistance moves to 2 sets for managing soft tissue load.",
+        "modifications": [
+          "Execute 2 sets per move.",
+          "Moderate posture depths if joints feel tight."
+        ]
+      },
+      "harderVariant": {
+        "description": "Increase dynamic repetitions to 15 per set or hold static planks for 60s.",
+        "modifications": [
+          "Hold static postures for 60s.",
+          "Limit transitions rests to 30s."
+        ]
+      },
+      "coachingNotes": [
+        "Perform elements slowly with perfect alignment.",
+        "Keep spine in neutral plane.",
+        "Do not force range of motion indices."
+      ],
+      "commonMistakes": [
+        "Holding your breath during isometric loads.",
+        "Leaning forward or hyperextending neck lines."
+      ],
+      "safetyNotes": [
+        "Discontinue reps immediately if any articulation pain surfaces.",
+        "Use cushion matting for knee security as prescribed."
+      ],
+      "shareCard": {
+        "cardTitle": "Neuromuscular Injury Risk Reduction Booster [Set 42]",
+        "cardSubtitle": "Track.Vault Curated Injury Risk Reduction",
+        "mainSetText": "Completed targeted support set series.",
+        "purposeText": "Stabilization core and alignment support routine.",
+        "footerNote": "Track.Vault static system"
+      },
+      "tags": [
+        "injury_risk_reduction",
+        "support-routine",
+        "injury-risk-reduction"
+      ],
+      "searchKeywords": [
+        "injury_risk_reduction",
+        "neuromuscular injury risk reduction booster [set 42]",
+        "injury-risk-reduction"
+      ],
+      "uniquenessSignature": "sup0542-neuromuscular-injury-risk-reduction-booster-set-42",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "Movement specs informed by track physical preparation procedures."
+    },
+    {
+      "id": "sup0543",
+      "slug": "progressive-injury-risk-reduction-pyramid-challenge-set-43",
+      "title": "Progressive Injury Risk Reduction Pyramid Challenge [Set 43]",
+      "shortTitle": "Injury Risk Reduction Set 43",
+      "summary": "High quality Injury Risk Reduction support routine designed to support skeletal alignment, tissue elasticity, and structural stability.",
+      "entryType": "support-routine",
+      "supportCategoryId": "injury_risk_reduction",
+      "supportCategoryLabel": "Injury Risk Reduction",
+      "routineType": "mobility",
+      "targetRunnerType": "all runners",
+      "level": "intermediate",
+      "phase": [
+        "base"
+      ],
+      "durationMin": 28,
+      "equipment": [
+        "none"
+      ],
+      "bodyFocus": [
+        "legs"
+      ],
+      "movementGoals": [
+        "alignment",
+        "flexibility",
+        "running-mechanics"
+      ],
+      "difficulty": "moderate",
+      "risk": "low",
+      "riskReason": "Closed kinetic chain alignments and static control minimize tendon friction.",
+      "sessionStructure": [
+        {
+          "blockType": "exercise",
+          "name": "Dynamic Bridge Lift",
+          "sets": 3,
+          "reps": 12,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Engage core safely.",
+            "Breathe naturally during tension."
+          ]
+        },
+        {
+          "blockType": "exercise",
+          "name": "Stability Squat Drill",
+          "sets": 3,
+          "reps": 10,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Maintain knee and ankle compliance.",
+            "Keep torso tall."
+          ]
+        }
+      ],
+      "easierVariant": {
+        "description": "Reduce workout sets of the resistance moves to 2 sets for managing soft tissue load.",
+        "modifications": [
+          "Execute 2 sets per move.",
+          "Moderate posture depths if joints feel tight."
+        ]
+      },
+      "harderVariant": {
+        "description": "Increase dynamic repetitions to 15 per set or hold static planks for 60s.",
+        "modifications": [
+          "Hold static postures for 60s.",
+          "Limit transitions rests to 30s."
+        ]
+      },
+      "coachingNotes": [
+        "Perform elements slowly with perfect alignment.",
+        "Keep spine in neutral plane.",
+        "Do not force range of motion indices."
+      ],
+      "commonMistakes": [
+        "Holding your breath during isometric loads.",
+        "Leaning forward or hyperextending neck lines."
+      ],
+      "safetyNotes": [
+        "Discontinue reps immediately if any articulation pain surfaces.",
+        "Use cushion matting for knee security as prescribed."
+      ],
+      "shareCard": {
+        "cardTitle": "Progressive Injury Risk Reduction Pyramid Challenge [Set 43]",
+        "cardSubtitle": "Track.Vault Curated Injury Risk Reduction",
+        "mainSetText": "Completed targeted support set series.",
+        "purposeText": "Stabilization core and alignment support routine.",
+        "footerNote": "Track.Vault static system"
+      },
+      "tags": [
+        "injury_risk_reduction",
+        "support-routine",
+        "injury-risk-reduction"
+      ],
+      "searchKeywords": [
+        "injury_risk_reduction",
+        "progressive injury risk reduction pyramid challenge [set 43]",
+        "injury-risk-reduction"
+      ],
+      "uniquenessSignature": "sup0543-progressive-injury-risk-reduction-pyramid-challenge-set-43",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "Movement specs informed by track physical preparation procedures."
+    },
+    {
+      "id": "sup0544",
+      "slug": "capacity-injury-risk-reduction-drive-builder-set-44",
+      "title": "Capacity Injury Risk Reduction Drive Builder [Set 44]",
+      "shortTitle": "Injury Risk Reduction Set 44",
+      "summary": "High quality Injury Risk Reduction support routine designed to support skeletal alignment, tissue elasticity, and structural stability.",
+      "entryType": "support-routine",
+      "supportCategoryId": "injury_risk_reduction",
+      "supportCategoryLabel": "Injury Risk Reduction",
+      "routineType": "strength",
+      "targetRunnerType": "all runners",
+      "level": "advanced",
+      "phase": [
+        "base"
+      ],
+      "durationMin": 29,
+      "equipment": [
+        "light weights",
+        "mat"
+      ],
+      "bodyFocus": [
+        "core"
+      ],
+      "movementGoals": [
+        "alignment",
+        "flexibility",
+        "running-mechanics"
+      ],
+      "difficulty": "hard",
+      "risk": "low",
+      "riskReason": "Closed kinetic chain alignments and static control minimize tendon friction.",
+      "sessionStructure": [
+        {
+          "blockType": "exercise",
+          "name": "Plank Hold",
+          "sets": 3,
+          "reps": null,
+          "durationSeconds": 45,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Engage core safely.",
+            "Breathe naturally during tension."
+          ]
+        },
+        {
+          "blockType": "exercise",
+          "name": "Stability Squat Drill",
+          "sets": 3,
+          "reps": 10,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Maintain knee and ankle compliance.",
+            "Keep torso tall."
+          ]
+        }
+      ],
+      "easierVariant": {
+        "description": "Reduce workout sets of the resistance moves to 2 sets for managing soft tissue load.",
+        "modifications": [
+          "Execute 2 sets per move.",
+          "Moderate posture depths if joints feel tight."
+        ]
+      },
+      "harderVariant": {
+        "description": "Increase dynamic repetitions to 15 per set or hold static planks for 60s.",
+        "modifications": [
+          "Hold static postures for 60s.",
+          "Limit transitions rests to 30s."
+        ]
+      },
+      "coachingNotes": [
+        "Perform elements slowly with perfect alignment.",
+        "Keep spine in neutral plane.",
+        "Do not force range of motion indices."
+      ],
+      "commonMistakes": [
+        "Holding your breath during isometric loads.",
+        "Leaning forward or hyperextending neck lines."
+      ],
+      "safetyNotes": [
+        "Discontinue reps immediately if any articulation pain surfaces.",
+        "Use cushion matting for knee security as prescribed."
+      ],
+      "shareCard": {
+        "cardTitle": "Capacity Injury Risk Reduction Drive Builder [Set 44]",
+        "cardSubtitle": "Track.Vault Curated Injury Risk Reduction",
+        "mainSetText": "Completed targeted support set series.",
+        "purposeText": "Stabilization core and alignment support routine.",
+        "footerNote": "Track.Vault static system"
+      },
+      "tags": [
+        "injury_risk_reduction",
+        "support-routine",
+        "injury-risk-reduction"
+      ],
+      "searchKeywords": [
+        "injury_risk_reduction",
+        "capacity injury risk reduction drive builder [set 44]",
+        "injury-risk-reduction"
+      ],
+      "uniquenessSignature": "sup0544-capacity-injury-risk-reduction-drive-builder-set-44",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "Movement specs informed by track physical preparation procedures."
+    },
+    {
+      "id": "sup0545",
+      "slug": "strategic-injury-risk-reduction-tuning-ride-set-45",
+      "title": "Strategic Injury Risk Reduction Tuning Ride [Set 45]",
+      "shortTitle": "Injury Risk Reduction Set 45",
+      "summary": "High quality Injury Risk Reduction support routine designed to support skeletal alignment, tissue elasticity, and structural stability.",
+      "entryType": "support-routine",
+      "supportCategoryId": "injury_risk_reduction",
+      "supportCategoryLabel": "Injury Risk Reduction",
+      "routineType": "mobility",
+      "targetRunnerType": "all runners",
+      "level": "beginner",
+      "phase": [
+        "base"
+      ],
+      "durationMin": 15,
+      "equipment": [
+        "none"
+      ],
+      "bodyFocus": [
+        "legs"
+      ],
+      "movementGoals": [
+        "alignment",
+        "flexibility",
+        "running-mechanics"
+      ],
+      "difficulty": "easy",
+      "risk": "low",
+      "riskReason": "Closed kinetic chain alignments and static control minimize tendon friction.",
+      "sessionStructure": [
+        {
+          "blockType": "exercise",
+          "name": "Dynamic Bridge Lift",
+          "sets": 3,
+          "reps": 12,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Engage core safely.",
+            "Breathe naturally during tension."
+          ]
+        },
+        {
+          "blockType": "exercise",
+          "name": "Stability Squat Drill",
+          "sets": 3,
+          "reps": 10,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Maintain knee and ankle compliance.",
+            "Keep torso tall."
+          ]
+        }
+      ],
+      "easierVariant": {
+        "description": "Reduce workout sets of the resistance moves to 2 sets for managing soft tissue load.",
+        "modifications": [
+          "Execute 2 sets per move.",
+          "Moderate posture depths if joints feel tight."
+        ]
+      },
+      "harderVariant": {
+        "description": "Increase dynamic repetitions to 15 per set or hold static planks for 60s.",
+        "modifications": [
+          "Hold static postures for 60s.",
+          "Limit transitions rests to 30s."
+        ]
+      },
+      "coachingNotes": [
+        "Perform elements slowly with perfect alignment.",
+        "Keep spine in neutral plane.",
+        "Do not force range of motion indices."
+      ],
+      "commonMistakes": [
+        "Holding your breath during isometric loads.",
+        "Leaning forward or hyperextending neck lines."
+      ],
+      "safetyNotes": [
+        "Discontinue reps immediately if any articulation pain surfaces.",
+        "Use cushion matting for knee security as prescribed."
+      ],
+      "shareCard": {
+        "cardTitle": "Strategic Injury Risk Reduction Tuning Ride [Set 45]",
+        "cardSubtitle": "Track.Vault Curated Injury Risk Reduction",
+        "mainSetText": "Completed targeted support set series.",
+        "purposeText": "Stabilization core and alignment support routine.",
+        "footerNote": "Track.Vault static system"
+      },
+      "tags": [
+        "injury_risk_reduction",
+        "support-routine",
+        "injury-risk-reduction"
+      ],
+      "searchKeywords": [
+        "injury_risk_reduction",
+        "strategic injury risk reduction tuning ride [set 45]",
+        "injury-risk-reduction"
+      ],
+      "uniquenessSignature": "sup0545-strategic-injury-risk-reduction-tuning-ride-set-45",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "Movement specs informed by track physical preparation procedures."
+    },
+    {
+      "id": "sup0546",
+      "slug": "anaerobic-injury-risk-reduction-development-set-set-46",
+      "title": "Anaerobic Injury Risk Reduction Development Set [Set 46]",
+      "shortTitle": "Injury Risk Reduction Set 46",
+      "summary": "High quality Injury Risk Reduction support routine designed to support skeletal alignment, tissue elasticity, and structural stability.",
+      "entryType": "support-routine",
+      "supportCategoryId": "injury_risk_reduction",
+      "supportCategoryLabel": "Injury Risk Reduction",
+      "routineType": "strength",
+      "targetRunnerType": "all runners",
+      "level": "intermediate",
+      "phase": [
+        "base"
+      ],
+      "durationMin": 16,
+      "equipment": [
+        "light weights",
+        "mat"
+      ],
+      "bodyFocus": [
+        "core"
+      ],
+      "movementGoals": [
+        "alignment",
+        "flexibility",
+        "running-mechanics"
+      ],
+      "difficulty": "moderate",
+      "risk": "low",
+      "riskReason": "Closed kinetic chain alignments and static control minimize tendon friction.",
+      "sessionStructure": [
+        {
+          "blockType": "exercise",
+          "name": "Plank Hold",
+          "sets": 3,
+          "reps": null,
+          "durationSeconds": 45,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Engage core safely.",
+            "Breathe naturally during tension."
+          ]
+        },
+        {
+          "blockType": "exercise",
+          "name": "Stability Squat Drill",
+          "sets": 3,
+          "reps": 10,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Maintain knee and ankle compliance.",
+            "Keep torso tall."
+          ]
+        }
+      ],
+      "easierVariant": {
+        "description": "Reduce workout sets of the resistance moves to 2 sets for managing soft tissue load.",
+        "modifications": [
+          "Execute 2 sets per move.",
+          "Moderate posture depths if joints feel tight."
+        ]
+      },
+      "harderVariant": {
+        "description": "Increase dynamic repetitions to 15 per set or hold static planks for 60s.",
+        "modifications": [
+          "Hold static postures for 60s.",
+          "Limit transitions rests to 30s."
+        ]
+      },
+      "coachingNotes": [
+        "Perform elements slowly with perfect alignment.",
+        "Keep spine in neutral plane.",
+        "Do not force range of motion indices."
+      ],
+      "commonMistakes": [
+        "Holding your breath during isometric loads.",
+        "Leaning forward or hyperextending neck lines."
+      ],
+      "safetyNotes": [
+        "Discontinue reps immediately if any articulation pain surfaces.",
+        "Use cushion matting for knee security as prescribed."
+      ],
+      "shareCard": {
+        "cardTitle": "Anaerobic Injury Risk Reduction Development Set [Set 46]",
+        "cardSubtitle": "Track.Vault Curated Injury Risk Reduction",
+        "mainSetText": "Completed targeted support set series.",
+        "purposeText": "Stabilization core and alignment support routine.",
+        "footerNote": "Track.Vault static system"
+      },
+      "tags": [
+        "injury_risk_reduction",
+        "support-routine",
+        "injury-risk-reduction"
+      ],
+      "searchKeywords": [
+        "injury_risk_reduction",
+        "anaerobic injury risk reduction development set [set 46]",
+        "injury-risk-reduction"
+      ],
+      "uniquenessSignature": "sup0546-anaerobic-injury-risk-reduction-development-set-set-46",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "Movement specs informed by track physical preparation procedures."
+    },
+    {
+      "id": "sup0547",
+      "slug": "neuromuscular-injury-risk-reduction-engine-primer-set-47",
+      "title": "Neuromuscular Injury Risk Reduction Engine Primer [Set 47]",
+      "shortTitle": "Injury Risk Reduction Set 47",
+      "summary": "High quality Injury Risk Reduction support routine designed to support skeletal alignment, tissue elasticity, and structural stability.",
+      "entryType": "support-routine",
+      "supportCategoryId": "injury_risk_reduction",
+      "supportCategoryLabel": "Injury Risk Reduction",
+      "routineType": "mobility",
+      "targetRunnerType": "all runners",
+      "level": "advanced",
+      "phase": [
+        "base"
+      ],
+      "durationMin": 17,
+      "equipment": [
+        "none"
+      ],
+      "bodyFocus": [
+        "legs"
+      ],
+      "movementGoals": [
+        "alignment",
+        "flexibility",
+        "running-mechanics"
+      ],
+      "difficulty": "hard",
+      "risk": "low",
+      "riskReason": "Closed kinetic chain alignments and static control minimize tendon friction.",
+      "sessionStructure": [
+        {
+          "blockType": "exercise",
+          "name": "Dynamic Bridge Lift",
+          "sets": 3,
+          "reps": 12,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Engage core safely.",
+            "Breathe naturally during tension."
+          ]
+        },
+        {
+          "blockType": "exercise",
+          "name": "Stability Squat Drill",
+          "sets": 3,
+          "reps": 10,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Maintain knee and ankle compliance.",
+            "Keep torso tall."
+          ]
+        }
+      ],
+      "easierVariant": {
+        "description": "Reduce workout sets of the resistance moves to 2 sets for managing soft tissue load.",
+        "modifications": [
+          "Execute 2 sets per move.",
+          "Moderate posture depths if joints feel tight."
+        ]
+      },
+      "harderVariant": {
+        "description": "Increase dynamic repetitions to 15 per set or hold static planks for 60s.",
+        "modifications": [
+          "Hold static postures for 60s.",
+          "Limit transitions rests to 30s."
+        ]
+      },
+      "coachingNotes": [
+        "Perform elements slowly with perfect alignment.",
+        "Keep spine in neutral plane.",
+        "Do not force range of motion indices."
+      ],
+      "commonMistakes": [
+        "Holding your breath during isometric loads.",
+        "Leaning forward or hyperextending neck lines."
+      ],
+      "safetyNotes": [
+        "Discontinue reps immediately if any articulation pain surfaces.",
+        "Use cushion matting for knee security as prescribed."
+      ],
+      "shareCard": {
+        "cardTitle": "Neuromuscular Injury Risk Reduction Engine Primer [Set 47]",
+        "cardSubtitle": "Track.Vault Curated Injury Risk Reduction",
+        "mainSetText": "Completed targeted support set series.",
+        "purposeText": "Stabilization core and alignment support routine.",
+        "footerNote": "Track.Vault static system"
+      },
+      "tags": [
+        "injury_risk_reduction",
+        "support-routine",
+        "injury-risk-reduction"
+      ],
+      "searchKeywords": [
+        "injury_risk_reduction",
+        "neuromuscular injury risk reduction engine primer [set 47]",
+        "injury-risk-reduction"
+      ],
+      "uniquenessSignature": "sup0547-neuromuscular-injury-risk-reduction-engine-primer-set-47",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "Movement specs informed by track physical preparation procedures."
+    },
+    {
+      "id": "sup0548",
+      "slug": "progressive-injury-risk-reduction-speed-ladder-set-48",
+      "title": "Progressive Injury Risk Reduction Speed Ladder [Set 48]",
+      "shortTitle": "Injury Risk Reduction Set 48",
+      "summary": "High quality Injury Risk Reduction support routine designed to support skeletal alignment, tissue elasticity, and structural stability.",
+      "entryType": "support-routine",
+      "supportCategoryId": "injury_risk_reduction",
+      "supportCategoryLabel": "Injury Risk Reduction",
+      "routineType": "strength",
+      "targetRunnerType": "all runners",
+      "level": "beginner",
+      "phase": [
+        "base"
+      ],
+      "durationMin": 18,
+      "equipment": [
+        "light weights",
+        "mat"
+      ],
+      "bodyFocus": [
+        "core"
+      ],
+      "movementGoals": [
+        "alignment",
+        "flexibility",
+        "running-mechanics"
+      ],
+      "difficulty": "easy",
+      "risk": "low",
+      "riskReason": "Closed kinetic chain alignments and static control minimize tendon friction.",
+      "sessionStructure": [
+        {
+          "blockType": "exercise",
+          "name": "Plank Hold",
+          "sets": 3,
+          "reps": null,
+          "durationSeconds": 45,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Engage core safely.",
+            "Breathe naturally during tension."
+          ]
+        },
+        {
+          "blockType": "exercise",
+          "name": "Stability Squat Drill",
+          "sets": 3,
+          "reps": 10,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Maintain knee and ankle compliance.",
+            "Keep torso tall."
+          ]
+        }
+      ],
+      "easierVariant": {
+        "description": "Reduce workout sets of the resistance moves to 2 sets for managing soft tissue load.",
+        "modifications": [
+          "Execute 2 sets per move.",
+          "Moderate posture depths if joints feel tight."
+        ]
+      },
+      "harderVariant": {
+        "description": "Increase dynamic repetitions to 15 per set or hold static planks for 60s.",
+        "modifications": [
+          "Hold static postures for 60s.",
+          "Limit transitions rests to 30s."
+        ]
+      },
+      "coachingNotes": [
+        "Perform elements slowly with perfect alignment.",
+        "Keep spine in neutral plane.",
+        "Do not force range of motion indices."
+      ],
+      "commonMistakes": [
+        "Holding your breath during isometric loads.",
+        "Leaning forward or hyperextending neck lines."
+      ],
+      "safetyNotes": [
+        "Discontinue reps immediately if any articulation pain surfaces.",
+        "Use cushion matting for knee security as prescribed."
+      ],
+      "shareCard": {
+        "cardTitle": "Progressive Injury Risk Reduction Speed Ladder [Set 48]",
+        "cardSubtitle": "Track.Vault Curated Injury Risk Reduction",
+        "mainSetText": "Completed targeted support set series.",
+        "purposeText": "Stabilization core and alignment support routine.",
+        "footerNote": "Track.Vault static system"
+      },
+      "tags": [
+        "injury_risk_reduction",
+        "support-routine",
+        "injury-risk-reduction"
+      ],
+      "searchKeywords": [
+        "injury_risk_reduction",
+        "progressive injury risk reduction speed ladder [set 48]",
+        "injury-risk-reduction"
+      ],
+      "uniquenessSignature": "sup0548-progressive-injury-risk-reduction-speed-ladder-set-48",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "Movement specs informed by track physical preparation procedures."
+    },
+    {
+      "id": "sup0549",
+      "slug": "capacity-injury-risk-reduction-pacing-matrix-set-49",
+      "title": "Capacity Injury Risk Reduction Pacing Matrix [Set 49]",
+      "shortTitle": "Injury Risk Reduction Set 49",
+      "summary": "High quality Injury Risk Reduction support routine designed to support skeletal alignment, tissue elasticity, and structural stability.",
+      "entryType": "support-routine",
+      "supportCategoryId": "injury_risk_reduction",
+      "supportCategoryLabel": "Injury Risk Reduction",
+      "routineType": "mobility",
+      "targetRunnerType": "all runners",
+      "level": "intermediate",
+      "phase": [
+        "base"
+      ],
+      "durationMin": 19,
+      "equipment": [
+        "none"
+      ],
+      "bodyFocus": [
+        "legs"
+      ],
+      "movementGoals": [
+        "alignment",
+        "flexibility",
+        "running-mechanics"
+      ],
+      "difficulty": "moderate",
+      "risk": "low",
+      "riskReason": "Closed kinetic chain alignments and static control minimize tendon friction.",
+      "sessionStructure": [
+        {
+          "blockType": "exercise",
+          "name": "Dynamic Bridge Lift",
+          "sets": 3,
+          "reps": 12,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Engage core safely.",
+            "Breathe naturally during tension."
+          ]
+        },
+        {
+          "blockType": "exercise",
+          "name": "Stability Squat Drill",
+          "sets": 3,
+          "reps": 10,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Maintain knee and ankle compliance.",
+            "Keep torso tall."
+          ]
+        }
+      ],
+      "easierVariant": {
+        "description": "Reduce workout sets of the resistance moves to 2 sets for managing soft tissue load.",
+        "modifications": [
+          "Execute 2 sets per move.",
+          "Moderate posture depths if joints feel tight."
+        ]
+      },
+      "harderVariant": {
+        "description": "Increase dynamic repetitions to 15 per set or hold static planks for 60s.",
+        "modifications": [
+          "Hold static postures for 60s.",
+          "Limit transitions rests to 30s."
+        ]
+      },
+      "coachingNotes": [
+        "Perform elements slowly with perfect alignment.",
+        "Keep spine in neutral plane.",
+        "Do not force range of motion indices."
+      ],
+      "commonMistakes": [
+        "Holding your breath during isometric loads.",
+        "Leaning forward or hyperextending neck lines."
+      ],
+      "safetyNotes": [
+        "Discontinue reps immediately if any articulation pain surfaces.",
+        "Use cushion matting for knee security as prescribed."
+      ],
+      "shareCard": {
+        "cardTitle": "Capacity Injury Risk Reduction Pacing Matrix [Set 49]",
+        "cardSubtitle": "Track.Vault Curated Injury Risk Reduction",
+        "mainSetText": "Completed targeted support set series.",
+        "purposeText": "Stabilization core and alignment support routine.",
+        "footerNote": "Track.Vault static system"
+      },
+      "tags": [
+        "injury_risk_reduction",
+        "support-routine",
+        "injury-risk-reduction"
+      ],
+      "searchKeywords": [
+        "injury_risk_reduction",
+        "capacity injury risk reduction pacing matrix [set 49]",
+        "injury-risk-reduction"
+      ],
+      "uniquenessSignature": "sup0549-capacity-injury-risk-reduction-pacing-matrix-set-49",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "Movement specs informed by track physical preparation procedures."
+    },
+    {
+      "id": "sup0550",
+      "slug": "strategic-injury-risk-reduction-conditioning-session-set-50",
+      "title": "Strategic Injury Risk Reduction Conditioning Session [Set 50]",
+      "shortTitle": "Injury Risk Reduction Set 50",
+      "summary": "High quality Injury Risk Reduction support routine designed to support skeletal alignment, tissue elasticity, and structural stability.",
+      "entryType": "support-routine",
+      "supportCategoryId": "injury_risk_reduction",
+      "supportCategoryLabel": "Injury Risk Reduction",
+      "routineType": "strength",
+      "targetRunnerType": "all runners",
+      "level": "advanced",
+      "phase": [
+        "base"
+      ],
+      "durationMin": 20,
+      "equipment": [
+        "light weights",
+        "mat"
+      ],
+      "bodyFocus": [
+        "core"
+      ],
+      "movementGoals": [
+        "alignment",
+        "flexibility",
+        "running-mechanics"
+      ],
+      "difficulty": "hard",
+      "risk": "low",
+      "riskReason": "Closed kinetic chain alignments and static control minimize tendon friction.",
+      "sessionStructure": [
+        {
+          "blockType": "exercise",
+          "name": "Plank Hold",
+          "sets": 3,
+          "reps": null,
+          "durationSeconds": 45,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Engage core safely.",
+            "Breathe naturally during tension."
+          ]
+        },
+        {
+          "blockType": "exercise",
+          "name": "Stability Squat Drill",
+          "sets": 3,
+          "reps": 10,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Maintain knee and ankle compliance.",
+            "Keep torso tall."
+          ]
+        }
+      ],
+      "easierVariant": {
+        "description": "Reduce workout sets of the resistance moves to 2 sets for managing soft tissue load.",
+        "modifications": [
+          "Execute 2 sets per move.",
+          "Moderate posture depths if joints feel tight."
+        ]
+      },
+      "harderVariant": {
+        "description": "Increase dynamic repetitions to 15 per set or hold static planks for 60s.",
+        "modifications": [
+          "Hold static postures for 60s.",
+          "Limit transitions rests to 30s."
+        ]
+      },
+      "coachingNotes": [
+        "Perform elements slowly with perfect alignment.",
+        "Keep spine in neutral plane.",
+        "Do not force range of motion indices."
+      ],
+      "commonMistakes": [
+        "Holding your breath during isometric loads.",
+        "Leaning forward or hyperextending neck lines."
+      ],
+      "safetyNotes": [
+        "Discontinue reps immediately if any articulation pain surfaces.",
+        "Use cushion matting for knee security as prescribed."
+      ],
+      "shareCard": {
+        "cardTitle": "Strategic Injury Risk Reduction Conditioning Session [Set 50]",
+        "cardSubtitle": "Track.Vault Curated Injury Risk Reduction",
+        "mainSetText": "Completed targeted support set series.",
+        "purposeText": "Stabilization core and alignment support routine.",
+        "footerNote": "Track.Vault static system"
+      },
+      "tags": [
+        "injury_risk_reduction",
+        "support-routine",
+        "injury-risk-reduction"
+      ],
+      "searchKeywords": [
+        "injury_risk_reduction",
+        "strategic injury risk reduction conditioning session [set 50]",
+        "injury-risk-reduction"
+      ],
+      "uniquenessSignature": "sup0550-strategic-injury-risk-reduction-conditioning-session-set-50",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "Movement specs informed by track physical preparation procedures."
+    }
+  ]
+}

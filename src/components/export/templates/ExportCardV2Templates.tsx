@@ -142,7 +142,7 @@ export function IncompatibleTemplateCard({ workout, template, expectedType, size
           Layout Misalignment
         </h3>
         <p className="text-xs opacity-80 leading-relaxed max-w-[280px]">
-          The selected template <strong className="text-blue-500 font-bold">"{template}"</strong> is designed for {expectedType === "running" ? "Running Workouts" : "Support Routines"}.
+          The selected template <strong className="text-blue-500 font-bold">"{template}"</strong> is designed for {expectedType === "running" ? "Running Workouts" : "Support-Routines"}.
         </p>
         <p className="text-[10px] opacity-60 mt-3 max-w-[240px]">
           Please choose a template from the list that matches the current entry.

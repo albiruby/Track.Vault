@@ -207,7 +207,7 @@ export function validateSupportRoutineDraft(routine: any): ValidationResult {
       id: "sup-exercise-count-low",
       label: "Exercise Volume",
       status: "warning",
-      message: `Insufficient Activity Set (${exercises.length}/3 exercises). Support routines require at least 3 distinct movement protocols to keep physical balance.`,
+      message: `Insufficient Activity Set (${exercises.length}/3 exercises). Support-routines require at least 3 distinct movement protocols to keep physical balance.`,
       category: "exercises"
     });
   } else {

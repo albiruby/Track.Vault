@@ -131,7 +131,7 @@ export function scoreRunningSimilarity(current: any, candidate: any): number {
 }
 
 /**
- * Scores candidate support routines against the current support routine.
+ * Scores candidate support-routines against the current support routine.
  * High-weight (+10), Medium-weight (+5), Low-weight (+2).
  */
 export function scoreSupportSimilarity(current: any, candidate: any): number {

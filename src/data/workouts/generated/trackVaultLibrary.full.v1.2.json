@@ -56437,102 +56437,100 @@
     },
     {
       "id": "run0254",
-      "slug": "progressive-threshold-support-mile-sharpener",
-      "title": "Progressive Threshold Support Mile Sharpener",
-      "shortTitle": "Threshold Support Mile",
-      "summary": "Structured Mile workout focusing on aerobic endurance, speed endurance.",
+      "slug": "vo2max-mile-booster-set-4",
+      "title": "VO2Max Mile Booster [Set 4]",
+      "shortTitle": "Mile Set 4",
+      "summary": "Procedurally generated strategic running session targeting the Mile distance. Helps build speed, neuromuscular pathways, and aerobic capacity.",
       "entryType": "running-workout",
-      "targetDistances": [
-        "Mile"
-      ],
-      "primaryDistance": "Mile",
-      "libraryCategoryId": "mile",
-      "libraryCategoryLabel": "Mile",
-      "workoutType": "interval",
       "distanceNavId": "mile",
-      "distanceNavLabel": "Mile",
-      "distanceSortOrder": 6,
-      "trainingGoals": [
-        "aerobic endurance",
-        "speed endurance"
-      ],
-      "level": "beginner",
+      "primaryDistance": "Mile",
+      "workoutType": "interval",
+      "targetRunnerType": "all runners",
+      "level": "intermediate",
       "phase": [
-        "race"
+        "base"
       ],
       "surface": [
         "track"
       ],
-      "equipment": [
-        "running shoes",
-        "stopwatch"
-      ],
       "estimatedDurationMin": {
-        "min": 30,
-        "max": 40
+        "min": 34,
+        "max": 49
       },
       "estimatedDistanceKm": {
-        "min": 5,
-        "max": 6
+        "min": 8,
+        "max": 11
       },
-      "qualityDistanceKm": 2.4,
-      "difficulty": "easy",
+      "difficulty": 8,
       "risk": "low",
-      "riskReason": "Structured pacing ensures safe muscular adaptation. Maintain proper hydration and dynamic warmup.",
-      "intensityGuide": {
-        "primaryTarget": "Mile Race Pace / V02-Style Effort",
-        "paceGuide": "Mile Race Pace / V02-Style Effort",
-        "hrGuide": "88-93% HRmax",
-        "rpeGuide": "RPE 8-9 (Hard)"
-      },
+      "riskReason": "Dynamic cardiovascular stimulus managed with scheduled recovery bounds.",
       "workoutStructure": {
         "warmup": [
           {
             "blockType": "warmup",
-            "name": "Dynamic Warmup",
-            "description": "Easy jogging at RPE 3-4 followed by dynamic drills and light progressive strides.",
+            "name": "Aerobic Warm-up Segment",
+            "description": "Easy jog for general temperature elevation and nervous system prep.",
             "repetitions": 1,
             "work": {
-              "distanceMeters": 1500,
+              "distanceMeters": null,
               "durationSeconds": 600,
-              "intensity": "Easy jog & drills",
-              "targetType": "distance"
+              "intensity": "Slow active recovery pace",
+              "targetType": "duration"
             },
             "recovery": null,
             "notes": [
-              "Begin very easy",
-              "Focus on high-cadence strides",
-              "Prepare joints and cardiovascular system"
+              "Steady easy breathing and loose neck/shoulder musculature."
             ]
           }
         ],
         "mainSet": [
           {
             "blockType": "interval",
-            "name": "Mile INTERVAL Interval Segment",
-            "description": "Run repetitions of 800m at target Mile Race Pace / V02-Style Effort intensity.",
-            "repetitions": 3,
+            "name": "Mile Main Interval Reps",
+            "description": "Run repetitions of speed intervals focused on Mile race specific pacing.",
+            "repetitions": 4,
             "work": {
-              "distanceMeters": 800,
+              "distanceMeters": 400,
               "durationSeconds": null,
-              "intensity": "Mile Race Pace / V02-Style Effort",
+              "intensity": "Threshold pace effort",
               "targetType": "distance"
             },
             "recovery": {
               "type": "jog",
-              "durationSeconds": 120,
+              "durationSeconds": 90,
               "distanceMeters": null,
-              "intensity": "Slow active jog"
+              "intensity": "Very slow recovery jog"
             },
             "notes": [
-              "Maintain consistent pacing throughout all 3 repeats.",
-              "Focus on clean running form and loose shoulders.",
-              "Use the 120s recovery to lower heart rate curves."
+              "Keep speed consistent",
+              "Relax posture between intervals."
             ]
           }
         ],
         "cooldown": [
           {
             "blockType": "cooldown",
-            "name": "Recovery Cooldown",
-           
+            "name": "Mile Recovery Cooldown",
+            "description": "Light jog to ease cardiovascular curves gently.",
+            "repetitions": 1,
+            "work": {
+              "distanceMeters": null,
+              "durationSeconds": 300,
+              "intensity": "Recovery stretch speed",
+              "targetType": "duration"
+            },
+            "recovery": null,
+            "notes": [
+              "Let heart rate subside",
+              "Focus on stretching calves and glutes."
+            ]
+          }
+        ]
+      },
+      "variants": {
+        "easier": {
+          "description": "Reduce main set intervals count by 1 repetition to reduce overall volume accumulation.",
+          "mainSet": [
+            {
+              "blockType": "interval",
+              "name": "Easier Set"

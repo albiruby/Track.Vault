@@ -5,8 +5,37 @@
 
 import { Workout, WorkoutBlock, WorkoutLibraryIndex, CategoryMeta } from "../types/workout";
 import indexJson from "../data/workouts/workoutLibrary.index.v1.2.json";
-import fullLibraryJson from "../data/workouts/generated/trackVaultLibrary.full.v1.2.json";
 import { trackVaultNavigation } from "../data/workouts/trackVaultNavigation.v1.2";
+
+// Split category imports to completely avoid 2MB file size truncation errors during static client bundling
+import cat_100m from "../data/workouts/categories/100m.json";
+import cat_200m from "../data/workouts/categories/200m.json";
+import cat_400m from "../data/workouts/categories/400m.json";
+import cat_800m from "../data/workouts/categories/800m.json";
+import cat_1500m from "../data/workouts/categories/1500m.json";
+import cat_mile from "../data/workouts/categories/mile.json";
+import cat_3k from "../data/workouts/categories/3k.json";
+import cat_5k from "../data/workouts/categories/5k.json";
+import cat_10k from "../data/workouts/categories/10k.json";
+import cat_half_marathon from "../data/workouts/categories/half-marathon.json";
+import cat_marathon from "../data/workouts/categories/marathon.json";
+import cat_trail from "../data/workouts/categories/trail.json";
+import cat_treadmill from "../data/workouts/categories/treadmill.json";
+import cat_base_recovery from "../data/workouts/categories/base-recovery.json";
+import cat_general from "../data/workouts/categories/general.json";
+
+import cat_upper_strength from "../data/workouts/categories/upper_strength.json";
+import cat_lower_strength from "../data/workouts/categories/lower_strength.json";
+import cat_core_stability from "../data/workouts/categories/core_stability.json";
+import cat_mobility from "../data/workouts/categories/mobility.json";
+import cat_activation from "../data/workouts/categories/activation.json";
+import cat_plyometric from "../data/workouts/categories/plyometric.json";
+import cat_running_drills from "../data/workouts/categories/running_drills.json";
+import cat_warm_up_routine from "../data/workouts/categories/warm_up_routine.json";
+import cat_cooldown_routine from "../data/workouts/categories/cooldown_routine.json";
+import cat_recovery_routine from "../data/workouts/categories/recovery_routine.json";
+import cat_injury_risk_reduction from "../data/workouts/categories/injury_risk_reduction.json";
+
 
 export const WORKOUT_DISTANCE_NAV = trackVaultNavigation.runningNavigation;
 export type DistanceNavItem = any;
@@ -116,18 +145,39 @@ const mapRawWorkout = (w: any) => {
   };
 };
 
-const mappedRunningWorkouts: Workout[] = ((fullLibraryJson as any)?.runningWorkouts || []).map(mapRawWorkout);
-const mappedSupportRoutines: Workout[] = ((fullLibraryJson as any)?.supportRoutines || []).map(mapRawWorkout);
+const runningCategories = [
+  cat_100m, cat_200m, cat_400m, cat_800m, cat_1500m, cat_mile, cat_3k, cat_5k, cat_10k, cat_half_marathon, cat_marathon, cat_trail, cat_treadmill, cat_base_recovery, cat_general
+];
+
+const supportCategories = [
+  cat_upper_strength, cat_lower_strength, cat_core_stability, cat_mobility, cat_activation, cat_plyometric, cat_running_drills, cat_warm_up_routine, cat_cooldown_routine, cat_recovery_routine, cat_injury_risk_reduction
+];
+
+const runningRawWorkouts: any[] = runningCategories.flatMap((c: any) => c.workouts || []);
+const supportRawRoutines: any[] = supportCategories.flatMap((c: any) => c.routines || []);
+
+const mappedRunningWorkouts: Workout[] = runningRawWorkouts.map(mapRawWorkout);
+const mappedSupportRoutines: Workout[] = supportRawRoutines.map(mapRawWorkout);
 const allWorkouts: Workout[] = [...mappedRunningWorkouts, ...mappedSupportRoutines];
+
+const libraryMeta = {
+  version: "1.2",
+  releaseDate: "2026-06-01",
+  license: "Track.Vault Curated Workout static Library",
+  totalCuratedEntries: allWorkouts.length,
+  runningWorkoutsCount: mappedRunningWorkouts.length,
+  supportRoutinesCount: mappedSupportRoutines.length
+};
 
 export function getTrackVaultLibrary() {
   return {
-    libraryMeta: (fullLibraryJson as any).libraryMeta,
+    libraryMeta,
     allEntries: getAllEntries(),
     runningWorkouts: getRunningWorkouts(),
     supportRoutines: getSupportRoutines()
   };
 }
+
 
 export function getAllEntries(): Workout[] {
   return allWorkouts || [];
@@ -678,7 +728,7 @@ ${workout.coachingNotes && workout.coachingNotes.length > 0 ? `## Coaching Cues\
 ${workout.safetyNotes && workout.safetyNotes.length > 0 ? workout.safetyNotes.map((s: string) => `* ${s}`).join("\n") : "* Maintain comfortable physical limits."}
 
 ---
-*Disclaimer: Support routines are general movement quality and risk reduction logs. They are not physical therapy, rehab guarantees, or medical prescriptions.*`;
+*Disclaimer: Support-routines are general movement quality and risk reduction logs. They are not physical therapy, rehab guarantees, or medical prescriptions.*`;
       } else {
         return `# ${title}
 > **${workout.summary || ""}**

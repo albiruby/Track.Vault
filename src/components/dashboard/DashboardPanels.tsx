@@ -118,7 +118,7 @@ export function DashboardHero({ staticWorkouts, localWorkoutsList, onNavigate }:
             <div 
               style={{ width: `${hScaleSupport}%` }} 
               className="bg-slate-700 flex items-center justify-end px-1.5 text-[8px] text-white font-bold" 
-              title={`${supportCount} Support Routines`}
+              title={`${supportCount} Support-Routines`}
             >
               SUPPORT ({hScaleSupport}%)
             </div>

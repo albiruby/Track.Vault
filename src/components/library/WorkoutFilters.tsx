@@ -81,7 +81,7 @@ export function WorkoutFilters({
  className="w-full p-2 bg-[#F8FAFC] border border-[#E2E8F0] rounded-xl text-xs font-medium text-slate-700 focus:outline-none cursor-pointer focus:border-blue-600 focus:ring-2 focus:ring-blue-500/10"
  >
  <option value="All">
-   {isSupport ? "All Support Routines" : "All Running Presets"} ({filteredCategories.length})
+   {isSupport ? "All Support-Routines" : "All Running Presets"} ({filteredCategories.length})
  </option>
  {filteredCategories.map((c) => (
  <option key={c.id} value={c.id}>{c.name}</option>

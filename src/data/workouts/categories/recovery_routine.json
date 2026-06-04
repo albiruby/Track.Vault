@@ -1,0 +1,5581 @@
+{
+  "categoryId": "recovery_routine",
+  "label": "Recovery Routine",
+  "routines": [
+    {
+      "id": "sup0451",
+      "slug": "anaerobic-recovery-routine-pyramid-challenge-set-1",
+      "title": "Anaerobic Recovery Routine Pyramid Challenge [Set 1]",
+      "shortTitle": "Recovery Routine Set 1",
+      "summary": "High quality Recovery Routine support routine designed to support skeletal alignment, tissue elasticity, and structural stability.",
+      "entryType": "support-routine",
+      "supportCategoryId": "recovery_routine",
+      "supportCategoryLabel": "Recovery Routine",
+      "routineType": "mobility",
+      "targetRunnerType": "all runners",
+      "level": "intermediate",
+      "phase": [
+        "base"
+      ],
+      "durationMin": 16,
+      "equipment": [
+        "none"
+      ],
+      "bodyFocus": [
+        "legs"
+      ],
+      "movementGoals": [
+        "alignment",
+        "flexibility",
+        "running-mechanics"
+      ],
+      "difficulty": "moderate",
+      "risk": "low",
+      "riskReason": "Closed kinetic chain alignments and static control minimize tendon friction.",
+      "sessionStructure": [
+        {
+          "blockType": "exercise",
+          "name": "Dynamic Bridge Lift",
+          "sets": 3,
+          "reps": 12,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Engage core safely.",
+            "Breathe naturally during tension."
+          ]
+        },
+        {
+          "blockType": "exercise",
+          "name": "Stability Squat Drill",
+          "sets": 3,
+          "reps": 10,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Maintain knee and ankle compliance.",
+            "Keep torso tall."
+          ]
+        }
+      ],
+      "easierVariant": {
+        "description": "Reduce workout sets of the resistance moves to 2 sets for managing soft tissue load.",
+        "modifications": [
+          "Execute 2 sets per move.",
+          "Moderate posture depths if joints feel tight."
+        ]
+      },
+      "harderVariant": {
+        "description": "Increase dynamic repetitions to 15 per set or hold static planks for 60s.",
+        "modifications": [
+          "Hold static postures for 60s.",
+          "Limit transitions rests to 30s."
+        ]
+      },
+      "coachingNotes": [
+        "Perform elements slowly with perfect alignment.",
+        "Keep spine in neutral plane.",
+        "Do not force range of motion indices."
+      ],
+      "commonMistakes": [
+        "Holding your breath during isometric loads.",
+        "Leaning forward or hyperextending neck lines."
+      ],
+      "safetyNotes": [
+        "Discontinue reps immediately if any articulation pain surfaces.",
+        "Use cushion matting for knee security as prescribed."
+      ],
+      "shareCard": {
+        "cardTitle": "Anaerobic Recovery Routine Pyramid Challenge [Set 1]",
+        "cardSubtitle": "Track.Vault Curated Recovery Routine",
+        "mainSetText": "Completed targeted support set series.",
+        "purposeText": "Stabilization core and alignment support routine.",
+        "footerNote": "Track.Vault static system"
+      },
+      "tags": [
+        "recovery_routine",
+        "support-routine",
+        "recovery-routine"
+      ],
+      "searchKeywords": [
+        "recovery_routine",
+        "anaerobic recovery routine pyramid challenge [set 1]",
+        "recovery-routine"
+      ],
+      "uniquenessSignature": "sup0451-anaerobic-recovery-routine-pyramid-challenge-set-1",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "Movement specs informed by track physical preparation procedures."
+    },
+    {
+      "id": "sup0452",
+      "slug": "neuromuscular-recovery-routine-drive-builder-set-2",
+      "title": "Neuromuscular Recovery Routine Drive Builder [Set 2]",
+      "shortTitle": "Recovery Routine Set 2",
+      "summary": "High quality Recovery Routine support routine designed to support skeletal alignment, tissue elasticity, and structural stability.",
+      "entryType": "support-routine",
+      "supportCategoryId": "recovery_routine",
+      "supportCategoryLabel": "Recovery Routine",
+      "routineType": "strength",
+      "targetRunnerType": "all runners",
+      "level": "advanced",
+      "phase": [
+        "base"
+      ],
+      "durationMin": 17,
+      "equipment": [
+        "light weights",
+        "mat"
+      ],
+      "bodyFocus": [
+        "core"
+      ],
+      "movementGoals": [
+        "alignment",
+        "flexibility",
+        "running-mechanics"
+      ],
+      "difficulty": "hard",
+      "risk": "low",
+      "riskReason": "Closed kinetic chain alignments and static control minimize tendon friction.",
+      "sessionStructure": [
+        {
+          "blockType": "exercise",
+          "name": "Plank Hold",
+          "sets": 3,
+          "reps": null,
+          "durationSeconds": 45,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Engage core safely.",
+            "Breathe naturally during tension."
+          ]
+        },
+        {
+          "blockType": "exercise",
+          "name": "Stability Squat Drill",
+          "sets": 3,
+          "reps": 10,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Maintain knee and ankle compliance.",
+            "Keep torso tall."
+          ]
+        }
+      ],
+      "easierVariant": {
+        "description": "Reduce workout sets of the resistance moves to 2 sets for managing soft tissue load.",
+        "modifications": [
+          "Execute 2 sets per move.",
+          "Moderate posture depths if joints feel tight."
+        ]
+      },
+      "harderVariant": {
+        "description": "Increase dynamic repetitions to 15 per set or hold static planks for 60s.",
+        "modifications": [
+          "Hold static postures for 60s.",
+          "Limit transitions rests to 30s."
+        ]
+      },
+      "coachingNotes": [
+        "Perform elements slowly with perfect alignment.",
+        "Keep spine in neutral plane.",
+        "Do not force range of motion indices."
+      ],
+      "commonMistakes": [
+        "Holding your breath during isometric loads.",
+        "Leaning forward or hyperextending neck lines."
+      ],
+      "safetyNotes": [
+        "Discontinue reps immediately if any articulation pain surfaces.",
+        "Use cushion matting for knee security as prescribed."
+      ],
+      "shareCard": {
+        "cardTitle": "Neuromuscular Recovery Routine Drive Builder [Set 2]",
+        "cardSubtitle": "Track.Vault Curated Recovery Routine",
+        "mainSetText": "Completed targeted support set series.",
+        "purposeText": "Stabilization core and alignment support routine.",
+        "footerNote": "Track.Vault static system"
+      },
+      "tags": [
+        "recovery_routine",
+        "support-routine",
+        "recovery-routine"
+      ],
+      "searchKeywords": [
+        "recovery_routine",
+        "neuromuscular recovery routine drive builder [set 2]",
+        "recovery-routine"
+      ],
+      "uniquenessSignature": "sup0452-neuromuscular-recovery-routine-drive-builder-set-2",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "Movement specs informed by track physical preparation procedures."
+    },
+    {
+      "id": "sup0453",
+      "slug": "progressive-recovery-routine-tuning-ride-set-3",
+      "title": "Progressive Recovery Routine Tuning Ride [Set 3]",
+      "shortTitle": "Recovery Routine Set 3",
+      "summary": "High quality Recovery Routine support routine designed to support skeletal alignment, tissue elasticity, and structural stability.",
+      "entryType": "support-routine",
+      "supportCategoryId": "recovery_routine",
+      "supportCategoryLabel": "Recovery Routine",
+      "routineType": "mobility",
+      "targetRunnerType": "all runners",
+      "level": "beginner",
+      "phase": [
+        "base"
+      ],
+      "durationMin": 18,
+      "equipment": [
+        "none"
+      ],
+      "bodyFocus": [
+        "legs"
+      ],
+      "movementGoals": [
+        "alignment",
+        "flexibility",
+        "running-mechanics"
+      ],
+      "difficulty": "easy",
+      "risk": "low",
+      "riskReason": "Closed kinetic chain alignments and static control minimize tendon friction.",
+      "sessionStructure": [
+        {
+          "blockType": "exercise",
+          "name": "Dynamic Bridge Lift",
+          "sets": 3,
+          "reps": 12,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Engage core safely.",
+            "Breathe naturally during tension."
+          ]
+        },
+        {
+          "blockType": "exercise",
+          "name": "Stability Squat Drill",
+          "sets": 3,
+          "reps": 10,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Maintain knee and ankle compliance.",
+            "Keep torso tall."
+          ]
+        }
+      ],
+      "easierVariant": {
+        "description": "Reduce workout sets of the resistance moves to 2 sets for managing soft tissue load.",
+        "modifications": [
+          "Execute 2 sets per move.",
+          "Moderate posture depths if joints feel tight."
+        ]
+      },
+      "harderVariant": {
+        "description": "Increase dynamic repetitions to 15 per set or hold static planks for 60s.",
+        "modifications": [
+          "Hold static postures for 60s.",
+          "Limit transitions rests to 30s."
+        ]
+      },
+      "coachingNotes": [
+        "Perform elements slowly with perfect alignment.",
+        "Keep spine in neutral plane.",
+        "Do not force range of motion indices."
+      ],
+      "commonMistakes": [
+        "Holding your breath during isometric loads.",
+        "Leaning forward or hyperextending neck lines."
+      ],
+      "safetyNotes": [
+        "Discontinue reps immediately if any articulation pain surfaces.",
+        "Use cushion matting for knee security as prescribed."
+      ],
+      "shareCard": {
+        "cardTitle": "Progressive Recovery Routine Tuning Ride [Set 3]",
+        "cardSubtitle": "Track.Vault Curated Recovery Routine",
+        "mainSetText": "Completed targeted support set series.",
+        "purposeText": "Stabilization core and alignment support routine.",
+        "footerNote": "Track.Vault static system"
+      },
+      "tags": [
+        "recovery_routine",
+        "support-routine",
+        "recovery-routine"
+      ],
+      "searchKeywords": [
+        "recovery_routine",
+        "progressive recovery routine tuning ride [set 3]",
+        "recovery-routine"
+      ],
+      "uniquenessSignature": "sup0453-progressive-recovery-routine-tuning-ride-set-3",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "Movement specs informed by track physical preparation procedures."
+    },
+    {
+      "id": "sup0454",
+      "slug": "capacity-recovery-routine-development-set-set-4",
+      "title": "Capacity Recovery Routine Development Set [Set 4]",
+      "shortTitle": "Recovery Routine Set 4",
+      "summary": "High quality Recovery Routine support routine designed to support skeletal alignment, tissue elasticity, and structural stability.",
+      "entryType": "support-routine",
+      "supportCategoryId": "recovery_routine",
+      "supportCategoryLabel": "Recovery Routine",
+      "routineType": "strength",
+      "targetRunnerType": "all runners",
+      "level": "intermediate",
+      "phase": [
+        "base"
+      ],
+      "durationMin": 19,
+      "equipment": [
+        "light weights",
+        "mat"
+      ],
+      "bodyFocus": [
+        "core"
+      ],
+      "movementGoals": [
+        "alignment",
+        "flexibility",
+        "running-mechanics"
+      ],
+      "difficulty": "moderate",
+      "risk": "low",
+      "riskReason": "Closed kinetic chain alignments and static control minimize tendon friction.",
+      "sessionStructure": [
+        {
+          "blockType": "exercise",
+          "name": "Plank Hold",
+          "sets": 3,
+          "reps": null,
+          "durationSeconds": 45,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Engage core safely.",
+            "Breathe naturally during tension."
+          ]
+        },
+        {
+          "blockType": "exercise",
+          "name": "Stability Squat Drill",
+          "sets": 3,
+          "reps": 10,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Maintain knee and ankle compliance.",
+            "Keep torso tall."
+          ]
+        }
+      ],
+      "easierVariant": {
+        "description": "Reduce workout sets of the resistance moves to 2 sets for managing soft tissue load.",
+        "modifications": [
+          "Execute 2 sets per move.",
+          "Moderate posture depths if joints feel tight."
+        ]
+      },
+      "harderVariant": {
+        "description": "Increase dynamic repetitions to 15 per set or hold static planks for 60s.",
+        "modifications": [
+          "Hold static postures for 60s.",
+          "Limit transitions rests to 30s."
+        ]
+      },
+      "coachingNotes": [
+        "Perform elements slowly with perfect alignment.",
+        "Keep spine in neutral plane.",
+        "Do not force range of motion indices."
+      ],
+      "commonMistakes": [
+        "Holding your breath during isometric loads.",
+        "Leaning forward or hyperextending neck lines."
+      ],
+      "safetyNotes": [
+        "Discontinue reps immediately if any articulation pain surfaces.",
+        "Use cushion matting for knee security as prescribed."
+      ],
+      "shareCard": {
+        "cardTitle": "Capacity Recovery Routine Development Set [Set 4]",
+        "cardSubtitle": "Track.Vault Curated Recovery Routine",
+        "mainSetText": "Completed targeted support set series.",
+        "purposeText": "Stabilization core and alignment support routine.",
+        "footerNote": "Track.Vault static system"
+      },
+      "tags": [
+        "recovery_routine",
+        "support-routine",
+        "recovery-routine"
+      ],
+      "searchKeywords": [
+        "recovery_routine",
+        "capacity recovery routine development set [set 4]",
+        "recovery-routine"
+      ],
+      "uniquenessSignature": "sup0454-capacity-recovery-routine-development-set-set-4",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "Movement specs informed by track physical preparation procedures."
+    },
+    {
+      "id": "sup0455",
+      "slug": "strategic-recovery-routine-engine-primer-set-5",
+      "title": "Strategic Recovery Routine Engine Primer [Set 5]",
+      "shortTitle": "Recovery Routine Set 5",
+      "summary": "High quality Recovery Routine support routine designed to support skeletal alignment, tissue elasticity, and structural stability.",
+      "entryType": "support-routine",
+      "supportCategoryId": "recovery_routine",
+      "supportCategoryLabel": "Recovery Routine",
+      "routineType": "mobility",
+      "targetRunnerType": "all runners",
+      "level": "advanced",
+      "phase": [
+        "base"
+      ],
+      "durationMin": 20,
+      "equipment": [
+        "none"
+      ],
+      "bodyFocus": [
+        "legs"
+      ],
+      "movementGoals": [
+        "alignment",
+        "flexibility",
+        "running-mechanics"
+      ],
+      "difficulty": "hard",
+      "risk": "low",
+      "riskReason": "Closed kinetic chain alignments and static control minimize tendon friction.",
+      "sessionStructure": [
+        {
+          "blockType": "exercise",
+          "name": "Dynamic Bridge Lift",
+          "sets": 3,
+          "reps": 12,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Engage core safely.",
+            "Breathe naturally during tension."
+          ]
+        },
+        {
+          "blockType": "exercise",
+          "name": "Stability Squat Drill",
+          "sets": 3,
+          "reps": 10,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Maintain knee and ankle compliance.",
+            "Keep torso tall."
+          ]
+        }
+      ],
+      "easierVariant": {
+        "description": "Reduce workout sets of the resistance moves to 2 sets for managing soft tissue load.",
+        "modifications": [
+          "Execute 2 sets per move.",
+          "Moderate posture depths if joints feel tight."
+        ]
+      },
+      "harderVariant": {
+        "description": "Increase dynamic repetitions to 15 per set or hold static planks for 60s.",
+        "modifications": [
+          "Hold static postures for 60s.",
+          "Limit transitions rests to 30s."
+        ]
+      },
+      "coachingNotes": [
+        "Perform elements slowly with perfect alignment.",
+        "Keep spine in neutral plane.",
+        "Do not force range of motion indices."
+      ],
+      "commonMistakes": [
+        "Holding your breath during isometric loads.",
+        "Leaning forward or hyperextending neck lines."
+      ],
+      "safetyNotes": [
+        "Discontinue reps immediately if any articulation pain surfaces.",
+        "Use cushion matting for knee security as prescribed."
+      ],
+      "shareCard": {
+        "cardTitle": "Strategic Recovery Routine Engine Primer [Set 5]",
+        "cardSubtitle": "Track.Vault Curated Recovery Routine",
+        "mainSetText": "Completed targeted support set series.",
+        "purposeText": "Stabilization core and alignment support routine.",
+        "footerNote": "Track.Vault static system"
+      },
+      "tags": [
+        "recovery_routine",
+        "support-routine",
+        "recovery-routine"
+      ],
+      "searchKeywords": [
+        "recovery_routine",
+        "strategic recovery routine engine primer [set 5]",
+        "recovery-routine"
+      ],
+      "uniquenessSignature": "sup0455-strategic-recovery-routine-engine-primer-set-5",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "Movement specs informed by track physical preparation procedures."
+    },
+    {
+      "id": "sup0456",
+      "slug": "anaerobic-recovery-routine-speed-ladder-set-6",
+      "title": "Anaerobic Recovery Routine Speed Ladder [Set 6]",
+      "shortTitle": "Recovery Routine Set 6",
+      "summary": "High quality Recovery Routine support routine designed to support skeletal alignment, tissue elasticity, and structural stability.",
+      "entryType": "support-routine",
+      "supportCategoryId": "recovery_routine",
+      "supportCategoryLabel": "Recovery Routine",
+      "routineType": "strength",
+      "targetRunnerType": "all runners",
+      "level": "beginner",
+      "phase": [
+        "base"
+      ],
+      "durationMin": 21,
+      "equipment": [
+        "light weights",
+        "mat"
+      ],
+      "bodyFocus": [
+        "core"
+      ],
+      "movementGoals": [
+        "alignment",
+        "flexibility",
+        "running-mechanics"
+      ],
+      "difficulty": "easy",
+      "risk": "low",
+      "riskReason": "Closed kinetic chain alignments and static control minimize tendon friction.",
+      "sessionStructure": [
+        {
+          "blockType": "exercise",
+          "name": "Plank Hold",
+          "sets": 3,
+          "reps": null,
+          "durationSeconds": 45,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Engage core safely.",
+            "Breathe naturally during tension."
+          ]
+        },
+        {
+          "blockType": "exercise",
+          "name": "Stability Squat Drill",
+          "sets": 3,
+          "reps": 10,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Maintain knee and ankle compliance.",
+            "Keep torso tall."
+          ]
+        }
+      ],
+      "easierVariant": {
+        "description": "Reduce workout sets of the resistance moves to 2 sets for managing soft tissue load.",
+        "modifications": [
+          "Execute 2 sets per move.",
+          "Moderate posture depths if joints feel tight."
+        ]
+      },
+      "harderVariant": {
+        "description": "Increase dynamic repetitions to 15 per set or hold static planks for 60s.",
+        "modifications": [
+          "Hold static postures for 60s.",
+          "Limit transitions rests to 30s."
+        ]
+      },
+      "coachingNotes": [
+        "Perform elements slowly with perfect alignment.",
+        "Keep spine in neutral plane.",
+        "Do not force range of motion indices."
+      ],
+      "commonMistakes": [
+        "Holding your breath during isometric loads.",
+        "Leaning forward or hyperextending neck lines."
+      ],
+      "safetyNotes": [
+        "Discontinue reps immediately if any articulation pain surfaces.",
+        "Use cushion matting for knee security as prescribed."
+      ],
+      "shareCard": {
+        "cardTitle": "Anaerobic Recovery Routine Speed Ladder [Set 6]",
+        "cardSubtitle": "Track.Vault Curated Recovery Routine",
+        "mainSetText": "Completed targeted support set series.",
+        "purposeText": "Stabilization core and alignment support routine.",
+        "footerNote": "Track.Vault static system"
+      },
+      "tags": [
+        "recovery_routine",
+        "support-routine",
+        "recovery-routine"
+      ],
+      "searchKeywords": [
+        "recovery_routine",
+        "anaerobic recovery routine speed ladder [set 6]",
+        "recovery-routine"
+      ],
+      "uniquenessSignature": "sup0456-anaerobic-recovery-routine-speed-ladder-set-6",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "Movement specs informed by track physical preparation procedures."
+    },
+    {
+      "id": "sup0457",
+      "slug": "neuromuscular-recovery-routine-pacing-matrix-set-7",
+      "title": "Neuromuscular Recovery Routine Pacing Matrix [Set 7]",
+      "shortTitle": "Recovery Routine Set 7",
+      "summary": "High quality Recovery Routine support routine designed to support skeletal alignment, tissue elasticity, and structural stability.",
+      "entryType": "support-routine",
+      "supportCategoryId": "recovery_routine",
+      "supportCategoryLabel": "Recovery Routine",
+      "routineType": "mobility",
+      "targetRunnerType": "all runners",
+      "level": "intermediate",
+      "phase": [
+        "base"
+      ],
+      "durationMin": 22,
+      "equipment": [
+        "none"
+      ],
+      "bodyFocus": [
+        "legs"
+      ],
+      "movementGoals": [
+        "alignment",
+        "flexibility",
+        "running-mechanics"
+      ],
+      "difficulty": "moderate",
+      "risk": "low",
+      "riskReason": "Closed kinetic chain alignments and static control minimize tendon friction.",
+      "sessionStructure": [
+        {
+          "blockType": "exercise",
+          "name": "Dynamic Bridge Lift",
+          "sets": 3,
+          "reps": 12,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Engage core safely.",
+            "Breathe naturally during tension."
+          ]
+        },
+        {
+          "blockType": "exercise",
+          "name": "Stability Squat Drill",
+          "sets": 3,
+          "reps": 10,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Maintain knee and ankle compliance.",
+            "Keep torso tall."
+          ]
+        }
+      ],
+      "easierVariant": {
+        "description": "Reduce workout sets of the resistance moves to 2 sets for managing soft tissue load.",
+        "modifications": [
+          "Execute 2 sets per move.",
+          "Moderate posture depths if joints feel tight."
+        ]
+      },
+      "harderVariant": {
+        "description": "Increase dynamic repetitions to 15 per set or hold static planks for 60s.",
+        "modifications": [
+          "Hold static postures for 60s.",
+          "Limit transitions rests to 30s."
+        ]
+      },
+      "coachingNotes": [
+        "Perform elements slowly with perfect alignment.",
+        "Keep spine in neutral plane.",
+        "Do not force range of motion indices."
+      ],
+      "commonMistakes": [
+        "Holding your breath during isometric loads.",
+        "Leaning forward or hyperextending neck lines."
+      ],
+      "safetyNotes": [
+        "Discontinue reps immediately if any articulation pain surfaces.",
+        "Use cushion matting for knee security as prescribed."
+      ],
+      "shareCard": {
+        "cardTitle": "Neuromuscular Recovery Routine Pacing Matrix [Set 7]",
+        "cardSubtitle": "Track.Vault Curated Recovery Routine",
+        "mainSetText": "Completed targeted support set series.",
+        "purposeText": "Stabilization core and alignment support routine.",
+        "footerNote": "Track.Vault static system"
+      },
+      "tags": [
+        "recovery_routine",
+        "support-routine",
+        "recovery-routine"
+      ],
+      "searchKeywords": [
+        "recovery_routine",
+        "neuromuscular recovery routine pacing matrix [set 7]",
+        "recovery-routine"
+      ],
+      "uniquenessSignature": "sup0457-neuromuscular-recovery-routine-pacing-matrix-set-7",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "Movement specs informed by track physical preparation procedures."
+    },
+    {
+      "id": "sup0458",
+      "slug": "progressive-recovery-routine-conditioning-session-set-8",
+      "title": "Progressive Recovery Routine Conditioning Session [Set 8]",
+      "shortTitle": "Recovery Routine Set 8",
+      "summary": "High quality Recovery Routine support routine designed to support skeletal alignment, tissue elasticity, and structural stability.",
+      "entryType": "support-routine",
+      "supportCategoryId": "recovery_routine",
+      "supportCategoryLabel": "Recovery Routine",
+      "routineType": "strength",
+      "targetRunnerType": "all runners",
+      "level": "advanced",
+      "phase": [
+        "base"
+      ],
+      "durationMin": 23,
+      "equipment": [
+        "light weights",
+        "mat"
+      ],
+      "bodyFocus": [
+        "core"
+      ],
+      "movementGoals": [
+        "alignment",
+        "flexibility",
+        "running-mechanics"
+      ],
+      "difficulty": "hard",
+      "risk": "low",
+      "riskReason": "Closed kinetic chain alignments and static control minimize tendon friction.",
+      "sessionStructure": [
+        {
+          "blockType": "exercise",
+          "name": "Plank Hold",
+          "sets": 3,
+          "reps": null,
+          "durationSeconds": 45,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Engage core safely.",
+            "Breathe naturally during tension."
+          ]
+        },
+        {
+          "blockType": "exercise",
+          "name": "Stability Squat Drill",
+          "sets": 3,
+          "reps": 10,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Maintain knee and ankle compliance.",
+            "Keep torso tall."
+          ]
+        }
+      ],
+      "easierVariant": {
+        "description": "Reduce workout sets of the resistance moves to 2 sets for managing soft tissue load.",
+        "modifications": [
+          "Execute 2 sets per move.",
+          "Moderate posture depths if joints feel tight."
+        ]
+      },
+      "harderVariant": {
+        "description": "Increase dynamic repetitions to 15 per set or hold static planks for 60s.",
+        "modifications": [
+          "Hold static postures for 60s.",
+          "Limit transitions rests to 30s."
+        ]
+      },
+      "coachingNotes": [
+        "Perform elements slowly with perfect alignment.",
+        "Keep spine in neutral plane.",
+        "Do not force range of motion indices."
+      ],
+      "commonMistakes": [
+        "Holding your breath during isometric loads.",
+        "Leaning forward or hyperextending neck lines."
+      ],
+      "safetyNotes": [
+        "Discontinue reps immediately if any articulation pain surfaces.",
+        "Use cushion matting for knee security as prescribed."
+      ],
+      "shareCard": {
+        "cardTitle": "Progressive Recovery Routine Conditioning Session [Set 8]",
+        "cardSubtitle": "Track.Vault Curated Recovery Routine",
+        "mainSetText": "Completed targeted support set series.",
+        "purposeText": "Stabilization core and alignment support routine.",
+        "footerNote": "Track.Vault static system"
+      },
+      "tags": [
+        "recovery_routine",
+        "support-routine",
+        "recovery-routine"
+      ],
+      "searchKeywords": [
+        "recovery_routine",
+        "progressive recovery routine conditioning session [set 8]",
+        "recovery-routine"
+      ],
+      "uniquenessSignature": "sup0458-progressive-recovery-routine-conditioning-session-set-8",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "Movement specs informed by track physical preparation procedures."
+    },
+    {
+      "id": "sup0459",
+      "slug": "capacity-recovery-routine-shifter-set-9",
+      "title": "Capacity Recovery Routine Shifter [Set 9]",
+      "shortTitle": "Recovery Routine Set 9",
+      "summary": "High quality Recovery Routine support routine designed to support skeletal alignment, tissue elasticity, and structural stability.",
+      "entryType": "support-routine",
+      "supportCategoryId": "recovery_routine",
+      "supportCategoryLabel": "Recovery Routine",
+      "routineType": "mobility",
+      "targetRunnerType": "all runners",
+      "level": "beginner",
+      "phase": [
+        "base"
+      ],
+      "durationMin": 24,
+      "equipment": [
+        "none"
+      ],
+      "bodyFocus": [
+        "legs"
+      ],
+      "movementGoals": [
+        "alignment",
+        "flexibility",
+        "running-mechanics"
+      ],
+      "difficulty": "easy",
+      "risk": "low",
+      "riskReason": "Closed kinetic chain alignments and static control minimize tendon friction.",
+      "sessionStructure": [
+        {
+          "blockType": "exercise",
+          "name": "Dynamic Bridge Lift",
+          "sets": 3,
+          "reps": 12,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Engage core safely.",
+            "Breathe naturally during tension."
+          ]
+        },
+        {
+          "blockType": "exercise",
+          "name": "Stability Squat Drill",
+          "sets": 3,
+          "reps": 10,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Maintain knee and ankle compliance.",
+            "Keep torso tall."
+          ]
+        }
+      ],
+      "easierVariant": {
+        "description": "Reduce workout sets of the resistance moves to 2 sets for managing soft tissue load.",
+        "modifications": [
+          "Execute 2 sets per move.",
+          "Moderate posture depths if joints feel tight."
+        ]
+      },
+      "harderVariant": {
+        "description": "Increase dynamic repetitions to 15 per set or hold static planks for 60s.",
+        "modifications": [
+          "Hold static postures for 60s.",
+          "Limit transitions rests to 30s."
+        ]
+      },
+      "coachingNotes": [
+        "Perform elements slowly with perfect alignment.",
+        "Keep spine in neutral plane.",
+        "Do not force range of motion indices."
+      ],
+      "commonMistakes": [
+        "Holding your breath during isometric loads.",
+        "Leaning forward or hyperextending neck lines."
+      ],
+      "safetyNotes": [
+        "Discontinue reps immediately if any articulation pain surfaces.",
+        "Use cushion matting for knee security as prescribed."
+      ],
+      "shareCard": {
+        "cardTitle": "Capacity Recovery Routine Shifter [Set 9]",
+        "cardSubtitle": "Track.Vault Curated Recovery Routine",
+        "mainSetText": "Completed targeted support set series.",
+        "purposeText": "Stabilization core and alignment support routine.",
+        "footerNote": "Track.Vault static system"
+      },
+      "tags": [
+        "recovery_routine",
+        "support-routine",
+        "recovery-routine"
+      ],
+      "searchKeywords": [
+        "recovery_routine",
+        "capacity recovery routine shifter [set 9]",
+        "recovery-routine"
+      ],
+      "uniquenessSignature": "sup0459-capacity-recovery-routine-shifter-set-9",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "Movement specs informed by track physical preparation procedures."
+    },
+    {
+      "id": "sup0460",
+      "slug": "strategic-recovery-routine-cruise-intervals-set-10",
+      "title": "Strategic Recovery Routine Cruise Intervals [Set 10]",
+      "shortTitle": "Recovery Routine Set 10",
+      "summary": "High quality Recovery Routine support routine designed to support skeletal alignment, tissue elasticity, and structural stability.",
+      "entryType": "support-routine",
+      "supportCategoryId": "recovery_routine",
+      "supportCategoryLabel": "Recovery Routine",
+      "routineType": "strength",
+      "targetRunnerType": "all runners",
+      "level": "intermediate",
+      "phase": [
+        "base"
+      ],
+      "durationMin": 25,
+      "equipment": [
+        "light weights",
+        "mat"
+      ],
+      "bodyFocus": [
+        "core"
+      ],
+      "movementGoals": [
+        "alignment",
+        "flexibility",
+        "running-mechanics"
+      ],
+      "difficulty": "moderate",
+      "risk": "low",
+      "riskReason": "Closed kinetic chain alignments and static control minimize tendon friction.",
+      "sessionStructure": [
+        {
+          "blockType": "exercise",
+          "name": "Plank Hold",
+          "sets": 3,
+          "reps": null,
+          "durationSeconds": 45,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Engage core safely.",
+            "Breathe naturally during tension."
+          ]
+        },
+        {
+          "blockType": "exercise",
+          "name": "Stability Squat Drill",
+          "sets": 3,
+          "reps": 10,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Maintain knee and ankle compliance.",
+            "Keep torso tall."
+          ]
+        }
+      ],
+      "easierVariant": {
+        "description": "Reduce workout sets of the resistance moves to 2 sets for managing soft tissue load.",
+        "modifications": [
+          "Execute 2 sets per move.",
+          "Moderate posture depths if joints feel tight."
+        ]
+      },
+      "harderVariant": {
+        "description": "Increase dynamic repetitions to 15 per set or hold static planks for 60s.",
+        "modifications": [
+          "Hold static postures for 60s.",
+          "Limit transitions rests to 30s."
+        ]
+      },
+      "coachingNotes": [
+        "Perform elements slowly with perfect alignment.",
+        "Keep spine in neutral plane.",
+        "Do not force range of motion indices."
+      ],
+      "commonMistakes": [
+        "Holding your breath during isometric loads.",
+        "Leaning forward or hyperextending neck lines."
+      ],
+      "safetyNotes": [
+        "Discontinue reps immediately if any articulation pain surfaces.",
+        "Use cushion matting for knee security as prescribed."
+      ],
+      "shareCard": {
+        "cardTitle": "Strategic Recovery Routine Cruise Intervals [Set 10]",
+        "cardSubtitle": "Track.Vault Curated Recovery Routine",
+        "mainSetText": "Completed targeted support set series.",
+        "purposeText": "Stabilization core and alignment support routine.",
+        "footerNote": "Track.Vault static system"
+      },
+      "tags": [
+        "recovery_routine",
+        "support-routine",
+        "recovery-routine"
+      ],
+      "searchKeywords": [
+        "recovery_routine",
+        "strategic recovery routine cruise intervals [set 10]",
+        "recovery-routine"
+      ],
+      "uniquenessSignature": "sup0460-strategic-recovery-routine-cruise-intervals-set-10",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "Movement specs informed by track physical preparation procedures."
+    },
+    {
+      "id": "sup0461",
+      "slug": "anaerobic-recovery-routine-tempo-loop-set-11",
+      "title": "Anaerobic Recovery Routine Tempo Loop [Set 11]",
+      "shortTitle": "Recovery Routine Set 11",
+      "summary": "High quality Recovery Routine support routine designed to support skeletal alignment, tissue elasticity, and structural stability.",
+      "entryType": "support-routine",
+      "supportCategoryId": "recovery_routine",
+      "supportCategoryLabel": "Recovery Routine",
+      "routineType": "mobility",
+      "targetRunnerType": "all runners",
+      "level": "advanced",
+      "phase": [
+        "base"
+      ],
+      "durationMin": 26,
+      "equipment": [
+        "none"
+      ],
+      "bodyFocus": [
+        "legs"
+      ],
+      "movementGoals": [
+        "alignment",
+        "flexibility",
+        "running-mechanics"
+      ],
+      "difficulty": "hard",
+      "risk": "low",
+      "riskReason": "Closed kinetic chain alignments and static control minimize tendon friction.",
+      "sessionStructure": [
+        {
+          "blockType": "exercise",
+          "name": "Dynamic Bridge Lift",
+          "sets": 3,
+          "reps": 12,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Engage core safely.",
+            "Breathe naturally during tension."
+          ]
+        },
+        {
+          "blockType": "exercise",
+          "name": "Stability Squat Drill",
+          "sets": 3,
+          "reps": 10,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Maintain knee and ankle compliance.",
+            "Keep torso tall."
+          ]
+        }
+      ],
+      "easierVariant": {
+        "description": "Reduce workout sets of the resistance moves to 2 sets for managing soft tissue load.",
+        "modifications": [
+          "Execute 2 sets per move.",
+          "Moderate posture depths if joints feel tight."
+        ]
+      },
+      "harderVariant": {
+        "description": "Increase dynamic repetitions to 15 per set or hold static planks for 60s.",
+        "modifications": [
+          "Hold static postures for 60s.",
+          "Limit transitions rests to 30s."
+        ]
+      },
+      "coachingNotes": [
+        "Perform elements slowly with perfect alignment.",
+        "Keep spine in neutral plane.",
+        "Do not force range of motion indices."
+      ],
+      "commonMistakes": [
+        "Holding your breath during isometric loads.",
+        "Leaning forward or hyperextending neck lines."
+      ],
+      "safetyNotes": [
+        "Discontinue reps immediately if any articulation pain surfaces.",
+        "Use cushion matting for knee security as prescribed."
+      ],
+      "shareCard": {
+        "cardTitle": "Anaerobic Recovery Routine Tempo Loop [Set 11]",
+        "cardSubtitle": "Track.Vault Curated Recovery Routine",
+        "mainSetText": "Completed targeted support set series.",
+        "purposeText": "Stabilization core and alignment support routine.",
+        "footerNote": "Track.Vault static system"
+      },
+      "tags": [
+        "recovery_routine",
+        "support-routine",
+        "recovery-routine"
+      ],
+      "searchKeywords": [
+        "recovery_routine",
+        "anaerobic recovery routine tempo loop [set 11]",
+        "recovery-routine"
+      ],
+      "uniquenessSignature": "sup0461-anaerobic-recovery-routine-tempo-loop-set-11",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "Movement specs informed by track physical preparation procedures."
+    },
+    {
+      "id": "sup0462",
+      "slug": "neuromuscular-recovery-routine-adaptation-reps-set-12",
+      "title": "Neuromuscular Recovery Routine Adaptation Reps [Set 12]",
+      "shortTitle": "Recovery Routine Set 12",
+      "summary": "High quality Recovery Routine support routine designed to support skeletal alignment, tissue elasticity, and structural stability.",
+      "entryType": "support-routine",
+      "supportCategoryId": "recovery_routine",
+      "supportCategoryLabel": "Recovery Routine",
+      "routineType": "strength",
+      "targetRunnerType": "all runners",
+      "level": "beginner",
+      "phase": [
+        "base"
+      ],
+      "durationMin": 27,
+      "equipment": [
+        "light weights",
+        "mat"
+      ],
+      "bodyFocus": [
+        "core"
+      ],
+      "movementGoals": [
+        "alignment",
+        "flexibility",
+        "running-mechanics"
+      ],
+      "difficulty": "easy",
+      "risk": "low",
+      "riskReason": "Closed kinetic chain alignments and static control minimize tendon friction.",
+      "sessionStructure": [
+        {
+          "blockType": "exercise",
+          "name": "Plank Hold",
+          "sets": 3,
+          "reps": null,
+          "durationSeconds": 45,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Engage core safely.",
+            "Breathe naturally during tension."
+          ]
+        },
+        {
+          "blockType": "exercise",
+          "name": "Stability Squat Drill",
+          "sets": 3,
+          "reps": 10,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Maintain knee and ankle compliance.",
+            "Keep torso tall."
+          ]
+        }
+      ],
+      "easierVariant": {
+        "description": "Reduce workout sets of the resistance moves to 2 sets for managing soft tissue load.",
+        "modifications": [
+          "Execute 2 sets per move.",
+          "Moderate posture depths if joints feel tight."
+        ]
+      },
+      "harderVariant": {
+        "description": "Increase dynamic repetitions to 15 per set or hold static planks for 60s.",
+        "modifications": [
+          "Hold static postures for 60s.",
+          "Limit transitions rests to 30s."
+        ]
+      },
+      "coachingNotes": [
+        "Perform elements slowly with perfect alignment.",
+        "Keep spine in neutral plane.",
+        "Do not force range of motion indices."
+      ],
+      "commonMistakes": [
+        "Holding your breath during isometric loads.",
+        "Leaning forward or hyperextending neck lines."
+      ],
+      "safetyNotes": [
+        "Discontinue reps immediately if any articulation pain surfaces.",
+        "Use cushion matting for knee security as prescribed."
+      ],
+      "shareCard": {
+        "cardTitle": "Neuromuscular Recovery Routine Adaptation Reps [Set 12]",
+        "cardSubtitle": "Track.Vault Curated Recovery Routine",
+        "mainSetText": "Completed targeted support set series.",
+        "purposeText": "Stabilization core and alignment support routine.",
+        "footerNote": "Track.Vault static system"
+      },
+      "tags": [
+        "recovery_routine",
+        "support-routine",
+        "recovery-routine"
+      ],
+      "searchKeywords": [
+        "recovery_routine",
+        "neuromuscular recovery routine adaptation reps [set 12]",
+        "recovery-routine"
+      ],
+      "uniquenessSignature": "sup0462-neuromuscular-recovery-routine-adaptation-reps-set-12",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "Movement specs informed by track physical preparation procedures."
+    },
+    {
+      "id": "sup0463",
+      "slug": "progressive-recovery-routine-stimulus-drill-set-13",
+      "title": "Progressive Recovery Routine Stimulus Drill [Set 13]",
+      "shortTitle": "Recovery Routine Set 13",
+      "summary": "High quality Recovery Routine support routine designed to support skeletal alignment, tissue elasticity, and structural stability.",
+      "entryType": "support-routine",
+      "supportCategoryId": "recovery_routine",
+      "supportCategoryLabel": "Recovery Routine",
+      "routineType": "mobility",
+      "targetRunnerType": "all runners",
+      "level": "intermediate",
+      "phase": [
+        "base"
+      ],
+      "durationMin": 28,
+      "equipment": [
+        "none"
+      ],
+      "bodyFocus": [
+        "legs"
+      ],
+      "movementGoals": [
+        "alignment",
+        "flexibility",
+        "running-mechanics"
+      ],
+      "difficulty": "moderate",
+      "risk": "low",
+      "riskReason": "Closed kinetic chain alignments and static control minimize tendon friction.",
+      "sessionStructure": [
+        {
+          "blockType": "exercise",
+          "name": "Dynamic Bridge Lift",
+          "sets": 3,
+          "reps": 12,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Engage core safely.",
+            "Breathe naturally during tension."
+          ]
+        },
+        {
+          "blockType": "exercise",
+          "name": "Stability Squat Drill",
+          "sets": 3,
+          "reps": 10,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Maintain knee and ankle compliance.",
+            "Keep torso tall."
+          ]
+        }
+      ],
+      "easierVariant": {
+        "description": "Reduce workout sets of the resistance moves to 2 sets for managing soft tissue load.",
+        "modifications": [
+          "Execute 2 sets per move.",
+          "Moderate posture depths if joints feel tight."
+        ]
+      },
+      "harderVariant": {
+        "description": "Increase dynamic repetitions to 15 per set or hold static planks for 60s.",
+        "modifications": [
+          "Hold static postures for 60s.",
+          "Limit transitions rests to 30s."
+        ]
+      },
+      "coachingNotes": [
+        "Perform elements slowly with perfect alignment.",
+        "Keep spine in neutral plane.",
+        "Do not force range of motion indices."
+      ],
+      "commonMistakes": [
+        "Holding your breath during isometric loads.",
+        "Leaning forward or hyperextending neck lines."
+      ],
+      "safetyNotes": [
+        "Discontinue reps immediately if any articulation pain surfaces.",
+        "Use cushion matting for knee security as prescribed."
+      ],
+      "shareCard": {
+        "cardTitle": "Progressive Recovery Routine Stimulus Drill [Set 13]",
+        "cardSubtitle": "Track.Vault Curated Recovery Routine",
+        "mainSetText": "Completed targeted support set series.",
+        "purposeText": "Stabilization core and alignment support routine.",
+        "footerNote": "Track.Vault static system"
+      },
+      "tags": [
+        "recovery_routine",
+        "support-routine",
+        "recovery-routine"
+      ],
+      "searchKeywords": [
+        "recovery_routine",
+        "progressive recovery routine stimulus drill [set 13]",
+        "recovery-routine"
+      ],
+      "uniquenessSignature": "sup0463-progressive-recovery-routine-stimulus-drill-set-13",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "Movement specs informed by track physical preparation procedures."
+    },
+    {
+      "id": "sup0464",
+      "slug": "capacity-recovery-routine-booster-set-14",
+      "title": "Capacity Recovery Routine Booster [Set 14]",
+      "shortTitle": "Recovery Routine Set 14",
+      "summary": "High quality Recovery Routine support routine designed to support skeletal alignment, tissue elasticity, and structural stability.",
+      "entryType": "support-routine",
+      "supportCategoryId": "recovery_routine",
+      "supportCategoryLabel": "Recovery Routine",
+      "routineType": "strength",
+      "targetRunnerType": "all runners",
+      "level": "advanced",
+      "phase": [
+        "base"
+      ],
+      "durationMin": 29,
+      "equipment": [
+        "light weights",
+        "mat"
+      ],
+      "bodyFocus": [
+        "core"
+      ],
+      "movementGoals": [
+        "alignment",
+        "flexibility",
+        "running-mechanics"
+      ],
+      "difficulty": "hard",
+      "risk": "low",
+      "riskReason": "Closed kinetic chain alignments and static control minimize tendon friction.",
+      "sessionStructure": [
+        {
+          "blockType": "exercise",
+          "name": "Plank Hold",
+          "sets": 3,
+          "reps": null,
+          "durationSeconds": 45,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Engage core safely.",
+            "Breathe naturally during tension."
+          ]
+        },
+        {
+          "blockType": "exercise",
+          "name": "Stability Squat Drill",
+          "sets": 3,
+          "reps": 10,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Maintain knee and ankle compliance.",
+            "Keep torso tall."
+          ]
+        }
+      ],
+      "easierVariant": {
+        "description": "Reduce workout sets of the resistance moves to 2 sets for managing soft tissue load.",
+        "modifications": [
+          "Execute 2 sets per move.",
+          "Moderate posture depths if joints feel tight."
+        ]
+      },
+      "harderVariant": {
+        "description": "Increase dynamic repetitions to 15 per set or hold static planks for 60s.",
+        "modifications": [
+          "Hold static postures for 60s.",
+          "Limit transitions rests to 30s."
+        ]
+      },
+      "coachingNotes": [
+        "Perform elements slowly with perfect alignment.",
+        "Keep spine in neutral plane.",
+        "Do not force range of motion indices."
+      ],
+      "commonMistakes": [
+        "Holding your breath during isometric loads.",
+        "Leaning forward or hyperextending neck lines."
+      ],
+      "safetyNotes": [
+        "Discontinue reps immediately if any articulation pain surfaces.",
+        "Use cushion matting for knee security as prescribed."
+      ],
+      "shareCard": {
+        "cardTitle": "Capacity Recovery Routine Booster [Set 14]",
+        "cardSubtitle": "Track.Vault Curated Recovery Routine",
+        "mainSetText": "Completed targeted support set series.",
+        "purposeText": "Stabilization core and alignment support routine.",
+        "footerNote": "Track.Vault static system"
+      },
+      "tags": [
+        "recovery_routine",
+        "support-routine",
+        "recovery-routine"
+      ],
+      "searchKeywords": [
+        "recovery_routine",
+        "capacity recovery routine booster [set 14]",
+        "recovery-routine"
+      ],
+      "uniquenessSignature": "sup0464-capacity-recovery-routine-booster-set-14",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "Movement specs informed by track physical preparation procedures."
+    },
+    {
+      "id": "sup0465",
+      "slug": "strategic-recovery-routine-pyramid-challenge-set-15",
+      "title": "Strategic Recovery Routine Pyramid Challenge [Set 15]",
+      "shortTitle": "Recovery Routine Set 15",
+      "summary": "High quality Recovery Routine support routine designed to support skeletal alignment, tissue elasticity, and structural stability.",
+      "entryType": "support-routine",
+      "supportCategoryId": "recovery_routine",
+      "supportCategoryLabel": "Recovery Routine",
+      "routineType": "mobility",
+      "targetRunnerType": "all runners",
+      "level": "beginner",
+      "phase": [
+        "base"
+      ],
+      "durationMin": 15,
+      "equipment": [
+        "none"
+      ],
+      "bodyFocus": [
+        "legs"
+      ],
+      "movementGoals": [
+        "alignment",
+        "flexibility",
+        "running-mechanics"
+      ],
+      "difficulty": "easy",
+      "risk": "low",
+      "riskReason": "Closed kinetic chain alignments and static control minimize tendon friction.",
+      "sessionStructure": [
+        {
+          "blockType": "exercise",
+          "name": "Dynamic Bridge Lift",
+          "sets": 3,
+          "reps": 12,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Engage core safely.",
+            "Breathe naturally during tension."
+          ]
+        },
+        {
+          "blockType": "exercise",
+          "name": "Stability Squat Drill",
+          "sets": 3,
+          "reps": 10,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Maintain knee and ankle compliance.",
+            "Keep torso tall."
+          ]
+        }
+      ],
+      "easierVariant": {
+        "description": "Reduce workout sets of the resistance moves to 2 sets for managing soft tissue load.",
+        "modifications": [
+          "Execute 2 sets per move.",
+          "Moderate posture depths if joints feel tight."
+        ]
+      },
+      "harderVariant": {
+        "description": "Increase dynamic repetitions to 15 per set or hold static planks for 60s.",
+        "modifications": [
+          "Hold static postures for 60s.",
+          "Limit transitions rests to 30s."
+        ]
+      },
+      "coachingNotes": [
+        "Perform elements slowly with perfect alignment.",
+        "Keep spine in neutral plane.",
+        "Do not force range of motion indices."
+      ],
+      "commonMistakes": [
+        "Holding your breath during isometric loads.",
+        "Leaning forward or hyperextending neck lines."
+      ],
+      "safetyNotes": [
+        "Discontinue reps immediately if any articulation pain surfaces.",
+        "Use cushion matting for knee security as prescribed."
+      ],
+      "shareCard": {
+        "cardTitle": "Strategic Recovery Routine Pyramid Challenge [Set 15]",
+        "cardSubtitle": "Track.Vault Curated Recovery Routine",
+        "mainSetText": "Completed targeted support set series.",
+        "purposeText": "Stabilization core and alignment support routine.",
+        "footerNote": "Track.Vault static system"
+      },
+      "tags": [
+        "recovery_routine",
+        "support-routine",
+        "recovery-routine"
+      ],
+      "searchKeywords": [
+        "recovery_routine",
+        "strategic recovery routine pyramid challenge [set 15]",
+        "recovery-routine"
+      ],
+      "uniquenessSignature": "sup0465-strategic-recovery-routine-pyramid-challenge-set-15",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "Movement specs informed by track physical preparation procedures."
+    },
+    {
+      "id": "sup0466",
+      "slug": "anaerobic-recovery-routine-drive-builder-set-16",
+      "title": "Anaerobic Recovery Routine Drive Builder [Set 16]",
+      "shortTitle": "Recovery Routine Set 16",
+      "summary": "High quality Recovery Routine support routine designed to support skeletal alignment, tissue elasticity, and structural stability.",
+      "entryType": "support-routine",
+      "supportCategoryId": "recovery_routine",
+      "supportCategoryLabel": "Recovery Routine",
+      "routineType": "strength",
+      "targetRunnerType": "all runners",
+      "level": "intermediate",
+      "phase": [
+        "base"
+      ],
+      "durationMin": 16,
+      "equipment": [
+        "light weights",
+        "mat"
+      ],
+      "bodyFocus": [
+        "core"
+      ],
+      "movementGoals": [
+        "alignment",
+        "flexibility",
+        "running-mechanics"
+      ],
+      "difficulty": "moderate",
+      "risk": "low",
+      "riskReason": "Closed kinetic chain alignments and static control minimize tendon friction.",
+      "sessionStructure": [
+        {
+          "blockType": "exercise",
+          "name": "Plank Hold",
+          "sets": 3,
+          "reps": null,
+          "durationSeconds": 45,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Engage core safely.",
+            "Breathe naturally during tension."
+          ]
+        },
+        {
+          "blockType": "exercise",
+          "name": "Stability Squat Drill",
+          "sets": 3,
+          "reps": 10,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Maintain knee and ankle compliance.",
+            "Keep torso tall."
+          ]
+        }
+      ],
+      "easierVariant": {
+        "description": "Reduce workout sets of the resistance moves to 2 sets for managing soft tissue load.",
+        "modifications": [
+          "Execute 2 sets per move.",
+          "Moderate posture depths if joints feel tight."
+        ]
+      },
+      "harderVariant": {
+        "description": "Increase dynamic repetitions to 15 per set or hold static planks for 60s.",
+        "modifications": [
+          "Hold static postures for 60s.",
+          "Limit transitions rests to 30s."
+        ]
+      },
+      "coachingNotes": [
+        "Perform elements slowly with perfect alignment.",
+        "Keep spine in neutral plane.",
+        "Do not force range of motion indices."
+      ],
+      "commonMistakes": [
+        "Holding your breath during isometric loads.",
+        "Leaning forward or hyperextending neck lines."
+      ],
+      "safetyNotes": [
+        "Discontinue reps immediately if any articulation pain surfaces.",
+        "Use cushion matting for knee security as prescribed."
+      ],
+      "shareCard": {
+        "cardTitle": "Anaerobic Recovery Routine Drive Builder [Set 16]",
+        "cardSubtitle": "Track.Vault Curated Recovery Routine",
+        "mainSetText": "Completed targeted support set series.",
+        "purposeText": "Stabilization core and alignment support routine.",
+        "footerNote": "Track.Vault static system"
+      },
+      "tags": [
+        "recovery_routine",
+        "support-routine",
+        "recovery-routine"
+      ],
+      "searchKeywords": [
+        "recovery_routine",
+        "anaerobic recovery routine drive builder [set 16]",
+        "recovery-routine"
+      ],
+      "uniquenessSignature": "sup0466-anaerobic-recovery-routine-drive-builder-set-16",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "Movement specs informed by track physical preparation procedures."
+    },
+    {
+      "id": "sup0467",
+      "slug": "neuromuscular-recovery-routine-tuning-ride-set-17",
+      "title": "Neuromuscular Recovery Routine Tuning Ride [Set 17]",
+      "shortTitle": "Recovery Routine Set 17",
+      "summary": "High quality Recovery Routine support routine designed to support skeletal alignment, tissue elasticity, and structural stability.",
+      "entryType": "support-routine",
+      "supportCategoryId": "recovery_routine",
+      "supportCategoryLabel": "Recovery Routine",
+      "routineType": "mobility",
+      "targetRunnerType": "all runners",
+      "level": "advanced",
+      "phase": [
+        "base"
+      ],
+      "durationMin": 17,
+      "equipment": [
+        "none"
+      ],
+      "bodyFocus": [
+        "legs"
+      ],
+      "movementGoals": [
+        "alignment",
+        "flexibility",
+        "running-mechanics"
+      ],
+      "difficulty": "hard",
+      "risk": "low",
+      "riskReason": "Closed kinetic chain alignments and static control minimize tendon friction.",
+      "sessionStructure": [
+        {
+          "blockType": "exercise",
+          "name": "Dynamic Bridge Lift",
+          "sets": 3,
+          "reps": 12,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Engage core safely.",
+            "Breathe naturally during tension."
+          ]
+        },
+        {
+          "blockType": "exercise",
+          "name": "Stability Squat Drill",
+          "sets": 3,
+          "reps": 10,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Maintain knee and ankle compliance.",
+            "Keep torso tall."
+          ]
+        }
+      ],
+      "easierVariant": {
+        "description": "Reduce workout sets of the resistance moves to 2 sets for managing soft tissue load.",
+        "modifications": [
+          "Execute 2 sets per move.",
+          "Moderate posture depths if joints feel tight."
+        ]
+      },
+      "harderVariant": {
+        "description": "Increase dynamic repetitions to 15 per set or hold static planks for 60s.",
+        "modifications": [
+          "Hold static postures for 60s.",
+          "Limit transitions rests to 30s."
+        ]
+      },
+      "coachingNotes": [
+        "Perform elements slowly with perfect alignment.",
+        "Keep spine in neutral plane.",
+        "Do not force range of motion indices."
+      ],
+      "commonMistakes": [
+        "Holding your breath during isometric loads.",
+        "Leaning forward or hyperextending neck lines."
+      ],
+      "safetyNotes": [
+        "Discontinue reps immediately if any articulation pain surfaces.",
+        "Use cushion matting for knee security as prescribed."
+      ],
+      "shareCard": {
+        "cardTitle": "Neuromuscular Recovery Routine Tuning Ride [Set 17]",
+        "cardSubtitle": "Track.Vault Curated Recovery Routine",
+        "mainSetText": "Completed targeted support set series.",
+        "purposeText": "Stabilization core and alignment support routine.",
+        "footerNote": "Track.Vault static system"
+      },
+      "tags": [
+        "recovery_routine",
+        "support-routine",
+        "recovery-routine"
+      ],
+      "searchKeywords": [
+        "recovery_routine",
+        "neuromuscular recovery routine tuning ride [set 17]",
+        "recovery-routine"
+      ],
+      "uniquenessSignature": "sup0467-neuromuscular-recovery-routine-tuning-ride-set-17",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "Movement specs informed by track physical preparation procedures."
+    },
+    {
+      "id": "sup0468",
+      "slug": "progressive-recovery-routine-development-set-set-18",
+      "title": "Progressive Recovery Routine Development Set [Set 18]",
+      "shortTitle": "Recovery Routine Set 18",
+      "summary": "High quality Recovery Routine support routine designed to support skeletal alignment, tissue elasticity, and structural stability.",
+      "entryType": "support-routine",
+      "supportCategoryId": "recovery_routine",
+      "supportCategoryLabel": "Recovery Routine",
+      "routineType": "strength",
+      "targetRunnerType": "all runners",
+      "level": "beginner",
+      "phase": [
+        "base"
+      ],
+      "durationMin": 18,
+      "equipment": [
+        "light weights",
+        "mat"
+      ],
+      "bodyFocus": [
+        "core"
+      ],
+      "movementGoals": [
+        "alignment",
+        "flexibility",
+        "running-mechanics"
+      ],
+      "difficulty": "easy",
+      "risk": "low",
+      "riskReason": "Closed kinetic chain alignments and static control minimize tendon friction.",
+      "sessionStructure": [
+        {
+          "blockType": "exercise",
+          "name": "Plank Hold",
+          "sets": 3,
+          "reps": null,
+          "durationSeconds": 45,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Engage core safely.",
+            "Breathe naturally during tension."
+          ]
+        },
+        {
+          "blockType": "exercise",
+          "name": "Stability Squat Drill",
+          "sets": 3,
+          "reps": 10,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Maintain knee and ankle compliance.",
+            "Keep torso tall."
+          ]
+        }
+      ],
+      "easierVariant": {
+        "description": "Reduce workout sets of the resistance moves to 2 sets for managing soft tissue load.",
+        "modifications": [
+          "Execute 2 sets per move.",
+          "Moderate posture depths if joints feel tight."
+        ]
+      },
+      "harderVariant": {
+        "description": "Increase dynamic repetitions to 15 per set or hold static planks for 60s.",
+        "modifications": [
+          "Hold static postures for 60s.",
+          "Limit transitions rests to 30s."
+        ]
+      },
+      "coachingNotes": [
+        "Perform elements slowly with perfect alignment.",
+        "Keep spine in neutral plane.",
+        "Do not force range of motion indices."
+      ],
+      "commonMistakes": [
+        "Holding your breath during isometric loads.",
+        "Leaning forward or hyperextending neck lines."
+      ],
+      "safetyNotes": [
+        "Discontinue reps immediately if any articulation pain surfaces.",
+        "Use cushion matting for knee security as prescribed."
+      ],
+      "shareCard": {
+        "cardTitle": "Progressive Recovery Routine Development Set [Set 18]",
+        "cardSubtitle": "Track.Vault Curated Recovery Routine",
+        "mainSetText": "Completed targeted support set series.",
+        "purposeText": "Stabilization core and alignment support routine.",
+        "footerNote": "Track.Vault static system"
+      },
+      "tags": [
+        "recovery_routine",
+        "support-routine",
+        "recovery-routine"
+      ],
+      "searchKeywords": [
+        "recovery_routine",
+        "progressive recovery routine development set [set 18]",
+        "recovery-routine"
+      ],
+      "uniquenessSignature": "sup0468-progressive-recovery-routine-development-set-set-18",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "Movement specs informed by track physical preparation procedures."
+    },
+    {
+      "id": "sup0469",
+      "slug": "capacity-recovery-routine-engine-primer-set-19",
+      "title": "Capacity Recovery Routine Engine Primer [Set 19]",
+      "shortTitle": "Recovery Routine Set 19",
+      "summary": "High quality Recovery Routine support routine designed to support skeletal alignment, tissue elasticity, and structural stability.",
+      "entryType": "support-routine",
+      "supportCategoryId": "recovery_routine",
+      "supportCategoryLabel": "Recovery Routine",
+      "routineType": "mobility",
+      "targetRunnerType": "all runners",
+      "level": "intermediate",
+      "phase": [
+        "base"
+      ],
+      "durationMin": 19,
+      "equipment": [
+        "none"
+      ],
+      "bodyFocus": [
+        "legs"
+      ],
+      "movementGoals": [
+        "alignment",
+        "flexibility",
+        "running-mechanics"
+      ],
+      "difficulty": "moderate",
+      "risk": "low",
+      "riskReason": "Closed kinetic chain alignments and static control minimize tendon friction.",
+      "sessionStructure": [
+        {
+          "blockType": "exercise",
+          "name": "Dynamic Bridge Lift",
+          "sets": 3,
+          "reps": 12,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Engage core safely.",
+            "Breathe naturally during tension."
+          ]
+        },
+        {
+          "blockType": "exercise",
+          "name": "Stability Squat Drill",
+          "sets": 3,
+          "reps": 10,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Maintain knee and ankle compliance.",
+            "Keep torso tall."
+          ]
+        }
+      ],
+      "easierVariant": {
+        "description": "Reduce workout sets of the resistance moves to 2 sets for managing soft tissue load.",
+        "modifications": [
+          "Execute 2 sets per move.",
+          "Moderate posture depths if joints feel tight."
+        ]
+      },
+      "harderVariant": {
+        "description": "Increase dynamic repetitions to 15 per set or hold static planks for 60s.",
+        "modifications": [
+          "Hold static postures for 60s.",
+          "Limit transitions rests to 30s."
+        ]
+      },
+      "coachingNotes": [
+        "Perform elements slowly with perfect alignment.",
+        "Keep spine in neutral plane.",
+        "Do not force range of motion indices."
+      ],
+      "commonMistakes": [
+        "Holding your breath during isometric loads.",
+        "Leaning forward or hyperextending neck lines."
+      ],
+      "safetyNotes": [
+        "Discontinue reps immediately if any articulation pain surfaces.",
+        "Use cushion matting for knee security as prescribed."
+      ],
+      "shareCard": {
+        "cardTitle": "Capacity Recovery Routine Engine Primer [Set 19]",
+        "cardSubtitle": "Track.Vault Curated Recovery Routine",
+        "mainSetText": "Completed targeted support set series.",
+        "purposeText": "Stabilization core and alignment support routine.",
+        "footerNote": "Track.Vault static system"
+      },
+      "tags": [
+        "recovery_routine",
+        "support-routine",
+        "recovery-routine"
+      ],
+      "searchKeywords": [
+        "recovery_routine",
+        "capacity recovery routine engine primer [set 19]",
+        "recovery-routine"
+      ],
+      "uniquenessSignature": "sup0469-capacity-recovery-routine-engine-primer-set-19",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "Movement specs informed by track physical preparation procedures."
+    },
+    {
+      "id": "sup0470",
+      "slug": "strategic-recovery-routine-speed-ladder-set-20",
+      "title": "Strategic Recovery Routine Speed Ladder [Set 20]",
+      "shortTitle": "Recovery Routine Set 20",
+      "summary": "High quality Recovery Routine support routine designed to support skeletal alignment, tissue elasticity, and structural stability.",
+      "entryType": "support-routine",
+      "supportCategoryId": "recovery_routine",
+      "supportCategoryLabel": "Recovery Routine",
+      "routineType": "strength",
+      "targetRunnerType": "all runners",
+      "level": "advanced",
+      "phase": [
+        "base"
+      ],
+      "durationMin": 20,
+      "equipment": [
+        "light weights",
+        "mat"
+      ],
+      "bodyFocus": [
+        "core"
+      ],
+      "movementGoals": [
+        "alignment",
+        "flexibility",
+        "running-mechanics"
+      ],
+      "difficulty": "hard",
+      "risk": "low",
+      "riskReason": "Closed kinetic chain alignments and static control minimize tendon friction.",
+      "sessionStructure": [
+        {
+          "blockType": "exercise",
+          "name": "Plank Hold",
+          "sets": 3,
+          "reps": null,
+          "durationSeconds": 45,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Engage core safely.",
+            "Breathe naturally during tension."
+          ]
+        },
+        {
+          "blockType": "exercise",
+          "name": "Stability Squat Drill",
+          "sets": 3,
+          "reps": 10,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Maintain knee and ankle compliance.",
+            "Keep torso tall."
+          ]
+        }
+      ],
+      "easierVariant": {
+        "description": "Reduce workout sets of the resistance moves to 2 sets for managing soft tissue load.",
+        "modifications": [
+          "Execute 2 sets per move.",
+          "Moderate posture depths if joints feel tight."
+        ]
+      },
+      "harderVariant": {
+        "description": "Increase dynamic repetitions to 15 per set or hold static planks for 60s.",
+        "modifications": [
+          "Hold static postures for 60s.",
+          "Limit transitions rests to 30s."
+        ]
+      },
+      "coachingNotes": [
+        "Perform elements slowly with perfect alignment.",
+        "Keep spine in neutral plane.",
+        "Do not force range of motion indices."
+      ],
+      "commonMistakes": [
+        "Holding your breath during isometric loads.",
+        "Leaning forward or hyperextending neck lines."
+      ],
+      "safetyNotes": [
+        "Discontinue reps immediately if any articulation pain surfaces.",
+        "Use cushion matting for knee security as prescribed."
+      ],
+      "shareCard": {
+        "cardTitle": "Strategic Recovery Routine Speed Ladder [Set 20]",
+        "cardSubtitle": "Track.Vault Curated Recovery Routine",
+        "mainSetText": "Completed targeted support set series.",
+        "purposeText": "Stabilization core and alignment support routine.",
+        "footerNote": "Track.Vault static system"
+      },
+      "tags": [
+        "recovery_routine",
+        "support-routine",
+        "recovery-routine"
+      ],
+      "searchKeywords": [
+        "recovery_routine",
+        "strategic recovery routine speed ladder [set 20]",
+        "recovery-routine"
+      ],
+      "uniquenessSignature": "sup0470-strategic-recovery-routine-speed-ladder-set-20",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "Movement specs informed by track physical preparation procedures."
+    },
+    {
+      "id": "sup0471",
+      "slug": "anaerobic-recovery-routine-pacing-matrix-set-21",
+      "title": "Anaerobic Recovery Routine Pacing Matrix [Set 21]",
+      "shortTitle": "Recovery Routine Set 21",
+      "summary": "High quality Recovery Routine support routine designed to support skeletal alignment, tissue elasticity, and structural stability.",
+      "entryType": "support-routine",
+      "supportCategoryId": "recovery_routine",
+      "supportCategoryLabel": "Recovery Routine",
+      "routineType": "mobility",
+      "targetRunnerType": "all runners",
+      "level": "beginner",
+      "phase": [
+        "base"
+      ],
+      "durationMin": 21,
+      "equipment": [
+        "none"
+      ],
+      "bodyFocus": [
+        "legs"
+      ],
+      "movementGoals": [
+        "alignment",
+        "flexibility",
+        "running-mechanics"
+      ],
+      "difficulty": "easy",
+      "risk": "low",
+      "riskReason": "Closed kinetic chain alignments and static control minimize tendon friction.",
+      "sessionStructure": [
+        {
+          "blockType": "exercise",
+          "name": "Dynamic Bridge Lift",
+          "sets": 3,
+          "reps": 12,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Engage core safely.",
+            "Breathe naturally during tension."
+          ]
+        },
+        {
+          "blockType": "exercise",
+          "name": "Stability Squat Drill",
+          "sets": 3,
+          "reps": 10,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Maintain knee and ankle compliance.",
+            "Keep torso tall."
+          ]
+        }
+      ],
+      "easierVariant": {
+        "description": "Reduce workout sets of the resistance moves to 2 sets for managing soft tissue load.",
+        "modifications": [
+          "Execute 2 sets per move.",
+          "Moderate posture depths if joints feel tight."
+        ]
+      },
+      "harderVariant": {
+        "description": "Increase dynamic repetitions to 15 per set or hold static planks for 60s.",
+        "modifications": [
+          "Hold static postures for 60s.",
+          "Limit transitions rests to 30s."
+        ]
+      },
+      "coachingNotes": [
+        "Perform elements slowly with perfect alignment.",
+        "Keep spine in neutral plane.",
+        "Do not force range of motion indices."
+      ],
+      "commonMistakes": [
+        "Holding your breath during isometric loads.",
+        "Leaning forward or hyperextending neck lines."
+      ],
+      "safetyNotes": [
+        "Discontinue reps immediately if any articulation pain surfaces.",
+        "Use cushion matting for knee security as prescribed."
+      ],
+      "shareCard": {
+        "cardTitle": "Anaerobic Recovery Routine Pacing Matrix [Set 21]",
+        "cardSubtitle": "Track.Vault Curated Recovery Routine",
+        "mainSetText": "Completed targeted support set series.",
+        "purposeText": "Stabilization core and alignment support routine.",
+        "footerNote": "Track.Vault static system"
+      },
+      "tags": [
+        "recovery_routine",
+        "support-routine",
+        "recovery-routine"
+      ],
+      "searchKeywords": [
+        "recovery_routine",
+        "anaerobic recovery routine pacing matrix [set 21]",
+        "recovery-routine"
+      ],
+      "uniquenessSignature": "sup0471-anaerobic-recovery-routine-pacing-matrix-set-21",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "Movement specs informed by track physical preparation procedures."
+    },
+    {
+      "id": "sup0472",
+      "slug": "neuromuscular-recovery-routine-conditioning-session-set-22",
+      "title": "Neuromuscular Recovery Routine Conditioning Session [Set 22]",
+      "shortTitle": "Recovery Routine Set 22",
+      "summary": "High quality Recovery Routine support routine designed to support skeletal alignment, tissue elasticity, and structural stability.",
+      "entryType": "support-routine",
+      "supportCategoryId": "recovery_routine",
+      "supportCategoryLabel": "Recovery Routine",
+      "routineType": "strength",
+      "targetRunnerType": "all runners",
+      "level": "intermediate",
+      "phase": [
+        "base"
+      ],
+      "durationMin": 22,
+      "equipment": [
+        "light weights",
+        "mat"
+      ],
+      "bodyFocus": [
+        "core"
+      ],
+      "movementGoals": [
+        "alignment",
+        "flexibility",
+        "running-mechanics"
+      ],
+      "difficulty": "moderate",
+      "risk": "low",
+      "riskReason": "Closed kinetic chain alignments and static control minimize tendon friction.",
+      "sessionStructure": [
+        {
+          "blockType": "exercise",
+          "name": "Plank Hold",
+          "sets": 3,
+          "reps": null,
+          "durationSeconds": 45,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Engage core safely.",
+            "Breathe naturally during tension."
+          ]
+        },
+        {
+          "blockType": "exercise",
+          "name": "Stability Squat Drill",
+          "sets": 3,
+          "reps": 10,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Maintain knee and ankle compliance.",
+            "Keep torso tall."
+          ]
+        }
+      ],
+      "easierVariant": {
+        "description": "Reduce workout sets of the resistance moves to 2 sets for managing soft tissue load.",
+        "modifications": [
+          "Execute 2 sets per move.",
+          "Moderate posture depths if joints feel tight."
+        ]
+      },
+      "harderVariant": {
+        "description": "Increase dynamic repetitions to 15 per set or hold static planks for 60s.",
+        "modifications": [
+          "Hold static postures for 60s.",
+          "Limit transitions rests to 30s."
+        ]
+      },
+      "coachingNotes": [
+        "Perform elements slowly with perfect alignment.",
+        "Keep spine in neutral plane.",
+        "Do not force range of motion indices."
+      ],
+      "commonMistakes": [
+        "Holding your breath during isometric loads.",
+        "Leaning forward or hyperextending neck lines."
+      ],
+      "safetyNotes": [
+        "Discontinue reps immediately if any articulation pain surfaces.",
+        "Use cushion matting for knee security as prescribed."
+      ],
+      "shareCard": {
+        "cardTitle": "Neuromuscular Recovery Routine Conditioning Session [Set 22]",
+        "cardSubtitle": "Track.Vault Curated Recovery Routine",
+        "mainSetText": "Completed targeted support set series.",
+        "purposeText": "Stabilization core and alignment support routine.",
+        "footerNote": "Track.Vault static system"
+      },
+      "tags": [
+        "recovery_routine",
+        "support-routine",
+        "recovery-routine"
+      ],
+      "searchKeywords": [
+        "recovery_routine",
+        "neuromuscular recovery routine conditioning session [set 22]",
+        "recovery-routine"
+      ],
+      "uniquenessSignature": "sup0472-neuromuscular-recovery-routine-conditioning-session-set-22",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "Movement specs informed by track physical preparation procedures."
+    },
+    {
+      "id": "sup0473",
+      "slug": "progressive-recovery-routine-shifter-set-23",
+      "title": "Progressive Recovery Routine Shifter [Set 23]",
+      "shortTitle": "Recovery Routine Set 23",
+      "summary": "High quality Recovery Routine support routine designed to support skeletal alignment, tissue elasticity, and structural stability.",
+      "entryType": "support-routine",
+      "supportCategoryId": "recovery_routine",
+      "supportCategoryLabel": "Recovery Routine",
+      "routineType": "mobility",
+      "targetRunnerType": "all runners",
+      "level": "advanced",
+      "phase": [
+        "base"
+      ],
+      "durationMin": 23,
+      "equipment": [
+        "none"
+      ],
+      "bodyFocus": [
+        "legs"
+      ],
+      "movementGoals": [
+        "alignment",
+        "flexibility",
+        "running-mechanics"
+      ],
+      "difficulty": "hard",
+      "risk": "low",
+      "riskReason": "Closed kinetic chain alignments and static control minimize tendon friction.",
+      "sessionStructure": [
+        {
+          "blockType": "exercise",
+          "name": "Dynamic Bridge Lift",
+          "sets": 3,
+          "reps": 12,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Engage core safely.",
+            "Breathe naturally during tension."
+          ]
+        },
+        {
+          "blockType": "exercise",
+          "name": "Stability Squat Drill",
+          "sets": 3,
+          "reps": 10,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Maintain knee and ankle compliance.",
+            "Keep torso tall."
+          ]
+        }
+      ],
+      "easierVariant": {
+        "description": "Reduce workout sets of the resistance moves to 2 sets for managing soft tissue load.",
+        "modifications": [
+          "Execute 2 sets per move.",
+          "Moderate posture depths if joints feel tight."
+        ]
+      },
+      "harderVariant": {
+        "description": "Increase dynamic repetitions to 15 per set or hold static planks for 60s.",
+        "modifications": [
+          "Hold static postures for 60s.",
+          "Limit transitions rests to 30s."
+        ]
+      },
+      "coachingNotes": [
+        "Perform elements slowly with perfect alignment.",
+        "Keep spine in neutral plane.",
+        "Do not force range of motion indices."
+      ],
+      "commonMistakes": [
+        "Holding your breath during isometric loads.",
+        "Leaning forward or hyperextending neck lines."
+      ],
+      "safetyNotes": [
+        "Discontinue reps immediately if any articulation pain surfaces.",
+        "Use cushion matting for knee security as prescribed."
+      ],
+      "shareCard": {
+        "cardTitle": "Progressive Recovery Routine Shifter [Set 23]",
+        "cardSubtitle": "Track.Vault Curated Recovery Routine",
+        "mainSetText": "Completed targeted support set series.",
+        "purposeText": "Stabilization core and alignment support routine.",
+        "footerNote": "Track.Vault static system"
+      },
+      "tags": [
+        "recovery_routine",
+        "support-routine",
+        "recovery-routine"
+      ],
+      "searchKeywords": [
+        "recovery_routine",
+        "progressive recovery routine shifter [set 23]",
+        "recovery-routine"
+      ],
+      "uniquenessSignature": "sup0473-progressive-recovery-routine-shifter-set-23",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "Movement specs informed by track physical preparation procedures."
+    },
+    {
+      "id": "sup0474",
+      "slug": "capacity-recovery-routine-cruise-intervals-set-24",
+      "title": "Capacity Recovery Routine Cruise Intervals [Set 24]",
+      "shortTitle": "Recovery Routine Set 24",
+      "summary": "High quality Recovery Routine support routine designed to support skeletal alignment, tissue elasticity, and structural stability.",
+      "entryType": "support-routine",
+      "supportCategoryId": "recovery_routine",
+      "supportCategoryLabel": "Recovery Routine",
+      "routineType": "strength",
+      "targetRunnerType": "all runners",
+      "level": "beginner",
+      "phase": [
+        "base"
+      ],
+      "durationMin": 24,
+      "equipment": [
+        "light weights",
+        "mat"
+      ],
+      "bodyFocus": [
+        "core"
+      ],
+      "movementGoals": [
+        "alignment",
+        "flexibility",
+        "running-mechanics"
+      ],
+      "difficulty": "easy",
+      "risk": "low",
+      "riskReason": "Closed kinetic chain alignments and static control minimize tendon friction.",
+      "sessionStructure": [
+        {
+          "blockType": "exercise",
+          "name": "Plank Hold",
+          "sets": 3,
+          "reps": null,
+          "durationSeconds": 45,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Engage core safely.",
+            "Breathe naturally during tension."
+          ]
+        },
+        {
+          "blockType": "exercise",
+          "name": "Stability Squat Drill",
+          "sets": 3,
+          "reps": 10,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Maintain knee and ankle compliance.",
+            "Keep torso tall."
+          ]
+        }
+      ],
+      "easierVariant": {
+        "description": "Reduce workout sets of the resistance moves to 2 sets for managing soft tissue load.",
+        "modifications": [
+          "Execute 2 sets per move.",
+          "Moderate posture depths if joints feel tight."
+        ]
+      },
+      "harderVariant": {
+        "description": "Increase dynamic repetitions to 15 per set or hold static planks for 60s.",
+        "modifications": [
+          "Hold static postures for 60s.",
+          "Limit transitions rests to 30s."
+        ]
+      },
+      "coachingNotes": [
+        "Perform elements slowly with perfect alignment.",
+        "Keep spine in neutral plane.",
+        "Do not force range of motion indices."
+      ],
+      "commonMistakes": [
+        "Holding your breath during isometric loads.",
+        "Leaning forward or hyperextending neck lines."
+      ],
+      "safetyNotes": [
+        "Discontinue reps immediately if any articulation pain surfaces.",
+        "Use cushion matting for knee security as prescribed."
+      ],
+      "shareCard": {
+        "cardTitle": "Capacity Recovery Routine Cruise Intervals [Set 24]",
+        "cardSubtitle": "Track.Vault Curated Recovery Routine",
+        "mainSetText": "Completed targeted support set series.",
+        "purposeText": "Stabilization core and alignment support routine.",
+        "footerNote": "Track.Vault static system"
+      },
+      "tags": [
+        "recovery_routine",
+        "support-routine",
+        "recovery-routine"
+      ],
+      "searchKeywords": [
+        "recovery_routine",
+        "capacity recovery routine cruise intervals [set 24]",
+        "recovery-routine"
+      ],
+      "uniquenessSignature": "sup0474-capacity-recovery-routine-cruise-intervals-set-24",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "Movement specs informed by track physical preparation procedures."
+    },
+    {
+      "id": "sup0475",
+      "slug": "strategic-recovery-routine-tempo-loop-set-25",
+      "title": "Strategic Recovery Routine Tempo Loop [Set 25]",
+      "shortTitle": "Recovery Routine Set 25",
+      "summary": "High quality Recovery Routine support routine designed to support skeletal alignment, tissue elasticity, and structural stability.",
+      "entryType": "support-routine",
+      "supportCategoryId": "recovery_routine",
+      "supportCategoryLabel": "Recovery Routine",
+      "routineType": "mobility",
+      "targetRunnerType": "all runners",
+      "level": "intermediate",
+      "phase": [
+        "base"
+      ],
+      "durationMin": 25,
+      "equipment": [
+        "none"
+      ],
+      "bodyFocus": [
+        "legs"
+      ],
+      "movementGoals": [
+        "alignment",
+        "flexibility",
+        "running-mechanics"
+      ],
+      "difficulty": "moderate",
+      "risk": "low",
+      "riskReason": "Closed kinetic chain alignments and static control minimize tendon friction.",
+      "sessionStructure": [
+        {
+          "blockType": "exercise",
+          "name": "Dynamic Bridge Lift",
+          "sets": 3,
+          "reps": 12,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Engage core safely.",
+            "Breathe naturally during tension."
+          ]
+        },
+        {
+          "blockType": "exercise",
+          "name": "Stability Squat Drill",
+          "sets": 3,
+          "reps": 10,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Maintain knee and ankle compliance.",
+            "Keep torso tall."
+          ]
+        }
+      ],
+      "easierVariant": {
+        "description": "Reduce workout sets of the resistance moves to 2 sets for managing soft tissue load.",
+        "modifications": [
+          "Execute 2 sets per move.",
+          "Moderate posture depths if joints feel tight."
+        ]
+      },
+      "harderVariant": {
+        "description": "Increase dynamic repetitions to 15 per set or hold static planks for 60s.",
+        "modifications": [
+          "Hold static postures for 60s.",
+          "Limit transitions rests to 30s."
+        ]
+      },
+      "coachingNotes": [
+        "Perform elements slowly with perfect alignment.",
+        "Keep spine in neutral plane.",
+        "Do not force range of motion indices."
+      ],
+      "commonMistakes": [
+        "Holding your breath during isometric loads.",
+        "Leaning forward or hyperextending neck lines."
+      ],
+      "safetyNotes": [
+        "Discontinue reps immediately if any articulation pain surfaces.",
+        "Use cushion matting for knee security as prescribed."
+      ],
+      "shareCard": {
+        "cardTitle": "Strategic Recovery Routine Tempo Loop [Set 25]",
+        "cardSubtitle": "Track.Vault Curated Recovery Routine",
+        "mainSetText": "Completed targeted support set series.",
+        "purposeText": "Stabilization core and alignment support routine.",
+        "footerNote": "Track.Vault static system"
+      },
+      "tags": [
+        "recovery_routine",
+        "support-routine",
+        "recovery-routine"
+      ],
+      "searchKeywords": [
+        "recovery_routine",
+        "strategic recovery routine tempo loop [set 25]",
+        "recovery-routine"
+      ],
+      "uniquenessSignature": "sup0475-strategic-recovery-routine-tempo-loop-set-25",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "Movement specs informed by track physical preparation procedures."
+    },
+    {
+      "id": "sup0476",
+      "slug": "anaerobic-recovery-routine-adaptation-reps-set-26",
+      "title": "Anaerobic Recovery Routine Adaptation Reps [Set 26]",
+      "shortTitle": "Recovery Routine Set 26",
+      "summary": "High quality Recovery Routine support routine designed to support skeletal alignment, tissue elasticity, and structural stability.",
+      "entryType": "support-routine",
+      "supportCategoryId": "recovery_routine",
+      "supportCategoryLabel": "Recovery Routine",
+      "routineType": "strength",
+      "targetRunnerType": "all runners",
+      "level": "advanced",
+      "phase": [
+        "base"
+      ],
+      "durationMin": 26,
+      "equipment": [
+        "light weights",
+        "mat"
+      ],
+      "bodyFocus": [
+        "core"
+      ],
+      "movementGoals": [
+        "alignment",
+        "flexibility",
+        "running-mechanics"
+      ],
+      "difficulty": "hard",
+      "risk": "low",
+      "riskReason": "Closed kinetic chain alignments and static control minimize tendon friction.",
+      "sessionStructure": [
+        {
+          "blockType": "exercise",
+          "name": "Plank Hold",
+          "sets": 3,
+          "reps": null,
+          "durationSeconds": 45,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Engage core safely.",
+            "Breathe naturally during tension."
+          ]
+        },
+        {
+          "blockType": "exercise",
+          "name": "Stability Squat Drill",
+          "sets": 3,
+          "reps": 10,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Maintain knee and ankle compliance.",
+            "Keep torso tall."
+          ]
+        }
+      ],
+      "easierVariant": {
+        "description": "Reduce workout sets of the resistance moves to 2 sets for managing soft tissue load.",
+        "modifications": [
+          "Execute 2 sets per move.",
+          "Moderate posture depths if joints feel tight."
+        ]
+      },
+      "harderVariant": {
+        "description": "Increase dynamic repetitions to 15 per set or hold static planks for 60s.",
+        "modifications": [
+          "Hold static postures for 60s.",
+          "Limit transitions rests to 30s."
+        ]
+      },
+      "coachingNotes": [
+        "Perform elements slowly with perfect alignment.",
+        "Keep spine in neutral plane.",
+        "Do not force range of motion indices."
+      ],
+      "commonMistakes": [
+        "Holding your breath during isometric loads.",
+        "Leaning forward or hyperextending neck lines."
+      ],
+      "safetyNotes": [
+        "Discontinue reps immediately if any articulation pain surfaces.",
+        "Use cushion matting for knee security as prescribed."
+      ],
+      "shareCard": {
+        "cardTitle": "Anaerobic Recovery Routine Adaptation Reps [Set 26]",
+        "cardSubtitle": "Track.Vault Curated Recovery Routine",
+        "mainSetText": "Completed targeted support set series.",
+        "purposeText": "Stabilization core and alignment support routine.",
+        "footerNote": "Track.Vault static system"
+      },
+      "tags": [
+        "recovery_routine",
+        "support-routine",
+        "recovery-routine"
+      ],
+      "searchKeywords": [
+        "recovery_routine",
+        "anaerobic recovery routine adaptation reps [set 26]",
+        "recovery-routine"
+      ],
+      "uniquenessSignature": "sup0476-anaerobic-recovery-routine-adaptation-reps-set-26",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "Movement specs informed by track physical preparation procedures."
+    },
+    {
+      "id": "sup0477",
+      "slug": "neuromuscular-recovery-routine-stimulus-drill-set-27",
+      "title": "Neuromuscular Recovery Routine Stimulus Drill [Set 27]",
+      "shortTitle": "Recovery Routine Set 27",
+      "summary": "High quality Recovery Routine support routine designed to support skeletal alignment, tissue elasticity, and structural stability.",
+      "entryType": "support-routine",
+      "supportCategoryId": "recovery_routine",
+      "supportCategoryLabel": "Recovery Routine",
+      "routineType": "mobility",
+      "targetRunnerType": "all runners",
+      "level": "beginner",
+      "phase": [
+        "base"
+      ],
+      "durationMin": 27,
+      "equipment": [
+        "none"
+      ],
+      "bodyFocus": [
+        "legs"
+      ],
+      "movementGoals": [
+        "alignment",
+        "flexibility",
+        "running-mechanics"
+      ],
+      "difficulty": "easy",
+      "risk": "low",
+      "riskReason": "Closed kinetic chain alignments and static control minimize tendon friction.",
+      "sessionStructure": [
+        {
+          "blockType": "exercise",
+          "name": "Dynamic Bridge Lift",
+          "sets": 3,
+          "reps": 12,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Engage core safely.",
+            "Breathe naturally during tension."
+          ]
+        },
+        {
+          "blockType": "exercise",
+          "name": "Stability Squat Drill",
+          "sets": 3,
+          "reps": 10,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Maintain knee and ankle compliance.",
+            "Keep torso tall."
+          ]
+        }
+      ],
+      "easierVariant": {
+        "description": "Reduce workout sets of the resistance moves to 2 sets for managing soft tissue load.",
+        "modifications": [
+          "Execute 2 sets per move.",
+          "Moderate posture depths if joints feel tight."
+        ]
+      },
+      "harderVariant": {
+        "description": "Increase dynamic repetitions to 15 per set or hold static planks for 60s.",
+        "modifications": [
+          "Hold static postures for 60s.",
+          "Limit transitions rests to 30s."
+        ]
+      },
+      "coachingNotes": [
+        "Perform elements slowly with perfect alignment.",
+        "Keep spine in neutral plane.",
+        "Do not force range of motion indices."
+      ],
+      "commonMistakes": [
+        "Holding your breath during isometric loads.",
+        "Leaning forward or hyperextending neck lines."
+      ],
+      "safetyNotes": [
+        "Discontinue reps immediately if any articulation pain surfaces.",
+        "Use cushion matting for knee security as prescribed."
+      ],
+      "shareCard": {
+        "cardTitle": "Neuromuscular Recovery Routine Stimulus Drill [Set 27]",
+        "cardSubtitle": "Track.Vault Curated Recovery Routine",
+        "mainSetText": "Completed targeted support set series.",
+        "purposeText": "Stabilization core and alignment support routine.",
+        "footerNote": "Track.Vault static system"
+      },
+      "tags": [
+        "recovery_routine",
+        "support-routine",
+        "recovery-routine"
+      ],
+      "searchKeywords": [
+        "recovery_routine",
+        "neuromuscular recovery routine stimulus drill [set 27]",
+        "recovery-routine"
+      ],
+      "uniquenessSignature": "sup0477-neuromuscular-recovery-routine-stimulus-drill-set-27",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "Movement specs informed by track physical preparation procedures."
+    },
+    {
+      "id": "sup0478",
+      "slug": "progressive-recovery-routine-booster-set-28",
+      "title": "Progressive Recovery Routine Booster [Set 28]",
+      "shortTitle": "Recovery Routine Set 28",
+      "summary": "High quality Recovery Routine support routine designed to support skeletal alignment, tissue elasticity, and structural stability.",
+      "entryType": "support-routine",
+      "supportCategoryId": "recovery_routine",
+      "supportCategoryLabel": "Recovery Routine",
+      "routineType": "strength",
+      "targetRunnerType": "all runners",
+      "level": "intermediate",
+      "phase": [
+        "base"
+      ],
+      "durationMin": 28,
+      "equipment": [
+        "light weights",
+        "mat"
+      ],
+      "bodyFocus": [
+        "core"
+      ],
+      "movementGoals": [
+        "alignment",
+        "flexibility",
+        "running-mechanics"
+      ],
+      "difficulty": "moderate",
+      "risk": "low",
+      "riskReason": "Closed kinetic chain alignments and static control minimize tendon friction.",
+      "sessionStructure": [
+        {
+          "blockType": "exercise",
+          "name": "Plank Hold",
+          "sets": 3,
+          "reps": null,
+          "durationSeconds": 45,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Engage core safely.",
+            "Breathe naturally during tension."
+          ]
+        },
+        {
+          "blockType": "exercise",
+          "name": "Stability Squat Drill",
+          "sets": 3,
+          "reps": 10,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Maintain knee and ankle compliance.",
+            "Keep torso tall."
+          ]
+        }
+      ],
+      "easierVariant": {
+        "description": "Reduce workout sets of the resistance moves to 2 sets for managing soft tissue load.",
+        "modifications": [
+          "Execute 2 sets per move.",
+          "Moderate posture depths if joints feel tight."
+        ]
+      },
+      "harderVariant": {
+        "description": "Increase dynamic repetitions to 15 per set or hold static planks for 60s.",
+        "modifications": [
+          "Hold static postures for 60s.",
+          "Limit transitions rests to 30s."
+        ]
+      },
+      "coachingNotes": [
+        "Perform elements slowly with perfect alignment.",
+        "Keep spine in neutral plane.",
+        "Do not force range of motion indices."
+      ],
+      "commonMistakes": [
+        "Holding your breath during isometric loads.",
+        "Leaning forward or hyperextending neck lines."
+      ],
+      "safetyNotes": [
+        "Discontinue reps immediately if any articulation pain surfaces.",
+        "Use cushion matting for knee security as prescribed."
+      ],
+      "shareCard": {
+        "cardTitle": "Progressive Recovery Routine Booster [Set 28]",
+        "cardSubtitle": "Track.Vault Curated Recovery Routine",
+        "mainSetText": "Completed targeted support set series.",
+        "purposeText": "Stabilization core and alignment support routine.",
+        "footerNote": "Track.Vault static system"
+      },
+      "tags": [
+        "recovery_routine",
+        "support-routine",
+        "recovery-routine"
+      ],
+      "searchKeywords": [
+        "recovery_routine",
+        "progressive recovery routine booster [set 28]",
+        "recovery-routine"
+      ],
+      "uniquenessSignature": "sup0478-progressive-recovery-routine-booster-set-28",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "Movement specs informed by track physical preparation procedures."
+    },
+    {
+      "id": "sup0479",
+      "slug": "capacity-recovery-routine-pyramid-challenge-set-29",
+      "title": "Capacity Recovery Routine Pyramid Challenge [Set 29]",
+      "shortTitle": "Recovery Routine Set 29",
+      "summary": "High quality Recovery Routine support routine designed to support skeletal alignment, tissue elasticity, and structural stability.",
+      "entryType": "support-routine",
+      "supportCategoryId": "recovery_routine",
+      "supportCategoryLabel": "Recovery Routine",
+      "routineType": "mobility",
+      "targetRunnerType": "all runners",
+      "level": "advanced",
+      "phase": [
+        "base"
+      ],
+      "durationMin": 29,
+      "equipment": [
+        "none"
+      ],
+      "bodyFocus": [
+        "legs"
+      ],
+      "movementGoals": [
+        "alignment",
+        "flexibility",
+        "running-mechanics"
+      ],
+      "difficulty": "hard",
+      "risk": "low",
+      "riskReason": "Closed kinetic chain alignments and static control minimize tendon friction.",
+      "sessionStructure": [
+        {
+          "blockType": "exercise",
+          "name": "Dynamic Bridge Lift",
+          "sets": 3,
+          "reps": 12,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Engage core safely.",
+            "Breathe naturally during tension."
+          ]
+        },
+        {
+          "blockType": "exercise",
+          "name": "Stability Squat Drill",
+          "sets": 3,
+          "reps": 10,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Maintain knee and ankle compliance.",
+            "Keep torso tall."
+          ]
+        }
+      ],
+      "easierVariant": {
+        "description": "Reduce workout sets of the resistance moves to 2 sets for managing soft tissue load.",
+        "modifications": [
+          "Execute 2 sets per move.",
+          "Moderate posture depths if joints feel tight."
+        ]
+      },
+      "harderVariant": {
+        "description": "Increase dynamic repetitions to 15 per set or hold static planks for 60s.",
+        "modifications": [
+          "Hold static postures for 60s.",
+          "Limit transitions rests to 30s."
+        ]
+      },
+      "coachingNotes": [
+        "Perform elements slowly with perfect alignment.",
+        "Keep spine in neutral plane.",
+        "Do not force range of motion indices."
+      ],
+      "commonMistakes": [
+        "Holding your breath during isometric loads.",
+        "Leaning forward or hyperextending neck lines."
+      ],
+      "safetyNotes": [
+        "Discontinue reps immediately if any articulation pain surfaces.",
+        "Use cushion matting for knee security as prescribed."
+      ],
+      "shareCard": {
+        "cardTitle": "Capacity Recovery Routine Pyramid Challenge [Set 29]",
+        "cardSubtitle": "Track.Vault Curated Recovery Routine",
+        "mainSetText": "Completed targeted support set series.",
+        "purposeText": "Stabilization core and alignment support routine.",
+        "footerNote": "Track.Vault static system"
+      },
+      "tags": [
+        "recovery_routine",
+        "support-routine",
+        "recovery-routine"
+      ],
+      "searchKeywords": [
+        "recovery_routine",
+        "capacity recovery routine pyramid challenge [set 29]",
+        "recovery-routine"
+      ],
+      "uniquenessSignature": "sup0479-capacity-recovery-routine-pyramid-challenge-set-29",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "Movement specs informed by track physical preparation procedures."
+    },
+    {
+      "id": "sup0480",
+      "slug": "strategic-recovery-routine-drive-builder-set-30",
+      "title": "Strategic Recovery Routine Drive Builder [Set 30]",
+      "shortTitle": "Recovery Routine Set 30",
+      "summary": "High quality Recovery Routine support routine designed to support skeletal alignment, tissue elasticity, and structural stability.",
+      "entryType": "support-routine",
+      "supportCategoryId": "recovery_routine",
+      "supportCategoryLabel": "Recovery Routine",
+      "routineType": "strength",
+      "targetRunnerType": "all runners",
+      "level": "beginner",
+      "phase": [
+        "base"
+      ],
+      "durationMin": 15,
+      "equipment": [
+        "light weights",
+        "mat"
+      ],
+      "bodyFocus": [
+        "core"
+      ],
+      "movementGoals": [
+        "alignment",
+        "flexibility",
+        "running-mechanics"
+      ],
+      "difficulty": "easy",
+      "risk": "low",
+      "riskReason": "Closed kinetic chain alignments and static control minimize tendon friction.",
+      "sessionStructure": [
+        {
+          "blockType": "exercise",
+          "name": "Plank Hold",
+          "sets": 3,
+          "reps": null,
+          "durationSeconds": 45,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Engage core safely.",
+            "Breathe naturally during tension."
+          ]
+        },
+        {
+          "blockType": "exercise",
+          "name": "Stability Squat Drill",
+          "sets": 3,
+          "reps": 10,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Maintain knee and ankle compliance.",
+            "Keep torso tall."
+          ]
+        }
+      ],
+      "easierVariant": {
+        "description": "Reduce workout sets of the resistance moves to 2 sets for managing soft tissue load.",
+        "modifications": [
+          "Execute 2 sets per move.",
+          "Moderate posture depths if joints feel tight."
+        ]
+      },
+      "harderVariant": {
+        "description": "Increase dynamic repetitions to 15 per set or hold static planks for 60s.",
+        "modifications": [
+          "Hold static postures for 60s.",
+          "Limit transitions rests to 30s."
+        ]
+      },
+      "coachingNotes": [
+        "Perform elements slowly with perfect alignment.",
+        "Keep spine in neutral plane.",
+        "Do not force range of motion indices."
+      ],
+      "commonMistakes": [
+        "Holding your breath during isometric loads.",
+        "Leaning forward or hyperextending neck lines."
+      ],
+      "safetyNotes": [
+        "Discontinue reps immediately if any articulation pain surfaces.",
+        "Use cushion matting for knee security as prescribed."
+      ],
+      "shareCard": {
+        "cardTitle": "Strategic Recovery Routine Drive Builder [Set 30]",
+        "cardSubtitle": "Track.Vault Curated Recovery Routine",
+        "mainSetText": "Completed targeted support set series.",
+        "purposeText": "Stabilization core and alignment support routine.",
+        "footerNote": "Track.Vault static system"
+      },
+      "tags": [
+        "recovery_routine",
+        "support-routine",
+        "recovery-routine"
+      ],
+      "searchKeywords": [
+        "recovery_routine",
+        "strategic recovery routine drive builder [set 30]",
+        "recovery-routine"
+      ],
+      "uniquenessSignature": "sup0480-strategic-recovery-routine-drive-builder-set-30",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "Movement specs informed by track physical preparation procedures."
+    },
+    {
+      "id": "sup0481",
+      "slug": "anaerobic-recovery-routine-tuning-ride-set-31",
+      "title": "Anaerobic Recovery Routine Tuning Ride [Set 31]",
+      "shortTitle": "Recovery Routine Set 31",
+      "summary": "High quality Recovery Routine support routine designed to support skeletal alignment, tissue elasticity, and structural stability.",
+      "entryType": "support-routine",
+      "supportCategoryId": "recovery_routine",
+      "supportCategoryLabel": "Recovery Routine",
+      "routineType": "mobility",
+      "targetRunnerType": "all runners",
+      "level": "intermediate",
+      "phase": [
+        "base"
+      ],
+      "durationMin": 16,
+      "equipment": [
+        "none"
+      ],
+      "bodyFocus": [
+        "legs"
+      ],
+      "movementGoals": [
+        "alignment",
+        "flexibility",
+        "running-mechanics"
+      ],
+      "difficulty": "moderate",
+      "risk": "low",
+      "riskReason": "Closed kinetic chain alignments and static control minimize tendon friction.",
+      "sessionStructure": [
+        {
+          "blockType": "exercise",
+          "name": "Dynamic Bridge Lift",
+          "sets": 3,
+          "reps": 12,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Engage core safely.",
+            "Breathe naturally during tension."
+          ]
+        },
+        {
+          "blockType": "exercise",
+          "name": "Stability Squat Drill",
+          "sets": 3,
+          "reps": 10,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Maintain knee and ankle compliance.",
+            "Keep torso tall."
+          ]
+        }
+      ],
+      "easierVariant": {
+        "description": "Reduce workout sets of the resistance moves to 2 sets for managing soft tissue load.",
+        "modifications": [
+          "Execute 2 sets per move.",
+          "Moderate posture depths if joints feel tight."
+        ]
+      },
+      "harderVariant": {
+        "description": "Increase dynamic repetitions to 15 per set or hold static planks for 60s.",
+        "modifications": [
+          "Hold static postures for 60s.",
+          "Limit transitions rests to 30s."
+        ]
+      },
+      "coachingNotes": [
+        "Perform elements slowly with perfect alignment.",
+        "Keep spine in neutral plane.",
+        "Do not force range of motion indices."
+      ],
+      "commonMistakes": [
+        "Holding your breath during isometric loads.",
+        "Leaning forward or hyperextending neck lines."
+      ],
+      "safetyNotes": [
+        "Discontinue reps immediately if any articulation pain surfaces.",
+        "Use cushion matting for knee security as prescribed."
+      ],
+      "shareCard": {
+        "cardTitle": "Anaerobic Recovery Routine Tuning Ride [Set 31]",
+        "cardSubtitle": "Track.Vault Curated Recovery Routine",
+        "mainSetText": "Completed targeted support set series.",
+        "purposeText": "Stabilization core and alignment support routine.",
+        "footerNote": "Track.Vault static system"
+      },
+      "tags": [
+        "recovery_routine",
+        "support-routine",
+        "recovery-routine"
+      ],
+      "searchKeywords": [
+        "recovery_routine",
+        "anaerobic recovery routine tuning ride [set 31]",
+        "recovery-routine"
+      ],
+      "uniquenessSignature": "sup0481-anaerobic-recovery-routine-tuning-ride-set-31",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "Movement specs informed by track physical preparation procedures."
+    },
+    {
+      "id": "sup0482",
+      "slug": "neuromuscular-recovery-routine-development-set-set-32",
+      "title": "Neuromuscular Recovery Routine Development Set [Set 32]",
+      "shortTitle": "Recovery Routine Set 32",
+      "summary": "High quality Recovery Routine support routine designed to support skeletal alignment, tissue elasticity, and structural stability.",
+      "entryType": "support-routine",
+      "supportCategoryId": "recovery_routine",
+      "supportCategoryLabel": "Recovery Routine",
+      "routineType": "strength",
+      "targetRunnerType": "all runners",
+      "level": "advanced",
+      "phase": [
+        "base"
+      ],
+      "durationMin": 17,
+      "equipment": [
+        "light weights",
+        "mat"
+      ],
+      "bodyFocus": [
+        "core"
+      ],
+      "movementGoals": [
+        "alignment",
+        "flexibility",
+        "running-mechanics"
+      ],
+      "difficulty": "hard",
+      "risk": "low",
+      "riskReason": "Closed kinetic chain alignments and static control minimize tendon friction.",
+      "sessionStructure": [
+        {
+          "blockType": "exercise",
+          "name": "Plank Hold",
+          "sets": 3,
+          "reps": null,
+          "durationSeconds": 45,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Engage core safely.",
+            "Breathe naturally during tension."
+          ]
+        },
+        {
+          "blockType": "exercise",
+          "name": "Stability Squat Drill",
+          "sets": 3,
+          "reps": 10,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Maintain knee and ankle compliance.",
+            "Keep torso tall."
+          ]
+        }
+      ],
+      "easierVariant": {
+        "description": "Reduce workout sets of the resistance moves to 2 sets for managing soft tissue load.",
+        "modifications": [
+          "Execute 2 sets per move.",
+          "Moderate posture depths if joints feel tight."
+        ]
+      },
+      "harderVariant": {
+        "description": "Increase dynamic repetitions to 15 per set or hold static planks for 60s.",
+        "modifications": [
+          "Hold static postures for 60s.",
+          "Limit transitions rests to 30s."
+        ]
+      },
+      "coachingNotes": [
+        "Perform elements slowly with perfect alignment.",
+        "Keep spine in neutral plane.",
+        "Do not force range of motion indices."
+      ],
+      "commonMistakes": [
+        "Holding your breath during isometric loads.",
+        "Leaning forward or hyperextending neck lines."
+      ],
+      "safetyNotes": [
+        "Discontinue reps immediately if any articulation pain surfaces.",
+        "Use cushion matting for knee security as prescribed."
+      ],
+      "shareCard": {
+        "cardTitle": "Neuromuscular Recovery Routine Development Set [Set 32]",
+        "cardSubtitle": "Track.Vault Curated Recovery Routine",
+        "mainSetText": "Completed targeted support set series.",
+        "purposeText": "Stabilization core and alignment support routine.",
+        "footerNote": "Track.Vault static system"
+      },
+      "tags": [
+        "recovery_routine",
+        "support-routine",
+        "recovery-routine"
+      ],
+      "searchKeywords": [
+        "recovery_routine",
+        "neuromuscular recovery routine development set [set 32]",
+        "recovery-routine"
+      ],
+      "uniquenessSignature": "sup0482-neuromuscular-recovery-routine-development-set-set-32",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "Movement specs informed by track physical preparation procedures."
+    },
+    {
+      "id": "sup0483",
+      "slug": "progressive-recovery-routine-engine-primer-set-33",
+      "title": "Progressive Recovery Routine Engine Primer [Set 33]",
+      "shortTitle": "Recovery Routine Set 33",
+      "summary": "High quality Recovery Routine support routine designed to support skeletal alignment, tissue elasticity, and structural stability.",
+      "entryType": "support-routine",
+      "supportCategoryId": "recovery_routine",
+      "supportCategoryLabel": "Recovery Routine",
+      "routineType": "mobility",
+      "targetRunnerType": "all runners",
+      "level": "beginner",
+      "phase": [
+        "base"
+      ],
+      "durationMin": 18,
+      "equipment": [
+        "none"
+      ],
+      "bodyFocus": [
+        "legs"
+      ],
+      "movementGoals": [
+        "alignment",
+        "flexibility",
+        "running-mechanics"
+      ],
+      "difficulty": "easy",
+      "risk": "low",
+      "riskReason": "Closed kinetic chain alignments and static control minimize tendon friction.",
+      "sessionStructure": [
+        {
+          "blockType": "exercise",
+          "name": "Dynamic Bridge Lift",
+          "sets": 3,
+          "reps": 12,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Engage core safely.",
+            "Breathe naturally during tension."
+          ]
+        },
+        {
+          "blockType": "exercise",
+          "name": "Stability Squat Drill",
+          "sets": 3,
+          "reps": 10,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Maintain knee and ankle compliance.",
+            "Keep torso tall."
+          ]
+        }
+      ],
+      "easierVariant": {
+        "description": "Reduce workout sets of the resistance moves to 2 sets for managing soft tissue load.",
+        "modifications": [
+          "Execute 2 sets per move.",
+          "Moderate posture depths if joints feel tight."
+        ]
+      },
+      "harderVariant": {
+        "description": "Increase dynamic repetitions to 15 per set or hold static planks for 60s.",
+        "modifications": [
+          "Hold static postures for 60s.",
+          "Limit transitions rests to 30s."
+        ]
+      },
+      "coachingNotes": [
+        "Perform elements slowly with perfect alignment.",
+        "Keep spine in neutral plane.",
+        "Do not force range of motion indices."
+      ],
+      "commonMistakes": [
+        "Holding your breath during isometric loads.",
+        "Leaning forward or hyperextending neck lines."
+      ],
+      "safetyNotes": [
+        "Discontinue reps immediately if any articulation pain surfaces.",
+        "Use cushion matting for knee security as prescribed."
+      ],
+      "shareCard": {
+        "cardTitle": "Progressive Recovery Routine Engine Primer [Set 33]",
+        "cardSubtitle": "Track.Vault Curated Recovery Routine",
+        "mainSetText": "Completed targeted support set series.",
+        "purposeText": "Stabilization core and alignment support routine.",
+        "footerNote": "Track.Vault static system"
+      },
+      "tags": [
+        "recovery_routine",
+        "support-routine",
+        "recovery-routine"
+      ],
+      "searchKeywords": [
+        "recovery_routine",
+        "progressive recovery routine engine primer [set 33]",
+        "recovery-routine"
+      ],
+      "uniquenessSignature": "sup0483-progressive-recovery-routine-engine-primer-set-33",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "Movement specs informed by track physical preparation procedures."
+    },
+    {
+      "id": "sup0484",
+      "slug": "capacity-recovery-routine-speed-ladder-set-34",
+      "title": "Capacity Recovery Routine Speed Ladder [Set 34]",
+      "shortTitle": "Recovery Routine Set 34",
+      "summary": "High quality Recovery Routine support routine designed to support skeletal alignment, tissue elasticity, and structural stability.",
+      "entryType": "support-routine",
+      "supportCategoryId": "recovery_routine",
+      "supportCategoryLabel": "Recovery Routine",
+      "routineType": "strength",
+      "targetRunnerType": "all runners",
+      "level": "intermediate",
+      "phase": [
+        "base"
+      ],
+      "durationMin": 19,
+      "equipment": [
+        "light weights",
+        "mat"
+      ],
+      "bodyFocus": [
+        "core"
+      ],
+      "movementGoals": [
+        "alignment",
+        "flexibility",
+        "running-mechanics"
+      ],
+      "difficulty": "moderate",
+      "risk": "low",
+      "riskReason": "Closed kinetic chain alignments and static control minimize tendon friction.",
+      "sessionStructure": [
+        {
+          "blockType": "exercise",
+          "name": "Plank Hold",
+          "sets": 3,
+          "reps": null,
+          "durationSeconds": 45,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Engage core safely.",
+            "Breathe naturally during tension."
+          ]
+        },
+        {
+          "blockType": "exercise",
+          "name": "Stability Squat Drill",
+          "sets": 3,
+          "reps": 10,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Maintain knee and ankle compliance.",
+            "Keep torso tall."
+          ]
+        }
+      ],
+      "easierVariant": {
+        "description": "Reduce workout sets of the resistance moves to 2 sets for managing soft tissue load.",
+        "modifications": [
+          "Execute 2 sets per move.",
+          "Moderate posture depths if joints feel tight."
+        ]
+      },
+      "harderVariant": {
+        "description": "Increase dynamic repetitions to 15 per set or hold static planks for 60s.",
+        "modifications": [
+          "Hold static postures for 60s.",
+          "Limit transitions rests to 30s."
+        ]
+      },
+      "coachingNotes": [
+        "Perform elements slowly with perfect alignment.",
+        "Keep spine in neutral plane.",
+        "Do not force range of motion indices."
+      ],
+      "commonMistakes": [
+        "Holding your breath during isometric loads.",
+        "Leaning forward or hyperextending neck lines."
+      ],
+      "safetyNotes": [
+        "Discontinue reps immediately if any articulation pain surfaces.",
+        "Use cushion matting for knee security as prescribed."
+      ],
+      "shareCard": {
+        "cardTitle": "Capacity Recovery Routine Speed Ladder [Set 34]",
+        "cardSubtitle": "Track.Vault Curated Recovery Routine",
+        "mainSetText": "Completed targeted support set series.",
+        "purposeText": "Stabilization core and alignment support routine.",
+        "footerNote": "Track.Vault static system"
+      },
+      "tags": [
+        "recovery_routine",
+        "support-routine",
+        "recovery-routine"
+      ],
+      "searchKeywords": [
+        "recovery_routine",
+        "capacity recovery routine speed ladder [set 34]",
+        "recovery-routine"
+      ],
+      "uniquenessSignature": "sup0484-capacity-recovery-routine-speed-ladder-set-34",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "Movement specs informed by track physical preparation procedures."
+    },
+    {
+      "id": "sup0485",
+      "slug": "strategic-recovery-routine-pacing-matrix-set-35",
+      "title": "Strategic Recovery Routine Pacing Matrix [Set 35]",
+      "shortTitle": "Recovery Routine Set 35",
+      "summary": "High quality Recovery Routine support routine designed to support skeletal alignment, tissue elasticity, and structural stability.",
+      "entryType": "support-routine",
+      "supportCategoryId": "recovery_routine",
+      "supportCategoryLabel": "Recovery Routine",
+      "routineType": "mobility",
+      "targetRunnerType": "all runners",
+      "level": "advanced",
+      "phase": [
+        "base"
+      ],
+      "durationMin": 20,
+      "equipment": [
+        "none"
+      ],
+      "bodyFocus": [
+        "legs"
+      ],
+      "movementGoals": [
+        "alignment",
+        "flexibility",
+        "running-mechanics"
+      ],
+      "difficulty": "hard",
+      "risk": "low",
+      "riskReason": "Closed kinetic chain alignments and static control minimize tendon friction.",
+      "sessionStructure": [
+        {
+          "blockType": "exercise",
+          "name": "Dynamic Bridge Lift",
+          "sets": 3,
+          "reps": 12,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Engage core safely.",
+            "Breathe naturally during tension."
+          ]
+        },
+        {
+          "blockType": "exercise",
+          "name": "Stability Squat Drill",
+          "sets": 3,
+          "reps": 10,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Maintain knee and ankle compliance.",
+            "Keep torso tall."
+          ]
+        }
+      ],
+      "easierVariant": {
+        "description": "Reduce workout sets of the resistance moves to 2 sets for managing soft tissue load.",
+        "modifications": [
+          "Execute 2 sets per move.",
+          "Moderate posture depths if joints feel tight."
+        ]
+      },
+      "harderVariant": {
+        "description": "Increase dynamic repetitions to 15 per set or hold static planks for 60s.",
+        "modifications": [
+          "Hold static postures for 60s.",
+          "Limit transitions rests to 30s."
+        ]
+      },
+      "coachingNotes": [
+        "Perform elements slowly with perfect alignment.",
+        "Keep spine in neutral plane.",
+        "Do not force range of motion indices."
+      ],
+      "commonMistakes": [
+        "Holding your breath during isometric loads.",
+        "Leaning forward or hyperextending neck lines."
+      ],
+      "safetyNotes": [
+        "Discontinue reps immediately if any articulation pain surfaces.",
+        "Use cushion matting for knee security as prescribed."
+      ],
+      "shareCard": {
+        "cardTitle": "Strategic Recovery Routine Pacing Matrix [Set 35]",
+        "cardSubtitle": "Track.Vault Curated Recovery Routine",
+        "mainSetText": "Completed targeted support set series.",
+        "purposeText": "Stabilization core and alignment support routine.",
+        "footerNote": "Track.Vault static system"
+      },
+      "tags": [
+        "recovery_routine",
+        "support-routine",
+        "recovery-routine"
+      ],
+      "searchKeywords": [
+        "recovery_routine",
+        "strategic recovery routine pacing matrix [set 35]",
+        "recovery-routine"
+      ],
+      "uniquenessSignature": "sup0485-strategic-recovery-routine-pacing-matrix-set-35",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "Movement specs informed by track physical preparation procedures."
+    },
+    {
+      "id": "sup0486",
+      "slug": "anaerobic-recovery-routine-conditioning-session-set-36",
+      "title": "Anaerobic Recovery Routine Conditioning Session [Set 36]",
+      "shortTitle": "Recovery Routine Set 36",
+      "summary": "High quality Recovery Routine support routine designed to support skeletal alignment, tissue elasticity, and structural stability.",
+      "entryType": "support-routine",
+      "supportCategoryId": "recovery_routine",
+      "supportCategoryLabel": "Recovery Routine",
+      "routineType": "strength",
+      "targetRunnerType": "all runners",
+      "level": "beginner",
+      "phase": [
+        "base"
+      ],
+      "durationMin": 21,
+      "equipment": [
+        "light weights",
+        "mat"
+      ],
+      "bodyFocus": [
+        "core"
+      ],
+      "movementGoals": [
+        "alignment",
+        "flexibility",
+        "running-mechanics"
+      ],
+      "difficulty": "easy",
+      "risk": "low",
+      "riskReason": "Closed kinetic chain alignments and static control minimize tendon friction.",
+      "sessionStructure": [
+        {
+          "blockType": "exercise",
+          "name": "Plank Hold",
+          "sets": 3,
+          "reps": null,
+          "durationSeconds": 45,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Engage core safely.",
+            "Breathe naturally during tension."
+          ]
+        },
+        {
+          "blockType": "exercise",
+          "name": "Stability Squat Drill",
+          "sets": 3,
+          "reps": 10,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Maintain knee and ankle compliance.",
+            "Keep torso tall."
+          ]
+        }
+      ],
+      "easierVariant": {
+        "description": "Reduce workout sets of the resistance moves to 2 sets for managing soft tissue load.",
+        "modifications": [
+          "Execute 2 sets per move.",
+          "Moderate posture depths if joints feel tight."
+        ]
+      },
+      "harderVariant": {
+        "description": "Increase dynamic repetitions to 15 per set or hold static planks for 60s.",
+        "modifications": [
+          "Hold static postures for 60s.",
+          "Limit transitions rests to 30s."
+        ]
+      },
+      "coachingNotes": [
+        "Perform elements slowly with perfect alignment.",
+        "Keep spine in neutral plane.",
+        "Do not force range of motion indices."
+      ],
+      "commonMistakes": [
+        "Holding your breath during isometric loads.",
+        "Leaning forward or hyperextending neck lines."
+      ],
+      "safetyNotes": [
+        "Discontinue reps immediately if any articulation pain surfaces.",
+        "Use cushion matting for knee security as prescribed."
+      ],
+      "shareCard": {
+        "cardTitle": "Anaerobic Recovery Routine Conditioning Session [Set 36]",
+        "cardSubtitle": "Track.Vault Curated Recovery Routine",
+        "mainSetText": "Completed targeted support set series.",
+        "purposeText": "Stabilization core and alignment support routine.",
+        "footerNote": "Track.Vault static system"
+      },
+      "tags": [
+        "recovery_routine",
+        "support-routine",
+        "recovery-routine"
+      ],
+      "searchKeywords": [
+        "recovery_routine",
+        "anaerobic recovery routine conditioning session [set 36]",
+        "recovery-routine"
+      ],
+      "uniquenessSignature": "sup0486-anaerobic-recovery-routine-conditioning-session-set-36",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "Movement specs informed by track physical preparation procedures."
+    },
+    {
+      "id": "sup0487",
+      "slug": "neuromuscular-recovery-routine-shifter-set-37",
+      "title": "Neuromuscular Recovery Routine Shifter [Set 37]",
+      "shortTitle": "Recovery Routine Set 37",
+      "summary": "High quality Recovery Routine support routine designed to support skeletal alignment, tissue elasticity, and structural stability.",
+      "entryType": "support-routine",
+      "supportCategoryId": "recovery_routine",
+      "supportCategoryLabel": "Recovery Routine",
+      "routineType": "mobility",
+      "targetRunnerType": "all runners",
+      "level": "intermediate",
+      "phase": [
+        "base"
+      ],
+      "durationMin": 22,
+      "equipment": [
+        "none"
+      ],
+      "bodyFocus": [
+        "legs"
+      ],
+      "movementGoals": [
+        "alignment",
+        "flexibility",
+        "running-mechanics"
+      ],
+      "difficulty": "moderate",
+      "risk": "low",
+      "riskReason": "Closed kinetic chain alignments and static control minimize tendon friction.",
+      "sessionStructure": [
+        {
+          "blockType": "exercise",
+          "name": "Dynamic Bridge Lift",
+          "sets": 3,
+          "reps": 12,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Engage core safely.",
+            "Breathe naturally during tension."
+          ]
+        },
+        {
+          "blockType": "exercise",
+          "name": "Stability Squat Drill",
+          "sets": 3,
+          "reps": 10,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Maintain knee and ankle compliance.",
+            "Keep torso tall."
+          ]
+        }
+      ],
+      "easierVariant": {
+        "description": "Reduce workout sets of the resistance moves to 2 sets for managing soft tissue load.",
+        "modifications": [
+          "Execute 2 sets per move.",
+          "Moderate posture depths if joints feel tight."
+        ]
+      },
+      "harderVariant": {
+        "description": "Increase dynamic repetitions to 15 per set or hold static planks for 60s.",
+        "modifications": [
+          "Hold static postures for 60s.",
+          "Limit transitions rests to 30s."
+        ]
+      },
+      "coachingNotes": [
+        "Perform elements slowly with perfect alignment.",
+        "Keep spine in neutral plane.",
+        "Do not force range of motion indices."
+      ],
+      "commonMistakes": [
+        "Holding your breath during isometric loads.",
+        "Leaning forward or hyperextending neck lines."
+      ],
+      "safetyNotes": [
+        "Discontinue reps immediately if any articulation pain surfaces.",
+        "Use cushion matting for knee security as prescribed."
+      ],
+      "shareCard": {
+        "cardTitle": "Neuromuscular Recovery Routine Shifter [Set 37]",
+        "cardSubtitle": "Track.Vault Curated Recovery Routine",
+        "mainSetText": "Completed targeted support set series.",
+        "purposeText": "Stabilization core and alignment support routine.",
+        "footerNote": "Track.Vault static system"
+      },
+      "tags": [
+        "recovery_routine",
+        "support-routine",
+        "recovery-routine"
+      ],
+      "searchKeywords": [
+        "recovery_routine",
+        "neuromuscular recovery routine shifter [set 37]",
+        "recovery-routine"
+      ],
+      "uniquenessSignature": "sup0487-neuromuscular-recovery-routine-shifter-set-37",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "Movement specs informed by track physical preparation procedures."
+    },
+    {
+      "id": "sup0488",
+      "slug": "progressive-recovery-routine-cruise-intervals-set-38",
+      "title": "Progressive Recovery Routine Cruise Intervals [Set 38]",
+      "shortTitle": "Recovery Routine Set 38",
+      "summary": "High quality Recovery Routine support routine designed to support skeletal alignment, tissue elasticity, and structural stability.",
+      "entryType": "support-routine",
+      "supportCategoryId": "recovery_routine",
+      "supportCategoryLabel": "Recovery Routine",
+      "routineType": "strength",
+      "targetRunnerType": "all runners",
+      "level": "advanced",
+      "phase": [
+        "base"
+      ],
+      "durationMin": 23,
+      "equipment": [
+        "light weights",
+        "mat"
+      ],
+      "bodyFocus": [
+        "core"
+      ],
+      "movementGoals": [
+        "alignment",
+        "flexibility",
+        "running-mechanics"
+      ],
+      "difficulty": "hard",
+      "risk": "low",
+      "riskReason": "Closed kinetic chain alignments and static control minimize tendon friction.",
+      "sessionStructure": [
+        {
+          "blockType": "exercise",
+          "name": "Plank Hold",
+          "sets": 3,
+          "reps": null,
+          "durationSeconds": 45,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Engage core safely.",
+            "Breathe naturally during tension."
+          ]
+        },
+        {
+          "blockType": "exercise",
+          "name": "Stability Squat Drill",
+          "sets": 3,
+          "reps": 10,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Maintain knee and ankle compliance.",
+            "Keep torso tall."
+          ]
+        }
+      ],
+      "easierVariant": {
+        "description": "Reduce workout sets of the resistance moves to 2 sets for managing soft tissue load.",
+        "modifications": [
+          "Execute 2 sets per move.",
+          "Moderate posture depths if joints feel tight."
+        ]
+      },
+      "harderVariant": {
+        "description": "Increase dynamic repetitions to 15 per set or hold static planks for 60s.",
+        "modifications": [
+          "Hold static postures for 60s.",
+          "Limit transitions rests to 30s."
+        ]
+      },
+      "coachingNotes": [
+        "Perform elements slowly with perfect alignment.",
+        "Keep spine in neutral plane.",
+        "Do not force range of motion indices."
+      ],
+      "commonMistakes": [
+        "Holding your breath during isometric loads.",
+        "Leaning forward or hyperextending neck lines."
+      ],
+      "safetyNotes": [
+        "Discontinue reps immediately if any articulation pain surfaces.",
+        "Use cushion matting for knee security as prescribed."
+      ],
+      "shareCard": {
+        "cardTitle": "Progressive Recovery Routine Cruise Intervals [Set 38]",
+        "cardSubtitle": "Track.Vault Curated Recovery Routine",
+        "mainSetText": "Completed targeted support set series.",
+        "purposeText": "Stabilization core and alignment support routine.",
+        "footerNote": "Track.Vault static system"
+      },
+      "tags": [
+        "recovery_routine",
+        "support-routine",
+        "recovery-routine"
+      ],
+      "searchKeywords": [
+        "recovery_routine",
+        "progressive recovery routine cruise intervals [set 38]",
+        "recovery-routine"
+      ],
+      "uniquenessSignature": "sup0488-progressive-recovery-routine-cruise-intervals-set-38",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "Movement specs informed by track physical preparation procedures."
+    },
+    {
+      "id": "sup0489",
+      "slug": "capacity-recovery-routine-tempo-loop-set-39",
+      "title": "Capacity Recovery Routine Tempo Loop [Set 39]",
+      "shortTitle": "Recovery Routine Set 39",
+      "summary": "High quality Recovery Routine support routine designed to support skeletal alignment, tissue elasticity, and structural stability.",
+      "entryType": "support-routine",
+      "supportCategoryId": "recovery_routine",
+      "supportCategoryLabel": "Recovery Routine",
+      "routineType": "mobility",
+      "targetRunnerType": "all runners",
+      "level": "beginner",
+      "phase": [
+        "base"
+      ],
+      "durationMin": 24,
+      "equipment": [
+        "none"
+      ],
+      "bodyFocus": [
+        "legs"
+      ],
+      "movementGoals": [
+        "alignment",
+        "flexibility",
+        "running-mechanics"
+      ],
+      "difficulty": "easy",
+      "risk": "low",
+      "riskReason": "Closed kinetic chain alignments and static control minimize tendon friction.",
+      "sessionStructure": [
+        {
+          "blockType": "exercise",
+          "name": "Dynamic Bridge Lift",
+          "sets": 3,
+          "reps": 12,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Engage core safely.",
+            "Breathe naturally during tension."
+          ]
+        },
+        {
+          "blockType": "exercise",
+          "name": "Stability Squat Drill",
+          "sets": 3,
+          "reps": 10,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Maintain knee and ankle compliance.",
+            "Keep torso tall."
+          ]
+        }
+      ],
+      "easierVariant": {
+        "description": "Reduce workout sets of the resistance moves to 2 sets for managing soft tissue load.",
+        "modifications": [
+          "Execute 2 sets per move.",
+          "Moderate posture depths if joints feel tight."
+        ]
+      },
+      "harderVariant": {
+        "description": "Increase dynamic repetitions to 15 per set or hold static planks for 60s.",
+        "modifications": [
+          "Hold static postures for 60s.",
+          "Limit transitions rests to 30s."
+        ]
+      },
+      "coachingNotes": [
+        "Perform elements slowly with perfect alignment.",
+        "Keep spine in neutral plane.",
+        "Do not force range of motion indices."
+      ],
+      "commonMistakes": [
+        "Holding your breath during isometric loads.",
+        "Leaning forward or hyperextending neck lines."
+      ],
+      "safetyNotes": [
+        "Discontinue reps immediately if any articulation pain surfaces.",
+        "Use cushion matting for knee security as prescribed."
+      ],
+      "shareCard": {
+        "cardTitle": "Capacity Recovery Routine Tempo Loop [Set 39]",
+        "cardSubtitle": "Track.Vault Curated Recovery Routine",
+        "mainSetText": "Completed targeted support set series.",
+        "purposeText": "Stabilization core and alignment support routine.",
+        "footerNote": "Track.Vault static system"
+      },
+      "tags": [
+        "recovery_routine",
+        "support-routine",
+        "recovery-routine"
+      ],
+      "searchKeywords": [
+        "recovery_routine",
+        "capacity recovery routine tempo loop [set 39]",
+        "recovery-routine"
+      ],
+      "uniquenessSignature": "sup0489-capacity-recovery-routine-tempo-loop-set-39",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "Movement specs informed by track physical preparation procedures."
+    },
+    {
+      "id": "sup0490",
+      "slug": "strategic-recovery-routine-adaptation-reps-set-40",
+      "title": "Strategic Recovery Routine Adaptation Reps [Set 40]",
+      "shortTitle": "Recovery Routine Set 40",
+      "summary": "High quality Recovery Routine support routine designed to support skeletal alignment, tissue elasticity, and structural stability.",
+      "entryType": "support-routine",
+      "supportCategoryId": "recovery_routine",
+      "supportCategoryLabel": "Recovery Routine",
+      "routineType": "strength",
+      "targetRunnerType": "all runners",
+      "level": "intermediate",
+      "phase": [
+        "base"
+      ],
+      "durationMin": 25,
+      "equipment": [
+        "light weights",
+        "mat"
+      ],
+      "bodyFocus": [
+        "core"
+      ],
+      "movementGoals": [
+        "alignment",
+        "flexibility",
+        "running-mechanics"
+      ],
+      "difficulty": "moderate",
+      "risk": "low",
+      "riskReason": "Closed kinetic chain alignments and static control minimize tendon friction.",
+      "sessionStructure": [
+        {
+          "blockType": "exercise",
+          "name": "Plank Hold",
+          "sets": 3,
+          "reps": null,
+          "durationSeconds": 45,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Engage core safely.",
+            "Breathe naturally during tension."
+          ]
+        },
+        {
+          "blockType": "exercise",
+          "name": "Stability Squat Drill",
+          "sets": 3,
+          "reps": 10,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Maintain knee and ankle compliance.",
+            "Keep torso tall."
+          ]
+        }
+      ],
+      "easierVariant": {
+        "description": "Reduce workout sets of the resistance moves to 2 sets for managing soft tissue load.",
+        "modifications": [
+          "Execute 2 sets per move.",
+          "Moderate posture depths if joints feel tight."
+        ]
+      },
+      "harderVariant": {
+        "description": "Increase dynamic repetitions to 15 per set or hold static planks for 60s.",
+        "modifications": [
+          "Hold static postures for 60s.",
+          "Limit transitions rests to 30s."
+        ]
+      },
+      "coachingNotes": [
+        "Perform elements slowly with perfect alignment.",
+        "Keep spine in neutral plane.",
+        "Do not force range of motion indices."
+      ],
+      "commonMistakes": [
+        "Holding your breath during isometric loads.",
+        "Leaning forward or hyperextending neck lines."
+      ],
+      "safetyNotes": [
+        "Discontinue reps immediately if any articulation pain surfaces.",
+        "Use cushion matting for knee security as prescribed."
+      ],
+      "shareCard": {
+        "cardTitle": "Strategic Recovery Routine Adaptation Reps [Set 40]",
+        "cardSubtitle": "Track.Vault Curated Recovery Routine",
+        "mainSetText": "Completed targeted support set series.",
+        "purposeText": "Stabilization core and alignment support routine.",
+        "footerNote": "Track.Vault static system"
+      },
+      "tags": [
+        "recovery_routine",
+        "support-routine",
+        "recovery-routine"
+      ],
+      "searchKeywords": [
+        "recovery_routine",
+        "strategic recovery routine adaptation reps [set 40]",
+        "recovery-routine"
+      ],
+      "uniquenessSignature": "sup0490-strategic-recovery-routine-adaptation-reps-set-40",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "Movement specs informed by track physical preparation procedures."
+    },
+    {
+      "id": "sup0491",
+      "slug": "anaerobic-recovery-routine-stimulus-drill-set-41",
+      "title": "Anaerobic Recovery Routine Stimulus Drill [Set 41]",
+      "shortTitle": "Recovery Routine Set 41",
+      "summary": "High quality Recovery Routine support routine designed to support skeletal alignment, tissue elasticity, and structural stability.",
+      "entryType": "support-routine",
+      "supportCategoryId": "recovery_routine",
+      "supportCategoryLabel": "Recovery Routine",
+      "routineType": "mobility",
+      "targetRunnerType": "all runners",
+      "level": "advanced",
+      "phase": [
+        "base"
+      ],
+      "durationMin": 26,
+      "equipment": [
+        "none"
+      ],
+      "bodyFocus": [
+        "legs"
+      ],
+      "movementGoals": [
+        "alignment",
+        "flexibility",
+        "running-mechanics"
+      ],
+      "difficulty": "hard",
+      "risk": "low",
+      "riskReason": "Closed kinetic chain alignments and static control minimize tendon friction.",
+      "sessionStructure": [
+        {
+          "blockType": "exercise",
+          "name": "Dynamic Bridge Lift",
+          "sets": 3,
+          "reps": 12,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Engage core safely.",
+            "Breathe naturally during tension."
+          ]
+        },
+        {
+          "blockType": "exercise",
+          "name": "Stability Squat Drill",
+          "sets": 3,
+          "reps": 10,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Maintain knee and ankle compliance.",
+            "Keep torso tall."
+          ]
+        }
+      ],
+      "easierVariant": {
+        "description": "Reduce workout sets of the resistance moves to 2 sets for managing soft tissue load.",
+        "modifications": [
+          "Execute 2 sets per move.",
+          "Moderate posture depths if joints feel tight."
+        ]
+      },
+      "harderVariant": {
+        "description": "Increase dynamic repetitions to 15 per set or hold static planks for 60s.",
+        "modifications": [
+          "Hold static postures for 60s.",
+          "Limit transitions rests to 30s."
+        ]
+      },
+      "coachingNotes": [
+        "Perform elements slowly with perfect alignment.",
+        "Keep spine in neutral plane.",
+        "Do not force range of motion indices."
+      ],
+      "commonMistakes": [
+        "Holding your breath during isometric loads.",
+        "Leaning forward or hyperextending neck lines."
+      ],
+      "safetyNotes": [
+        "Discontinue reps immediately if any articulation pain surfaces.",
+        "Use cushion matting for knee security as prescribed."
+      ],
+      "shareCard": {
+        "cardTitle": "Anaerobic Recovery Routine Stimulus Drill [Set 41]",
+        "cardSubtitle": "Track.Vault Curated Recovery Routine",
+        "mainSetText": "Completed targeted support set series.",
+        "purposeText": "Stabilization core and alignment support routine.",
+        "footerNote": "Track.Vault static system"
+      },
+      "tags": [
+        "recovery_routine",
+        "support-routine",
+        "recovery-routine"
+      ],
+      "searchKeywords": [
+        "recovery_routine",
+        "anaerobic recovery routine stimulus drill [set 41]",
+        "recovery-routine"
+      ],
+      "uniquenessSignature": "sup0491-anaerobic-recovery-routine-stimulus-drill-set-41",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "Movement specs informed by track physical preparation procedures."
+    },
+    {
+      "id": "sup0492",
+      "slug": "neuromuscular-recovery-routine-booster-set-42",
+      "title": "Neuromuscular Recovery Routine Booster [Set 42]",
+      "shortTitle": "Recovery Routine Set 42",
+      "summary": "High quality Recovery Routine support routine designed to support skeletal alignment, tissue elasticity, and structural stability.",
+      "entryType": "support-routine",
+      "supportCategoryId": "recovery_routine",
+      "supportCategoryLabel": "Recovery Routine",
+      "routineType": "strength",
+      "targetRunnerType": "all runners",
+      "level": "beginner",
+      "phase": [
+        "base"
+      ],
+      "durationMin": 27,
+      "equipment": [
+        "light weights",
+        "mat"
+      ],
+      "bodyFocus": [
+        "core"
+      ],
+      "movementGoals": [
+        "alignment",
+        "flexibility",
+        "running-mechanics"
+      ],
+      "difficulty": "easy",
+      "risk": "low",
+      "riskReason": "Closed kinetic chain alignments and static control minimize tendon friction.",
+      "sessionStructure": [
+        {
+          "blockType": "exercise",
+          "name": "Plank Hold",
+          "sets": 3,
+          "reps": null,
+          "durationSeconds": 45,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Engage core safely.",
+            "Breathe naturally during tension."
+          ]
+        },
+        {
+          "blockType": "exercise",
+          "name": "Stability Squat Drill",
+          "sets": 3,
+          "reps": 10,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Maintain knee and ankle compliance.",
+            "Keep torso tall."
+          ]
+        }
+      ],
+      "easierVariant": {
+        "description": "Reduce workout sets of the resistance moves to 2 sets for managing soft tissue load.",
+        "modifications": [
+          "Execute 2 sets per move.",
+          "Moderate posture depths if joints feel tight."
+        ]
+      },
+      "harderVariant": {
+        "description": "Increase dynamic repetitions to 15 per set or hold static planks for 60s.",
+        "modifications": [
+          "Hold static postures for 60s.",
+          "Limit transitions rests to 30s."
+        ]
+      },
+      "coachingNotes": [
+        "Perform elements slowly with perfect alignment.",
+        "Keep spine in neutral plane.",
+        "Do not force range of motion indices."
+      ],
+      "commonMistakes": [
+        "Holding your breath during isometric loads.",
+        "Leaning forward or hyperextending neck lines."
+      ],
+      "safetyNotes": [
+        "Discontinue reps immediately if any articulation pain surfaces.",
+        "Use cushion matting for knee security as prescribed."
+      ],
+      "shareCard": {
+        "cardTitle": "Neuromuscular Recovery Routine Booster [Set 42]",
+        "cardSubtitle": "Track.Vault Curated Recovery Routine",
+        "mainSetText": "Completed targeted support set series.",
+        "purposeText": "Stabilization core and alignment support routine.",
+        "footerNote": "Track.Vault static system"
+      },
+      "tags": [
+        "recovery_routine",
+        "support-routine",
+        "recovery-routine"
+      ],
+      "searchKeywords": [
+        "recovery_routine",
+        "neuromuscular recovery routine booster [set 42]",
+        "recovery-routine"
+      ],
+      "uniquenessSignature": "sup0492-neuromuscular-recovery-routine-booster-set-42",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "Movement specs informed by track physical preparation procedures."
+    },
+    {
+      "id": "sup0493",
+      "slug": "progressive-recovery-routine-pyramid-challenge-set-43",
+      "title": "Progressive Recovery Routine Pyramid Challenge [Set 43]",
+      "shortTitle": "Recovery Routine Set 43",
+      "summary": "High quality Recovery Routine support routine designed to support skeletal alignment, tissue elasticity, and structural stability.",
+      "entryType": "support-routine",
+      "supportCategoryId": "recovery_routine",
+      "supportCategoryLabel": "Recovery Routine",
+      "routineType": "mobility",
+      "targetRunnerType": "all runners",
+      "level": "intermediate",
+      "phase": [
+        "base"
+      ],
+      "durationMin": 28,
+      "equipment": [
+        "none"
+      ],
+      "bodyFocus": [
+        "legs"
+      ],
+      "movementGoals": [
+        "alignment",
+        "flexibility",
+        "running-mechanics"
+      ],
+      "difficulty": "moderate",
+      "risk": "low",
+      "riskReason": "Closed kinetic chain alignments and static control minimize tendon friction.",
+      "sessionStructure": [
+        {
+          "blockType": "exercise",
+          "name": "Dynamic Bridge Lift",
+          "sets": 3,
+          "reps": 12,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Engage core safely.",
+            "Breathe naturally during tension."
+          ]
+        },
+        {
+          "blockType": "exercise",
+          "name": "Stability Squat Drill",
+          "sets": 3,
+          "reps": 10,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Maintain knee and ankle compliance.",
+            "Keep torso tall."
+          ]
+        }
+      ],
+      "easierVariant": {
+        "description": "Reduce workout sets of the resistance moves to 2 sets for managing soft tissue load.",
+        "modifications": [
+          "Execute 2 sets per move.",
+          "Moderate posture depths if joints feel tight."
+        ]
+      },
+      "harderVariant": {
+        "description": "Increase dynamic repetitions to 15 per set or hold static planks for 60s.",
+        "modifications": [
+          "Hold static postures for 60s.",
+          "Limit transitions rests to 30s."
+        ]
+      },
+      "coachingNotes": [
+        "Perform elements slowly with perfect alignment.",
+        "Keep spine in neutral plane.",
+        "Do not force range of motion indices."
+      ],
+      "commonMistakes": [
+        "Holding your breath during isometric loads.",
+        "Leaning forward or hyperextending neck lines."
+      ],
+      "safetyNotes": [
+        "Discontinue reps immediately if any articulation pain surfaces.",
+        "Use cushion matting for knee security as prescribed."
+      ],
+      "shareCard": {
+        "cardTitle": "Progressive Recovery Routine Pyramid Challenge [Set 43]",
+        "cardSubtitle": "Track.Vault Curated Recovery Routine",
+        "mainSetText": "Completed targeted support set series.",
+        "purposeText": "Stabilization core and alignment support routine.",
+        "footerNote": "Track.Vault static system"
+      },
+      "tags": [
+        "recovery_routine",
+        "support-routine",
+        "recovery-routine"
+      ],
+      "searchKeywords": [
+        "recovery_routine",
+        "progressive recovery routine pyramid challenge [set 43]",
+        "recovery-routine"
+      ],
+      "uniquenessSignature": "sup0493-progressive-recovery-routine-pyramid-challenge-set-43",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "Movement specs informed by track physical preparation procedures."
+    },
+    {
+      "id": "sup0494",
+      "slug": "capacity-recovery-routine-drive-builder-set-44",
+      "title": "Capacity Recovery Routine Drive Builder [Set 44]",
+      "shortTitle": "Recovery Routine Set 44",
+      "summary": "High quality Recovery Routine support routine designed to support skeletal alignment, tissue elasticity, and structural stability.",
+      "entryType": "support-routine",
+      "supportCategoryId": "recovery_routine",
+      "supportCategoryLabel": "Recovery Routine",
+      "routineType": "strength",
+      "targetRunnerType": "all runners",
+      "level": "advanced",
+      "phase": [
+        "base"
+      ],
+      "durationMin": 29,
+      "equipment": [
+        "light weights",
+        "mat"
+      ],
+      "bodyFocus": [
+        "core"
+      ],
+      "movementGoals": [
+        "alignment",
+        "flexibility",
+        "running-mechanics"
+      ],
+      "difficulty": "hard",
+      "risk": "low",
+      "riskReason": "Closed kinetic chain alignments and static control minimize tendon friction.",
+      "sessionStructure": [
+        {
+          "blockType": "exercise",
+          "name": "Plank Hold",
+          "sets": 3,
+          "reps": null,
+          "durationSeconds": 45,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Engage core safely.",
+            "Breathe naturally during tension."
+          ]
+        },
+        {
+          "blockType": "exercise",
+          "name": "Stability Squat Drill",
+          "sets": 3,
+          "reps": 10,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Maintain knee and ankle compliance.",
+            "Keep torso tall."
+          ]
+        }
+      ],
+      "easierVariant": {
+        "description": "Reduce workout sets of the resistance moves to 2 sets for managing soft tissue load.",
+        "modifications": [
+          "Execute 2 sets per move.",
+          "Moderate posture depths if joints feel tight."
+        ]
+      },
+      "harderVariant": {
+        "description": "Increase dynamic repetitions to 15 per set or hold static planks for 60s.",
+        "modifications": [
+          "Hold static postures for 60s.",
+          "Limit transitions rests to 30s."
+        ]
+      },
+      "coachingNotes": [
+        "Perform elements slowly with perfect alignment.",
+        "Keep spine in neutral plane.",
+        "Do not force range of motion indices."
+      ],
+      "commonMistakes": [
+        "Holding your breath during isometric loads.",
+        "Leaning forward or hyperextending neck lines."
+      ],
+      "safetyNotes": [
+        "Discontinue reps immediately if any articulation pain surfaces.",
+        "Use cushion matting for knee security as prescribed."
+      ],
+      "shareCard": {
+        "cardTitle": "Capacity Recovery Routine Drive Builder [Set 44]",
+        "cardSubtitle": "Track.Vault Curated Recovery Routine",
+        "mainSetText": "Completed targeted support set series.",
+        "purposeText": "Stabilization core and alignment support routine.",
+        "footerNote": "Track.Vault static system"
+      },
+      "tags": [
+        "recovery_routine",
+        "support-routine",
+        "recovery-routine"
+      ],
+      "searchKeywords": [
+        "recovery_routine",
+        "capacity recovery routine drive builder [set 44]",
+        "recovery-routine"
+      ],
+      "uniquenessSignature": "sup0494-capacity-recovery-routine-drive-builder-set-44",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "Movement specs informed by track physical preparation procedures."
+    },
+    {
+      "id": "sup0495",
+      "slug": "strategic-recovery-routine-tuning-ride-set-45",
+      "title": "Strategic Recovery Routine Tuning Ride [Set 45]",
+      "shortTitle": "Recovery Routine Set 45",
+      "summary": "High quality Recovery Routine support routine designed to support skeletal alignment, tissue elasticity, and structural stability.",
+      "entryType": "support-routine",
+      "supportCategoryId": "recovery_routine",
+      "supportCategoryLabel": "Recovery Routine",
+      "routineType": "mobility",
+      "targetRunnerType": "all runners",
+      "level": "beginner",
+      "phase": [
+        "base"
+      ],
+      "durationMin": 15,
+      "equipment": [
+        "none"
+      ],
+      "bodyFocus": [
+        "legs"
+      ],
+      "movementGoals": [
+        "alignment",
+        "flexibility",
+        "running-mechanics"
+      ],
+      "difficulty": "easy",
+      "risk": "low",
+      "riskReason": "Closed kinetic chain alignments and static control minimize tendon friction.",
+      "sessionStructure": [
+        {
+          "blockType": "exercise",
+          "name": "Dynamic Bridge Lift",
+          "sets": 3,
+          "reps": 12,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Engage core safely.",
+            "Breathe naturally during tension."
+          ]
+        },
+        {
+          "blockType": "exercise",
+          "name": "Stability Squat Drill",
+          "sets": 3,
+          "reps": 10,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Maintain knee and ankle compliance.",
+            "Keep torso tall."
+          ]
+        }
+      ],
+      "easierVariant": {
+        "description": "Reduce workout sets of the resistance moves to 2 sets for managing soft tissue load.",
+        "modifications": [
+          "Execute 2 sets per move.",
+          "Moderate posture depths if joints feel tight."
+        ]
+      },
+      "harderVariant": {
+        "description": "Increase dynamic repetitions to 15 per set or hold static planks for 60s.",
+        "modifications": [
+          "Hold static postures for 60s.",
+          "Limit transitions rests to 30s."
+        ]
+      },
+      "coachingNotes": [
+        "Perform elements slowly with perfect alignment.",
+        "Keep spine in neutral plane.",
+        "Do not force range of motion indices."
+      ],
+      "commonMistakes": [
+        "Holding your breath during isometric loads.",
+        "Leaning forward or hyperextending neck lines."
+      ],
+      "safetyNotes": [
+        "Discontinue reps immediately if any articulation pain surfaces.",
+        "Use cushion matting for knee security as prescribed."
+      ],
+      "shareCard": {
+        "cardTitle": "Strategic Recovery Routine Tuning Ride [Set 45]",
+        "cardSubtitle": "Track.Vault Curated Recovery Routine",
+        "mainSetText": "Completed targeted support set series.",
+        "purposeText": "Stabilization core and alignment support routine.",
+        "footerNote": "Track.Vault static system"
+      },
+      "tags": [
+        "recovery_routine",
+        "support-routine",
+        "recovery-routine"
+      ],
+      "searchKeywords": [
+        "recovery_routine",
+        "strategic recovery routine tuning ride [set 45]",
+        "recovery-routine"
+      ],
+      "uniquenessSignature": "sup0495-strategic-recovery-routine-tuning-ride-set-45",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "Movement specs informed by track physical preparation procedures."
+    },
+    {
+      "id": "sup0496",
+      "slug": "anaerobic-recovery-routine-development-set-set-46",
+      "title": "Anaerobic Recovery Routine Development Set [Set 46]",
+      "shortTitle": "Recovery Routine Set 46",
+      "summary": "High quality Recovery Routine support routine designed to support skeletal alignment, tissue elasticity, and structural stability.",
+      "entryType": "support-routine",
+      "supportCategoryId": "recovery_routine",
+      "supportCategoryLabel": "Recovery Routine",
+      "routineType": "strength",
+      "targetRunnerType": "all runners",
+      "level": "intermediate",
+      "phase": [
+        "base"
+      ],
+      "durationMin": 16,
+      "equipment": [
+        "light weights",
+        "mat"
+      ],
+      "bodyFocus": [
+        "core"
+      ],
+      "movementGoals": [
+        "alignment",
+        "flexibility",
+        "running-mechanics"
+      ],
+      "difficulty": "moderate",
+      "risk": "low",
+      "riskReason": "Closed kinetic chain alignments and static control minimize tendon friction.",
+      "sessionStructure": [
+        {
+          "blockType": "exercise",
+          "name": "Plank Hold",
+          "sets": 3,
+          "reps": null,
+          "durationSeconds": 45,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Engage core safely.",
+            "Breathe naturally during tension."
+          ]
+        },
+        {
+          "blockType": "exercise",
+          "name": "Stability Squat Drill",
+          "sets": 3,
+          "reps": 10,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Maintain knee and ankle compliance.",
+            "Keep torso tall."
+          ]
+        }
+      ],
+      "easierVariant": {
+        "description": "Reduce workout sets of the resistance moves to 2 sets for managing soft tissue load.",
+        "modifications": [
+          "Execute 2 sets per move.",
+          "Moderate posture depths if joints feel tight."
+        ]
+      },
+      "harderVariant": {
+        "description": "Increase dynamic repetitions to 15 per set or hold static planks for 60s.",
+        "modifications": [
+          "Hold static postures for 60s.",
+          "Limit transitions rests to 30s."
+        ]
+      },
+      "coachingNotes": [
+        "Perform elements slowly with perfect alignment.",
+        "Keep spine in neutral plane.",
+        "Do not force range of motion indices."
+      ],
+      "commonMistakes": [
+        "Holding your breath during isometric loads.",
+        "Leaning forward or hyperextending neck lines."
+      ],
+      "safetyNotes": [
+        "Discontinue reps immediately if any articulation pain surfaces.",
+        "Use cushion matting for knee security as prescribed."
+      ],
+      "shareCard": {
+        "cardTitle": "Anaerobic Recovery Routine Development Set [Set 46]",
+        "cardSubtitle": "Track.Vault Curated Recovery Routine",
+        "mainSetText": "Completed targeted support set series.",
+        "purposeText": "Stabilization core and alignment support routine.",
+        "footerNote": "Track.Vault static system"
+      },
+      "tags": [
+        "recovery_routine",
+        "support-routine",
+        "recovery-routine"
+      ],
+      "searchKeywords": [
+        "recovery_routine",
+        "anaerobic recovery routine development set [set 46]",
+        "recovery-routine"
+      ],
+      "uniquenessSignature": "sup0496-anaerobic-recovery-routine-development-set-set-46",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "Movement specs informed by track physical preparation procedures."
+    },
+    {
+      "id": "sup0497",
+      "slug": "neuromuscular-recovery-routine-engine-primer-set-47",
+      "title": "Neuromuscular Recovery Routine Engine Primer [Set 47]",
+      "shortTitle": "Recovery Routine Set 47",
+      "summary": "High quality Recovery Routine support routine designed to support skeletal alignment, tissue elasticity, and structural stability.",
+      "entryType": "support-routine",
+      "supportCategoryId": "recovery_routine",
+      "supportCategoryLabel": "Recovery Routine",
+      "routineType": "mobility",
+      "targetRunnerType": "all runners",
+      "level": "advanced",
+      "phase": [
+        "base"
+      ],
+      "durationMin": 17,
+      "equipment": [
+        "none"
+      ],
+      "bodyFocus": [
+        "legs"
+      ],
+      "movementGoals": [
+        "alignment",
+        "flexibility",
+        "running-mechanics"
+      ],
+      "difficulty": "hard",
+      "risk": "low",
+      "riskReason": "Closed kinetic chain alignments and static control minimize tendon friction.",
+      "sessionStructure": [
+        {
+          "blockType": "exercise",
+          "name": "Dynamic Bridge Lift",
+          "sets": 3,
+          "reps": 12,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Engage core safely.",
+            "Breathe naturally during tension."
+          ]
+        },
+        {
+          "blockType": "exercise",
+          "name": "Stability Squat Drill",
+          "sets": 3,
+          "reps": 10,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Maintain knee and ankle compliance.",
+            "Keep torso tall."
+          ]
+        }
+      ],
+      "easierVariant": {
+        "description": "Reduce workout sets of the resistance moves to 2 sets for managing soft tissue load.",
+        "modifications": [
+          "Execute 2 sets per move.",
+          "Moderate posture depths if joints feel tight."
+        ]
+      },
+      "harderVariant": {
+        "description": "Increase dynamic repetitions to 15 per set or hold static planks for 60s.",
+        "modifications": [
+          "Hold static postures for 60s.",
+          "Limit transitions rests to 30s."
+        ]
+      },
+      "coachingNotes": [
+        "Perform elements slowly with perfect alignment.",
+        "Keep spine in neutral plane.",
+        "Do not force range of motion indices."
+      ],
+      "commonMistakes": [
+        "Holding your breath during isometric loads.",
+        "Leaning forward or hyperextending neck lines."
+      ],
+      "safetyNotes": [
+        "Discontinue reps immediately if any articulation pain surfaces.",
+        "Use cushion matting for knee security as prescribed."
+      ],
+      "shareCard": {
+        "cardTitle": "Neuromuscular Recovery Routine Engine Primer [Set 47]",
+        "cardSubtitle": "Track.Vault Curated Recovery Routine",
+        "mainSetText": "Completed targeted support set series.",
+        "purposeText": "Stabilization core and alignment support routine.",
+        "footerNote": "Track.Vault static system"
+      },
+      "tags": [
+        "recovery_routine",
+        "support-routine",
+        "recovery-routine"
+      ],
+      "searchKeywords": [
+        "recovery_routine",
+        "neuromuscular recovery routine engine primer [set 47]",
+        "recovery-routine"
+      ],
+      "uniquenessSignature": "sup0497-neuromuscular-recovery-routine-engine-primer-set-47",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "Movement specs informed by track physical preparation procedures."
+    },
+    {
+      "id": "sup0498",
+      "slug": "progressive-recovery-routine-speed-ladder-set-48",
+      "title": "Progressive Recovery Routine Speed Ladder [Set 48]",
+      "shortTitle": "Recovery Routine Set 48",
+      "summary": "High quality Recovery Routine support routine designed to support skeletal alignment, tissue elasticity, and structural stability.",
+      "entryType": "support-routine",
+      "supportCategoryId": "recovery_routine",
+      "supportCategoryLabel": "Recovery Routine",
+      "routineType": "strength",
+      "targetRunnerType": "all runners",
+      "level": "beginner",
+      "phase": [
+        "base"
+      ],
+      "durationMin": 18,
+      "equipment": [
+        "light weights",
+        "mat"
+      ],
+      "bodyFocus": [
+        "core"
+      ],
+      "movementGoals": [
+        "alignment",
+        "flexibility",
+        "running-mechanics"
+      ],
+      "difficulty": "easy",
+      "risk": "low",
+      "riskReason": "Closed kinetic chain alignments and static control minimize tendon friction.",
+      "sessionStructure": [
+        {
+          "blockType": "exercise",
+          "name": "Plank Hold",
+          "sets": 3,
+          "reps": null,
+          "durationSeconds": 45,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Engage core safely.",
+            "Breathe naturally during tension."
+          ]
+        },
+        {
+          "blockType": "exercise",
+          "name": "Stability Squat Drill",
+          "sets": 3,
+          "reps": 10,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Maintain knee and ankle compliance.",
+            "Keep torso tall."
+          ]
+        }
+      ],
+      "easierVariant": {
+        "description": "Reduce workout sets of the resistance moves to 2 sets for managing soft tissue load.",
+        "modifications": [
+          "Execute 2 sets per move.",
+          "Moderate posture depths if joints feel tight."
+        ]
+      },
+      "harderVariant": {
+        "description": "Increase dynamic repetitions to 15 per set or hold static planks for 60s.",
+        "modifications": [
+          "Hold static postures for 60s.",
+          "Limit transitions rests to 30s."
+        ]
+      },
+      "coachingNotes": [
+        "Perform elements slowly with perfect alignment.",
+        "Keep spine in neutral plane.",
+        "Do not force range of motion indices."
+      ],
+      "commonMistakes": [
+        "Holding your breath during isometric loads.",
+        "Leaning forward or hyperextending neck lines."
+      ],
+      "safetyNotes": [
+        "Discontinue reps immediately if any articulation pain surfaces.",
+        "Use cushion matting for knee security as prescribed."
+      ],
+      "shareCard": {
+        "cardTitle": "Progressive Recovery Routine Speed Ladder [Set 48]",
+        "cardSubtitle": "Track.Vault Curated Recovery Routine",
+        "mainSetText": "Completed targeted support set series.",
+        "purposeText": "Stabilization core and alignment support routine.",
+        "footerNote": "Track.Vault static system"
+      },
+      "tags": [
+        "recovery_routine",
+        "support-routine",
+        "recovery-routine"
+      ],
+      "searchKeywords": [
+        "recovery_routine",
+        "progressive recovery routine speed ladder [set 48]",
+        "recovery-routine"
+      ],
+      "uniquenessSignature": "sup0498-progressive-recovery-routine-speed-ladder-set-48",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "Movement specs informed by track physical preparation procedures."
+    },
+    {
+      "id": "sup0499",
+      "slug": "capacity-recovery-routine-pacing-matrix-set-49",
+      "title": "Capacity Recovery Routine Pacing Matrix [Set 49]",
+      "shortTitle": "Recovery Routine Set 49",
+      "summary": "High quality Recovery Routine support routine designed to support skeletal alignment, tissue elasticity, and structural stability.",
+      "entryType": "support-routine",
+      "supportCategoryId": "recovery_routine",
+      "supportCategoryLabel": "Recovery Routine",
+      "routineType": "mobility",
+      "targetRunnerType": "all runners",
+      "level": "intermediate",
+      "phase": [
+        "base"
+      ],
+      "durationMin": 19,
+      "equipment": [
+        "none"
+      ],
+      "bodyFocus": [
+        "legs"
+      ],
+      "movementGoals": [
+        "alignment",
+        "flexibility",
+        "running-mechanics"
+      ],
+      "difficulty": "moderate",
+      "risk": "low",
+      "riskReason": "Closed kinetic chain alignments and static control minimize tendon friction.",
+      "sessionStructure": [
+        {
+          "blockType": "exercise",
+          "name": "Dynamic Bridge Lift",
+          "sets": 3,
+          "reps": 12,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Engage core safely.",
+            "Breathe naturally during tension."
+          ]
+        },
+        {
+          "blockType": "exercise",
+          "name": "Stability Squat Drill",
+          "sets": 3,
+          "reps": 10,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Maintain knee and ankle compliance.",
+            "Keep torso tall."
+          ]
+        }
+      ],
+      "easierVariant": {
+        "description": "Reduce workout sets of the resistance moves to 2 sets for managing soft tissue load.",
+        "modifications": [
+          "Execute 2 sets per move.",
+          "Moderate posture depths if joints feel tight."
+        ]
+      },
+      "harderVariant": {
+        "description": "Increase dynamic repetitions to 15 per set or hold static planks for 60s.",
+        "modifications": [
+          "Hold static postures for 60s.",
+          "Limit transitions rests to 30s."
+        ]
+      },
+      "coachingNotes": [
+        "Perform elements slowly with perfect alignment.",
+        "Keep spine in neutral plane.",
+        "Do not force range of motion indices."
+      ],
+      "commonMistakes": [
+        "Holding your breath during isometric loads.",
+        "Leaning forward or hyperextending neck lines."
+      ],
+      "safetyNotes": [
+        "Discontinue reps immediately if any articulation pain surfaces.",
+        "Use cushion matting for knee security as prescribed."
+      ],
+      "shareCard": {
+        "cardTitle": "Capacity Recovery Routine Pacing Matrix [Set 49]",
+        "cardSubtitle": "Track.Vault Curated Recovery Routine",
+        "mainSetText": "Completed targeted support set series.",
+        "purposeText": "Stabilization core and alignment support routine.",
+        "footerNote": "Track.Vault static system"
+      },
+      "tags": [
+        "recovery_routine",
+        "support-routine",
+        "recovery-routine"
+      ],
+      "searchKeywords": [
+        "recovery_routine",
+        "capacity recovery routine pacing matrix [set 49]",
+        "recovery-routine"
+      ],
+      "uniquenessSignature": "sup0499-capacity-recovery-routine-pacing-matrix-set-49",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "Movement specs informed by track physical preparation procedures."
+    },
+    {
+      "id": "sup0500",
+      "slug": "strategic-recovery-routine-conditioning-session-set-50",
+      "title": "Strategic Recovery Routine Conditioning Session [Set 50]",
+      "shortTitle": "Recovery Routine Set 50",
+      "summary": "High quality Recovery Routine support routine designed to support skeletal alignment, tissue elasticity, and structural stability.",
+      "entryType": "support-routine",
+      "supportCategoryId": "recovery_routine",
+      "supportCategoryLabel": "Recovery Routine",
+      "routineType": "strength",
+      "targetRunnerType": "all runners",
+      "level": "advanced",
+      "phase": [
+        "base"
+      ],
+      "durationMin": 20,
+      "equipment": [
+        "light weights",
+        "mat"
+      ],
+      "bodyFocus": [
+        "core"
+      ],
+      "movementGoals": [
+        "alignment",
+        "flexibility",
+        "running-mechanics"
+      ],
+      "difficulty": "hard",
+      "risk": "low",
+      "riskReason": "Closed kinetic chain alignments and static control minimize tendon friction.",
+      "sessionStructure": [
+        {
+          "blockType": "exercise",
+          "name": "Plank Hold",
+          "sets": 3,
+          "reps": null,
+          "durationSeconds": 45,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Engage core safely.",
+            "Breathe naturally during tension."
+          ]
+        },
+        {
+          "blockType": "exercise",
+          "name": "Stability Squat Drill",
+          "sets": 3,
+          "reps": 10,
+          "durationSeconds": null,
+          "distanceMeters": null,
+          "side": "both",
+          "intensity": "controlled",
+          "restSeconds": 45,
+          "notes": [
+            "Maintain knee and ankle compliance.",
+            "Keep torso tall."
+          ]
+        }
+      ],
+      "easierVariant": {
+        "description": "Reduce workout sets of the resistance moves to 2 sets for managing soft tissue load.",
+        "modifications": [
+          "Execute 2 sets per move.",
+          "Moderate posture depths if joints feel tight."
+        ]
+      },
+      "harderVariant": {
+        "description": "Increase dynamic repetitions to 15 per set or hold static planks for 60s.",
+        "modifications": [
+          "Hold static postures for 60s.",
+          "Limit transitions rests to 30s."
+        ]
+      },
+      "coachingNotes": [
+        "Perform elements slowly with perfect alignment.",
+        "Keep spine in neutral plane.",
+        "Do not force range of motion indices."
+      ],
+      "commonMistakes": [
+        "Holding your breath during isometric loads.",
+        "Leaning forward or hyperextending neck lines."
+      ],
+      "safetyNotes": [
+        "Discontinue reps immediately if any articulation pain surfaces.",
+        "Use cushion matting for knee security as prescribed."
+      ],
+      "shareCard": {
+        "cardTitle": "Strategic Recovery Routine Conditioning Session [Set 50]",
+        "cardSubtitle": "Track.Vault Curated Recovery Routine",
+        "mainSetText": "Completed targeted support set series.",
+        "purposeText": "Stabilization core and alignment support routine.",
+        "footerNote": "Track.Vault static system"
+      },
+      "tags": [
+        "recovery_routine",
+        "support-routine",
+        "recovery-routine"
+      ],
+      "searchKeywords": [
+        "recovery_routine",
+        "strategic recovery routine conditioning session [set 50]",
+        "recovery-routine"
+      ],
+      "uniquenessSignature": "sup0500-strategic-recovery-routine-conditioning-session-set-50",
+      "createdBy": "Track.Vault Curated Library",
+      "visibility": "public-static",
+      "sourceNote": "Movement specs informed by track physical preparation procedures."
+    }
+  ]
+}

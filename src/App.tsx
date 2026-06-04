@@ -73,7 +73,7 @@ import { WorkoutPreview } from "./components/builder/WorkoutPreview";
 import { BuilderActionBar } from "./components/builder/BuilderActionBar";
 import { EntryDetailPage } from "./components/detail/EntryDetailPage";
 
-// Import upgraded Dashboard Layers
+// Load enhanced Dashboard Layers
 import { DashboardHero, DashboardSummaryGrid, DashboardCategoryShowcase } from "./components/dashboard/DashboardPanels";
 
 // Import Export components
@@ -1065,7 +1065,7 @@ export default function App() {
  </div>
  </div>
 
- {/* 3. Support Routines */}
+ {/* 3. Support-Routines */}
  <div className="bg-white border border-[#E2E8F0] rounded-2xl p-5 shadow-sm flex flex-col justify-between">
  <div className="w-8 h-8 rounded-xl bg-violet-50 text-violet-600 flex items-center justify-center mb-3">
  <Compass className="w-4 h-4" />
@@ -1075,7 +1075,7 @@ export default function App() {
  {staticWorkouts.filter(w => w.entryType === "support-routine").length}
  </span>
  <span className="text-[11px] font-bold text-slate-800 uppercase tracking-tighter mt-1 block">
- Support Routines
+ Support-Routines
  </span>
  <span className="text-[10px] text-slate-400 mt-0.5 block leading-tight font-medium">
  Physical prep & active recovery.
@@ -1363,7 +1363,7 @@ export default function App() {
    let labelUnits = "workouts";
 
    if (isSupport) {
-     labelUnits = "support routines";
+     labelUnits = "support-routines";
      if (selectedDistance === "All Support") {
        totalInTrack = allLibraryCombined.filter(w => w.entryType === "support-routine").length;
      } else {
@@ -2077,7 +2077,7 @@ export default function App() {
                 {[
                   { id: "all", label: "All Items", count: localSavedItems.length },
                   { id: "running-workout", label: "Running Workouts", count: localSavedItems.filter(it => it.entryType === "running-workout").length },
-                  { id: "support-routine", label: "Support Routines", count: localSavedItems.filter(it => it.entryType === "support-routine").length },
+                  { id: "support-routine", label: "Support-Routines", count: localSavedItems.filter(it => it.entryType === "support-routine").length },
                   { id: "custom-running", label: "Custom Running Drafts", count: localSavedItems.filter(it => it.entryType === "custom-running-workout").length },
                   { id: "custom-support", label: "Custom Support Drafts", count: localSavedItems.filter(it => it.entryType === "custom-support-routine").length },
                   { id: "pinned", label: "Pinned Only", count: localSavedItems.filter(it => it.pinned).length }
@@ -2361,7 +2361,7 @@ export default function App() {
   <ul className="list-disc pl-5 mt-2 space-y-1">
    <li>1,300 curated static entries</li>
    <li>750 running workouts</li>
-   <li>550 support routines</li>
+   <li>550 support-routines</li>
    <li>zero database</li>
    <li>no account</li>
    <li>no telemetry</li>
