@@ -5,6 +5,7 @@
 
 import React from "react";
 import { CompareTrayItem } from "../../lib/compareEntries";
+import { sanitizeWorkoutTitle } from "../../lib/displayTitle";
 import { Zap, X, GitCompare, Sparkles, Scale } from "lucide-react";
 
 interface CompareBarProps {
@@ -55,7 +56,7 @@ export default function CompareBar({ items, onRemove, onClear, onOpenCompare }: 
               >
                 <div className="min-w-0 flex-1">
                   <p className="text-[10px] font-bold text-slate-150 truncate leading-tight">
-                    {item.title}
+                    {sanitizeWorkoutTitle(item.title)}
                   </p>
                   <p className="text-[8px] font-mono text-slate-450 uppercase tracking-wider font-extrabold truncate">
                     {isRun ? "RUN" : "SUPPORT"}

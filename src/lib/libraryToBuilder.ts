@@ -4,6 +4,7 @@
  */
 
 import { Workout } from "../types/workout";
+import { sanitizeWorkoutTitle } from "./displayTitle";
 
 export function createBuilderDraftFromEntry(entry: any): any {
   if (!entry) return null;
@@ -38,7 +39,7 @@ export function convertRunningWorkoutToBuilderDraft(entry: any): any {
     localDraftId: `draft-run-${uniq}`,
     sourceEntryId: entry.id,
     sourceEntrySlug: entry.slug,
-    sourceEntryTitle: entry.title,
+    sourceEntryTitle: sanitizeWorkoutTitle(entry.title),
     sourceEntryType: "running-workout",
     createdFromLibrary: true,
     createdAt: new Date().toISOString(),
@@ -46,8 +47,8 @@ export function convertRunningWorkoutToBuilderDraft(entry: any): any {
     
     id: `custom-${uniq}`,
     slug: `${entry.slug || "workout"}-custom-${uniq}`,
-    title: `${entry.title} (Custom)`,
-    shortTitle: entry.shortTitle ? `${entry.shortTitle} Custom` : `${entry.title} Custom`,
+    title: `${sanitizeWorkoutTitle(entry.title)} (Custom)`,
+    shortTitle: entry.shortTitle ? `${sanitizeWorkoutTitle(entry.shortTitle)} Custom` : `${sanitizeWorkoutTitle(entry.title)} Custom`,
     summary: entry.summary || entry.description || "",
     level: entry.level || "intermediate",
     phase: Array.isArray(entry.phase) ? entry.phase[0] : (entry.phase || "Build"),
@@ -86,7 +87,7 @@ export function convertSupportRoutineToBuilderDraft(entry: any): any {
     localDraftId: `draft-support-${uniq}`,
     sourceEntryId: entry.id,
     sourceEntrySlug: entry.slug,
-    sourceEntryTitle: entry.title,
+    sourceEntryTitle: sanitizeWorkoutTitle(entry.title),
     sourceEntryType: "support-routine",
     createdFromLibrary: true,
     createdAt: new Date().toISOString(),
@@ -94,8 +95,8 @@ export function convertSupportRoutineToBuilderDraft(entry: any): any {
     
     id: `custom-${uniq}`,
     slug: `${entry.slug || "support"}-custom-${uniq}`,
-    title: `${entry.title} (Custom)`,
-    shortTitle: entry.shortTitle ? `${entry.shortTitle} Custom` : `${entry.title} Custom`,
+    title: `${sanitizeWorkoutTitle(entry.title)} (Custom)`,
+    shortTitle: entry.shortTitle ? `${sanitizeWorkoutTitle(entry.shortTitle)} Custom` : `${sanitizeWorkoutTitle(entry.title)} Custom`,
     summary: entry.summary || entry.description || "",
     level: entry.level || "intermediate",
     phase: Array.isArray(entry.phase) ? entry.phase[0] : (entry.phase || "Build"),

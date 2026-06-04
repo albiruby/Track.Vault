@@ -159,7 +159,7 @@ export function SupportRoutineDetail({
                 <Wrench className="w-3.5 h-3.5" /> REQUIRED EQUIPMENT:
               </span>
               {norm.equipment.map((eq: string, idx: number) => (
-                <span key={idx} className="bg-slate-100 border border-slate-200 text-slate-705 rounded-md text-[9px] px-2 py-0.5 font-black uppercase tracking-wider">
+                <span key={idx} className="bg-slate-100 border border-slate-200 text-slate-700 rounded-md text-[9px] px-2 py-0.5 font-black uppercase tracking-wider">
                   🔧 {eq}
                 </span>
               ))}

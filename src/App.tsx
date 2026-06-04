@@ -44,6 +44,7 @@ import {
 } from "./lib/compareEntries";
 import { createBuilderDraftFromEntry } from "./lib/libraryToBuilder";
 import { copyToClipboard } from "./lib/clipboard";
+import { sanitizeWorkoutTitle } from "./lib/displayTitle";
 import { trackVaultNavigation } from "./data/workouts/trackVaultNavigation.v1.2";
 import { Workout } from "./types/workout";
 import { Pin, Trash2, Edit, Check, Search, GitCompare } from "lucide-react";
@@ -578,13 +579,13 @@ export default function App() {
           
           {/* Title */}
           <h3 className="text-base font-bold text-slate-900 tracking-tight leading-snug font-display mt-1 group-hover:text-blue-650 transition-colors line-clamp-1">
-            {item.title}
+            {sanitizeWorkoutTitle(item.title)}
           </h3>
           
           {/* Source Entry Detail References */}
           {item.createdFromLibrary ? (
             <p className="text-[10px] text-slate-400 font-semibold italic mt-0.5 line-clamp-1">
-              {item.sourceEntryTitle ? `Copy • Based on: ${item.sourceEntryTitle}` : "Curated adaptation"}
+              {item.sourceEntryTitle ? `Copy • Based on: ${sanitizeWorkoutTitle(item.sourceEntryTitle)}` : "Curated adaptation"}
             </p>
           ) : (
             <p className="text-[10px] text-emerald-600 font-mono font-black uppercase tracking-wider mt-0.5">
@@ -2076,7 +2077,7 @@ export default function App() {
                   {savedSearchQuery && (
                     <button
                       onClick={() => setSavedSearchQuery("")}
-                      className="absolute right-3.5 top-2.5 text-[10px] font-mono font-black text-slate-400 hover:text-slate-705 cursor-pointer"
+                      className="absolute right-3.5 top-2.5 text-[10px] font-mono font-black text-slate-400 hover:text-slate-700 cursor-pointer"
                     >
                       CLEAR
                     </button>

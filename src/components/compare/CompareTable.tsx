@@ -6,6 +6,7 @@
 import React from "react";
 import { CompareTrayItem } from "../../lib/compareEntries";
 import { formatWorkoutBlock, formatExerciseBlock } from "../../lib/workouts";
+import { sanitizeWorkoutTitle } from "../../lib/displayTitle";
 import { Copy, Check, FileText, X, AlertTriangle, Info, ShieldAlert } from "lucide-react";
 
 interface CompareTableProps {
@@ -102,7 +103,7 @@ export default function CompareTable({ items, onRemove, onInspect, onUseDraft }:
     md += `Generated: ${new Date().toLocaleDateString()}\n\n`;
 
     // Headers
-    md += `| Attribute | ` + items.map((it) => `**${it.title}**`).join(" | ") + ` |\n`;
+    md += `| Attribute | ` + items.map((it) => `**${sanitizeWorkoutTitle(it.title)}**`).join(" | ") + ` |\n`;
     md += `| --- | ` + items.map(() => `---`).join(" | ") + ` |\n`;
 
     // Shared row helper
@@ -121,7 +122,7 @@ export default function CompareTable({ items, onRemove, onInspect, onUseDraft }:
 
     if (hasRunning) {
       md += `\n### Running Specific Specs\n\n`;
-      md += `| Running Specs | ` + items.map((it) => `**${it.title}**`).join(" | ") + ` |\n`;
+      md += `| Running Specs | ` + items.map((it) => `**${sanitizeWorkoutTitle(it.title)}**`).join(" | ") + ` |\n`;
       md += `| --- | ` + items.map(() => `---`).join(" | ") + ` |\n`;
       addRow("Category / Target", (it) => it.data.category || it.data.primaryDistance || "—");
       addRow("Workout Tech", (it) => it.data.workoutType || "—");
@@ -135,7 +136,7 @@ export default function CompareTable({ items, onRemove, onInspect, onUseDraft }:
 
     if (hasSupport) {
       md += `\n### Support Specific Specs\n\n`;
-      md += `| Support Specs | ` + items.map((it) => `**${it.title}**`).join(" | ") + ` |\n`;
+      md += `| Support Specs | ` + items.map((it) => `**${sanitizeWorkoutTitle(it.title)}**`).join(" | ") + ` |\n`;
       md += `| --- | ` + items.map(() => `---`).join(" | ") + ` |\n`;
       addRow("Category Group", (it) => it.data.supportCategoryLabel || "—");
       addRow("Focus Muscle/Joint", (it) => (Array.isArray(it.data.bodyFocus) ? it.data.bodyFocus.join(", ") : "—"));
@@ -205,7 +206,7 @@ export default function CompareTable({ items, onRemove, onInspect, onUseDraft }:
                       </button>
                     </div>
                     <h4 className="text-sm font-black font-display tracking-tight text-slate-900 line-clamp-2 leading-snug">
-                      {item.title}
+                      {sanitizeWorkoutTitle(item.title)}
                     </h4>
 
                     {/* Quick Core Details */}

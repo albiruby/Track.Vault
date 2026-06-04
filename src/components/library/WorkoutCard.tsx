@@ -10,6 +10,7 @@ import { DifficultyBadge } from "./DifficultyBadge";
 import { LevelBadge } from "./LevelBadge";
 import { formatWorkoutBlock, formatWorkoutForClipboard } from "../../lib/workouts";
 import { copyToClipboard } from "../../lib/clipboard";
+import { sanitizeWorkoutTitle } from "../../lib/displayTitle";
 import { Copy, ClipboardCheck, ExternalLink, RefreshCw, Eye, GitCompare } from "lucide-react";
 
 interface WorkoutCardProps {
@@ -62,13 +63,7 @@ export function WorkoutCard({
 
  {/* Title */}
   <h3 className="text-base sm:text-md font-bold tracking-tight text-[#0F172A] group-hover:text-blue-600 transition-colors line-clamp-1 font-display">
-    {(() => {
-      if (!workout.title) {
-        console.warn(`Missing title for entry ID: ${workout.id}, slug: ${workout.slug}`);
-        return "Untitled Entry";
-      }
-      return workout.title;
-    })()}
+    {sanitizeWorkoutTitle(workout.title || "Untitled Entry")}
   </h3>
  
  {/* Short Summary */}

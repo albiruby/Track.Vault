@@ -110,7 +110,7 @@ export function SessionTimeline({ workout }: SessionTimelineProps) {
         {cdSteps > 0 && (
           <div 
             style={{ width: `${cdPct}%` }}
-            className="bg-slate-705 hover:bg-slate-800 transition-colors flex items-center justify-center relative group px-2.5"
+            className="bg-slate-700 hover:bg-slate-800 transition-colors flex items-center justify-center relative group px-2.5"
           >
             <div className="flex items-center gap-1.5 text-slate-100">
               <RefreshCw className="w-3.5 h-3.5 shrink-0" />

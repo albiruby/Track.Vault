@@ -10,6 +10,7 @@
 
 import React from "react";
 import { Workout } from "../../types/workout";
+import { sanitizeWorkoutTitle } from "../../lib/displayTitle";
 import { 
   RunningMinimalTemplate,
   RunningIntervalTemplate,
@@ -37,61 +38,66 @@ interface WorkoutCardPreviewProps {
 }
 
 export function WorkoutCardPreview({ workout, template, theme, size, showBrandFooter = true }: WorkoutCardPreviewProps) {
+  const sanitizedWorkout = {
+    ...workout,
+    title: sanitizeWorkoutTitle(workout.title),
+  };
+
   const renderTemplate = () => {
     switch (template) {
       // 1. Running Templates
       case "minimal":
       case "minimal-session":
-        return <RunningMinimalTemplate workout={workout} theme={theme} size={size} showBrandFooter={showBrandFooter} />;
+        return <RunningMinimalTemplate workout={sanitizedWorkout} theme={theme} size={size} showBrandFooter={showBrandFooter} />;
       case "interval":
       case "interval-session":
-        return <RunningIntervalTemplate workout={workout} theme={theme} size={size} showBrandFooter={showBrandFooter} />;
+        return <RunningIntervalTemplate workout={sanitizedWorkout} theme={theme} size={size} showBrandFooter={showBrandFooter} />;
       case "longrun":
       case "endurance-longrun":
-        return <RunningLongRunTemplate workout={workout} theme={theme} size={size} showBrandFooter={showBrandFooter} />;
+        return <RunningLongRunTemplate workout={sanitizedWorkout} theme={theme} size={size} showBrandFooter={showBrandFooter} />;
       case "raceweek":
       case "raceweek-taper":
-        return <RunningRaceWeekTemplate workout={workout} theme={theme} size={size} showBrandFooter={showBrandFooter} />;
+        return <RunningRaceWeekTemplate workout={sanitizedWorkout} theme={theme} size={size} showBrandFooter={showBrandFooter} />;
       case "coach":
       case "coach-sheet":
-        return <RunningCoachSheetTemplate workout={workout} theme={theme} size={size} showBrandFooter={showBrandFooter} />;
+        return <RunningCoachSheetTemplate workout={sanitizedWorkout} theme={theme} size={size} showBrandFooter={showBrandFooter} />;
 
       // 2. Support Templates
       case "support":
       case "support-routine":
-        return <SupportRoutineTemplate workout={workout} theme={theme} size={size} showBrandFooter={showBrandFooter} />;
+        return <SupportRoutineTemplate workout={sanitizedWorkout} theme={theme} size={size} showBrandFooter={showBrandFooter} />;
       case "warmup":
       case "warmup-flow":
-        return <SupportWarmupTemplate workout={workout} theme={theme} size={size} showBrandFooter={showBrandFooter} />;
+        return <SupportWarmupTemplate workout={sanitizedWorkout} theme={theme} size={size} showBrandFooter={showBrandFooter} />;
       case "cooldown":
       case "cooldown-flow":
-        return <SupportCooldownTemplate workout={workout} theme={theme} size={size} showBrandFooter={showBrandFooter} />;
+        return <SupportCooldownTemplate workout={sanitizedWorkout} theme={theme} size={size} showBrandFooter={showBrandFooter} />;
       case "strength":
       case "strength-routine":
-        return <SupportStrengthTemplate workout={workout} theme={theme} size={size} showBrandFooter={showBrandFooter} />;
+        return <SupportStrengthTemplate workout={sanitizedWorkout} theme={theme} size={size} showBrandFooter={showBrandFooter} />;
       case "mobility":
       case "mobility-routine":
-        return <SupportMobilityTemplate workout={workout} theme={theme} size={size} showBrandFooter={showBrandFooter} />;
+        return <SupportMobilityTemplate workout={sanitizedWorkout} theme={theme} size={size} showBrandFooter={showBrandFooter} />;
 
       // 3. Universal / General Templates
       case "compact-summary":
-        return <UniversalCompactSummaryTemplate workout={workout} theme={theme} size={size} showBrandFooter={showBrandFooter} />;
+        return <UniversalCompactSummaryTemplate workout={sanitizedWorkout} theme={theme} size={size} showBrandFooter={showBrandFooter} />;
       case "training-sheet":
-        return <UniversalDetailedTrainingSheetTemplate workout={workout} theme={theme} size={size} showBrandFooter={showBrandFooter} />;
+        return <UniversalDetailedTrainingSheetTemplate workout={sanitizedWorkout} theme={theme} size={size} showBrandFooter={showBrandFooter} />;
       case "story-share":
-        return <UniversalStoryShareTemplate workout={workout} theme={theme} size={size} showBrandFooter={showBrandFooter} />;
+        return <UniversalStoryShareTemplate workout={sanitizedWorkout} theme={theme} size={size} showBrandFooter={showBrandFooter} />;
       case "square-share":
-        return <UniversalSquareShareTemplate workout={workout} theme={theme} size={size} showBrandFooter={showBrandFooter} />;
+        return <UniversalSquareShareTemplate workout={sanitizedWorkout} theme={theme} size={size} showBrandFooter={showBrandFooter} />;
       case "wide-coach":
-        return <UniversalWideCoachTemplate workout={workout} theme={theme} size={size} showBrandFooter={showBrandFooter} />;
+        return <UniversalWideCoachTemplate workout={sanitizedWorkout} theme={theme} size={size} showBrandFooter={showBrandFooter} />;
 
       default:
         // Adapts safely depending on what entryType we have
         const isSupportRoutine = workout.entryType === "support-routine" || (workout as any).supportCategoryId !== undefined;
         if (isSupportRoutine) {
-          return <SupportRoutineTemplate workout={workout} theme={theme} size={size} showBrandFooter={showBrandFooter} />;
+          return <SupportRoutineTemplate workout={sanitizedWorkout} theme={theme} size={size} showBrandFooter={showBrandFooter} />;
         } else {
-          return <RunningMinimalTemplate workout={workout} theme={theme} size={size} showBrandFooter={showBrandFooter} />;
+          return <RunningMinimalTemplate workout={sanitizedWorkout} theme={theme} size={size} showBrandFooter={showBrandFooter} />;
         }
     }
   };

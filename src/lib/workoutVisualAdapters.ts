@@ -4,6 +4,7 @@
  */
 
 import { TrackVaultEntry, RunningWorkout, SupportRoutine } from "../types/workout";
+import { sanitizeWorkoutTitle } from "./displayTitle";
 
 export interface NormalizedRunningWorkout {
   title: string;
@@ -193,7 +194,7 @@ export function normalizeRunningWorkout(entry: any): NormalizedRunningWorkout {
   }
 
   return {
-    title: entry?.title || "Untitled Performance Workout",
+    title: sanitizeWorkoutTitle(entry?.title || "Untitled Performance Workout"),
     summary: entry?.summary || "No coaching outline has been provided yet.",
     estimatedDurationMin: durationVal,
     estimatedDurationStr: durationStr,
@@ -268,7 +269,7 @@ export function normalizeSupportRoutine(entry: any): NormalizedSupportRoutine {
   let harderVariant = entry?.harderVariant || "";
 
   return {
-    title: entry?.title || "Untitled Athlete Support Routine",
+    title: sanitizeWorkoutTitle(entry?.title || "Untitled Athlete Support Routine"),
     summary: entry?.summary || "No routine outline has been provided yet.",
     durationMin: durationVal,
     sessionStructure,

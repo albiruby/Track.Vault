@@ -35,6 +35,7 @@ import cat_warm_up_routine from "../data/workouts/categories/warm_up_routine.jso
 import cat_cooldown_routine from "../data/workouts/categories/cooldown_routine.json";
 import cat_recovery_routine from "../data/workouts/categories/recovery_routine.json";
 import cat_injury_risk_reduction from "../data/workouts/categories/injury_risk_reduction.json";
+import { sanitizeWorkoutTitle } from "./displayTitle";
 
 
 export const WORKOUT_DISTANCE_NAV = trackVaultNavigation.runningNavigation;
@@ -567,7 +568,7 @@ export function formatWorkoutForClipboard(workout: any, format: "simple" | "comp
 
   const isSupport = workout.entryType === "support-routine" || workout.entryType === "custom-support-routine" || !!workout.sessionStructure;
 
-  const title = workout.title || "Untitled Session";
+  const title = sanitizeWorkoutTitle(workout.title || "Untitled Session");
   const category = isSupport 
     ? (workout.supportCategoryLabel || workout.supportCategoryId || "Support Routine").replace("-", " ")
     : (workout.category || workout.distanceNavId || "Running").replace("-", " ");

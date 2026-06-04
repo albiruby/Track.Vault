@@ -8,6 +8,7 @@ import * as htmlToImage from "html-to-image";
 import { Workout } from "../../types/workout";
 import { formatWorkoutForClipboard } from "../../lib/workouts";
 import { copyToClipboard } from "../../lib/clipboard";
+import { sanitizeWorkoutTitle } from "../../lib/displayTitle";
 import { 
   Download, Layers, Layout, Palette, Check, AlertCircle, Copy, 
   ToggleLeft, ToggleRight, FileText, Smartphone, Square, Presentation, Eye
@@ -69,7 +70,8 @@ export function ExportCardControls({
       });
 
       const link = document.createElement("a");
-      link.download = `TrackVault_${workout.title?.replace(/\s+/g, "_") || "session"}_card.png`;
+      const sanitizedTitle = sanitizeWorkoutTitle(workout.title);
+      link.download = `TrackVault_${sanitizedTitle.replace(/\s+/g, "_") || "session"}_card.png`;
       link.href = dataUrl;
       link.click();
       
@@ -84,7 +86,11 @@ export function ExportCardControls({
   };
 
   const handleCopyPreset = async (formatKey: "compact" | "coach-notes" | "structured-markdown" | "whatsapp-telegram" | "training-log") => {
-    const text = formatWorkoutForClipboard(workout, formatKey);
+    const sanitizedWorkout = {
+      ...workout,
+      title: sanitizeWorkoutTitle(workout.title)
+    };
+    const text = formatWorkoutForClipboard(sanitizedWorkout, formatKey);
     const ok = await copyToClipboard(text);
     if (ok) {
       setCopiedFormat(formatKey);

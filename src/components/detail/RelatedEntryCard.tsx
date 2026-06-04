@@ -9,6 +9,7 @@ import { LevelBadge } from "../library/LevelBadge";
 import { DifficultyBadge } from "../library/DifficultyBadge";
 import { RiskBadge } from "../library/RiskBadge";
 import { getRelatedReasonLabels, getDurationComparable } from "../../lib/relatedWorkouts";
+import { sanitizeWorkoutTitle } from "../../lib/displayTitle";
 import { Clock, Compass, ArrowRight } from "lucide-react";
 
 interface RelatedEntryCardProps {
@@ -19,7 +20,7 @@ interface RelatedEntryCardProps {
 }
 
 export function RelatedEntryCard({ currentEntry, candidate, onClick }: RelatedEntryCardProps) {
-  const title = candidate.title || "Untitled Entry";
+  const title = sanitizeWorkoutTitle(candidate.title || "Untitled Entry");
   const isRunning = candidate.entryType === "running-workout";
   
   let categoryTag = "";
