@@ -5,6 +5,13 @@
 
 import { TrackVaultEntry } from "../types/workout";
 
+export function getBaseEntryType(et: string): "running" | "support" {
+  if (!et) return "running";
+  const lower = et.toLowerCase();
+  if (lower.includes("support")) return "support";
+  return "running";
+}
+
 /**
  * Normalizes difficulty value of a workout/routine into a deterministic numerical scale (1-10).
  */
@@ -62,7 +69,7 @@ export function getSharedTags(a: any, b: any): string[] {
 export function scoreRunningSimilarity(current: any, candidate: any): number {
   if (candidate.id === current.id || candidate.slug === current.slug) return -1;
   if (!candidate.slug || !candidate.title || candidate.title.trim() === "") return -1;
-  if (candidate.entryType !== current.entryType) return -1;
+  if (getBaseEntryType(candidate.entryType) !== getBaseEntryType(current.entryType)) return -1;
 
   let score = 0;
 
@@ -137,7 +144,7 @@ export function scoreRunningSimilarity(current: any, candidate: any): number {
 export function scoreSupportSimilarity(current: any, candidate: any): number {
   if (candidate.id === current.id || candidate.slug === current.slug) return -1;
   if (!candidate.slug || !candidate.title || candidate.title.trim() === "") return -1;
-  if (candidate.entryType !== current.entryType) return -1;
+  if (getBaseEntryType(candidate.entryType) !== getBaseEntryType(current.entryType)) return -1;
 
   let score = 0;
 
@@ -283,7 +290,7 @@ export function getSimilarEntries(currentEntry: TrackVaultEntry, allEntries: Tra
   const candidates = allEntries.filter(candidate => {
     if (candidate.id === currentEntry.id || candidate.slug === currentEntry.slug) return false;
     if (!candidate.slug || !candidate.title || candidate.title.trim() === "") return false;
-    if (candidate.entryType !== currentEntry.entryType) return false;
+    if (getBaseEntryType(candidate.entryType) !== getBaseEntryType(currentEntry.entryType)) return false;
     return true;
   });
 
@@ -320,7 +327,7 @@ export function getEasierEntries(currentEntry: TrackVaultEntry, allEntries: Trac
   const candidates = allEntries.filter(candidate => {
     if (candidate.id === currentEntry.id || candidate.slug === currentEntry.slug) return false;
     if (!candidate.slug || !candidate.title || candidate.title.trim() === "") return false;
-    if (candidate.entryType !== currentEntry.entryType) return false;
+    if (getBaseEntryType(candidate.entryType) !== getBaseEntryType(currentEntry.entryType)) return false;
 
     const candDiff = getDifficultyNumber(candidate);
     if (candDiff >= currentDiff) return false;
@@ -383,7 +390,7 @@ export function getHarderEntries(currentEntry: TrackVaultEntry, allEntries: Trac
   const candidates = allEntries.filter(candidate => {
     if (candidate.id === currentEntry.id || candidate.slug === currentEntry.slug) return false;
     if (!candidate.slug || !candidate.title || candidate.title.trim() === "") return false;
-    if (candidate.entryType !== currentEntry.entryType) return false;
+    if (getBaseEntryType(candidate.entryType) !== getBaseEntryType(currentEntry.entryType)) return false;
 
     const candDiff = getDifficultyNumber(candidate);
     if (candDiff <= currentDiff) return false;
@@ -446,7 +453,7 @@ export function getSameGoalEntries(currentEntry: TrackVaultEntry, allEntries: Tr
   const candidates = allEntries.filter(candidate => {
     if (candidate.id === currentEntry.id || candidate.slug === currentEntry.slug) return false;
     if (!candidate.slug || !candidate.title || candidate.title.trim() === "") return false;
-    if (candidate.entryType !== currentEntry.entryType) return false;
+    if (getBaseEntryType(candidate.entryType) !== getBaseEntryType(currentEntry.entryType)) return false;
     return true;
   });
 

@@ -8,10 +8,13 @@ import React from "react";
 import { Workout } from "../../types/workout";
 import { trackVaultNavigation } from "../../data/workouts/trackVaultNavigation.v1.2";
 import { TrackVaultIcon } from "../icons/trackVaultIcons";
+import { matchSidebarDistance } from "../../lib/workouts";
 import { 
   X,
   ChevronLeft,
-  ChevronRight
+  ChevronRight,
+  Maximize2,
+  Minimize2
 } from "lucide-react";
 
 interface LeftSidebarProps {
@@ -107,15 +110,16 @@ export function LeftSidebar({
                   onNavigateTo("library");
                   onClose();
                 }}
-                title={collapsed ? `All Running — ${workouts.filter(w => w.entryType !== "support-routine").length}` : undefined}
+                title={`All Running — ${workouts.filter(w => w.entryType !== "support-routine").length}`}
+                aria-label={`All Running — ${workouts.filter(w => w.entryType !== "support-routine").length} entries`}
                 className={
                   collapsed
-                    ? `w-12 h-12 mx-auto flex items-center justify-center rounded-xl transition-all cursor-pointer group ${
+                    ? `w-12 h-12 mx-auto flex items-center justify-center rounded-xl transition-all cursor-pointer group focus-visible:ring-2 focus-visible:ring-blue-500 focus:outline-none ${
                         selectedDistance === "All Running" || selectedDistance === "All Workouts"
                           ? "bg-blue-600 text-white shadow-sm"
                           : "text-slate-600 hover:bg-slate-100 hover:text-slate-900"
                       }`
-                    : `w-full text-left px-3.5 py-2.5 rounded-xl text-xs transition-all flex items-center justify-between cursor-pointer group ${
+                    : `w-full text-left px-3.5 py-2.5 rounded-xl text-xs transition-all flex items-center justify-between cursor-pointer group focus-visible:ring-2 focus-visible:ring-blue-500 focus:outline-none ${
                         selectedDistance === "All Running" || selectedDistance === "All Workouts"
                           ? "bg-blue-600 text-white font-bold shadow-sm"
                           : "text-slate-600 hover:bg-slate-100 hover:text-slate-900"
@@ -147,7 +151,7 @@ export function LeftSidebar({
               </button>
 
               {trackVaultNavigation.runningNavigation.map((item) => {
-                const count = workouts.filter(w => w.entryType !== "support-routine" && w.distanceNavId?.toLowerCase() === item.id.toLowerCase()).length;
+                const count = workouts.filter(w => matchSidebarDistance(w, item.label)).length;
                 const isActive = selectedDistance.toLowerCase() === item.id.toLowerCase() || 
                                  selectedDistance.toLowerCase() === item.label.toLowerCase();
                 return (
@@ -158,18 +162,19 @@ export function LeftSidebar({
                       onNavigateTo("library");
                       onClose();
                     }}
-                    title={collapsed ? `${item.label} — ${count}` : undefined}
+                    title={`${item.label} — ${count} running workouts`}
+                    aria-label={`${item.label} — ${count} running workouts`}
                     disabled={count === 0}
                     className={
                       collapsed
-                        ? `w-12 h-12 mx-auto flex items-center justify-center rounded-xl transition-all cursor-pointer group ${
+                        ? `w-12 h-12 mx-auto flex items-center justify-center rounded-xl transition-all cursor-pointer group focus-visible:ring-2 focus-visible:ring-blue-500 focus:outline-none ${
                             isActive
                               ? "bg-blue-600 text-white shadow-sm"
                               : count === 0
                               ? "text-slate-400 line-through opacity-50 cursor-not-allowed"
                               : "text-slate-600 hover:bg-slate-100 hover:text-slate-900"
                           }`
-                        : `w-full text-left px-3.5 py-2.5 rounded-xl text-xs transition-all flex items-center justify-between cursor-pointer group ${
+                        : `w-full text-left px-3.5 py-2.5 rounded-xl text-xs transition-all flex items-center justify-between cursor-pointer group focus-visible:ring-2 focus-visible:ring-blue-500 focus:outline-none ${
                             isActive
                               ? "bg-blue-600 text-white font-bold shadow-sm"
                               : count === 0
@@ -227,15 +232,16 @@ export function LeftSidebar({
                   onNavigateTo("library");
                   onClose();
                 }}
-                title={collapsed ? `All Support — ${workouts.filter(w => w.entryType === "support-routine").length}` : undefined}
+                title={`All Support — ${workouts.filter(w => w.entryType === "support-routine").length}`}
+                aria-label={`All Support — ${workouts.filter(w => w.entryType === "support-routine").length} entries`}
                 className={
                   collapsed
-                    ? `w-12 h-12 mx-auto flex items-center justify-center rounded-xl transition-all cursor-pointer group ${
+                    ? `w-12 h-12 mx-auto flex items-center justify-center rounded-xl transition-all cursor-pointer group focus-visible:ring-2 focus-visible:ring-blue-500 focus:outline-none ${
                         selectedDistance === "All Support"
                           ? "bg-blue-600 text-white shadow-sm"
                           : "text-slate-600 hover:bg-slate-100 hover:text-slate-900"
                       }`
-                    : `w-full text-left px-3.5 py-2.5 rounded-xl text-xs transition-all flex items-center justify-between cursor-pointer group ${
+                    : `w-full text-left px-3.5 py-2.5 rounded-xl text-xs transition-all flex items-center justify-between cursor-pointer group focus-visible:ring-2 focus-visible:ring-blue-500 focus:outline-none ${
                         selectedDistance === "All Support"
                           ? "bg-blue-600 text-white font-bold shadow-sm"
                           : "text-slate-600 hover:bg-slate-100 hover:text-slate-900"
@@ -267,7 +273,7 @@ export function LeftSidebar({
               </button>
 
               {trackVaultNavigation.supportNavigation.map((item) => {
-                const count = workouts.filter(w => w.entryType === "support-routine" && w.supportCategoryId?.toLowerCase() === item.id.toLowerCase()).length;
+                const count = workouts.filter(w => matchSidebarDistance(w, item.label)).length;
                 const isActive = selectedDistance.toLowerCase() === item.id.toLowerCase() || 
                                  selectedDistance.toLowerCase() === item.label.toLowerCase();
                 return (
@@ -278,18 +284,19 @@ export function LeftSidebar({
                       onNavigateTo("library");
                       onClose();
                     }}
-                    title={collapsed ? `${item.label} — ${count}` : undefined}
+                    title={`${item.label} — ${count} support routines`}
+                    aria-label={`${item.label} — ${count} support routines`}
                     disabled={count === 0}
                     className={
                       collapsed
-                        ? `w-12 h-12 mx-auto flex items-center justify-center rounded-xl transition-all cursor-pointer group ${
+                        ? `w-12 h-12 mx-auto flex items-center justify-center rounded-xl transition-all cursor-pointer group focus-visible:ring-2 focus-visible:ring-blue-500 focus:outline-none ${
                             isActive
                               ? "bg-blue-600 text-white shadow-sm"
                               : count === 0
                               ? "text-slate-400 line-through opacity-50 cursor-not-allowed"
                               : "text-slate-600 hover:bg-slate-100 hover:text-slate-900"
                           }`
-                        : `w-full text-left px-3.5 py-2.5 rounded-xl text-xs transition-all flex items-center justify-between cursor-pointer group ${
+                        : `w-full text-left px-3.5 py-2.5 rounded-xl text-xs transition-all flex items-center justify-between cursor-pointer group focus-visible:ring-2 focus-visible:ring-blue-500 focus:outline-none ${
                             isActive
                               ? "bg-blue-600 text-white font-bold shadow-sm"
                               : count === 0

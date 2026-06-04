@@ -152,56 +152,54 @@ export function ExportCardControls({
         </label>
 
         {/* Running Templates */}
-        <div className="space-y-1">
-          <span className="text-[10px] font-bold font-mono tracking-wide text-slate-400 block ml-0.5">
-            RUNNING WORKOUT LAYOUTS {isSupportEntry && "🔒 (RUN ONLY)"}
-          </span>
-          <div className="grid grid-cols-2 gap-1.5">
-            {runningTemplates.map((t) => (
-              <button
-                key={t.id}
-                onClick={() => setTemplate(t.id)}
-                disabled={isSupportEntry}
-                className={`px-3 py-2 rounded-xl text-left text-xs font-semibold cursor-pointer border flex justify-between items-center transition-all ${
-                  isSupportEntry 
-                    ? "bg-slate-50 border-transparent text-slate-300 cursor-not-allowed opacity-50"
-                    : template === t.id
+        {!isSupportEntry && (
+          <div className="space-y-1">
+            <span className="text-[10px] font-bold font-mono tracking-wide text-slate-400 block ml-0.5">
+              RUNNING WORKOUT LAYOUTS
+            </span>
+            <div className="grid grid-cols-2 gap-1.5">
+              {runningTemplates.map((t) => (
+                <button
+                  key={t.id}
+                  onClick={() => setTemplate(t.id)}
+                  className={`px-3 py-2 rounded-xl text-left text-xs font-semibold cursor-pointer border flex justify-between items-center transition-all ${
+                    template === t.id
                       ? "bg-blue-50 border-blue-200 text-blue-700 font-bold"
                       : "bg-slate-50 border-transparent text-slate-700 hover:bg-slate-100"
-                }`}
-              >
-                <span>{t.name}</span>
-                {template === t.id && <span className="w-1.5 h-1.5 rounded-full bg-blue-600 shrink-0" />}
-              </button>
-            ))}
+                  }`}
+                >
+                  <span>{t.name}</span>
+                  {template === t.id && <span className="w-1.5 h-1.5 rounded-full bg-blue-600 shrink-0" />}
+                </button>
+              ))}
+            </div>
           </div>
-        </div>
+        )}
 
         {/* Support Templates */}
-        <div className="space-y-1 pt-1">
-          <span className="text-[10px] font-bold font-mono tracking-wide text-slate-400 block ml-0.5">
-            SUPPORT ROUTINE LAYOUTS {!isSupportEntry && "🔒 (SUPPORT ONLY)"}
-          </span>
-          <div className="grid grid-cols-2 gap-1.5">
-            {supportTemplates.map((t) => (
-              <button
-                key={t.id}
-                onClick={() => setTemplate(t.id)}
-                disabled={!isSupportEntry}
-                className={`px-3 py-2 rounded-xl text-left text-xs font-semibold cursor-pointer border flex justify-between items-center transition-all ${
-                  !isSupportEntry 
-                    ? "bg-slate-50 border-transparent text-slate-300 cursor-not-allowed opacity-50"
-                    : template === t.id
+        {isSupportEntry && (
+          <div className="space-y-1 pt-1">
+            <span className="text-[10px] font-bold font-mono tracking-wide text-slate-400 block ml-0.5">
+              SUPPORT ROUTINE LAYOUTS
+            </span>
+            <div className="grid grid-cols-2 gap-1.5">
+              {supportTemplates.map((t) => (
+                <button
+                  key={t.id}
+                  onClick={() => setTemplate(t.id)}
+                  className={`px-3 py-2 rounded-xl text-left text-xs font-semibold cursor-pointer border flex justify-between items-center transition-all ${
+                    template === t.id
                       ? "bg-blue-50 border-blue-200 text-blue-700 font-bold"
                       : "bg-slate-50 border-transparent text-slate-700 hover:bg-slate-100"
-                }`}
-              >
-                <span>{t.name}</span>
-                {template === t.id && <span className="w-1.5 h-1.5 rounded-full bg-blue-600 shrink-0" />}
-              </button>
-            ))}
+                  }`}
+                >
+                  <span>{t.name}</span>
+                  {template === t.id && <span className="w-1.5 h-1.5 rounded-full bg-blue-600 shrink-0" />}
+                </button>
+              ))}
+            </div>
           </div>
-        </div>
+        )}
 
         {/* Universal Templates */}
         <div className="space-y-1 pt-1">

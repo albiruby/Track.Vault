@@ -455,6 +455,23 @@ export function searchWorkouts(workouts: Workout[], query: string): Workout[] {
     const lev = (w.level || "").toLowerCase();
     const primDist = (w.primaryDistance || "").toLowerCase();
     
+    // Support-specific fields search metrics (BUG 2)
+    const supId = ((w as any).supportCategoryId || "").toLowerCase();
+    const supLabel = ((w as any).supportCategoryLabel || "").toLowerCase();
+    const routineType = ((w as any).routineType || "").toLowerCase();
+    const bodyFocus = ((w as any).bodyFocus || []).some((b: string) => b?.toLowerCase().includes(q));
+    const movementGoals = ((w as any).movementGoals || []).some((g: string) => g?.toLowerCase().includes(q));
+    const equipment = ((w as any).equipment || []).some((e: string) => e?.toLowerCase().includes(q));
+    
+    let structureMatch = false;
+    if ((w as any).sessionStructure) {
+      try {
+        structureMatch = JSON.stringify((w as any).sessionStructure).toLowerCase().includes(q);
+      } catch (e) {
+        structureMatch = false;
+      }
+    }
+
     return (
       title.includes(q) ||
       summary.includes(q) ||
@@ -462,6 +479,13 @@ export function searchWorkouts(workouts: Workout[], query: string): Workout[] {
       cat.includes(q) ||
       lev.includes(q) ||
       primDist.includes(q) ||
+      supId.includes(q) ||
+      supLabel.includes(q) ||
+      routineType.includes(q) ||
+      bodyFocus ||
+      movementGoals ||
+      equipment ||
+      structureMatch ||
       (w.targetDistances || []).some((d) => d?.toLowerCase().includes(q)) ||
       (w.tags || []).some((t) => t?.toLowerCase().includes(q)) ||
       ((w as any).searchKeywords || []).some((k: string) => k?.toLowerCase().includes(q))
