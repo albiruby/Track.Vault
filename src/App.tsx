@@ -116,6 +116,28 @@ export default function App() {
  const [activeRoute, setActiveRoute] = useState<string>("home"); // "home" | "library" | "detail" | "builder" | "saved" | "export" | "about"
  const [selectedSlug, setSelectedSlug] = useState<string>("");
  const [isMobileSidebarOpen, setIsMobileSidebarOpen] = useState(false);
+
+ const [sidebarCollapsed, setSidebarCollapsed] = useState<boolean>(() => {
+   if (typeof window !== "undefined") {
+     const saved = localStorage.getItem("trackvault_sidebar_collapsed_v1");
+     if (saved !== null) {
+       return saved === "true";
+     }
+     // Default to collapsed (rail mode) on tablet or mobile if screen width is narrow
+     if (window.innerWidth < 1024) {
+       return true;
+     }
+   }
+   return false;
+ });
+
+ const handleToggleSidebar = () => {
+   setSidebarCollapsed(prev => {
+     const next = !prev;
+     localStorage.setItem("trackvault_sidebar_collapsed_v1", JSON.stringify(next));
+     return next;
+   });
+ };
  
  const [toast, setToast] = useState<{ message: string; type: "success" | "error" | "info" } | null>(null);
 
@@ -754,10 +776,12 @@ export default function App() {
  navigateTo("");
  }}
  onNavigateTo={navigateTo}
+ isCollapsed={sidebarCollapsed}
+ onToggleCollapse={handleToggleSidebar}
  />
 
  {/* 2. Global Right Workspace Wrapper (Adjust padding on desktop to clear Left Fixed Sidebar) */}
- <div className="flex-1 flex flex-col lg:pl-64 min-w-0">
+ <div className={`flex-1 flex flex-col ${sidebarCollapsed ? "lg:pl-20" : "lg:pl-64"} min-w-0 transition-all duration-200`}>
  
  {/* Dynamic clipboard override popup modal */}
  {showClipboardOverlay && (
