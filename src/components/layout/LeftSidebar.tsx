@@ -150,7 +150,7 @@ export function LeftSidebar({
                 )}
               </button>
 
-              {trackVaultNavigation.runningNavigation.map((item) => {
+              {trackVaultNavigation.runningNavigation.filter(item => item.id !== "all").map((item) => {
                 const count = workouts.filter(w => matchSidebarDistance(w, item.label)).length;
                 const isActive = selectedDistance.toLowerCase() === item.id.toLowerCase() || 
                                  selectedDistance.toLowerCase() === item.label.toLowerCase();
@@ -272,7 +272,7 @@ export function LeftSidebar({
                 )}
               </button>
 
-              {trackVaultNavigation.supportNavigation.map((item) => {
+              {trackVaultNavigation.supportNavigation.filter(item => item.id !== "all").map((item) => {
                 const count = workouts.filter(w => matchSidebarDistance(w, item.label)).length;
                 const isActive = selectedDistance.toLowerCase() === item.id.toLowerCase() || 
                                  selectedDistance.toLowerCase() === item.label.toLowerCase();

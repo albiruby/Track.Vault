@@ -1,0 +1,50 @@
+{
+  "timestamp": "2026-06-01T10:03:32.745Z",
+  "rawFilesArchived": [
+    "support_upper_strength.json",
+    "support_lower_strength.json",
+    "support_core_stability.json",
+    "support_mobility.json",
+    "support_activation.json",
+    "support_plyometric.json",
+    "support_running_drills.json",
+    "support_warm_up_routine.json",
+    "support_cooldown_routine.json",
+    "support_recovery_routine.json",
+    "support_injury_risk_reduction.json"
+  ],
+  "finalFilesCreated": [
+    "support_upper_strength.v1.2.json",
+    "support_lower_strength.v1.2.json",
+    "support_core_stability.v1.2.json",
+    "support_mobility.v1.2.json",
+    "support_activation.v1.2.json",
+    "support_plyometric.v1.2.json",
+    "support_running_drills.v1.2.json",
+    "support_warm_up_routine.v1.2.json",
+    "support_cooldown_routine.v1.2.json",
+    "support_recovery_routine.v1.2.json",
+    "support_injury_risk_reduction.v1.2.json"
+  ],
+  "totalSupportRoutines": 550,
+  "categoryCounts": {
+    "upper_strength": 50,
+    "lower_strength": 50,
+    "core_stability": 50,
+    "mobility": 50,
+    "activation": 50,
+    "plyometric": 50,
+    "running_drills": 50,
+    "warm_up_routine": 50,
+    "cooldown_routine": 50,
+    "recovery_routine": 50,
+    "injury_risk_reduction": 50
+  },
+  "duplicatesStatus": "Perfect - 0 duplicates",
+  "schemaStatus": "Perfect - 100% compliant",
+  "titleCleanupStatus": "Complete - 550 custom professional titles generated",
+  "riskRecalibrationStatus": "Complete - dynamic risk bounds applied",
+  "medicalCleanStatus": "Complete - 100% sanitized of diagnostic/injury-prevention overclaims",
+  "errors": [],
+  "warnings": []
+}

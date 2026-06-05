@@ -1,0 +1,40 @@
+{
+  "timestamp": "2026-06-01T10:16:05.089Z",
+  "totalCuratedEntries": 1300,
+  "runningWorkoutsCount": 750,
+  "supportRoutinesCount": 550,
+  "runningCategoryCounts": {
+    "100m": 50,
+    "200m": 50,
+    "400m": 50,
+    "800m": 50,
+    "1500m": 50,
+    "mile": 50,
+    "3k": 50,
+    "5k": 50,
+    "10k": 50,
+    "half-marathon": 50,
+    "marathon": 50,
+    "trail": 50,
+    "treadmill": 50,
+    "base-recovery": 50,
+    "general": 50
+  },
+  "supportCategoryCounts": {
+    "upper_strength": 50,
+    "lower_strength": 50,
+    "core_stability": 50,
+    "mobility": 50,
+    "activation": 50,
+    "plyometric": 50,
+    "running_drills": 50,
+    "warm_up_routine": 50,
+    "cooldown_routine": 50,
+    "recovery_routine": 50,
+    "injury_risk_reduction": 50
+  },
+  "globalDuplicateStatus": "Perfect - 0 global duplicates",
+  "schemaStatus": "Perfect - 100% compliant",
+  "errors": [],
+  "warnings": []
+}

@@ -42,7 +42,16 @@ function getCategoryCountMap(workouts: Workout[]): Record<string, number> {
   workouts.forEach(w => {
     // Normalization to locate categories precisely
     const cat = (w.entryType === "support-routine" ? w.supportCategoryId : w.distanceNavId) || "general";
-    const norm = cat.trim().toLowerCase();
+    let norm = cat.trim().toLowerCase();
+    if (norm === "base-recovery") norm = "base";
+    else if (norm === "upper_strength") norm = "upper-strength";
+    else if (norm === "lower_strength") norm = "lower-strength";
+    else if (norm === "core_stability") norm = "core";
+    else if (norm === "running_drills") norm = "running-drills";
+    else if (norm === "warm_up_routine") norm = "warmup";
+    else if (norm === "cooldown_routine") norm = "cooldown";
+    else if (norm === "recovery_routine") norm = "recovery";
+    else if (norm === "injury_risk_reduction") norm = "injury-risk";
     counts[norm] = (counts[norm] || 0) + 1;
   });
   return counts;
@@ -536,13 +545,28 @@ export function DashboardCategoryShowcase({ staticWorkouts, onSelectCategory }: 
         // Resolve real details of associated categories
         const associatedCategories = group.categoryIds.map(cid => {
           // Find real details in trackVaultNavigation
-          const running = trackVaultNavigation.runningNavigation.find(n => n.id === cid);
-          const support = trackVaultNavigation.supportNavigation.find(s => s.id === cid);
+          const running = trackVaultNavigation.runningNavigation.find(n => {
+            let nid = n.id.toLowerCase();
+            if (nid === "base-recovery") nid = "base";
+            return nid === cid;
+          });
+          const support = trackVaultNavigation.supportNavigation.find(s => {
+            let sid = s.id.toLowerCase();
+            if (sid === "upper_strength") sid = "upper-strength";
+            else if (sid === "lower_strength") sid = "lower-strength";
+            else if (sid === "core_stability") sid = "core";
+            else if (sid === "running_drills") sid = "running-drills";
+            else if (sid === "warm_up_routine") sid = "warmup";
+            else if (sid === "cooldown_routine") sid = "cooldown";
+            else if (sid === "recovery_routine") sid = "recovery";
+            else if (sid === "injury_risk_reduction") sid = "injury-risk";
+            return sid === cid;
+          });
           const item = running || support;
           
           if (!item) return null;
           return {
-            id: item.id,
+            id: cid, // Return cid directly (e.g. "upper-strength") so keys/ids match bento layouts and categoriesMapped
             name: item.label,
             description: cid === "5k" ? "Lactate threshold intervals and continuous tempo runs to expand peak capacity." :
                          cid === "marathon" ? "Long-distance aerobic efficiency, target race-pacing sets, and depletion simulation." :

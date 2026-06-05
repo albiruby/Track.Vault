@@ -103,6 +103,12 @@ export function RunningWorkoutDetail({
             <p className="text-xs text-slate-400 font-mono uppercase tracking-widest font-black leading-none">
               Category: <span className="text-slate-700">{norm.category}</span> // Workout Type: <span className="text-slate-700">{norm.workoutType}</span>
             </p>
+            {norm.sourceInspiration && (
+              <div className="mt-3 inline-flex items-center gap-1.5 px-3 py-1 bg-slate-100 hover:bg-slate-200 text-slate-705 text-slate-600 border border-slate-250 rounded-full text-[10px] font-mono font-bold tracking-wide transition-colors self-start shadow-xs">
+                <BookOpen className="w-3.5 h-3.5 text-blue-600 shrink-0" />
+                <span>COACH/INSPIRATION: <span className="text-blue-700 font-black">{norm.sourceInspiration}</span></span>
+              </div>
+            )}
           </div>
 
           {/* Action Row */}
@@ -164,9 +170,49 @@ export function RunningWorkoutDetail({
           <h2 className="text-xs font-mono uppercase tracking-widest text-[#64748B] font-bold block leading-none">
             Performance Agenda & Coaching Summary
           </h2>
-          <div className="p-4 bg-slate-50/50 rounded-2xl border border-slate-150 leading-relaxed text-sm text-slate-600 font-medium italic">
+          <div className="p-4 bg-slate-50/50 rounded-2xl border border-slate-150 leading-relaxed text-sm text-slate-605 text-slate-600 font-medium italic">
             "{norm.summary}"
           </div>
+          
+          {norm.physiologicalPurpose && (
+            <div className="p-4 bg-blue-50/35 border border-blue-100 rounded-2xl space-y-1">
+              <span className="text-[10px] font-mono uppercase tracking-wider text-blue-700 font-black block leading-none flex items-center gap-1">
+                <Activity className="w-3.5 h-3.5 text-blue-500" />
+                Physiological Objective & Muscle Adaptations
+              </span>
+              <p className="text-xs text-slate-600 font-sans font-medium leading-relaxed">
+                {norm.physiologicalPurpose}
+              </p>
+            </div>
+          )}
+
+          {(norm.bestUsedWhen || norm.avoidWhen) && (
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-3.5">
+              {norm.bestUsedWhen && (
+                <div className="p-4 bg-purple-50/20 border border-purple-100/80 rounded-2xl space-y-1">
+                  <span className="text-[10px] font-mono uppercase font-black text-purple-700 block leading-none flex items-center gap-1">
+                    <CheckCircle2 className="w-3.5 h-3.5 text-purple-500" />
+                    Best Scheduled When
+                  </span>
+                  <p className="text-xs text-[#581C87] font-sans font-medium leading-normal">
+                    {norm.bestUsedWhen}
+                  </p>
+                </div>
+              )}
+              {norm.avoidWhen && (
+                <div className="p-4 bg-rose-50/20 border border-rose-100/80 rounded-2xl space-y-1">
+                  <span className="text-[10px] font-mono uppercase font-black text-rose-700 block leading-none flex items-center gap-1">
+                    <XCircle className="w-3.5 h-3.5 text-rose-500" />
+                    Contraindications (Avoid When)
+                  </span>
+                  <p className="text-xs text-[#991B1B] font-sans font-medium leading-normal">
+                    {norm.avoidWhen}
+                  </p>
+                </div>
+              )}
+            </div>
+          )}
+
           {workout && (workout as any).trainingGoals && (workout as any).trainingGoals.length > 0 && (
             <div className="flex flex-wrap gap-1.5 items-center">
               <span className="text-[10px] font-mono uppercase font-black text-slate-400 mr-1.5">Go-to Goals:</span>

@@ -36,6 +36,7 @@ import cat_cooldown_routine from "../data/workouts/categories/cooldown_routine.j
 import cat_recovery_routine from "../data/workouts/categories/recovery_routine.json";
 import cat_injury_risk_reduction from "../data/workouts/categories/injury_risk_reduction.json";
 import { sanitizeWorkoutTitle } from "./displayTitle";
+import { legendaryRunningWorkouts, legendarySupportRoutines } from "../data/workouts/legendaryWorkouts";
 
 
 export const WORKOUT_DISTANCE_NAV = trackVaultNavigation.runningNavigation;
@@ -44,14 +45,29 @@ export type DistanceNavItem = any;
 const categoriesMapped: CategoryMeta[] = [
   ...trackVaultNavigation.runningNavigation,
   ...trackVaultNavigation.supportNavigation
-].map((item: any) => ({
-  id: item.id,
-  name: item.label,
-  description: `${item.label} training and support assets.`,
-  targetWorkoutCount: item.entries || 50,
-  icon: item.type,
-  tags: [item.type]
-}));
+]
+  .filter((item: any) => item.id !== "all")
+  .map((item: any) => {
+    let normId = item.id.toLowerCase();
+    if (normId === "base-recovery") normId = "base";
+    else if (normId === "upper_strength") normId = "upper-strength";
+    else if (normId === "lower_strength") normId = "lower-strength";
+    else if (normId === "core_stability") normId = "core";
+    else if (normId === "running_drills") normId = "running-drills";
+    else if (normId === "warm_up_routine") normId = "warmup";
+    else if (normId === "cooldown_routine") normId = "cooldown";
+    else if (normId === "recovery_routine") normId = "recovery";
+    else if (normId === "injury_risk_reduction") normId = "injury-risk";
+
+    return {
+      id: normId,
+      name: item.label,
+      description: `${item.label} training and support assets.`,
+      targetWorkoutCount: item.entries || 50,
+      icon: item.type,
+      tags: [item.type]
+    };
+  });
 
 // Map JSON structures to satisfy the TypeScript interfaces precisely
 const workoutIndex: WorkoutLibraryIndex = {
@@ -157,8 +173,14 @@ const supportCategories = [
 const runningRawWorkouts: any[] = runningCategories.flatMap((c: any) => c.workouts || []);
 const supportRawRoutines: any[] = supportCategories.flatMap((c: any) => c.routines || []);
 
-const mappedRunningWorkouts: Workout[] = runningRawWorkouts.map(mapRawWorkout);
-const mappedSupportRoutines: Workout[] = supportRawRoutines.map(mapRawWorkout);
+const mappedRunningWorkouts: Workout[] = [
+  ...legendaryRunningWorkouts.map(mapRawWorkout),
+  ...runningRawWorkouts.map(mapRawWorkout)
+];
+const mappedSupportRoutines: Workout[] = [
+  ...legendarySupportRoutines.map(mapRawWorkout),
+  ...supportRawRoutines.map(mapRawWorkout)
+];
 const allWorkouts: Workout[] = [...mappedRunningWorkouts, ...mappedSupportRoutines];
 
 const libraryMeta = {

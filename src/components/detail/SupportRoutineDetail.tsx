@@ -29,7 +29,8 @@ import {
   Wrench,
   Layers,
   Heart,
-  GitCompare
+  GitCompare,
+  BookOpen
 } from "lucide-react";
 
 interface SupportRoutineDetailProps {
@@ -89,6 +90,12 @@ export function SupportRoutineDetail({
             <p className="text-xs text-slate-400 font-mono uppercase tracking-widest font-black leading-none">
               Support Class: <span className="text-slate-700">{norm.supportCategoryLabel}</span> // Routine Type: <span className="text-slate-700">{norm.routineType}</span>
             </p>
+            {norm.sourceInspiration && (
+              <div className="mt-3 inline-flex items-center gap-1.5 px-3 py-1 bg-slate-100 hover:bg-slate-200 text-slate-600 border border-slate-250 rounded-full text-[10px] font-mono font-bold tracking-wide transition-colors self-start shadow-xs">
+                <BookOpen className="w-3.5 h-3.5 text-blue-600 shrink-0" />
+                <span>COACH/INSPIRATION: <span className="text-blue-700 font-black">{norm.sourceInspiration}</span></span>
+              </div>
+            )}
           </div>
 
           {/* Action Row */}
@@ -153,6 +160,58 @@ export function SupportRoutineDetail({
           <div className="p-4 bg-slate-50/50 rounded-2xl border border-slate-150 leading-relaxed text-sm text-slate-650 italic font-medium font-sans">
             "{norm.summary}"
           </div>
+
+          {norm.physiologicalPurpose && (
+            <div className="p-4 bg-blue-50/35 border border-blue-100 rounded-2xl space-y-1">
+              <span className="text-[10px] font-mono uppercase tracking-wider text-blue-700 font-black block leading-none flex items-center gap-1">
+                <Activity className="w-3.5 h-3.5 text-blue-500" />
+                Physiological Objective & Kinematic Value
+              </span>
+              <p className="text-xs text-slate-600 font-sans font-medium leading-relaxed">
+                {norm.physiologicalPurpose}
+              </p>
+            </div>
+          )}
+
+          {norm.placementRule && (
+            <div className="p-4 bg-emerald-50/25 border border-emerald-100 rounded-2xl space-y-1">
+              <span className="text-[10px] font-mono uppercase tracking-wider text-emerald-700 font-black block leading-none flex items-center gap-1">
+                <ShieldCheck className="w-3.5 h-3.5 text-emerald-500" />
+                Curated Routine Placement Rule
+              </span>
+              <p className="text-xs text-[#065F46] font-sans font-bold leading-normal">
+                {norm.placementRule}
+              </p>
+            </div>
+          )}
+
+          {(norm.bestUsedWhen || norm.avoidWhen) && (
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-3.5 font-sans">
+              {norm.bestUsedWhen && (
+                <div className="p-3.5 bg-purple-50/20 border border-purple-100/80 rounded-2xl space-y-1">
+                  <span className="text-[10px] font-mono uppercase font-black text-purple-700 block leading-none flex items-center gap-1">
+                    <CheckCircle2 className="w-3.5 h-3.5 text-purple-500" />
+                    Best Used When
+                  </span>
+                  <p className="text-xs text-[#581C87] font-sans font-medium leading-normal">
+                    {norm.bestUsedWhen}
+                  </p>
+                </div>
+              )}
+              {norm.avoidWhen && (
+                <div className="p-3.5 bg-rose-50/20 border border-rose-100/80 rounded-2xl space-y-1">
+                  <span className="text-[10px] font-mono uppercase font-black text-rose-700 block leading-none flex items-center gap-1">
+                    <XCircle className="w-3.5 h-3.5 text-rose-500" />
+                    Avoid When Triggers
+                  </span>
+                  <p className="text-xs text-[#991B1B] font-sans font-medium leading-normal">
+                    {norm.avoidWhen}
+                  </p>
+                </div>
+              )}
+            </div>
+          )}
+
           {norm.equipment.length > 0 && (
             <div className="flex flex-wrap gap-1.5 items-center pt-1.5 font-mono">
               <span className="text-[10px] font-mono uppercase font-black text-slate-400 mr-2 flex items-center gap-1.5 leading-none">

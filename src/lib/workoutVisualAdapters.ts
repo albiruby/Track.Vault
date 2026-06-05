@@ -47,6 +47,10 @@ export interface NormalizedRunningWorkout {
   coachingNotes: string[];
   commonMistakes: string[];
   safetyNotes: string[];
+  sourceInspiration?: string;
+  physiologicalPurpose?: string;
+  bestUsedWhen?: string;
+  avoidWhen?: string;
   shareCard?: {
     title?: string;
     primaryDistance?: string;
@@ -82,6 +86,11 @@ export interface NormalizedSupportRoutine {
   coachingNotes: string[];
   commonMistakes: string[];
   safetyNotes: string[];
+  sourceInspiration?: string;
+  physiologicalPurpose?: string;
+  bestUsedWhen?: string;
+  avoidWhen?: string;
+  placementRule?: string;
   shareCard?: {
     title?: string;
     category?: string;
@@ -216,6 +225,10 @@ export function normalizeRunningWorkout(entry: any): NormalizedRunningWorkout {
     coachingNotes: Array.isArray(entry?.coachingNotes) ? entry.coachingNotes : [],
     commonMistakes: Array.isArray(entry?.commonMistakes) ? entry.commonMistakes : [],
     safetyNotes: Array.isArray(entry?.safetyNotes) ? entry.safetyNotes : [],
+    sourceInspiration: entry?.sourceInspiration,
+    physiologicalPurpose: entry?.physiologicalPurpose,
+    bestUsedWhen: entry?.bestUsedWhen,
+    avoidWhen: entry?.avoidWhen,
     shareCard: entry?.shareCard || null,
   };
 }
@@ -286,6 +299,11 @@ export function normalizeSupportRoutine(entry: any): NormalizedSupportRoutine {
     coachingNotes: Array.isArray(entry?.coachingNotes) ? entry.coachingNotes : [],
     commonMistakes: Array.isArray(entry?.commonMistakes) ? entry.commonMistakes : [],
     safetyNotes: Array.isArray(entry?.safetyNotes) ? entry.safetyNotes : [],
+    sourceInspiration: entry?.sourceInspiration,
+    physiologicalPurpose: entry?.physiologicalPurpose,
+    bestUsedWhen: entry?.bestUsedWhen,
+    avoidWhen: entry?.avoidWhen,
+    placementRule: entry?.placementRule,
     shareCard: entry?.shareCard || null,
   };
 }
